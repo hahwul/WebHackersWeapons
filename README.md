@@ -1,5 +1,5 @@
-# WebHackersWeapons
-Web Hacker's Weapons
+# Web Hacker's Weapons
+A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting
 
 ## Category
 - Subdomain Enumeration
