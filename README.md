@@ -9,6 +9,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 
 ## Category
 - [Weapons](#weapons)
+  - [Main Weapon](#main-weapon)
   - [Subdomain Enumeration](#subdomain-enumeration)
   - [Fetch path and host](#fetch-path-and-host)
   - [Port scanner](#port-scanner)
@@ -29,6 +30,9 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 - [Contribute](#contribute-and-contributor)
 
 ## Weapons
+### Main Weapon
+asdf
+
 ### Subdomain Enumeration
 
 | Name | Description | Popularity | Language | Metadata |
