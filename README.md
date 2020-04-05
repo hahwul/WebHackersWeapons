@@ -42,7 +42,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 ### SSRF
 ### CORS Misconfiguration
 ### WebSocket
-### Cloud Security (AWS/Azure/GCP)
+### Cloud Security
 ### Utility for hackers
 ## Contribute and Contributor
 a
