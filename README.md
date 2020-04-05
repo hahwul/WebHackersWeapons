@@ -26,7 +26,6 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
   - [WebSocket](#websocket)
   - [Cloud Security](#cloud-security)
   - [Utility for hackers](#utility-for-hackers)
-  - [Online tools](#online-tools)
 - [Contribute](#contribute-and-contributor)
 
 ## Weapons
@@ -96,7 +95,6 @@ asdf
 ### WebSocket
 ### Cloud Security
 ### Utility for hackers
-### Online tools
 ## Contribute and Contributor
 ### Usage of weapon-md
 ```
