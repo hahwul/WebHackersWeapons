@@ -23,9 +23,9 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
   - [SSRF](#ssrf)
   - [CORS Misconfiguration](#cors-misconfiguration)
   - [WebSocket](#websocket)
-  - [Cloud Security](#cloud-security-awsazuregcp)
+  - [Cloud Security](#cloud-security)
   - [Utility for hackers](#utility-for-hackers)
-- [Contribute](#contribute)
+- [Contribute](#contribute-and-contributor)
 
 ## Weapons
 ### Subdomain Enumeration
