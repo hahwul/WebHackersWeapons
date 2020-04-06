@@ -117,6 +117,6 @@
  },
  "websocket-connection-smuggler": {
   "Data": "| [websocket-connection-smuggler](https://github.com/hahwul/websocket-connection-smuggler) | websocket-connection-smuggler | ![](https://img.shields.io/github/stars/hahwul/websocket-connection-smuggler) | ![](https://img.shields.io/github/languages/top/hahwul/websocket-connection-smuggler) | ![](https://img.shields.io/github/repo-size/hahwul/websocket-connection-smuggler)\u003cbr\u003e![](https://img.shields.io/github/license/hahwul/websocket-connection-smuggler) \u003cbr\u003e ![](https://img.shields.io/github/forks/hahwul/websocket-connection-smuggler) \u003cbr\u003e ![](https://img.shields.io/github/watchers/hahwul/websocket-connection-smuggler) |",
-  "Type": "Web Vulnerability Scanner"
+  "Type": "WebSocket"
  }
 }
