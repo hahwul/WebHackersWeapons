@@ -71,7 +71,9 @@ func main() {
 		if reflect.TypeOf(m[t]).String() == "string" {
 			m[t] = tool
 		} else {
-			m[t] = mergeKeys(tool, m[t].(map[string]interface{}))
+			tool = mergeKeys(tool, m[t].(map[string]interface{}))
+			//fmt.Println(tool)
+			m[t] = tool
 		}
 	}
 	readme := ""
@@ -90,10 +92,11 @@ func main() {
 			if reflect.TypeOf(val).String() != "string" {
 			} else {
 				vd := vv.(map[string]interface{})[val]
-				readme = readme + vd.(string) + "<br>"
+				readme = readme + vd.(string) + "\r\n"
 			}
 		}
 	}
+	fmt.Println(readme)
 	top, err := os.Open("template/head.md")
 	if err != nil {
 		fmt.Println(err)
