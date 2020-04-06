@@ -127,7 +127,7 @@ func main() {
 		fmt.Println("What is type?")
 		_, err = fmt.Scan(&choicetype)
 		fmt.Println(m[choicetype])
-		writeJSON(m[choicetype], name, "| ["+name+"]("+*repourl+") | "+desc+" | ![](https://img.shields.io/github/stars"+u.Path+") | ![](https://img.shields.io/github/languages    /top"+u.Path+") | ![](https://img.shields.io/github/repo-size"+u.Path+")<br>![](https://img.shields.io/github/license"+u.Path+") <br> ![](https://img.shields.io/    github/forks"+u.Path+") <br> ![](https://img.shields.io/github/watchers"+u.Path+") |")
+		writeJSON(m[choicetype], name, "| ["+name+"]("+*repourl+") | "+desc+" | ![](https://img.shields.io/github/stars"+u.Path+") | ![](https://img.shields.io/github/languages/top"+u.Path+") | ![](https://img.shields.io/github/repo-size"+u.Path+")<br>![](https://img.shields.io/github/license"+u.Path+") <br> ![](https://img.shields.io/github/forks"+u.Path+") <br> ![](https://img.shields.io/github/watchers"+u.Path+") |")
 	} else {
 		reader := bufio.NewReader(os.Stdin)
 		fmt.Println("[+] What is name?")
