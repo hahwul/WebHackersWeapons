@@ -11,6 +11,21 @@ import (
 	"strings"
 )
 
+type mmm = map[string]interface{}
+
+func mergeKeys(left, right mmm) mmm {
+	for key, rightVal := range right {
+		if leftVal, present := left[key]; present {
+			//then we don't want to replace it - recurse
+			left[key] = mergeKeys(leftVal.(mmm), rightVal.(mmm))
+		} else {
+			// key not in left so we can just shove it in
+			left[key] = rightVal
+		}
+	}
+	return left
+}
+
 func main() {
 	typeFile, err := os.Open("type.lst")
 	// if we os.Open returns an error then handle it
@@ -52,7 +67,12 @@ func main() {
 		_ = d
 		tool := make(map[string]interface{})
 		tool[k] = d
-		m[t] = tool
+		fmt.Println(reflect.TypeOf(m[t]).String())
+		if reflect.TypeOf(m[t]).String() == "string" {
+			m[t] = tool
+		} else {
+			m[t] = mergeKeys(tool, m[t].(map[string]interface{}))
+		}
 	}
 	readme := ""
 	for k, vv := range m {
