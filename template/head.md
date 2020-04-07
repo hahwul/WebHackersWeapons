@@ -7,4 +7,8 @@
 </h1>
 A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting
 
+## Table of Contents
+- [Weapons](#weapons)
+- [Contribute](#contribute-and-contributor) 
+
 ## Weapons
