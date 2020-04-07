@@ -4,6 +4,7 @@
   <br>
   Web Hacker's Weapons
   <br>
+  <a href="https://twitter.com/intent/follow?screen_name=hahwul"><img src="https://img.shields.io/twitter/follow/hahwul?style=flat-square"></a> <img src="https://img.shields.io/github/languages/top/hahwul/WebHackersWeapons?style=flat-square"> <img src="https://img.shields.io/github/last-commit/hahwul/WebHackersWeapons?style=flat-square"> 
 </h1>
 A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting
 
