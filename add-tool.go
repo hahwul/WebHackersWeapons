@@ -132,7 +132,7 @@ func main() {
 		fmt.Println("[+] What is method(e.g XSS, WVS, SSL, ETC..)?")
 		method, _ := reader1.ReadString('\n')
 		method = strings.TrimRight(method, "\r\n")
-		writeJSON(m[choicetype], name, method, "| "+m[choicetype]+" | ["+name+"]("+*repourl+") | "+method+" | "+desc+" | ![](https://img.shields.io/github/stars"+u.Path+") | ![](https://img.shields.io/github/languages/top"+u.Path+") |")
+		writeJSON(m[choicetype], name, method, "| "+m[choicetype]+"/"+method+" | ["+name+"]("+*repourl+") | "+desc+" | ![](https://img.shields.io/github/stars"+u.Path+") | ![](https://img.shields.io/github/languages/top"+u.Path+") |")
 	} else {
 		reader := bufio.NewReader(os.Stdin)
 		fmt.Println("[+] What is name?")
@@ -170,7 +170,7 @@ func main() {
 		fmt.Println("[+] What is method(e.g XSS, WVS, SSL, ETC..)?")
 		method, _ := reader1.ReadString('\n')
 		method = strings.TrimRight(method, "\r\n")
-		writeJSON(m[choicetype], name, method, "| "+m[choicetype]+"  | ["+name+"]("+*repourl+") | "+method+" | "+udesc+"|it's not|github:dog:|")
+		writeJSON(m[choicetype], name, method, "| "+m[choicetype]+"/"+method+"  | ["+name+"]("+*repourl+") |  "+udesc+"|it's not|github:dog:|")
 	}
 
 	if *first {
