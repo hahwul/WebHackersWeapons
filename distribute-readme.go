@@ -64,7 +64,9 @@ func main() {
 		myMap := v.(map[string]interface{})
 		t := myMap["Type"].(string)
 		d := myMap["Data"].(string)
+		mt := myMap["Method"].(string)
 		_ = d
+		_ = mt
 		tool := make(map[string]interface{})
 		tool[k] = d
 		fmt.Println(reflect.TypeOf(m[t]).String())
@@ -76,9 +78,8 @@ func main() {
 			m[t] = tool
 		}
 	}
-	readme := ""
-	for k, vv := range m {
-		readme = readme + "\r\n## " + k + "\r\n\r\n| Name | Description | Popularity | Language | Metadata |\r\n| ---------- | :---------- | :----------: | :----------: | :----------: |\r\n"
+	readme := "| Type | Name | Method | Description | Popularity | Language |\r\n| ---------- | :---------- | :----------: | :----------: | :----------: | \r\n"
+	for _, vv := range m {
 		keys := []string{}
 		_ = keys
 		if vv != nil && reflect.TypeOf(vv).String() != "string" {
