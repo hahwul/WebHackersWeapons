@@ -122,5 +122,24 @@ func main() {
 	foot_data, _ := ioutil.ReadAll(foot)
 	readme = string(head_data) + readme + string(foot_data)
 	fmt.Println("======================result====================")
-	fmt.Println(readme)
+	//fmt.Println(readme)
+
+	file, err := os.OpenFile(
+		"README.md",
+		os.O_CREATE|os.O_RDWR|os.O_TRUNC,
+
+		os.FileMode(0644))
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	defer file.Close()
+	_, err = file.Write([]byte(readme))
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	fmt.Println("[+] Patched README.md file")
+	fmt.Println("[+] Please check README file and git push")
+	fmt.Println("[ copy/paste this ] git add data.json README.md ; git commit -m 'distribute readme'; git push -u origin master")
 }
