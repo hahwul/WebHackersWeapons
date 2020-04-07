@@ -21,7 +21,7 @@ template
 */
 
 type Tools struct {
-	Type, Data string
+	Type, Data, Method string
 }
 
 func isTitleElement(n *html.Node) bool {
@@ -52,7 +52,7 @@ func GetHtmlTitle(r io.Reader) (string, bool) {
 	return traverse(doc)
 }
 
-func writeJSON(category string, name string, data string) {
+func writeJSON(category string, name string, method string, data string) {
 	jsonFile, err := os.Open("data.json")
 	// if we os.Open returns an error then handle it
 	if err != nil {
@@ -65,8 +65,9 @@ func writeJSON(category string, name string, data string) {
 	var result map[string]interface{}
 	json.Unmarshal([]byte(byteValue), &result)
 	tool := Tools{
-		Type: category,
-		Data: data,
+		Type:   category,
+		Data:   data,
+		Method: method,
 	}
 	result[name] = tool
 	file, _ := json.MarshalIndent(result, "", " ")
@@ -124,10 +125,14 @@ func main() {
 			index = index + 1
 		}
 		var choicetype int
-		fmt.Println("What is type?")
+		fmt.Println("[+] What is type?")
 		_, err = fmt.Scan(&choicetype)
 		fmt.Println(m[choicetype])
-		writeJSON(m[choicetype], name, "| ["+name+"]("+*repourl+") | "+desc+" | ![](https://img.shields.io/github/stars"+u.Path+") | ![](https://img.shields.io/github/languages/top"+u.Path+") | ![](https://img.shields.io/github/repo-size"+u.Path+")<br>![](https://img.shields.io/github/license"+u.Path+") <br> ![](https://img.shields.io/github/forks"+u.Path+") <br> ![](https://img.shields.io/github/watchers"+u.Path+") |")
+		reader1 := bufio.NewReader(os.Stdin)
+		fmt.Println("[+] What is method(e.g XSS, WVS, SSL, ETC..)?")
+		method, _ := reader1.ReadString('\n')
+		method = strings.TrimRight(method, "\r\n")
+		writeJSON(m[choicetype], name, method, "| "+m[choicetype]+" | ["+name+"]("+*repourl+") | "+method+" | "+desc+" | ![](https://img.shields.io/github/stars"+u.Path+") | ![](https://img.shields.io/github/languages/top"+u.Path+") |")
 	} else {
 		reader := bufio.NewReader(os.Stdin)
 		fmt.Println("[+] What is name?")
@@ -161,11 +166,15 @@ func main() {
 		fmt.Println("What is type?")
 		_, err = fmt.Scan(&choicetype)
 		fmt.Println(m[choicetype])
-		writeJSON(m[choicetype], name, "| ["+name+"]("+*repourl+") | "+udesc+"|it's | not | github:dog:|")
+		reader1 := bufio.NewReader(os.Stdin)
+		fmt.Println("[+] What is method(e.g XSS, WVS, SSL, ETC..)?")
+		method, _ := reader1.ReadString('\n')
+		method = strings.TrimRight(method, "\r\n")
+		writeJSON(m[choicetype], name, method, "| "+m[choicetype]+"  | ["+name+"]("+*repourl+") | "+method+" | "+udesc+"|it's not|github:dog:|")
 	}
 
 	if *first {
-		fmt.Println("| Name | Description | Popularity | Language | Metadata |")
+		fmt.Println("| Type | Name | Description | Popularity | Language |")
 		fmt.Println("| ---------- | :---------- | :----------: | :----------: | :----------: |")
 	}
 	//fmt.Println("| [" + name + "](" + *repourl + ") | " + desc + " | ![](https://img.shields.io/github/stars" + u.Path + ") | ![](https://img.shields.io/github/languages/top" + u.Path + ") | ![](https://img.shields.io/github/repo-size" + u.Path + ")<br>![](https://img.shields.io/github/license" + u.Path + ") <br> ![](https://img.shields.io/github/forks" + u.Path + ") <br> ![](https://img.shields.io/github/watchers" + u.Path + ") |")
