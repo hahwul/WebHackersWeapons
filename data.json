@@ -9,6 +9,11 @@
   "Method": "HTTP",
   "Type": "Discovery"
  },
+ "BurpSuite": {
+  "Data": "| Army-Knife/BURP  | [BurpSuite](https://portswigger.net/burp) |  It's Awesome|it's not|github:dog:|",
+  "Method": "BURP",
+  "Type": "Army-Knife"
+ },
  "Corsy": {
   "Data": "| Scanner/CORS | [Corsy](https://github.com/s0md3v/Corsy) | CORS Misconfiguration Scanner | ![](https://img.shields.io/github/stars/s0md3v/Corsy) | ![](https://img.shields.io/github/languages/top/s0md3v/Corsy) |",
   "Method": "CORS",
@@ -75,9 +80,9 @@
   "Type": "Discovery"
  },
  "gron": {
-  "Type": "Utility",
   "Data": "| Utility/JSON | [gron](https://github.com/tomnomnom/gron) | Make JSON greppable! | ![](https://img.shields.io/github/stars/tomnomnom/gron) | ![](https://img.shields.io/github/languages/top/tomnomnom/gron) |",
-  "Method": "JSON"
+  "Method": "JSON",
+  "Type": "Utility"
  },
  "httprobe": {
   "Data": "| Fetch/TOM | [httprobe](https://github.com/tomnomnom/httprobe) | Take a list of domains and probe for working HTTP and HTTPS servers | ![](https://img.shields.io/github/stars/tomnomnom/httprobe) | ![](https://img.shields.io/github/languages/top/tomnomnom/httprobe) |",
@@ -143,5 +148,10 @@
   "Data": "| Scanner/XSS | [xspear](https://github.com/hahwul/xspear) | Powerfull XSS Scanning and Parameter analysis tool\u0026gem | ![](https://img.shields.io/github/stars/hahwul/xspear) | ![](https://img.shields.io/github/languages/top/hahwul/xspear) |",
   "Method": "XSS",
   "Type": "Scanner"
+ },
+ "zaproxy": {
+  "Type": "Army-Knife",
+  "Data": "| Army-Knife/ZAP | [zaproxy](https://github.com/zaproxy/zaproxy) | The OWASP ZAP core project | ![](https://img.shields.io/github/stars/zaproxy/zaproxy) | ![](https://img.shields.io/github/languages/top/zaproxy/zaproxy) |",
+  "Method": "ZAP"
  }
 }
