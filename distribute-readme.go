@@ -44,7 +44,7 @@ func main() {
 			break
 		}
 		strings.TrimRight(string(line), "\r\n")
-		m[string(line)] = ""
+		//m[string(line)] = ""
 		index = index + 1
 	}
 	fmt.Println(m)
@@ -69,17 +69,27 @@ func main() {
 		_ = mt
 		tool := make(map[string]interface{})
 		tool[k] = d
-		fmt.Println(reflect.TypeOf(m[t]).String())
-		if reflect.TypeOf(m[t]).String() == "string" {
-			m[t] = tool
+		fmt.Println(m[t+"/"+mt])
+		//fmt.Println(reflect.TypeOf(m[t+"/"+mt]).String())
+		//if reflect.TypeOf(m[t+"/"+mt]).String() == "string" {
+		if m[t+"/"+mt] == nil {
+			m[t+"/"+mt] = tool
 		} else {
-			tool = mergeKeys(tool, m[t].(map[string]interface{}))
+			tool = mergeKeys(tool, m[t+"/"+mt].(map[string]interface{}))
 			//fmt.Println(tool)
-			m[t] = tool
+			m[t+"/"+mt] = tool
 		}
 	}
-	readme := "| Type | Name | Method | Description | Popularity | Language |\r\n| ---------- | :---------- | :----------: | :----------: | :----------: | \r\n"
-	for _, vv := range m {
+	readme := "| Type | Name | Description | Popularity | Language |\r\n| ---------- | :---------- | :----------: | :----------: | :----------: | \r\n"
+
+	keys := []string{}
+	for key := range m {
+		keys = append(keys, key)
+	}
+	sort.Strings(keys)
+
+	for _, dat := range keys {
+		vv := m[dat]
 		keys := []string{}
 		_ = keys
 		if vv != nil && reflect.TypeOf(vv).String() != "string" {
