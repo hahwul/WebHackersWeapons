@@ -75,7 +75,7 @@ func writeJSON(category string, name string, method string, data string) {
 }
 
 func main() {
-	repourl := flag.String("url", "", "github / gitlab / bitbucket url")
+	repourl := flag.String("url", "", "any url")
 	first := flag.Bool("isFirst", false, "if you add new type, it use")
 	flag.Parse()
 	if flag.NFlag() == 0 {
