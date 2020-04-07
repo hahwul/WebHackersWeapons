@@ -1,122 +1,147 @@
 {
  "Amass": {
-  "Data": "| [Amass](https://github.com/OWASP/Amass) | In-depth Attack Surface Mapping and Asset Discovery | ![](https://img.shields.io/github/stars/OWASP/Amass) | ![](https://img.shields.io/github/languages/top/OWASP/Amass) | ![](https://img.shields.io/github/repo-size/OWASP/Amass)\u003cbr\u003e![](https://img.shields.io/github/license/OWASP/Amass) \u003cbr\u003e ![](https://img.shields.io/github/forks/OWASP/Amass) \u003cbr\u003e ![](https://img.shields.io/github/watchers/OWASP/Amass) |",
-  "Type": "Subdomain Enumeration"
+  "Data": "| Discovery/DOMAIN | [Amass](https://github.com/OWASP/Amass) | In-depth Attack Surface Mapping and Asset Discovery | ![](https://img.shields.io/github/stars/OWASP/Amass) | ![](https://img.shields.io/github/languages/top/OWASP/Amass) |",
+  "Method": "DOMAIN",
+  "Type": "Discovery"
  },
  "Arjun": {
-  "Data": "| [Arjun](https://github.com/s0md3v/Arjun) | HTTP parameter discovery suite. | ![](https://img.shields.io/github/stars/s0md3v/Arjun) | ![](https://img.shields.io/github/languages/top/s0md3v/Arjun) | ![](https://img.shields.io/github/repo-size/s0md3v/Arjun)\u003cbr\u003e![](https://img.shields.io/github/license/s0md3v/Arjun) \u003cbr\u003e ![](https://img.shields.io/github/forks/s0md3v/Arjun) \u003cbr\u003e ![](https://img.shields.io/github/watchers/s0md3v/Arjun) |",
-  "Type": "Web Discovery"
+  "Data": "| Discovery/HTTP | [Arjun](https://github.com/s0md3v/Arjun) | HTTP parameter discovery suite. | ![](https://img.shields.io/github/stars/s0md3v/Arjun) | ![](https://img.shields.io/github/languages/top/s0md3v/Arjun) |",
+  "Method": "HTTP",
+  "Type": "Discovery"
  },
  "Corsy": {
-  "Data": "| [Corsy](https://github.com/s0md3v/Corsy) | CORS Misconfiguration Scanner | ![](https://img.shields.io/github/stars/s0md3v/Corsy) | ![](https://img.shields.io/github/languages/top/s0md3v/Corsy) | ![](https://img.shields.io/github/repo-size/s0md3v/Corsy)\u003cbr\u003e![](https://img.shields.io/github/license/s0md3v/Corsy) \u003cbr\u003e ![](https://img.shields.io/github/forks/s0md3v/Corsy) \u003cbr\u003e ![](https://img.shields.io/github/watchers/s0md3v/Corsy) |",
-  "Type": "CORS Misconfiguration"
+  "Data": "| Scanner/CORS | [Corsy](https://github.com/s0md3v/Corsy) | CORS Misconfiguration Scanner | ![](https://img.shields.io/github/stars/s0md3v/Corsy) | ![](https://img.shields.io/github/languages/top/s0md3v/Corsy) |",
+  "Method": "CORS",
+  "Type": "Scanner"
  },
  "NoSQLMap": {
-  "Data": "| [NoSQLMap](https://github.com/codingo/NoSQLMap) | Automated NoSQL database enumeration and web application exploitation tool. | ![](https://img.shields.io/github/stars/codingo/NoSQLMap) | ![](https://img.shields.io/github/languages/top/codingo/NoSQLMap) | ![](https://img.shields.io/github/repo-size/codingo/NoSQLMap)\u003cbr\u003e![](https://img.shields.io/github/license/codingo/NoSQLMap) \u003cbr\u003e ![](https://img.shields.io/github/forks/codingo/NoSQLMap) \u003cbr\u003e ![](https://img.shields.io/github/watchers/codingo/NoSQLMap) |",
-  "Type": "NoSQL Injection"
+  "Data": "| Scanner/NOSQL | [NoSQLMap](https://github.com/codingo/NoSQLMap) | Automated NoSQL database enumeration and web application exploitation tool. | ![](https://img.shields.io/github/stars/codingo/NoSQLMap) | ![](https://img.shields.io/github/languages/top/codingo/NoSQLMap) |",
+  "Method": "NOSQL",
+  "Type": "Scanner"
  },
  "Photon": {
-  "Data": "| [Photon](https://github.com/s0md3v/Photon) | Incredibly fast crawler designed for OSINT. | ![](https://img.shields.io/github/stars/s0md3v/Photon) | ![](https://img.shields.io/github/languages/top/s0md3v/Photon) | ![](https://img.shields.io/github/repo-size/s0md3v/Photon)\u003cbr\u003e![](https://img.shields.io/github/license/s0md3v/Photon) \u003cbr\u003e ![](https://img.shields.io/github/forks/s0md3v/Photon) \u003cbr\u003e ![](https://img.shields.io/github/watchers/s0md3v/Photon) |",
-  "Type": "Web Discovery"
- },
- "ReconDog": {
-  "Type": "Web Discovery",
-  "Data": "| [ReconDog](https://github.com/s0md3v/ReconDog) | Reconnaissance Swiss Army Knife | ![](https://img.shields.io/github/stars/s0md3v/ReconDog) | ![](https://img.shields.io/github/languages/top/s0md3v/ReconDog) | ![](https://img.shields.io/github/repo-size/s0md3v/ReconDog)\u003cbr\u003e![](https://img.shields.io/github/license/s0md3v/ReconDog) \u003cbr\u003e ![](https://img.shields.io/github/forks/s0md3v/ReconDog) \u003cbr\u003e ![](https://img.shields.io/github/watchers/s0md3v/ReconDog) |"
+  "Data": "| Discovery/CRAWL | [Photon](https://github.com/s0md3v/Photon) | Incredibly fast crawler designed for OSINT. | ![](https://img.shields.io/github/stars/s0md3v/Photon) | ![](https://img.shields.io/github/languages/top/s0md3v/Photon) |",
+  "Method": "CRAWL",
+  "Type": "Discovery"
  },
  "Silver": {
-  "Data": "| [Silver](https://github.com/s0md3v/Silver) | Mass scan IPs for vulnerable services | ![](https://img.shields.io/github/stars/s0md3v/Silver) | ![](https://img.shields.io/github/languages/top/s0md3v/Silver) | ![](https://img.shields.io/github/repo-size/s0md3v/Silver)\u003cbr\u003e![](https://img.shields.io/github/license/s0md3v/Silver) \u003cbr\u003e ![](https://img.shields.io/github/forks/s0md3v/Silver) \u003cbr\u003e ![](https://img.shields.io/github/watchers/s0md3v/Silver) |",
-  "Type": "Web Vulnerability Scanner"
+  "Data": "| Discovery/VULN | [Silver](https://github.com/s0md3v/Silver) | Mass scan IPs for vulnerable services | ![](https://img.shields.io/github/stars/s0md3v/Silver) | ![](https://img.shields.io/github/languages/top/s0md3v/Silver) |",
+  "Method": "VULN",
+  "Type": "Discovery"
  },
  "Striker": {
-  "Data": "| [Striker](https://github.com/s0md3v/Striker) | Striker is an offensive information and vulnerability scanner. | ![](https://img.shields.io/github/stars/s0md3v/Striker) | ![](https://img.shields.io/github/languages/top/s0md3v/Striker) | ![](https://img.shields.io/github/repo-size/s0md3v/Striker)\u003cbr\u003e![](https://img.shields.io/github/license/s0md3v/Striker) \u003cbr\u003e ![](https://img.shields.io/github/forks/s0md3v/Striker) \u003cbr\u003e ![](https://img.shields.io/github/watchers/s0md3v/Striker) |",
-  "Type": "Web Vulnerability Scanner"
+  "Data": "| Scanner/WVS | [Striker](https://github.com/s0md3v/Striker) | Striker is an offensive information and vulnerability scanner. | ![](https://img.shields.io/github/stars/s0md3v/Striker) | ![](https://img.shields.io/github/languages/top/s0md3v/Striker) |",
+  "Method": "WVS",
+  "Type": "Scanner"
  },
  "XSStrike": {
-  "Data": "| [XSStrike](https://github.com/s0md3v/XSStrike) | Most advanced XSS scanner. | ![](https://img.shields.io/github/stars/s0md3v/XSStrike) | ![](https://img.shields.io/github/languages/top/s0md3v/XSStrike) | ![](https://img.shields.io/github/repo-size/s0md3v/XSStrike)\u003cbr\u003e![](https://img.shields.io/github/license/s0md3v/XSStrike) \u003cbr\u003e ![](https://img.shields.io/github/forks/s0md3v/XSStrike) \u003cbr\u003e ![](https://img.shields.io/github/watchers/s0md3v/XSStrike) |",
-  "Type": "XSS"
- },
- "Xspear": {
-  "Data": "| [Xspear](https://github.com/hahwul/Xspear) | Powerfull XSS Scanning and Parameter analysis tool\u0026gem | ![](https://img.shields.io/github/stars/hahwul/Xspear) | ![](https://img.shields.io/github/languages/top/hahwul/Xspear) | ![](https://img.shields.io/github/repo-size/hahwul/Xspear)\u003cbr\u003e![](https://img.shields.io/github/license/hahwul/Xspear) \u003cbr\u003e ![](https://img.shields.io/github/forks/hahwul/Xspear) \u003cbr\u003e ![](https://img.shields.io/github/watchers/hahwul/Xspear) |",
-  "Type": "XSS"
+  "Data": "| Scanner/XSS | [XSStrike](https://github.com/s0md3v/XSStrike) | Most advanced XSS scanner. | ![](https://img.shields.io/github/stars/s0md3v/XSStrike) | ![](https://img.shields.io/github/languages/top/s0md3v/XSStrike) |",
+  "Method": "XSS",
+  "Type": "Scanner"
  },
  "a2sv": {
-  "Data": "| [a2sv](https://github.com/hahwul/a2sv) | Auto Scanning to SSL Vulnerability | ![](https://img.shields.io/github/stars/hahwul/a2sv) | ![](https://img.shields.io/github/languages/top/hahwul/a2sv) | ![](https://img.shields.io/github/repo-size/hahwul/a2sv)\u003cbr\u003e![](https://img.shields.io/github/license/hahwul/a2sv) \u003cbr\u003e ![](https://img.shields.io/github/forks/hahwul/a2sv) \u003cbr\u003e ![](https://img.shields.io/github/watchers/hahwul/a2sv) |",
-  "Type": "Web Vulnerability Scanner"
+  "Data": "| Scanner/SSL | [a2sv](https://github.com/hahwul/a2sv) | Auto Scanning to SSL Vulnerability | ![](https://img.shields.io/github/stars/hahwul/a2sv) | ![](https://img.shields.io/github/languages/top/hahwul/a2sv) |",
+  "Method": "SSL",
+  "Type": "Scanner"
  },
  "assetfinder": {
-  "Data": "| [assetfinder](https://github.com/tomnomnom/assetfinder) | Find domains and subdomains related to a given domain | ![](https://img.shields.io/github/stars/tomnomnom/assetfinder) | ![](https://img.shields.io/github/languages/top/tomnomnom/assetfinder) | ![](https://img.shields.io/github/repo-size/tomnomnom/assetfinder)\u003cbr\u003e![](https://img.shields.io/github/license/tomnomnom/assetfinder) \u003cbr\u003e ![](https://img.shields.io/github/forks/tomnomnom/assetfinder) \u003cbr\u003e ![](https://img.shields.io/github/watchers/tomnomnom/assetfinder) |",
-  "Type": "Subdomain Enumeration"
+  "Data": "| Discovery/DOMAIN | [assetfinder](https://github.com/tomnomnom/assetfinder) | Find domains and subdomains related to a given domain | ![](https://img.shields.io/github/stars/tomnomnom/assetfinder) | ![](https://img.shields.io/github/languages/top/tomnomnom/assetfinder) |",
+  "Method": "DOMAIN",
+  "Type": "Discovery"
  },
  "dnsprobe": {
-  "Data": "| [dnsprobe](https://github.com/projectdiscovery/dnsprobe) | DNSProb (beta) is a tool built on top of retryabledns that allows you to perform multiple dns queries of your choice with a list of user supplied resolvers. | ![](https://img.shields.io/github/stars/projectdiscovery/dnsprobe) | ![](https://img.shields.io/github/languages/top/projectdiscovery/dnsprobe) | ![](https://img.shields.io/github/repo-size/projectdiscovery/dnsprobe)\u003cbr\u003e![](https://img.shields.io/github/license/projectdiscovery/dnsprobe) \u003cbr\u003e ![](https://img.shields.io/github/forks/projectdiscovery/dnsprobe) \u003cbr\u003e ![](https://img.shields.io/github/watchers/projectdiscovery/dnsprobe) |",
-  "Type": "Web Discovery"
+  "Data": "| Discovery/DNS | [dnsprobe](https://github.com/projectdiscovery/dnsprobe) | DNSProb (beta) is a tool built on top of retryabledns that allows you to perform multiple dns queries of your choice with a list of user supplied resolvers. | ![](https://img.shields.io/github/stars/projectdiscovery/dnsprobe) | ![](https://img.shields.io/github/languages/top/projectdiscovery/dnsprobe) |",
+  "Method": "DNS",
+  "Type": "Discovery"
  },
  "findomain": {
-  "Data": "| [findomain](https://github.com/Edu4rdSHL/findomain) | The fastest and cross-platform subdomain enumerator, do not waste your time. | ![](https://img.shields.io/github/stars/Edu4rdSHL/findomain) | ![](https://img.shields.io/github/languages/top/Edu4rdSHL/findomain) | ![](https://img.shields.io/github/repo-size/Edu4rdSHL/findomain)\u003cbr\u003e![](https://img.shields.io/github/license/Edu4rdSHL/findomain) \u003cbr\u003e ![](https://img.shields.io/github/forks/Edu4rdSHL/findomain) \u003cbr\u003e ![](https://img.shields.io/github/watchers/Edu4rdSHL/findomain) |",
-  "Type": "Subdomain Enumeration"
+  "Data": "| Discovery/DOMAIN | [findomain](https://github.com/Edu4rdSHL/findomain) | The fastest and cross-platform subdomain enumerator, do not waste your time. | ![](https://img.shields.io/github/stars/Edu4rdSHL/findomain) | ![](https://img.shields.io/github/languages/top/Edu4rdSHL/findomain) |",
+  "Method": "DOMAIN",
+  "Type": "Discovery"
  },
  "ftc": {
-  "Data": "| [ftc](https://github.com/hahwul/ftc) | simple copy to file to clipboard | ![](https://img.shields.io/github/stars/hahwul/ftc) | ![](https://img.shields.io/github/languages/top/hahwul/ftc) | ![](https://img.shields.io/github/repo-size/hahwul/ftc)\u003cbr\u003e![](https://img.shields.io/github/license/hahwul/ftc) \u003cbr\u003e ![](https://img.shields.io/github/forks/hahwul/ftc) \u003cbr\u003e ![](https://img.shields.io/github/watchers/hahwul/ftc) |",
-  "Type": "Utility for hackers"
+  "Data": "| Utility/CLIP | [ftc](https://github.com/hahwul/ftc) | simple copy to file to clipboard | ![](https://img.shields.io/github/stars/hahwul/ftc) | ![](https://img.shields.io/github/languages/top/hahwul/ftc) |",
+  "Method": "CLIP",
+  "Type": "Utility"
  },
  "gf": {
-  "Data": "| [gf](https://github.com/tomnomnom/gf) | A wrapper around grep, to help you grep for things | ![](https://img.shields.io/github/stars/tomnomnom/gf) | ![](https://img.shields.io/github/languages/top/tomnomnom/gf) | ![](https://img.shields.io/github/repo-size/tomnomnom/gf)\u003cbr\u003e![](https://img.shields.io/github/license/tomnomnom/gf) \u003cbr\u003e ![](https://img.shields.io/github/forks/tomnomnom/gf) \u003cbr\u003e ![](https://img.shields.io/github/watchers/tomnomnom/gf) |",
-  "Type": "Utility for hackers"
+  "Data": "| Utility/GREP | [gf](https://github.com/tomnomnom/gf) | A wrapper around grep, to help you grep for things | ![](https://img.shields.io/github/stars/tomnomnom/gf) | ![](https://img.shields.io/github/languages/top/tomnomnom/gf) |",
+  "Method": "GREP",
+  "Type": "Utility"
  },
  "gospider": {
-  "Data": "| [gospider](https://github.com/jaeles-project/gospider) | Gospider - Fast web spider written in Go | ![](https://img.shields.io/github/stars/jaeles-project/gospider) | ![](https://img.shields.io/github/languages/top/jaeles-project/gospider) | ![](https://img.shields.io/github/repo-size/jaeles-project/gospider)\u003cbr\u003e![](https://img.shields.io/github/license/jaeles-project/gospider) \u003cbr\u003e ![](https://img.shields.io/github/forks/jaeles-project/gospider) \u003cbr\u003e ![](https://img.shields.io/github/watchers/jaeles-project/gospider) |",
-  "Type": "Web Discovery"
+  "Data": "| Discovery/CRAWL | [gospider](https://github.com/jaeles-project/gospider) | Gospider - Fast web spider written in Go | ![](https://img.shields.io/github/stars/jaeles-project/gospider) | ![](https://img.shields.io/github/languages/top/jaeles-project/gospider) |",
+  "Method": "CRAWL",
+  "Type": "Discovery"
  },
  "gron": {
-  "Data": "| [gron](https://github.com/tomnomnom/gron) | Make JSON greppable! | ![](https://img.shields.io/github/stars/tomnomnom/gron) | ![](https://img.shields.io/github/languages/top/tomnomnom/gron) | ![](https://img.shields.io/github/repo-size/tomnomnom/gron)\u003cbr\u003e![](https://img.shields.io/github/license/tomnomnom/gron) \u003cbr\u003e ![](https://img.shields.io/github/forks/tomnomnom/gron) \u003cbr\u003e ![](https://img.shields.io/github/watchers/tomnomnom/gron) |",
-  "Type": "Utility for hackers"
+  "Type": "Utility",
+  "Data": "| Utility/JSON | [gron](https://github.com/tomnomnom/gron) | Make JSON greppable! | ![](https://img.shields.io/github/stars/tomnomnom/gron) | ![](https://img.shields.io/github/languages/top/tomnomnom/gron) |",
+  "Method": "JSON"
  },
  "httprobe": {
-  "Data": "| [httprobe](https://github.com/tomnomnom/httprobe) | Take a list of domains and probe for working HTTP and HTTPS servers | ![](https://img.shields.io/github/stars/tomnomnom/httprobe) | ![](https://img.shields.io/github/languages/top/tomnomnom/httprobe) | ![](https://img.shields.io/github/repo-size/tomnomnom/httprobe)\u003cbr\u003e![](https://img.shields.io/github/license/tomnomnom/httprobe) \u003cbr\u003e ![](https://img.shields.io/github/forks/tomnomnom/httprobe) \u003cbr\u003e ![](https://img.shields.io/github/watchers/tomnomnom/httprobe) |",
-  "Type": "Fetch path and host"
+  "Data": "| Fetch/TOM | [httprobe](https://github.com/tomnomnom/httprobe) | Take a list of domains and probe for working HTTP and HTTPS servers | ![](https://img.shields.io/github/stars/tomnomnom/httprobe) | ![](https://img.shields.io/github/languages/top/tomnomnom/httprobe) |",
+  "Method": "TOM",
+  "Type": "Fetch"
  },
  "masscan": {
-  "Data": "| [masscan](https://github.com/robertdavidgraham/masscan) | TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. | ![](https://img.shields.io/github/stars/robertdavidgraham/masscan) | ![](https://img.shields.io/github/languages/top/robertdavidgraham/masscan) | ![](https://img.shields.io/github/repo-size/robertdavidgraham/masscan)\u003cbr\u003e![](https://img.shields.io/github/license/robertdavidgraham/masscan) \u003cbr\u003e ![](https://img.shields.io/github/forks/robertdavidgraham/masscan) \u003cbr\u003e ![](https://img.shields.io/github/watchers/robertdavidgraham/masscan) |",
-  "Type": "Port scanner"
+  "Data": "| Discovery/PORT | [masscan](https://github.com/robertdavidgraham/masscan) | TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. | ![](https://img.shields.io/github/stars/robertdavidgraham/masscan) | ![](https://img.shields.io/github/languages/top/robertdavidgraham/masscan) |",
+  "Method": "PORT",
+  "Type": "Discovery"
  },
  "meg": {
-  "Data": "| [meg](https://github.com/tomnomnom/meg) | Fetch many paths for many hosts - without killing the hosts | ![](https://img.shields.io/github/stars/tomnomnom/meg) | ![](https://img.shields.io/github/languages/top/tomnomnom/meg) | ![](https://img.shields.io/github/repo-size/tomnomnom/meg)\u003cbr\u003e![](https://img.shields.io/github/license/tomnomnom/meg) \u003cbr\u003e ![](https://img.shields.io/github/forks/tomnomnom/meg) \u003cbr\u003e ![](https://img.shields.io/github/watchers/tomnomnom/meg) |",
-  "Type": "Fetch path and host"
+  "Data": "| Fetch/TOM | [meg](https://github.com/tomnomnom/meg) | Fetch many paths for many hosts - without killing the hosts | ![](https://img.shields.io/github/stars/tomnomnom/meg) | ![](https://img.shields.io/github/languages/top/tomnomnom/meg) |",
+  "Method": "TOM",
+  "Type": "Fetch"
  },
  "naabu": {
-  "Data": "| [naabu](https://github.com/projectdiscovery/naabu) | A fast port scanner written in go with focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests | ![](https://img.shields.io/github/stars/projectdiscovery/naabu) | ![](https://img.shields.io/github/languages/top/projectdiscovery/naabu) | ![](https://img.shields.io/github/repo-size/projectdiscovery/naabu)\u003cbr\u003e![](https://img.shields.io/github/license/projectdiscovery/naabu) \u003cbr\u003e ![](https://img.shields.io/github/forks/projectdiscovery/naabu) \u003cbr\u003e ![](https://img.shields.io/github/watchers/projectdiscovery/naabu) |",
-  "Type": "Port scanner"
+  "Data": "| Discovery/PORT | [naabu](https://github.com/projectdiscovery/naabu) | A fast port scanner written in go with focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests | ![](https://img.shields.io/github/stars/projectdiscovery/naabu) | ![](https://img.shields.io/github/languages/top/projectdiscovery/naabu) |",
+  "Method": "PORT",
+  "Type": "Discovery"
  },
  "nmap": {
-  "Data": "| [nmap](https://github.com/nmap/nmap) | Nmap - the Network Mapper. Github mirror of official SVN repository. | ![](https://img.shields.io/github/stars/nmap/nmap) | ![](https://img.shields.io/github/languages/top/nmap/nmap) | ![](https://img.shields.io/github/repo-size/nmap/nmap)\u003cbr\u003e![](https://img.shields.io/github/license/nmap/nmap) \u003cbr\u003e ![](https://img.shields.io/github/forks/nmap/nmap) \u003cbr\u003e ![](https://img.shields.io/github/watchers/nmap/nmap) |",
-  "Type": "Port scanner"
+  "Data": "| Discovery/PORT | [nmap](https://github.com/nmap/nmap) | Nmap - the Network Mapper. Github mirror of official SVN repository. | ![](https://img.shields.io/github/stars/nmap/nmap) | ![](https://img.shields.io/github/languages/top/nmap/nmap) |",
+  "Method": "PORT",
+  "Type": "Discovery"
  },
  "s3reverse": {
-  "Data": "| [s3reverse](https://github.com/hahwul/s3reverse) | The format of various s3 buckets is convert in one format. for bugbounty and security testing. | ![](https://img.shields.io/github/stars/hahwul/s3reverse) | ![](https://img.shields.io/github/languages/top/hahwul/s3reverse) | ![](https://img.shields.io/github/repo-size/hahwul/s3reverse)\u003cbr\u003e![](https://img.shields.io/github/license/hahwul/s3reverse) \u003cbr\u003e ![](https://img.shields.io/github/forks/hahwul/s3reverse) \u003cbr\u003e ![](https://img.shields.io/github/watchers/hahwul/s3reverse) |",
-  "Type": "Cloud Security"
+  "Data": "| Utility/S3 | [s3reverse](https://github.com/hahwul/s3reverse) | The format of various s3 buckets is convert in one format. for bugbounty and security testing. | ![](https://img.shields.io/github/stars/hahwul/s3reverse) | ![](https://img.shields.io/github/languages/top/hahwul/s3reverse) |",
+  "Method": "S3",
+  "Type": "Utility"
  },
  "shuffledns": {
-  "Data": "| [shuffledns](https://github.com/projectdiscovery/shuffledns) | shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output support. | ![](https://img.shields.io/github/stars/projectdiscovery/shuffledns) | ![](https://img.shields.io/github/languages/top/projectdiscovery/shuffledns) | ![](https://img.shields.io/github/repo-size/projectdiscovery/shuffledns)\u003cbr\u003e![](https://img.shields.io/github/license/projectdiscovery/shuffledns) \u003cbr\u003e ![](https://img.shields.io/github/forks/projectdiscovery/shuffledns) \u003cbr\u003e ![](https://img.shields.io/github/watchers/projectdiscovery/shuffledns) |",
-  "Type": "Web Discovery"
+  "Data": "| Discovery/DNS | [shuffledns](https://github.com/projectdiscovery/shuffledns) | shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output support. | ![](https://img.shields.io/github/stars/projectdiscovery/shuffledns) | ![](https://img.shields.io/github/languages/top/projectdiscovery/shuffledns) |",
+  "Method": "DNS",
+  "Type": "Discovery"
  },
  "sqlmap": {
-  "Data": "| [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | ![](https://img.shields.io/github/stars/sqlmapproject/sqlmap) | ![](https://img.shields.io/github/languages/top/sqlmapproject/sqlmap) | ![](https://img.shields.io/github/repo-size/sqlmapproject/sqlmap)\u003cbr\u003e![](https://img.shields.io/github/license/sqlmapproject/sqlmap) \u003cbr\u003e ![](https://img.shields.io/github/forks/sqlmapproject/sqlmap) \u003cbr\u003e ![](https://img.shields.io/github/watchers/sqlmapproject/sqlmap) |",
-  "Type": "SQL Injection"
+  "Data": "| Scanner/SQL | [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | ![](https://img.shields.io/github/stars/sqlmapproject/sqlmap) | ![](https://img.shields.io/github/languages/top/sqlmapproject/sqlmap) |",
+  "Method": "SQL",
+  "Type": "Scanner"
  },
  "sqlninja": {
-  "Data": "| [sqlninja](https://github.com/xxgrunge/sqlninja) | SQL Injection Tool | ![](https://img.shields.io/github/stars/xxgrunge/sqlninja) | ![](https://img.shields.io/github/languages/top/xxgrunge/sqlninja) | ![](https://img.shields.io/github/repo-size/xxgrunge/sqlninja)\u003cbr\u003e![](https://img.shields.io/github/license/xxgrunge/sqlninja) \u003cbr\u003e ![](https://img.shields.io/github/forks/xxgrunge/sqlninja) \u003cbr\u003e ![](https://img.shields.io/github/watchers/xxgrunge/sqlninja) |",
-  "Type": "SQL Injection"
+  "Data": "| Scanner/SQL | [sqlninja](https://github.com/xxgrunge/sqlninja) | SQL Injection Tool | ![](https://img.shields.io/github/stars/xxgrunge/sqlninja) | ![](https://img.shields.io/github/languages/top/xxgrunge/sqlninja) |",
+  "Method": "SQL",
+  "Type": "Scanner"
  },
  "subfinder": {
-  "Data": "| [subfinder](https://github.com/projectdiscovery/subfinder) | Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing. | ![](https://img.shields.io/github/stars/projectdiscovery/subfinder) | ![](https://img.shields.io/github/languages/top/projectdiscovery/subfinder) | ![](https://img.shields.io/github/repo-size/projectdiscovery/subfinder)\u003cbr\u003e![](https://img.shields.io/github/license/projectdiscovery/subfinder) \u003cbr\u003e ![](https://img.shields.io/github/forks/projectdiscovery/subfinder) \u003cbr\u003e ![](https://img.shields.io/github/watchers/projectdiscovery/subfinder) |",
-  "Type": "Subdomain Enumeration"
+  "Data": "| Discovery/DOMAIN | [subfinder](https://github.com/projectdiscovery/subfinder) | Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing. | ![](https://img.shields.io/github/stars/projectdiscovery/subfinder) | ![](https://img.shields.io/github/languages/top/projectdiscovery/subfinder) |",
+  "Method": "DOMAIN",
+  "Type": "Discovery"
  },
  "waybackurls": {
-  "Data": "| [waybackurls](https://github.com/tomnomnom/waybackurls) | Fetch all the URLs that the Wayback Machine knows about for a domain | ![](https://img.shields.io/github/stars/tomnomnom/waybackurls) | ![](https://img.shields.io/github/languages/top/tomnomnom/waybackurls) | ![](https://img.shields.io/github/repo-size/tomnomnom/waybackurls)\u003cbr\u003e![](https://img.shields.io/github/license/tomnomnom/waybackurls) \u003cbr\u003e ![](https://img.shields.io/github/forks/tomnomnom/waybackurls) \u003cbr\u003e ![](https://img.shields.io/github/watchers/tomnomnom/waybackurls) |",
-  "Type": "Web Discovery"
+  "Data": "| Discovery/URL | [waybackurls](https://github.com/tomnomnom/waybackurls) | Fetch all the URLs that the Wayback Machine knows about for a domain | ![](https://img.shields.io/github/stars/tomnomnom/waybackurls) | ![](https://img.shields.io/github/languages/top/tomnomnom/waybackurls) |",
+  "Method": "URL",
+  "Type": "Discovery"
  },
  "websocket-connection-smuggler": {
-  "Data": "| [websocket-connection-smuggler](https://github.com/hahwul/websocket-connection-smuggler) | websocket-connection-smuggler | ![](https://img.shields.io/github/stars/hahwul/websocket-connection-smuggler) | ![](https://img.shields.io/github/languages/top/hahwul/websocket-connection-smuggler) | ![](https://img.shields.io/github/repo-size/hahwul/websocket-connection-smuggler)\u003cbr\u003e![](https://img.shields.io/github/license/hahwul/websocket-connection-smuggler) \u003cbr\u003e ![](https://img.shields.io/github/forks/hahwul/websocket-connection-smuggler) \u003cbr\u003e ![](https://img.shields.io/github/watchers/hahwul/websocket-connection-smuggler) |",
-  "Type": "WebSocket"
+  "Data": "| Fetch/WSOCK | [websocket-connection-smuggler](https://github.com/hahwul/websocket-connection-smuggler) | websocket-connection-smuggler | ![](https://img.shields.io/github/stars/hahwul/websocket-connection-smuggler) | ![](https://img.shields.io/github/languages/top/hahwul/websocket-connection-smuggler) |",
+  "Method": "WSOCK",
+  "Type": "Fetch"
+ },
+ "xspear": {
+  "Data": "| Scanner/XSS | [xspear](https://github.com/hahwul/xspear) | Powerfull XSS Scanning and Parameter analysis tool\u0026gem | ![](https://img.shields.io/github/stars/hahwul/xspear) | ![](https://img.shields.io/github/languages/top/hahwul/xspear) |",
+  "Method": "XSS",
+  "Type": "Scanner"
  }
 }
