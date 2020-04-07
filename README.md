@@ -10,6 +10,8 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 ## Weapons
 | Type | Name | Description | Popularity | Language |
 | ---------- | :---------- | :----------: | :----------: | :----------: |
+| Army-Knife/BURP  | [BurpSuite](https://portswigger.net/burp) |  It's Awesome|it's not|github:dog:|
+| Army-Knife/ZAP | [zaproxy](https://github.com/zaproxy/zaproxy) | The OWASP ZAP core project | ![](https://img.shields.io/github/stars/zaproxy/zaproxy) | ![](https://img.shields.io/github/languages/top/zaproxy/zaproxy) |
 | Discovery/CRAWL | [Photon](https://github.com/s0md3v/Photon) | Incredibly fast crawler designed for OSINT. | ![](https://img.shields.io/github/stars/s0md3v/Photon) | ![](https://img.shields.io/github/languages/top/s0md3v/Photon) |
 | Discovery/CRAWL | [gospider](https://github.com/jaeles-project/gospider) | Gospider - Fast web spider written in Go | ![](https://img.shields.io/github/stars/jaeles-project/gospider) | ![](https://img.shields.io/github/languages/top/jaeles-project/gospider) |
 | Discovery/DNS | [dnsprobe](https://github.com/projectdiscovery/dnsprobe) | DNSProb (beta) is a tool built on top of retryabledns that allows you to perform multiple dns queries of your choice with a list of user supplied resolvers. | ![](https://img.shields.io/github/stars/projectdiscovery/dnsprobe) | ![](https://img.shields.io/github/languages/top/projectdiscovery/dnsprobe) |
@@ -76,3 +78,4 @@ Successfully Opened data.json
 $ ./distribute-readme
 => show new README file
 ```
+
