@@ -89,6 +89,11 @@
   "Method": "LFI",
   "Type": "Scanner"
  },
+ "ffuf": {
+  "Type": "Scanner",
+  "Data": "| Scanner/FUZZ | [ffuf](https://github.com/ffuf/ffuf) | Fast web fuzzer written in Go | ![](https://img.shields.io/github/stars/ffuf/ffuf) | ![](https://img.shields.io/github/languages/top/ffuf/ffuf) |",
+  "Method": "FUZZ"
+ },
  "findomain": {
   "Data": "| Discovery/DOMAIN | [findomain](https://github.com/Edu4rdSHL/findomain) | The fastest and cross-platform subdomain enumerator, do not waste your time. | ![](https://img.shields.io/github/stars/Edu4rdSHL/findomain) | ![](https://img.shields.io/github/languages/top/Edu4rdSHL/findomain) |",
   "Method": "DOMAIN",
@@ -160,9 +165,9 @@
   "Type": "Discovery"
  },
  "nikto": {
-  "Type": "Scanner",
   "Data": "| Scanner/WVS | [nikto](https://github.com/sullo/nikto) | Nikto web server scanner | ![](https://img.shields.io/github/stars/sullo/nikto) | ![](https://img.shields.io/github/languages/top/sullo/nikto) |",
-  "Method": "WVS"
+  "Method": "WVS",
+  "Type": "Scanner"
  },
  "nmap": {
   "Data": "| Discovery/PORT | [nmap](https://github.com/nmap/nmap) | Nmap - the Network Mapper. Github mirror of official SVN repository. | ![](https://img.shields.io/github/stars/nmap/nmap) | ![](https://img.shields.io/github/languages/top/nmap/nmap) |",
