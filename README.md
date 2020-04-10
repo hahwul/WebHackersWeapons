@@ -12,6 +12,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 - [Weapons](#weapons)
 - [Awesome Burp and ZAP Extensions](https://github.com/hahwul/WebHackersWeapons/tree/master/Burp%20and%20ZAP%20Extensions)
 - [Contribute](#contribute-and-contributor) 
+- [Thanks to](#thanks-to)
 
 ## Weapons
 | Type | Name | Description | Popularity | Language |
