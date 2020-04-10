@@ -32,12 +32,14 @@ Successfully Opened data.json
 
 ### Add common tools
 in `WebHackersWeapons` directory
+```
 $ ./add-tool -url https://github.com/hahwul/s3reverse
-
+```
 ### Add Burp Suite or ZAP Extensions
 in `WebHackersWeapons/Burp and ZAP Extensions` directory
+```
 $ ../add-tool -url https://github.com/nccgroup/BurpSuiteLoggerPlusPlus
-
+```
 ### Distribute to common tools
 ```
 $ ./distribute-readme
