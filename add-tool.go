@@ -99,7 +99,15 @@ func main() {
 		defer resp.Body.Close()
 
 		if title, ok := GetHtmlTitle(resp.Body); ok {
-			desc = strings.Split(string(title), ": ")[1]
+			if strings.Contains(string(title), ": ") {
+				desc = strings.Split(string(title), ": ")[1]
+			} else {
+				reader1 := bufio.NewReader(os.Stdin)
+				fmt.Println("[+] Don't have descriptions / input description")
+				a, _ := reader1.ReadString('\n')
+				desc = strings.TrimRight(a, "\r\n")
+
+			}
 		} else {
 			println("Fail to get HTML title")
 		}
