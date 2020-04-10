@@ -1,4 +1,4 @@
-## Contribute and Contributor
+## Contribute
 ### Usage of add-tool
 ```
 ./add-tool
@@ -57,5 +57,5 @@ $ ../distribute-readme
 => show new README file in Burp Suite or ZAP Extensions
 ```
 
-## Thanks to
+## Thanks to (Contributor)
 [six2dez](https://github.com/six2dez) , [si9int](https://github.com/si9int)
