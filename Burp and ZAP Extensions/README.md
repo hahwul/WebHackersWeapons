@@ -18,7 +18,9 @@ This is Cool Extensions collection of Burp suite and ZAP
 ## Cool Extensions
 | Type | Name | Description | Popularity | Language |
 | ---------- | :---------- | :----------: | :----------: | :----------: | 
+| All/ANALYSIS | [HUNT](https://github.com/bugcrowd/HUNT) | Data Driven web hacking Manual testing | ![](https://img.shields.io/github/stars/bugcrowd/HUNT) | ![](https://img.shields.io/github/languages/top/bugcrowd/HUNT) |
 | Burp/HISTORY | [BurpSuiteLoggerPlusPlus](https://github.com/nccgroup/BurpSuiteLoggerPlusPlus) | Burp Suite Logger++ | ![](https://img.shields.io/github/stars/nccgroup/BurpSuiteLoggerPlusPlus) | ![](https://img.shields.io/github/languages/top/nccgroup/BurpSuiteLoggerPlusPlus) |
+| ZAP/INTERFACE | [zap-hud](https://github.com/zaproxy/zap-hud) | The OWASP ZAP Heads Up Display (HUD) | ![](https://img.shields.io/github/stars/zaproxy/zap-hud) | ![](https://img.shields.io/github/languages/top/zaproxy/zap-hud) |
 ## Contribute and Contributor
 ### Usage of add-tool
 ```
