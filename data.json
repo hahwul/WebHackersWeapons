@@ -10,12 +10,12 @@
   "Type": "Discovery"
  },
  "BurpSuite": {
-  "Data": "| Army-Knife/BURP  | [BurpSuite](https://portswigger.net/burp) |  It's Awesome|it's not|github:dog:|",
+  "Data": "| Army-Knife/BURP  | [BurpSuite](https://portswigger.net/burp) |  It's Awesome|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "BURP",
   "Type": "Army-Knife"
  },
  "CSP Evaluator": {
-  "Data": "| Utility/CSP  | [CSP Evaluator](https://csp-evaluator.withgoogle.com) |  Online CSP Evaluator from google|it's not|github:dog:|",
+  "Data": "| Utility/CSP  | [CSP Evaluator](https://csp-evaluator.withgoogle.com) |  Online CSP Evaluator from google|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "CSP",
   "Type": "Utility"
  },
@@ -25,7 +25,7 @@
   "Type": "Scanner"
  },
  "DNSDumpster": {
-  "Data": "| Discovery/DNS  | [DNSDumpster](https://dnsdumpster.com) |  Online dns recon \u0026 research, find \u0026 lookup dns records|it's not|github:dog:|",
+  "Data": "| Discovery/DNS  | [DNSDumpster](https://dnsdumpster.com) |  Online dns recon \u0026 research, find \u0026 lookup dns records|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "DNS",
   "Type": "Discovery"
  },
@@ -50,7 +50,7 @@
   "Type": "Scanner"
  },
  "Phoenix": {
-  "Data": "| Utility/ETC  | [Phoenix](https://www.hahwul.com/p/phoenix.html) |  hahwul's online tools|it's not|github:dog:|",
+  "Data": "| Utility/ETC  | [Phoenix](https://www.hahwul.com/p/phoenix.html) |  hahwul's online tools|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "ETC",
   "Type": "Utility"
  },
@@ -65,7 +65,7 @@
   "Type": "Scanner"
  },
  "SQLNinja": {
-  "Data": "| Scanner/SQL  | [SQLNinja](https://gitlab.com/kalilinux/packages/sqlninja) |  SQL Injection scanner|it's not|github:dog:|",
+  "Data": "| Scanner/SQL  | [SQLNinja](https://gitlab.com/kalilinux/packages/sqlninja) |  SQL Injection scanner|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "SQL",
   "Type": "Scanner"
  },
@@ -75,17 +75,17 @@
   "Type": "Utility"
  },
  "SecurityTrails": {
-  "Data": "| Discovery/DNS  | [SecurityTrails](https://securitytrails.com) |  Online dns / subdomain / recon tool|it's not|github:dog:|",
+  "Data": "| Discovery/DNS  | [SecurityTrails](https://securitytrails.com) |  Online dns / subdomain / recon tool|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "DNS",
   "Type": "Discovery"
  },
  "SequenceDiagram": {
-  "Data": "| Utility/FLOW  | [SequenceDiagram](https://sequencediagram.org) |  Online tool for creating UML sequence diagrams|it's not|github:dog:|",
+  "Data": "| Utility/FLOW  | [SequenceDiagram](https://sequencediagram.org) |  Online tool for creating UML sequence diagrams|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "FLOW",
   "Type": "Utility"
  },
  "Shodan": {
-  "Data": "| Discovery/PORT  | [Shodan](https://www.shodan.io/) |  World's first search engine for Internet-connected devices|it's not|github:dog:|",
+  "Data": "| Discovery/PORT  | [Shodan](https://www.shodan.io/) |  World's first search engine for Internet-connected devices|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "PORT",
   "Type": "Discovery"
  },
@@ -104,20 +104,30 @@
   "Method": "DOMAIN",
   "Type": "Discovery"
  },
+ "VHostScan": {
+  "Data": "| Scanner/FUZZ | [VHostScan](https://github.com/codingo/VHostScan) | A virtual host scanner that performs reverse lookups, can be used with pivot tools, detect catch-all scenarios, work around wildcards, aliases and dynamic default pages. | ![](https://img.shields.io/github/stars/codingo/VHostScan) | ![](https://img.shields.io/github/languages/top/codingo/VHostScan) |",
+  "Method": "FUZZ",
+  "Type": "Scanner"
+ },
  "XSStrike": {
   "Data": "| Scanner/XSS | [XSStrike](https://github.com/s0md3v/XSStrike) | Most advanced XSS scanner. | ![](https://img.shields.io/github/stars/s0md3v/XSStrike) | ![](https://img.shields.io/github/languages/top/s0md3v/XSStrike) |",
   "Method": "XSS",
   "Type": "Scanner"
  },
  "XSpear": {
-  "Type": "Scanner",
   "Data": "| Scanner/XSS | [XSpear](https://github.com/hahwul/XSpear) | Powerfull XSS Scanning and Parameter analysis tool\u0026gem | ![](https://img.shields.io/github/stars/hahwul/XSpear) | ![](https://img.shields.io/github/languages/top/hahwul/XSpear) |",
-  "Method": "XSS"
+  "Method": "XSS",
+  "Type": "Scanner"
  },
  "a2sv": {
   "Data": "| Scanner/SSL | [a2sv](https://github.com/hahwul/a2sv) | Auto Scanning to SSL Vulnerability | ![](https://img.shields.io/github/stars/hahwul/a2sv) | ![](https://img.shields.io/github/languages/top/hahwul/a2sv) |",
   "Method": "SSL",
   "Type": "Scanner"
+ },
+ "altdns": {
+  "Data": "| Discovery/DOMAIN | [altdns](https://github.com/infosec-au/altdns) | Generates permutations, alterations and mutations of subdomains and then resolves them | ![](https://img.shields.io/github/stars/infosec-au/altdns) | ![](https://img.shields.io/github/languages/top/infosec-au/altdns) |",
+  "Method": "DOMAIN",
+  "Type": "Discovery"
  },
  "arachni": {
   "Data": "| Scanner/WVS | [arachni](https://github.com/Arachni/arachni) | Web Application Security Scanner Framework | ![](https://img.shields.io/github/stars/Arachni/arachni) | ![](https://img.shields.io/github/languages/top/Arachni/arachni) |",
@@ -189,10 +199,25 @@
   "Method": "CRAWL",
   "Type": "Discovery"
  },
+ "gowitness": {
+  "Data": "| Utility/SHOT | [gowitness](https://github.com/sensepost/gowitness) | 🔍 gowitness - a golang, web screenshot utility using Chrome Headless | ![](https://img.shields.io/github/stars/sensepost/gowitness) | ![](https://img.shields.io/github/languages/top/sensepost/gowitness) |",
+  "Method": "SHOT",
+  "Type": "Utility"
+ },
  "gron": {
   "Data": "| Utility/JSON | [gron](https://github.com/tomnomnom/gron) | Make JSON greppable! | ![](https://img.shields.io/github/stars/tomnomnom/gron) | ![](https://img.shields.io/github/languages/top/tomnomnom/gron) |",
   "Method": "JSON",
   "Type": "Utility"
+ },
+ "hakrawler": {
+  "Data": "| Discovery/CRAWL | [hakrawler](https://github.com/hakluke/hakrawler) | Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application | ![](https://img.shields.io/github/stars/hakluke/hakrawler) | ![](https://img.shields.io/github/languages/top/hakluke/hakrawler) |",
+  "Method": "CRAWL",
+  "Type": "Discovery"
+ },
+ "hakrevdns": {
+  "Data": "| Discovery/DNS | [hakrevdns](https://github.com/hakluke/hakrevdns) | Small, fast tool for performing reverse DNS lookups en masse. | ![](https://img.shields.io/github/stars/hakluke/hakrevdns) | ![](https://img.shields.io/github/languages/top/hakluke/hakrevdns) |",
+  "Method": "DNS",
+  "Type": "Discovery"
  },
  "httprobe": {
   "Data": "| Fetch/TOM | [httprobe](https://github.com/tomnomnom/httprobe) | Take a list of domains and probe for working HTTP and HTTPS servers | ![](https://img.shields.io/github/stars/tomnomnom/httprobe) | ![](https://img.shields.io/github/languages/top/tomnomnom/httprobe) |",
@@ -233,6 +258,11 @@
   "Data": "| Utility/VULN | [oxml_xxe](https://github.com/BuffaloWill/oxml_xxe) | A tool for embedding XXE/XML exploits into different filetypes | ![](https://img.shields.io/github/stars/BuffaloWill/oxml_xxe) | ![](https://img.shields.io/github/languages/top/BuffaloWill/oxml_xxe) |",
   "Method": "VULN",
   "Type": "Utility"
+ },
+ "rapidscan": {
+  "Data": "| Scanner/WVS | [rapidscan](https://github.com/skavngr/rapidscan) | The Multi-Tool Web Vulnerability Scanner. | ![](https://img.shields.io/github/stars/skavngr/rapidscan) | ![](https://img.shields.io/github/languages/top/skavngr/rapidscan) |",
+  "Method": "WVS",
+  "Type": "Scanner"
  },
  "s3reverse": {
   "Data": "| Utility/S3 | [s3reverse](https://github.com/hahwul/s3reverse) | The format of various s3 buckets is convert in one format. for bugbounty and security testing. | ![](https://img.shields.io/github/stars/hahwul/s3reverse) | ![](https://img.shields.io/github/languages/top/hahwul/s3reverse) |",
@@ -288,6 +318,11 @@
   "Data": "| Scanner/WP | [wpscan](https://github.com/wpscanteam/wpscan) | WPScan is a free, for non-commercial use, black box WordPress Vulnerability Scanner written for security professionals and blog maintainers to test the security of their WordPress websites. | ![](https://img.shields.io/github/stars/wpscanteam/wpscan) | ![](https://img.shields.io/github/languages/top/wpscanteam/wpscan) |",
   "Method": "WP",
   "Type": "Scanner"
+ },
+ "xsser": {
+  "Type": "Scanner",
+  "Data": "| Scanner/XSS | [xsser](https://github.com/epsylon/xsser) | Cross Site \"Scripter\" (aka XSSer) is an automatic -framework- to detect, exploit and report XSS vulnerabilities in web-based applications. | ![](https://img.shields.io/github/stars/epsylon/xsser) | ![](https://img.shields.io/github/languages/top/epsylon/xsser) |",
+  "Method": "XSS"
  },
  "ysoserial": {
   "Data": "| Utility/VULN | [ysoserial](https://github.com/frohoff/ysoserial) | A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization. | ![](https://img.shields.io/github/stars/frohoff/ysoserial) | ![](https://img.shields.io/github/languages/top/frohoff/ysoserial) |",
