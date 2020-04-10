@@ -142,3 +142,6 @@ $ ./distribute-readme
 $ ../distribute-readme
 => show new README file in Burp Suite or ZAP Extensions
 ```
+
+## Thanks to
+[six2dez](https://github.com/six2dez) , [si9int](https://github.com/si9int)
