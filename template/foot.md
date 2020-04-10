@@ -40,6 +40,11 @@ in `WebHackersWeapons/Burp and ZAP Extensions` directory
 ```
 $ ../add-tool -url https://github.com/nccgroup/BurpSuiteLoggerPlusPlus
 ```
+
+### Asciinema video
+[![asciicast](https://asciinema.org/a/318456.svg)](https://asciinema.org/a/318456)
+
+## Distribute (for me)
 ### Distribute to common tools
 ```
 $ ./distribute-readme
