@@ -11,8 +11,8 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 ## Table of Contents
 - [Weapons](#weapons)
 - [Awesome Burp and ZAP Extensions](https://github.com/hahwul/WebHackersWeapons/tree/master/Burp%20and%20ZAP%20Extensions)
-- [Contribute](#contribute-and-contributor) 
-- [Thanks to](#thanks-to)
+- [Contribute](#contribute) 
+- [Thanks to contributor](#thanks-to-contributor)
 
 ## Weapons
 | Type | Name | Description | Popularity | Language |
@@ -85,7 +85,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Utility/VULN | [oxml_xxe](https://github.com/BuffaloWill/oxml_xxe) | A tool for embedding XXE/XML exploits into different filetypes | ![](https://img.shields.io/github/stars/BuffaloWill/oxml_xxe) | ![](https://img.shields.io/github/languages/top/BuffaloWill/oxml_xxe) |
 | Utility/VULN | [ysoserial](https://github.com/frohoff/ysoserial) | A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization. | ![](https://img.shields.io/github/stars/frohoff/ysoserial) | ![](https://img.shields.io/github/languages/top/frohoff/ysoserial) |
 | Utility/WORD | [SecLists](https://github.com/danielmiessler/SecLists) | SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more. | ![](https://img.shields.io/github/stars/danielmiessler/SecLists) | ![](https://img.shields.io/github/languages/top/danielmiessler/SecLists) |
-## Contribute and Contributor
+## Contribute
 ### Usage of add-tool
 ```
 ./add-tool
@@ -144,5 +144,5 @@ $ ../distribute-readme
 => show new README file in Burp Suite or ZAP Extensions
 ```
 
-## Thanks to
+## Thanks to (Contributor)
 [six2dez](https://github.com/six2dez) , [si9int](https://github.com/si9int)
