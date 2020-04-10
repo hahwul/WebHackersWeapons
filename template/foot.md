@@ -30,8 +30,22 @@ Successfully Opened data.json
 - Second, Give me PR or Add issue with data.json<br>
 - Third, There's no third.
 
-### Distribute
+### Add common tools
+in `WebHackersWeapons` directory
+$ ./add-tool -url https://github.com/hahwul/s3reverse
+
+### Add Burp Suite or ZAP Extensions
+in `WebHackersWeapons/Burp and ZAP Extensions` directory
+$ ../add-tool -url https://github.com/nccgroup/BurpSuiteLoggerPlusPlus
+
+### Distribute to common tools
 ```
 $ ./distribute-readme
 => show new README file
+```
+
+### Distribute to Burp Suite or ZAP Extensions
+```
+$ ../distribute-readme
+=> show new README file in Burp Suite or ZAP Extensions
 ```
