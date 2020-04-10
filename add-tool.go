@@ -170,7 +170,7 @@ func main() {
 		fmt.Println("[+] What is method(e.g XSS, WVS, SSL, ETC..)?")
 		method, _ := reader1.ReadString('\n')
 		method = strings.TrimRight(method, "\r\n")
-		writeJSON(m[choicetype], name, method, "| "+m[choicetype]+"/"+method+"  | ["+name+"]("+*repourl+") |  "+udesc+"|it's not|github:dog:|")
+		writeJSON(m[choicetype], name, method, "| "+m[choicetype]+"/"+method+"  | ["+name+"]("+*repourl+") |  "+udesc+"|![](https://img.shields.io/static/v1?label=&message=it's not github&color=gray)|![](https://img.shields.io/static/v1?label=&message=it's not github&color=gray)")
 	}
 
 	if *first {
