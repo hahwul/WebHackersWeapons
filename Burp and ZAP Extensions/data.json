@@ -5,9 +5,24 @@
   "Type": "Burp"
  },
  "HUNT": {
-  "Type": "All",
   "Data": "| All/ANALYSIS | [HUNT](https://github.com/bugcrowd/HUNT) | Data Driven web hacking Manual testing | ![](https://img.shields.io/github/stars/bugcrowd/HUNT) | ![](https://img.shields.io/github/languages/top/bugcrowd/HUNT) |",
+  "Method": "ANALYSIS",
+  "Type": "All"
+ },
+ "burp-retire-js": {
+  "Data": "| All/ANALYSIS | [burp-retire-js](https://github.com/h3xstream/burp-retire-js) | Burp/ZAP/Maven extension that integrate Retire.js repository to find vulnerable Javascript libraries. | ![](https://img.shields.io/github/stars/h3xstream/burp-retire-js) | ![](https://img.shields.io/github/languages/top/h3xstream/burp-retire-js) |",
+  "Method": "ANALYSIS",
+  "Type": "All"
+ },
+ "csp-auditor": {
+  "Type": "All",
+  "Data": "| All/ANALYSIS | [csp-auditor](https://github.com/GoSecure/csp-auditor) | Burp and ZAP plugin to analyse Content-Security-Policy headers or generate template CSP configuration from crawling a Website | ![](https://img.shields.io/github/stars/GoSecure/csp-auditor) | ![](https://img.shields.io/github/languages/top/GoSecure/csp-auditor) |",
   "Method": "ANALYSIS"
+ },
+ "http-script-generator": {
+  "Data": "| All/POC | [http-script-generator](https://github.com/h3xstream/http-script-generator) | ZAP/Burp plugin that generate script to reproduce a specific HTTP request (Intended for fuzzing or scripted attacks) | ![](https://img.shields.io/github/stars/h3xstream/http-script-generator) | ![](https://img.shields.io/github/languages/top/h3xstream/http-script-generator) |",
+  "Method": "POC",
+  "Type": "All"
  },
  "zap-hud": {
   "Data": "| ZAP/INTERFACE | [zap-hud](https://github.com/zaproxy/zap-hud) | The OWASP ZAP Heads Up Display (HUD) | ![](https://img.shields.io/github/stars/zaproxy/zap-hud) | ![](https://img.shields.io/github/languages/top/zaproxy/zap-hud) |",
