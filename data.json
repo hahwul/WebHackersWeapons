@@ -49,6 +49,11 @@
   "Method": "NOSQL",
   "Type": "Scanner"
  },
+ "ParamSpider": {
+  "Type": "Discovery",
+  "Data": "| Discovery/FUZZ | [ParamSpider](https://github.com/devanshbatham/ParamSpider) | Mining parameters from dark corners of Web Archives | ![](https://img.shields.io/github/stars/devanshbatham/ParamSpider) | ![](https://img.shields.io/github/languages/top/devanshbatham/ParamSpider) |",
+  "Method": "FUZZ"
+ },
  "Phoenix": {
   "Data": "| Utility/ETC  | [Phoenix](https://www.hahwul.com/p/phoenix.html) |  hahwul's online tools|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "ETC",
@@ -140,9 +145,9 @@
   "Type": "Discovery"
  },
  "cc.py": {
-  "Type": "Discovery",
   "Data": "| Discovery/CRAWL | [cc.py](https://github.com/si9int/cc.py) | Extracting URLs of a specific target based on the results of \"commoncrawl.org\" | ![](https://img.shields.io/github/stars/si9int/cc.py) | ![](https://img.shields.io/github/languages/top/si9int/cc.py) |",
-  "Method": "CRAWL"
+  "Method": "CRAWL",
+  "Type": "Discovery"
  },
  "dirsearch": {
   "Data": "| Discovery/FUZZ | [dirsearch](https://github.com/maurosoria/dirsearch) | Web path scanner | ![](https://img.shields.io/github/stars/maurosoria/dirsearch) | ![](https://img.shields.io/github/languages/top/maurosoria/dirsearch) |",
