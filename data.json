@@ -50,9 +50,9 @@
   "Type": "Scanner"
  },
  "ParamSpider": {
-  "Type": "Discovery",
   "Data": "| Discovery/FUZZ | [ParamSpider](https://github.com/devanshbatham/ParamSpider) | Mining parameters from dark corners of Web Archives | ![](https://img.shields.io/github/stars/devanshbatham/ParamSpider) | ![](https://img.shields.io/github/languages/top/devanshbatham/ParamSpider) |",
-  "Method": "FUZZ"
+  "Method": "FUZZ",
+  "Type": "Discovery"
  },
  "Phoenix": {
   "Data": "| Utility/ETC  | [Phoenix](https://www.hahwul.com/p/phoenix.html) |  hahwul's online tools|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
@@ -134,6 +134,11 @@
   "Method": "DOMAIN",
   "Type": "Discovery"
  },
+ "anew": {
+  "Data": "| Utility/URL | [anew](https://github.com/tomnomnom/anew) | A tool for adding new lines to files, skipping duplicates | ![](https://img.shields.io/github/stars/tomnomnom/anew) | ![](https://img.shields.io/github/languages/top/tomnomnom/anew) |",
+  "Method": "URL",
+  "Type": "Utility"
+ },
  "arachni": {
   "Data": "| Scanner/WVS | [arachni](https://github.com/Arachni/arachni) | Web Application Security Scanner Framework | ![](https://img.shields.io/github/stars/Arachni/arachni) | ![](https://img.shields.io/github/languages/top/Arachni/arachni) |",
   "Method": "WVS",
@@ -144,10 +149,20 @@
   "Method": "DOMAIN",
   "Type": "Discovery"
  },
+ "burl": {
+  "Data": "| Utility/URL | [burl](https://github.com/tomnomnom/burl) | A Broken-URL Checker | ![](https://img.shields.io/github/stars/tomnomnom/burl) | ![](https://img.shields.io/github/languages/top/tomnomnom/burl) |",
+  "Method": "URL",
+  "Type": "Utility"
+ },
  "cc.py": {
   "Data": "| Discovery/CRAWL | [cc.py](https://github.com/si9int/cc.py) | Extracting URLs of a specific target based on the results of \"commoncrawl.org\" | ![](https://img.shields.io/github/stars/si9int/cc.py) | ![](https://img.shields.io/github/languages/top/si9int/cc.py) |",
   "Method": "CRAWL",
   "Type": "Discovery"
+ },
+ "dalfox": {
+  "Data": "| Scanner/XSS | [dalfox](https://github.com/hahwul/dalfox) | DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang | ![](https://img.shields.io/github/stars/hahwul/dalfox) | ![](https://img.shields.io/github/languages/top/hahwul/dalfox) |",
+  "Method": "XSS",
+  "Type": "Scanner"
  },
  "dirsearch": {
   "Data": "| Discovery/FUZZ | [dirsearch](https://github.com/maurosoria/dirsearch) | Web path scanner | ![](https://img.shields.io/github/stars/maurosoria/dirsearch) | ![](https://img.shields.io/github/languages/top/maurosoria/dirsearch) |",
@@ -219,6 +234,11 @@
   "Method": "JSON",
   "Type": "Utility"
  },
+ "hacks": {
+  "Type": "Utility",
+  "Data": "| Utility/URL | [hacks](https://github.com/tomnomnom/hacks/tree/master/anti-burl) | remove bad urls | ![](https://img.shields.io/github/stars/tomnomnom/hacks/tree/master/anti-burl) | ![](https://img.shields.io/github/languages/top/tomnomnom/hacks/tree/master/anti-burl) |",
+  "Method": "URL"
+ },
  "hakrawler": {
   "Data": "| Discovery/CRAWL | [hakrawler](https://github.com/hakluke/hakrawler) | Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application | ![](https://img.shields.io/github/stars/hakluke/hakrawler) | ![](https://img.shields.io/github/languages/top/hakluke/hakrawler) |",
   "Method": "CRAWL",
@@ -269,6 +289,11 @@
   "Method": "VULN",
   "Type": "Utility"
  },
+ "qsreplace": {
+  "Data": "| Utility/URL | [qsreplace](https://github.com/tomnomnom/qsreplace) | Accept URLs on stdin, replace all query string values with a user-supplied value | ![](https://img.shields.io/github/stars/tomnomnom/qsreplace) | ![](https://img.shields.io/github/languages/top/tomnomnom/qsreplace) |",
+  "Method": "URL",
+  "Type": "Utility"
+ },
  "rapidscan": {
   "Data": "| Scanner/WVS | [rapidscan](https://github.com/skavngr/rapidscan) | The Multi-Tool Web Vulnerability Scanner. | ![](https://img.shields.io/github/stars/skavngr/rapidscan) | ![](https://img.shields.io/github/languages/top/skavngr/rapidscan) |",
   "Method": "WVS",
@@ -308,6 +333,11 @@
   "Data": "| Scanner/FUZZ | [thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | hydra | ![](https://img.shields.io/github/stars/vanhauser-thc/thc-hydra) | ![](https://img.shields.io/github/languages/top/vanhauser-thc/thc-hydra) |",
   "Method": "FUZZ",
   "Type": "Scanner"
+ },
+ "unfurl": {
+  "Data": "| Utility/URL | [unfurl](https://github.com/tomnomnom/unfurl) | Pull out bits of URLs provided on stdin | ![](https://img.shields.io/github/stars/tomnomnom/unfurl) | ![](https://img.shields.io/github/languages/top/tomnomnom/unfurl) |",
+  "Method": "URL",
+  "Type": "Utility"
  },
  "waybackurls": {
   "Data": "| Discovery/URL | [waybackurls](https://github.com/tomnomnom/waybackurls) | Fetch all the URLs that the Wayback Machine knows about for a domain | ![](https://img.shields.io/github/stars/tomnomnom/waybackurls) | ![](https://img.shields.io/github/languages/top/tomnomnom/waybackurls) |",
