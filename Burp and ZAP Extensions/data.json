@@ -4,6 +4,11 @@
   "Method": "ANALYSIS",
   "Type": "Burp"
  },
+ "BurpSuiteHTTPSmuggler": {
+  "Type": "Burp",
+  "Data": "| Burp/BYPASS | [BurpSuiteHTTPSmuggler](https://github.com/nccgroup/BurpSuiteHTTPSmuggler) | A Burp Suite extension to help pentesters to bypass WAFs or test their effectiveness using a number of techniques | ![](https://img.shields.io/github/stars/nccgroup/BurpSuiteHTTPSmuggler) | ![](https://img.shields.io/github/languages/top/nccgroup/BurpSuiteHTTPSmuggler) |",
+  "Method": "BYPASS"
+ },
  "BurpSuiteLoggerPlusPlus": {
   "Data": "| Burp/HISTORY | [BurpSuiteLoggerPlusPlus](https://github.com/nccgroup/BurpSuiteLoggerPlusPlus) | Burp Suite Logger++ | ![](https://img.shields.io/github/stars/nccgroup/BurpSuiteLoggerPlusPlus) | ![](https://img.shields.io/github/languages/top/nccgroup/BurpSuiteLoggerPlusPlus) |",
   "Method": "HISTORY",
@@ -55,9 +60,9 @@
   "Type": "Burp"
  },
  "reflected-parameters": {
-  "Type": "Burp",
   "Data": "| Burp/ANALYSIS | [reflected-parameters](https://github.com/PortSwigger/reflected-parameters) | Find reflected parameter on Burpsuite | ![](https://img.shields.io/github/stars/PortSwigger/reflected-parameters) | ![](https://img.shields.io/github/languages/top/PortSwigger/reflected-parameters) |",
-  "Method": "ANALYSIS"
+  "Method": "ANALYSIS",
+  "Type": "Burp"
  },
  "taborator": {
   "Data": "| Burp/ANALYSIS | [taborator](https://github.com/hackvertor/taborator) | A Burp extension to show the Collaborator client in a tab | ![](https://img.shields.io/github/stars/hackvertor/taborator) | ![](https://img.shields.io/github/languages/top/hackvertor/taborator) |",
