@@ -254,6 +254,11 @@
   "Method": "TOM",
   "Type": "Fetch"
  },
+ "jaeles": {
+  "Type": "Army-Knife",
+  "Data": "| Army-Knife/JAELES | [jaeles](https://github.com/jaeles-project/jaeles) | The Swiss Army knife for automated Web Application Testing | ![](https://img.shields.io/github/stars/jaeles-project/jaeles) | ![](https://img.shields.io/github/languages/top/jaeles-project/jaeles) |",
+  "Method": "JAELES"
+ },
  "knock": {
   "Data": "| Discovery/DOMAIN | [knock](https://github.com/guelfoweb/knock) | Knock Subdomain Scan | ![](https://img.shields.io/github/stars/guelfoweb/knock) | ![](https://img.shields.io/github/languages/top/guelfoweb/knock) |",
   "Method": "DOMAIN",
@@ -290,9 +295,9 @@
   "Type": "Utility"
  },
  "pentest-tools": {
-  "Type": "Utility",
   "Data": "| Utility/VULN | [pentest-tools](https://github.com/gwen001/pentest-tools) | Custom pentesting tools | ![](https://img.shields.io/github/stars/gwen001/pentest-tools) | ![](https://img.shields.io/github/languages/top/gwen001/pentest-tools) |",
-  "Method": "VULN"
+  "Method": "VULN",
+  "Type": "Utility"
  },
  "qsreplace": {
   "Data": "| Utility/URL | [qsreplace](https://github.com/tomnomnom/qsreplace) | Accept URLs on stdin, replace all query string values with a user-supplied value | ![](https://img.shields.io/github/stars/tomnomnom/qsreplace) | ![](https://img.shields.io/github/languages/top/tomnomnom/qsreplace) |",
