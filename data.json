@@ -34,6 +34,11 @@
   "Method": "GIT",
   "Type": "Discovery"
  },
+ "Gopherus": {
+  "Data": "| Utility/VULN | [Gopherus](https://github.com/tarunkant/Gopherus) | This tool generates gopher link for exploiting SSRF and gaining RCE in various servers | ![](https://img.shields.io/github/stars/tarunkant/Gopherus) | ![](https://img.shields.io/github/languages/top/tarunkant/Gopherus) |",
+  "Method": "VULN",
+  "Type": "Utility"
+ },
  "LFISuite": {
   "Data": "| Scanner/LFI | [LFISuite](https://github.com/D35m0nd142/LFISuite) | Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner | ![](https://img.shields.io/github/stars/D35m0nd142/LFISuite) | ![](https://img.shields.io/github/languages/top/D35m0nd142/LFISuite) |",
   "Method": "LFI",
@@ -189,11 +194,6 @@
   "Method": "DOMAIN",
   "Type": "Discovery"
  },
- "ftc": {
-  "Data": "| Utility/CLIP | [ftc](https://github.com/hahwul/ftc) | simple copy to file to clipboard | ![](https://img.shields.io/github/stars/hahwul/ftc) | ![](https://img.shields.io/github/languages/top/hahwul/ftc) |",
-  "Method": "CLIP",
-  "Type": "Utility"
- },
  "fzf": {
   "Data": "| Utility/FIND | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | ![](https://img.shields.io/github/stars/junegunn/fzf) | ![](https://img.shields.io/github/languages/top/junegunn/fzf) |",
   "Method": "FIND",
@@ -235,9 +235,9 @@
   "Type": "Utility"
  },
  "hacks": {
-  "Type": "Utility",
   "Data": "| Utility/URL | [hacks](https://github.com/tomnomnom/hacks/tree/master/anti-burl) | remove bad urls | ![](https://img.shields.io/github/stars/tomnomnom/hacks/tree/master/anti-burl) | ![](https://img.shields.io/github/languages/top/tomnomnom/hacks/tree/master/anti-burl) |",
-  "Method": "URL"
+  "Method": "URL",
+  "Type": "Utility"
  },
  "hakrawler": {
   "Data": "| Discovery/CRAWL | [hakrawler](https://github.com/hakluke/hakrawler) | Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application | ![](https://img.shields.io/github/stars/hakluke/hakrawler) | ![](https://img.shields.io/github/languages/top/hakluke/hakrawler) |",
@@ -288,6 +288,11 @@
   "Data": "| Utility/VULN | [oxml_xxe](https://github.com/BuffaloWill/oxml_xxe) | A tool for embedding XXE/XML exploits into different filetypes | ![](https://img.shields.io/github/stars/BuffaloWill/oxml_xxe) | ![](https://img.shields.io/github/languages/top/BuffaloWill/oxml_xxe) |",
   "Method": "VULN",
   "Type": "Utility"
+ },
+ "pentest-tools": {
+  "Type": "Utility",
+  "Data": "| Utility/VULN | [pentest-tools](https://github.com/gwen001/pentest-tools) | Custom pentesting tools | ![](https://img.shields.io/github/stars/gwen001/pentest-tools) | ![](https://img.shields.io/github/languages/top/gwen001/pentest-tools) |",
+  "Method": "VULN"
  },
  "qsreplace": {
   "Data": "| Utility/URL | [qsreplace](https://github.com/tomnomnom/qsreplace) | Accept URLs on stdin, replace all query string values with a user-supplied value | ![](https://img.shields.io/github/stars/tomnomnom/qsreplace) | ![](https://img.shields.io/github/languages/top/tomnomnom/qsreplace) |",
