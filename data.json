@@ -59,6 +59,11 @@
   "Method": "FUZZ",
   "Type": "Discovery"
  },
+ "PayloadsAllTheThings": {
+  "Type": "Utility",
+  "Data": "| Utility/PAYLOAD | [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | A list of useful payloads and bypass for Web Application Security and Pentest/CTF | ![](https://img.shields.io/github/stars/swisskyrepo/PayloadsAllTheThings) | ![](https://img.shields.io/github/languages/top/swisskyrepo/PayloadsAllTheThings) |",
+  "Method": "PAYLOAD"
+ },
  "Phoenix": {
   "Data": "| Utility/ETC  | [Phoenix](https://www.hahwul.com/p/phoenix.html) |  hahwul's online tools|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "ETC",
@@ -255,9 +260,9 @@
   "Type": "Fetch"
  },
  "jaeles": {
-  "Type": "Army-Knife",
   "Data": "| Army-Knife/SCAN | [jaeles](https://github.com/jaeles-project/jaeles) | The Swiss Army knife for automated Web Application Testing | ![](https://img.shields.io/github/stars/jaeles-project/jaeles) | ![](https://img.shields.io/github/languages/top/jaeles-project/jaeles) |",
-  "Method": "JAELES"
+  "Method": "JAELES",
+  "Type": "Army-Knife"
  },
  "knock": {
   "Data": "| Discovery/DOMAIN | [knock](https://github.com/guelfoweb/knock) | Knock Subdomain Scan | ![](https://img.shields.io/github/stars/guelfoweb/knock) | ![](https://img.shields.io/github/languages/top/guelfoweb/knock) |",
