@@ -10,7 +10,7 @@
   "Type": "Discovery"
  },
  "BurpSuite": {
-  "Data": "| Army-Knife/BURP  | [BurpSuite](https://portswigger.net/burp) |  It's Awesome|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
+  "Data": "| Army-Knife/ALL  | [BurpSuite](https://portswigger.net/burp) |  the BurpSuite project |![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "BURP",
   "Type": "Army-Knife"
  },
@@ -256,7 +256,7 @@
  },
  "jaeles": {
   "Type": "Army-Knife",
-  "Data": "| Army-Knife/JAELES | [jaeles](https://github.com/jaeles-project/jaeles) | The Swiss Army knife for automated Web Application Testing | ![](https://img.shields.io/github/stars/jaeles-project/jaeles) | ![](https://img.shields.io/github/languages/top/jaeles-project/jaeles) |",
+  "Data": "| Army-Knife/SCAN | [jaeles](https://github.com/jaeles-project/jaeles) | The Swiss Army knife for automated Web Application Testing | ![](https://img.shields.io/github/stars/jaeles-project/jaeles) | ![](https://img.shields.io/github/languages/top/jaeles-project/jaeles) |",
   "Method": "JAELES"
  },
  "knock": {
@@ -385,7 +385,7 @@
   "Type": "Scanner"
  },
  "zaproxy": {
-  "Data": "| Army-Knife/ZAP | [zaproxy](https://github.com/zaproxy/zaproxy) | The OWASP ZAP core project | ![](https://img.shields.io/github/stars/zaproxy/zaproxy) | ![](https://img.shields.io/github/languages/top/zaproxy/zaproxy) |",
+  "Data": "| Army-Knife/ALL | [zaproxy](https://github.com/zaproxy/zaproxy) | The OWASP ZAP core project | ![](https://img.shields.io/github/stars/zaproxy/zaproxy) | ![](https://img.shields.io/github/languages/top/zaproxy/zaproxy) |",
   "Method": "ZAP",
   "Type": "Army-Knife"
  }

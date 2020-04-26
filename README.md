@@ -17,9 +17,9 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 ## Weapons
 | Type | Name | Description | Popularity | Language |
 | ---------- | :---------- | :----------: | :----------: | :----------: | 
-| Army-Knife/BURP  | [BurpSuite](https://portswigger.net/burp) |  It's Awesome|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) | ![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|
-| Army-Knife/JAELES | [jaeles](https://github.com/jaeles-project/jaeles) | The Swiss Army knife for automated Web Application Testing | ![](https://img.shields.io/github/stars/jaeles-project/jaeles) | ![](https://img.shields.io/github/languages/top/jaeles-project/jaeles) |
-| Army-Knife/ZAP | [zaproxy](https://github.com/zaproxy/zaproxy) | The OWASP ZAP core project | ![](https://img.shields.io/github/stars/zaproxy/zaproxy) | ![](https://img.shields.io/github/languages/top/zaproxy/zaproxy) |
+| Army-Knife/ALL  | [BurpSuite](https://portswigger.net/burp) |  the BurpSuite project |![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) | ![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|
+| Army-Knife/SCAN | [jaeles](https://github.com/jaeles-project/jaeles) | The Swiss Army knife for automated Web Application Testing | ![](https://img.shields.io/github/stars/jaeles-project/jaeles) | ![](https://img.shields.io/github/languages/top/jaeles-project/jaeles) |
+| Army-Knife/ALL | [zaproxy](https://github.com/zaproxy/zaproxy) | The OWASP ZAP core project | ![](https://img.shields.io/github/stars/zaproxy/zaproxy) | ![](https://img.shields.io/github/languages/top/zaproxy/zaproxy) |
 | Discovery/CRAWL | [Photon](https://github.com/s0md3v/Photon) | Incredibly fast crawler designed for OSINT. | ![](https://img.shields.io/github/stars/s0md3v/Photon) | ![](https://img.shields.io/github/languages/top/s0md3v/Photon) |
 | Discovery/CRAWL | [cc.py](https://github.com/si9int/cc.py) | Extracting URLs of a specific target based on the results of "commoncrawl.org" | ![](https://img.shields.io/github/stars/si9int/cc.py) | ![](https://img.shields.io/github/languages/top/si9int/cc.py) |
 | Discovery/CRAWL | [gospider](https://github.com/jaeles-project/gospider) | Gospider - Fast web spider written in Go | ![](https://img.shields.io/github/stars/jaeles-project/gospider) | ![](https://img.shields.io/github/languages/top/jaeles-project/gospider) |
