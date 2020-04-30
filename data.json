@@ -60,9 +60,9 @@
   "Type": "Discovery"
  },
  "PayloadsAllTheThings": {
-  "Type": "Utility",
   "Data": "| Utility/PAYLOAD | [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | A list of useful payloads and bypass for Web Application Security and Pentest/CTF | ![](https://img.shields.io/github/stars/swisskyrepo/PayloadsAllTheThings) | ![](https://img.shields.io/github/languages/top/swisskyrepo/PayloadsAllTheThings) |",
-  "Method": "PAYLOAD"
+  "Method": "PAYLOAD",
+  "Type": "Utility"
  },
  "Phoenix": {
   "Data": "| Utility/ETC  | [Phoenix](https://www.hahwul.com/p/phoenix.html) |  hahwul's online tools|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
@@ -170,9 +170,9 @@
   "Type": "Discovery"
  },
  "dalfox": {
-  "Data": "| Scanner/XSS | [dalfox](https://github.com/hahwul/dalfox) | DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang | ![](https://img.shields.io/github/stars/hahwul/dalfox) | ![](https://img.shields.io/github/languages/top/hahwul/dalfox) |",
-  "Method": "XSS",
-  "Type": "Scanner"
+  "Type": "Scanner",
+  "Data": "| Scanner/XSS | [dalfox](https://github.com/hahwul/dalfox) | 🦊 DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang | ![](https://img.shields.io/github/stars/hahwul/dalfox) | ![](https://img.shields.io/github/languages/top/hahwul/dalfox) |",
+  "Method": "XSS"
  },
  "dirsearch": {
   "Data": "| Discovery/FUZZ | [dirsearch](https://github.com/maurosoria/dirsearch) | Web path scanner | ![](https://img.shields.io/github/stars/maurosoria/dirsearch) | ![](https://img.shields.io/github/languages/top/maurosoria/dirsearch) |",
