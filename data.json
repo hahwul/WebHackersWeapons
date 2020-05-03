@@ -39,6 +39,11 @@
   "Method": "VULN",
   "Type": "Utility"
  },
+ "GraphQLmap": {
+  "Type": "Scanner",
+  "Data": "| Scanner/GQL | [GraphQLmap](https://github.com/swisskyrepo/GraphQLmap) | GraphQLmap is a scripting engine to interact with a graphql endpoint for pentesting purposes. | ![](https://img.shields.io/github/stars/swisskyrepo/GraphQLmap) | ![](https://img.shields.io/github/languages/top/swisskyrepo/GraphQLmap) |",
+  "Method": "GQL"
+ },
  "LFISuite": {
   "Data": "| Scanner/LFI | [LFISuite](https://github.com/D35m0nd142/LFISuite) | Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner | ![](https://img.shields.io/github/stars/D35m0nd142/LFISuite) | ![](https://img.shields.io/github/languages/top/D35m0nd142/LFISuite) |",
   "Method": "LFI",
@@ -82,6 +87,11 @@
  "SQLNinja": {
   "Data": "| Scanner/SQL  | [SQLNinja](https://gitlab.com/kalilinux/packages/sqlninja) |  SQL Injection scanner|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "SQL",
+  "Type": "Scanner"
+ },
+ "SSRFmap": {
+  "Data": "| Scanner/SSRF | [SSRFmap](https://github.com/swisskyrepo/SSRFmap) | Automatic SSRF fuzzer and exploitation tool | ![](https://img.shields.io/github/stars/swisskyrepo/SSRFmap) | ![](https://img.shields.io/github/languages/top/swisskyrepo/SSRFmap) |",
+  "Method": "SSRF",
   "Type": "Scanner"
  },
  "SecLists": {
@@ -170,9 +180,9 @@
   "Type": "Discovery"
  },
  "dalfox": {
-  "Type": "Scanner",
   "Data": "| Scanner/XSS | [dalfox](https://github.com/hahwul/dalfox) | 🦊 DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang | ![](https://img.shields.io/github/stars/hahwul/dalfox) | ![](https://img.shields.io/github/languages/top/hahwul/dalfox) |",
-  "Method": "XSS"
+  "Method": "XSS",
+  "Type": "Scanner"
  },
  "dirsearch": {
   "Data": "| Discovery/FUZZ | [dirsearch](https://github.com/maurosoria/dirsearch) | Web path scanner | ![](https://img.shields.io/github/stars/maurosoria/dirsearch) | ![](https://img.shields.io/github/languages/top/maurosoria/dirsearch) |",
