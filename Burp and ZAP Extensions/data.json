@@ -10,9 +10,9 @@
   "Type": "Burp"
  },
  "BurpSuiteHTTPSmuggler": {
-  "Type": "Burp",
   "Data": "| Burp/BYPASS | [BurpSuiteHTTPSmuggler](https://github.com/nccgroup/BurpSuiteHTTPSmuggler) | A Burp Suite extension to help pentesters to bypass WAFs or test their effectiveness using a number of techniques | ![](https://img.shields.io/github/stars/nccgroup/BurpSuiteHTTPSmuggler) | ![](https://img.shields.io/github/languages/top/nccgroup/BurpSuiteHTTPSmuggler) |",
-  "Method": "BYPASS"
+  "Method": "BYPASS",
+  "Type": "Burp"
  },
  "BurpSuiteLoggerPlusPlus": {
   "Data": "| Burp/HISTORY | [BurpSuiteLoggerPlusPlus](https://github.com/nccgroup/BurpSuiteLoggerPlusPlus) | Burp Suite Logger++ | ![](https://img.shields.io/github/stars/nccgroup/BurpSuiteLoggerPlusPlus) | ![](https://img.shields.io/github/languages/top/nccgroup/BurpSuiteLoggerPlusPlus) |",
@@ -59,6 +59,11 @@
   "Method": "PASV",
   "Type": "Burp"
  },
+ "community-scripts": {
+  "Data": "| ZAP/SCRIPT | [community-scripts](https://github.com/zaproxy/community-scripts) | A collection of ZAP scripts provided by the community - pull requests very welcome! | ![](https://img.shields.io/github/stars/zaproxy/community-scripts) | ![](https://img.shields.io/github/languages/top/zaproxy/community-scripts) |",
+  "Method": "SCRIPT",
+  "Type": "ZAP"
+ },
  "csp-auditor": {
   "Data": "| All/PASV | [csp-auditor](https://github.com/GoSecure/csp-auditor) | Burp and ZAP plugin to analyse Content-Security-Policy headers or generate template CSP configuration from crawling a Website | ![](https://img.shields.io/github/stars/GoSecure/csp-auditor) | ![](https://img.shields.io/github/languages/top/GoSecure/csp-auditor) |",
   "Method": "PASV",
@@ -83,6 +88,11 @@
   "Data": "| Burp/ACTIVE | [param-miner](https://github.com/PortSwigger/param-miner) | Parameter mining on Burpsuite | ![](https://img.shields.io/github/stars/PortSwigger/param-miner) | ![](https://img.shields.io/github/languages/top/PortSwigger/param-miner) |",
   "Method": "ACTIVE",
   "Type": "Burp"
+ },
+ "reflect": {
+  "Type": "ZAP",
+  "Data": "| ZAP/PASV | [reflect](https://github.com/TypeError/reflect) | OWASP ZAP add-on to help find reflected parameter vulnerabilities | ![](https://img.shields.io/github/stars/TypeError/reflect) | ![](https://img.shields.io/github/languages/top/TypeError/reflect) |",
+  "Method": "PASV"
  },
  "reflected-parameters": {
   "Data": "| Burp/PASV | [reflected-parameters](https://github.com/PortSwigger/reflected-parameters) | Find reflected parameter on Burpsuite | ![](https://img.shields.io/github/stars/PortSwigger/reflected-parameters) | ![](https://img.shields.io/github/languages/top/PortSwigger/reflected-parameters) |",
