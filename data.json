@@ -40,9 +40,9 @@
   "Type": "Utility"
  },
  "GraphQLmap": {
-  "Type": "Scanner",
   "Data": "| Scanner/GQL | [GraphQLmap](https://github.com/swisskyrepo/GraphQLmap) | GraphQLmap is a scripting engine to interact with a graphql endpoint for pentesting purposes. | ![](https://img.shields.io/github/stars/swisskyrepo/GraphQLmap) | ![](https://img.shields.io/github/languages/top/swisskyrepo/GraphQLmap) |",
-  "Method": "GQL"
+  "Method": "GQL",
+  "Type": "Scanner"
  },
  "LFISuite": {
   "Data": "| Scanner/LFI | [LFISuite](https://github.com/D35m0nd142/LFISuite) | Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner | ![](https://img.shields.io/github/stars/D35m0nd142/LFISuite) | ![](https://img.shields.io/github/languages/top/D35m0nd142/LFISuite) |",
@@ -213,6 +213,11 @@
   "Data": "| Utility/FIND | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | ![](https://img.shields.io/github/stars/junegunn/fzf) | ![](https://img.shields.io/github/languages/top/junegunn/fzf) |",
   "Method": "FIND",
   "Type": "Utility"
+ },
+ "gau": {
+  "Type": "Utility",
+  "Data": "| Utility/URL | [gau](https://github.com/lc/gau) | Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl. | ![](https://img.shields.io/github/stars/lc/gau) | ![](https://img.shields.io/github/languages/top/lc/gau) |",
+  "Method": "URL"
  },
  "gf": {
   "Data": "| Utility/GREP | [gf](https://github.com/tomnomnom/gf) | A wrapper around grep, to help you grep for things | ![](https://img.shields.io/github/stars/tomnomnom/gf) | ![](https://img.shields.io/github/languages/top/tomnomnom/gf) |",
