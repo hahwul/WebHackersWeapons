@@ -34,6 +34,11 @@
   "Method": "REPEAT",
   "Type": "Burp"
  },
+ "attack-surface-detector-zap": {
+  "Type": "ZAP",
+  "Data": "| ZAP/PASV | [attack-surface-detector-zap](https://github.com/secdec/attack-surface-detector-zap) | The Attack Surface Detector uses static code analyses to identify web app endpoints by parsing routes and identifying parameters | ![](https://img.shields.io/github/stars/secdec/attack-surface-detector-zap) | ![](https://img.shields.io/github/languages/top/secdec/attack-surface-detector-zap) |",
+  "Method": "PASV"
+ },
  "auto-repeater": {
   "Data": "| Burp/PASV | [auto-repeater](https://github.com/PortSwigger/auto-repeater) | Automated HTTP Request Repeating With Burp Suite | ![](https://img.shields.io/github/stars/PortSwigger/auto-repeater) | ![](https://img.shields.io/github/languages/top/PortSwigger/auto-repeater) |",
   "Method": "PASV",
@@ -90,9 +95,9 @@
   "Type": "Burp"
  },
  "reflect": {
-  "Type": "ZAP",
   "Data": "| ZAP/PASV | [reflect](https://github.com/TypeError/reflect) | OWASP ZAP add-on to help find reflected parameter vulnerabilities | ![](https://img.shields.io/github/stars/TypeError/reflect) | ![](https://img.shields.io/github/languages/top/TypeError/reflect) |",
-  "Method": "PASV"
+  "Method": "PASV",
+  "Type": "ZAP"
  },
  "reflected-parameters": {
   "Data": "| Burp/PASV | [reflected-parameters](https://github.com/PortSwigger/reflected-parameters) | Find reflected parameter on Burpsuite | ![](https://img.shields.io/github/stars/PortSwigger/reflected-parameters) | ![](https://img.shields.io/github/languages/top/PortSwigger/reflected-parameters) |",
