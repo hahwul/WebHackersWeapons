@@ -29,6 +29,11 @@
   "Method": "DNS",
   "Type": "Discovery"
  },
+ "Gf-Patterns": {
+  "Data": "| Utility/ENV | [Gf-Patterns](https://github.com/1ndianl33t/Gf-Patterns) | GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic) parameters grep | ![](https://img.shields.io/github/stars/1ndianl33t/Gf-Patterns) | ![](https://img.shields.io/github/languages/top/1ndianl33t/Gf-Patterns) |",
+  "Method": "ENV",
+  "Type": "Utility"
+ },
  "GitMiner": {
   "Data": "| Discovery/GIT | [GitMiner](https://github.com/UnkL4b/GitMiner) | Tool for advanced mining for content on Github | ![](https://img.shields.io/github/stars/UnkL4b/GitMiner) | ![](https://img.shields.io/github/languages/top/UnkL4b/GitMiner) |",
   "Method": "GIT",
@@ -58,6 +63,11 @@
   "Data": "| Scanner/NOSQL | [NoSQLMap](https://github.com/codingo/NoSQLMap) | Automated NoSQL database enumeration and web application exploitation tool. | ![](https://img.shields.io/github/stars/codingo/NoSQLMap) | ![](https://img.shields.io/github/languages/top/codingo/NoSQLMap) |",
   "Method": "NOSQL",
   "Type": "Scanner"
+ },
+ "OneForAll": {
+  "Data": "| Discovery/ALL | [OneForAll](https://github.com/shmilylty/OneForAll) | OneForAll是一款功能强大的子域收集工具 | ![](https://img.shields.io/github/stars/shmilylty/OneForAll) | ![](https://img.shields.io/github/languages/top/shmilylty/OneForAll) |",
+  "Method": "ALL",
+  "Type": "Discovery"
  },
  "ParamSpider": {
   "Data": "| Discovery/FUZZ | [ParamSpider](https://github.com/devanshbatham/ParamSpider) | Mining parameters from dark corners of Web Archives | ![](https://img.shields.io/github/stars/devanshbatham/ParamSpider) | ![](https://img.shields.io/github/languages/top/devanshbatham/ParamSpider) |",
@@ -215,9 +225,9 @@
   "Type": "Utility"
  },
  "gau": {
-  "Type": "Utility",
   "Data": "| Utility/URL | [gau](https://github.com/lc/gau) | Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl. | ![](https://img.shields.io/github/stars/lc/gau) | ![](https://img.shields.io/github/languages/top/lc/gau) |",
-  "Method": "URL"
+  "Method": "URL",
+  "Type": "Utility"
  },
  "gf": {
   "Data": "| Utility/GREP | [gf](https://github.com/tomnomnom/gf) | A wrapper around grep, to help you grep for things | ![](https://img.shields.io/github/stars/tomnomnom/gf) | ![](https://img.shields.io/github/languages/top/tomnomnom/gf) |",
@@ -228,6 +238,11 @@
   "Data": "| Discovery/GIT | [gitGraber](https://github.com/hisxo/gitGraber) | gitGraber | ![](https://img.shields.io/github/stars/hisxo/gitGraber) | ![](https://img.shields.io/github/languages/top/hisxo/gitGraber) |",
   "Method": "GIT",
   "Type": "Discovery"
+ },
+ "github-search": {
+  "Type": "Discovery",
+  "Data": "| Discovery/GIT | [github-search](https://github.com/gwen001/github-search) | Tools to perform basic search on GitHub. | ![](https://img.shields.io/github/stars/gwen001/github-search) | ![](https://img.shields.io/github/languages/top/gwen001/github-search) |",
+  "Method": "GIT"
  },
  "gitrob": {
   "Data": "| Discovery/GIT | [gitrob](https://github.com/michenriksen/gitrob) | Reconnaissance tool for GitHub organizations | ![](https://img.shields.io/github/stars/michenriksen/gitrob) | ![](https://img.shields.io/github/languages/top/michenriksen/gitrob) |",
@@ -284,6 +299,11 @@
   "Method": "DOMAIN",
   "Type": "Discovery"
  },
+ "lazyrecon": {
+  "Data": "| Discovery/ALL | [lazyrecon](https://github.com/nahamsec/lazyrecon) | This script is intended to automate your reconnaissance process in an organized fashion | ![](https://img.shields.io/github/stars/nahamsec/lazyrecon) | ![](https://img.shields.io/github/languages/top/nahamsec/lazyrecon) |",
+  "Method": "ALL",
+  "Type": "Discovery"
+ },
  "masscan": {
   "Data": "| Discovery/PORT | [masscan](https://github.com/robertdavidgraham/masscan) | TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. | ![](https://img.shields.io/github/stars/robertdavidgraham/masscan) | ![](https://img.shields.io/github/languages/top/robertdavidgraham/masscan) |",
   "Method": "PORT",
@@ -328,6 +348,11 @@
   "Data": "| Scanner/WVS | [rapidscan](https://github.com/skavngr/rapidscan) | The Multi-Tool Web Vulnerability Scanner. | ![](https://img.shields.io/github/stars/skavngr/rapidscan) | ![](https://img.shields.io/github/languages/top/skavngr/rapidscan) |",
   "Method": "WVS",
   "Type": "Scanner"
+ },
+ "recon_profile": {
+  "Data": "| Utility/ENV | [recon_profile](https://github.com/nahamsec/recon_profile) | Recon profile (bash profile) for bugbounty | ![](https://img.shields.io/github/stars/nahamsec/recon_profile) | ![](https://img.shields.io/github/languages/top/nahamsec/recon_profile) |",
+  "Method": "ENV",
+  "Type": "Utility"
  },
  "s3reverse": {
   "Data": "| Utility/S3 | [s3reverse](https://github.com/hahwul/s3reverse) | The format of various s3 buckets is convert in one format. for bugbounty and security testing. | ![](https://img.shields.io/github/stars/hahwul/s3reverse) | ![](https://img.shields.io/github/languages/top/hahwul/s3reverse) |",
