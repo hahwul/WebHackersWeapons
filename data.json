@@ -69,6 +69,11 @@
   "Method": "ALL",
   "Type": "Discovery"
  },
+ "Osmedeus": {
+  "Data": "| Scanner/RECON | [Osmedeus](https://github.com/j3ssie/Osmedeus) | Fully automated offensive security framework for reconnaissance and vulnerability scanning | ![](https://img.shields.io/github/stars/j3ssie/Osmedeus) | ![](https://img.shields.io/github/languages/top/j3ssie/Osmedeus) |",
+  "Method": "RECON",
+  "Type": "Scanner"
+ },
  "ParamSpider": {
   "Data": "| Discovery/FUZZ | [ParamSpider](https://github.com/devanshbatham/ParamSpider) | Mining parameters from dark corners of Web Archives | ![](https://img.shields.io/github/stars/devanshbatham/ParamSpider) | ![](https://img.shields.io/github/languages/top/devanshbatham/ParamSpider) |",
   "Method": "FUZZ",
@@ -128,6 +133,11 @@
   "Data": "| Discovery/VULN | [Silver](https://github.com/s0md3v/Silver) | Mass scan IPs for vulnerable services | ![](https://img.shields.io/github/stars/s0md3v/Silver) | ![](https://img.shields.io/github/languages/top/s0md3v/Silver) |",
   "Method": "VULN",
   "Type": "Discovery"
+ },
+ "Sn1per": {
+  "Type": "Scanner",
+  "Data": "| Scanner/RECON | [Sn1per](https://github.com/1N3/Sn1per) | Automated pentest framework for offensive security experts | ![](https://img.shields.io/github/stars/1N3/Sn1per) | ![](https://img.shields.io/github/languages/top/1N3/Sn1per) |",
+  "Method": "RECON"
  },
  "Striker": {
   "Data": "| Scanner/WVS | [Striker](https://github.com/s0md3v/Striker) | Striker is an offensive information and vulnerability scanner. | ![](https://img.shields.io/github/stars/s0md3v/Striker) | ![](https://img.shields.io/github/languages/top/s0md3v/Striker) |",
@@ -209,6 +219,11 @@
   "Method": "LFI",
   "Type": "Scanner"
  },
+ "ezXSS": {
+  "Data": "| Scanner/XSS | [ezXSS](https://github.com/ssl/ezXSS) | ezXSS is an easy way for penetration testers and bug bounty hunters to test (blind) Cross Site Scripting. | ![](https://img.shields.io/github/stars/ssl/ezXSS) | ![](https://img.shields.io/github/languages/top/ssl/ezXSS) |",
+  "Method": "XSS",
+  "Type": "Scanner"
+ },
  "ffuf": {
   "Data": "| Scanner/FUZZ | [ffuf](https://github.com/ffuf/ffuf) | Fast web fuzzer written in Go | ![](https://img.shields.io/github/stars/ffuf/ffuf) | ![](https://img.shields.io/github/languages/top/ffuf/ffuf) |",
   "Method": "FUZZ",
@@ -240,9 +255,9 @@
   "Type": "Discovery"
  },
  "github-search": {
-  "Type": "Discovery",
   "Data": "| Discovery/GIT | [github-search](https://github.com/gwen001/github-search) | Tools to perform basic search on GitHub. | ![](https://img.shields.io/github/stars/gwen001/github-search) | ![](https://img.shields.io/github/languages/top/gwen001/github-search) |",
-  "Method": "GIT"
+  "Method": "GIT",
+  "Type": "Discovery"
  },
  "gitrob": {
   "Data": "| Discovery/GIT | [gitrob](https://github.com/michenriksen/gitrob) | Reconnaissance tool for GitHub organizations | ![](https://img.shields.io/github/stars/michenriksen/gitrob) | ![](https://img.shields.io/github/languages/top/michenriksen/gitrob) |",
@@ -314,6 +329,11 @@
   "Method": "TOM",
   "Type": "Fetch"
  },
+ "megplus": {
+  "Data": "| Scanner/RECON | [megplus](https://github.com/EdOverflow/megplus) | Automated reconnaissance wrapper — TomNomNom's meg on steroids. [DEPRECATED] | ![](https://img.shields.io/github/stars/EdOverflow/megplus) | ![](https://img.shields.io/github/languages/top/EdOverflow/megplus) |",
+  "Method": "RECON",
+  "Type": "Scanner"
+ },
  "naabu": {
   "Data": "| Discovery/PORT | [naabu](https://github.com/projectdiscovery/naabu) | A fast port scanner written in go with focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests | ![](https://img.shields.io/github/stars/projectdiscovery/naabu) | ![](https://img.shields.io/github/languages/top/projectdiscovery/naabu) |",
   "Method": "PORT",
@@ -367,6 +387,11 @@
  "sqlmap": {
   "Data": "| Scanner/SQL | [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | ![](https://img.shields.io/github/stars/sqlmapproject/sqlmap) | ![](https://img.shields.io/github/languages/top/sqlmapproject/sqlmap) |",
   "Method": "SQL",
+  "Type": "Scanner"
+ },
+ "ssrf-sheriff": {
+  "Data": "| Scanner/SSRF | [ssrf-sheriff](https://github.com/teknogeek/ssrf-sheriff) | A simple SSRF-testing sheriff written in Go | ![](https://img.shields.io/github/stars/teknogeek/ssrf-sheriff) | ![](https://img.shields.io/github/languages/top/teknogeek/ssrf-sheriff) |",
+  "Method": "SSRF",
   "Type": "Scanner"
  },
  "subfinder": {
