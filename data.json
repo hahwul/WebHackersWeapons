@@ -135,9 +135,9 @@
   "Type": "Discovery"
  },
  "Sn1per": {
-  "Type": "Scanner",
   "Data": "| Scanner/RECON | [Sn1per](https://github.com/1N3/Sn1per) | Automated pentest framework for offensive security experts | ![](https://img.shields.io/github/stars/1N3/Sn1per) | ![](https://img.shields.io/github/languages/top/1N3/Sn1per) |",
-  "Method": "RECON"
+  "Method": "RECON",
+  "Type": "Scanner"
  },
  "Striker": {
   "Data": "| Scanner/WVS | [Striker](https://github.com/s0md3v/Striker) | Striker is an offensive information and vulnerability scanner. | ![](https://img.shields.io/github/stars/s0md3v/Striker) | ![](https://img.shields.io/github/languages/top/s0md3v/Striker) |",
@@ -188,6 +188,11 @@
   "Data": "| Discovery/DOMAIN | [assetfinder](https://github.com/tomnomnom/assetfinder) | Find domains and subdomains related to a given domain | ![](https://img.shields.io/github/stars/tomnomnom/assetfinder) | ![](https://img.shields.io/github/languages/top/tomnomnom/assetfinder) |",
   "Method": "DOMAIN",
   "Type": "Discovery"
+ },
+ "bountyplz": {
+  "Type": "Utility",
+  "Data": "| Utility/TEMPLATE | [bountyplz](https://github.com/fransr/bountyplz) | Automated security reporting from markdown templates (HackerOne and Bugcrowd are currently the platforms supported) | ![](https://img.shields.io/github/stars/fransr/bountyplz) | ![](https://img.shields.io/github/languages/top/fransr/bountyplz) |",
+  "Method": "TEMPLATE"
  },
  "burl": {
   "Data": "| Utility/URL | [burl](https://github.com/tomnomnom/burl) | A Broken-URL Checker | ![](https://img.shields.io/github/stars/tomnomnom/burl) | ![](https://img.shields.io/github/languages/top/tomnomnom/burl) |",
@@ -359,6 +364,11 @@
   "Method": "VULN",
   "Type": "Utility"
  },
+ "postMessage-tracker": {
+  "Data": "| Utility/VULN | [postMessage-tracker](https://github.com/fransr/postMessage-tracker) | A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon | ![](https://img.shields.io/github/stars/fransr/postMessage-tracker) | ![](https://img.shields.io/github/languages/top/fransr/postMessage-tracker) |",
+  "Method": "VULN",
+  "Type": "Utility"
+ },
  "qsreplace": {
   "Data": "| Utility/URL | [qsreplace](https://github.com/tomnomnom/qsreplace) | Accept URLs on stdin, replace all query string values with a user-supplied value | ![](https://img.shields.io/github/stars/tomnomnom/qsreplace) | ![](https://img.shields.io/github/languages/top/tomnomnom/qsreplace) |",
   "Method": "URL",
@@ -403,6 +413,11 @@
   "Data": "| Discovery/TKOV | [subjack](https://github.com/haccer/subjack) | Subdomain Takeover tool written in Go | ![](https://img.shields.io/github/stars/haccer/subjack) | ![](https://img.shields.io/github/languages/top/haccer/subjack) |",
   "Method": "TKOV",
   "Type": "Discovery"
+ },
+ "template-generator": {
+  "Data": "| Utility/TEMPLATE | [template-generator](https://github.com/fransr/template-generator) | A simple variable based template editor using handlebarjs+strapdownjs. The idea is to use variables in markdown based files to easily replace the variables with content. Data is saved temporarily in local storage. PHP is only needed to generate the list of files in the dropdown of templates. | ![](https://img.shields.io/github/stars/fransr/template-generator) | ![](https://img.shields.io/github/languages/top/fransr/template-generator) |",
+  "Method": "TEMPLATE",
+  "Type": "Utility"
  },
  "testssl.sh": {
   "Data": "| Scanner/SSL | [testssl.sh](https://github.com/drwetter/testssl.sh) | Testing TLS/SSL encryption anywhere on any port | ![](https://img.shields.io/github/stars/drwetter/testssl.sh) | ![](https://img.shields.io/github/languages/top/drwetter/testssl.sh) |",
