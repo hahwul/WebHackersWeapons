@@ -179,6 +179,11 @@
   "Method": "URL",
   "Type": "Utility"
  },
+ "aquatone": {
+  "Type": "Discovery",
+  "Data": "| Discovery/ALL | [aquatone](https://github.com/michenriksen/aquatone) | A Tool for Domain Flyovers | ![](https://img.shields.io/github/stars/michenriksen/aquatone) | ![](https://img.shields.io/github/languages/top/michenriksen/aquatone) |",
+  "Method": "ALL"
+ },
  "arachni": {
   "Data": "| Scanner/WVS | [arachni](https://github.com/Arachni/arachni) | Web Application Security Scanner Framework | ![](https://img.shields.io/github/stars/Arachni/arachni) | ![](https://img.shields.io/github/languages/top/Arachni/arachni) |",
   "Method": "WVS",
@@ -190,9 +195,9 @@
   "Type": "Discovery"
  },
  "bountyplz": {
-  "Type": "Utility",
   "Data": "| Utility/TEMPLATE | [bountyplz](https://github.com/fransr/bountyplz) | Automated security reporting from markdown templates (HackerOne and Bugcrowd are currently the platforms supported) | ![](https://img.shields.io/github/stars/fransr/bountyplz) | ![](https://img.shields.io/github/languages/top/fransr/bountyplz) |",
-  "Method": "TEMPLATE"
+  "Method": "TEMPLATE",
+  "Type": "Utility"
  },
  "burl": {
   "Data": "| Utility/URL | [burl](https://github.com/tomnomnom/burl) | A Broken-URL Checker | ![](https://img.shields.io/github/stars/tomnomnom/burl) | ![](https://img.shields.io/github/languages/top/tomnomnom/burl) |",
@@ -261,6 +266,11 @@
  },
  "github-search": {
   "Data": "| Discovery/GIT | [github-search](https://github.com/gwen001/github-search) | Tools to perform basic search on GitHub. | ![](https://img.shields.io/github/stars/gwen001/github-search) | ![](https://img.shields.io/github/languages/top/gwen001/github-search) |",
+  "Method": "GIT",
+  "Type": "Discovery"
+ },
+ "gitleaks": {
+  "Data": "| Discovery/GIT | [gitleaks](https://github.com/zricethezav/gitleaks) | Scan git repos for secrets using regex and entropy 🔑 | ![](https://img.shields.io/github/stars/zricethezav/gitleaks) | ![](https://img.shields.io/github/languages/top/zricethezav/gitleaks) |",
   "Method": "GIT",
   "Type": "Discovery"
  },
@@ -453,6 +463,11 @@
   "Data": "| Scanner/WP | [wpscan](https://github.com/wpscanteam/wpscan) | WPScan is a free, for non-commercial use, black box WordPress Vulnerability Scanner written for security professionals and blog maintainers to test the security of their WordPress websites. | ![](https://img.shields.io/github/stars/wpscanteam/wpscan) | ![](https://img.shields.io/github/languages/top/wpscanteam/wpscan) |",
   "Method": "WP",
   "Type": "Scanner"
+ },
+ "wuzz": {
+  "Data": "| Fetch/REPEAT | [wuzz](https://github.com/asciimoo/wuzz) | Interactive cli tool for HTTP inspection | ![](https://img.shields.io/github/stars/asciimoo/wuzz) | ![](https://img.shields.io/github/languages/top/asciimoo/wuzz) |",
+  "Method": "REPEAT",
+  "Type": "Fetch"
  },
  "xsser": {
   "Data": "| Scanner/XSS | [xsser](https://github.com/epsylon/xsser) | Cross Site \"Scripter\" (aka XSSer) is an automatic -framework- to detect, exploit and report XSS vulnerabilities in web-based applications. | ![](https://img.shields.io/github/stars/epsylon/xsser) | ![](https://img.shields.io/github/languages/top/epsylon/xsser) |",
