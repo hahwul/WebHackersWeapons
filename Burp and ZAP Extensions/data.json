@@ -35,9 +35,9 @@
   "Type": "Burp"
  },
  "attack-surface-detector-zap": {
-  "Type": "ZAP",
   "Data": "| ZAP/PASV | [attack-surface-detector-zap](https://github.com/secdec/attack-surface-detector-zap) | The Attack Surface Detector uses static code analyses to identify web app endpoints by parsing routes and identifying parameters | ![](https://img.shields.io/github/stars/secdec/attack-surface-detector-zap) | ![](https://img.shields.io/github/languages/top/secdec/attack-surface-detector-zap) |",
-  "Method": "PASV"
+  "Method": "PASV",
+  "Type": "ZAP"
  },
  "auto-repeater": {
   "Data": "| Burp/PASV | [auto-repeater](https://github.com/PortSwigger/auto-repeater) | Automated HTTP Request Repeating With Burp Suite | ![](https://img.shields.io/github/stars/PortSwigger/auto-repeater) | ![](https://img.shields.io/github/languages/top/PortSwigger/auto-repeater) |",
@@ -103,6 +103,11 @@
   "Data": "| Burp/PASV | [reflected-parameters](https://github.com/PortSwigger/reflected-parameters) | Find reflected parameter on Burpsuite | ![](https://img.shields.io/github/stars/PortSwigger/reflected-parameters) | ![](https://img.shields.io/github/languages/top/PortSwigger/reflected-parameters) |",
   "Method": "PASV",
   "Type": "Burp"
+ },
+ "safecopy": {
+  "Type": "Burp",
+  "Data": "| Burp/UTIL | [safecopy](https://github.com/yashrs/safecopy) | Burp Extension for copying requests safely. It redacts headers like Cookie, Authorization and X-CSRF-Token for now. More support can be added in the future. | ![](https://img.shields.io/github/stars/yashrs/safecopy) | ![](https://img.shields.io/github/languages/top/yashrs/safecopy) |",
+  "Method": "UTIL"
  },
  "taborator": {
   "Data": "| Burp/CALLBACK | [taborator](https://github.com/hackvertor/taborator) | A Burp extension to show the Collaborator client in a tab | ![](https://img.shields.io/github/stars/hackvertor/taborator) | ![](https://img.shields.io/github/languages/top/hackvertor/taborator) |",
