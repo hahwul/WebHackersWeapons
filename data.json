@@ -1,4 +1,9 @@
 {
+ "Aghar": {
+  "Type": "Discovery",
+  "Data": "| Discovery/DOMAIN | [Aghar](https://github.com/mehedi1194/Aghar) | A tool for Active, Passive, Peramuted Subdomain Enumeration | ![](https://img.shields.io/github/stars/mehedi1194/Aghar) | ![](https://img.shields.io/github/languages/top/mehedi1194/Aghar) |",
+  "Method": "DOMAIN"
+ },
  "Amass": {
   "Data": "| Discovery/DOMAIN | [Amass](https://github.com/OWASP/Amass) | In-depth Attack Surface Mapping and Asset Discovery | ![](https://img.shields.io/github/stars/OWASP/Amass) | ![](https://img.shields.io/github/languages/top/OWASP/Amass) |",
   "Method": "DOMAIN",
@@ -180,9 +185,9 @@
   "Type": "Utility"
  },
  "aquatone": {
-  "Type": "Discovery",
   "Data": "| Discovery/ALL | [aquatone](https://github.com/michenriksen/aquatone) | A Tool for Domain Flyovers | ![](https://img.shields.io/github/stars/michenriksen/aquatone) | ![](https://img.shields.io/github/languages/top/michenriksen/aquatone) |",
-  "Method": "ALL"
+  "Method": "ALL",
+  "Type": "Discovery"
  },
  "arachni": {
   "Data": "| Scanner/WVS | [arachni](https://github.com/Arachni/arachni) | Web Application Security Scanner Framework | ![](https://img.shields.io/github/stars/Arachni/arachni) | ![](https://img.shields.io/github/languages/top/Arachni/arachni) |",
