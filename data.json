@@ -9,6 +9,11 @@
   "Method": "HTTP",
   "Type": "Discovery"
  },
+ "Aron": {
+  "Type": "Discovery",
+  "Data": "| Discovery/HTTP | [Aron](https://github.com/m4ll0k/Aron) | Aron is a GO script for finding hidden GET \u0026 POST parameters | ![](https://img.shields.io/github/stars/m4ll0k/Aron) | ![](https://img.shields.io/github/languages/top/m4ll0k/Aron) |",
+  "Method": "HTTP"
+ },
  "BurpSuite": {
   "Data": "| Army-Knife/ALL  | [BurpSuite](https://portswigger.net/burp) |  the BurpSuite project |![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "BURP",
@@ -180,9 +185,9 @@
   "Type": "Utility"
  },
  "aquatone": {
-  "Type": "Discovery",
   "Data": "| Discovery/ALL | [aquatone](https://github.com/michenriksen/aquatone) | A Tool for Domain Flyovers | ![](https://img.shields.io/github/stars/michenriksen/aquatone) | ![](https://img.shields.io/github/languages/top/michenriksen/aquatone) |",
-  "Method": "ALL"
+  "Method": "ALL",
+  "Type": "Discovery"
  },
  "arachni": {
   "Data": "| Scanner/WVS | [arachni](https://github.com/Arachni/arachni) | Web Application Security Scanner Framework | ![](https://img.shields.io/github/stars/Arachni/arachni) | ![](https://img.shields.io/github/languages/top/Arachni/arachni) |",
@@ -193,6 +198,11 @@
   "Data": "| Discovery/DOMAIN | [assetfinder](https://github.com/tomnomnom/assetfinder) | Find domains and subdomains related to a given domain | ![](https://img.shields.io/github/stars/tomnomnom/assetfinder) | ![](https://img.shields.io/github/languages/top/tomnomnom/assetfinder) |",
   "Method": "DOMAIN",
   "Type": "Discovery"
+ },
+ "axiom": {
+  "Data": "| Utility/PENTEST | [axiom](https://github.com/pry0cc/axiom) | A dynamic infrastructure toolkit for red teamers and bug bounty hunters! | ![](https://img.shields.io/github/stars/pry0cc/axiom) | ![](https://img.shields.io/github/languages/top/pry0cc/axiom) |",
+  "Method": "PENTEST",
+  "Type": "Utility"
  },
  "bountyplz": {
   "Data": "| Utility/TEMPLATE | [bountyplz](https://github.com/fransr/bountyplz) | Automated security reporting from markdown templates (HackerOne and Bugcrowd are currently the platforms supported) | ![](https://img.shields.io/github/stars/fransr/bountyplz) | ![](https://img.shields.io/github/languages/top/fransr/bountyplz) |",
@@ -218,6 +228,11 @@
   "Data": "| Discovery/FUZZ | [dirsearch](https://github.com/maurosoria/dirsearch) | Web path scanner | ![](https://img.shields.io/github/stars/maurosoria/dirsearch) | ![](https://img.shields.io/github/languages/top/maurosoria/dirsearch) |",
   "Method": "FUZZ",
   "Type": "Discovery"
+ },
+ "dnsobserver": {
+  "Data": "| Utility/CALLBACK | [dnsobserver](https://github.com/allyomalley/dnsobserver) | A handy DNS service written in Go to aid in the detection of several types of blind vulnerabilities. It monitors a pentester's server for out-of-band DNS interactions and sends lookup notifications via Slack. | ![](https://img.shields.io/github/stars/allyomalley/dnsobserver) | ![](https://img.shields.io/github/languages/top/allyomalley/dnsobserver) |",
+  "Method": "CALLBACK",
+  "Type": "Utility"
  },
  "dnsprobe": {
   "Data": "| Discovery/DNS | [dnsprobe](https://github.com/projectdiscovery/dnsprobe) | DNSProb (beta) is a tool built on top of retryabledns that allows you to perform multiple dns queries of your choice with a list of user supplied resolvers. | ![](https://img.shields.io/github/stars/projectdiscovery/dnsprobe) | ![](https://img.shields.io/github/languages/top/projectdiscovery/dnsprobe) |",
@@ -423,6 +438,11 @@
   "Data": "| Discovery/TKOV | [subjack](https://github.com/haccer/subjack) | Subdomain Takeover tool written in Go | ![](https://img.shields.io/github/stars/haccer/subjack) | ![](https://img.shields.io/github/languages/top/haccer/subjack) |",
   "Method": "TKOV",
   "Type": "Discovery"
+ },
+ "subs_all": {
+  "Data": "| Utility/WORD | [subs_all](https://github.com/emadshanab/subs_all) | Subdomain Enumeration Wordlist. 8956437 unique words. Updated. | ![](https://img.shields.io/github/stars/emadshanab/subs_all) | ![](https://img.shields.io/github/languages/top/emadshanab/subs_all) |",
+  "Method": "WORD",
+  "Type": "Utility"
  },
  "template-generator": {
   "Data": "| Utility/TEMPLATE | [template-generator](https://github.com/fransr/template-generator) | A simple variable based template editor using handlebarjs+strapdownjs. The idea is to use variables in markdown based files to easily replace the variables with content. Data is saved temporarily in local storage. PHP is only needed to generate the list of files in the dropdown of templates. | ![](https://img.shields.io/github/stars/fransr/template-generator) | ![](https://img.shields.io/github/languages/top/fransr/template-generator) |",
