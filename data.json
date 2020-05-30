@@ -24,6 +24,11 @@
   "Method": "CSP",
   "Type": "Utility"
  },
+ "Chaos Web": {
+  "Data": "| Discovery/DOMAIN  | [Chaos Web](https://chaos.projectdiscovery.io) |  actively scan and maintain internet-wide assets' data. enhance research and analyse changes around DNS for better insights.|![](https://img.shields.io/static/v1?label=\u0026message=it's not github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's not github\u0026color=gray)",
+  "Method": "DOMAIN",
+  "Type": "Discovery"
+ },
  "Corsy": {
   "Data": "| Scanner/CORS | [Corsy](https://github.com/s0md3v/Corsy) | CORS Misconfiguration Scanner | ![](https://img.shields.io/github/stars/s0md3v/Corsy) | ![](https://img.shields.io/github/languages/top/s0md3v/Corsy) |",
   "Method": "CORS",
@@ -219,6 +224,11 @@
   "Method": "CRAWL",
   "Type": "Discovery"
  },
+ "chaos-client": {
+  "Type": "Discovery",
+  "Data": "| Discovery/DOMAIN | [chaos-client](https://github.com/projectdiscovery/chaos-client) | Go client to communicate with Chaos DNS API. | ![](https://img.shields.io/github/stars/projectdiscovery/chaos-client) | ![](https://img.shields.io/github/languages/top/projectdiscovery/chaos-client) |",
+  "Method": "DOMAIN"
+ },
  "dalfox": {
   "Data": "| Scanner/XSS | [dalfox](https://github.com/hahwul/dalfox) | 🦊 DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang | ![](https://img.shields.io/github/stars/hahwul/dalfox) | ![](https://img.shields.io/github/languages/top/hahwul/dalfox) |",
   "Method": "XSS",
@@ -335,9 +345,9 @@
   "Type": "Fetch"
  },
  "httpx": {
-  "Type": "Fetch",
   "Data": "| Fetch/HTTP | [httpx](https://github.com/projectdiscovery/httpx) | httpx is a fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads. | ![](https://img.shields.io/github/stars/projectdiscovery/httpx) | ![](https://img.shields.io/github/languages/top/projectdiscovery/httpx) |",
-  "Method": "HTTP"
+  "Method": "HTTP",
+  "Type": "Fetch"
  },
  "jaeles": {
   "Data": "| Army-Knife/SCAN | [jaeles](https://github.com/jaeles-project/jaeles) | The Swiss Army knife for automated Web Application Testing | ![](https://img.shields.io/github/stars/jaeles-project/jaeles) | ![](https://img.shields.io/github/languages/top/jaeles-project/jaeles) |",
