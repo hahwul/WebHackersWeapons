@@ -225,9 +225,9 @@
   "Type": "Discovery"
  },
  "chaos-client": {
-  "Type": "Discovery",
   "Data": "| Discovery/DOMAIN | [chaos-client](https://github.com/projectdiscovery/chaos-client) | Go client to communicate with Chaos DNS API. | ![](https://img.shields.io/github/stars/projectdiscovery/chaos-client) | ![](https://img.shields.io/github/languages/top/projectdiscovery/chaos-client) |",
-  "Method": "DOMAIN"
+  "Method": "DOMAIN",
+  "Type": "Discovery"
  },
  "dalfox": {
   "Data": "| Scanner/XSS | [dalfox](https://github.com/hahwul/dalfox) | 🦊 DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang | ![](https://img.shields.io/github/stars/hahwul/dalfox) | ![](https://img.shields.io/github/languages/top/hahwul/dalfox) |",
@@ -393,6 +393,11 @@
   "Data": "| Discovery/PORT | [nmap](https://github.com/nmap/nmap) | Nmap - the Network Mapper. Github mirror of official SVN repository. | ![](https://img.shields.io/github/stars/nmap/nmap) | ![](https://img.shields.io/github/languages/top/nmap/nmap) |",
   "Method": "PORT",
   "Type": "Discovery"
+ },
+ "nuclei": {
+  "Type": "Scanner",
+  "Data": "| Scanner/WVS | [nuclei](https://github.com/projectdiscovery/nuclei) | Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use. | ![](https://img.shields.io/github/stars/projectdiscovery/nuclei) | ![](https://img.shields.io/github/languages/top/projectdiscovery/nuclei) |",
+  "Method": "WVS"
  },
  "oxml_xxe": {
   "Data": "| Utility/VULN | [oxml_xxe](https://github.com/BuffaloWill/oxml_xxe) | A tool for embedding XXE/XML exploits into different filetypes | ![](https://img.shields.io/github/stars/BuffaloWill/oxml_xxe) | ![](https://img.shields.io/github/languages/top/BuffaloWill/oxml_xxe) |",
