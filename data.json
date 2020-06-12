@@ -395,9 +395,9 @@
   "Type": "Discovery"
  },
  "nuclei": {
-  "Type": "Scanner",
   "Data": "| Scanner/WVS | [nuclei](https://github.com/projectdiscovery/nuclei) | Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use. | ![](https://img.shields.io/github/stars/projectdiscovery/nuclei) | ![](https://img.shields.io/github/languages/top/projectdiscovery/nuclei) |",
-  "Method": "WVS"
+  "Method": "WVS",
+  "Type": "Scanner"
  },
  "oxml_xxe": {
   "Data": "| Utility/VULN | [oxml_xxe](https://github.com/BuffaloWill/oxml_xxe) | A tool for embedding XXE/XML exploits into different filetypes | ![](https://img.shields.io/github/stars/BuffaloWill/oxml_xxe) | ![](https://img.shields.io/github/languages/top/BuffaloWill/oxml_xxe) |",
@@ -413,6 +413,11 @@
   "Data": "| Utility/VULN | [postMessage-tracker](https://github.com/fransr/postMessage-tracker) | A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon | ![](https://img.shields.io/github/stars/fransr/postMessage-tracker) | ![](https://img.shields.io/github/languages/top/fransr/postMessage-tracker) |",
   "Method": "VULN",
   "Type": "Utility"
+ },
+ "pwncat": {
+  "Type": "Utility",
+  "Data": "| Utility/PENTEST | [pwncat](https://github.com/cytopia/pwncat) | pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind and reverse shell, self-injecting shell and port forwarding magic - and its fully scriptable with Python (PSE) | ![](https://img.shields.io/github/stars/cytopia/pwncat) | ![](https://img.shields.io/github/languages/top/cytopia/pwncat) |",
+  "Method": "PENTEST"
  },
  "qsreplace": {
   "Data": "| Utility/URL | [qsreplace](https://github.com/tomnomnom/qsreplace) | Accept URLs on stdin, replace all query string values with a user-supplied value | ![](https://img.shields.io/github/stars/tomnomnom/qsreplace) | ![](https://img.shields.io/github/languages/top/tomnomnom/qsreplace) |",
