@@ -25,7 +25,7 @@
   "Type": "Utility"
  },
  "Chaos Web": {
-  "Data": "| Discovery/DOMAIN  | [Chaos Web](https://chaos.projectdiscovery.io) |  actively scan and maintain internet-wide assets' data. enhance research and analyse changes around DNS for better insights.|![](https://img.shields.io/static/v1?label=\u0026message=it's not github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)",
+  "Data": "| Discovery/DOMAIN  | [Chaos Web](https://chaos.projectdiscovery.io) |  actively scan and maintain internet-wide assets' data. enhance research and analyse changes around DNS for better insights.|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)",
   "Method": "DOMAIN",
   "Type": "Discovery"
  },
