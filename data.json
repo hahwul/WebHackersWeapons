@@ -459,6 +459,11 @@
   "Method": "DNS",
   "Type": "Discovery"
  },
+ "smuggler": {
+  "Type": "Scanner",
+  "Data": "| Scanner/SMUGGLE | [smuggler](https://github.com/defparam/smuggler) | Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3 | ![](https://img.shields.io/github/stars/defparam/smuggler) | ![](https://img.shields.io/github/languages/top/defparam/smuggler) |",
+  "Method": "SMUGGLE"
+ },
  "sqlmap": {
   "Data": "| Scanner/SQL | [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | ![](https://img.shields.io/github/stars/sqlmapproject/sqlmap) | ![](https://img.shields.io/github/languages/top/sqlmapproject/sqlmap) |",
   "Method": "SQL",
@@ -505,9 +510,9 @@
   "Type": "Utility"
  },
  "urlprobe": {
-  "Type": "Utility",
   "Data": "| Utility/URL | [urlprobe](https://github.com/1ndianl33t/urlprobe) | Urls status code \u0026 content length checker | ![](https://img.shields.io/github/stars/1ndianl33t/urlprobe) | ![](https://img.shields.io/github/languages/top/1ndianl33t/urlprobe) |",
-  "Method": "URL"
+  "Method": "URL",
+  "Type": "Utility"
  },
  "waybackurls": {
   "Data": "| Discovery/URL | [waybackurls](https://github.com/tomnomnom/waybackurls) | Fetch all the URLs that the Wayback Machine knows about for a domain | ![](https://img.shields.io/github/stars/tomnomnom/waybackurls) | ![](https://img.shields.io/github/languages/top/tomnomnom/waybackurls) |",
