@@ -14,6 +14,11 @@
   "Method": "HTTP",
   "Type": "Discovery"
  },
+ "Atlas": {
+  "Type": "Utility",
+  "Data": "| Utility/BRIDGE | [Atlas](https://github.com/m4ll0k/Atlas) | Quick SQLMap Tamper Suggester | ![](https://img.shields.io/github/stars/m4ll0k/Atlas) | ![](https://img.shields.io/github/languages/top/m4ll0k/Atlas) |",
+  "Method": "BRIDGE"
+ },
  "BurpSuite": {
   "Data": "| Army-Knife/ALL  | [BurpSuite](https://portswigger.net/burp) |  the BurpSuite project |![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "BURP",
@@ -460,9 +465,9 @@
   "Type": "Discovery"
  },
  "smuggler": {
-  "Type": "Scanner",
   "Data": "| Scanner/SMUGGLE | [smuggler](https://github.com/defparam/smuggler) | Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3 | ![](https://img.shields.io/github/stars/defparam/smuggler) | ![](https://img.shields.io/github/languages/top/defparam/smuggler) |",
-  "Method": "SMUGGLE"
+  "Method": "SMUGGLE",
+  "Type": "Scanner"
  },
  "sqlmap": {
   "Data": "| Scanner/SQL | [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | ![](https://img.shields.io/github/stars/sqlmapproject/sqlmap) | ![](https://img.shields.io/github/languages/top/sqlmapproject/sqlmap) |",
