@@ -265,9 +265,9 @@
   "Type": "Scanner"
  },
  "findom-xss": {
-  "Type": "Scanner",
   "Data": "| Scanner/XSS | [findom-xss](https://github.com/dwisiswant0/findom-xss) | A fast DOM based XSS vulnerability scanner with simplicity. | ![](https://img.shields.io/github/stars/dwisiswant0/findom-xss) | ![](https://img.shields.io/github/languages/top/dwisiswant0/findom-xss) |",
-  "Method": "XSS"
+  "Method": "XSS",
+  "Type": "Scanner"
  },
  "findomain": {
   "Data": "| Discovery/DOMAIN | [findomain](https://github.com/Edu4rdSHL/findomain) | The fastest and cross-platform subdomain enumerator, do not waste your time. | ![](https://img.shields.io/github/stars/Edu4rdSHL/findomain) | ![](https://img.shields.io/github/languages/top/Edu4rdSHL/findomain) |",
@@ -325,9 +325,9 @@
   "Type": "Utility"
  },
  "graphql-voyager": {
-  "Type": "Discovery",
   "Data": "| Discovery/GQL | [graphql-voyager](https://github.com/APIs-guru/graphql-voyager) | 🛰️ Represent any GraphQL API as an interactive graph | ![](https://img.shields.io/github/stars/APIs-guru/graphql-voyager) | ![](https://img.shields.io/github/languages/top/APIs-guru/graphql-voyager) |",
-  "Method": "GQL"
+  "Method": "GQL",
+  "Type": "Discovery"
  },
  "gron": {
   "Data": "| Utility/JSON | [gron](https://github.com/tomnomnom/gron) | Make JSON greppable! | ![](https://img.shields.io/github/stars/tomnomnom/gron) | ![](https://img.shields.io/github/languages/top/tomnomnom/gron) |",
@@ -503,6 +503,11 @@
   "Data": "| Utility/URL | [unfurl](https://github.com/tomnomnom/unfurl) | Pull out bits of URLs provided on stdin | ![](https://img.shields.io/github/stars/tomnomnom/unfurl) | ![](https://img.shields.io/github/languages/top/tomnomnom/unfurl) |",
   "Method": "URL",
   "Type": "Utility"
+ },
+ "urlprobe": {
+  "Type": "Utility",
+  "Data": "| Utility/URL | [urlprobe](https://github.com/1ndianl33t/urlprobe) | Urls status code \u0026 content length checker | ![](https://img.shields.io/github/stars/1ndianl33t/urlprobe) | ![](https://img.shields.io/github/languages/top/1ndianl33t/urlprobe) |",
+  "Method": "URL"
  },
  "waybackurls": {
   "Data": "| Discovery/URL | [waybackurls](https://github.com/tomnomnom/waybackurls) | Fetch all the URLs that the Wayback Machine knows about for a domain | ![](https://img.shields.io/github/stars/tomnomnom/waybackurls) | ![](https://img.shields.io/github/languages/top/tomnomnom/waybackurls) |",
