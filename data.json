@@ -15,9 +15,9 @@
   "Type": "Discovery"
  },
  "Atlas": {
-  "Type": "Utility",
   "Data": "| Utility/BRIDGE | [Atlas](https://github.com/m4ll0k/Atlas) | Quick SQLMap Tamper Suggester | ![](https://img.shields.io/github/stars/m4ll0k/Atlas) | ![](https://img.shields.io/github/languages/top/m4ll0k/Atlas) |",
-  "Method": "BRIDGE"
+  "Method": "BRIDGE",
+  "Type": "Utility"
  },
  "BurpSuite": {
   "Data": "| Army-Knife/ALL  | [BurpSuite](https://portswigger.net/burp) |  the BurpSuite project |![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
@@ -28,6 +28,11 @@
   "Data": "| Utility/CSP  | [CSP Evaluator](https://csp-evaluator.withgoogle.com) |  Online CSP Evaluator from google|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "CSP",
   "Type": "Utility"
+ },
+ "CT_subdomains": {
+  "Type": "Utility",
+  "Data": "| Utility/WORD | [CT_subdomains](https://github.com/internetwache/CT_subdomains) | An hourly updated list of subdomains gathered from certificate transparency logs | ![](https://img.shields.io/github/stars/internetwache/CT_subdomains) | ![](https://img.shields.io/github/languages/top/internetwache/CT_subdomains) |",
+  "Method": "WORD"
  },
  "Chaos Web": {
   "Data": "| Discovery/DOMAIN  | [Chaos Web](https://chaos.projectdiscovery.io) |  actively scan and maintain internet-wide assets' data. enhance research and analyse changes around DNS for better insights.|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)",
