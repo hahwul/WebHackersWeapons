@@ -186,4 +186,4 @@ $ ../distribute-readme
 ```
 
 ## Thanks to (Contributor)
-[six2dez](https://github.com/six2dez) , [si9int](https://github.com/si9int)
+[six2dez](https://github.com/six2dez) , [si9int](https://github.com/si9int) , [dwisiswant0](https://twitter.com/dwisiswant0)
