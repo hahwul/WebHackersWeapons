@@ -264,6 +264,11 @@
   "Method": "FUZZ",
   "Type": "Scanner"
  },
+ "findom-xss": {
+  "Type": "Scanner",
+  "Data": "| Scanner/XSS | [findom-xss](https://github.com/dwisiswant0/findom-xss) | A fast DOM based XSS vulnerability scanner with simplicity. | ![](https://img.shields.io/github/stars/dwisiswant0/findom-xss) | ![](https://img.shields.io/github/languages/top/dwisiswant0/findom-xss) |",
+  "Method": "XSS"
+ },
  "findomain": {
   "Data": "| Discovery/DOMAIN | [findomain](https://github.com/Edu4rdSHL/findomain) | The fastest and cross-platform subdomain enumerator, do not waste your time. | ![](https://img.shields.io/github/stars/Edu4rdSHL/findomain) | ![](https://img.shields.io/github/languages/top/Edu4rdSHL/findomain) |",
   "Method": "DOMAIN",
