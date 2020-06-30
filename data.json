@@ -74,11 +74,6 @@
   "Method": "LFI",
   "Type": "Scanner"
  },
- "Medusa": {
-  "Data": "| Scanner/FUZZ | [Medusa](https://github.com/pymedusa/Medusa) | Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. | ![](https://img.shields.io/github/stars/pymedusa/Medusa) | ![](https://img.shields.io/github/languages/top/pymedusa/Medusa) |",
-  "Method": "FUZZ",
-  "Type": "Scanner"
- },
  "NoSQLMap": {
   "Data": "| Scanner/NOSQL | [NoSQLMap](https://github.com/codingo/NoSQLMap) | Automated NoSQL database enumeration and web application exploitation tool. | ![](https://img.shields.io/github/stars/codingo/NoSQLMap) | ![](https://img.shields.io/github/languages/top/codingo/NoSQLMap) |",
   "Method": "NOSQL",
