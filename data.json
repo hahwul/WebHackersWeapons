@@ -390,9 +390,9 @@
   "Type": "Discovery"
  },
  "medusa": {
-  "Type": "Discovery",
   "Data": "| Discovery/FUZZ | [medusa](https://github.com/riza/medusa) | Fastest recursive HTTP fuzzer, like a Ferrari. | ![](https://img.shields.io/github/stars/riza/medusa) | ![](https://img.shields.io/github/languages/top/riza/medusa) |",
-  "Method": "FUZZ"
+  "Method": "FUZZ",
+  "Type": "Discovery"
  },
  "meg": {
   "Data": "| Fetch/TOM | [meg](https://github.com/tomnomnom/meg) | Fetch many paths for many hosts - without killing the hosts | ![](https://img.shields.io/github/stars/tomnomnom/meg) | ![](https://img.shields.io/github/languages/top/tomnomnom/meg) |",
@@ -433,6 +433,11 @@
   "Data": "| Utility/VULN | [pentest-tools](https://github.com/gwen001/pentest-tools) | Custom pentesting tools | ![](https://img.shields.io/github/stars/gwen001/pentest-tools) | ![](https://img.shields.io/github/languages/top/gwen001/pentest-tools) |",
   "Method": "VULN",
   "Type": "Utility"
+ },
+ "pet": {
+  "Type": "Utility",
+  "Data": "| Utility/SNIPPET | [pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager, written in Go. | ![](https://img.shields.io/github/stars/knqyf263/pet) | ![](https://img.shields.io/github/languages/top/knqyf263/pet) |",
+  "Method": "SNIPPET"
  },
  "postMessage-tracker": {
   "Data": "| Utility/VULN | [postMessage-tracker](https://github.com/fransr/postMessage-tracker) | A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon | ![](https://img.shields.io/github/stars/fransr/postMessage-tracker) | ![](https://img.shields.io/github/languages/top/fransr/postMessage-tracker) |",
