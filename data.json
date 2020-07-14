@@ -44,6 +44,11 @@
   "Method": "CORS",
   "Type": "Scanner"
  },
+ "CyberChef": {
+  "Type": "Utility",
+  "Data": "| Utility/TOOLBOX | [CyberChef](https://github.com/gchq/CyberChef) | The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis | ![](https://img.shields.io/github/stars/gchq/CyberChef) | ![](https://img.shields.io/github/languages/top/gchq/CyberChef) |",
+  "Method": "TOOLBOX"
+ },
  "DNSDumpster": {
   "Data": "| Discovery/DNS  | [DNSDumpster](https://dnsdumpster.com) |  Online dns recon \u0026 research, find \u0026 lookup dns records|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "DNS",
@@ -254,6 +259,11 @@
   "Method": "DNS",
   "Type": "Discovery"
  },
+ "domdig": {
+  "Data": "| Scanner/XSS | [domdig](https://github.com/fcavallarin/domdig) | DOM XSS scanner for Single Page Applications | ![](https://img.shields.io/github/stars/fcavallarin/domdig) | ![](https://img.shields.io/github/languages/top/fcavallarin/domdig) |",
+  "Method": "XSS",
+  "Type": "Scanner"
+ },
  "dotdotpwn": {
   "Data": "| Scanner/LFI | [dotdotpwn](https://github.com/wireghoul/dotdotpwn) | DotDotPwn - The Directory Traversal Fuzzer | ![](https://img.shields.io/github/stars/wireghoul/dotdotpwn) | ![](https://img.shields.io/github/languages/top/wireghoul/dotdotpwn) |",
   "Method": "LFI",
@@ -435,9 +445,9 @@
   "Type": "Utility"
  },
  "pet": {
-  "Type": "Utility",
   "Data": "| Utility/SNIPPET | [pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager, written in Go. | ![](https://img.shields.io/github/stars/knqyf263/pet) | ![](https://img.shields.io/github/languages/top/knqyf263/pet) |",
-  "Method": "SNIPPET"
+  "Method": "SNIPPET",
+  "Type": "Utility"
  },
  "postMessage-tracker": {
   "Data": "| Utility/VULN | [postMessage-tracker](https://github.com/fransr/postMessage-tracker) | A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon | ![](https://img.shields.io/github/stars/fransr/postMessage-tracker) | ![](https://img.shields.io/github/languages/top/fransr/postMessage-tracker) |",
