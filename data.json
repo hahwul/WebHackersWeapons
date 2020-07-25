@@ -45,9 +45,9 @@
   "Type": "Scanner"
  },
  "CyberChef": {
-  "Type": "Utility",
   "Data": "| Utility/TOOLBOX | [CyberChef](https://github.com/gchq/CyberChef) | The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis | ![](https://img.shields.io/github/stars/gchq/CyberChef) | ![](https://img.shields.io/github/languages/top/gchq/CyberChef) |",
-  "Method": "TOOLBOX"
+  "Method": "TOOLBOX",
+  "Type": "Utility"
  },
  "DNSDumpster": {
   "Data": "| Discovery/DNS  | [DNSDumpster](https://dnsdumpster.com) |  Online dns recon \u0026 research, find \u0026 lookup dns records|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
@@ -113,6 +113,11 @@
   "Data": "| Discovery/CRAWL | [Photon](https://github.com/s0md3v/Photon) | Incredibly fast crawler designed for OSINT. | ![](https://img.shields.io/github/stars/s0md3v/Photon) | ![](https://img.shields.io/github/languages/top/s0md3v/Photon) |",
   "Method": "CRAWL",
   "Type": "Discovery"
+ },
+ "RustScan": {
+  "Type": "Discovery",
+  "Data": "| Discovery/PORT | [RustScan](https://github.com/brandonskerritt/RustScan) | Faster Nmap Scanning with Rust | ![](https://img.shields.io/github/stars/brandonskerritt/RustScan) | ![](https://img.shields.io/github/languages/top/brandonskerritt/RustScan) |",
+  "Method": "PORT"
  },
  "S3Scanner": {
   "Data": "| Scanner/S3 | [S3Scanner](https://github.com/sa7mon/S3Scanner) | Scan for open AWS S3 buckets and dump the contents | ![](https://img.shields.io/github/stars/sa7mon/S3Scanner) | ![](https://img.shields.io/github/languages/top/sa7mon/S3Scanner) |",
