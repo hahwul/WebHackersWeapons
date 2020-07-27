@@ -1,4 +1,9 @@
 {
+ "AuthMatrix": {
+  "Type": "Burp",
+  "Data": "| Burp/AUTH | [AuthMatrix](https://github.com/SecurityInnovation/AuthMatrix) | AuthMatrix is a Burp Suite extension that provides a simple way to test authorization in web applications and web services. | ![](https://img.shields.io/github/stars/SecurityInnovation/AuthMatrix) | ![](https://img.shields.io/github/languages/top/SecurityInnovation/AuthMatrix) |",
+  "Method": "AUTH"
+ },
  "Autorize": {
   "Data": "| Burp/PASV | [Autorize](https://github.com/Quitten/Autorize) | Automatic authorization enforcement detection extension for burp suite written in Jython developed by Barak Tawily in order to ease application security people work and allow them perform an automatic authorization tests | ![](https://img.shields.io/github/stars/Quitten/Autorize) | ![](https://img.shields.io/github/languages/top/Quitten/Autorize) |",
   "Method": "PASV",
@@ -95,9 +100,9 @@
   "Type": "All"
  },
  "inql": {
-  "Type": "Burp",
   "Data": "| Burp/GQL | [inql](https://github.com/doyensec/inql) | InQL - A Burp Extension for GraphQL Security Testing | ![](https://img.shields.io/github/stars/doyensec/inql) | ![](https://img.shields.io/github/languages/top/doyensec/inql) |",
-  "Method": "GQL"
+  "Method": "GQL",
+  "Type": "Burp"
  },
  "param-miner": {
   "Data": "| Burp/ACTIVE | [param-miner](https://github.com/PortSwigger/param-miner) | Parameter mining on Burpsuite | ![](https://img.shields.io/github/stars/PortSwigger/param-miner) | ![](https://img.shields.io/github/languages/top/PortSwigger/param-miner) |",
