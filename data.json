@@ -115,9 +115,9 @@
   "Type": "Discovery"
  },
  "RustScan": {
-  "Type": "Discovery",
   "Data": "| Discovery/PORT | [RustScan](https://github.com/brandonskerritt/RustScan) | Faster Nmap Scanning with Rust | ![](https://img.shields.io/github/stars/brandonskerritt/RustScan) | ![](https://img.shields.io/github/languages/top/brandonskerritt/RustScan) |",
-  "Method": "PORT"
+  "Method": "PORT",
+  "Type": "Discovery"
  },
  "S3Scanner": {
   "Data": "| Scanner/S3 | [S3Scanner](https://github.com/sa7mon/S3Scanner) | Scan for open AWS S3 buckets and dump the contents | ![](https://img.shields.io/github/stars/sa7mon/S3Scanner) | ![](https://img.shields.io/github/languages/top/sa7mon/S3Scanner) |",
@@ -478,6 +478,11 @@
   "Data": "| Utility/ENV | [recon_profile](https://github.com/nahamsec/recon_profile) | Recon profile (bash profile) for bugbounty | ![](https://img.shields.io/github/stars/nahamsec/recon_profile) | ![](https://img.shields.io/github/languages/top/nahamsec/recon_profile) |",
   "Method": "ENV",
   "Type": "Utility"
+ },
+ "rengine": {
+  "Type": "Discovery",
+  "Data": "| Discovery/ALL | [rengine](https://github.com/yogeshojha/rengine) | reNgine is an automated reconnaissance framework meant for gathering information during penetration testing of web applications. reNgine has customizable scan engines, which can be used to scan the websites, endpoints, and gather information. | ![](https://img.shields.io/github/stars/yogeshojha/rengine) | ![](https://img.shields.io/github/languages/top/yogeshojha/rengine) |",
+  "Method": "ALL"
  },
  "s3reverse": {
   "Data": "| Utility/S3 | [s3reverse](https://github.com/hahwul/s3reverse) | The format of various s3 buckets is convert in one format. for bugbounty and security testing. | ![](https://img.shields.io/github/stars/hahwul/s3reverse) | ![](https://img.shields.io/github/languages/top/hahwul/s3reverse) |",
