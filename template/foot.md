@@ -30,6 +30,12 @@ Successfully Opened data.json
 - Second, Give me PR or Add issue with data.json<br>
 - Third, There's no third.
 
+### Build contribute tools
+```
+$ go build add-tool.go
+$ go build distribute-readme.go
+```
+
 ### Add common tools
 in `WebHackersWeapons` directory
 ```
