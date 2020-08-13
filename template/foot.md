@@ -1,4 +1,11 @@
 ## Contribute
+
+First, you need to compile `add-tool` and `distribute-readme` using `make` command:
+
+```bash
+> make contribute
+```
+
 ### Usage of add-tool
 ```
 ./add-tool
