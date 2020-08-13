@@ -204,6 +204,11 @@
   "Method": "URL",
   "Type": "Utility"
  },
+ "apkleaks": {
+  "Type": "Discovery",
+  "Data": "| Discovery/APK | [apkleaks](https://github.com/dwisiswant0/apkleaks) | Scanning APK file for URIs, endpoints \u0026 secrets. | ![](https://img.shields.io/github/stars/dwisiswant0/apkleaks) | ![](https://img.shields.io/github/languages/top/dwisiswant0/apkleaks) |",
+  "Method": "APK"
+ },
  "aquatone": {
   "Data": "| Discovery/ALL | [aquatone](https://github.com/michenriksen/aquatone) | A Tool for Domain Flyovers | ![](https://img.shields.io/github/stars/michenriksen/aquatone) | ![](https://img.shields.io/github/languages/top/michenriksen/aquatone) |",
   "Method": "ALL",
@@ -239,10 +244,20 @@
   "Method": "CRAWL",
   "Type": "Discovery"
  },
+ "cf-check": {
+  "Data": "| Utility/URL | [cf-check](https://github.com/dwisiswant0/cf-check) | Cloudflare Checker written in Go | ![](https://img.shields.io/github/stars/dwisiswant0/cf-check) | ![](https://img.shields.io/github/languages/top/dwisiswant0/cf-check) |",
+  "Method": "URL",
+  "Type": "Utility"
+ },
  "chaos-client": {
   "Data": "| Discovery/DOMAIN | [chaos-client](https://github.com/projectdiscovery/chaos-client) | Go client to communicate with Chaos DNS API. | ![](https://img.shields.io/github/stars/projectdiscovery/chaos-client) | ![](https://img.shields.io/github/languages/top/projectdiscovery/chaos-client) |",
   "Method": "DOMAIN",
   "Type": "Discovery"
+ },
+ "crlfuzz": {
+  "Data": "| Scanner/FUZZ | [crlfuzz](https://github.com/dwisiswant0/crlfuzz) | A fast tool to scan CRLF vulnerability written in Go | ![](https://img.shields.io/github/stars/dwisiswant0/crlfuzz) | ![](https://img.shields.io/github/languages/top/dwisiswant0/crlfuzz) |",
+  "Method": "FUZZ",
+  "Type": "Scanner"
  },
  "dalfox": {
   "Data": "| Scanner/XSS | [dalfox](https://github.com/hahwul/dalfox) | 🦊 DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang | ![](https://img.shields.io/github/stars/hahwul/dalfox) | ![](https://img.shields.io/github/languages/top/hahwul/dalfox) |",
@@ -329,6 +344,11 @@
   "Method": "GIT",
   "Type": "Discovery"
  },
+ "go-dork": {
+  "Data": "| Discovery/CRAWL | [go-dork](https://github.com/dwisiswant0/go-dork) | The fastest dork scanner written in Go. | ![](https://img.shields.io/github/stars/dwisiswant0/go-dork) | ![](https://img.shields.io/github/languages/top/dwisiswant0/go-dork) |",
+  "Method": "CRAWL",
+  "Type": "Discovery"
+ },
  "gobuster": {
   "Data": "| Discovery/FUZZ | [gobuster](https://github.com/OJ/gobuster) | Directory/File, DNS and VHost busting tool written in Go | ![](https://img.shields.io/github/stars/OJ/gobuster) | ![](https://img.shields.io/github/languages/top/OJ/gobuster) |",
   "Method": "FUZZ",
@@ -368,6 +388,11 @@
   "Data": "| Discovery/DNS | [hakrevdns](https://github.com/hakluke/hakrevdns) | Small, fast tool for performing reverse DNS lookups en masse. | ![](https://img.shields.io/github/stars/hakluke/hakrevdns) | ![](https://img.shields.io/github/languages/top/hakluke/hakrevdns) |",
   "Method": "DNS",
   "Type": "Discovery"
+ },
+ "hinject": {
+  "Data": "| Utility/VULN | [hinject](https://github.com/dwisiswant0/hinject) | Host Header Injection Checker | ![](https://img.shields.io/github/stars/dwisiswant0/hinject) | ![](https://img.shields.io/github/languages/top/dwisiswant0/hinject) |",
+  "Method": "VULN",
+  "Type": "Utility"
  },
  "httprobe": {
   "Data": "| Fetch/TOM | [httprobe](https://github.com/tomnomnom/httprobe) | Take a list of domains and probe for working HTTP and HTTPS servers | ![](https://img.shields.io/github/stars/tomnomnom/httprobe) | ![](https://img.shields.io/github/languages/top/tomnomnom/httprobe) |",
@@ -480,9 +505,9 @@
   "Type": "Utility"
  },
  "rengine": {
-  "Type": "Discovery",
   "Data": "| Discovery/ALL | [rengine](https://github.com/yogeshojha/rengine) | reNgine is an automated reconnaissance framework meant for gathering information during penetration testing of web applications. reNgine has customizable scan engines, which can be used to scan the websites, endpoints, and gather information. | ![](https://img.shields.io/github/stars/yogeshojha/rengine) | ![](https://img.shields.io/github/languages/top/yogeshojha/rengine) |",
-  "Method": "ALL"
+  "Method": "ALL",
+  "Type": "Discovery"
  },
  "s3reverse": {
   "Data": "| Utility/S3 | [s3reverse](https://github.com/hahwul/s3reverse) | The format of various s3 buckets is convert in one format. for bugbounty and security testing. | ![](https://img.shields.io/github/stars/hahwul/s3reverse) | ![](https://img.shields.io/github/languages/top/hahwul/s3reverse) |",
