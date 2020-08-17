@@ -205,9 +205,9 @@
   "Type": "Utility"
  },
  "apkleaks": {
-  "Type": "Discovery",
   "Data": "| Discovery/APK | [apkleaks](https://github.com/dwisiswant0/apkleaks) | Scanning APK file for URIs, endpoints \u0026 secrets. | ![](https://img.shields.io/github/stars/dwisiswant0/apkleaks) | ![](https://img.shields.io/github/languages/top/dwisiswant0/apkleaks) |",
-  "Method": "APK"
+  "Method": "APK",
+  "Type": "Discovery"
  },
  "aquatone": {
   "Data": "| Discovery/ALL | [aquatone](https://github.com/michenriksen/aquatone) | A Tool for Domain Flyovers | ![](https://img.shields.io/github/stars/michenriksen/aquatone) | ![](https://img.shields.io/github/languages/top/michenriksen/aquatone) |",
@@ -408,6 +408,11 @@
   "Data": "| Discovery/GQL | [inql](https://github.com/doyensec/inql) | InQL - A Burp Extension for GraphQL Security Testing | ![](https://img.shields.io/github/stars/doyensec/inql) | ![](https://img.shields.io/github/languages/top/doyensec/inql) |",
   "Method": "GQL",
   "Type": "Discovery"
+ },
+ "intrigue-core": {
+  "Type": "Discovery",
+  "Data": "| Discovery/ALL | [intrigue-core](https://github.com/intrigueio/intrigue-core) | Discover Your Attack Surface | ![](https://img.shields.io/github/stars/intrigueio/intrigue-core) | ![](https://img.shields.io/github/languages/top/intrigueio/intrigue-core) |",
+  "Method": "ALL"
  },
  "jaeles": {
   "Data": "| Army-Knife/SCAN | [jaeles](https://github.com/jaeles-project/jaeles) | The Swiss Army knife for automated Web Application Testing | ![](https://img.shields.io/github/stars/jaeles-project/jaeles) | ![](https://img.shields.io/github/languages/top/jaeles-project/jaeles) |",
