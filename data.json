@@ -19,6 +19,11 @@
   "Method": "BRIDGE",
   "Type": "Utility"
  },
+ "Bug-Bounty-Toolz": {
+  "Type": "Utility",
+  "Data": "| Utility/VULN | [Bug-Bounty-Toolz](https://github.com/m4ll0k/Bug-Bounty-Toolz) | BBT - Bug Bounty Tools | ![](https://img.shields.io/github/stars/m4ll0k/Bug-Bounty-Toolz) | ![](https://img.shields.io/github/languages/top/m4ll0k/Bug-Bounty-Toolz) |",
+  "Method": "VULN"
+ },
  "BurpSuite": {
   "Data": "| Army-Knife/ALL  | [BurpSuite](https://portswigger.net/burp) |  the BurpSuite project |![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "BURP",
@@ -79,6 +84,11 @@
   "Method": "LFI",
   "Type": "Scanner"
  },
+ "LinkFinder": {
+  "Data": "| Discovery/JS | [LinkFinder](https://github.com/GerbenJavado/LinkFinder) | A python script that finds endpoints in JavaScript files | ![](https://img.shields.io/github/stars/GerbenJavado/LinkFinder) | ![](https://img.shields.io/github/languages/top/GerbenJavado/LinkFinder) |",
+  "Method": "JS",
+  "Type": "Discovery"
+ },
  "NoSQLMap": {
   "Data": "| Scanner/NOSQL | [NoSQLMap](https://github.com/codingo/NoSQLMap) | Automated NoSQL database enumeration and web application exploitation tool. | ![](https://img.shields.io/github/stars/codingo/NoSQLMap) | ![](https://img.shields.io/github/languages/top/codingo/NoSQLMap) |",
   "Method": "NOSQL",
@@ -138,6 +148,11 @@
   "Data": "| Utility/WORD | [SecLists](https://github.com/danielmiessler/SecLists) | SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more. | ![](https://img.shields.io/github/stars/danielmiessler/SecLists) | ![](https://img.shields.io/github/languages/top/danielmiessler/SecLists) |",
   "Method": "WORD",
   "Type": "Utility"
+ },
+ "SecretFinder": {
+  "Data": "| Discovery/JS | [SecretFinder](https://github.com/m4ll0k/SecretFinder) | SecretFinder - A python script for find sensitive data (apikeys, accesstoken,jwt,..) and search anything on javascript files | ![](https://img.shields.io/github/stars/m4ll0k/SecretFinder) | ![](https://img.shields.io/github/languages/top/m4ll0k/SecretFinder) |",
+  "Method": "JS",
+  "Type": "Discovery"
  },
  "SecurityTrails": {
   "Data": "| Discovery/DNS  | [SecurityTrails](https://securitytrails.com) |  Online dns / subdomain / recon tool|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
@@ -410,9 +425,9 @@
   "Type": "Discovery"
  },
  "intrigue-core": {
-  "Type": "Discovery",
   "Data": "| Discovery/ALL | [intrigue-core](https://github.com/intrigueio/intrigue-core) | Discover Your Attack Surface | ![](https://img.shields.io/github/stars/intrigueio/intrigue-core) | ![](https://img.shields.io/github/languages/top/intrigueio/intrigue-core) |",
-  "Method": "ALL"
+  "Method": "ALL",
+  "Type": "Discovery"
  },
  "jaeles": {
   "Data": "| Army-Knife/SCAN | [jaeles](https://github.com/jaeles-project/jaeles) | The Swiss Army knife for automated Web Application Testing | ![](https://img.shields.io/github/stars/jaeles-project/jaeles) | ![](https://img.shields.io/github/languages/top/jaeles-project/jaeles) |",
