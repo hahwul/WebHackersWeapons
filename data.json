@@ -20,9 +20,9 @@
   "Type": "Utility"
  },
  "Bug-Bounty-Toolz": {
-  "Type": "Utility",
-  "Data": "| Utility/VULN | [Bug-Bounty-Toolz](https://github.com/m4ll0k/Bug-Bounty-Toolz) | BBT - Bug Bounty Tools | ![](https://img.shields.io/github/stars/m4ll0k/Bug-Bounty-Toolz) | ![](https://img.shields.io/github/languages/top/m4ll0k/Bug-Bounty-Toolz) |",
-  "Method": "VULN"
+  "Data": "| ToolBox/ALL | [Bug-Bounty-Toolz](https://github.com/m4ll0k/Bug-Bounty-Toolz) | BBT - Bug Bounty Tools | ![](https://img.shields.io/github/stars/m4ll0k/Bug-Bounty-Toolz) | ![](https://img.shields.io/github/languages/top/m4ll0k/Bug-Bounty-Toolz) |",
+  "Method": "ALL",
+  "Type": "ToolBox"
  },
  "BurpSuite": {
   "Data": "| Army-Knife/ALL  | [BurpSuite](https://portswigger.net/burp) |  the BurpSuite project |![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
@@ -390,9 +390,9 @@
   "Type": "Utility"
  },
  "hacks": {
-  "Data": "| Utility/URL | [hacks](https://github.com/tomnomnom/hacks/tree/master/anti-burl) | remove bad urls | ![](https://img.shields.io/github/stars/tomnomnom/hacks/tree/master/anti-burl) | ![](https://img.shields.io/github/languages/top/tomnomnom/hacks/tree/master/anti-burl) |",
-  "Method": "URL",
-  "Type": "Utility"
+  "Data": "| ToolBox/ALL | [hacks](https://github.com/tomnomnom/hacks) | A collection of hacks and one-off scripts | ![](https://img.shields.io/github/stars/tomnomnom/hacks) | ![](https://img.shields.io/github/languages/top/tomnomnom/hacks) |",
+  "Method": "ALL",
+  "Type": "ToolBox"
  },
  "hakrawler": {
   "Data": "| Discovery/CRAWL | [hakrawler](https://github.com/hakluke/hakrawler) | Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application | ![](https://img.shields.io/github/stars/hakluke/hakrawler) | ![](https://img.shields.io/github/languages/top/hakluke/hakrawler) |",
@@ -490,9 +490,9 @@
   "Type": "Utility"
  },
  "pentest-tools": {
-  "Data": "| Utility/VULN | [pentest-tools](https://github.com/gwen001/pentest-tools) | Custom pentesting tools | ![](https://img.shields.io/github/stars/gwen001/pentest-tools) | ![](https://img.shields.io/github/languages/top/gwen001/pentest-tools) |",
-  "Method": "VULN",
-  "Type": "Utility"
+  "Type": "ToolBox",
+  "Data": "| ToolBox/ALL | [pentest-tools](https://github.com/gwen001/pentest-tools) | Custom pentesting tools | ![](https://img.shields.io/github/stars/gwen001/pentest-tools) | ![](https://img.shields.io/github/languages/top/gwen001/pentest-tools) |",
+  "Method": "ALL"
  },
  "pet": {
   "Data": "| Utility/SNIPPET | [pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager, written in Go. | ![](https://img.shields.io/github/stars/knqyf263/pet) | ![](https://img.shields.io/github/languages/top/knqyf263/pet) |",
