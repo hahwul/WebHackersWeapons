@@ -79,6 +79,11 @@
   "Method": "GQL",
   "Type": "Scanner"
  },
+ "JSFScan.sh": {
+  "Type": "Discovery",
+  "Data": "| Discovery/JS | [JSFScan.sh](https://github.com/KathanP19/JSFScan.sh) | Automation for javascript recon in bug bounty. | ![](https://img.shields.io/github/stars/KathanP19/JSFScan.sh) | ![](https://img.shields.io/github/languages/top/KathanP19/JSFScan.sh) |",
+  "Method": "JS"
+ },
  "LFISuite": {
   "Data": "| Scanner/LFI | [LFISuite](https://github.com/D35m0nd142/LFISuite) | Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner | ![](https://img.shields.io/github/stars/D35m0nd142/LFISuite) | ![](https://img.shields.io/github/languages/top/D35m0nd142/LFISuite) |",
   "Method": "LFI",
@@ -490,9 +495,9 @@
   "Type": "Utility"
  },
  "pentest-tools": {
-  "Type": "ToolBox",
   "Data": "| ToolBox/ALL | [pentest-tools](https://github.com/gwen001/pentest-tools) | Custom pentesting tools | ![](https://img.shields.io/github/stars/gwen001/pentest-tools) | ![](https://img.shields.io/github/languages/top/gwen001/pentest-tools) |",
-  "Method": "ALL"
+  "Method": "ALL",
+  "Type": "ToolBox"
  },
  "pet": {
   "Data": "| Utility/SNIPPET | [pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager, written in Go. | ![](https://img.shields.io/github/stars/knqyf263/pet) | ![](https://img.shields.io/github/languages/top/knqyf263/pet) |",
