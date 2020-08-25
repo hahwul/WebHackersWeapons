@@ -60,14 +60,19 @@
   "Type": "Scanner"
  },
  "CyberChef": {
-  "Type": "ToolBox",
   "Data": "| ToolBox/ALL | [CyberChef](https://github.com/gchq/CyberChef) | The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis | ![](https://img.shields.io/github/stars/gchq/CyberChef) | ![](https://img.shields.io/github/languages/top/gchq/CyberChef) |",
-  "Method": "ALL"
+  "Method": "ALL",
+  "Type": "ToolBox"
  },
  "DNSDumpster": {
   "Data": "| Discovery/DNS  | [DNSDumpster](https://dnsdumpster.com) |  Online dns recon \u0026 research, find \u0026 lookup dns records|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "DNS",
   "Type": "Discovery"
+ },
+ "FavFreak": {
+  "Type": "Discovery",
+  "Data": "| Discovery/FAVICON | [FavFreak](https://github.com/devanshbatham/FavFreak) | Making Favicon.ico based Recon Great again ! | ![](https://img.shields.io/github/stars/devanshbatham/FavFreak) | ![](https://img.shields.io/github/languages/top/devanshbatham/FavFreak) |",
+  "Method": "FAVICON"
  },
  "Gf-Patterns": {
   "Data": "| Utility/ENV | [Gf-Patterns](https://github.com/1ndianl33t/Gf-Patterns) | GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic) parameters grep | ![](https://img.shields.io/github/stars/1ndianl33t/Gf-Patterns) | ![](https://img.shields.io/github/languages/top/1ndianl33t/Gf-Patterns) |",
