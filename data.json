@@ -285,9 +285,9 @@
   "Type": "Scanner"
  },
  "dalfox": {
-  "Type": "Scanner",
   "Data": "| Scanner/XSS | [dalfox](https://github.com/hahwul/dalfox) | 🌘🦊 DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang | ![](https://img.shields.io/github/stars/hahwul/dalfox) | ![](https://img.shields.io/github/languages/top/hahwul/dalfox) |",
-  "Method": "XSS"
+  "Method": "XSS",
+  "Type": "Scanner"
  },
  "dirsearch": {
   "Data": "| Discovery/FUZZ | [dirsearch](https://github.com/maurosoria/dirsearch) | Web path scanner | ![](https://img.shields.io/github/stars/maurosoria/dirsearch) | ![](https://img.shields.io/github/languages/top/maurosoria/dirsearch) |",
@@ -318,6 +318,11 @@
   "Data": "| Scanner/XSS | [ezXSS](https://github.com/ssl/ezXSS) | ezXSS is an easy way for penetration testers and bug bounty hunters to test (blind) Cross Site Scripting. | ![](https://img.shields.io/github/stars/ssl/ezXSS) | ![](https://img.shields.io/github/languages/top/ssl/ezXSS) |",
   "Method": "XSS",
   "Type": "Scanner"
+ },
+ "favinizer": {
+  "Type": "Scanner",
+  "Data": "| Scanner/FINGERPRINT | [favinizer](https://github.com/g147/favinizer) | fingerprints webservers using favicons | ![](https://img.shields.io/github/stars/g147/favinizer) | ![](https://img.shields.io/github/languages/top/g147/favinizer) |",
+  "Method": "FINGERPRINT"
  },
  "ffuf": {
   "Data": "| Scanner/FUZZ | [ffuf](https://github.com/ffuf/ffuf) | Fast web fuzzer written in Go | ![](https://img.shields.io/github/stars/ffuf/ffuf) | ![](https://img.shields.io/github/languages/top/ffuf/ffuf) |",
