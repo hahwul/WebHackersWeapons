@@ -70,9 +70,9 @@
   "Type": "Discovery"
  },
  "FavFreak": {
-  "Type": "Discovery",
   "Data": "| Discovery/FAVICON | [FavFreak](https://github.com/devanshbatham/FavFreak) | Making Favicon.ico based Recon Great again ! | ![](https://img.shields.io/github/stars/devanshbatham/FavFreak) | ![](https://img.shields.io/github/languages/top/devanshbatham/FavFreak) |",
-  "Method": "FAVICON"
+  "Method": "FAVICON",
+  "Type": "Discovery"
  },
  "Gf-Patterns": {
   "Data": "| Utility/ENV | [Gf-Patterns](https://github.com/1ndianl33t/Gf-Patterns) | GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic) parameters grep | ![](https://img.shields.io/github/stars/1ndianl33t/Gf-Patterns) | ![](https://img.shields.io/github/languages/top/1ndianl33t/Gf-Patterns) |",
@@ -439,9 +439,14 @@
   "Method": "PAYLOAD",
   "Type": "Utility"
  },
+ "htcat": {
+  "Data": "| Fetch/HTTP | [htcat](https://github.com/htcat/htcat) | Parallel and Pipelined HTTP GET Utility | ![](https://img.shields.io/github/stars/htcat/htcat) | ![](https://img.shields.io/github/languages/top/htcat/htcat) |",
+  "Method": "HTTP",
+  "Type": "Fetch"
+ },
  "httprobe": {
-  "Data": "| Fetch/TOM | [httprobe](https://github.com/tomnomnom/httprobe) | Take a list of domains and probe for working HTTP and HTTPS servers | ![](https://img.shields.io/github/stars/tomnomnom/httprobe) | ![](https://img.shields.io/github/languages/top/tomnomnom/httprobe) |",
-  "Method": "TOM",
+  "Data": "| Fetch/HTTP | [httprobe](https://github.com/tomnomnom/httprobe) | Take a list of domains and probe for working HTTP and HTTPS servers | ![](https://img.shields.io/github/stars/tomnomnom/httprobe) | ![](https://img.shields.io/github/languages/top/tomnomnom/httprobe) |",
+  "Method": "HTTP",
   "Type": "Fetch"
  },
  "httpx": {
@@ -485,9 +490,9 @@
   "Type": "Discovery"
  },
  "meg": {
-  "Data": "| Fetch/TOM | [meg](https://github.com/tomnomnom/meg) | Fetch many paths for many hosts - without killing the hosts | ![](https://img.shields.io/github/stars/tomnomnom/meg) | ![](https://img.shields.io/github/languages/top/tomnomnom/meg) |",
-  "Method": "TOM",
-  "Type": "Fetch"
+  "Type": "Fetch",
+  "Data": "| Fetch/HTTP | [meg](https://github.com/tomnomnom/meg) | Fetch many paths for many hosts - without killing the hosts | ![](https://img.shields.io/github/stars/tomnomnom/meg) | ![](https://img.shields.io/github/languages/top/tomnomnom/meg) |",
+  "Method": "HTTP"
  },
  "megplus": {
   "Data": "| Scanner/RECON | [megplus](https://github.com/EdOverflow/megplus) | Automated reconnaissance wrapper — TomNomNom's meg on steroids. [DEPRECATED] | ![](https://img.shields.io/github/stars/EdOverflow/megplus) | ![](https://img.shields.io/github/languages/top/EdOverflow/megplus) |",
@@ -645,8 +650,8 @@
   "Type": "Scanner"
  },
  "wuzz": {
-  "Data": "| Fetch/REPEAT | [wuzz](https://github.com/asciimoo/wuzz) | Interactive cli tool for HTTP inspection | ![](https://img.shields.io/github/stars/asciimoo/wuzz) | ![](https://img.shields.io/github/languages/top/asciimoo/wuzz) |",
-  "Method": "REPEAT",
+  "Data": "| Fetch/HTTP | [wuzz](https://github.com/asciimoo/wuzz) | Interactive cli tool for HTTP inspection | ![](https://img.shields.io/github/stars/asciimoo/wuzz) | ![](https://img.shields.io/github/languages/top/asciimoo/wuzz) |",
+  "Method": "HTTP",
   "Type": "Fetch"
  },
  "xss-cheatsheet-data": {
