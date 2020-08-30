@@ -490,9 +490,9 @@
   "Type": "Discovery"
  },
  "meg": {
-  "Type": "Fetch",
   "Data": "| Fetch/HTTP | [meg](https://github.com/tomnomnom/meg) | Fetch many paths for many hosts - without killing the hosts | ![](https://img.shields.io/github/stars/tomnomnom/meg) | ![](https://img.shields.io/github/languages/top/tomnomnom/meg) |",
-  "Method": "HTTP"
+  "Method": "HTTP",
+  "Type": "Fetch"
  },
  "megplus": {
   "Data": "| Scanner/RECON | [megplus](https://github.com/EdOverflow/megplus) | Automated reconnaissance wrapper — TomNomNom's meg on steroids. [DEPRECATED] | ![](https://img.shields.io/github/stars/EdOverflow/megplus) | ![](https://img.shields.io/github/languages/top/EdOverflow/megplus) |",
@@ -623,6 +623,11 @@
   "Data": "| Utility/URL | [unfurl](https://github.com/tomnomnom/unfurl) | Pull out bits of URLs provided on stdin | ![](https://img.shields.io/github/stars/tomnomnom/unfurl) | ![](https://img.shields.io/github/languages/top/tomnomnom/unfurl) |",
   "Method": "URL",
   "Type": "Utility"
+ },
+ "urlgrab": {
+  "Type": "Discovery",
+  "Data": "| Discovery/CRAWL | [urlgrab](https://github.com/IAmStoxe/urlgrab) | A golang utility to spider through a website searching for additional links. | ![](https://img.shields.io/github/stars/IAmStoxe/urlgrab) | ![](https://img.shields.io/github/languages/top/IAmStoxe/urlgrab) |",
+  "Method": "CRAWL"
  },
  "urlprobe": {
   "Data": "| Utility/URL | [urlprobe](https://github.com/1ndianl33t/urlprobe) | Urls status code \u0026 content length checker | ![](https://img.shields.io/github/stars/1ndianl33t/urlprobe) | ![](https://img.shields.io/github/languages/top/1ndianl33t/urlprobe) |",
