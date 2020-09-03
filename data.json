@@ -279,6 +279,11 @@
   "Method": "URL",
   "Type": "Utility"
  },
+ "c-jwt-cracker": {
+  "Data": "| Utility/JWT | [c-jwt-cracker](https://github.com/brendan-rius/c-jwt-cracker) | JWT brute force cracker written in C | ![](https://img.shields.io/github/stars/brendan-rius/c-jwt-cracker) | ![](https://img.shields.io/github/languages/top/brendan-rius/c-jwt-cracker) |",
+  "Method": "JWT",
+  "Type": "Utility"
+ },
  "cc.py": {
   "Data": "| Discovery/CRAWL | [cc.py](https://github.com/si9int/cc.py) | Extracting URLs of a specific target based on the results of \"commoncrawl.org\" | ![](https://img.shields.io/github/stars/si9int/cc.py) | ![](https://img.shields.io/github/languages/top/si9int/cc.py) |",
   "Method": "CRAWL",
@@ -469,6 +474,16 @@
   "Method": "JAELES",
   "Type": "Army-Knife"
  },
+ "jwt-cracker": {
+  "Data": "| Utility/JWT | [jwt-cracker](https://github.com/lmammino/jwt-cracker) | Simple HS256 JWT token brute force cracker | ![](https://img.shields.io/github/stars/lmammino/jwt-cracker) | ![](https://img.shields.io/github/languages/top/lmammino/jwt-cracker) |",
+  "Method": "JWT",
+  "Type": "Utility"
+ },
+ "jwt-hack": {
+  "Type": "Utility",
+  "Data": "| Utility/JWT | [jwt-hack](https://github.com/hahwul/jwt-hack) | jwt-hack is JWT hacking, security testing utility | ![](https://img.shields.io/github/stars/hahwul/jwt-hack) | ![](https://img.shields.io/github/languages/top/hahwul/jwt-hack) |",
+  "Method": "JWT"
+ },
  "knock": {
   "Data": "| Discovery/DOMAIN | [knock](https://github.com/guelfoweb/knock) | Knock Subdomain Scan | ![](https://img.shields.io/github/stars/guelfoweb/knock) | ![](https://img.shields.io/github/languages/top/guelfoweb/knock) |",
   "Method": "DOMAIN",
@@ -625,9 +640,9 @@
   "Type": "Utility"
  },
  "urlgrab": {
-  "Type": "Discovery",
   "Data": "| Discovery/CRAWL | [urlgrab](https://github.com/IAmStoxe/urlgrab) | A golang utility to spider through a website searching for additional links. | ![](https://img.shields.io/github/stars/IAmStoxe/urlgrab) | ![](https://img.shields.io/github/languages/top/IAmStoxe/urlgrab) |",
-  "Method": "CRAWL"
+  "Method": "CRAWL",
+  "Type": "Discovery"
  },
  "urlprobe": {
   "Data": "| Utility/URL | [urlprobe](https://github.com/1ndianl33t/urlprobe) | Urls status code \u0026 content length checker | ![](https://img.shields.io/github/stars/1ndianl33t/urlprobe) | ![](https://img.shields.io/github/languages/top/1ndianl33t/urlprobe) |",
