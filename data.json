@@ -214,6 +214,11 @@
   "Method": "DOMAIN",
   "Type": "Discovery"
  },
+ "TukTuk": {
+  "Type": "Utility",
+  "Data": "| Utility/CALLBACK | [TukTuk](https://github.com/ArturSS7/TukTuk) | Tool for catching and logging different types of requests. | ![](https://img.shields.io/github/stars/ArturSS7/TukTuk) | ![](https://img.shields.io/github/languages/top/ArturSS7/TukTuk) |",
+  "Method": "CALLBACK"
+ },
  "VHostScan": {
   "Data": "| Scanner/FUZZ | [VHostScan](https://github.com/codingo/VHostScan) | A virtual host scanner that performs reverse lookups, can be used with pivot tools, detect catch-all scenarios, work around wildcards, aliases and dynamic default pages. | ![](https://img.shields.io/github/stars/codingo/VHostScan) | ![](https://img.shields.io/github/languages/top/codingo/VHostScan) |",
   "Method": "FUZZ",
@@ -480,9 +485,9 @@
   "Type": "Utility"
  },
  "jwt-hack": {
-  "Type": "Utility",
   "Data": "| Utility/JWT | [jwt-hack](https://github.com/hahwul/jwt-hack) | jwt-hack is JWT hacking, security testing utility | ![](https://img.shields.io/github/stars/hahwul/jwt-hack) | ![](https://img.shields.io/github/languages/top/hahwul/jwt-hack) |",
-  "Method": "JWT"
+  "Method": "JWT",
+  "Type": "Utility"
  },
  "knock": {
   "Data": "| Discovery/DOMAIN | [knock](https://github.com/guelfoweb/knock) | Knock Subdomain Scan | ![](https://img.shields.io/github/stars/guelfoweb/knock) | ![](https://img.shields.io/github/languages/top/guelfoweb/knock) |",
