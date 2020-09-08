@@ -9,6 +9,11 @@
   "Method": "PASV",
   "Type": "Burp"
  },
+ "BurpBounty": {
+  "Type": "Burp",
+  "Data": "| Burp/SCAN | [BurpBounty](https://github.com/wagiro/BurpBounty) | Burp Bounty (Scan Check Builder in BApp Store) is a extension of Burp Suite that allows you, in a quick and simple way, to improve the active and passive scanner by means of personalized rules through a very intuitive graphical interface. | ![](https://img.shields.io/github/stars/wagiro/BurpBounty) | ![](https://img.shields.io/github/languages/top/wagiro/BurpBounty) |",
+  "Method": "SCAN"
+ },
  "BurpJSLinkFinder": {
   "Data": "| Burp/PASV | [BurpJSLinkFinder](https://github.com/InitRoot/BurpJSLinkFinder) | Burp Extension for a passive scanning JS files for endpoint links. | ![](https://img.shields.io/github/stars/InitRoot/BurpJSLinkFinder) | ![](https://img.shields.io/github/languages/top/InitRoot/BurpJSLinkFinder) |",
   "Method": "PASV",
@@ -60,9 +65,9 @@
   "Type": "Burp"
  },
  "burp-piper": {
-  "Type": "Burp",
   "Data": "| Burp/PIPE | [burp-piper](https://github.com/silentsignal/burp-piper) | Piper Burp Suite Extender plugin | ![](https://img.shields.io/github/stars/silentsignal/burp-piper) | ![](https://img.shields.io/github/languages/top/silentsignal/burp-piper) |",
-  "Method": "PIPE"
+  "Method": "PIPE",
+  "Type": "Burp"
  },
  "burp-retire-js": {
   "Data": "| All/PASV | [burp-retire-js](https://github.com/h3xstream/burp-retire-js) | Burp/ZAP/Maven extension that integrate Retire.js repository to find vulnerable Javascript libraries. | ![](https://img.shields.io/github/stars/h3xstream/burp-retire-js) | ![](https://img.shields.io/github/languages/top/h3xstream/burp-retire-js) |",
