@@ -215,9 +215,9 @@
   "Type": "Discovery"
  },
  "TukTuk": {
-  "Type": "Utility",
   "Data": "| Utility/CALLBACK | [TukTuk](https://github.com/ArturSS7/TukTuk) | Tool for catching and logging different types of requests. | ![](https://img.shields.io/github/stars/ArturSS7/TukTuk) | ![](https://img.shields.io/github/languages/top/ArturSS7/TukTuk) |",
-  "Method": "CALLBACK"
+  "Method": "CALLBACK",
+  "Type": "Utility"
  },
  "VHostScan": {
   "Data": "| Scanner/FUZZ | [VHostScan](https://github.com/codingo/VHostScan) | A virtual host scanner that performs reverse lookups, can be used with pivot tools, detect catch-all scenarios, work around wildcards, aliases and dynamic default pages. | ![](https://img.shields.io/github/stars/codingo/VHostScan) | ![](https://img.shields.io/github/languages/top/codingo/VHostScan) |",
@@ -423,6 +423,11 @@
   "Data": "| Utility/JSON | [gron](https://github.com/tomnomnom/gron) | Make JSON greppable! | ![](https://img.shields.io/github/stars/tomnomnom/gron) | ![](https://img.shields.io/github/languages/top/tomnomnom/gron) |",
   "Method": "JSON",
   "Type": "Utility"
+ },
+ "h2csmuggler": {
+  "Type": "Scanner",
+  "Data": "| Scanner/SMUGGLE | [h2csmuggler](https://github.com/BishopFox/h2csmuggler) | HTTP Request Smuggling over HTTP/2 Cleartext (h2c) | ![](https://img.shields.io/github/stars/BishopFox/h2csmuggler) | ![](https://img.shields.io/github/languages/top/BishopFox/h2csmuggler) |",
+  "Method": "SMUGGLE"
  },
  "hacks": {
   "Data": "| ToolBox/ALL | [hacks](https://github.com/tomnomnom/hacks) | A collection of hacks and one-off scripts | ![](https://img.shields.io/github/stars/tomnomnom/hacks) | ![](https://img.shields.io/github/languages/top/tomnomnom/hacks) |",
