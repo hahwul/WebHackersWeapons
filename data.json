@@ -305,9 +305,9 @@
   "Type": "Discovery"
  },
  "crlfuzz": {
-  "Data": "| Scanner/FUZZ | [crlfuzz](https://github.com/dwisiswant0/crlfuzz) | A fast tool to scan CRLF vulnerability written in Go | ![](https://img.shields.io/github/stars/dwisiswant0/crlfuzz) | ![](https://img.shields.io/github/languages/top/dwisiswant0/crlfuzz) |",
-  "Method": "FUZZ",
-  "Type": "Scanner"
+  "Type": "Scanner",
+  "Data": "| Scanner/CRLF | [crlfuzz](https://github.com/dwisiswant0/crlfuzz) | A fast tool to scan CRLF vulnerability written in Go | ![](https://img.shields.io/github/stars/dwisiswant0/crlfuzz) | ![](https://img.shields.io/github/languages/top/dwisiswant0/crlfuzz) |",
+  "Method": "CRLF"
  },
  "dalfox": {
   "Data": "| Scanner/XSS | [dalfox](https://github.com/hahwul/dalfox) | 🌘🦊 DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang | ![](https://img.shields.io/github/stars/hahwul/dalfox) | ![](https://img.shields.io/github/languages/top/hahwul/dalfox) |",
@@ -425,9 +425,9 @@
   "Type": "Utility"
  },
  "h2csmuggler": {
-  "Type": "Scanner",
   "Data": "| Scanner/SMUGGLE | [h2csmuggler](https://github.com/BishopFox/h2csmuggler) | HTTP Request Smuggling over HTTP/2 Cleartext (h2c) | ![](https://img.shields.io/github/stars/BishopFox/h2csmuggler) | ![](https://img.shields.io/github/languages/top/BishopFox/h2csmuggler) |",
-  "Method": "SMUGGLE"
+  "Method": "SMUGGLE",
+  "Type": "Scanner"
  },
  "hacks": {
   "Data": "| ToolBox/ALL | [hacks](https://github.com/tomnomnom/hacks) | A collection of hacks and one-off scripts | ![](https://img.shields.io/github/stars/tomnomnom/hacks) | ![](https://img.shields.io/github/languages/top/tomnomnom/hacks) |",
