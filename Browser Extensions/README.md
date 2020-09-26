@@ -18,7 +18,11 @@ This is Cool Extensions collection of Browser Extensions
 ## Extensions
 | Type | Name | Description | Popularity | Language |
 | ---------- | :---------- | :----------: | :----------: | :----------: | 
+| Chrome/Cookie | [Edit-This-Cookie](https://github.com/ETCExtensions/Edit-This-Cookie) | EditThisCookie is the famous Google Chrome/Chromium extension for editing cookies | ![](https://img.shields.io/github/stars/ETCExtensions/Edit-This-Cookie) | ![](https://img.shields.io/github/languages/top/ETCExtensions/Edit-This-Cookie) |
+| Chrome/UA  | [User-Agent Switcher](https://chrome.google.com/webstore/detail/user-agent-switcher/clddifkhlkcojbojppdojfeeikdkgiae) |  quick and easy way to switch between user-agents.|![](https://img.shields.io/static/v1?label=&message=it's not github&color=gray)|![](https://img.shields.io/static/v1?label=&message=it's not github&color=gray)
 | Chrome/postMessage | [postMessage-tracker](https://github.com/fransr/postMessage-tracker) | A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon | ![](https://img.shields.io/github/stars/fransr/postMessage-tracker) | ![](https://img.shields.io/github/languages/top/fransr/postMessage-tracker) |
+| Firefox and Chrome/DarkMode  | [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh) |  Dark mode to any site|![](https://img.shields.io/static/v1?label=&message=it's not github&color=gray)|![](https://img.shields.io/static/v1?label=&message=it's not github&color=gray)
+| Firefox and Chrome/Proxy  | [MM3 ProxySwitch](https://proxy-offline-browser.com/ProxySwitch/) |  Proxy Switch in Firefox and Chrome|![](https://img.shields.io/static/v1?label=&message=it's not github&color=gray)|![](https://img.shields.io/static/v1?label=&message=it's not github&color=gray)
 ## Contribute and Contributor
 ### Usage of add-tool
 ```

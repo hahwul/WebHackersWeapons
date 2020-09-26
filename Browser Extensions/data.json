@@ -1,14 +1,78 @@
 {
- "postMessage-tracker": {
+ "Dark Reader": {
+  "Data": "| Firefox and Chrome/DarkMode  | [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh) |  Dark mode to any site|![](https://img.shields.io/static/v1?label=\u0026message=it's not github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's not github\u0026color=gray)",
+  "Description": "Dark mode to any site",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "DarkMode",
+  "Type": "Firefox and Chrome",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "Edit-This-Cookie": {
+  "Data": "| Chrome/Cookie | [Edit-This-Cookie](https://github.com/ETCExtensions/Edit-This-Cookie) | EditThisCookie is the famous Google Chrome/Chromium extension for editing cookies | ![](https://img.shields.io/github/stars/ETCExtensions/Edit-This-Cookie) | ![](https://img.shields.io/github/languages/top/ETCExtensions/Edit-This-Cookie) |",
+  "Description": "EditThisCookie is the famous Google Chrome/Chromium extension for editing cookies",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "Cookie",
   "Type": "Chrome",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "MM3 ProxySwitch": {
+  "Type": "Firefox and Chrome",
+  "Data": "| Firefox and Chrome/Proxy  | [MM3 ProxySwitch](https://proxy-offline-browser.com/ProxySwitch/) |  Proxy Switch in Firefox and Chrome|![](https://img.shields.io/static/v1?label=\u0026message=it's not github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's not github\u0026color=gray)",
+  "Method": "Proxy",
+  "Description": "Proxy Switch in Firefox and Chrome",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "User-Agent Switcher": {
+  "Data": "| Chrome/UA  | [User-Agent Switcher](https://chrome.google.com/webstore/detail/user-agent-switcher/clddifkhlkcojbojppdojfeeikdkgiae) |  quick and easy way to switch between user-agents.|![](https://img.shields.io/static/v1?label=\u0026message=it's not github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's not github\u0026color=gray)",
+  "Description": "quick and easy way to switch between user-agents.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "UA",
+  "Type": "Chrome",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "postMessage-tracker": {
   "Data": "| Chrome/postMessage | [postMessage-tracker](https://github.com/fransr/postMessage-tracker) | A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon | ![](https://img.shields.io/github/stars/fransr/postMessage-tracker) | ![](https://img.shields.io/github/languages/top/fransr/postMessage-tracker) |",
-  "Method": "postMessage",
   "Description": "A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "postMessage",
+  "Type": "Chrome",
   "Update": {
    "Linux": "",
    "MacOS": "",
