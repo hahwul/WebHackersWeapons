@@ -21,7 +21,8 @@ template
 */
 
 type Tools struct {
-	Type, Data, Method string
+	Type, Data, Method, Description string
+	Install, Update map[string]string
 }
 
 func isTitleElement(n *html.Node) bool {
@@ -52,7 +53,7 @@ func GetHtmlTitle(r io.Reader) (string, bool) {
 	return traverse(doc)
 }
 
-func writeJSON(category string, name string, method string, data string) {
+func writeJSON(category, name, method, data, udesc string) {
 	jsonFile, err := os.Open("data.json")
 	// if we os.Open returns an error then handle it
 	if err != nil {
@@ -63,11 +64,24 @@ func writeJSON(category string, name string, method string, data string) {
 	defer jsonFile.Close()
 	byteValue, _ := ioutil.ReadAll(jsonFile)
 	var result map[string]interface{}
+	install := map[string]string{
+		"MacOS":"",
+		"Linux":"",
+		"Windows":"",
+	}
+	update := map[string]string{
+		"MacOS":"",
+		"Linux":"",
+		"Windows":"",
+	}
 	json.Unmarshal([]byte(byteValue), &result)
 	tool := Tools{
 		Type:   category,
 		Data:   data,
 		Method: method,
+		Description: udesc,
+		Install: install,
+		Update: update,
 	}
 	result[name] = tool
 	file, _ := json.MarshalIndent(result, "", " ")
@@ -140,7 +154,7 @@ func main() {
 		fmt.Println("[+] What is method(e.g XSS, WVS, SSL, ETC..)?")
 		method, _ := reader1.ReadString('\n')
 		method = strings.TrimRight(method, "\r\n")
-		writeJSON(m[choicetype], name, method, "| "+m[choicetype]+"/"+method+" | ["+name+"]("+*repourl+") | "+desc+" | ![](https://img.shields.io/github/stars"+u.Path+") | ![](https://img.shields.io/github/languages/top"+u.Path+") |")
+		writeJSON(m[choicetype], name, method, "| "+m[choicetype]+"/"+method+" | ["+name+"]("+*repourl+") | "+desc+" | ![](https://img.shields.io/github/stars"+u.Path+") | ![](https://img.shields.io/github/languages/top"+u.Path+") |", desc)
 	} else {
 		reader := bufio.NewReader(os.Stdin)
 		fmt.Println("[+] What is name?")
@@ -178,7 +192,7 @@ func main() {
 		fmt.Println("[+] What is method(e.g XSS, WVS, SSL, ETC..)?")
 		method, _ := reader1.ReadString('\n')
 		method = strings.TrimRight(method, "\r\n")
-		writeJSON(m[choicetype], name, method, "| "+m[choicetype]+"/"+method+"  | ["+name+"]("+*repourl+") |  "+udesc+"|![](https://img.shields.io/static/v1?label=&message=it's not github&color=gray)|![](https://img.shields.io/static/v1?label=&message=it's not github&color=gray)")
+		writeJSON(m[choicetype], name, method, "| "+m[choicetype]+"/"+method+"  | ["+name+"]("+*repourl+") |  "+udesc+"|![](https://img.shields.io/static/v1?label=&message=it's not github&color=gray)|![](https://img.shields.io/static/v1?label=&message=it's not github&color=gray)",udesc)
 	}
 
 	if *first {
