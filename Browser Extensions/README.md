@@ -18,6 +18,7 @@ This is Cool Extensions collection of Browser Extensions
 ## Extensions
 | Type | Name | Description | Popularity | Language |
 | ---------- | :---------- | :----------: | :----------: | :----------: | 
+| Chrome/postMessage | [postMessage-tracker](https://github.com/fransr/postMessage-tracker) | A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon | ![](https://img.shields.io/github/stars/fransr/postMessage-tracker) | ![](https://img.shields.io/github/languages/top/fransr/postMessage-tracker) |
 ## Contribute and Contributor
 ### Usage of add-tool
 ```

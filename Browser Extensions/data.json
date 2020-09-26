@@ -1,3 +1,18 @@
 {
-
+ "postMessage-tracker": {
+  "Type": "Chrome",
+  "Data": "| Chrome/postMessage | [postMessage-tracker](https://github.com/fransr/postMessage-tracker) | A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon | ![](https://img.shields.io/github/stars/fransr/postMessage-tracker) | ![](https://img.shields.io/github/languages/top/fransr/postMessage-tracker) |",
+  "Method": "postMessage",
+  "Description": "A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ }
 }
