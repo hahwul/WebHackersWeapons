@@ -135,20 +135,10 @@
               reverse: false,
               columns: ['name','dtype','method','desc']
             },
-            computed: {
-              checkAll: {
-                get: function () {
-                  return this.langs ? this.checked.length == this.langs.length : false;
-                },
-                set: function (value) {
-                  var checked = [];
-                  if (value) {
-                    this.langs.forEach(function (lang) {
-                      checked.push(lang.id);
-                    });
-                  }
-                  this.checked = checked;
-                }
+            methods: {
+                sortBy: function(sortKey) {
+                  this.reverse = (this.sortKey == sortKey) ? ! this.reverse : false;
+                  this.sortKey = sortKey;
               }
             }
           }).$mount('#app');
