@@ -12,8 +12,8 @@
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
-      <header>    
+    <div class="wrapper" style="width:100% !important;">
+      <header style="width:20% !important;">    
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
@@ -59,7 +59,7 @@
           window.addEventListener('load', addDarkmodeWidget);
         </script>
       </header>
-      <section>
+      <section style="width:70% !important;">
 
       {{ content }}
 
@@ -79,10 +79,10 @@
                 <td>
                   <input type="checkbox" v-model="checked" :value="lang.id" number>
                 </td>
-                { % raw % }
+                {% raw %}
                 <td> {{ lang.id }}</td>
                 <td> {{ lang.name }}</td>
-                { % endraw % }
+                {% endraw %}
               </tr>
             </table>
           </div>
