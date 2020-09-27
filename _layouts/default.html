@@ -73,16 +73,20 @@
             <table class="table">
               <tr>
                 <th><input type="checkbox" v-model="checkAll"></th>
-                <th align="center">ID</th>
-                <th align="center">Names</th>
+                <th align="center">Name</th>
+                <th align="center">Type</th>
+                <th align="center">Method</th>
+                <th align="center">Description</th>
               </tr>
-              <tr v-for="lang in langs">
+              <tr v-for="tool in tools">
                 <td>
-                  <input type="checkbox" v-model="checked" :value="lang.id" number>
+                  <input type="checkbox" v-model="checked" :value="tool.name" number>
                 </td>
                 {% raw %}
-                <td> {{ lang.id }}</td>
-                <td> {{ lang.name }}</td>
+                <td> {{ tool.name }}</td>
+                <td> {{ tool.dtype }}</td>
+                <td> {{ tool.method }}</td>
+                <td> {{ tool.desc }}</td>
                 {% endraw %}
               </tr>
             </table>
@@ -115,7 +119,7 @@
 
           new Vue({
             data: {
-              langs: vueData,
+              tools: vueData,
               checked: []
             },
             computed: {
