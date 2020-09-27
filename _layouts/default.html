@@ -10,6 +10,7 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="wrapper" style="width:100% !important;">
@@ -92,14 +93,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
       <script>
         window.onload = function(){
+          vueData = []
+          $.ajax({
+               async: false,
+               type: 'GET',
+               url: 'https://raw.githubusercontent.com/hahwul/WebHackersWeapons/master/data.json',
+               success: function(data){
+                    jsonData = JSON.parse(data)
+                    for (const property in jsonData) {
+                       tool = {
+                         name:  property,
+                         method: jsonData[property]['Method'],
+                         dtype: jsonData[property]['Type'],
+                         desc: jsonData[property]['Description'],
+                         install: jsonData[property]['Install']
+                       }
+                       vueData.push(tool)
+                    }
+               }
+          });
+
           new Vue({
             data: {
-              langs: [ 
-                { "id": "1", "name": "Edward"},
-                { "id": "2", "name": "Lance"},
-                { "id": "3", "name": "Arellano"},
-                { "id": "4", "name": "Lorilla"},
-                ],
+              langs: vueData,
               checked: []
             },
             computed: {
