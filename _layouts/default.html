@@ -91,6 +91,7 @@
       </section>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js">
       <script>
+        window.onload = function(){
         new Vue({
           data: {
             langs: [ 
@@ -118,6 +119,7 @@
             }
           }
         }).$mount('#app');
+        };
     </script>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
