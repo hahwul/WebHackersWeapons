@@ -249,7 +249,7 @@ button {
 
           
           Vue.component('checklist-item', {
-            template: '<div><input type="button" style="display:block !important;" value="Make" class="button"><br><br>' +
+            template: '<div>' +
               '<input :checked="complete" @click="progress" type="checkbox" :name="\'checkbox\' + id" :id="\'checkbox\' + id" value="">' +
               '<label :for="\'checkbox\' + id" v-html="i"></label>' +
             '</div>',
@@ -285,7 +285,7 @@ button {
           });
 
           Vue.component('progress-bar', {
-            template: '<div class="status"><div>{{ c }} / {{ t }}</div><div class="progress"><div class="bar" :style="{width: width + \'%\'}"></div></div></div>',
+            template: '<div class="status"><div><input type="button" style="display:block !important;" value="Make" class="button"><br><br></div><div class="progress"><div class="bar" :style="{width: width + \'%\'}"></div></div></div>',
             props: {
               c: Number,
               t: Number
