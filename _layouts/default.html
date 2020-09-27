@@ -12,6 +12,16 @@
     <![endif]-->
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <style>
+      @charset "UTF-8";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+      
+      input {
+  display: none;
+}
       ul,
 li {
   margin: 0;
@@ -62,7 +72,7 @@ label {
 
 label::before,
 label::after {
-  content: '👎';
+  content: '𝗫';
   box-sizing: border-box;
   display: block;
   text-align: center;
@@ -74,15 +84,15 @@ label::after {
   margin-top: -1rem;
   height: 2rem;
   border-radius: 0.2rem;
-  background: #fdd;
+  background: rgb(71, 0, 0);
   -webkit-transition: opacity ease 0.3s;
   transition: opacity ease 0.3s;
   z-index: 2;
 }
 
 label::after {
-  content: '👍';
-  background: #dfd;
+  content: '𝗢';
+  background: rgb(97, 186, 101);
   z-index: 1;
 }
 
