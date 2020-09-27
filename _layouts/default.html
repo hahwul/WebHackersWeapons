@@ -65,13 +65,12 @@
 
       {{ content }}
 
-      </section>
       </hr>
       <div class="container">      
         <div id="app">
-          <h2>Tools</h2>
+          <h1>One-line maker</h1>
           <div>
-            <input type="button" value="Generate One-Line Install script!">
+            <input type="button" value="Generate">
             <table class="table">
               <tr>
                 <th><input type="checkbox" v-model="checkAll"></th>
@@ -91,6 +90,8 @@
           </div>
         </div>
       </div>
+      </section>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js">
       <script>
         new Vue({
           data: {
