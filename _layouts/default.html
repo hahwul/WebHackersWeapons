@@ -64,7 +64,7 @@
       {{ content }}
 
       </hr>
-      <div class="container">      
+      <div class="container" onload="show()">      
         <div id="app">
           <h1>One-line maker</h1>
           <div>
@@ -91,7 +91,7 @@
       </section>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js">
       <script>
-        window.onload = function(){
+        function show(){
           new Vue({
             data: {
               langs: [ 
