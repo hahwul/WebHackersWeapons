@@ -123,7 +123,6 @@ button {
   width: calc(100% + 2rem);
   margin-left: -1rem;
   border-bottom: 0.125rem solid #ccc;
-  background: #ffffff;
   z-index: 10;
   margin-bottom: 1rem;
 }
@@ -148,6 +147,17 @@ button {
   top: 0;
   left: 0;
   height: 100%;
+}
+      
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
     </style>
   </head>
@@ -206,7 +216,7 @@ button {
       <hr>
       {% raw %}
       <div class="container">
-        <input type="button" style="display:block !important;" value="Make">
+        <input type="button" style="display:block !important;" value="Make" class="button"><br><br>
         <div id="app">
           <checklist></checklist>
         </div>
