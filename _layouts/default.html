@@ -216,7 +216,6 @@ button {
       <hr>
       {% raw %}
       <div class="container">
-        <input type="button" style="display:block !important;" value="Make" class="button"><br><br>
         <div id="app">
           <checklist></checklist>
         </div>
@@ -250,7 +249,7 @@ button {
 
           
           Vue.component('checklist-item', {
-            template: '<div>' +
+            template: '<div><input type="button" style="display:block !important;" value="Make" class="button"><br><br>' +
               '<input :checked="complete" @click="progress" type="checkbox" :name="\'checkbox\' + id" :id="\'checkbox\' + id" value="">' +
               '<label :for="\'checkbox\' + id" v-html="i"></label>' +
             '</div>',
