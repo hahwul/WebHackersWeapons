@@ -66,6 +66,60 @@
       {{ content }}
 
       </section>
+      </hr>
+      <div class="container">      
+        <div id="app">
+          <h2>Tools</h2>
+          <div>
+            <input type="button" value="Generate One-Line Install script!">
+            <table class="table">
+              <tr>
+                <th><input type="checkbox" v-model="checkAll"></th>
+                <th align="center">ID</th>
+                <th align="center">Names</th>
+              </tr>
+              <tr v-for="lang in langs">
+                <td>
+                  <input type="checkbox" v-model="checked" :value="lang.id" number>
+                </td>
+                {% raw %}
+                <td> {{ lang.id }}</td>
+                <td> {{ lang.name }}</td>
+                {% endraw %}
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <script>
+        new Vue({
+          data: {
+            langs: [ 
+            { "id": "1", "name": "Edward"},
+              { "id": "2", "name": "Lance"},
+              { "id": "3", "name": "Arellano"},
+              { "id": "4", "name": "Lorilla"},
+              ],
+            checked: []
+          },
+          computed: {
+            checkAll: {
+              get: function () {
+                return this.langs ? this.checked.length == this.langs.length : false;
+              },
+              set: function (value) {
+                var checked = [];
+                if (value) {
+                  this.langs.forEach(function (lang) {
+                    checked.push(lang.id);
+                  });
+                }
+                this.checked = checked;
+              }
+            }
+          }
+        }).$mount('#app');
+    </script>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
