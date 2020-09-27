@@ -65,34 +65,40 @@
       {{ content }}
 
       </hr>
-      <div class="container">      
+      <div class="container">   
         <div id="app">
-          <h1>One-line maker</h1>
-          <div>
-            <input name="search" id="search" v-model="search" type="text" class="form-control">
-            <input type="button" value="Generate">
-            <table class="table">
-              <tr>
-                <th><input type="checkbox" v-model="checkAll"></th>
-                <th align="center">Name</th>
-                <th align="center">Type</th>
-                <th align="center">Method</th>
-                <th align="center">Description</th>
-              </tr>
-              <tr v-for="tool in tools">
-                <td>
-                  <input type="checkbox" v-model="checked" :value="tool.name" number>
-                </td>
-                {% raw %}
-                <td> {{ tool.name }}</td>
-                <td> {{ tool.dtype }}</td>
-                <td> {{ tool.method }}</td>
-                <td> {{ tool.desc }}</td>
-                {% endraw %}
-              </tr>
-            </table>
+
+            <input type="text" v-model="search" class="form-control" />
+            <input type="button" class="form-button" />
+
+            <table class="table table-striped">
+
+              <thead>
+                <tr>
+                  <th v-repeat="column: columns">
+                    <a href="#" 
+                       v-on="click: sortBy(column)"
+                       v-class="active: sortKey == column"
+                       >
+                      {{ column | capitalize }}
+                    </a>
+                  </th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr v-repeat="tools
+                              | filterBy search
+                              | orderBy sortKey reverse">
+                  <td>{{ name }}</td>
+                  <td>{{ dtype }}</td>
+                  <td>{{ method }}</td>
+                  <td>{{ desc }}</td>
+                </tr>
+              </tbody>
+            </table>  
           </div>
-        </div>
+        </div>  
       </div>
       </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
@@ -121,7 +127,11 @@
           new Vue({
             data: {
               tools: vueData,
-              checked: []
+              checked: [],
+              sortKey: '',
+              search: '',
+              reverse: false,
+              columns: ['name','dtype','method','desc']
             },
             computed: {
               checkAll: {
