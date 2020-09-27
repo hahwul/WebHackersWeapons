@@ -79,8 +79,10 @@
                 <td>
                   <input type="checkbox" v-model="checked" :value="lang.id" number>
                 </td>
+                { % raw % }
                 <td> {{ lang.id }}</td>
                 <td> {{ lang.name }}</td>
+                { % endraw % }
               </tr>
             </table>
           </div>
@@ -90,33 +92,33 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js">
       <script>
         window.onload = function(){
-        new Vue({
-          data: {
-            langs: [ 
-            { "id": "1", "name": "Edward"},
-              { "id": "2", "name": "Lance"},
-              { "id": "3", "name": "Arellano"},
-              { "id": "4", "name": "Lorilla"},
-              ],
-            checked: []
-          },
-          computed: {
-            checkAll: {
-              get: function () {
-                return this.langs ? this.checked.length == this.langs.length : false;
-              },
-              set: function (value) {
-                var checked = [];
-                if (value) {
-                  this.langs.forEach(function (lang) {
-                    checked.push(lang.id);
-                  });
+          new Vue({
+            data: {
+              langs: [ 
+                { "id": "1", "name": "Edward"},
+                { "id": "2", "name": "Lance"},
+                { "id": "3", "name": "Arellano"},
+                { "id": "4", "name": "Lorilla"},
+                ],
+              checked: []
+            },
+            computed: {
+              checkAll: {
+                get: function () {
+                  return this.langs ? this.checked.length == this.langs.length : false;
+                },
+                set: function (value) {
+                  var checked = [];
+                  if (value) {
+                    this.langs.forEach(function (lang) {
+                      checked.push(lang.id);
+                    });
+                  }
+                  this.checked = checked;
                 }
-                this.checked = checked;
               }
             }
-          }
-        }).$mount('#app');
+          }).$mount('#app');
         };
     </script>
     </div>
