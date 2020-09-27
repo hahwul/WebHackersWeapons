@@ -68,38 +68,8 @@
       {% raw %}
       <div class="container">   
         <div id="app">
-
-            <input type="text" v-model="search" class="form-control" />
-            <input type="button" class="form-button" />
-
-            <table class="table table-striped">
-
-              <thead>
-                <tr>
-                  <th v-repeat="column: columns">
-                    <a href="#" 
-                       v-on="click: sortBy(column)"
-                       v-class="active: sortKey == column"
-                       >
-                      {{ column | capitalize }}
-                    </a>
-                  </th>
-                </tr>
-              </thead>
-
-              <tbody>
-                <tr v-repeat="tools 
-                              | filterBy search
-                              | orderBy sortKey reverse">
-                  <td>{{ name }}</td>
-                  <td>{{ dtype }}</td>
-                  <td>{{ method }}</td>
-                  <td>{{ desc }}</td>
-                </tr>
-              </tbody>
-            </table>  
-          </div>
-        </div>  
+          <checklist></checklist>
+        </div>
       </div>
     {% endraw %}
     </section>
@@ -107,6 +77,7 @@
       <script>
         window.onload = function(){
           vueData = []
+          vueList = []
           $.ajax({
                async: false,
                type: 'GET',
@@ -122,26 +93,89 @@
                          install: jsonData[property]['Install']
                        }
                        vueData.push(tool)
+                       vueList.push(property)
                     }
                }
           });
 
-          new Vue({
-            data: {
-              tools: vueData,
-              checked: [],
-              sortKey: '',
-              search: '',
-              reverse: false,
-              columns: ['name','dtype','method','desc']
+          
+          Vue.component('checklist-item', {
+            template: '<div>' +
+              '<input :checked="complete" @click="progress" type="checkbox" :name="\'checkbox\' + id" :id="\'checkbox\' + id" value="">' +
+              '<label :for="\'checkbox\' + id" v-html="i"></label>' +
+            '</div>',
+            data() {
+              return {
+                id: this._uid,
+                complete: false
+              };
+            },
+            props: {
+              i: String
             },
             methods: {
-                sortBy: function(sortKey) {
-                  this.reverse = (this.sortKey == sortKey) ? ! this.reverse : false;
-                  this.sortKey = sortKey;
+              progress() {
+                this.complete = !this.complete;
+                this.$emit('complete', this.complete);
+                this.updateStorage();
+              },
+              updateStorage() {
+                localStorage.setItem(this.id, JSON.stringify({
+                  complete: this.complete
+                }));
+              }
+            },
+            created() {
+              if(localStorage.getItem(this.id)) {
+                let storage = JSON.parse(localStorage.getItem(this.id));
+                if(storage.complete) {
+                  this.progress();
+                }
               }
             }
-          }).$mount('#app');
+          });
+
+          Vue.component('progress-bar', {
+            template: '<div class="status"><div>{{ c }} / {{ t }}</div><div class="progress"><div class="bar" :style="{width: width + \'%\'}"></div></div></div>',
+            props: {
+              c: Number,
+              t: Number
+            },
+            computed: {
+              width() {
+                return (this.c / this.t) * 100;
+              }
+            }
+          });
+
+          Vue.component('checklist', {
+            template: '<div>' +
+              '<progress-bar :c="complete" :t="total"></progress-bar>' +
+              '<ul>' +
+                '<li v-for="item in items">' +
+                  '<checklist-item :i="item" v-on:complete="updateProgress"></checklist-item>' +
+                '</li>' +
+              '</ul>' +
+            '</div>',
+            data() {
+              return {
+                items: vueList
+                complete: 0
+              };
+            },
+            computed: {
+              total() {
+                return this.items.length;
+              }
+            },
+            methods: {
+              updateProgress(complete) {
+                (complete) ? this.complete++ : this.complete--;
+              }
+            }
+          });
+
+          new Vue().$mount('#app');
         };
     </script>
     </div>
