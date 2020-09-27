@@ -11,6 +11,135 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <style>
+      ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+li + li {
+  border-top: thin solid #ccc;
+}
+
+li div {
+  display: -webkit-box;
+  display: flex;
+  padding: 0.2rem 0;
+  -webkit-box-align: start;
+          align-items: flex-start;
+}
+
+input:checked + label {
+  /*text-decoration: line-through;*/
+  color: #4CAF50;
+}
+
+input:checked + label::before {
+  opacity: 0;
+}
+
+label {
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  -webkit-transition-property: color, padding;
+  transition-property: color, padding;
+  cursor: pointer;
+  display: block;
+  padding: 1rem 0.5rem 1rem 3.5rem;
+  color: #C62828;
+  position: relative;
+  -webkit-transition: color ease 0.3s;
+  transition: color ease 0.3s;
+}
+
+label::before,
+label::after {
+  content: '👎';
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 0.5rem;
+  padding: 0.4rem 0.1rem 0.2rem 0;
+  width: 2rem;
+  margin-top: -1rem;
+  height: 2rem;
+  border-radius: 0.2rem;
+  background: #fdd;
+  -webkit-transition: opacity ease 0.3s;
+  transition: opacity ease 0.3s;
+  z-index: 2;
+}
+
+label::after {
+  content: '👍';
+  background: #dfd;
+  z-index: 1;
+}
+
+button {
+  margin-left: auto;
+  height: auto;
+}
+
+.invalid label,
+.invalid input:checked + label {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #ccc;
+}
+
+.invalid label::before,
+.invalid label::after {
+  display: none;
+}
+
+.status {
+  display: -webkit-box;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  width: calc(100% + 2rem);
+  margin-left: -1rem;
+  border-bottom: 0.125rem solid #ccc;
+  background: #ffffff;
+  z-index: 10;
+  margin-bottom: 1rem;
+}
+
+.status > div {
+  white-space: nowrap;
+}
+
+.progress {
+  background: #ddd;
+  height: 1rem;
+  position: relative;
+  margin: 0 1rem;
+  width: 100%;
+}
+
+.progress .bar {
+  -webkit-transition: width 0.2s ease;
+  transition: width 0.2s ease;
+  background: #4CAF50;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+    </style>
   </head>
   <body>
     <div class="wrapper" style="width:100% !important;">
@@ -159,7 +288,7 @@
             '</div>',
             data() {
               return {
-                items: vueList
+                items: vueList,
                 complete: 0
               };
             },
