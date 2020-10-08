@@ -96,15 +96,15 @@
   }
  },
  "BurpSuite": {
-  "Type": "Army-Knife",
   "Data": "| Army-Knife/PROXY  | [BurpSuite](https://portswigger.net/burp) |  the BurpSuite Project|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)",
-  "Method": "PROXY",
   "Description": "the BurpSuite Project",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "PROXY",
+  "Type": "Army-Knife",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1071,6 +1071,22 @@
    "Windows": ""
   }
  },
+ "domlock": {
+  "Type": "Discovery",
+  "Data": "| Discovery/ASN | [domlock](https://github.com/ARPSyndicate/domlock) | subdomains to asn \u0026 netblocks | ![](https://img.shields.io/github/stars/ARPSyndicate/domlock) | ![](https://img.shields.io/github/languages/top/ARPSyndicate/domlock) |",
+  "Method": "ASN",
+  "Description": "subdomains to asn \u0026 netblocks",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "dotdotpwn": {
   "Data": "| Scanner/LFI | [dotdotpwn](https://github.com/wireghoul/dotdotpwn) | DotDotPwn - The Directory Traversal Fuzzer | ![](https://img.shields.io/github/stars/wireghoul/dotdotpwn) | ![](https://img.shields.io/github/languages/top/wireghoul/dotdotpwn) |",
   "Description": "DotDotPwn - The Directory Traversal Fuzzer ",
@@ -1097,6 +1113,22 @@
   },
   "Method": "XSS",
   "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "favinizer": {
+  "Data": "| Discovery/FAVICON | [favinizer](https://github.com/ARPSyndicate/favinizer) | favicon fingerprinting | ![](https://img.shields.io/github/stars/ARPSyndicate/favinizer) | ![](https://img.shields.io/github/languages/top/ARPSyndicate/favinizer) |",
+  "Description": "favicon fingerprinting",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "FAVICON",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1593,6 +1625,22 @@
   },
   "Method": "JWT",
   "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "kenzer": {
+  "Data": "| Scanner/RECON | [kenzer](https://github.com/ARPSyndicate/kenzer) | automated web assets enumeration \u0026 scanning | ![](https://img.shields.io/github/stars/ARPSyndicate/kenzer) | ![](https://img.shields.io/github/languages/top/ARPSyndicate/kenzer) |",
+  "Description": "automated web assets enumeration \u0026 scanning",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "RECON",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
