@@ -96,15 +96,15 @@
   }
  },
  "BurpSuite": {
-  "Type": "Army-Knife",
   "Data": "| Army-Knife/PROXY  | [BurpSuite](https://portswigger.net/burp) |  the BurpSuite Project|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)",
-  "Method": "PROXY",
   "Description": "the BurpSuite Project",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "PROXY",
+  "Type": "Army-Knife",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1097,6 +1097,22 @@
   },
   "Method": "XSS",
   "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "feroxbuster": {
+  "Type": "Discovery",
+  "Data": "| Discovery/FUZZ | [feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | ![](https://img.shields.io/github/stars/epi052/feroxbuster) | ![](https://img.shields.io/github/languages/top/epi052/feroxbuster) |",
+  "Method": "FUZZ",
+  "Description": "A fast, simple, recursive content discovery tool written in Rust.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
   "Update": {
    "Linux": "",
    "MacOS": "",
