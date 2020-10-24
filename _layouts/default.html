@@ -186,7 +186,7 @@ button {
         </ul>
         {% endif %}
         
-        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7◐/lib/darkmode-js.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
         <script>
           function addDarkmodeWidget() {
             const options = {
@@ -199,7 +199,7 @@ button {
             buttonColorDark: '#100f2c',  // default: '#100f2c'
             buttonColorLight: '#fff', // default: '#fff'
             saveInCookies: true, // default: true,
-            label: '😎', // default: ''
+            label: '◐', // default: ''
             autoMatchOsTheme: true // default: true
             }
 
@@ -242,7 +242,7 @@ button {
                          install: jsonData[property]['Install'],
                          update: jsonData[property]['Update']
                        }
-                       if tool.install != '' {
+                       if ((tool.install['Linux'] != '') || (tool.install['MacOS'] != '') || (tool.install['Windows'] != '')) {
                         vueData.push(tool)
                         vueList.push(property)
                        }
@@ -287,7 +287,7 @@ button {
           });
 
           Vue.component('progress-bar', {
-            template: '<div class="status"><input type="button" style="display:block !important;" value="Make" class="button"><input type="input" id="path" style="display:block !important;" placeholder="~/tools" value=""><div class="progress"><div class="bar" :style="{width: width + \'%\'}"></div></div></div>',
+            template: '<div class="status"><input type="button" style="display:block !important;" value="Make" class="button"><input type="input" id="path" style="display:block !important;" placeholder="~/tools" value=""><select name="os"><option value="">Select OS</option><option value="macos">MacOS</option><option value="linux">Linux</option><option value="windows">windows</option></select><div class="progress"><div class="bar" :style="{width: width + \'%\'}"></div></div></div>',
             props: {
               c: Number,
               t: Number
