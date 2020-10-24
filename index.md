@@ -7,7 +7,7 @@ We need several install packages before installation is installed. It different 
 Dependency
 
 
-`git` `python-pip` `rubygem` `go` `python` `ruby` `homebrew`
+`git`, `python-pip`, `rubygem`, `go`, `python`, `ruby`, `homebrew`
 
 Step by Step
 ```
