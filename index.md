@@ -12,7 +12,7 @@ We need several install packages before installation is installed. It different 
 - ruby
 ```
 
-1. Specify the directory to install. This is because there are tools that need to be installed as git clone. 
-2. Select Your OS
-3. Choice app for install/update
-4. Click `Make`
+- First, Specify the directory to install. This is because there are tools that need to be installed as git clone. 
+- Second, Select Your OS
+- Third, Choice app for install/update
+- Finally, Click `Make`
