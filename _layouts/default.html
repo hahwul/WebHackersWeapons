@@ -199,7 +199,7 @@ button {
             buttonColorDark: '#100f2c',  // default: '#100f2c'
             buttonColorLight: '#fff', // default: '#fff'
             saveInCookies: true, // default: true,
-            label: '◐', // default: ''
+            label: '😎', // default: ''
             autoMatchOsTheme: true // default: true
             }
 
@@ -242,13 +242,14 @@ button {
                          install: jsonData[property]['Install'],
                          update: jsonData[property]['Update']
                        }
-                       vueData.push(tool)
-                       vueList.push(property)
+                       if tool.install != '' {
+                        vueData.push(tool)
+                        vueList.push(property)
+                       }
                     }
                }
           });
 
-          
           Vue.component('checklist-item', {
             template: '<div>' +
               '<input :checked="complete" @click="progress" type="checkbox" :name="\'checkbox\' + id" :id="\'checkbox\' + id" value="">' +
