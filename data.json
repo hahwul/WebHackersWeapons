@@ -995,9 +995,9 @@
   "Data": "| Scanner/XSS | [dalfox](https://github.com/hahwul/dalfox) | 🌘🦊 DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang | ![](https://img.shields.io/github/stars/hahwul/dalfox) | ![](https://img.shields.io/github/languages/top/hahwul/dalfox) |",
   "Description": "🌘🦊 DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get -u github.com/hahwul/dalfox",
+   "MacOS": "go get -u github.com/hahwul/dalfox",
+   "Windows": "go get -u github.com/hahwul/dalfox"
   },
   "Method": "XSS",
   "Type": "Scanner",
