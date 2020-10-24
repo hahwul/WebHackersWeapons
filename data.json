@@ -1104,15 +1104,15 @@
   }
  },
  "feroxbuster": {
-  "Type": "Discovery",
   "Data": "| Discovery/FUZZ | [feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | ![](https://img.shields.io/github/stars/epi052/feroxbuster) | ![](https://img.shields.io/github/languages/top/epi052/feroxbuster) |",
-  "Method": "FUZZ",
   "Description": "A fast, simple, recursive content discovery tool written in Rust.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "FUZZ",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1753,6 +1753,22 @@
   },
   "Method": "PORT",
   "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "nosqli": {
+  "Type": "Scanner",
+  "Data": "| Scanner/NOSQL | [nosqli](https://github.com/Charlie-belmer/nosqli) | NoSql Injection CLI tool | ![](https://img.shields.io/github/stars/Charlie-belmer/nosqli) | ![](https://img.shields.io/github/languages/top/Charlie-belmer/nosqli) |",
+  "Method": "NOSQL",
+  "Description": "NoSql Injection CLI tool",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
   "Update": {
    "Linux": "",
    "MacOS": "",
