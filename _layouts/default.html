@@ -261,7 +261,7 @@ button {
           Vue.component('checklist-item', {
             template: '<div>' +
               '<input :checked="complete" @click="progress" type="checkbox" :name="\'checkbox\' + id" :id="\'checkbox\' + id" value="">' +
-              '<label :for="\'checkbox\' + id">{{id.name}} | <i v-if="id.install_macos != ''" class="fab fa-apple"></i> <i v-if="id.install_linux != ''" class="fab fa-linux"></i> <i v-if="id.install_windows != ''" class="fab fa-windows"></i> </label>' +
+              '<label :for="\'checkbox\' + id">{{id.name}} | <i v-if="id.install_macos != \'\'" class="fab fa-apple"></i> <i v-if="id.install_linux != \'\'" class="fab fa-linux"></i> <i v-if="id.install_windows != \'\'" class="fab fa-windows"></i> </label>' +
             '</div>',
             data() {
               return {
