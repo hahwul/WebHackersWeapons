@@ -239,12 +239,15 @@ button {
                          method: jsonData[property]['Method'],
                          dtype: jsonData[property]['Type'],
                          desc: jsonData[property]['Description'],
-                         install: jsonData[property]['Install'],
-                         update: jsonData[property]['Update']
+                         install_linux: jsonData[property]['Install']['Linux'],
+                         install_macos: jsonData[property]['Install']['MacOS'],
+                         install_windows: jsonData[property]['Install']['Windows'],
+                         update_linux: jsonData[property]['Update']['Linux'],
+                         update_macos: jsonData[property]['Update']['MacOS'],
+                         update_windows: jsonData[property]['Update']['Windows']
                        }
-                       if ((tool.install['Linux'] != '') || (tool.install['MacOS'] != '') || (tool.install['Windows'] != '')) {
+                       if ((tool.install_linux != '') || (tool.install_macos != '') || (tool.install_windows != '')) {
                         vueData.push(tool)
-                        vueList.push(property)
                        }
                     }
                }
@@ -287,7 +290,7 @@ button {
           });
 
           Vue.component('progress-bar', {
-            template: '<div class="status"><input type="button" style="display:block !important;" value="Make" class="button"><input type="input" id="path" style="display:block !important;" placeholder="~/tools" value=""><select name="os"><option value="">Select OS</option><option value="macos">MacOS</option><option value="linux">Linux</option><option value="windows">windows</option></select><div class="progress"><div class="bar" :style="{width: width + \'%\'}"></div></div></div>',
+            template: '<div class="status"><input type="input" id="path" style="display:block !important;" placeholder="~/tools" value=""><select name="os"><option value="">Select OS</option><option value="macos">MacOS</option><option value="linux">Linux</option><option value="windows">windows</option></select><input type="button" style="display:block !important;" value="Make" class="button"><div class="progress"><div class="bar" :style="{width: width + \'%\'}"></div></div></div>',
             props: {
               c: Number,
               t: Number
