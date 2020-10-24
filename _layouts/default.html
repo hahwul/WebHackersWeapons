@@ -186,7 +186,7 @@ button {
         </ul>
         {% endif %}
         
-        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7◐/lib/darkmode-js.min.js"></script>
         <script>
           function addDarkmodeWidget() {
             const options = {
@@ -199,7 +199,7 @@ button {
             buttonColorDark: '#100f2c',  // default: '#100f2c'
             buttonColorLight: '#fff', // default: '#fff'
             saveInCookies: true, // default: true,
-            label: '🌓', // default: ''
+            label: '◐', // default: ''
             autoMatchOsTheme: true // default: true
             }
 
@@ -239,7 +239,8 @@ button {
                          method: jsonData[property]['Method'],
                          dtype: jsonData[property]['Type'],
                          desc: jsonData[property]['Description'],
-                         install: jsonData[property]['Install']
+                         install: jsonData[property]['Install'],
+                         update: jsonData[property]['Update']
                        }
                        vueData.push(tool)
                        vueList.push(property)
@@ -285,7 +286,7 @@ button {
           });
 
           Vue.component('progress-bar', {
-            template: '<div class="status"><div><input type="button" style="display:block !important;" value="Make" class="button"><br><br></div><div class="progress"><div class="bar" :style="{width: width + \'%\'}"></div></div></div>',
+            template: '<div class="status"><input type="button" style="display:block !important;" value="Make" class="button"><input type="input" id="path" style="display:block !important;" placeholder="~/tools" value=""><div class="progress"><div class="bar" :style="{width: width + \'%\'}"></div></div></div>',
             props: {
               c: Number,
               t: Number
