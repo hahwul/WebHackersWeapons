@@ -340,7 +340,14 @@ button {
     </script>
     <script>
     function whwmake() {
+      document.body.style.padding=0
+      document.getElementsByClassName("wrapper")[0].style.display='none'
       document.getElementById("output-area").style.display='block'
+    }
+    function gohome() {
+      document.body.style.padding=50
+      document.getElementsByClassName("wrapper")[0].style.display='block'
+      document.getElementById("output-area").style.display='none'
     }
     </script>
     </div>
@@ -355,7 +362,8 @@ button {
       ga('send', 'pageview');
     </script>
     {% endif %}
-      <div style="width:100%;height:80vh;background-color:black;position:fixed;z-index:9999 !important; display:none;" id="output-area">
+      <div style="width:100%; display:none;" id="output-area">
+      <button class="button" onclick="gohome()">Back</button>
       <table>
         <tr>
           <td width=50%>Install script</td>
