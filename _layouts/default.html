@@ -296,7 +296,7 @@ button {
           });
 
           Vue.component('progress-bar', {
-            template: '<div class="status"><input type="input" id="path" style="display:block !important;" placeholder="~/tools" value=""><select name="os"><option value="">Select OS</option><option value="macos">MacOS</option><option value="linux">Linux</option><option value="windows">windows</option></select><input type="button" style="display:block !important;" value="Make" class="button" onclick="whwmake()"><div class="progress"><div class="bar" :style="{width: width + \'%\'}"></div></div></div>',
+            template: '<div class="status"><input type="input" id="path" style="display:block !important;" placeholder="~/tools" value=""><select name="os"><option value="macos">MacOS</option><option value="linux">Linux</option><option value="windows">windows</option></select><input type="button" style="display:block !important;" value="Make" class="button" onclick="whwmake()"><div class="progress"><div class="bar" :style="{width: width + \'%\'}"></div></div></div>',
             props: {
               c: Number,
               t: Number
@@ -343,6 +343,10 @@ button {
       document.body.style.padding=0
       document.getElementsByClassName("wrapper")[0].style.display='none'
       document.getElementById("output-area").style.display='block'
+      
+      var path = document.getElementById("path").value
+      var os = document.getElementById("os").selectedOptions[0].value
+      
     }
     function gohome() {
       document.body.style.padding=50
