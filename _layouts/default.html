@@ -103,6 +103,7 @@ label::after {
 button {
   margin-left: auto;
   height: auto;
+  cursor: pointer;
 }
 
 .invalid label,
@@ -354,21 +355,21 @@ button {
       ga('send', 'pageview');
     </script>
     {% endif %}
-  </body>
-  <div style="width:100%;height:80vh;background-color:black;position:fixed;z-index:9999 !important; display:none;" id="output-area">
-  <table>
-    <tr>
-      <td width=50%>Install script</td>
-      <td width=50%>Update script</td>
-    </tr>
-    <tr>
-      <td style="vertical-align:top;">
-        <pre><code id="output-install" style="white-space: pre-line; overflow: auto;"></code></pre>
-      </td>
-      <td style="vertical-align:top;">
-        <pre><code id="output-update" style="white-space: pre-line; overflow: auto;"></code></pre>
-      </td>
-    </tr>
-    </table>
+      <div style="width:100%;height:80vh;background-color:black;position:fixed;z-index:9999 !important; display:none;" id="output-area">
+      <table>
+        <tr>
+          <td width=50%>Install script</td>
+          <td width=50%>Update script</td>
+        </tr>
+        <tr>
+          <td style="vertical-align:top;">
+            <pre><code id="output-install" style="white-space: pre-line; overflow: auto;"></code></pre>
+          </td>
+          <td style="vertical-align:top;">
+            <pre><code id="output-update" style="white-space: pre-line; overflow: auto;"></code></pre>
+          </td>
+        </tr>
+       </table>
   </div>
+  </body>
 </html>
