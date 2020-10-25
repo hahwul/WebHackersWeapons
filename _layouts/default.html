@@ -337,6 +337,11 @@ button {
           new Vue().$mount('#app');
         };
     </script>
+    <script>
+    function whwmake() {
+      document.getElementById("output-area").style.display='block'
+    }
+    </script>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
@@ -347,11 +352,6 @@ button {
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
       ga('create', '{{ site.google_analytics }}', 'auto');
       ga('send', 'pageview');
-    </script>
-    <script>
-    function whwmake(){
-      document.getElementById("output-area").style.display='block'
-    }
     </script>
     {% endif %}
   </body>
