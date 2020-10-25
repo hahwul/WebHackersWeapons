@@ -295,7 +295,7 @@ button {
           });
 
           Vue.component('progress-bar', {
-            template: '<div class="status"><input type="input" id="path" style="display:block !important;" placeholder="~/tools" value=""><select name="os"><option value="">Select OS</option><option value="macos">MacOS</option><option value="linux">Linux</option><option value="windows">windows</option></select><input type="button" style="display:block !important;" value="Make" class="button"><div class="progress"><div class="bar" :style="{width: width + \'%\'}"></div></div></div>',
+            template: '<div class="status"><input type="input" id="path" style="display:block !important;" placeholder="~/tools" value=""><select name="os"><option value="">Select OS</option><option value="macos">MacOS</option><option value="linux">Linux</option><option value="windows">windows</option></select><input type="button" style="display:block !important;" value="Make" class="button" onclick="whwmake()"><div class="progress"><div class="bar" :style="{width: width + \'%\'}"></div></div></div>',
             props: {
               c: Number,
               t: Number
@@ -348,9 +348,14 @@ button {
       ga('create', '{{ site.google_analytics }}', 'auto');
       ga('send', 'pageview');
     </script>
+    <script>
+    function whwmake(){
+      document.getElementById("output-area").style.display='block'
+    }
+    </scirpt>
     {% endif %}
   </body>
-  <div style="width:100%;height:80vh;background-color:black;position:fixed;z-index:9999 !important;">
+  <div style="width:100%;height:80vh;background-color:black;position:fixed;z-index:9999 !important;" id="output-area">
   <table>
     <tr>
       <td width=50%>Install script</td>
