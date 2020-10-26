@@ -344,48 +344,50 @@ button {
       document.getElementsByClassName("wrapper")[0].style.display='none'
       document.getElementById("output-area").style.display='block'
       
-      var path = document.getElementById("path").value
+      var youpath = document.getElementById("path").value
+      if (youpath == "") {
+        youpath = "."
+      }
+      
       var os = document.getElementById("os").selectedOptions[0].value
       var output_install = document.getElementById("output-install");
       var output_update = document.getElementById("output-update");
-      var install_script = ""
-      var update_scirpt = "whw-update(){"
       var checkboxes = document.getElementsByClassName("checkboxes")
       
-      if (path == "") {
-        path = "~/tools"
-      }
+      var install_script = "export WHW_PWD=`PWD`; " + `cd ${youpath}`
+      var update_scirpt = "whw-update(){ export WHW_PWD=`PWD`; echo 'Starting whw-update !'; " + `cd ${youpath}`
+
       
       for (const [key, value] of Object.entries(checkboxes)) {
         if (checkboxes[key].checked) {
           console.log(vueData[key])
           if (os == "macos") {
             if (vueData[key].install_macos != "") {
-              install_script = install_script + vueData[key].install_macos + "; "
+              install_script = install_script + vueData[key].install_macos + "; " + `cd ${youpath}`
             }
             if (vueData[key].update_macos != "") { 
-              update_scirpt = update_scirpt + vueData[key].update_macos + "; "
+              update_scirpt = update_scirpt + vueData[key].update_macos + "; " + `cd ${youpath}`
             }
           } else if (os == "linux") {
             if (vueData[key].install_linux != "") {
-              install_script = install_script + vueData[key].install_linux + "; "
+              install_script = install_script + vueData[key].install_linux + "; " + `cd ${youpath}`
             }
             if (vueData[key].update_linux != "") {
-              update_scirpt = update_scirpt + vueData[key].update_linux + "; "
+              update_scirpt = update_scirpt + vueData[key].update_linux + "; " + `cd ${youpath}`
             }
           } else if (os == "windows") {
             if (vueData[key].install_windows != "") {
-              install_script = install_script + vueData[key].install_windows + "; "
+              install_script = install_script + vueData[key].install_windows + "; " + `cd ${youpath}`
             }
             if (vueData[key].update_windows != "") {
-              update_scirpt = update_scirpt + vueData[key].update_windows + "; "
+              update_scirpt = update_scirpt + vueData[key].update_windows + "; " + `cd ${youpath}`
             }
           }
         }
       }
       update_scirpt = update_scirpt+"}"
-      output_install.innerText = install_script;
-      output_update.innerText = update_scirpt;
+      output_install.innerText = install_script + "cd $WHW_PWD;";
+      output_update.innerText = update_scirpt + "cd $WHW_PWD; echo 'Finish whw-update :D'";
     }
     function gohome() {
       document.body.style.padding='50px'
