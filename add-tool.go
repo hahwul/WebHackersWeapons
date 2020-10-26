@@ -83,6 +83,17 @@ func writeJSON(category, name, method, data, udesc string) {
 		Install: install,
 		Update: update,
 	}
+	if result[name] != nil {
+		resultData := result[name].(map[string]interface{})
+		resultInstall := resultData["Install"].(map[string]interface{})
+		resultUpdate := resultData["Update"].(map[string]interface{})
+		tool.Install["MacOS"] = resultInstall["MacOS"].(string)
+		tool.Install["Linux"] = resultInstall["Linux"].(string)
+		tool.Install["Windows"] = resultInstall["Windows"].(string)
+		tool.Update["MacOS"] = resultUpdate["MacOS"].(string)
+		tool.Update["Linux"] = resultUpdate["Linux"].(string)
+		tool.Update["Windows"] = resultUpdate["Windows"].(string)
+	}
 	result[name] = tool
 	file, _ := json.MarshalIndent(result, "", " ")
 	_ = ioutil.WriteFile("data.json", file, 0644)
