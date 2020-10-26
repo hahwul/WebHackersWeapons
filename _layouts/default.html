@@ -68,7 +68,7 @@ label {
   cursor: pointer;
   display: block;
   padding: 1rem 0.5rem 1rem 3.5rem;
-  color: #C62828;
+  color: gray;
   position: relative;
   -webkit-transition: color ease 0.3s;
   transition: color ease 0.3s;
@@ -88,7 +88,7 @@ label::after {
   margin-top: -1rem;
   height: 2rem;
   border-radius: 0.2rem;
-  background: rgb(71, 0, 0);
+  background: darkgray;
   -webkit-transition: opacity ease 0.3s;
   transition: opacity ease 0.3s;
   z-index: 2;
@@ -348,11 +348,14 @@ button {
       var os = document.getElementById("os").selectedOptions[0].value
       var output_install = document.getElementById("output-install");
       var output_update = document.getElementById("output-update");
-      
       var install_script = ""
       var update_scirpt = "whw-update(){"
-      
       var checkboxes = document.getElementsByClassName("checkboxes")
+      
+      if path == "" {
+        path = "~/tools"
+      }
+      
       for (const [key, value] of Object.entries(checkboxes)) {
         if (checkboxes[key].checked) {
           console.log(vueData[key])
