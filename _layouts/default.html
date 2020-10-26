@@ -350,24 +350,37 @@ button {
       var output_update = document.getElementById("output-update");
       
       var install_script = ""
-      var update_scirpt = ""
+      var update_scirpt = "whw-update(){"
       
       var checkboxes = document.getElementsByClassName("checkboxes")
       for (const [key, value] of Object.entries(checkboxes)) {
         if (checkboxes[key].checked) {
           console.log(vueData[key])
           if (os == "macos") {
-            install_script = install_script + vueData[key].install_macos + ";"
-            update_scirpt = update_scirpt + vueData[key].update_macos + ";"
+            if (vueData[key].install_macos != "") {
+              install_script = install_script + vueData[key].install_macos + "; "
+            }
+            if (vueData[key].update_macos != "") { 
+              update_scirpt = update_scirpt + vueData[key].update_macos + "; "
+            }
           } else if (os == "linux") {
-            install_script = install_script + vueData[key].install_linux + ";"
-            update_scirpt = update_scirpt + vueData[key].update_linux + ";"
+            if (vueData[key].install_linux != "") {
+              install_script = install_script + vueData[key].install_linux + "; "
+            }
+            if (vueData[key].update_linux != "") {
+              update_scirpt = update_scirpt + vueData[key].update_linux + "; "
+            }
           } else if (os == "windows") {
-            install_script = install_script + vueData[key].install_windows + ";"
-            update_scirpt = update_scirpt + vueData[key].update_windows + ";"
+            if (vueData[key].install_windows != "") {
+              install_script = install_script + vueData[key].install_windows + "; "
+            }
+            if (vueData[key].update_windows != "") {
+              update_scirpt = update_scirpt + vueData[key].update_windows + "; "
+            }
           }
         }
       }
+      update_scirpt = update_scirpt+"}"
       output_install.innerText = install_script;
       output_update.innerText = update_scirpt;
     }
