@@ -1600,15 +1600,15 @@
   }
  },
  "jwt-hack": {
-  "Data": "| Utility/JWT | [jwt-hack](https://github.com/hahwul/jwt-hack) | jwt-hack is JWT hacking, security testing utility | ![](https://img.shields.io/github/stars/hahwul/jwt-hack) | ![](https://img.shields.io/github/languages/top/hahwul/jwt-hack) |",
-  "Description": "jwt-hack is JWT hacking, security testing utility ",
+  "Type": "Utility",
+  "Data": "| Utility/JWT | [jwt-hack](https://github.com/hahwul/jwt-hack) | 🔩 jwt-hack is tool for hacking / security testing to JWT. Supported for En/decoding JWT, Generate payload for JWT attack and very fast cracking(dict/brutefoce) | ![](https://img.shields.io/github/stars/hahwul/jwt-hack) | ![](https://img.shields.io/github/languages/top/hahwul/jwt-hack) |",
+  "Method": "JWT",
+  "Description": "🔩 jwt-hack is tool for hacking / security testing to JWT. Supported for En/decoding JWT, Generate payload for JWT attack and very fast cracking(dict/brutefoce)",
   "Install": {
-   "Linux": "go get -u github.com/hahwul/jwt-hack",
-   "MacOS": "go get -u github.com/hahwul/jwt-hack",
+   "Linux": "",
+   "MacOS": "",
    "Windows": ""
   },
-  "Method": "JWT",
-  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1760,15 +1760,15 @@
   }
  },
  "nosqli": {
-  "Type": "Scanner",
   "Data": "| Scanner/NOSQL | [nosqli](https://github.com/Charlie-belmer/nosqli) | NoSql Injection CLI tool | ![](https://img.shields.io/github/stars/Charlie-belmer/nosqli) | ![](https://img.shields.io/github/languages/top/Charlie-belmer/nosqli) |",
-  "Method": "NOSQL",
   "Description": "NoSql Injection CLI tool",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "NOSQL",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
