@@ -5,8 +5,10 @@ This is a web tool for making it easy to install/update packages in WHW. Followi
 We need several install packages before installation is installed. It different for depends on the tools you want to use, the data I provide is a dependency to install all these tools
 
 ### Dependency
-
-`git`, `python-pip`, `rubygem`, `go`, `python`, `ruby`, `homebrew`
+- All: `git`, `go`, `ruby`, `rubygem`, `python`, `python-pip`, `wget`, `curl`
+- Macos: `homebrew`
+- Linux: `snapcraft`, `apt package manager`
+- Windows: not supported..
 
 ### Step by Step
 ```
