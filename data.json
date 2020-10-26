@@ -1603,8 +1603,8 @@
   "Data": "| Utility/JWT | [jwt-hack](https://github.com/hahwul/jwt-hack) | jwt-hack is JWT hacking, security testing utility | ![](https://img.shields.io/github/stars/hahwul/jwt-hack) | ![](https://img.shields.io/github/languages/top/hahwul/jwt-hack) |",
   "Description": "jwt-hack is JWT hacking, security testing utility ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
+   "Linux": "go get -u github.com/hahwul/jwt-hack",
+   "MacOS": "go get -u github.com/hahwul/jwt-hack",
    "Windows": ""
   },
   "Method": "JWT",
