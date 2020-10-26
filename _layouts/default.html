@@ -296,7 +296,7 @@ button {
           });
 
           Vue.component('progress-bar', {
-            template: '<div class="status"><input type="input" id="path" style="display:block !important;" placeholder="~/tools" value=""><select name="os" id="os"><option value="macos">MacOS</option><option value="linux">Linux</option><option value="windows">windows</option></select><input type="button" style="display:block !important;" value="Make" class="button" onclick="whwmake()"><div class="progress"><div class="bar" :style="{width: width + \'%\'}"></div></div></div>',
+            template: '<div class="status"><input type="input" id="path" style="display:block !important;" placeholder="~/tools" value=""><select name="os" id="os"><option value="macos">MacOS</option><option value="linux">Linux</option><option value="windows">windows</option></select><input type="button" style="display:block !important; cursor: pointer;" value="Make" class="button" onclick="whwmake()"><div class="progress"><div class="bar" :style="{width: width + \'%\'}"></div></div></div>',
             props: {
               c: Number,
               t: Number
