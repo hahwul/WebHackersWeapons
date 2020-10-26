@@ -354,8 +354,8 @@ button {
       var output_update = document.getElementById("output-update");
       var checkboxes = document.getElementsByClassName("checkboxes")
       
-      var install_script = "export WHW_PWD=`PWD`; " + `cd ${youpath}; `
-      var update_scirpt = "whw-update(){ export WHW_PWD=`PWD`; echo 'Starting whw-update !'; " + `cd ${youpath}; `
+      var install_script = "export WHW_PWD=$PWD; " + `cd ${youpath}; `
+      var update_scirpt = "whw-update(){ export WHW_PWD=$PWD; echo 'Starting whw-update !'; " + `cd ${youpath}; `
 
       
       for (const [key, value] of Object.entries(checkboxes)) {
