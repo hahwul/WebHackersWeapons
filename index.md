@@ -10,6 +10,7 @@ We need several install packages before installation is installed. It different 
 - Linux: `snapcraft`, `apt package manager`
 - Windows: not supported..
 
+
 ### Step by Step
 ```
 1) Specify the directory to install. This is because there are tools that need to be installed as git clone. 
