@@ -347,6 +347,13 @@ button {
       var path = document.getElementById("path").value
       var os = document.getElementById("os").selectedOptions[0].value
       
+      var checkboxes = document.getElementsByClassName("checkboxes")
+      for (const [key, value] of Object.entries(checkboxes)) {
+        if value.checked {
+          console.log(vueData[key])
+        }
+      }
+      
     }
     function gohome() {
       document.body.style.padding='50px'
