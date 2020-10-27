@@ -1891,111 +1891,111 @@
   "Data": "| Scanner/WVS | [rapidscan](https://github.com/skavngr/rapidscan) | The Multi-Tool Web Vulnerability Scanner. | ![](https://img.shields.io/github/stars/skavngr/rapidscan) | ![](https://img.shields.io/github/languages/top/skavngr/rapidscan) |",
   "Description": "The Multi-Tool Web Vulnerability Scanner. ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "git clone https://github.com/skavngr/rapidscan",
+   "MacOS": "git clone https://github.com/skavngr/rapidscan",
+   "Windows": "git clone https://github.com/skavngr/rapidscan"
   },
   "Method": "WVS",
   "Type": "Scanner",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "cd rapidscan ; git pull -v",
+   "MacOS": "cd rapidscan ; git pull -v",
+   "Windows": "cd rapidscan ; git pull -v"
   }
  },
  "recon_profile": {
   "Data": "| Utility/ENV | [recon_profile](https://github.com/nahamsec/recon_profile) | Recon profile (bash profile) for bugbounty | ![](https://img.shields.io/github/stars/nahamsec/recon_profile) | ![](https://img.shields.io/github/languages/top/nahamsec/recon_profile) |",
   "Description": "Recon profile (bash profile) for bugbounty ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "git cleon https://github.com/nahamsec/recon_profile",
+   "MacOS": "git cleon https://github.com/nahamsec/recon_profile",
+   "Windows": "git cleon https://github.com/nahamsec/recon_profile"
   },
   "Method": "ENV",
   "Type": "Utility",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "cd recon_profile ; git pull -v",
+   "MacOS": "cd recon_profile ; git pull -v",
+   "Windows": "cd recon_profile ; git pull -v"
   }
  },
  "rengine": {
   "Data": "| Discovery/ALL | [rengine](https://github.com/yogeshojha/rengine) | reNgine is an automated reconnaissance framework meant for gathering information during penetration testing of web applications. reNgine has customizable scan engines, which can be used to scan the websites, endpoints, and gather information. | ![](https://img.shields.io/github/stars/yogeshojha/rengine) | ![](https://img.shields.io/github/languages/top/yogeshojha/rengine) |",
   "Description": "reNgine is an automated reconnaissance framework meant for gathering information during penetration testing of web applications. reNgine has customizable scan engines, which can be used to scan the websites, endpoints, and gather information. ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "git clone https://github.com/yogeshojha/rengine ; cd rengine ; make build",
+   "MacOS": "git clone https://github.com/yogeshojha/rengine ; cd rengine ; make build",
+   "Windows": "git clone https://github.com/yogeshojha/rengine ; cd rengine ; make build"
   },
   "Method": "ALL",
   "Type": "Discovery",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "cd rengine ; git pull -v ; make build",
+   "MacOS": "cd rengine ; git pull -v ; make build",
+   "Windows": "cd rengine ; git pull -v ; make build"
   }
  },
  "s3reverse": {
   "Data": "| Utility/S3 | [s3reverse](https://github.com/hahwul/s3reverse) | The format of various s3 buckets is convert in one format. for bugbounty and security testing. | ![](https://img.shields.io/github/stars/hahwul/s3reverse) | ![](https://img.shields.io/github/languages/top/hahwul/s3reverse) |",
   "Description": "The format of various s3 buckets is convert in one format. for bugbounty and security testing. ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get -u github.com/hahwul/s3reverse",
+   "MacOS": "go get -u github.com/hahwul/s3reverse",
+   "Windows": "go get -u github.com/hahwul/s3reverse"
   },
   "Method": "S3",
   "Type": "Utility",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get -u github.com/hahwul/s3reverse",
+   "MacOS": "go get -u github.com/hahwul/s3reverse",
+   "Windows": "go get -u github.com/hahwul/s3reverse"
   }
  },
  "shuffledns": {
   "Data": "| Discovery/DNS | [shuffledns](https://github.com/projectdiscovery/shuffledns) | shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output support. | ![](https://img.shields.io/github/stars/projectdiscovery/shuffledns) | ![](https://img.shields.io/github/languages/top/projectdiscovery/shuffledns) |",
   "Description": "shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output support. ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "GO111MODULE=on go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns",
+   "MacOS": "GO111MODULE=on go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns",
+   "Windows": "go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns"
   },
   "Method": "DNS",
   "Type": "Discovery",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "GO111MODULE=on go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns",
+   "MacOS": "GO111MODULE=on go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns",
+   "Windows": "go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns"
   }
  },
  "smuggler": {
   "Data": "| Scanner/SMUGGLE | [smuggler](https://github.com/defparam/smuggler) | Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3 | ![](https://img.shields.io/github/stars/defparam/smuggler) | ![](https://img.shields.io/github/languages/top/defparam/smuggler) |",
   "Description": "Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3 ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "git clone https://github.com/defparam/smuggler",
+   "MacOS": "git clone https://github.com/defparam/smuggler",
+   "Windows": "git clone https://github.com/defparam/smuggler"
   },
   "Method": "SMUGGLE",
   "Type": "Scanner",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "cd smuggler ; git pull -v",
+   "MacOS": "cd smuggler ; git pull -v",
+   "Windows": "cd smuggler ; git pull -v"
   }
  },
  "sqlmap": {
   "Data": "| Scanner/SQL | [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | ![](https://img.shields.io/github/stars/sqlmapproject/sqlmap) | ![](https://img.shields.io/github/languages/top/sqlmapproject/sqlmap) |",
   "Description": "Automatic SQL injection and database takeover tool ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
+   "Linux": "sudo apt install sqlmap",
+   "MacOS": "brew install sqlmap",
    "Windows": ""
   },
   "Method": "SQL",
   "Type": "Scanner",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
+   "Linux": "sudo apt upgrade sqlmap",
+   "MacOS": "brew upgrade sqlmap",
    "Windows": ""
   }
  },
@@ -2003,320 +2003,320 @@
   "Data": "| Scanner/SSRF | [ssrf-sheriff](https://github.com/teknogeek/ssrf-sheriff) | A simple SSRF-testing sheriff written in Go | ![](https://img.shields.io/github/stars/teknogeek/ssrf-sheriff) | ![](https://img.shields.io/github/languages/top/teknogeek/ssrf-sheriff) |",
   "Description": "A simple SSRF-testing sheriff written in Go ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get github.com/teknogeek/ssrf-sheriff",
+   "MacOS": "go get github.com/teknogeek/ssrf-sheriff",
+   "Windows": "go get github.com/teknogeek/ssrf-sheriff"
   },
   "Method": "SSRF",
   "Type": "Scanner",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get github.com/teknogeek/ssrf-sheriff",
+   "MacOS": "go get github.com/teknogeek/ssrf-sheriff",
+   "Windows": "go get github.com/teknogeek/ssrf-sheriff"
   }
  },
  "subfinder": {
   "Data": "| Discovery/DOMAIN | [subfinder](https://github.com/projectdiscovery/subfinder) | Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing. | ![](https://img.shields.io/github/stars/projectdiscovery/subfinder) | ![](https://img.shields.io/github/languages/top/projectdiscovery/subfinder) |",
   "Description": "Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing. ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder",
+   "MacOS": "GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder",
+   "Windows": "go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder"
   },
   "Method": "DOMAIN",
   "Type": "Discovery",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder",
+   "MacOS": "GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder",
+   "Windows": "go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder"
   }
  },
  "subjack": {
   "Data": "| Discovery/TKOV | [subjack](https://github.com/haccer/subjack) | Subdomain Takeover tool written in Go | ![](https://img.shields.io/github/stars/haccer/subjack) | ![](https://img.shields.io/github/languages/top/haccer/subjack) |",
   "Description": "Subdomain Takeover tool written in Go ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get github.com/haccer/subjack",
+   "MacOS": "go get github.com/haccer/subjack",
+   "Windows": "go get github.com/haccer/subjack"
   },
   "Method": "TKOV",
   "Type": "Discovery",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get github.com/haccer/subjack",
+   "MacOS": "go get github.com/haccer/subjack",
+   "Windows": "go get github.com/haccer/subjack"
   }
  },
  "subs_all": {
   "Data": "| Utility/WORD | [subs_all](https://github.com/emadshanab/subs_all) | Subdomain Enumeration Wordlist. 8956437 unique words. Updated. | ![](https://img.shields.io/github/stars/emadshanab/subs_all) | ![](https://img.shields.io/github/languages/top/emadshanab/subs_all) |",
   "Description": "Subdomain Enumeration Wordlist. 8956437 unique words. Updated. ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "git clone https://github.com/emadshanab/subs_all",
+   "MacOS": "git clone https://github.com/emadshanab/subs_all",
+   "Windows": "git clone https://github.com/emadshanab/subs_all"
   },
   "Method": "WORD",
   "Type": "Utility",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "cd subs_all; git pull -v",
+   "MacOS": "cd subs_all; git pull -v",
+   "Windows": "cd subs_all; git pull -v"
   }
  },
  "template-generator": {
   "Data": "| Utility/TEMPLATE | [template-generator](https://github.com/fransr/template-generator) | A simple variable based template editor using handlebarjs+strapdownjs. The idea is to use variables in markdown based files to easily replace the variables with content. Data is saved temporarily in local storage. PHP is only needed to generate the list of files in the dropdown of templates. | ![](https://img.shields.io/github/stars/fransr/template-generator) | ![](https://img.shields.io/github/languages/top/fransr/template-generator) |",
   "Description": "A simple variable based template editor using handlebarjs+strapdownjs. The idea is to use variables in markdown based files to easily replace the variables with content. Data is saved temporarily in local storage. PHP is only needed to generate the list of files in the dropdown of templates. ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "git clone https://github.com/fransr/template-generator",
+   "MacOS": "git clone https://github.com/fransr/template-generator",
+   "Windows": "git clone https://github.com/fransr/template-generator"
   },
   "Method": "TEMPLATE",
   "Type": "Utility",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "cd template-generator ; git pull -v",
+   "MacOS": "cd template-generator ; git pull -v",
+   "Windows": "cd template-generator ; git pull -v"
   }
  },
  "testssl.sh": {
   "Data": "| Scanner/SSL | [testssl.sh](https://github.com/drwetter/testssl.sh) | Testing TLS/SSL encryption anywhere on any port | ![](https://img.shields.io/github/stars/drwetter/testssl.sh) | ![](https://img.shields.io/github/languages/top/drwetter/testssl.sh) |",
   "Description": "Testing TLS/SSL encryption anywhere on any port ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "git clone https://github.com/drwetter/testssl.sh",
+   "MacOS": "git clone https://github.com/drwetter/testssl.sh",
+   "Windows": "git clone https://github.com/drwetter/testssl.sh"
   },
   "Method": "SSL",
   "Type": "Scanner",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "cd testssl.sh ; git pull -v",
+   "MacOS": "cd testssl.sh ; git pull -v",
+   "Windows": "cd testssl.sh ; git pull -v"
   }
  },
  "thc-hydra": {
   "Data": "| Scanner/FUZZ | [thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | hydra | ![](https://img.shields.io/github/stars/vanhauser-thc/thc-hydra) | ![](https://img.shields.io/github/languages/top/vanhauser-thc/thc-hydra) |",
   "Description": "hydra ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "git clone https://github.com/vanhauser-thc/thc-hydra ; cd thc-hydra; ./configure ; make ; make install",
+   "MacOS": "git clone https://github.com/vanhauser-thc/thc-hydra ; cd thc-hydra; ./configure ; make ; make install",
+   "Windows": "git clone https://github.com/vanhauser-thc/thc-hydra ; cd thc-hydra; ./configure ; make ; make install"
   },
   "Method": "FUZZ",
   "Type": "Scanner",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "cd thc-hydra; git pull -v ; ./configure ; make ; make install",
+   "MacOS": "cd thc-hydra; git pull -v ; ./configure ; make ; make install",
+   "Windows": "cd thc-hydra; git pull -v ; ./configure ; make ; make install"
   }
  },
  "unfurl": {
   "Data": "| Utility/URL | [unfurl](https://github.com/tomnomnom/unfurl) | Pull out bits of URLs provided on stdin | ![](https://img.shields.io/github/stars/tomnomnom/unfurl) | ![](https://img.shields.io/github/languages/top/tomnomnom/unfurl) |",
   "Description": "Pull out bits of URLs provided on stdin ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get -u github.com/tomnomnom/unfurl",
+   "MacOS": "go get -u github.com/tomnomnom/unfurl",
+   "Windows": "go get -u github.com/tomnomnom/unfurl"
   },
   "Method": "URL",
   "Type": "Utility",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get -u github.com/tomnomnom/unfurl",
+   "MacOS": "go get -u github.com/tomnomnom/unfurl",
+   "Windows": "go get -u github.com/tomnomnom/unfurl"
   }
  },
  "urlgrab": {
   "Data": "| Discovery/CRAWL | [urlgrab](https://github.com/IAmStoxe/urlgrab) | A golang utility to spider through a website searching for additional links. | ![](https://img.shields.io/github/stars/IAmStoxe/urlgrab) | ![](https://img.shields.io/github/languages/top/IAmStoxe/urlgrab) |",
   "Description": "A golang utility to spider through a website searching for additional links. ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get -u github.com/iamstoxe/urlgrab",
+   "MacOS": "go get -u github.com/iamstoxe/urlgrab",
+   "Windows": "go get -u github.com/iamstoxe/urlgrab"
   },
   "Method": "CRAWL",
   "Type": "Discovery",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get -u github.com/iamstoxe/urlgrab",
+   "MacOS": "go get -u github.com/iamstoxe/urlgrab",
+   "Windows": "go get -u github.com/iamstoxe/urlgrab"
   }
  },
  "urlprobe": {
   "Data": "| Utility/URL | [urlprobe](https://github.com/1ndianl33t/urlprobe) | Urls status code \u0026 content length checker | ![](https://img.shields.io/github/stars/1ndianl33t/urlprobe) | ![](https://img.shields.io/github/languages/top/1ndianl33t/urlprobe) |",
   "Description": "Urls status code \u0026 content length checker ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get -u github.com/1ndianl33t/urlprobe",
+   "MacOS": "go get -u github.com/1ndianl33t/urlprobe",
+   "Windows": "go get -u github.com/1ndianl33t/urlprobe"
   },
   "Method": "URL",
   "Type": "Utility",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get -u github.com/1ndianl33t/urlprobe",
+   "MacOS": "go get -u github.com/1ndianl33t/urlprobe",
+   "Windows": "go get -u github.com/1ndianl33t/urlprobe"
   }
  },
  "waybackurls": {
   "Data": "| Discovery/URL | [waybackurls](https://github.com/tomnomnom/waybackurls) | Fetch all the URLs that the Wayback Machine knows about for a domain | ![](https://img.shields.io/github/stars/tomnomnom/waybackurls) | ![](https://img.shields.io/github/languages/top/tomnomnom/waybackurls) |",
   "Description": "Fetch all the URLs that the Wayback Machine knows about for a domain ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get github.com/tomnomnom/waybackurls",
+   "MacOS": "go get github.com/tomnomnom/waybackurls",
+   "Windows": "go get github.com/tomnomnom/waybackurls"
   },
   "Method": "URL",
   "Type": "Discovery",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get github.com/tomnomnom/waybackurls",
+   "MacOS": "go get github.com/tomnomnom/waybackurls",
+   "Windows": "go get github.com/tomnomnom/waybackurls"
   }
  },
  "websocket-connection-smuggler": {
   "Data": "| Fetch/WSOCK | [websocket-connection-smuggler](https://github.com/hahwul/websocket-connection-smuggler) | websocket-connection-smuggler | ![](https://img.shields.io/github/stars/hahwul/websocket-connection-smuggler) | ![](https://img.shields.io/github/languages/top/hahwul/websocket-connection-smuggler) |",
   "Description": "websocket-connection-smuggler ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get -u hahwul/websocket-connection-smuggler",
+   "MacOS": "go get -u hahwul/websocket-connection-smuggler",
+   "Windows": "go get -u hahwul/websocket-connection-smuggler"
   },
   "Method": "WSOCK",
   "Type": "Fetch",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get -u hahwul/websocket-connection-smuggler",
+   "MacOS": "go get -u hahwul/websocket-connection-smuggler",
+   "Windows": "go get -u hahwul/websocket-connection-smuggler"
   }
  },
  "wfuzz": {
   "Data": "| Scanner/FUZZ | [wfuzz](https://github.com/xmendez/wfuzz) | Web application fuzzer | ![](https://img.shields.io/github/stars/xmendez/wfuzz) | ![](https://img.shields.io/github/languages/top/xmendez/wfuzz) |",
   "Description": "Web application fuzzer ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "pip3 install wfuzz",
+   "MacOS": "pip3 install wfuzz",
+   "Windows": "pip3 install wfuzz"
   },
   "Method": "FUZZ",
   "Type": "Scanner",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "pip3 install wfuzz",
+   "MacOS": "pip3 install wfuzz",
+   "Windows": "pip3 install wfuzz"
   }
  },
  "wpscan": {
   "Data": "| Scanner/WP | [wpscan](https://github.com/wpscanteam/wpscan) | WPScan is a free, for non-commercial use, black box WordPress Vulnerability Scanner written for security professionals and blog maintainers to test the security of their WordPress websites. | ![](https://img.shields.io/github/stars/wpscanteam/wpscan) | ![](https://img.shields.io/github/languages/top/wpscanteam/wpscan) |",
   "Description": "WPScan is a free, for non-commercial use, black box WordPress Vulnerability Scanner written for security professionals and blog maintainers to test the security of their WordPress websites. ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "gem install wpscan",
+   "MacOS": "gem install wpscan",
+   "Windows": "gem install wpscan"
   },
   "Method": "WP",
   "Type": "Scanner",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "gem install wpscan",
+   "MacOS": "gem install wpscan",
+   "Windows": "gem install wpscan"
   }
  },
  "wuzz": {
   "Data": "| Fetch/HTTP | [wuzz](https://github.com/asciimoo/wuzz) | Interactive cli tool for HTTP inspection | ![](https://img.shields.io/github/stars/asciimoo/wuzz) | ![](https://img.shields.io/github/languages/top/asciimoo/wuzz) |",
   "Description": "Interactive cli tool for HTTP inspection ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get github.com/asciimoo/wuzz",
+   "MacOS": "go get github.com/asciimoo/wuzz",
+   "Windows": "go get github.com/asciimoo/wuzz"
   },
   "Method": "HTTP",
   "Type": "Fetch",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "go get github.com/asciimoo/wuzz",
+   "MacOS": "go get github.com/asciimoo/wuzz",
+   "Windows": "go get github.com/asciimoo/wuzz"
   }
  },
  "xss-cheatsheet-data": {
   "Data": "| Utility/PAYLOAD | [xss-cheatsheet-data](https://github.com/PortSwigger/xss-cheatsheet-data) | This repository contains all the XSS cheatsheet data to allow contributions from the community. | ![](https://img.shields.io/github/stars/PortSwigger/xss-cheatsheet-data) | ![](https://img.shields.io/github/languages/top/PortSwigger/xss-cheatsheet-data) |",
   "Description": "This repository contains all the XSS cheatsheet data to allow contributions from the community. ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "git clone https://github.com/PortSwigger/xss-cheatsheet-data",
+   "MacOS": "git clone https://github.com/PortSwigger/xss-cheatsheet-data",
+   "Windows": "git clone https://github.com/PortSwigger/xss-cheatsheet-data"
   },
   "Method": "PAYLOAD",
   "Type": "Utility",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "cd xss-cheatsheet-data ; git pull -v",
+   "MacOS": "cd xss-cheatsheet-data ; git pull -v",
+   "Windows": "cd xss-cheatsheet-data ; git pull -v"
   }
  },
  "xsser": {
   "Data": "| Scanner/XSS | [xsser](https://github.com/epsylon/xsser) | Cross Site \"Scripter\" (aka XSSer) is an automatic -framework- to detect, exploit and report XSS vulnerabilities in web-based applications. | ![](https://img.shields.io/github/stars/epsylon/xsser) | ![](https://img.shields.io/github/languages/top/epsylon/xsser) |",
   "Description": "Cross Site \"Scripter\" (aka XSSer) is an automatic -framework- to detect, exploit and report XSS vulnerabilities in web-based applications. ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "git clone https://github.com/epsylon/xsser ; cd xsser ; python3 setup.py install",
+   "MacOS": "git clone https://github.com/epsylon/xsser ; cd xsser ; python3 setup.py install",
+   "Windows": "git clone https://github.com/epsylon/xsser ; cd xsser ; python3 setup.py install"
   },
   "Method": "XSS",
   "Type": "Scanner",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "git clone https://github.com/epsylon/xsser ; cd xsser ; python3 setup.py install",
+   "MacOS": "git clone https://github.com/epsylon/xsser ; cd xsser ; python3 setup.py install",
+   "Windows": "git clone https://github.com/epsylon/xsser ; cd xsser ; python3 setup.py install"
   }
  },
  "ysoserial": {
   "Data": "| Utility/PAYLOAD | [ysoserial](https://github.com/frohoff/ysoserial) | A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization. | ![](https://img.shields.io/github/stars/frohoff/ysoserial) | ![](https://img.shields.io/github/languages/top/frohoff/ysoserial) |",
   "Description": "A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization. ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "git clone https://github.com/frohoff/ysoserial",
+   "MacOS": "git clone https://github.com/frohoff/ysoserial",
+   "Windows": "git clone https://github.com/frohoff/ysoserial"
   },
   "Method": "PAYLOAD",
   "Type": "Utility",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "cd ysoserial ; git pull -v",
+   "MacOS": "cd ysoserial ; git pull -v",
+   "Windows": "cd ysoserial ; git pull -v"
   }
  },
  "ysoserial.net": {
   "Data": "| Utility/PAYLOAD | [ysoserial.net](https://github.com/pwntester/ysoserial.net) | Deserialization payload generator for a variety of .NET formatters | ![](https://img.shields.io/github/stars/pwntester/ysoserial.net) | ![](https://img.shields.io/github/languages/top/pwntester/ysoserial.net) |",
   "Description": "Deserialization payload generator for a variety of .NET formatters ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "git clone https://github.com/pwntester/ysoserial.net",
+   "MacOS": "git clone https://github.com/pwntester/ysoserial.net",
+   "Windows": "git clone https://github.com/pwntester/ysoserial.net"
   },
   "Method": "PAYLOAD",
   "Type": "Utility",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "cd ysoserial.net ; git pull -v",
+   "MacOS": "cd ysoserial.net ; git pull -v",
+   "Windows": "cd ysoserial.net ; git pull -v"
   }
  },
  "zap-cli": {
   "Data": "| Scanner/WVS | [zap-cli](https://github.com/Grunny/zap-cli) | A simple tool for interacting with OWASP ZAP from the commandline. | ![](https://img.shields.io/github/stars/Grunny/zap-cli) | ![](https://img.shields.io/github/languages/top/Grunny/zap-cli) |",
   "Description": "A simple tool for interacting with OWASP ZAP from the commandline. ",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "pip3 install --upgrade zapcli",
+   "MacOS": "pip3 install --upgrade zapcli",
+   "Windows": "pip3 install --upgrade zapcli"
   },
   "Method": "WVS",
   "Type": "Scanner",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "pip3 install --upgrade zapcli",
+   "MacOS": "pip3 install --upgrade zapcli",
+   "Windows": "pip3 install --upgrade zapcli"
   }
  },
  "zaproxy": {
