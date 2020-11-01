@@ -272,7 +272,7 @@ td.tablenode {
           Vue.component('checklist-item', {
             template: '<div>' +
               '<input :checked="complete" @click="progress" type="checkbox" :name="\'checkbox\' + id" :id="\'checkbox\' + id" class="checkboxes" value="">' +
-              '<label :for="\'checkbox\' + id" class="tablenode"><table class="tablenode"><tr class="tablenode"><td class="tablenode"><b v-html="i.name"></b></td><td v-html="i.dtype" class="tablenode"></td><td v-html="i.method" class="tablenode"></td><td class="tablenode"><i v-if="i.install_macos != \'\'" class="fab fa-apple"></i> <i v-if="i.install_linux != \'\'" class="fab fa-linux"></i> <i v-if="i.install_windows != \'\'" class="fab fa-windows"></i></td></tr><tr><td v-html=i.desc class="tablenode"></td></tr></table></label>' +
+              '<label :for="\'checkbox\' + id" class="tablenode"><table class="tablenode"><tr class="tablenode"><td class="tablenode"><b v-html="i.name"></b></td><td v-html="i.dtype" class="tablenode" style="width:80px;"></td><td v-html="i.method" class="tablenode" style="width:80px;"></td><td class="tablenode" style="width:50px;"><i v-if="i.install_macos != \'\'" class="fab fa-apple"></i> <i v-if="i.install_linux != \'\'" class="fab fa-linux"></i> <i v-if="i.install_windows != \'\'" class="fab fa-windows"></i></td></tr><tr><td v-html=i.desc colspan=4 class="tablenode"></td></tr></table></label>' +
             '</div>',
             data() {
               return {
