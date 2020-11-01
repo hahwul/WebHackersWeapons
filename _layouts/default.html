@@ -15,7 +15,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
     <style>
       @charset "UTF-8";
 *,
@@ -405,6 +404,17 @@ td.tablenode {
       document.getElementsByClassName("wrapper")[0].style.display='block'
       document.getElementById("output-area").style.display='none'
     }
+      
+    function copycopy(text){
+     document.querySelector(".copy").addEventListener("click", function(){
+     var tempElem = document.createElement('textarea');
+     tempElem.value = text
+     document.body.appendChild(tempElem);
+     tempElem.select();
+     document.execCommand("copy");
+     document.body.removeChild(tempElem);
+}); 
+    }
     </script>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
@@ -423,18 +433,18 @@ td.tablenode {
       <table>
         <tr>
           <td width=50%><b>Install script</b> 
-            <button class="btn" data-clipboard-action="copy" data-clipboard-target="#output-install">Copy</button>
+            <button class="copy">Copy</button>
             <br>Cut and paste to terminal, and running for install tools</td>
           <td width=50%><b>Update script</b>
-            <button class="btn" data-clipboard-action="copy" data-clipboard-target="#output-update">Copy</button>
+            <button class="copy">Copy</button>
             <br>If you paste rc file, you can execute the <code>$whw-update</code> when you want to update.</td>
         </tr>
         <tr>
           <td style="vertical-align:top;">
-            <pre><code id="output-install" style="white-space: pre-line; overflow: auto;"></code></pre>
+            <pre><code id="output-install" style="white-space: pre-line; overflow: auto;" onclick="copycopy(this.innerText)"></code></pre>
           </td>
           <td style="vertical-align:top;">
-            <pre><code id="output-update" style="white-space: pre-line; overflow: auto;"></code></pre>
+            <pre><code id="output-update" style="white-space: pre-line; overflow: auto;" onclick="copycopy(this.innerText)></code></pre>
           </td>
         </tr>
        </table>
