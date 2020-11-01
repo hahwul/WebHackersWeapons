@@ -406,7 +406,6 @@ td.tablenode {
     }
       
     function copycopy(text){
-     document.querySelector(".copy").addEventListener("click", function(){
      var tempElem = document.createElement('textarea');
      tempElem.value = text
      document.body.appendChild(tempElem);
@@ -415,7 +414,6 @@ td.tablenode {
      document.body.removeChild(tempElem);
      console.log(text)
      console.log("copied")
-}); 
     }
     </script>
     </div>
