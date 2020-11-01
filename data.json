@@ -19,9 +19,9 @@
   "Data": "| Discovery/HTTP | [Arjun](https://github.com/s0md3v/Arjun) | HTTP parameter discovery suite. | ![](https://img.shields.io/github/stars/s0md3v/Arjun) | ![](https://img.shields.io/github/languages/top/s0md3v/Arjun) |",
   "Description": "HTTP parameter discovery suite. ",
   "Install": {
-   "Linux": "git clone https://github.com/s0md3v/Arjun; cd Arjun; pip3 install requests",
-   "MacOS": "git clone https://github.com/s0md3v/Arjun; cd Arjun; pip3 install requests",
-   "Windows": "git clone https://github.com/s0md3v/Arjun; cd Arjun; pip3 install requests"
+   "Linux": "git clone https://github.com/s0md3v/Arjun ; cd Arjun; pip3 install requests",
+   "MacOS": "git clone https://github.com/s0md3v/Arjun ; cd Arjun; pip3 install requests",
+   "Windows": "git clone https://github.com/s0md3v/Arjun ; cd Arjun; pip3 install requests"
   },
   "Method": "HTTP",
   "Type": "Discovery",
@@ -51,9 +51,9 @@
   "Data": "| Utility/BRIDGE | [Atlas](https://github.com/m4ll0k/Atlas) | Quick SQLMap Tamper Suggester | ![](https://img.shields.io/github/stars/m4ll0k/Atlas) | ![](https://img.shields.io/github/languages/top/m4ll0k/Atlas) |",
   "Description": "Quick SQLMap Tamper Suggester ",
   "Install": {
-   "Linux": "git clone https://github.com/m4ll0k/Atlas; cd Atlas; pip3 install pretty",
-   "MacOS": "git clone https://github.com/m4ll0k/Atlas; cd Atlas; pip3 install pretty",
-   "Windows": "git clone https://github.com/m4ll0k/Atlas; cd Atlas; pip3 install pretty"
+   "Linux": "git clone https://github.com/m4ll0k/Atlas ; cd Atlas; pip3 install pretty",
+   "MacOS": "git clone https://github.com/m4ll0k/Atlas ; cd Atlas; pip3 install pretty",
+   "Windows": "git clone https://github.com/m4ll0k/Atlas ; cd Atlas; pip3 install pretty"
   },
   "Method": "BRIDGE",
   "Type": "Utility",
@@ -179,9 +179,9 @@
   "Data": "| Scanner/CORS | [Corsy](https://github.com/s0md3v/Corsy) | CORS Misconfiguration Scanner | ![](https://img.shields.io/github/stars/s0md3v/Corsy) | ![](https://img.shields.io/github/languages/top/s0md3v/Corsy) |",
   "Description": "CORS Misconfiguration Scanner ",
   "Install": {
-   "Linux": "git clone https://github.com/s0md3v/Corsy; cd Corsy; pip3 install -r requirements.txt",
-   "MacOS": "git clone https://github.com/s0md3v/Corsy; cd Corsy; pip3 install -r requirements.txt",
-   "Windows": "git clone https://github.com/s0md3v/Corsy; cd Corsy; pip3 install -r requirements.txt"
+   "Linux": "git clone https://github.com/s0md3v/Corsy; cd Corsy ; pip3 install -r requirements.txt",
+   "MacOS": "git clone https://github.com/s0md3v/Corsy; cd Corsy ; pip3 install -r requirements.txt",
+   "Windows": "git clone https://github.com/s0md3v/Corsy; cd Corsy ; pip3 install -r requirements.txt"
   },
   "Method": "CORS",
   "Type": "Scanner",
@@ -227,9 +227,9 @@
   "Data": "| Discovery/FAVICON | [FavFreak](https://github.com/devanshbatham/FavFreak) | Making Favicon.ico based Recon Great again ! | ![](https://img.shields.io/github/stars/devanshbatham/FavFreak) | ![](https://img.shields.io/github/languages/top/devanshbatham/FavFreak) |",
   "Description": "Making Favicon.ico based Recon Great again ! ",
   "Install": {
-   "Linux": "git clone https://github.com/devanshbatham/FavFreak; cd FavFreak; pip3 install -r requirements.txt",
-   "MacOS": "git clone https://github.com/devanshbatham/FavFreak; cd FavFreak; pip3 install -r requirements.txt",
-   "Windows": "git clone https://github.com/devanshbatham/FavFreak; cd FavFreak; pip3 install -r requirements.txt"
+   "Linux": "git clone https://github.com/devanshbatham/FavFreak ; cd FavFreak; pip3 install -r requirements.txt",
+   "MacOS": "git clone https://github.com/devanshbatham/FavFreak ; cd FavFreak; pip3 install -r requirements.txt",
+   "Windows": "git clone https://github.com/devanshbatham/FavFreak ; cd FavFreak; pip3 install -r requirements.txt"
   },
   "Method": "FAVICON",
   "Type": "Discovery",
@@ -275,9 +275,9 @@
   "Data": "| Utility/PAYLOAD | [Gopherus](https://github.com/tarunkant/Gopherus) | This tool generates gopher link for exploiting SSRF and gaining RCE in various servers | ![](https://img.shields.io/github/stars/tarunkant/Gopherus) | ![](https://img.shields.io/github/languages/top/tarunkant/Gopherus) |",
   "Description": "This tool generates gopher link for exploiting SSRF and gaining RCE in various servers ",
   "Install": {
-   "Linux": "git clone https://github.com/tarunkant/Gopherus; cd Gopherus; ./install.sh",
-   "MacOS": "git clone https://github.com/tarunkant/Gopherus; cd Gopherus; ./install.sh",
-   "Windows": "git clone https://github.com/tarunkant/Gopherus; cd Gopherus; ./install.sh"
+   "Linux": "git clone https://github.com/tarunkant/Gopherus ; cd Gopherus; ./install.sh",
+   "MacOS": "git clone https://github.com/tarunkant/Gopherus ; cd Gopherus; ./install.sh",
+   "Windows": "git clone https://github.com/tarunkant/Gopherus ; cd Gopherus; ./install.sh"
   },
   "Method": "PAYLOAD",
   "Type": "Utility",
@@ -291,9 +291,9 @@
   "Data": "| Scanner/GQL | [GraphQLmap](https://github.com/swisskyrepo/GraphQLmap) | GraphQLmap is a scripting engine to interact with a graphql endpoint for pentesting purposes. | ![](https://img.shields.io/github/stars/swisskyrepo/GraphQLmap) | ![](https://img.shields.io/github/languages/top/swisskyrepo/GraphQLmap) |",
   "Description": "GraphQLmap is a scripting engine to interact with a graphql endpoint for pentesting purposes. ",
   "Install": {
-   "Linux": "git clone https://github.com/swisskyrepo/GraphQLmap; cd GraphQLmap; pip3 install -r requirements.txt",
-   "MacOS": "git clone https://github.com/swisskyrepo/GraphQLmap; cd GraphQLmap; pip3 install -r requirements.txt",
-   "Windows": "git clone https://github.com/swisskyrepo/GraphQLmap; cd GraphQLmap; pip3 install -r requirements.txt"
+   "Linux": "git clone https://github.com/swisskyrepo/GraphQLmap ; cd GraphQLmap; pip3 install -r requirements.txt",
+   "MacOS": "git clone https://github.com/swisskyrepo/GraphQLmap ; cd GraphQLmap; pip3 install -r requirements.txt",
+   "Windows": "git clone https://github.com/swisskyrepo/GraphQLmap ; cd GraphQLmap; pip3 install -r requirements.txt"
   },
   "Method": "GQL",
   "Type": "Scanner",
@@ -307,8 +307,8 @@
   "Data": "| Discovery/JS | [JSFScan.sh](https://github.com/KathanP19/JSFScan.sh) | Automation for javascript recon in bug bounty. | ![](https://img.shields.io/github/stars/KathanP19/JSFScan.sh) | ![](https://img.shields.io/github/languages/top/KathanP19/JSFScan.sh) |",
   "Description": "Automation for javascript recon in bug bounty. ",
   "Install": {
-   "Linux": "git clone https://github.com/KathanP19/JSFScan.sh; cd JSFScan.sh; chmod +x install.sh ; ./install.sh",
-   "MacOS": "git clone https://github.com/KathanP19/JSFScan.sh; cd JSFScan.sh; chmod +x install.sh ; ./install.sh",
+   "Linux": "git clone https://github.com/KathanP19/JSFScan.sh ; cd JSFScan.sh; chmod +x install.sh ; ./install.sh",
+   "MacOS": "git clone https://github.com/KathanP19/JSFScan.sh ; cd JSFScan.sh; chmod +x install.sh ; ./install.sh",
    "Windows": ""
   },
   "Method": "JS",
@@ -339,9 +339,9 @@
   "Data": "| Discovery/JS | [LinkFinder](https://github.com/GerbenJavado/LinkFinder) | A python script that finds endpoints in JavaScript files | ![](https://img.shields.io/github/stars/GerbenJavado/LinkFinder) | ![](https://img.shields.io/github/languages/top/GerbenJavado/LinkFinder) |",
   "Description": "A python script that finds endpoints in JavaScript files ",
   "Install": {
-   "Linux": "git clone https://github.com/GerbenJavado/LinkFinder; cd LinkFinder; pip3 install -r requirements.txt",
-   "MacOS": "git clone https://github.com/GerbenJavado/LinkFinder; cd LinkFinder; pip3 install -r requirements.txt",
-   "Windows": "git clone https://github.com/GerbenJavado/LinkFinder; cd LinkFinder; pip3 install -r requirements.txt"
+   "Linux": "git clone https://github.com/GerbenJavado/LinkFinder ; cd LinkFinder; pip3 install -r requirements.txt",
+   "MacOS": "git clone https://github.com/GerbenJavado/LinkFinder ; cd LinkFinder; pip3 install -r requirements.txt",
+   "Windows": "git clone https://github.com/GerbenJavado/LinkFinder ; cd LinkFinder; pip3 install -r requirements.txt"
   },
   "Method": "JS",
   "Type": "Discovery",
@@ -387,9 +387,9 @@
   "Data": "| Scanner/RECON | [Osmedeus](https://github.com/j3ssie/Osmedeus) | Fully automated offensive security framework for reconnaissance and vulnerability scanning | ![](https://img.shields.io/github/stars/j3ssie/Osmedeus) | ![](https://img.shields.io/github/languages/top/j3ssie/Osmedeus) |",
   "Description": "Fully automated offensive security framework for reconnaissance and vulnerability scanning ",
   "Install": {
-   "Linux": "git clone https://github.com/j3ssie/Osmedeus; cd Osmedeus; pip3 install -r requirements.txt; ./install.sh",
-   "MacOS": "git clone https://github.com/j3ssie/Osmedeus; cd Osmedeus; pip3 install -r requirements.txt; ./install.sh",
-   "Windows": "git clone https://github.com/j3ssie/Osmedeus; cd Osmedeus; pip3 install -r requirements.txt; ./install.sh"
+   "Linux": "git clone https://github.com/j3ssie/Osmedeus ; cd Osmedeus; pip3 install -r requirements.txt; ./install.sh",
+   "MacOS": "git clone https://github.com/j3ssie/Osmedeus ; cd Osmedeus; pip3 install -r requirements.txt; ./install.sh",
+   "Windows": "git clone https://github.com/j3ssie/Osmedeus ; cd Osmedeus; pip3 install -r requirements.txt; ./install.sh"
   },
   "Method": "RECON",
   "Type": "Scanner",
@@ -403,9 +403,9 @@
   "Data": "| Discovery/PARAM | [ParamSpider](https://github.com/devanshbatham/ParamSpider) | Mining parameters from dark corners of Web Archives | ![](https://img.shields.io/github/stars/devanshbatham/ParamSpider) | ![](https://img.shields.io/github/languages/top/devanshbatham/ParamSpider) |",
   "Description": "Mining parameters from dark corners of Web Archives ",
   "Install": {
-   "Linux": "git clone https://github.com/devanshbatham/ParamSpider; cd ParamSpider; pip3 install -r requirements.txt",
-   "MacOS": "git clone https://github.com/devanshbatham/ParamSpider; cd ParamSpider; pip3 install -r requirements.txt",
-   "Windows": "git clone https://github.com/devanshbatham/ParamSpider; cd ParamSpider; pip3 install -r requirements.txt"
+   "Linux": "git clone https://github.com/devanshbatham/ParamSpider ; cd ParamSpider; pip3 install -r requirements.txt",
+   "MacOS": "git clone https://github.com/devanshbatham/ParamSpider ; cd ParamSpider; pip3 install -r requirements.txt",
+   "Windows": "git clone https://github.com/devanshbatham/ParamSpider ; cd ParamSpider; pip3 install -r requirements.txt"
   },
   "Method": "PARAM",
   "Type": "Discovery",
@@ -467,9 +467,9 @@
   "Data": "| Discovery/CRAWL | [Photon](https://github.com/s0md3v/Photon) | Incredibly fast crawler designed for OSINT. | ![](https://img.shields.io/github/stars/s0md3v/Photon) | ![](https://img.shields.io/github/languages/top/s0md3v/Photon) |",
   "Description": "Incredibly fast crawler designed for OSINT. ",
   "Install": {
-   "Linux": "git clone https://github.com/s0md3v/Photon; cd Photon; pip3 install -r requirements.txt",
-   "MacOS": "git clone https://github.com/s0md3v/Photon; cd Photon; pip3 install -r requirements.txt",
-   "Windows": "git clone https://github.com/s0md3v/Photon; cd Photon; pip3 install -r requirements.txt"
+   "Linux": "git clone https://github.com/s0md3v/Photon ; cd Photon; pip3 install -r requirements.txt",
+   "MacOS": "git clone https://github.com/s0md3v/Photon ; cd Photon; pip3 install -r requirements.txt",
+   "Windows": "git clone https://github.com/s0md3v/Photon ; cd Photon; pip3 install -r requirements.txt"
   },
   "Method": "CRAWL",
   "Type": "Discovery",
@@ -499,9 +499,9 @@
   "Data": "| Scanner/S3 | [S3Scanner](https://github.com/sa7mon/S3Scanner) | Scan for open AWS S3 buckets and dump the contents | ![](https://img.shields.io/github/stars/sa7mon/S3Scanner) | ![](https://img.shields.io/github/languages/top/sa7mon/S3Scanner) |",
   "Description": "Scan for open AWS S3 buckets and dump the contents ",
   "Install": {
-   "Linux": "git clone https://github.com/sa7mon/S3Scanner; cd S3Scanner; pip3 install -r requirements.txt",
-   "MacOS": "git clone https://github.com/sa7mon/S3Scanner; cd S3Scanner; pip3 install -r requirements.txt",
-   "Windows": "git clone https://github.com/sa7mon/S3Scanner; cd S3Scanner; pip3 install -r requirements.txt"
+   "Linux": "git clone https://github.com/sa7mon/S3Scanner ; cd S3Scanner; pip3 install -r requirements.txt",
+   "MacOS": "git clone https://github.com/sa7mon/S3Scanner ; cd S3Scanner; pip3 install -r requirements.txt",
+   "Windows": "git clone https://github.com/sa7mon/S3Scanner ; cd S3Scanner; pip3 install -r requirements.txt"
   },
   "Method": "S3",
   "Type": "Scanner",
@@ -531,9 +531,9 @@
   "Data": "| Scanner/SSRF | [SSRFmap](https://github.com/swisskyrepo/SSRFmap) | Automatic SSRF fuzzer and exploitation tool | ![](https://img.shields.io/github/stars/swisskyrepo/SSRFmap) | ![](https://img.shields.io/github/languages/top/swisskyrepo/SSRFmap) |",
   "Description": "Automatic SSRF fuzzer and exploitation tool ",
   "Install": {
-   "Linux": "git clone https://github.com/swisskyrepo/SSRFmap; cd SSRFmap; pip3 install -r requirements.txt",
-   "MacOS": "git clone https://github.com/swisskyrepo/SSRFmap; cd SSRFmap; pip3 install -r requirements.txt",
-   "Windows": "git clone https://github.com/swisskyrepo/SSRFmap; cd SSRFmap; pip3 install -r requirements.txt"
+   "Linux": "git clone https://github.com/swisskyrepo/SSRFmap ; cd SSRFmap; pip3 install -r requirements.txt",
+   "MacOS": "git clone https://github.com/swisskyrepo/SSRFmap ; cd SSRFmap; pip3 install -r requirements.txt",
+   "Windows": "git clone https://github.com/swisskyrepo/SSRFmap ; cd SSRFmap; pip3 install -r requirements.txt"
   },
   "Method": "SSRF",
   "Type": "Scanner",
