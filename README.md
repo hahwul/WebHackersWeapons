@@ -9,18 +9,18 @@
 A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting
 
 ## Table of Contents
+- [WHW-Tools](https://whw-tools.hahwul.com)
 - [Weapons](#weapons)
 - [Awesome Bookmarklets](https://github.com/hahwul/WebHackersWeapons/tree/master/Bookmarklets)
 - [Awesome Browser Extensions](https://github.com/hahwul/WebHackersWeapons/tree/master/Browser%20Extensions)
 - [Awesome Burp and ZAP Extensions](https://github.com/hahwul/WebHackersWeapons/tree/master/Burp%20and%20ZAP%20Extensions)
-- [Contribute](#contribute) 
+- [Contribute](https://github.com/hahwul/WebHackersWeapons/blob/master/CONTRIBUTING.md) 
 - [Thanks to contributor](#thanks-to-contributor)
 
 ## WHW-Tools
 > Always use the latest tools 😎
 
-`WHW-Tools` is tools web of `#WebHackersWeapons`. Easy install and Easy manage upgrade<br>
-Go to [WHW-Tools](https://whw-tools.hahwul.com/)
+`WHW-Tools` is tools web of `#WebHackersWeapons`. Easy install and Easy manage upgrade. Go to [WHW-Tools](https://whw-tools.hahwul.com/)
 
 ## Weapons
 | Type | Name | Description | Popularity | Language |
@@ -171,77 +171,6 @@ Go to [WHW-Tools](https://whw-tools.hahwul.com/)
 | Utility/WORD | [CT_subdomains](https://github.com/internetwache/CT_subdomains) | An hourly updated list of subdomains gathered from certificate transparency logs | ![](https://img.shields.io/github/stars/internetwache/CT_subdomains) | ![](https://img.shields.io/github/languages/top/internetwache/CT_subdomains) |
 | Utility/WORD | [SecLists](https://github.com/danielmiessler/SecLists) | SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more. | ![](https://img.shields.io/github/stars/danielmiessler/SecLists) | ![](https://img.shields.io/github/languages/top/danielmiessler/SecLists) |
 | Utility/WORD | [subs_all](https://github.com/emadshanab/subs_all) | Subdomain Enumeration Wordlist. 8956437 unique words. Updated. | ![](https://img.shields.io/github/stars/emadshanab/subs_all) | ![](https://img.shields.io/github/languages/top/emadshanab/subs_all) |
-## Contribute
-
-First, you need to compile `add-tool` and `distribute-readme` using `make` command:
-
-```bash
-> make contribute
-```
-
-### Usage of add-tool
-```
-./add-tool
-Usage of ./add-tool:
-  -isFirst
-    	if you add new type, it use
-  -url string
-    	any url
-```
-
-### Three Procedures for the Contribute
-- First, your tool append `data.json` using `add-tool
-```
-$ ./add-tool -url https://github.com/sqlmapproject/sqlmap
-Successfully Opened type.lst
-[0] Army-Knife
-[1] Discovery
-[2] Fetch
-[3] Scanner
-[4] Utility
-[+] What is type?
-3
-Scanner
-[+] What is method(e.g XSS, WVS, SSL, ETC..)?
-SQL
-Successfully Opened data.json
-
-```
-- Second, Give me PR or Add issue with data.json<br>
-- Third, There's no third.
-
-### Build contribute tools
-```
-$ go build add-tool.go
-$ go build distribute-readme.go
-```
-
-### Add common tools
-in `WebHackersWeapons` directory
-```
-$ ./add-tool -url https://github.com/hahwul/s3reverse
-```
-### Add Burp Suite or ZAP Extensions
-in `WebHackersWeapons/Burp and ZAP Extensions` directory
-```
-$ ../add-tool -url https://github.com/nccgroup/BurpSuiteLoggerPlusPlus
-```
-
-### Asciinema video
-[![asciicast](https://asciinema.org/a/318456.svg)](https://asciinema.org/a/318456)
-
-## Distribute (for me)
-### Distribute to common tools
-```
-$ ./distribute-readme
-=> show new README file
-```
-
-### Distribute to Burp Suite or ZAP Extensions
-```
-$ ../distribute-readme
-=> show new README file in Burp Suite or ZAP Extensions
-```
 
 ## Thanks to (Contributor)
 I would like to thank everyone who helped with this project 👍😎 <br>
