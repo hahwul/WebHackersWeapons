@@ -9,17 +9,17 @@
 A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting
 
 ## Table of Contents
+- [WHW-Tools](https://whw-tools.hahwul.com)
 - [Weapons](#weapons)
 - [Awesome Bookmarklets](https://github.com/hahwul/WebHackersWeapons/tree/master/Bookmarklets)
 - [Awesome Browser Extensions](https://github.com/hahwul/WebHackersWeapons/tree/master/Browser%20Extensions)
 - [Awesome Burp and ZAP Extensions](https://github.com/hahwul/WebHackersWeapons/tree/master/Burp%20and%20ZAP%20Extensions)
-- [Contribute](#contribute) 
+- [Contribute](https://github.com/hahwul/WebHackersWeapons/blob/master/CONTRIBUTING.md) 
 - [Thanks to contributor](#thanks-to-contributor)
 
 ## WHW-Tools
 > Always use the latest tools 😎
 
-`WHW-Tools` is tools web of `#WebHackersWeapons`. Easy install and Easy manage upgrade<br>
-Go to [WHW-Tools](https://whw-tools.hahwul.com/)
+`WHW-Tools` is tools web of `#WebHackersWeapons`. Easy install and Easy manage upgrade. Go to [WHW-Tools](https://whw-tools.hahwul.com/)
 
 ## Weapons
