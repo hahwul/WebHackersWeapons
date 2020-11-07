@@ -16,4 +16,10 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 - [Contribute](#contribute) 
 - [Thanks to contributor](#thanks-to-contributor)
 
+## WHW-Tools
+> Always use the latest tools 😎
+
+`WHW-Tools` is tools web of `#WebHackersWeapons`. Easy install and Easy manage upgrade<br>
+Go to [WHW-Tools](https://whw-tools.hahwul.com/)
+
 ## Weapons
