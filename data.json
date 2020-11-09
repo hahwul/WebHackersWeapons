@@ -1,4 +1,20 @@
 {
+ "AWSBucketDump": {
+  "Data": "| Scanner/S3 | [AWSBucketDump](https://github.com/jordanpotti/AWSBucketDump) | Security Tool to Look For Interesting Files in S3 Buckets | ![](https://img.shields.io/github/stars/jordanpotti/AWSBucketDump) | ![](https://img.shields.io/github/languages/top/jordanpotti/AWSBucketDump) |",
+  "Description": "Security Tool to Look For Interesting Files in S3 Buckets",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "S3",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "Amass": {
   "Data": "| Discovery/DOMAIN | [Amass](https://github.com/OWASP/Amass) | In-depth Attack Surface Mapping and Asset Discovery | ![](https://img.shields.io/github/stars/OWASP/Amass) | ![](https://img.shields.io/github/languages/top/OWASP/Amass) |",
   "Description": "In-depth Attack Surface Mapping and Asset Discovery ",
@@ -73,6 +89,22 @@
   },
   "Method": "PAYLOAD",
   "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "BruteX": {
+  "Type": "Scanner",
+  "Data": "| Scanner/FUZZ | [BruteX](https://github.com/1N3/BruteX) | Automatically brute force all services running on a target. | ![](https://img.shields.io/github/stars/1N3/BruteX) | ![](https://img.shields.io/github/languages/top/1N3/BruteX) |",
+  "Method": "FUZZ",
+  "Description": "Automatically brute force all services running on a target.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -239,6 +271,22 @@
    "Windows": "cd FavFreak; git pull -v ; pip install -r requirements.txt"
   }
  },
+ "Findsploit": {
+  "Data": "| Utility/PAYLOAD | [Findsploit](https://github.com/1N3/Findsploit) | Find exploits in local and online databases instantly | ![](https://img.shields.io/github/stars/1N3/Findsploit) | ![](https://img.shields.io/github/languages/top/1N3/Findsploit) |",
+  "Description": "Find exploits in local and online databases instantly",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "PAYLOAD",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "Gf-Patterns": {
   "Data": "| Utility/ENV | [Gf-Patterns](https://github.com/1ndianl33t/Gf-Patterns) | GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic) parameters grep | ![](https://img.shields.io/github/stars/1ndianl33t/Gf-Patterns) | ![](https://img.shields.io/github/languages/top/1ndianl33t/Gf-Patterns) |",
   "Description": "GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic) parameters grep ",
@@ -301,6 +349,22 @@
    "Linux": "cd GraphQLmap; git pull -v ; pip install -r requirements.txt",
    "MacOS": "cd GraphQLmap; git pull -v ; pip install -r requirements.txt",
    "Windows": "cd GraphQLmap; git pull -v ; pip install -r requirements.txt"
+  }
+ },
+ "IntruderPayloads": {
+  "Data": "| Utility/PAYLOAD | [IntruderPayloads](https://github.com/1N3/IntruderPayloads) | A collection of Burpsuite Intruder payloads, BurpBounty payloads, fuzz lists, malicious file uploads and web pentesting methodologies and checklists. | ![](https://img.shields.io/github/stars/1N3/IntruderPayloads) | ![](https://img.shields.io/github/languages/top/1N3/IntruderPayloads) |",
+  "Description": "A collection of Burpsuite Intruder payloads, BurpBounty payloads, fuzz lists, malicious file uploads and web pentesting methodologies and checklists.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "PAYLOAD",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "JSFScan.sh": {
@@ -867,8 +931,8 @@
   "Data": "| Utility/PENTEST | [axiom](https://github.com/pry0cc/axiom) | A dynamic infrastructure toolkit for red teamers and bug bounty hunters! | ![](https://img.shields.io/github/stars/pry0cc/axiom) | ![](https://img.shields.io/github/languages/top/pry0cc/axiom) |",
   "Description": "A dynamic infrastructure toolkit for red teamers and bug bounty hunters! ",
   "Install": {
-   "Linux": "bash <(curl -s https://raw.githubusercontent.com/pry0cc/axiom/master/interact/axiom-configure)",
-   "MacOS": "bash <(curl -s https://raw.githubusercontent.com/pry0cc/axiom/master/interact/axiom-configure)",
+   "Linux": "bash \u003c(curl -s https://raw.githubusercontent.com/pry0cc/axiom/master/interact/axiom-configure)",
+   "MacOS": "bash \u003c(curl -s https://raw.githubusercontent.com/pry0cc/axiom/master/interact/axiom-configure)",
    "Windows": ""
   },
   "Method": "PENTEST",
@@ -925,6 +989,22 @@
    "Linux": "cd c-jwt-cracker ; git pull -v ; make",
    "MacOS": "cd c-jwt-cracker ; git pull -v ; make",
    "Windows": "cd c-jwt-cracker ; git pull -v ; make"
+  }
+ },
+ "can-i-take-over-xyz": {
+  "Data": "| Discovery/TKOV | [can-i-take-over-xyz](https://github.com/EdOverflow/can-i-take-over-xyz) | \"Can I take over XYZ?\" — a list of services and how to claim (sub)domains with dangling DNS records. | ![](https://img.shields.io/github/stars/EdOverflow/can-i-take-over-xyz) | ![](https://img.shields.io/github/languages/top/EdOverflow/can-i-take-over-xyz) |",
+  "Description": "\"Can I take over XYZ?\" — a list of services and how to claim (sub)domains with dangling DNS records.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "TKOV",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "cc.py": {
@@ -1109,7 +1189,7 @@
   "Install": {
    "Linux": "curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash",
    "MacOS": "brew tap tgotwig/feroxbuster ; brew install feroxbuster",
-   "Windows": "Invoke-WebRequest https://github.com/epi052/feroxbuster/releases/latest/download/x86_64-windows-feroxbuster.exe.zip -OutFile feroxbuster.zip; Expand-Archive .\feroxbuster.zip; .\feroxbuster\feroxbuster.exe -V"
+   "Windows": "Invoke-WebRequest https://github.com/epi052/feroxbuster/releases/latest/download/x86_64-windows-feroxbuster.exe.zip -OutFile feroxbuster.zip; Expand-Archive .\u000ceroxbuster.zip; .\u000ceroxbuster\u000ceroxbuster.exe -V"
   },
   "Method": "FUZZ",
   "Type": "Discovery",
@@ -1600,15 +1680,15 @@
   }
  },
  "jwt-hack": {
-  "Type": "Utility",
   "Data": "| Utility/JWT | [jwt-hack](https://github.com/hahwul/jwt-hack) | 🔩 jwt-hack is tool for hacking / security testing to JWT. Supported for En/decoding JWT, Generate payload for JWT attack and very fast cracking(dict/brutefoce) | ![](https://img.shields.io/github/stars/hahwul/jwt-hack) | ![](https://img.shields.io/github/languages/top/hahwul/jwt-hack) |",
-  "Method": "JWT",
   "Description": "🔩 jwt-hack is tool for hacking / security testing to JWT. Supported for En/decoding JWT, Generate payload for JWT attack and very fast cracking(dict/brutefoce)",
   "Install": {
    "Linux": "go get -u github.com/hahwul/jwt-hack",
    "MacOS": "go get -u github.com/hahwul/jwt-hack",
    "Windows": "go get -u github.com/hahwul/jwt-hack"
   },
+  "Method": "JWT",
+  "Type": "Utility",
   "Update": {
    "Linux": "go get -u github.com/hahwul/jwt-hack",
    "MacOS": "go get -u github.com/hahwul/jwt-hack",
