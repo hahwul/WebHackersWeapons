@@ -63,6 +63,22 @@
    "Windows": "go get -u github.com/m4ll0k/Aron"
   }
  },
+ "Assetnote Wordlists": {
+  "Type": "Utility",
+  "Data": "| Utility/WORD  | [Assetnote Wordlists](https://wordlists.assetnote.io) |  This website provides you with wordlists that are up to date and effective against the most popular technologies on the internet.|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)",
+  "Method": "WORD",
+  "Description": "This website provides you with wordlists that are up to date and effective against the most popular technologies on the internet.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "Atlas": {
   "Data": "| Utility/BRIDGE | [Atlas](https://github.com/m4ll0k/Atlas) | Quick SQLMap Tamper Suggester | ![](https://img.shields.io/github/stars/m4ll0k/Atlas) | ![](https://img.shields.io/github/languages/top/m4ll0k/Atlas) |",
   "Description": "Quick SQLMap Tamper Suggester ",
@@ -784,15 +800,15 @@
   }
  },
  "Wordlists-AssetNote": {
-  "Type": "Utility",
   "Data": "| Utility/WORD  | [Wordlists-AssetNote](https://wordlists.assetnote.io) |  wordlists that are up to date and effective against the most popular technologies on the internet.|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)",
-  "Method": "WORD",
   "Description": "wordlists that are up to date and effective against the most popular technologies on the internet.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "WORD",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
