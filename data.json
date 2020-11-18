@@ -799,22 +799,6 @@
    "Windows": "cd VHostScan ; git pull -v ; pip3 install -r requirements.txt"
   }
  },
- "Wordlists-AssetNote": {
-  "Data": "| Utility/WORD  | [Wordlists-AssetNote](https://wordlists.assetnote.io) |  wordlists that are up to date and effective against the most popular technologies on the internet.|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)",
-  "Description": "wordlists that are up to date and effective against the most popular technologies on the internet.",
-  "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
-  },
-  "Method": "WORD",
-  "Type": "Utility",
-  "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
-  }
- },
  "XSStrike": {
   "Data": "| Scanner/XSS | [XSStrike](https://github.com/s0md3v/XSStrike) | Most advanced XSS scanner. | ![](https://img.shields.io/github/stars/s0md3v/XSStrike) | ![](https://img.shields.io/github/languages/top/s0md3v/XSStrike) |",
   "Description": "Most advanced XSS scanner. ",
@@ -2319,7 +2303,7 @@
    "Windows": "pip3 install wfuzz"
   }
  },
- "wordlists": {
+ "Assetnote Wordlists": {
   "Type": "Utility",
   "Data": "| Utility/WORD | [wordlists](https://github.com/assetnote/wordlists) | Automated \u0026 Manual Wordlists provided by Assetnote | ![](https://img.shields.io/github/stars/assetnote/wordlists) | ![](https://img.shields.io/github/languages/top/assetnote/wordlists) |",
   "Method": "WORD",
