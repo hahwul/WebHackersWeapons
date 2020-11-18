@@ -96,15 +96,15 @@
   }
  },
  "BruteX": {
-  "Type": "Scanner",
   "Data": "| Scanner/FUZZ | [BruteX](https://github.com/1N3/BruteX) | Automatically brute force all services running on a target. | ![](https://img.shields.io/github/stars/1N3/BruteX) | ![](https://img.shields.io/github/languages/top/1N3/BruteX) |",
-  "Method": "FUZZ",
   "Description": "Automatically brute force all services running on a target.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "FUZZ",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -781,6 +781,22 @@
    "Linux": "cd VHostScan ; git pull -v ; pip3 install -r requirements.txt",
    "MacOS": "cd VHostScan ; git pull -v ; pip3 install -r requirements.txt",
    "Windows": "cd VHostScan ; git pull -v ; pip3 install -r requirements.txt"
+  }
+ },
+ "Wordlists-AssetNote": {
+  "Type": "Utility",
+  "Data": "| Utility/WORD  | [Wordlists-AssetNote](https://wordlists.assetnote.io) |  wordlists that are up to date and effective against the most popular technologies on the internet.|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)",
+  "Method": "WORD",
+  "Description": "wordlists that are up to date and effective against the most popular technologies on the internet.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "XSStrike": {
