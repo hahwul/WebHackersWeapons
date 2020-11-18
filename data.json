@@ -2309,14 +2309,14 @@
   "Method": "WORD",
   "Description": "Automated \u0026 Manual Wordlists provided by Assetnote",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "git clone https://github.com/assetnote/wordlists",
+   "MacOS": "git clone https://github.com/assetnote/wordlists",
+   "Windows": "git clone https://github.com/assetnote/wordlists"
   },
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "cd wordlists ; git pull -v",
+   "MacOS": "cd wordlists ; git pull -v",
+   "Windows": "cd wordlists ; git pull -v"
   }
  },
  "wpscan": {
