@@ -64,19 +64,19 @@
   }
  },
  "Assetnote Wordlists": {
-  "Data": "| Utility/WORD  | [Assetnote Wordlists](https://wordlists.assetnote.io) |  This website provides you with wordlists that are up to date and effective against the most popular technologies on the internet.|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)",
-  "Description": "This website provides you with wordlists that are up to date and effective against the most popular technologies on the internet.",
+  "Data": "| Utility/WORD | [wordlists](https://github.com/assetnote/wordlists) | Automated \u0026 Manual Wordlists provided by Assetnote | ![](https://img.shields.io/github/stars/assetnote/wordlists) | ![](https://img.shields.io/github/languages/top/assetnote/wordlists) |",
+  "Description": "Automated \u0026 Manual Wordlists provided by Assetnote",
   "Install": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "git clone https://github.com/assetnote/wordlists",
+   "MacOS": "git clone https://github.com/assetnote/wordlists",
+   "Windows": "git clone https://github.com/assetnote/wordlists"
   },
   "Method": "WORD",
   "Type": "Utility",
   "Update": {
-   "Linux": "",
-   "MacOS": "",
-   "Windows": ""
+   "Linux": "cd wordlists ; git pull -v",
+   "MacOS": "cd wordlists ; git pull -v",
+   "Windows": "cd wordlists ; git pull -v"
   }
  },
  "Atlas": {
@@ -2047,6 +2047,22 @@
    "Windows": "go get -u github.com/hahwul/s3reverse"
   }
  },
+ "scilla": {
+  "Type": "Discovery",
+  "Data": "| Discovery/ALL | [scilla](https://github.com/edoardottt/scilla) | 🏴‍☠️ Information Gathering tool 🏴‍☠️ dns/subdomain/port enumeration | ![](https://img.shields.io/github/stars/edoardottt/scilla) | ![](https://img.shields.io/github/languages/top/edoardottt/scilla) |",
+  "Method": "ALL",
+  "Description": "🏴‍☠️ Information Gathering tool 🏴‍☠️ dns/subdomain/port enumeration",
+  "Install": {
+   "Linux": "go get-u github.com/edoardottt/scilla",
+   "MacOS": "go get-u github.com/edoardottt/scilla",
+   "Windows": "go get-u github.com/edoardottt/scilla"
+  },
+  "Update": {
+   "Linux": "go get-u github.com/edoardottt/scilla",
+   "MacOS": "go get-u github.com/edoardottt/scilla",
+   "Windows": "go get-u github.com/edoardottt/scilla"
+  }
+ },
  "shuffledns": {
   "Data": "| Discovery/DNS | [shuffledns](https://github.com/projectdiscovery/shuffledns) | shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output support. | ![](https://img.shields.io/github/stars/projectdiscovery/shuffledns) | ![](https://img.shields.io/github/languages/top/projectdiscovery/shuffledns) |",
   "Description": "shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output support. ",
@@ -2301,22 +2317,6 @@
    "Linux": "pip3 install wfuzz",
    "MacOS": "pip3 install wfuzz",
    "Windows": "pip3 install wfuzz"
-  }
- },
- "Assetnote Wordlists": {
-  "Type": "Utility",
-  "Data": "| Utility/WORD | [wordlists](https://github.com/assetnote/wordlists) | Automated \u0026 Manual Wordlists provided by Assetnote | ![](https://img.shields.io/github/stars/assetnote/wordlists) | ![](https://img.shields.io/github/languages/top/assetnote/wordlists) |",
-  "Method": "WORD",
-  "Description": "Automated \u0026 Manual Wordlists provided by Assetnote",
-  "Install": {
-   "Linux": "git clone https://github.com/assetnote/wordlists",
-   "MacOS": "git clone https://github.com/assetnote/wordlists",
-   "Windows": "git clone https://github.com/assetnote/wordlists"
-  },
-  "Update": {
-   "Linux": "cd wordlists ; git pull -v",
-   "MacOS": "cd wordlists ; git pull -v",
-   "Windows": "cd wordlists ; git pull -v"
   }
  },
  "wpscan": {
