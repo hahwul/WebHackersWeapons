@@ -1151,6 +1151,22 @@
    "Windows": "go get -u -v github.com/projectdiscovery/dnsprobe"
   }
  },
+ "dnsvalidator": {
+  "Data": "| Discovery/DNS | [dnsvalidator](https://github.com/vortexau/dnsvalidator) | Maintains a list of IPv4 DNS servers by verifying them against baseline servers, and ensuring accurate responses. | ![](https://img.shields.io/github/stars/vortexau/dnsvalidator) | ![](https://img.shields.io/github/languages/top/vortexau/dnsvalidator) |",
+  "Description": "Maintains a list of IPv4 DNS servers by verifying them against baseline servers, and ensuring accurate responses.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "DNS",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "domdig": {
   "Data": "| Scanner/XSS | [domdig](https://github.com/fcavallarin/domdig) | DOM XSS scanner for Single Page Applications | ![](https://img.shields.io/github/stars/fcavallarin/domdig) | ![](https://img.shields.io/github/languages/top/fcavallarin/domdig) |",
   "Description": "DOM XSS scanner for Single Page Applications ",
@@ -1293,6 +1309,22 @@
    "Linux": "GO111MODULE=on go get -u -v github.com/lc/gau",
    "MacOS": "GO111MODULE=on go get -u -v github.com/lc/gau",
    "Windows": "go get -u -v github.com/lc/gau"
+  }
+ },
+ "getJS": {
+  "Data": "| Fetch/JS | [getJS](https://github.com/003random/getJS) | A tool to fastly get all javascript sources/files | ![](https://img.shields.io/github/stars/003random/getJS) | ![](https://img.shields.io/github/languages/top/003random/getJS) |",
+  "Description": "A tool to fastly get all javascript sources/files",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "JS",
+  "Type": "Fetch",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "gf": {
@@ -2048,15 +2080,15 @@
   }
  },
  "scilla": {
-  "Type": "Discovery",
   "Data": "| Discovery/ALL | [scilla](https://github.com/edoardottt/scilla) | 🏴‍☠️ Information Gathering tool 🏴‍☠️ dns/subdomain/port enumeration | ![](https://img.shields.io/github/stars/edoardottt/scilla) | ![](https://img.shields.io/github/languages/top/edoardottt/scilla) |",
-  "Method": "ALL",
   "Description": "🏴‍☠️ Information Gathering tool 🏴‍☠️ dns/subdomain/port enumeration",
   "Install": {
    "Linux": "go get-u github.com/edoardottt/scilla",
    "MacOS": "go get-u github.com/edoardottt/scilla",
    "Windows": "go get-u github.com/edoardottt/scilla"
   },
+  "Method": "ALL",
+  "Type": "Discovery",
   "Update": {
    "Linux": "go get-u github.com/edoardottt/scilla",
    "MacOS": "go get-u github.com/edoardottt/scilla",
@@ -2093,6 +2125,22 @@
    "Linux": "cd smuggler ; git pull -v",
    "MacOS": "cd smuggler ; git pull -v",
    "Windows": "cd smuggler ; git pull -v"
+  }
+ },
+ "sn0int": {
+  "Data": "| Discovery/ALL | [sn0int](https://github.com/kpcyrd/sn0int) | Semi-automatic OSINT framework and package manager | ![](https://img.shields.io/github/stars/kpcyrd/sn0int) | ![](https://img.shields.io/github/languages/top/kpcyrd/sn0int) |",
+  "Description": "Semi-automatic OSINT framework and package manager",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "ALL",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "sqlmap": {
@@ -2141,6 +2189,22 @@
    "Linux": "GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder",
    "MacOS": "GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder",
    "Windows": "go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder"
+  }
+ },
+ "subgen": {
+  "Type": "Discovery",
+  "Data": "| Discovery/DNS | [subgen](https://github.com/pry0cc/subgen) | A really simple utility to concate wordlists to a domain name - to pipe into your favourite resolver! | ![](https://img.shields.io/github/stars/pry0cc/subgen) | ![](https://img.shields.io/github/languages/top/pry0cc/subgen) |",
+  "Method": "DNS",
+  "Description": "A really simple utility to concate wordlists to a domain name - to pipe into your favourite resolver!",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "subjack": {
@@ -2441,6 +2505,22 @@
   },
   "Method": "PROXY",
   "Type": "Army-Knife",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "zdns": {
+  "Data": "| Discovery/DNS | [zdns](https://github.com/zmap/zdns) | Fast CLI DNS Lookup Tool | ![](https://img.shields.io/github/stars/zmap/zdns) | ![](https://img.shields.io/github/languages/top/zmap/zdns) |",
+  "Description": "Fast CLI DNS Lookup Tool",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "DNS",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
