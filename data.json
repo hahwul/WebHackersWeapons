@@ -2143,6 +2143,22 @@
    "Windows": ""
   }
  },
+ "sqliv": {
+  "Type": "Scanner",
+  "Data": "| Scanner/SQL | [sqliv](https://github.com/the-robot/sqliv) | massive SQL injection vulnerability scanner | ![](https://img.shields.io/github/stars/the-robot/sqliv) | ![](https://img.shields.io/github/languages/top/the-robot/sqliv) |",
+  "Method": "SQL",
+  "Description": "massive SQL injection vulnerability scanner",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "sqlmap": {
   "Data": "| Scanner/SQL | [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | ![](https://img.shields.io/github/stars/sqlmapproject/sqlmap) | ![](https://img.shields.io/github/languages/top/sqlmapproject/sqlmap) |",
   "Description": "Automatic SQL injection and database takeover tool ",
@@ -2192,15 +2208,15 @@
   }
  },
  "subgen": {
-  "Type": "Discovery",
   "Data": "| Discovery/DNS | [subgen](https://github.com/pry0cc/subgen) | A really simple utility to concate wordlists to a domain name - to pipe into your favourite resolver! | ![](https://img.shields.io/github/stars/pry0cc/subgen) | ![](https://img.shields.io/github/languages/top/pry0cc/subgen) |",
-  "Method": "DNS",
   "Description": "A really simple utility to concate wordlists to a domain name - to pipe into your favourite resolver!",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "DNS",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
