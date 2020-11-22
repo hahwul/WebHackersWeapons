@@ -751,6 +751,22 @@
    "Windows": "cd Striker; git pull -v ; pip3 install -r requirements.txt"
   }
  },
+ "SubOver": {
+  "Type": "Discovery",
+  "Data": "| Discovery/TKOV | [SubOver](https://github.com/Ice3man543/SubOver) | A Powerful Subdomain Takeover Tool | ![](https://img.shields.io/github/stars/Ice3man543/SubOver) | ![](https://img.shields.io/github/languages/top/Ice3man543/SubOver) |",
+  "Method": "TKOV",
+  "Description": "A Powerful Subdomain Takeover Tool",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "Sublist3r": {
   "Data": "| Discovery/DOMAIN | [Sublist3r](https://github.com/aboul3la/Sublist3r) | Fast subdomains enumeration tool for penetration testers | ![](https://img.shields.io/github/stars/aboul3la/Sublist3r) | ![](https://img.shields.io/github/languages/top/aboul3la/Sublist3r) |",
   "Description": "Fast subdomains enumeration tool for penetration testers ",
@@ -2144,15 +2160,15 @@
   }
  },
  "sqliv": {
-  "Type": "Scanner",
   "Data": "| Scanner/SQL | [sqliv](https://github.com/the-robot/sqliv) | massive SQL injection vulnerability scanner | ![](https://img.shields.io/github/stars/the-robot/sqliv) | ![](https://img.shields.io/github/languages/top/the-robot/sqliv) |",
-  "Method": "SQL",
   "Description": "massive SQL injection vulnerability scanner",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "SQL",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
