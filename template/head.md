@@ -4,7 +4,8 @@
   <br>
   Web Hacker's Weapons
   <br>
-  <a href="https://twitter.com/intent/follow?screen_name=hahwul"><img src="https://img.shields.io/twitter/follow/hahwul?style=flat"></a> <img src="https://img.shields.io/github/languages/top/hahwul/WebHackersWeapons?style=flat-square"> <img src="https://img.shields.io/github/last-commit/hahwul/WebHackersWeapons?style=flat"> 
+  <img src="https://img.shields.io/github/languages/top/hahwul/WebHackersWeapons?style=flat"> 
+  <img src="https://img.shields.io/github/last-commit/hahwul/WebHackersWeapons?style=flat"> 
   <img src="https://img.shields.io/badge/PRs-welcome-cyan">
   <img src="https://github.com/hahwul/WebHackersWeapons/workflows/Build/badge.svg">
   <img src="https://github.com/hahwul/WebHackersWeapons/workflows/CodeQL/badge.svg">
