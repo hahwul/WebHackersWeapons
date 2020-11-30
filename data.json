@@ -752,15 +752,15 @@
   }
  },
  "SubOver": {
-  "Type": "Discovery",
   "Data": "| Discovery/TKOV | [SubOver](https://github.com/Ice3man543/SubOver) | A Powerful Subdomain Takeover Tool | ![](https://img.shields.io/github/stars/Ice3man543/SubOver) | ![](https://img.shields.io/github/languages/top/Ice3man543/SubOver) |",
-  "Method": "TKOV",
   "Description": "A Powerful Subdomain Takeover Tool",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "TKOV",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1101,6 +1101,22 @@
    "Linux": "GO111MODULE=on go get -v github.com/dwisiswant0/crlfuzz/cmd/crlfuzz",
    "MacOS": "GO111MODULE=on go get -v github.com/dwisiswant0/crlfuzz/cmd/crlfuzz",
    "Windows": "go get -v github.com/dwisiswant0/crlfuzz/cmd/crlfuzz"
+  }
+ },
+ "curl": {
+  "Type": "Utility",
+  "Data": "| Utility/HTTP | [curl](https://github.com/curl/curl) | A command line tool and library for transferring data with URL syntax, supporting HTTP, HTTPS, FTP, FTPS, GOPHER, TFTP, SCP, SFTP, SMB, TELNET, DICT, LDAP, LDAPS, MQTT, FILE, IMAP, SMTP, POP3, RTSP and RTMP. libcurl offers a myriad of powerful features | ![](https://img.shields.io/github/stars/curl/curl) | ![](https://img.shields.io/github/languages/top/curl/curl) |",
+  "Method": "HTTP",
+  "Description": "A command line tool and library for transferring data with URL syntax, supporting HTTP, HTTPS, FTP, FTPS, GOPHER, TFTP, SCP, SFTP, SMB, TELNET, DICT, LDAP, LDAPS, MQTT, FILE, IMAP, SMTP, POP3, RTSP and RTMP. libcurl offers a myriad of powerful features",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "dalfox": {
@@ -1645,6 +1661,22 @@
    "Linux": "go get github.com/htcat/htcat/cmd/htcat",
    "MacOS": "go get github.com/htcat/htcat/cmd/htcat",
    "Windows": "go get github.com/htcat/htcat/cmd/htcat"
+  }
+ },
+ "httpie": {
+  "Data": "| Utility/HTTP | [httpie](https://github.com/httpie/httpie) | As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins \u0026 more. https://twitter.com/httpie | ![](https://img.shields.io/github/stars/httpie/httpie) | ![](https://img.shields.io/github/languages/top/httpie/httpie) |",
+  "Description": "As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins \u0026 more. https://twitter.com/httpie",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "HTTP",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "httprobe": {
