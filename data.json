@@ -1104,15 +1104,15 @@
   }
  },
  "curl": {
-  "Type": "Utility",
   "Data": "| Utility/HTTP | [curl](https://github.com/curl/curl) | A command line tool and library for transferring data with URL syntax, supporting HTTP, HTTPS, FTP, FTPS, GOPHER, TFTP, SCP, SFTP, SMB, TELNET, DICT, LDAP, LDAPS, MQTT, FILE, IMAP, SMTP, POP3, RTSP and RTMP. libcurl offers a myriad of powerful features | ![](https://img.shields.io/github/stars/curl/curl) | ![](https://img.shields.io/github/languages/top/curl/curl) |",
-  "Method": "HTTP",
   "Description": "A command line tool and library for transferring data with URL syntax, supporting HTTP, HTTPS, FTP, FTPS, GOPHER, TFTP, SCP, SFTP, SMB, TELNET, DICT, LDAP, LDAPS, MQTT, FILE, IMAP, SMTP, POP3, RTSP and RTMP. libcurl offers a myriad of powerful features",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "HTTP",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1193,6 +1193,22 @@
   },
   "Method": "DNS",
   "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "dnsx": {
+  "Type": "Discovery",
+  "Data": "| Discovery/DNS | [dnsx](https://github.com/projectdiscovery/dnsx) | dnsx is a fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers. | ![](https://img.shields.io/github/stars/projectdiscovery/dnsx) | ![](https://img.shields.io/github/languages/top/projectdiscovery/dnsx) |",
+  "Method": "DNS",
+  "Description": "dnsx is a fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
   "Update": {
    "Linux": "",
    "MacOS": "",
