@@ -1200,15 +1200,15 @@
   }
  },
  "dnsx": {
-  "Type": "Discovery",
   "Data": "| Discovery/DNS | [dnsx](https://github.com/projectdiscovery/dnsx) | dnsx is a fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers. | ![](https://img.shields.io/github/stars/projectdiscovery/dnsx) | ![](https://img.shields.io/github/languages/top/projectdiscovery/dnsx) |",
-  "Method": "DNS",
   "Description": "dnsx is a fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "DNS",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -2429,6 +2429,22 @@
    "Linux": "go get github.com/tomnomnom/waybackurls",
    "MacOS": "go get github.com/tomnomnom/waybackurls",
    "Windows": "go get github.com/tomnomnom/waybackurls"
+  }
+ },
+ "weaponised-XSS-payloads": {
+  "Type": "Utility",
+  "Data": "| Utility/PAYLOAD | [weaponised-XSS-payloads](https://github.com/hakluke/weaponised-XSS-payloads) | XSS payloads designed to turn alert(1) into P1 | ![](https://img.shields.io/github/stars/hakluke/weaponised-XSS-payloads) | ![](https://img.shields.io/github/languages/top/hakluke/weaponised-XSS-payloads) |",
+  "Method": "PAYLOAD",
+  "Description": "XSS payloads designed to turn alert(1) into P1",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "websocket-connection-smuggler": {
