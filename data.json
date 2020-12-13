@@ -2047,6 +2047,22 @@
    "Windows": "cd postMessage-tracker ; git pull -v"
   }
  },
+ "proxify": {
+  "Type": "Army-Knife",
+  "Data": "| Army-Knife/PROXY | [proxify](https://github.com/projectdiscovery/proxify) | Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation and replay | ![](https://img.shields.io/github/stars/projectdiscovery/proxify) | ![](https://img.shields.io/github/languages/top/projectdiscovery/proxify) |",
+  "Method": "PROXY",
+  "Description": "Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation and replay",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "pwncat": {
   "Data": "| Utility/PENTEST | [pwncat](https://github.com/cytopia/pwncat) | pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind and reverse shell, self-injecting shell and port forwarding magic - and its fully scriptable with Python (PSE) | ![](https://img.shields.io/github/stars/cytopia/pwncat) | ![](https://img.shields.io/github/languages/top/cytopia/pwncat) |",
   "Description": "pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind and reverse shell, self-injecting shell and port forwarding magic - and its fully scriptable with Python (PSE) ",
@@ -2432,15 +2448,15 @@
   }
  },
  "weaponised-XSS-payloads": {
-  "Type": "Utility",
   "Data": "| Utility/PAYLOAD | [weaponised-XSS-payloads](https://github.com/hakluke/weaponised-XSS-payloads) | XSS payloads designed to turn alert(1) into P1 | ![](https://img.shields.io/github/stars/hakluke/weaponised-XSS-payloads) | ![](https://img.shields.io/github/languages/top/hakluke/weaponised-XSS-payloads) |",
-  "Method": "PAYLOAD",
   "Description": "XSS payloads designed to turn alert(1) into P1",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "PAYLOAD",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
