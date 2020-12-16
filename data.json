@@ -751,6 +751,22 @@
    "Windows": "cd Striker; git pull -v ; pip3 install -r requirements.txt"
   }
  },
+ "SubOver": {
+  "Data": "| Discovery/TKOV | [SubOver](https://github.com/Ice3man543/SubOver) | A Powerful Subdomain Takeover Tool | ![](https://img.shields.io/github/stars/Ice3man543/SubOver) | ![](https://img.shields.io/github/languages/top/Ice3man543/SubOver) |",
+  "Description": "A Powerful Subdomain Takeover Tool",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "TKOV",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "Sublist3r": {
   "Data": "| Discovery/DOMAIN | [Sublist3r](https://github.com/aboul3la/Sublist3r) | Fast subdomains enumeration tool for penetration testers | ![](https://img.shields.io/github/stars/aboul3la/Sublist3r) | ![](https://img.shields.io/github/languages/top/aboul3la/Sublist3r) |",
   "Description": "Fast subdomains enumeration tool for penetration testers ",
@@ -1087,6 +1103,22 @@
    "Windows": "go get -v github.com/dwisiswant0/crlfuzz/cmd/crlfuzz"
   }
  },
+ "curl": {
+  "Data": "| Utility/HTTP | [curl](https://github.com/curl/curl) | A command line tool and library for transferring data with URL syntax, supporting HTTP, HTTPS, FTP, FTPS, GOPHER, TFTP, SCP, SFTP, SMB, TELNET, DICT, LDAP, LDAPS, MQTT, FILE, IMAP, SMTP, POP3, RTSP and RTMP. libcurl offers a myriad of powerful features | ![](https://img.shields.io/github/stars/curl/curl) | ![](https://img.shields.io/github/languages/top/curl/curl) |",
+  "Description": "A command line tool and library for transferring data with URL syntax, supporting HTTP, HTTPS, FTP, FTPS, GOPHER, TFTP, SCP, SFTP, SMB, TELNET, DICT, LDAP, LDAPS, MQTT, FILE, IMAP, SMTP, POP3, RTSP and RTMP. libcurl offers a myriad of powerful features",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "HTTP",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "dalfox": {
   "Data": "| Scanner/XSS | [dalfox](https://github.com/hahwul/dalfox) | 🌘🦊 DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang | ![](https://img.shields.io/github/stars/hahwul/dalfox) | ![](https://img.shields.io/github/languages/top/hahwul/dalfox) |",
   "Description": "🌘🦊 DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang ",
@@ -1149,6 +1181,38 @@
    "Linux": "GO111MODULE=on go get -u -v github.com/projectdiscovery/dnsprobe",
    "MacOS": "GO111MODULE=on go get -u -v github.com/projectdiscovery/dnsprobe",
    "Windows": "go get -u -v github.com/projectdiscovery/dnsprobe"
+  }
+ },
+ "dnsvalidator": {
+  "Data": "| Discovery/DNS | [dnsvalidator](https://github.com/vortexau/dnsvalidator) | Maintains a list of IPv4 DNS servers by verifying them against baseline servers, and ensuring accurate responses. | ![](https://img.shields.io/github/stars/vortexau/dnsvalidator) | ![](https://img.shields.io/github/languages/top/vortexau/dnsvalidator) |",
+  "Description": "Maintains a list of IPv4 DNS servers by verifying them against baseline servers, and ensuring accurate responses.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "DNS",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "dnsx": {
+  "Data": "| Discovery/DNS | [dnsx](https://github.com/projectdiscovery/dnsx) | dnsx is a fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers. | ![](https://img.shields.io/github/stars/projectdiscovery/dnsx) | ![](https://img.shields.io/github/languages/top/projectdiscovery/dnsx) |",
+  "Description": "dnsx is a fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "DNS",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "domdig": {
@@ -1293,6 +1357,22 @@
    "Linux": "GO111MODULE=on go get -u -v github.com/lc/gau",
    "MacOS": "GO111MODULE=on go get -u -v github.com/lc/gau",
    "Windows": "go get -u -v github.com/lc/gau"
+  }
+ },
+ "getJS": {
+  "Data": "| Fetch/JS | [getJS](https://github.com/003random/getJS) | A tool to fastly get all javascript sources/files | ![](https://img.shields.io/github/stars/003random/getJS) | ![](https://img.shields.io/github/languages/top/003random/getJS) |",
+  "Description": "A tool to fastly get all javascript sources/files",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "JS",
+  "Type": "Fetch",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "gf": {
@@ -1597,6 +1677,22 @@
    "Linux": "go get github.com/htcat/htcat/cmd/htcat",
    "MacOS": "go get github.com/htcat/htcat/cmd/htcat",
    "Windows": "go get github.com/htcat/htcat/cmd/htcat"
+  }
+ },
+ "httpie": {
+  "Data": "| Utility/HTTP | [httpie](https://github.com/httpie/httpie) | As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins \u0026 more. https://twitter.com/httpie | ![](https://img.shields.io/github/stars/httpie/httpie) | ![](https://img.shields.io/github/languages/top/httpie/httpie) |",
+  "Description": "As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins \u0026 more. https://twitter.com/httpie",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "HTTP",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "httprobe": {
@@ -1951,6 +2047,22 @@
    "Windows": "cd postMessage-tracker ; git pull -v"
   }
  },
+ "proxify": {
+  "Type": "Army-Knife",
+  "Data": "| Army-Knife/PROXY | [proxify](https://github.com/projectdiscovery/proxify) | Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation and replay | ![](https://img.shields.io/github/stars/projectdiscovery/proxify) | ![](https://img.shields.io/github/languages/top/projectdiscovery/proxify) |",
+  "Method": "PROXY",
+  "Description": "Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation and replay",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "pwncat": {
   "Data": "| Utility/PENTEST | [pwncat](https://github.com/cytopia/pwncat) | pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind and reverse shell, self-injecting shell and port forwarding magic - and its fully scriptable with Python (PSE) | ![](https://img.shields.io/github/stars/cytopia/pwncat) | ![](https://img.shields.io/github/languages/top/cytopia/pwncat) |",
   "Description": "pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind and reverse shell, self-injecting shell and port forwarding magic - and its fully scriptable with Python (PSE) ",
@@ -2048,15 +2160,15 @@
   }
  },
  "scilla": {
-  "Type": "Discovery",
   "Data": "| Discovery/ALL | [scilla](https://github.com/edoardottt/scilla) | 🏴‍☠️ Information Gathering tool 🏴‍☠️ dns/subdomain/port enumeration | ![](https://img.shields.io/github/stars/edoardottt/scilla) | ![](https://img.shields.io/github/languages/top/edoardottt/scilla) |",
-  "Method": "ALL",
   "Description": "🏴‍☠️ Information Gathering tool 🏴‍☠️ dns/subdomain/port enumeration",
   "Install": {
    "Linux": "go get-u github.com/edoardottt/scilla",
    "MacOS": "go get-u github.com/edoardottt/scilla",
    "Windows": "go get-u github.com/edoardottt/scilla"
   },
+  "Method": "ALL",
+  "Type": "Discovery",
   "Update": {
    "Linux": "go get-u github.com/edoardottt/scilla",
    "MacOS": "go get-u github.com/edoardottt/scilla",
@@ -2093,6 +2205,38 @@
    "Linux": "cd smuggler ; git pull -v",
    "MacOS": "cd smuggler ; git pull -v",
    "Windows": "cd smuggler ; git pull -v"
+  }
+ },
+ "sn0int": {
+  "Data": "| Discovery/ALL | [sn0int](https://github.com/kpcyrd/sn0int) | Semi-automatic OSINT framework and package manager | ![](https://img.shields.io/github/stars/kpcyrd/sn0int) | ![](https://img.shields.io/github/languages/top/kpcyrd/sn0int) |",
+  "Description": "Semi-automatic OSINT framework and package manager",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "ALL",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "sqliv": {
+  "Data": "| Scanner/SQL | [sqliv](https://github.com/the-robot/sqliv) | massive SQL injection vulnerability scanner | ![](https://img.shields.io/github/stars/the-robot/sqliv) | ![](https://img.shields.io/github/languages/top/the-robot/sqliv) |",
+  "Description": "massive SQL injection vulnerability scanner",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "SQL",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "sqlmap": {
@@ -2141,6 +2285,22 @@
    "Linux": "GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder",
    "MacOS": "GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder",
    "Windows": "go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder"
+  }
+ },
+ "subgen": {
+  "Data": "| Discovery/DNS | [subgen](https://github.com/pry0cc/subgen) | A really simple utility to concate wordlists to a domain name - to pipe into your favourite resolver! | ![](https://img.shields.io/github/stars/pry0cc/subgen) | ![](https://img.shields.io/github/languages/top/pry0cc/subgen) |",
+  "Description": "A really simple utility to concate wordlists to a domain name - to pipe into your favourite resolver!",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "DNS",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "subjack": {
@@ -2285,6 +2445,22 @@
    "Linux": "go get github.com/tomnomnom/waybackurls",
    "MacOS": "go get github.com/tomnomnom/waybackurls",
    "Windows": "go get github.com/tomnomnom/waybackurls"
+  }
+ },
+ "weaponised-XSS-payloads": {
+  "Data": "| Utility/PAYLOAD | [weaponised-XSS-payloads](https://github.com/hakluke/weaponised-XSS-payloads) | XSS payloads designed to turn alert(1) into P1 | ![](https://img.shields.io/github/stars/hakluke/weaponised-XSS-payloads) | ![](https://img.shields.io/github/languages/top/hakluke/weaponised-XSS-payloads) |",
+  "Description": "XSS payloads designed to turn alert(1) into P1",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "PAYLOAD",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "websocket-connection-smuggler": {
@@ -2441,6 +2617,22 @@
   },
   "Method": "PROXY",
   "Type": "Army-Knife",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "zdns": {
+  "Data": "| Discovery/DNS | [zdns](https://github.com/zmap/zdns) | Fast CLI DNS Lookup Tool | ![](https://img.shields.io/github/stars/zmap/zdns) | ![](https://img.shields.io/github/languages/top/zmap/zdns) |",
+  "Description": "Fast CLI DNS Lookup Tool",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "DNS",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
