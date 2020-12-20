@@ -368,15 +368,15 @@
   }
  },
  "HydraRecon": {
-  "Type": "Discovery",
   "Data": "| Discovery/ALL | [HydraRecon](https://github.com/aufzayed/HydraRecon) | All In One, Fast, Easy Recon Tool | ![](https://img.shields.io/github/stars/aufzayed/HydraRecon) | ![](https://img.shields.io/github/languages/top/aufzayed/HydraRecon) |",
-  "Method": "ALL",
   "Description": "All In One, Fast, Easy Recon Tool",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "ALL",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -573,6 +573,22 @@
    "Linux": "cd Photon; git pull -v ; pip3 install -r requirements.txt",
    "MacOS": "cd Photon; git pull -v ; pip3 install -r requirements.txt",
    "Windows": "cd Photon; git pull -v ; pip3 install -r requirements.txt"
+  }
+ },
+ "PoC-in-GitHub": {
+  "Type": "Utility",
+  "Data": "| Utility/PAYLOAD | [PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub) | 📡 PoC auto collect from GitHub. Be careful  malware. | ![](https://img.shields.io/github/stars/nomi-sec/PoC-in-GitHub) | ![](https://img.shields.io/github/languages/top/nomi-sec/PoC-in-GitHub) |",
+  "Method": "PAYLOAD",
+  "Description": "📡 PoC auto collect from GitHub. Be careful  malware.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "RustScan": {
