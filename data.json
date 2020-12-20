@@ -1839,6 +1839,22 @@
    "Windows": "cd lazyrecon ; git pull -v"
   }
  },
+ "longtongue": {
+  "Type": "Utility",
+  "Data": "| Utility/WORD | [longtongue](https://github.com/edoardottt/longtongue) | Customized Password/Passphrase List inputting Target Info | ![](https://img.shields.io/github/stars/edoardottt/longtongue) | ![](https://img.shields.io/github/languages/top/edoardottt/longtongue) |",
+  "Method": "WORD",
+  "Description": "Customized Password/Passphrase List inputting Target Info",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "masscan": {
   "Data": "| Discovery/PORT | [masscan](https://github.com/robertdavidgraham/masscan) | TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. | ![](https://img.shields.io/github/stars/robertdavidgraham/masscan) | ![](https://img.shields.io/github/languages/top/robertdavidgraham/masscan) |",
   "Description": "TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. ",
@@ -2048,15 +2064,15 @@
   }
  },
  "proxify": {
-  "Type": "Army-Knife",
   "Data": "| Army-Knife/PROXY | [proxify](https://github.com/projectdiscovery/proxify) | Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation and replay | ![](https://img.shields.io/github/stars/projectdiscovery/proxify) | ![](https://img.shields.io/github/languages/top/projectdiscovery/proxify) |",
-  "Method": "PROXY",
   "Description": "Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation and replay",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "PROXY",
+  "Type": "Army-Knife",
   "Update": {
    "Linux": "",
    "MacOS": "",
