@@ -367,6 +367,22 @@
    "Windows": "cd GraphQLmap; git pull -v ; pip install -r requirements.txt"
   }
  },
+ "HydraRecon": {
+  "Type": "Discovery",
+  "Data": "| Discovery/ALL | [HydraRecon](https://github.com/aufzayed/HydraRecon) | All In One, Fast, Easy Recon Tool | ![](https://img.shields.io/github/stars/aufzayed/HydraRecon) | ![](https://img.shields.io/github/languages/top/aufzayed/HydraRecon) |",
+  "Method": "ALL",
+  "Description": "All In One, Fast, Easy Recon Tool",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "IntruderPayloads": {
   "Data": "| Utility/PAYLOAD | [IntruderPayloads](https://github.com/1N3/IntruderPayloads) | A collection of Burpsuite Intruder payloads, BurpBounty payloads, fuzz lists, malicious file uploads and web pentesting methodologies and checklists. | ![](https://img.shields.io/github/stars/1N3/IntruderPayloads) | ![](https://img.shields.io/github/languages/top/1N3/IntruderPayloads) |",
   "Description": "A collection of Burpsuite Intruder payloads, BurpBounty payloads, fuzz lists, malicious file uploads and web pentesting methodologies and checklists.",
@@ -1840,15 +1856,15 @@
   }
  },
  "longtongue": {
-  "Type": "Utility",
   "Data": "| Utility/WORD | [longtongue](https://github.com/edoardottt/longtongue) | Customized Password/Passphrase List inputting Target Info | ![](https://img.shields.io/github/stars/edoardottt/longtongue) | ![](https://img.shields.io/github/languages/top/edoardottt/longtongue) |",
-  "Method": "WORD",
   "Description": "Customized Password/Passphrase List inputting Target Info",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "WORD",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
