@@ -202,8 +202,5 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Utility/WORD | [subs_all](https://github.com/emadshanab/subs_all) | Subdomain Enumeration Wordlist. 8956437 unique words. Updated. | ![](https://img.shields.io/github/stars/emadshanab/subs_all) | ![](https://img.shields.io/github/languages/top/emadshanab/subs_all) |
 
 ## Thanks to (Contributor)
-I would like to thank everyone who helped with this project 👍😎 <br>
-[six2dez](https://github.com/six2dez) , [si9int](https://github.com/si9int) , [dwisiswant0](https://twitter.com/dwisiswant0) , [riza](https://github.com/riza) , [jcran](https://github.com/jcran) , [rykkard](https://github.com/rykkard)
-
-## Contributors
+I would like to thank everyone who helped with this project 👍😎 
 ![](/CONTRIBUTORS.svg)
