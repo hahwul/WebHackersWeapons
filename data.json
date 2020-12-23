@@ -576,15 +576,15 @@
   }
  },
  "PoC-in-GitHub": {
-  "Type": "Utility",
   "Data": "| Utility/PAYLOAD | [PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub) | 📡 PoC auto collect from GitHub. Be careful  malware. | ![](https://img.shields.io/github/stars/nomi-sec/PoC-in-GitHub) | ![](https://img.shields.io/github/languages/top/nomi-sec/PoC-in-GitHub) |",
-  "Method": "PAYLOAD",
   "Description": "📡 PoC auto collect from GitHub. Be careful  malware.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "PAYLOAD",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1741,6 +1741,22 @@
    "Linux": "go get -u github.com/tomnomnom/httprobe",
    "MacOS": "go get -u github.com/tomnomnom/httprobe",
    "Windows": "go get -u github.com/tomnomnom/httprobe"
+  }
+ },
+ "httptoolkit": {
+  "Type": "Army-Knife",
+  "Data": "| Army-Knife/PROXY | [httptoolkit](https://github.com/httptoolkit/httptoolkit) | HTTP Toolkit is a beautiful \u0026 open-source tool for debugging, testing and building with HTTP(S) on Windows, Linux \u0026 Mac | ![](https://img.shields.io/github/stars/httptoolkit/httptoolkit) | ![](https://img.shields.io/github/languages/top/httptoolkit/httptoolkit) |",
+  "Method": "PROXY",
+  "Description": "HTTP Toolkit is a beautiful \u0026 open-source tool for debugging, testing and building with HTTP(S) on Windows, Linux \u0026 Mac",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "httpx": {
