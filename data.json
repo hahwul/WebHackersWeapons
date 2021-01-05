@@ -1663,6 +1663,22 @@
    "Windows": ""
   }
  },
+ "headi": {
+  "Type": "Discovery",
+  "Data": "| Discovery/HTTP | [headi](https://github.com/mlcsec/headi) | Customisable  and automated HTTP header injection | ![](https://img.shields.io/github/stars/mlcsec/headi) | ![](https://img.shields.io/github/languages/top/mlcsec/headi) |",
+  "Method": "HTTP",
+  "Description": "Customisable  and automated HTTP header injection",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "hetty": {
   "Data": "| Army-Knife/PROXY | [hetty](https://github.com/dstotijn/hetty) | Hetty is an HTTP toolkit for security research. It aims to become an open source alternative to commercial software like Burp Suite Pro, with powerful features tailored to the needs of the infosec and bug bounty community. | ![](https://img.shields.io/github/stars/dstotijn/hetty) | ![](https://img.shields.io/github/languages/top/dstotijn/hetty) |",
   "Description": "Hetty is an HTTP toolkit for security research. It aims to become an open source alternative to commercial software like Burp Suite Pro, with powerful features tailored to the needs of the infosec and bug bounty community.",
@@ -1744,15 +1760,15 @@
   }
  },
  "httptoolkit": {
-  "Type": "Army-Knife",
   "Data": "| Army-Knife/PROXY | [httptoolkit](https://github.com/httptoolkit/httptoolkit) | HTTP Toolkit is a beautiful \u0026 open-source tool for debugging, testing and building with HTTP(S) on Windows, Linux \u0026 Mac | ![](https://img.shields.io/github/stars/httptoolkit/httptoolkit) | ![](https://img.shields.io/github/languages/top/httptoolkit/httptoolkit) |",
-  "Method": "PROXY",
   "Description": "HTTP Toolkit is a beautiful \u0026 open-source tool for debugging, testing and building with HTTP(S) on Windows, Linux \u0026 Mac",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "PROXY",
+  "Type": "Army-Knife",
   "Update": {
    "Linux": "",
    "MacOS": "",
