@@ -991,6 +991,22 @@
    "Windows": "go get -u github.com/tomnomnom/assetfinder"
   }
  },
+ "autochrome": {
+  "Type": "Utility",
+  "Data": "| Utility/ENV | [autochrome](https://github.com/nccgroup/autochrome) | This tool downloads, installs, and configures a shiny new copy of Chromium. | ![](https://img.shields.io/github/stars/nccgroup/autochrome) | ![](https://img.shields.io/github/languages/top/nccgroup/autochrome) |",
+  "Method": "ENV",
+  "Description": "This tool downloads, installs, and configures a shiny new copy of Chromium.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "axiom": {
   "Data": "| Utility/PENTEST | [axiom](https://github.com/pry0cc/axiom) | A dynamic infrastructure toolkit for red teamers and bug bounty hunters! | ![](https://img.shields.io/github/stars/pry0cc/axiom) | ![](https://img.shields.io/github/languages/top/pry0cc/axiom) |",
   "Description": "A dynamic infrastructure toolkit for red teamers and bug bounty hunters! ",
@@ -1664,15 +1680,15 @@
   }
  },
  "headi": {
-  "Type": "Discovery",
   "Data": "| Discovery/HTTP | [headi](https://github.com/mlcsec/headi) | Customisable  and automated HTTP header injection | ![](https://img.shields.io/github/stars/mlcsec/headi) | ![](https://img.shields.io/github/languages/top/mlcsec/headi) |",
-  "Method": "HTTP",
   "Description": "Customisable  and automated HTTP header injection",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "HTTP",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
