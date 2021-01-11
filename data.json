@@ -847,6 +847,22 @@
    "Windows": "cd VHostScan ; git pull -v ; pip3 install -r requirements.txt"
   }
  },
+ "xsscrapy":{
+ "Data": "| Scanner/XSS | [xsscrapy](https://github.com/DanMcInerney/xsscrapy) |  XSS/SQLi spider. Give it a URL and it'll test every link it finds for XSS and some SQLi. | ![](https://img.shields.io/github/stars/DanMcInerney/xsscrapy) | ![](https://img.shields.io/github/languages/top/DanMcInerney/xsscrapy) |",
+ "Description": "XSS/SQLi spider. Give it a URL and it'll test every link it finds for XSS and some SQLi. ",
+   "Install": {
+   "Linux": "git clone https://github.com/DanMcInerney/xsscrapy.git ; cd xsscrapy; pip install -r requirements.txt",
+   "MacOS": "git clone https://github.com/DanMcInerney/xsscrapy.git ; cd xsscrapy; pip install -r requirements.txt",
+   "Windows": "git clone https://github.com/DanMcInerney/xsscrapy.git ; cd xsscrapy; pip install -r requirements.txt"
+  },
+  "Method": "XSS",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "cd xsscrapy; git pull -v ; pip install -r requirements.txt",
+   "MacOS": "cd xsscrapy; git pull -v ; pip install -r requirements.txt",
+   "Windows": "cd xsscrapy; git pull -v ; pip install -r requirements.txt"
+  }
+ },
  "XSStrike": {
   "Data": "| Scanner/XSS | [XSStrike](https://github.com/s0md3v/XSStrike) | Most advanced XSS scanner. | ![](https://img.shields.io/github/stars/s0md3v/XSStrike) | ![](https://img.shields.io/github/languages/top/s0md3v/XSStrike) |",
   "Description": "Most advanced XSS scanner. ",
