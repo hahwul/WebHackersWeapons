@@ -14,6 +14,10 @@
 </h1>
 A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting
 
+## Family project
+[![WebHackersWeapons](https://img.shields.io/github/stars/hahwul/WebHackersWeapons?label=WebHackersWeapons)](https://github.com/hahwul/WebHackersWeapons)
+[![MobileHackersWeapons](https://img.shields.io/github/stars/hahwul/MobileHackersWeapons?label=MobileHackersWeapons)](https://github.com/hahwul/MobileHackersWeapons)
+
 ## Table of Contents
 - [WHW-Tools](https://whw-tools.hahwul.com)
 - [Weapons](#weapons)
