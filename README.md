@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href=""><img src="https://user-images.githubusercontent.com/13212227/91529103-aba4b400-e943-11ea-9983-3b5aba7dd25c.png" alt="" width="300px;"></a>
+  <a href=""><img src="https://user-images.githubusercontent.com/13212227/104400969-9f3d9280-5596-11eb-80f4-864effae95fc.png" alt="" width="300px;"></a>
   <br>
   Web Hacker's Weapons
   <br>
