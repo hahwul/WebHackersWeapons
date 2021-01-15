@@ -560,7 +560,7 @@
   }
  },
  "Photon": {
-  "Data": "| Discovery/CRAWL | [Photon](https://github.com/s0md3v/Photon) | Incredibly fast crawler designed for OSINT. | ![](https://img.shields.io/github/stars/s0md3v/Photon) | ![](https://img.shields.io/github/languages/top/s0md3v/Photon) |",
+  "Data": "| Discovery/URL | [Photon](https://github.com/s0md3v/Photon) | Incredibly fast crawler designed for OSINT. | ![](https://img.shields.io/github/stars/s0md3v/Photon) | ![](https://img.shields.io/github/languages/top/s0md3v/Photon) |",
   "Description": "Incredibly fast crawler designed for OSINT. ",
   "Install": {
    "Linux": "git clone https://github.com/s0md3v/Photon ; cd Photon; pip3 install -r requirements.txt",
@@ -1088,7 +1088,7 @@
   }
  },
  "cc.py": {
-  "Data": "| Discovery/CRAWL | [cc.py](https://github.com/si9int/cc.py) | Extracting URLs of a specific target based on the results of \"commoncrawl.org\" | ![](https://img.shields.io/github/stars/si9int/cc.py) | ![](https://img.shields.io/github/languages/top/si9int/cc.py) |",
+  "Data": "| Discovery/URL | [cc.py](https://github.com/si9int/cc.py) | Extracting URLs of a specific target based on the results of \"commoncrawl.org\" | ![](https://img.shields.io/github/stars/si9int/cc.py) | ![](https://img.shields.io/github/languages/top/si9int/cc.py) |",
   "Description": "Extracting URLs of a specific target based on the results of \"commoncrawl.org\" ",
   "Install": {
    "Linux": "git clone https://github.com/si9int/cc.py",
@@ -1504,7 +1504,7 @@
   }
  },
  "go-dork": {
-  "Data": "| Discovery/CRAWL | [go-dork](https://github.com/dwisiswant0/go-dork) | The fastest dork scanner written in Go. | ![](https://img.shields.io/github/stars/dwisiswant0/go-dork) | ![](https://img.shields.io/github/languages/top/dwisiswant0/go-dork) |",
+  "Data": "| Discovery/URL | [go-dork](https://github.com/dwisiswant0/go-dork) | The fastest dork scanner written in Go. | ![](https://img.shields.io/github/stars/dwisiswant0/go-dork) | ![](https://img.shields.io/github/languages/top/dwisiswant0/go-dork) |",
   "Description": "The fastest dork scanner written in Go. ",
   "Install": {
    "Linux": "GO111MODULE=on go get -v github.com/dwisiswant0/go-dork/...",
@@ -1536,7 +1536,7 @@
   }
  },
  "gospider": {
-  "Data": "| Discovery/CRAWL | [gospider](https://github.com/jaeles-project/gospider) | Gospider - Fast web spider written in Go | ![](https://img.shields.io/github/stars/jaeles-project/gospider) | ![](https://img.shields.io/github/languages/top/jaeles-project/gospider) |",
+  "Data": "| Discovery/URL | [gospider](https://github.com/jaeles-project/gospider) | Gospider - Fast web spider written in Go | ![](https://img.shields.io/github/stars/jaeles-project/gospider) | ![](https://img.shields.io/github/languages/top/jaeles-project/gospider) |",
   "Description": "Gospider - Fast web spider written in Go ",
   "Install": {
    "Linux": "go get -u github.com/jaeles-project/gospider",
@@ -1632,7 +1632,7 @@
   }
  },
  "hakrawler": {
-  "Data": "| Discovery/CRAWL | [hakrawler](https://github.com/hakluke/hakrawler) | Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application | ![](https://img.shields.io/github/stars/hakluke/hakrawler) | ![](https://img.shields.io/github/languages/top/hakluke/hakrawler) |",
+  "Data": "| Discovery/URL | [hakrawler](https://github.com/hakluke/hakrawler) | Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application | ![](https://img.shields.io/github/stars/hakluke/hakrawler) | ![](https://img.shields.io/github/languages/top/hakluke/hakrawler) |",
   "Description": "Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application ",
   "Install": {
    "Linux": "go get github.com/hakluke/hakrawler",
@@ -2480,15 +2480,15 @@
   }
  },
  "tiscripts": {
-  "Type": "Utility",
   "Data": "| Utility/Scripts | [tiscripts](https://github.com/defparam/tiscripts) | Turbo Intruder Scripts | ![](https://img.shields.io/github/stars/defparam/tiscripts) | ![](https://img.shields.io/github/languages/top/defparam/tiscripts) |",
-  "Method": "Scripts",
   "Description": "Turbo Intruder Scripts",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "Scripts",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -2512,7 +2512,7 @@
   }
  },
  "urlgrab": {
-  "Data": "| Discovery/CRAWL | [urlgrab](https://github.com/IAmStoxe/urlgrab) | A golang utility to spider through a website searching for additional links. | ![](https://img.shields.io/github/stars/IAmStoxe/urlgrab) | ![](https://img.shields.io/github/languages/top/IAmStoxe/urlgrab) |",
+  "Data": "| Discovery/URL | [urlgrab](https://github.com/IAmStoxe/urlgrab) | A golang utility to spider through a website searching for additional links. | ![](https://img.shields.io/github/stars/IAmStoxe/urlgrab) | ![](https://img.shields.io/github/languages/top/IAmStoxe/urlgrab) |",
   "Description": "A golang utility to spider through a website searching for additional links. ",
   "Install": {
    "Linux": "go get -u github.com/iamstoxe/urlgrab",
@@ -2525,6 +2525,22 @@
    "Linux": "go get -u github.com/iamstoxe/urlgrab",
    "MacOS": "go get -u github.com/iamstoxe/urlgrab",
    "Windows": "go get -u github.com/iamstoxe/urlgrab"
+  }
+ },
+ "urlhunter": {
+  "Type": "Discovery",
+  "Data": "| Discovery/URL | [urlhunter](https://github.com/utkusen/urlhunter) | a recon tool that allows searching on URLs that are exposed via shortener services | ![](https://img.shields.io/github/stars/utkusen/urlhunter) | ![](https://img.shields.io/github/languages/top/utkusen/urlhunter) |",
+  "Method": "URL",
+  "Description": "a recon tool that allows searching on URLs that are exposed via shortener services",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "urlprobe": {
@@ -2605,6 +2621,22 @@
    "Linux": "pip3 install wfuzz",
    "MacOS": "pip3 install wfuzz",
    "Windows": "pip3 install wfuzz"
+  }
+ },
+ "wprecon": {
+  "Data": "| Scanner/WP | [wprecon](https://github.com/blackcrw/wprecon) | Hello! Welcome. Wprecon (Wordpress Recon), is a vulnerability recognition tool in CMS Wordpress, 100% developed in Go. | ![](https://img.shields.io/github/stars/blackcrw/wprecon) | ![](https://img.shields.io/github/languages/top/blackcrw/wprecon) |",
+  "Description": "Hello! Welcome. Wprecon (Wordpress Recon), is a vulnerability recognition tool in CMS Wordpress, 100% developed in Go.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "WP",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "wpscan": {
