@@ -1,8 +1,6 @@
 <h1 align="center">
   <br>
-  <a href=""><img src="https://user-images.githubusercontent.com/13212227/91529103-aba4b400-e943-11ea-9983-3b5aba7dd25c.png" alt="" width="300px;"></a>
-  <br>
-  Web Hacker's Weapons
+  <a href=""><img src="https://user-images.githubusercontent.com/13212227/104400969-9f3d9280-5596-11eb-80f4-864effae95fc.png" alt="" width="500px;"></a>
   <br>
   <img src="https://img.shields.io/github/languages/top/hahwul/WebHackersWeapons?style=flat"> 
   <img src="https://img.shields.io/github/last-commit/hahwul/WebHackersWeapons?style=flat"> 
@@ -13,6 +11,10 @@
   <a href="https://github.com/hahwul"><img src="https://img.shields.io/github/stars/hahwul?style=flat&logo=github"></a>
 </h1>
 A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting
+
+## Family project
+[![WebHackersWeapons](https://img.shields.io/github/stars/hahwul/WebHackersWeapons?label=WebHackersWeapons)](https://github.com/hahwul/WebHackersWeapons)
+[![MobileHackersWeapons](https://img.shields.io/github/stars/hahwul/MobileHackersWeapons?label=MobileHackersWeapons)](https://github.com/hahwul/MobileHackersWeapons)
 
 ## Table of Contents
 - [WHW-Tools](https://whw-tools.hahwul.com)
@@ -47,12 +49,12 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Discovery/ALL | [scilla](https://github.com/edoardottt/scilla) | 🏴‍☠️ Information Gathering tool 🏴‍☠️ dns/subdomain/port enumeration | ![](https://img.shields.io/github/stars/edoardottt/scilla) | ![](https://img.shields.io/github/languages/top/edoardottt/scilla) |
 | Discovery/ALL | [sn0int](https://github.com/kpcyrd/sn0int) | Semi-automatic OSINT framework and package manager | ![](https://img.shields.io/github/stars/kpcyrd/sn0int) | ![](https://img.shields.io/github/languages/top/kpcyrd/sn0int) |
 | Discovery/APK | [apkleaks](https://github.com/dwisiswant0/apkleaks) | Scanning APK file for URIs, endpoints & secrets. | ![](https://img.shields.io/github/stars/dwisiswant0/apkleaks) | ![](https://img.shields.io/github/languages/top/dwisiswant0/apkleaks) |
-| Discovery/CRAWL | [Photon](https://github.com/s0md3v/Photon) | Incredibly fast crawler designed for OSINT. | ![](https://img.shields.io/github/stars/s0md3v/Photon) | ![](https://img.shields.io/github/languages/top/s0md3v/Photon) |
-| Discovery/CRAWL | [cc.py](https://github.com/si9int/cc.py) | Extracting URLs of a specific target based on the results of "commoncrawl.org" | ![](https://img.shields.io/github/stars/si9int/cc.py) | ![](https://img.shields.io/github/languages/top/si9int/cc.py) |
-| Discovery/CRAWL | [go-dork](https://github.com/dwisiswant0/go-dork) | The fastest dork scanner written in Go. | ![](https://img.shields.io/github/stars/dwisiswant0/go-dork) | ![](https://img.shields.io/github/languages/top/dwisiswant0/go-dork) |
-| Discovery/CRAWL | [gospider](https://github.com/jaeles-project/gospider) | Gospider - Fast web spider written in Go | ![](https://img.shields.io/github/stars/jaeles-project/gospider) | ![](https://img.shields.io/github/languages/top/jaeles-project/gospider) |
-| Discovery/CRAWL | [hakrawler](https://github.com/hakluke/hakrawler) | Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application | ![](https://img.shields.io/github/stars/hakluke/hakrawler) | ![](https://img.shields.io/github/languages/top/hakluke/hakrawler) |
-| Discovery/CRAWL | [urlgrab](https://github.com/IAmStoxe/urlgrab) | A golang utility to spider through a website searching for additional links. | ![](https://img.shields.io/github/stars/IAmStoxe/urlgrab) | ![](https://img.shields.io/github/languages/top/IAmStoxe/urlgrab) |
+| Discovery/URL | [Photon](https://github.com/s0md3v/Photon) | Incredibly fast crawler designed for OSINT. | ![](https://img.shields.io/github/stars/s0md3v/Photon) | ![](https://img.shields.io/github/languages/top/s0md3v/Photon) |
+| Discovery/URL | [cc.py](https://github.com/si9int/cc.py) | Extracting URLs of a specific target based on the results of "commoncrawl.org" | ![](https://img.shields.io/github/stars/si9int/cc.py) | ![](https://img.shields.io/github/languages/top/si9int/cc.py) |
+| Discovery/URL | [go-dork](https://github.com/dwisiswant0/go-dork) | The fastest dork scanner written in Go. | ![](https://img.shields.io/github/stars/dwisiswant0/go-dork) | ![](https://img.shields.io/github/languages/top/dwisiswant0/go-dork) |
+| Discovery/URL | [gospider](https://github.com/jaeles-project/gospider) | Gospider - Fast web spider written in Go | ![](https://img.shields.io/github/stars/jaeles-project/gospider) | ![](https://img.shields.io/github/languages/top/jaeles-project/gospider) |
+| Discovery/URL | [hakrawler](https://github.com/hakluke/hakrawler) | Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application | ![](https://img.shields.io/github/stars/hakluke/hakrawler) | ![](https://img.shields.io/github/languages/top/hakluke/hakrawler) |
+| Discovery/URL | [urlgrab](https://github.com/IAmStoxe/urlgrab) | A golang utility to spider through a website searching for additional links. | ![](https://img.shields.io/github/stars/IAmStoxe/urlgrab) | ![](https://img.shields.io/github/languages/top/IAmStoxe/urlgrab) |
 | Discovery/DNS  | [DNSDumpster](https://dnsdumpster.com) |  Online dns recon & research, find & lookup dns records|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) | ![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|
 | Discovery/DNS  | [SecurityTrails](https://securitytrails.com) |  Online dns / subdomain / recon tool|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) | ![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|
 | Discovery/DNS | [dnsprobe](https://github.com/projectdiscovery/dnsprobe) | DNSProb (beta) is a tool built on top of retryabledns that allows you to perform multiple dns queries of your choice with a list of user supplied resolvers. | ![](https://img.shields.io/github/stars/projectdiscovery/dnsprobe) | ![](https://img.shields.io/github/languages/top/projectdiscovery/dnsprobe) |
@@ -98,6 +100,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Discovery/TKOV | [SubOver](https://github.com/Ice3man543/SubOver) | A Powerful Subdomain Takeover Tool | ![](https://img.shields.io/github/stars/Ice3man543/SubOver) | ![](https://img.shields.io/github/languages/top/Ice3man543/SubOver) |
 | Discovery/TKOV | [can-i-take-over-xyz](https://github.com/EdOverflow/can-i-take-over-xyz) | "Can I take over XYZ?" — a list of services and how to claim (sub)domains with dangling DNS records. | ![](https://img.shields.io/github/stars/EdOverflow/can-i-take-over-xyz) | ![](https://img.shields.io/github/languages/top/EdOverflow/can-i-take-over-xyz) |
 | Discovery/TKOV | [subjack](https://github.com/haccer/subjack) | Subdomain Takeover tool written in Go | ![](https://img.shields.io/github/stars/haccer/subjack) | ![](https://img.shields.io/github/languages/top/haccer/subjack) |
+| Discovery/URL | [urlhunter](https://github.com/utkusen/urlhunter) | a recon tool that allows searching on URLs that are exposed via shortener services | ![](https://img.shields.io/github/stars/utkusen/urlhunter) | ![](https://img.shields.io/github/languages/top/utkusen/urlhunter) |
 | Discovery/URL | [waybackurls](https://github.com/tomnomnom/waybackurls) | Fetch all the URLs that the Wayback Machine knows about for a domain | ![](https://img.shields.io/github/stars/tomnomnom/waybackurls) | ![](https://img.shields.io/github/languages/top/tomnomnom/waybackurls) |
 | Discovery/VULN | [Silver](https://github.com/s0md3v/Silver) | Mass scan IPs for vulnerable services | ![](https://img.shields.io/github/stars/s0md3v/Silver) | ![](https://img.shields.io/github/languages/top/s0md3v/Silver) |
 | Fetch/HTTP | [htcat](https://github.com/htcat/htcat) | Parallel and Pipelined HTTP GET Utility | ![](https://img.shields.io/github/stars/htcat/htcat) | ![](https://img.shields.io/github/languages/top/htcat/htcat) |
@@ -134,6 +137,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Scanner/SSL | [testssl.sh](https://github.com/drwetter/testssl.sh) | Testing TLS/SSL encryption anywhere on any port | ![](https://img.shields.io/github/stars/drwetter/testssl.sh) | ![](https://img.shields.io/github/languages/top/drwetter/testssl.sh) |
 | Scanner/SSRF | [SSRFmap](https://github.com/swisskyrepo/SSRFmap) | Automatic SSRF fuzzer and exploitation tool | ![](https://img.shields.io/github/stars/swisskyrepo/SSRFmap) | ![](https://img.shields.io/github/languages/top/swisskyrepo/SSRFmap) |
 | Scanner/SSRF | [ssrf-sheriff](https://github.com/teknogeek/ssrf-sheriff) | A simple SSRF-testing sheriff written in Go | ![](https://img.shields.io/github/stars/teknogeek/ssrf-sheriff) | ![](https://img.shields.io/github/languages/top/teknogeek/ssrf-sheriff) |
+| Scanner/WP | [wprecon](https://github.com/blackcrw/wprecon) | Hello! Welcome. Wprecon (Wordpress Recon), is a vulnerability recognition tool in CMS Wordpress, 100% developed in Go. | ![](https://img.shields.io/github/stars/blackcrw/wprecon) | ![](https://img.shields.io/github/languages/top/blackcrw/wprecon) |
 | Scanner/WP | [wpscan](https://github.com/wpscanteam/wpscan) | WPScan is a free, for non-commercial use, black box WordPress Vulnerability Scanner written for security professionals and blog maintainers to test the security of their WordPress websites. | ![](https://img.shields.io/github/stars/wpscanteam/wpscan) | ![](https://img.shields.io/github/languages/top/wpscanteam/wpscan) |
 | Scanner/WVS | [Striker](https://github.com/s0md3v/Striker) | Striker is an offensive information and vulnerability scanner. | ![](https://img.shields.io/github/stars/s0md3v/Striker) | ![](https://img.shields.io/github/languages/top/s0md3v/Striker) |
 | Scanner/WVS | [arachni](https://github.com/Arachni/arachni) | Web Application Security Scanner Framework | ![](https://img.shields.io/github/stars/Arachni/arachni) | ![](https://img.shields.io/github/languages/top/Arachni/arachni) |
@@ -188,6 +192,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Utility/S3 | [s3reverse](https://github.com/hahwul/s3reverse) | The format of various s3 buckets is convert in one format. for bugbounty and security testing. | ![](https://img.shields.io/github/stars/hahwul/s3reverse) | ![](https://img.shields.io/github/languages/top/hahwul/s3reverse) |
 | Utility/SHOT | [gowitness](https://github.com/sensepost/gowitness) | 🔍 gowitness - a golang, web screenshot utility using Chrome Headless | ![](https://img.shields.io/github/stars/sensepost/gowitness) | ![](https://img.shields.io/github/languages/top/sensepost/gowitness) |
 | Utility/SNIPPET | [pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager, written in Go. | ![](https://img.shields.io/github/stars/knqyf263/pet) | ![](https://img.shields.io/github/languages/top/knqyf263/pet) |
+| Utility/Scripts | [tiscripts](https://github.com/defparam/tiscripts) | Turbo Intruder Scripts | ![](https://img.shields.io/github/stars/defparam/tiscripts) | ![](https://img.shields.io/github/languages/top/defparam/tiscripts) |
 | Utility/TEMPLATE | [bountyplz](https://github.com/fransr/bountyplz) | Automated security reporting from markdown templates (HackerOne and Bugcrowd are currently the platforms supported) | ![](https://img.shields.io/github/stars/fransr/bountyplz) | ![](https://img.shields.io/github/languages/top/fransr/bountyplz) |
 | Utility/TEMPLATE | [template-generator](https://github.com/fransr/template-generator) | A simple variable based template editor using handlebarjs+strapdownjs. The idea is to use variables in markdown based files to easily replace the variables with content. Data is saved temporarily in local storage. PHP is only needed to generate the list of files in the dropdown of templates. | ![](https://img.shields.io/github/stars/fransr/template-generator) | ![](https://img.shields.io/github/languages/top/fransr/template-generator) |
 | Utility/URL | [anew](https://github.com/tomnomnom/anew) | A tool for adding new lines to files, skipping duplicates | ![](https://img.shields.io/github/stars/tomnomnom/anew) | ![](https://img.shields.io/github/languages/top/tomnomnom/anew) |
