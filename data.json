@@ -47,22 +47,6 @@
    "Windows": "cd Arjun; git pull -v "
   }
  },
- "Aron": {
-  "Data": "| Discovery/HTTP | [Aron](https://github.com/m4ll0k/Aron) | Aron is a GO script for finding hidden GET \u0026 POST parameters | ![](https://img.shields.io/github/stars/m4ll0k/Aron) | ![](https://img.shields.io/github/languages/top/m4ll0k/Aron) |",
-  "Description": "Aron is a GO script for finding hidden GET \u0026 POST parameters ",
-  "Install": {
-   "Linux": "go get -u github.com/m4ll0k/Aron",
-   "MacOS": "go get -u github.com/m4ll0k/Aron",
-   "Windows": "go get -u github.com/m4ll0k/Aron"
-  },
-  "Method": "HTTP",
-  "Type": "Discovery",
-  "Update": {
-   "Linux": "go get -u github.com/m4ll0k/Aron",
-   "MacOS": "go get -u github.com/m4ll0k/Aron",
-   "Windows": "go get -u github.com/m4ll0k/Aron"
-  }
- },
  "Assetnote Wordlists": {
   "Data": "| Utility/WORD | [wordlists](https://github.com/assetnote/wordlists) | Automated \u0026 Manual Wordlists provided by Assetnote | ![](https://img.shields.io/github/stars/assetnote/wordlists) | ![](https://img.shields.io/github/languages/top/assetnote/wordlists) |",
   "Description": "Automated \u0026 Manual Wordlists provided by Assetnote",
