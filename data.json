@@ -1296,18 +1296,18 @@
   }
  },
  "feroxbuster": {
-  "Data": "| Discovery/FUZZ | [feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | ![](https://img.shields.io/github/stars/epi052/feroxbuster) | ![](https://img.shields.io/github/languages/top/epi052/feroxbuster) |",
+  "Type": "Discovery",
+  "Data": "| Discovery/URL | [feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | ![](https://img.shields.io/github/stars/epi052/feroxbuster) | ![](https://img.shields.io/github/languages/top/epi052/feroxbuster) |",
+  "Method": "URL",
   "Description": "A fast, simple, recursive content discovery tool written in Rust.",
   "Install": {
-   "Linux": "curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash",
-   "MacOS": "brew tap tgotwig/feroxbuster ; brew install feroxbuster",
-   "Windows": "Invoke-WebRequest https://github.com/epi052/feroxbuster/releases/latest/download/x86_64-windows-feroxbuster.exe.zip -OutFile feroxbuster.zip; Expand-Archive .\u000ceroxbuster.zip; .\u000ceroxbuster\u000ceroxbuster.exe -V"
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   },
-  "Method": "FUZZ",
-  "Type": "Discovery",
   "Update": {
    "Linux": "",
-   "MacOS": "brew upgrade feroxbuster",
+   "MacOS": "",
    "Windows": ""
   }
  },
@@ -2512,15 +2512,15 @@
   }
  },
  "urlhunter": {
-  "Type": "Discovery",
   "Data": "| Discovery/URL | [urlhunter](https://github.com/utkusen/urlhunter) | a recon tool that allows searching on URLs that are exposed via shortener services | ![](https://img.shields.io/github/stars/utkusen/urlhunter) | ![](https://img.shields.io/github/languages/top/utkusen/urlhunter) |",
-  "Method": "URL",
   "Description": "a recon tool that allows searching on URLs that are exposed via shortener services",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "URL",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
