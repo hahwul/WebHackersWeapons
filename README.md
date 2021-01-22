@@ -26,7 +26,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 - [Thanks to contributor](#thanks-to-contributor)
 
 ## WHW-Tools
-> Always use the latest tools 😎
+> Always use the latest tools and Easy installation 😎
 
 `WHW-Tools` is tools web of `#WebHackersWeapons`. Easy install and Easy manage upgrade. Go to [WHW-Tools](https://whw-tools.hahwul.com/)
 
@@ -65,7 +65,6 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Discovery/DNS | [subgen](https://github.com/pry0cc/subgen) | A really simple utility to concate wordlists to a domain name - to pipe into your favourite resolver! | ![](https://img.shields.io/github/stars/pry0cc/subgen) | ![](https://img.shields.io/github/languages/top/pry0cc/subgen) |
 | Discovery/DNS | [zdns](https://github.com/zmap/zdns) | Fast CLI DNS Lookup Tool | ![](https://img.shields.io/github/stars/zmap/zdns) | ![](https://img.shields.io/github/languages/top/zmap/zdns) |
 | Discovery/DOMAIN | [Amass](https://github.com/OWASP/Amass) | In-depth Attack Surface Mapping and Asset Discovery | ![](https://img.shields.io/github/stars/OWASP/Amass) | ![](https://img.shields.io/github/languages/top/OWASP/Amass) |
-| Discovery/DOMAIN  | [Spyse](https://spyse.com) |  Attack Surface Mapping and Target Assets Discovery |![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) | ![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|
 | Discovery/DOMAIN  | [Chaos Web](https://chaos.projectdiscovery.io) |  actively scan and maintain internet-wide assets' data. enhance research and analyse changes around DNS for better insights.|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)
 | Discovery/DOMAIN | [Sublist3r](https://github.com/aboul3la/Sublist3r) | Fast subdomains enumeration tool for penetration testers | ![](https://img.shields.io/github/stars/aboul3la/Sublist3r) | ![](https://img.shields.io/github/languages/top/aboul3la/Sublist3r) |
 | Discovery/DOMAIN | [altdns](https://github.com/infosec-au/altdns) | Generates permutations, alterations and mutations of subdomains and then resolves them | ![](https://img.shields.io/github/stars/infosec-au/altdns) | ![](https://img.shields.io/github/languages/top/infosec-au/altdns) |
@@ -161,7 +160,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Utility/BRIDGE | [Atlas](https://github.com/m4ll0k/Atlas) | Quick SQLMap Tamper Suggester | ![](https://img.shields.io/github/stars/m4ll0k/Atlas) | ![](https://img.shields.io/github/languages/top/m4ll0k/Atlas) |
 | Utility/CALLBACK | [TukTuk](https://github.com/ArturSS7/TukTuk) | Tool for catching and logging different types of requests. | ![](https://img.shields.io/github/stars/ArturSS7/TukTuk) | ![](https://img.shields.io/github/languages/top/ArturSS7/TukTuk) |
 | Utility/CALLBACK | [dnsobserver](https://github.com/allyomalley/dnsobserver) | A handy DNS service written in Go to aid in the detection of several types of blind vulnerabilities. It monitors a pentester's server for out-of-band DNS interactions and sends lookup notifications via Slack. | ![](https://img.shields.io/github/stars/allyomalley/dnsobserver) | ![](https://img.shields.io/github/languages/top/allyomalley/dnsobserver) |
-| Utility/CRACK | [hashcat](https://github.com/hashcat/hashcat/) | World's fastest and most advanced password recovery utility | ![](https://img.shields.io/github/stars/hashcat/hashcat) | ![](https://img.shields.io/github/languages/top/hashcat/hashcat) |
+| Utility/CRACK | [hashcat](https://github.com/hashcat/hashcat/) | World's fastest and most advanced password recovery utility | ![](https://img.shields.io/github/stars/hashcat/hashcat/) | ![](https://img.shields.io/github/languages/top/hashcat/hashcat/) |
 | Utility/CSP  | [CSP Evaluator](https://csp-evaluator.withgoogle.com) |  Online CSP Evaluator from google|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) | ![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|
 | Utility/ENV | [Gf-Patterns](https://github.com/1ndianl33t/Gf-Patterns) | GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic) parameters grep | ![](https://img.shields.io/github/stars/1ndianl33t/Gf-Patterns) | ![](https://img.shields.io/github/languages/top/1ndianl33t/Gf-Patterns) |
 | Utility/ENV | [autochrome](https://github.com/nccgroup/autochrome) | This tool downloads, installs, and configures a shiny new copy of Chromium. | ![](https://img.shields.io/github/stars/nccgroup/autochrome) | ![](https://img.shields.io/github/languages/top/nccgroup/autochrome) |
@@ -212,3 +211,6 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 ## Thanks to (Contributor)
 I would like to thank everyone who helped with this project 👍😎 
 ![](/CONTRIBUTORS.svg)
+
+and hidden contributors
+[six2dez](https://github.com/six2dez) , [si9int](https://github.com/si9int) , [jcran](https://github.com/jcran)
