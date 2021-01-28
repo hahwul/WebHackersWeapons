@@ -26,7 +26,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 - [Thanks to contributor](#thanks-to-contributor)
 
 ## WHW-Tools
-> Always use the latest tools and Easy installation 😎
+> Always use the latest tools 😎
 
 `WHW-Tools` is tools web of `#WebHackersWeapons`. Easy install and Easy manage upgrade. Go to [WHW-Tools](https://whw-tools.hahwul.com/)
 
@@ -109,7 +109,6 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Fetch/HTTP | [meg](https://github.com/tomnomnom/meg) | Fetch many paths for many hosts - without killing the hosts | ![](https://img.shields.io/github/stars/tomnomnom/meg) | ![](https://img.shields.io/github/languages/top/tomnomnom/meg) |
 | Fetch/HTTP | [wuzz](https://github.com/asciimoo/wuzz) | Interactive cli tool for HTTP inspection | ![](https://img.shields.io/github/stars/asciimoo/wuzz) | ![](https://img.shields.io/github/languages/top/asciimoo/wuzz) |
 | Fetch/JS | [getJS](https://github.com/003random/getJS) | A tool to fastly get all javascript sources/files | ![](https://img.shields.io/github/stars/003random/getJS) | ![](https://img.shields.io/github/languages/top/003random/getJS) |
-| Fetch/WSOCK | [websocket-connection-smuggler](https://github.com/hahwul/websocket-connection-smuggler) | websocket-connection-smuggler | ![](https://img.shields.io/github/stars/hahwul/websocket-connection-smuggler) | ![](https://img.shields.io/github/languages/top/hahwul/websocket-connection-smuggler) |
 | Scanner/CORS | [CorsMe](https://github.com/Shivangx01b/CorsMe) | Cross Origin Resource Sharing MisConfiguration Scanner | ![](https://img.shields.io/github/stars/Shivangx01b/CorsMe) | ![](https://img.shields.io/github/languages/top/Shivangx01b/CorsMe) |
 | Scanner/CORS | [Corsy](https://github.com/s0md3v/Corsy) | CORS Misconfiguration Scanner | ![](https://img.shields.io/github/stars/s0md3v/Corsy) | ![](https://img.shields.io/github/languages/top/s0md3v/Corsy) |
 | Scanner/CRLF | [crlfuzz](https://github.com/dwisiswant0/crlfuzz) | A fast tool to scan CRLF vulnerability written in Go | ![](https://img.shields.io/github/stars/dwisiswant0/crlfuzz) | ![](https://img.shields.io/github/languages/top/dwisiswant0/crlfuzz) |
@@ -130,6 +129,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Scanner/S3 | [S3Scanner](https://github.com/sa7mon/S3Scanner) | Scan for open AWS S3 buckets and dump the contents | ![](https://img.shields.io/github/stars/sa7mon/S3Scanner) | ![](https://img.shields.io/github/languages/top/sa7mon/S3Scanner) |
 | Scanner/SMUGGLE | [h2csmuggler](https://github.com/BishopFox/h2csmuggler) | HTTP Request Smuggling over HTTP/2 Cleartext (h2c) | ![](https://img.shields.io/github/stars/BishopFox/h2csmuggler) | ![](https://img.shields.io/github/languages/top/BishopFox/h2csmuggler) |
 | Scanner/SMUGGLE | [smuggler](https://github.com/defparam/smuggler) | Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3 | ![](https://img.shields.io/github/stars/defparam/smuggler) | ![](https://img.shields.io/github/languages/top/defparam/smuggler) |
+| Scanner/SMUGGLE | [websocket-connection-smuggler](https://github.com/hahwul/websocket-connection-smuggler) | websocket-connection-smuggler | ![](https://img.shields.io/github/stars/hahwul/websocket-connection-smuggler) | ![](https://img.shields.io/github/languages/top/hahwul/websocket-connection-smuggler) |
 | Scanner/SQL  | [SQLNinja](https://gitlab.com/kalilinux/packages/sqlninja) |  SQL Injection scanner|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) | ![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|
 | Scanner/SQL | [sqliv](https://github.com/the-robot/sqliv) | massive SQL injection vulnerability scanner | ![](https://img.shields.io/github/stars/the-robot/sqliv) | ![](https://img.shields.io/github/languages/top/the-robot/sqliv) |
 | Scanner/SQL | [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | ![](https://img.shields.io/github/stars/sqlmapproject/sqlmap) | ![](https://img.shields.io/github/languages/top/sqlmapproject/sqlmap) |
@@ -160,10 +160,10 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Utility/BRIDGE | [Atlas](https://github.com/m4ll0k/Atlas) | Quick SQLMap Tamper Suggester | ![](https://img.shields.io/github/stars/m4ll0k/Atlas) | ![](https://img.shields.io/github/languages/top/m4ll0k/Atlas) |
 | Utility/CALLBACK | [TukTuk](https://github.com/ArturSS7/TukTuk) | Tool for catching and logging different types of requests. | ![](https://img.shields.io/github/stars/ArturSS7/TukTuk) | ![](https://img.shields.io/github/languages/top/ArturSS7/TukTuk) |
 | Utility/CALLBACK | [dnsobserver](https://github.com/allyomalley/dnsobserver) | A handy DNS service written in Go to aid in the detection of several types of blind vulnerabilities. It monitors a pentester's server for out-of-band DNS interactions and sends lookup notifications via Slack. | ![](https://img.shields.io/github/stars/allyomalley/dnsobserver) | ![](https://img.shields.io/github/languages/top/allyomalley/dnsobserver) |
+| Utility/COLOR | [grc](https://github.com/garabik/grc) | generic colouriser | ![](https://img.shields.io/github/stars/garabik/grc) | ![](https://img.shields.io/github/languages/top/garabik/grc) |
 | Utility/CRACK | [hashcat](https://github.com/hashcat/hashcat/) | World's fastest and most advanced password recovery utility | ![](https://img.shields.io/github/stars/hashcat/hashcat/) | ![](https://img.shields.io/github/languages/top/hashcat/hashcat/) |
 | Utility/CSP  | [CSP Evaluator](https://csp-evaluator.withgoogle.com) |  Online CSP Evaluator from google|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) | ![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|
 | Utility/ENV | [Gf-Patterns](https://github.com/1ndianl33t/Gf-Patterns) | GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic) parameters grep | ![](https://img.shields.io/github/stars/1ndianl33t/Gf-Patterns) | ![](https://img.shields.io/github/languages/top/1ndianl33t/Gf-Patterns) |
-| Utility/ENV | [autochrome](https://github.com/nccgroup/autochrome) | This tool downloads, installs, and configures a shiny new copy of Chromium. | ![](https://img.shields.io/github/stars/nccgroup/autochrome) | ![](https://img.shields.io/github/languages/top/nccgroup/autochrome) |
 | Utility/ENV | [recon_profile](https://github.com/nahamsec/recon_profile) | Recon profile (bash profile) for bugbounty | ![](https://img.shields.io/github/stars/nahamsec/recon_profile) | ![](https://img.shields.io/github/languages/top/nahamsec/recon_profile) |
 | Utility/ETC  | [Phoenix](https://www.hahwul.com/p/phoenix.html) |  hahwul's online tools|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) | ![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|
 | Utility/FIND | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | ![](https://img.shields.io/github/stars/junegunn/fzf) | ![](https://img.shields.io/github/languages/top/junegunn/fzf) |
@@ -190,6 +190,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Utility/PENTEST | [axiom](https://github.com/pry0cc/axiom) | A dynamic infrastructure toolkit for red teamers and bug bounty hunters! | ![](https://img.shields.io/github/stars/pry0cc/axiom) | ![](https://img.shields.io/github/languages/top/pry0cc/axiom) |
 | Utility/PENTEST | [pwncat](https://github.com/cytopia/pwncat) | pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind and reverse shell, self-injecting shell and port forwarding magic - and its fully scriptable with Python (PSE) | ![](https://img.shields.io/github/stars/cytopia/pwncat) | ![](https://img.shields.io/github/languages/top/cytopia/pwncat) |
 | Utility/S3 | [s3reverse](https://github.com/hahwul/s3reverse) | The format of various s3 buckets is convert in one format. for bugbounty and security testing. | ![](https://img.shields.io/github/stars/hahwul/s3reverse) | ![](https://img.shields.io/github/languages/top/hahwul/s3reverse) |
+| Utility/SETUP | [autochrome](https://github.com/nccgroup/autochrome) | This tool downloads, installs, and configures a shiny new copy of Chromium. | ![](https://img.shields.io/github/stars/nccgroup/autochrome) | ![](https://img.shields.io/github/languages/top/nccgroup/autochrome) |
 | Utility/SHOT | [gowitness](https://github.com/sensepost/gowitness) | 🔍 gowitness - a golang, web screenshot utility using Chrome Headless | ![](https://img.shields.io/github/stars/sensepost/gowitness) | ![](https://img.shields.io/github/languages/top/sensepost/gowitness) |
 | Utility/SNIPPET | [pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager, written in Go. | ![](https://img.shields.io/github/stars/knqyf263/pet) | ![](https://img.shields.io/github/languages/top/knqyf263/pet) |
 | Utility/Scripts | [tiscripts](https://github.com/defparam/tiscripts) | Turbo Intruder Scripts | ![](https://img.shields.io/github/stars/defparam/tiscripts) | ![](https://img.shields.io/github/languages/top/defparam/tiscripts) |
@@ -211,6 +212,3 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 ## Thanks to (Contributor)
 I would like to thank everyone who helped with this project 👍😎 
 ![](/CONTRIBUTORS.svg)
-
-and hidden contributors
-[six2dez](https://github.com/six2dez) , [si9int](https://github.com/si9int) , [jcran](https://github.com/jcran)

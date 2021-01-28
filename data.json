@@ -976,15 +976,15 @@
   }
  },
  "autochrome": {
-  "Data": "| Utility/ENV | [autochrome](https://github.com/nccgroup/autochrome) | This tool downloads, installs, and configures a shiny new copy of Chromium. | ![](https://img.shields.io/github/stars/nccgroup/autochrome) | ![](https://img.shields.io/github/languages/top/nccgroup/autochrome) |",
+  "Type": "Utility",
+  "Data": "| Utility/SETUP | [autochrome](https://github.com/nccgroup/autochrome) | This tool downloads, installs, and configures a shiny new copy of Chromium. | ![](https://img.shields.io/github/stars/nccgroup/autochrome) | ![](https://img.shields.io/github/languages/top/nccgroup/autochrome) |",
+  "Method": "SETUP",
   "Description": "This tool downloads, installs, and configures a shiny new copy of Chromium.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
-  "Method": "ENV",
-  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1296,15 +1296,15 @@
   }
  },
  "feroxbuster": {
-  "Type": "Discovery",
   "Data": "| Discovery/URL | [feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | ![](https://img.shields.io/github/stars/epi052/feroxbuster) | ![](https://img.shields.io/github/languages/top/epi052/feroxbuster) |",
-  "Method": "URL",
   "Description": "A fast, simple, recursive content discovery tool written in Rust.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "URL",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1565,6 +1565,22 @@
    "Linux": "cd graphql-voyager ; git pull -v",
    "MacOS": "cd graphql-voyager ; git pull -v",
    "Windows": "cd graphql-voyager ; git pull -v"
+  }
+ },
+ "grc": {
+  "Data": "| Utility/COLOR | [grc](https://github.com/garabik/grc) | generic colouriser | ![](https://img.shields.io/github/stars/garabik/grc) | ![](https://img.shields.io/github/languages/top/garabik/grc) |",
+  "Description": "generic colouriser",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "COLOR",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "gron": {
@@ -2576,19 +2592,19 @@
   }
  },
  "websocket-connection-smuggler": {
-  "Data": "| Fetch/WSOCK | [websocket-connection-smuggler](https://github.com/hahwul/websocket-connection-smuggler) | websocket-connection-smuggler | ![](https://img.shields.io/github/stars/hahwul/websocket-connection-smuggler) | ![](https://img.shields.io/github/languages/top/hahwul/websocket-connection-smuggler) |",
-  "Description": "websocket-connection-smuggler ",
+  "Data": "| Scanner/SMUGGLE | [websocket-connection-smuggler](https://github.com/hahwul/websocket-connection-smuggler) | websocket-connection-smuggler | ![](https://img.shields.io/github/stars/hahwul/websocket-connection-smuggler) | ![](https://img.shields.io/github/languages/top/hahwul/websocket-connection-smuggler) |",
+  "Description": "websocket-connection-smuggler",
   "Install": {
-   "Linux": "go get -u hahwul/websocket-connection-smuggler",
-   "MacOS": "go get -u hahwul/websocket-connection-smuggler",
-   "Windows": "go get -u hahwul/websocket-connection-smuggler"
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   },
-  "Method": "WSOCK",
-  "Type": "Fetch",
+  "Method": "SMUGGLE",
+  "Type": "Scanner",
   "Update": {
-   "Linux": "go get -u hahwul/websocket-connection-smuggler",
-   "MacOS": "go get -u hahwul/websocket-connection-smuggler",
-   "Windows": "go get -u hahwul/websocket-connection-smuggler"
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "wfuzz": {
