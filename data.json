@@ -255,6 +255,22 @@
    "Windows": ""
   }
  },
+ "DSSS": {
+  "Data": "| Scanner/SQLi | [DSSS](https://github.com/stamparm/DSSS) | Damn Small SQLi Scanner | ![](https://img.shields.io/github/stars/stamparm/DSSS) | ![](https://img.shields.io/github/languages/top/stamparm/DSSS) |",
+  "Description": "Damn Small SQLi Scanner",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "SQLi",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "FavFreak": {
   "Data": "| Discovery/FAVICON | [FavFreak](https://github.com/devanshbatham/FavFreak) | Making Favicon.ico based Recon Great again ! | ![](https://img.shields.io/github/stars/devanshbatham/FavFreak) | ![](https://img.shields.io/github/languages/top/devanshbatham/FavFreak) |",
   "Description": "Making Favicon.ico based Recon Great again ! ",
@@ -799,6 +815,22 @@
    "Windows": "cd Sublist3r ; git pull -v ; pip3 instal -r requirements.txt"
   }
  },
+ "Taipan": {
+  "Type": "Scanner",
+  "Data": "| Scanner/WVS | [Taipan](https://github.com/enkomio/Taipan) | Web application vulnerability scanner | ![](https://img.shields.io/github/stars/enkomio/Taipan) | ![](https://img.shields.io/github/languages/top/enkomio/Taipan) |",
+  "Method": "WVS",
+  "Description": "Web application vulnerability scanner",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "TukTuk": {
   "Data": "| Utility/CALLBACK | [TukTuk](https://github.com/ArturSS7/TukTuk) | Tool for catching and logging different types of requests. | ![](https://img.shields.io/github/stars/ArturSS7/TukTuk) | ![](https://img.shields.io/github/languages/top/ArturSS7/TukTuk) |",
   "Description": "Tool for catching and logging different types of requests. ",
@@ -829,6 +861,22 @@
    "Linux": "cd VHostScan ; git pull -v ; pip3 install -r requirements.txt",
    "MacOS": "cd VHostScan ; git pull -v ; pip3 install -r requirements.txt",
    "Windows": "cd VHostScan ; git pull -v ; pip3 install -r requirements.txt"
+  }
+ },
+ "XSRFProbe": {
+  "Data": "| Scanner/CSRF | [XSRFProbe](https://github.com/0xInfection/XSRFProbe) | The Prime Cross Site Request Forgery (CSRF) Audit and Exploitation Toolkit. | ![](https://img.shields.io/github/stars/0xInfection/XSRFProbe) | ![](https://img.shields.io/github/languages/top/0xInfection/XSRFProbe) |",
+  "Description": "The Prime Cross Site Request Forgery (CSRF) Audit and Exploitation Toolkit.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "CSRF",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "XSStrike": {
@@ -976,15 +1024,15 @@
   }
  },
  "autochrome": {
-  "Type": "Utility",
   "Data": "| Utility/SETUP | [autochrome](https://github.com/nccgroup/autochrome) | This tool downloads, installs, and configures a shiny new copy of Chromium. | ![](https://img.shields.io/github/stars/nccgroup/autochrome) | ![](https://img.shields.io/github/languages/top/nccgroup/autochrome) |",
-  "Method": "SETUP",
   "Description": "This tool downloads, installs, and configures a shiny new copy of Chromium.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "SETUP",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",

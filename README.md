@@ -26,7 +26,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 - [Thanks to contributor](#thanks-to-contributor)
 
 ## WHW-Tools
-> Always use the latest tools 😎
+> Always use the latest tools and Easy installation 😎
 
 `WHW-Tools` is tools web of `#WebHackersWeapons`. Easy install and Easy manage upgrade. Go to [WHW-Tools](https://whw-tools.hahwul.com/)
 
@@ -112,6 +112,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Scanner/CORS | [CorsMe](https://github.com/Shivangx01b/CorsMe) | Cross Origin Resource Sharing MisConfiguration Scanner | ![](https://img.shields.io/github/stars/Shivangx01b/CorsMe) | ![](https://img.shields.io/github/languages/top/Shivangx01b/CorsMe) |
 | Scanner/CORS | [Corsy](https://github.com/s0md3v/Corsy) | CORS Misconfiguration Scanner | ![](https://img.shields.io/github/stars/s0md3v/Corsy) | ![](https://img.shields.io/github/languages/top/s0md3v/Corsy) |
 | Scanner/CRLF | [crlfuzz](https://github.com/dwisiswant0/crlfuzz) | A fast tool to scan CRLF vulnerability written in Go | ![](https://img.shields.io/github/stars/dwisiswant0/crlfuzz) | ![](https://img.shields.io/github/languages/top/dwisiswant0/crlfuzz) |
+| Scanner/CSRF | [XSRFProbe](https://github.com/0xInfection/XSRFProbe) | The Prime Cross Site Request Forgery (CSRF) Audit and Exploitation Toolkit. | ![](https://img.shields.io/github/stars/0xInfection/XSRFProbe) | ![](https://img.shields.io/github/languages/top/0xInfection/XSRFProbe) |
 | Scanner/FUZZ | [BruteX](https://github.com/1N3/BruteX) | Automatically brute force all services running on a target. | ![](https://img.shields.io/github/stars/1N3/BruteX) | ![](https://img.shields.io/github/languages/top/1N3/BruteX) |
 | Scanner/FUZZ | [VHostScan](https://github.com/codingo/VHostScan) | A virtual host scanner that performs reverse lookups, can be used with pivot tools, detect catch-all scenarios, work around wildcards, aliases and dynamic default pages. | ![](https://img.shields.io/github/stars/codingo/VHostScan) | ![](https://img.shields.io/github/languages/top/codingo/VHostScan) |
 | Scanner/FUZZ | [ffuf](https://github.com/ffuf/ffuf) | Fast web fuzzer written in Go | ![](https://img.shields.io/github/stars/ffuf/ffuf) | ![](https://img.shields.io/github/languages/top/ffuf/ffuf) |
@@ -133,6 +134,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Scanner/SQL  | [SQLNinja](https://gitlab.com/kalilinux/packages/sqlninja) |  SQL Injection scanner|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) | ![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|
 | Scanner/SQL | [sqliv](https://github.com/the-robot/sqliv) | massive SQL injection vulnerability scanner | ![](https://img.shields.io/github/stars/the-robot/sqliv) | ![](https://img.shields.io/github/languages/top/the-robot/sqliv) |
 | Scanner/SQL | [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | ![](https://img.shields.io/github/stars/sqlmapproject/sqlmap) | ![](https://img.shields.io/github/languages/top/sqlmapproject/sqlmap) |
+| Scanner/SQLi | [DSSS](https://github.com/stamparm/DSSS) | Damn Small SQLi Scanner | ![](https://img.shields.io/github/stars/stamparm/DSSS) | ![](https://img.shields.io/github/languages/top/stamparm/DSSS) |
 | Scanner/SSL | [a2sv](https://github.com/hahwul/a2sv) | Auto Scanning to SSL Vulnerability | ![](https://img.shields.io/github/stars/hahwul/a2sv) | ![](https://img.shields.io/github/languages/top/hahwul/a2sv) |
 | Scanner/SSL | [testssl.sh](https://github.com/drwetter/testssl.sh) | Testing TLS/SSL encryption anywhere on any port | ![](https://img.shields.io/github/stars/drwetter/testssl.sh) | ![](https://img.shields.io/github/languages/top/drwetter/testssl.sh) |
 | Scanner/SSRF | [SSRFmap](https://github.com/swisskyrepo/SSRFmap) | Automatic SSRF fuzzer and exploitation tool | ![](https://img.shields.io/github/stars/swisskyrepo/SSRFmap) | ![](https://img.shields.io/github/languages/top/swisskyrepo/SSRFmap) |
@@ -140,6 +142,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Scanner/WP | [wprecon](https://github.com/blackcrw/wprecon) | Hello! Welcome. Wprecon (Wordpress Recon), is a vulnerability recognition tool in CMS Wordpress, 100% developed in Go. | ![](https://img.shields.io/github/stars/blackcrw/wprecon) | ![](https://img.shields.io/github/languages/top/blackcrw/wprecon) |
 | Scanner/WP | [wpscan](https://github.com/wpscanteam/wpscan) | WPScan is a free, for non-commercial use, black box WordPress Vulnerability Scanner written for security professionals and blog maintainers to test the security of their WordPress websites. | ![](https://img.shields.io/github/stars/wpscanteam/wpscan) | ![](https://img.shields.io/github/languages/top/wpscanteam/wpscan) |
 | Scanner/WVS | [Striker](https://github.com/s0md3v/Striker) | Striker is an offensive information and vulnerability scanner. | ![](https://img.shields.io/github/stars/s0md3v/Striker) | ![](https://img.shields.io/github/languages/top/s0md3v/Striker) |
+| Scanner/WVS | [Taipan](https://github.com/enkomio/Taipan) | Web application vulnerability scanner | ![](https://img.shields.io/github/stars/enkomio/Taipan) | ![](https://img.shields.io/github/languages/top/enkomio/Taipan) |
 | Scanner/WVS | [arachni](https://github.com/Arachni/arachni) | Web Application Security Scanner Framework | ![](https://img.shields.io/github/stars/Arachni/arachni) | ![](https://img.shields.io/github/languages/top/Arachni/arachni) |
 | Scanner/WVS | [nikto](https://github.com/sullo/nikto) | Nikto web server scanner | ![](https://img.shields.io/github/stars/sullo/nikto) | ![](https://img.shields.io/github/languages/top/sullo/nikto) |
 | Scanner/WVS | [rapidscan](https://github.com/skavngr/rapidscan) | The Multi-Tool Web Vulnerability Scanner. | ![](https://img.shields.io/github/stars/skavngr/rapidscan) | ![](https://img.shields.io/github/languages/top/skavngr/rapidscan) |
@@ -212,3 +215,6 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 ## Thanks to (Contributor)
 I would like to thank everyone who helped with this project 👍😎 
 ![](/CONTRIBUTORS.svg)
+
+and hidden contributors
+[six2dez](https://github.com/six2dez) , [si9int](https://github.com/si9int) , [jcran](https://github.com/jcran)
