@@ -816,15 +816,15 @@
   }
  },
  "Taipan": {
-  "Type": "Scanner",
   "Data": "| Scanner/WVS | [Taipan](https://github.com/enkomio/Taipan) | Web application vulnerability scanner | ![](https://img.shields.io/github/stars/enkomio/Taipan) | ![](https://img.shields.io/github/languages/top/enkomio/Taipan) |",
-  "Method": "WVS",
   "Description": "Web application vulnerability scanner",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "WVS",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -2361,6 +2361,22 @@
   },
   "Method": "ALL",
   "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "spiderfoot": {
+  "Type": "Discovery",
+  "Data": "| Discovery/OSINT | [spiderfoot](https://github.com/smicallef/spiderfoot) | SpiderFoot automates OSINT collection so that you can focus on analysis. | ![](https://img.shields.io/github/stars/smicallef/spiderfoot) | ![](https://img.shields.io/github/languages/top/smicallef/spiderfoot) |",
+  "Method": "OSINT",
+  "Description": "SpiderFoot automates OSINT collection so that you can focus on analysis.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
   "Update": {
    "Linux": "",
    "MacOS": "",
