@@ -1487,6 +1487,38 @@
    "Windows": "cd gitGraber; git pull -v ; pip3 install -r requirements.txt"
   }
  },
+ "github-endpoints": {
+  "Data": "| Discovery/GIT | [github-endpoints](https://github.com/gwen001/github-endpoints) | Find endpoints on GitHub. | ![](https://img.shields.io/github/stars/gwen001/github-endpoints) | ![](https://img.shields.io/github/languages/top/gwen001/github-endpoints) |",
+  "Description": "Find endpoints on GitHub.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "GIT",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "github-regexp": {
+  "Data": "| Discovery/GIT | [github-regexp](https://github.com/gwen001/github-regexp) | Basically a regexp over a GitHub search. | ![](https://img.shields.io/github/stars/gwen001/github-regexp) | ![](https://img.shields.io/github/languages/top/gwen001/github-regexp) |",
+  "Description": "Basically a regexp over a GitHub search.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "GIT",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "github-search": {
   "Data": "| Discovery/GIT | [github-search](https://github.com/gwen001/github-search) | Tools to perform basic search on GitHub. | ![](https://img.shields.io/github/stars/gwen001/github-search) | ![](https://img.shields.io/github/languages/top/gwen001/github-search) |",
   "Description": "Tools to perform basic search on GitHub. ",
@@ -1503,20 +1535,52 @@
    "Windows": "cd github-search ; git pull -v"
   }
  },
- "gitleaks": {
-  "Data": "| Discovery/GIT | [gitleaks](https://github.com/zricethezav/gitleaks) | Scan git repos for secrets using regex and entropy 🔑 | ![](https://img.shields.io/github/stars/zricethezav/gitleaks) | ![](https://img.shields.io/github/languages/top/zricethezav/gitleaks) |",
-  "Description": "Scan git repos for secrets using regex and entropy 🔑 ",
+ "github-subdomains": {
+  "Data": "| Discovery/GIT | [github-subdomains](https://github.com/gwen001/github-subdomains) | Find subdomains on GitHub | ![](https://img.shields.io/github/stars/gwen001/github-subdomains) | ![](https://img.shields.io/github/languages/top/gwen001/github-subdomains) |",
+  "Description": "Find subdomains on GitHub",
   "Install": {
-   "Linux": "GO111MODULE=on go get github.com/zricethezav/gitleaks/v6",
-   "MacOS": "brew install gitleaks",
-   "Windows": "go get github.com/zricethezav/gitleaks/v6"
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   },
   "Method": "GIT",
   "Type": "Discovery",
   "Update": {
-   "Linux": "GO111MODULE=on go get github.com/zricethezav/gitleaks/v6",
-   "MacOS": "brew upgrade gitleaks",
-   "Windows": "go get github.com/zricethezav/gitleaks/v6"
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "gitleaks": {
+  "Data": "| Discovery/GIT | [gitleaks](https://github.com/zricethezav/gitleaks) | Scan git repos (or files) for secrets using regex and entropy 🔑 | ![](https://img.shields.io/github/stars/zricethezav/gitleaks) | ![](https://img.shields.io/github/languages/top/zricethezav/gitleaks) |",
+  "Description": "Scan git repos (or files) for secrets using regex and entropy 🔑",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "GIT",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "gitls": {
+  "Type": "Utility",
+  "Data": "| Utility/GIT | [gitls](https://github.com/hahwul/gitls) | Listing git repository from URL/User/Org | ![](https://img.shields.io/github/stars/hahwul/gitls) | ![](https://img.shields.io/github/languages/top/hahwul/gitls) |",
+  "Method": "GIT",
+  "Description": "Listing git repository from URL/User/Org",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "gitrob": {
@@ -2368,15 +2432,15 @@
   }
  },
  "spiderfoot": {
-  "Type": "Discovery",
   "Data": "| Discovery/OSINT | [spiderfoot](https://github.com/smicallef/spiderfoot) | SpiderFoot automates OSINT collection so that you can focus on analysis. | ![](https://img.shields.io/github/stars/smicallef/spiderfoot) | ![](https://img.shields.io/github/languages/top/smicallef/spiderfoot) |",
-  "Method": "OSINT",
   "Description": "SpiderFoot automates OSINT collection so that you can focus on analysis.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "OSINT",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",

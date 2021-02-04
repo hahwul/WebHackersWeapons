@@ -26,7 +26,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 - [Thanks to contributor](#thanks-to-contributor)
 
 ## WHW-Tools
-> Always use the latest tools and Easy installation 😎
+> Always use the latest tools 😎
 
 `WHW-Tools` is tools web of `#WebHackersWeapons`. Easy install and Easy manage upgrade. Go to [WHW-Tools](https://whw-tools.hahwul.com/)
 
@@ -79,8 +79,11 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Discovery/FUZZ | [medusa](https://github.com/riza/medusa) | Fastest recursive HTTP fuzzer, like a Ferrari. | ![](https://img.shields.io/github/stars/riza/medusa) | ![](https://img.shields.io/github/languages/top/riza/medusa) |
 | Discovery/GIT | [GitMiner](https://github.com/UnkL4b/GitMiner) | Tool for advanced mining for content on Github | ![](https://img.shields.io/github/stars/UnkL4b/GitMiner) | ![](https://img.shields.io/github/languages/top/UnkL4b/GitMiner) |
 | Discovery/GIT | [gitGraber](https://github.com/hisxo/gitGraber) | gitGraber | ![](https://img.shields.io/github/stars/hisxo/gitGraber) | ![](https://img.shields.io/github/languages/top/hisxo/gitGraber) |
+| Discovery/GIT | [github-endpoints](https://github.com/gwen001/github-endpoints) | Find endpoints on GitHub. | ![](https://img.shields.io/github/stars/gwen001/github-endpoints) | ![](https://img.shields.io/github/languages/top/gwen001/github-endpoints) |
+| Discovery/GIT | [github-regexp](https://github.com/gwen001/github-regexp) | Basically a regexp over a GitHub search. | ![](https://img.shields.io/github/stars/gwen001/github-regexp) | ![](https://img.shields.io/github/languages/top/gwen001/github-regexp) |
 | Discovery/GIT | [github-search](https://github.com/gwen001/github-search) | Tools to perform basic search on GitHub. | ![](https://img.shields.io/github/stars/gwen001/github-search) | ![](https://img.shields.io/github/languages/top/gwen001/github-search) |
-| Discovery/GIT | [gitleaks](https://github.com/zricethezav/gitleaks) | Scan git repos for secrets using regex and entropy 🔑 | ![](https://img.shields.io/github/stars/zricethezav/gitleaks) | ![](https://img.shields.io/github/languages/top/zricethezav/gitleaks) |
+| Discovery/GIT | [github-subdomains](https://github.com/gwen001/github-subdomains) | Find subdomains on GitHub | ![](https://img.shields.io/github/stars/gwen001/github-subdomains) | ![](https://img.shields.io/github/languages/top/gwen001/github-subdomains) |
+| Discovery/GIT | [gitleaks](https://github.com/zricethezav/gitleaks) | Scan git repos (or files) for secrets using regex and entropy 🔑 | ![](https://img.shields.io/github/stars/zricethezav/gitleaks) | ![](https://img.shields.io/github/languages/top/zricethezav/gitleaks) |
 | Discovery/GIT | [gitrob](https://github.com/michenriksen/gitrob) | Reconnaissance tool for GitHub organizations | ![](https://img.shields.io/github/stars/michenriksen/gitrob) | ![](https://img.shields.io/github/languages/top/michenriksen/gitrob) |
 | Discovery/GQL | [graphql-voyager](https://github.com/APIs-guru/graphql-voyager) | 🛰️ Represent any GraphQL API as an interactive graph | ![](https://img.shields.io/github/stars/APIs-guru/graphql-voyager) | ![](https://img.shields.io/github/languages/top/APIs-guru/graphql-voyager) |
 | Discovery/GQL | [inql](https://github.com/doyensec/inql) | InQL - A Burp Extension for GraphQL Security Testing | ![](https://img.shields.io/github/stars/doyensec/inql) | ![](https://img.shields.io/github/languages/top/doyensec/inql) |
@@ -172,6 +175,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Utility/ETC  | [Phoenix](https://www.hahwul.com/p/phoenix.html) |  hahwul's online tools|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) | ![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|
 | Utility/FIND | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | ![](https://img.shields.io/github/stars/junegunn/fzf) | ![](https://img.shields.io/github/languages/top/junegunn/fzf) |
 | Utility/FLOW  | [SequenceDiagram](https://sequencediagram.org) |  Online tool for creating UML sequence diagrams|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) | ![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|
+| Utility/GIT | [gitls](https://github.com/hahwul/gitls) | Listing git repository from URL/User/Org | ![](https://img.shields.io/github/stars/hahwul/gitls) | ![](https://img.shields.io/github/languages/top/hahwul/gitls) |
 | Utility/GREP | [gf](https://github.com/tomnomnom/gf) | A wrapper around grep, to help you grep for things | ![](https://img.shields.io/github/stars/tomnomnom/gf) | ![](https://img.shields.io/github/languages/top/tomnomnom/gf) |
 | Utility/HTTP | [curl](https://github.com/curl/curl) | A command line tool and library for transferring data with URL syntax, supporting HTTP, HTTPS, FTP, FTPS, GOPHER, TFTP, SCP, SFTP, SMB, TELNET, DICT, LDAP, LDAPS, MQTT, FILE, IMAP, SMTP, POP3, RTSP and RTMP. libcurl offers a myriad of powerful features | ![](https://img.shields.io/github/stars/curl/curl) | ![](https://img.shields.io/github/languages/top/curl/curl) |
 | Utility/HTTP | [httpie](https://github.com/httpie/httpie) | As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more. https://twitter.com/httpie | ![](https://img.shields.io/github/stars/httpie/httpie) | ![](https://img.shields.io/github/languages/top/httpie/httpie) |
@@ -216,6 +220,3 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 ## Thanks to (Contributor)
 I would like to thank everyone who helped with this project 👍😎 
 ![](/CONTRIBUTORS.svg)
-
-and hidden contributors
-[six2dez](https://github.com/six2dez) , [si9int](https://github.com/si9int) , [jcran](https://github.com/jcran)
