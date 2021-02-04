@@ -1231,6 +1231,22 @@
    "Windows": "cd dirsearch ; git pull -v"
   }
  },
+ "ditto": {
+  "Type": "Discovery",
+  "Data": "| Discovery/DOMAIN | [ditto](https://github.com/evilsocket/ditto) | A tool for IDN homograph attacks and detection. | ![](https://img.shields.io/github/stars/evilsocket/ditto) | ![](https://img.shields.io/github/languages/top/evilsocket/ditto) |",
+  "Method": "DOMAIN",
+  "Description": "A tool for IDN homograph attacks and detection.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "dnsobserver": {
   "Data": "| Utility/CALLBACK | [dnsobserver](https://github.com/allyomalley/dnsobserver) | A handy DNS service written in Go to aid in the detection of several types of blind vulnerabilities. It monitors a pentester's server for out-of-band DNS interactions and sends lookup notifications via Slack. | ![](https://img.shields.io/github/stars/allyomalley/dnsobserver) | ![](https://img.shields.io/github/languages/top/allyomalley/dnsobserver) |",
   "Description": "A handy DNS service written in Go to aid in the detection of several types of blind vulnerabilities. It monitors a pentester's server for out-of-band DNS interactions and sends lookup notifications via Slack. ",
@@ -1568,15 +1584,15 @@
   }
  },
  "gitls": {
-  "Type": "Utility",
   "Data": "| Utility/GIT | [gitls](https://github.com/hahwul/gitls) | Listing git repository from URL/User/Org | ![](https://img.shields.io/github/stars/hahwul/gitls) | ![](https://img.shields.io/github/languages/top/hahwul/gitls) |",
-  "Method": "GIT",
   "Description": "Listing git repository from URL/User/Org",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "GIT",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
