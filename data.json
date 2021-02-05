@@ -1055,6 +1055,22 @@
    "Windows": ""
   }
  },
+ "bat": {
+  "Type": "Utility",
+  "Data": "| Utility/CAT | [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | ![](https://img.shields.io/github/stars/sharkdp/bat) | ![](https://img.shields.io/github/languages/top/sharkdp/bat) |",
+  "Method": "CAT",
+  "Description": "A cat(1) clone with wings.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "bountyplz": {
   "Data": "| Utility/TEMPLATE | [bountyplz](https://github.com/fransr/bountyplz) | Automated security reporting from markdown templates (HackerOne and Bugcrowd are currently the platforms supported) | ![](https://img.shields.io/github/stars/fransr/bountyplz) | ![](https://img.shields.io/github/languages/top/fransr/bountyplz) |",
   "Description": "Automated security reporting from markdown templates (HackerOne and Bugcrowd are currently the platforms supported) ",
@@ -1232,15 +1248,15 @@
   }
  },
  "ditto": {
-  "Type": "Discovery",
   "Data": "| Discovery/DOMAIN | [ditto](https://github.com/evilsocket/ditto) | A tool for IDN homograph attacks and detection. | ![](https://img.shields.io/github/stars/evilsocket/ditto) | ![](https://img.shields.io/github/languages/top/evilsocket/ditto) |",
-  "Method": "DOMAIN",
   "Description": "A tool for IDN homograph attacks and detection.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "DOMAIN",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",

@@ -15,15 +15,15 @@
   "Type": "Burp"
  },
  "BurpCustomizer": {
-  "Type": "Burp",
   "Data": "| Burp/THEME | [BurpCustomizer](https://github.com/CoreyD97/BurpCustomizer) | Because just a dark theme wasn't enough! | ![](https://img.shields.io/github/stars/CoreyD97/BurpCustomizer) | ![](https://img.shields.io/github/languages/top/CoreyD97/BurpCustomizer) |",
-  "Method": "THEME",
   "Description": "Because just a dark theme wasn't enough!",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "THEME",
+  "Type": "Burp",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -129,6 +129,22 @@
   "Data": "| Burp/GQL | [inql](https://github.com/doyensec/inql) | InQL - A Burp Extension for GraphQL Security Testing | ![](https://img.shields.io/github/stars/doyensec/inql) | ![](https://img.shields.io/github/languages/top/doyensec/inql) |",
   "Method": "GQL",
   "Type": "Burp"
+ },
+ "knife": {
+  "Type": "Burp",
+  "Data": "| Burp/UTIL | [knife](https://github.com/bit4woo/knife) | A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅 | ![](https://img.shields.io/github/stars/bit4woo/knife) | ![](https://img.shields.io/github/languages/top/bit4woo/knife) |",
+  "Method": "UTIL",
+  "Description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
  },
  "owasp-zap-jwt-addon": {
   "Data": "| ZAP/JWT | [owasp-zap-jwt-addon](https://github.com/SasanLabs/owasp-zap-jwt-addon) | OWASP ZAP addon for finding vulnerabilities in JWT Implementations | ![](https://img.shields.io/github/stars/SasanLabs/owasp-zap-jwt-addon) | ![](https://img.shields.io/github/languages/top/SasanLabs/owasp-zap-jwt-addon) |",

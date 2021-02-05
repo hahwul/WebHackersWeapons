@@ -26,7 +26,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 - [Thanks to contributor](#thanks-to-contributor)
 
 ## WHW-Tools
-> Always use the latest tools 😎
+> Always use the latest tools and Easy installation 😎
 
 `WHW-Tools` is tools web of `#WebHackersWeapons`. Easy install and Easy manage upgrade. Go to [WHW-Tools](https://whw-tools.hahwul.com/)
 
@@ -168,6 +168,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Utility/BRIDGE | [Atlas](https://github.com/m4ll0k/Atlas) | Quick SQLMap Tamper Suggester | ![](https://img.shields.io/github/stars/m4ll0k/Atlas) | ![](https://img.shields.io/github/languages/top/m4ll0k/Atlas) |
 | Utility/CALLBACK | [TukTuk](https://github.com/ArturSS7/TukTuk) | Tool for catching and logging different types of requests. | ![](https://img.shields.io/github/stars/ArturSS7/TukTuk) | ![](https://img.shields.io/github/languages/top/ArturSS7/TukTuk) |
 | Utility/CALLBACK | [dnsobserver](https://github.com/allyomalley/dnsobserver) | A handy DNS service written in Go to aid in the detection of several types of blind vulnerabilities. It monitors a pentester's server for out-of-band DNS interactions and sends lookup notifications via Slack. | ![](https://img.shields.io/github/stars/allyomalley/dnsobserver) | ![](https://img.shields.io/github/languages/top/allyomalley/dnsobserver) |
+| Utility/CAT | [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | ![](https://img.shields.io/github/stars/sharkdp/bat) | ![](https://img.shields.io/github/languages/top/sharkdp/bat) |
 | Utility/COLOR | [grc](https://github.com/garabik/grc) | generic colouriser | ![](https://img.shields.io/github/stars/garabik/grc) | ![](https://img.shields.io/github/languages/top/garabik/grc) |
 | Utility/CRACK | [hashcat](https://github.com/hashcat/hashcat/) | World's fastest and most advanced password recovery utility | ![](https://img.shields.io/github/stars/hashcat/hashcat/) | ![](https://img.shields.io/github/languages/top/hashcat/hashcat/) |
 | Utility/CSP  | [CSP Evaluator](https://csp-evaluator.withgoogle.com) |  Online CSP Evaluator from google|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) | ![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|
@@ -221,3 +222,6 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 ## Thanks to (Contributor)
 I would like to thank everyone who helped with this project 👍😎 
 ![](/CONTRIBUTORS.svg)
+
+and hidden contributors
+[six2dez](https://github.com/six2dez) , [si9int](https://github.com/si9int) , [jcran](https://github.com/jcran)

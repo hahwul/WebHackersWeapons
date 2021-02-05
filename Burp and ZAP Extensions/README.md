@@ -1,12 +1,3 @@
-<h1 align="center">
-  <br>
-  <a href=""><img src="https://user-images.githubusercontent.com/13212227/79006553-5fbfc100-7b94-11ea-8b42-3fa154d098fd.png" alt="" width="600px;"></a>
-  <br>
-  Web Hacker's Weapons<br>
-  &lt; Burp and ZAP Extensions &gt;
-  <br>
-  <a href="https://twitter.com/intent/follow?screen_name=hahwul"><img src="https://img.shields.io/twitter/follow/hahwul?style=flat-square"></a> <img src="https://img.shields.io/github/languages/top/hahwul/WebHackersWeapons?style=flat-square"> <img src="https://img.shields.io/github/last-commit/hahwul/WebHackersWeapons?style=flat-square"> 
-</h1>
 A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting<br>
 This is Cool Extensions collection of Burp suite and ZAP
 
@@ -44,6 +35,7 @@ This is Cool Extensions collection of Burp suite and ZAP
 | Burp/REPEAT | [Stepper](https://github.com/CoreyD97/Stepper) | A natural evolution of Burp Suite's Repeater tool | ![](https://img.shields.io/github/stars/CoreyD97/Stepper) | ![](https://img.shields.io/github/languages/top/CoreyD97/Stepper) |
 | Burp/SCAN | [BurpBounty](https://github.com/wagiro/BurpBounty) | Burp Bounty (Scan Check Builder in BApp Store) is a extension of Burp Suite that allows you, in a quick and simple way, to improve the active and passive scanner by means of personalized rules through a very intuitive graphical interface. | ![](https://img.shields.io/github/stars/wagiro/BurpBounty) | ![](https://img.shields.io/github/languages/top/wagiro/BurpBounty) |
 | Burp/THEME | [BurpCustomizer](https://github.com/CoreyD97/BurpCustomizer) | Because just a dark theme wasn't enough! | ![](https://img.shields.io/github/stars/CoreyD97/BurpCustomizer) | ![](https://img.shields.io/github/languages/top/CoreyD97/BurpCustomizer) |
+| Burp/UTIL | [knife](https://github.com/bit4woo/knife) | A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅 | ![](https://img.shields.io/github/stars/bit4woo/knife) | ![](https://img.shields.io/github/languages/top/bit4woo/knife) |
 | Burp/UTIL | [safecopy](https://github.com/yashrs/safecopy) | Burp Extension for copying requests safely. It redacts headers like Cookie, Authorization and X-CSRF-Token for now. More support can be added in the future. | ![](https://img.shields.io/github/stars/yashrs/safecopy) | ![](https://img.shields.io/github/languages/top/yashrs/safecopy) |
 | ZAP/INTERFACE | [zap-hud](https://github.com/zaproxy/zap-hud) | The OWASP ZAP Heads Up Display (HUD) | ![](https://img.shields.io/github/stars/zaproxy/zap-hud) | ![](https://img.shields.io/github/languages/top/zaproxy/zap-hud) |
 | ZAP/JWT | [owasp-zap-jwt-addon](https://github.com/SasanLabs/owasp-zap-jwt-addon) | OWASP ZAP addon for finding vulnerabilities in JWT Implementations | ![](https://img.shields.io/github/stars/SasanLabs/owasp-zap-jwt-addon) | ![](https://img.shields.io/github/languages/top/SasanLabs/owasp-zap-jwt-addon) |
