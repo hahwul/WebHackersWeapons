@@ -944,15 +944,15 @@
   }
  },
  "anew": {
-  "Data": "| Utility/URL | [anew](https://github.com/tomnomnom/anew) | A tool for adding new lines to files, skipping duplicates | ![](https://img.shields.io/github/stars/tomnomnom/anew) | ![](https://img.shields.io/github/languages/top/tomnomnom/anew) |",
-  "Description": "A tool for adding new lines to files, skipping duplicates ",
+  "Type": "Utility",
+  "Data": "| Utility/ANY | [anew](https://github.com/tomnomnom/anew) | A tool for adding new lines to files, skipping duplicates | ![](https://img.shields.io/github/stars/tomnomnom/anew) | ![](https://img.shields.io/github/languages/top/tomnomnom/anew) |",
+  "Method": "ANY",
+  "Description": "A tool for adding new lines to files, skipping duplicates",
   "Install": {
    "Linux": "go get -u github.com/tomnomnom/anew",
    "MacOS": "go get -u github.com/tomnomnom/anew",
    "Windows": "go get -u github.com/tomnomnom/anew"
   },
-  "Method": "URL",
-  "Type": "Utility",
   "Update": {
    "Linux": "go get -u github.com/tomnomnom/anew",
    "MacOS": "go get -u github.com/tomnomnom/anew",
@@ -1056,15 +1056,15 @@
   }
  },
  "bat": {
-  "Type": "Utility",
-  "Data": "| Utility/CAT | [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | ![](https://img.shields.io/github/stars/sharkdp/bat) | ![](https://img.shields.io/github/languages/top/sharkdp/bat) |",
-  "Method": "CAT",
+  "Data": "| Utility/ANY | [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | ![](https://img.shields.io/github/stars/sharkdp/bat) | ![](https://img.shields.io/github/languages/top/sharkdp/bat) |",
   "Description": "A cat(1) clone with wings.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "ANY",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1440,14 +1440,14 @@
   }
  },
  "fzf": {
-  "Data": "| Utility/FIND | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | ![](https://img.shields.io/github/stars/junegunn/fzf) | ![](https://img.shields.io/github/languages/top/junegunn/fzf) |",
-  "Description": "A command-line fuzzy finder ",
+  "Data": "| Utility/ANY | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | ![](https://img.shields.io/github/stars/junegunn/fzf) | ![](https://img.shields.io/github/languages/top/junegunn/fzf) |",
+  "Description": "A command-line fuzzy finder",
   "Install": {
    "Linux": "git clone --depth 1 https://github.com/junegunn/fzf.git ; cd fzf ; ./install",
    "MacOS": "brew install fzf",
    "Windows": "choco install fzf"
   },
-  "Method": "FIND",
+  "Method": "ANY",
   "Type": "Utility",
   "Update": {
    "Linux": "cd fzf ; git pull -v ; ./install",
@@ -1469,6 +1469,22 @@
    "Linux": "GO111MODULE=on go get -u -v github.com/lc/gau",
    "MacOS": "GO111MODULE=on go get -u -v github.com/lc/gau",
    "Windows": "go get -u -v github.com/lc/gau"
+  }
+ },
+ "gee": {
+  "Data": "| Utility/ANY | [gee](https://github.com/hahwul/gee) | 🏵 Gee is tool of stdin to each files and stdout. It is similar to the tee command, but there are more functions for convenience. In addition, it was written as go | ![](https://img.shields.io/github/stars/hahwul/gee) | ![](https://img.shields.io/github/languages/top/hahwul/gee) |",
+  "Description": "🏵 Gee is tool of stdin to each files and stdout. It is similar to the tee command, but there are more functions for convenience. In addition, it was written as go",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "ANY",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "getJS": {
@@ -1712,14 +1728,14 @@
   }
  },
  "grc": {
-  "Data": "| Utility/COLOR | [grc](https://github.com/garabik/grc) | generic colouriser | ![](https://img.shields.io/github/stars/garabik/grc) | ![](https://img.shields.io/github/languages/top/garabik/grc) |",
+  "Data": "| Utility/ANY | [grc](https://github.com/garabik/grc) | generic colouriser | ![](https://img.shields.io/github/stars/garabik/grc) | ![](https://img.shields.io/github/languages/top/garabik/grc) |",
   "Description": "generic colouriser",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
-  "Method": "COLOR",
+  "Method": "ANY",
   "Type": "Utility",
   "Update": {
    "Linux": "",
@@ -2256,14 +2272,14 @@
   }
  },
  "pet": {
-  "Data": "| Utility/SNIPPET | [pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager, written in Go. | ![](https://img.shields.io/github/stars/knqyf263/pet) | ![](https://img.shields.io/github/languages/top/knqyf263/pet) |",
-  "Description": "Simple command-line snippet manager, written in Go. ",
+  "Data": "| Utility/ANY | [pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager, written in Go. | ![](https://img.shields.io/github/stars/knqyf263/pet) | ![](https://img.shields.io/github/languages/top/knqyf263/pet) |",
+  "Description": "Simple command-line snippet manager, written in Go.",
   "Install": {
    "Linux": "git clone https://github.com/knqyf263/pet.git ; cd pet ; make install",
    "MacOS": "brew install knqyf263/pet/pet",
    "Windows": ""
   },
-  "Method": "SNIPPET",
+  "Method": "ANY",
   "Type": "Utility",
   "Update": {
    "Linux": "cd pet ; git pull -v ; make install",
