@@ -1,12 +1,3 @@
-<h1 align="center">
-  <br>
-  <a href=""><img src="https://user-images.githubusercontent.com/13212227/79006553-5fbfc100-7b94-11ea-8b42-3fa154d098fd.png" alt="" width="600px;"></a>
-  <br>
-  Web Hacker's Weapons<br>
-  &lt; Browser Extensions &gt;
-  <br>
-  <a href="https://twitter.com/intent/follow?screen_name=hahwul"><img src="https://img.shields.io/twitter/follow/hahwul?style=flat-square"></a> <img src="https://img.shields.io/github/languages/top/hahwul/WebHackersWeapons?style=flat-square"> <img src="https://img.shields.io/github/last-commit/hahwul/WebHackersWeapons?style=flat-square"> 
-</h1>
 A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting<br>
 This is Cool Extensions collection of Browser Extensions
 
@@ -23,7 +14,7 @@ This is Cool Extensions collection of Browser Extensions
 | Chrome/postMessage | [postMessage-tracker](https://github.com/fransr/postMessage-tracker) | A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon | ![](https://img.shields.io/github/stars/fransr/postMessage-tracker) | ![](https://img.shields.io/github/languages/top/fransr/postMessage-tracker) |
 | Firefox and Chrome/DarkMode  | [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh) |  Dark mode to any site|![](https://img.shields.io/github/stars/darkreader/darkreader) | ![](https://img.shields.io/github/languages/top/darkreader/darkreader)
 | Firefox and Chrome/Proxy  | [MM3 ProxySwitch](https://proxy-offline-browser.com/ProxySwitch/) |  Proxy Switch in Firefox and Chrome|![](https://img.shields.io/static/v1?label=&message=it's%20not%20github&color=gray)|![](https://img.shields.io/static/v1?label=&message=it's%20not%20github&color=gray)
-| Safari/DarkMode  | [Dark Reader for Safari](https://apps.apple.com/us/app/dark-reader-for-safari/id1438243180) |  Dark mode to any site|![](https://img.shields.io/static/v1?label=&message=it's%20not%20github&color=gray)|![](https://img.shields.io/static/v1?label=&message=it's%20not%20github&color=gray)
+| Safari/DarkMode  | [Dark Reader for Safari](https://apps.apple.com/us/app/dark-reader-for-safari/id1438243180) |  Dark mode to any site|![](https://img.shields.io/github/stars/darkreader/darkreader) | ![](https://img.shields.io/github/languages/top/darkreader/darkreader)
 | Safari/HISTORY  | [Wayback Machine](https://apps.apple.com/us/app/wayback-machine/id1472432422) |  History of website|![](https://img.shields.io/static/v1?label=&message=it's%20not%20github&color=gray)|![](https://img.shields.io/static/v1?label=&message=it's%20not%20github&color=gray)
 ## Contribute and Contributor
 ### Usage of add-tool
