@@ -26,7 +26,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 - [Thanks to contributor](#thanks-to-contributor)
 
 ## WHW-Tools
-> Always use the latest tools and Easy installation 😎
+> Always use the latest tools 😎
 
 `WHW-Tools` is tools web of `#WebHackersWeapons`. Easy install and Easy manage upgrade. Go to [WHW-Tools](https://whw-tools.hahwul.com/)
 
@@ -96,6 +96,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Discovery/OSINT | [spiderfoot](https://github.com/smicallef/spiderfoot) | SpiderFoot automates OSINT collection so that you can focus on analysis. | ![](https://img.shields.io/github/stars/smicallef/spiderfoot) | ![](https://img.shields.io/github/languages/top/smicallef/spiderfoot) |
 | Discovery/PARAM | [ParamSpider](https://github.com/devanshbatham/ParamSpider) | Mining parameters from dark corners of Web Archives | ![](https://img.shields.io/github/stars/devanshbatham/ParamSpider) | ![](https://img.shields.io/github/languages/top/devanshbatham/ParamSpider) |
 | Discovery/PARAM | [Parth](https://github.com/s0md3v/Parth) | Heuristic Vulnerable Parameter Scanner | ![](https://img.shields.io/github/stars/s0md3v/Parth) | ![](https://img.shields.io/github/languages/top/s0md3v/Parth) |
+| Discovery/PARAM | [fuzzparam](https://github.com/0xsapra/fuzzparam) | A fast go based param miner to fuzz possible parameters a URL can have. | ![](https://img.shields.io/github/stars/0xsapra/fuzzparam) | ![](https://img.shields.io/github/languages/top/0xsapra/fuzzparam) |
 | Discovery/PORT | [RustScan](https://github.com/brandonskerritt/RustScan) | Faster Nmap Scanning with Rust | ![](https://img.shields.io/github/stars/brandonskerritt/RustScan) | ![](https://img.shields.io/github/languages/top/brandonskerritt/RustScan) |
 | Discovery/PORT  | [Shodan](https://www.shodan.io/) |  World's first search engine for Internet-connected devices|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) | ![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|
 | Discovery/PORT | [masscan](https://github.com/robertdavidgraham/masscan) | TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. | ![](https://img.shields.io/github/stars/robertdavidgraham/masscan) | ![](https://img.shields.io/github/languages/top/robertdavidgraham/masscan) |
@@ -223,6 +224,3 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 ## Thanks to (Contributor)
 I would like to thank everyone who helped with this project 👍😎 
 ![](/CONTRIBUTORS.svg)
-
-and hidden contributors
-[six2dez](https://github.com/six2dez) , [si9int](https://github.com/si9int) , [jcran](https://github.com/jcran)

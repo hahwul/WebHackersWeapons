@@ -944,15 +944,15 @@
   }
  },
  "anew": {
-  "Type": "Utility",
   "Data": "| Utility/ANY | [anew](https://github.com/tomnomnom/anew) | A tool for adding new lines to files, skipping duplicates | ![](https://img.shields.io/github/stars/tomnomnom/anew) | ![](https://img.shields.io/github/languages/top/tomnomnom/anew) |",
-  "Method": "ANY",
   "Description": "A tool for adding new lines to files, skipping duplicates",
   "Install": {
    "Linux": "go get -u github.com/tomnomnom/anew",
    "MacOS": "go get -u github.com/tomnomnom/anew",
    "Windows": "go get -u github.com/tomnomnom/anew"
   },
+  "Method": "ANY",
+  "Type": "Utility",
   "Update": {
    "Linux": "go get -u github.com/tomnomnom/anew",
    "MacOS": "go get -u github.com/tomnomnom/anew",
@@ -1437,6 +1437,22 @@
    "Linux": "cd findomain; wget https://github.com/Edu4rdSHL/findomain/releases/latest/download/findomain-linux ; chmod +x findomain-linux",
    "MacOS": "brew upgrade findomain",
    "Windows": "cd findomain; wget https://github.com/Edu4rdSHL/findomain/releases/latest/download/findomain-windows.exe"
+  }
+ },
+ "fuzzparam": {
+  "Type": "Discovery",
+  "Data": "| Discovery/PARAM | [fuzzparam](https://github.com/0xsapra/fuzzparam) | A fast go based param miner to fuzz possible parameters a URL can have. | ![](https://img.shields.io/github/stars/0xsapra/fuzzparam) | ![](https://img.shields.io/github/languages/top/0xsapra/fuzzparam) |",
+  "Method": "PARAM",
+  "Description": "A fast go based param miner to fuzz possible parameters a URL can have.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "fzf": {
