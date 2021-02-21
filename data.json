@@ -271,6 +271,22 @@
    "Windows": ""
   }
  },
+ "DirDar": {
+  "Data": "| Discovery/FUZZ | [DirDar](https://github.com/M4DM0e/DirDar) | DirDar is a tool that searches for (403-Forbidden) directories to break it and get dir listing on it | ![](https://img.shields.io/github/stars/M4DM0e/DirDar) | ![](https://img.shields.io/github/languages/top/M4DM0e/DirDar) |",
+  "Description": "DirDar is a tool that searches for (403-Forbidden) directories to break it and get dir listing on it",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "FUZZ",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "FavFreak": {
   "Data": "| Discovery/FAVICON | [FavFreak](https://github.com/devanshbatham/FavFreak) | Making Favicon.ico based Recon Great again ! | ![](https://img.shields.io/github/stars/devanshbatham/FavFreak) | ![](https://img.shields.io/github/languages/top/devanshbatham/FavFreak) |",
   "Description": "Making Favicon.ico based Recon Great again ! ",
@@ -1376,15 +1392,15 @@
   }
  },
  "feroxbuster": {
-  "Data": "| Discovery/URL | [feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | ![](https://img.shields.io/github/stars/epi052/feroxbuster) | ![](https://img.shields.io/github/languages/top/epi052/feroxbuster) |",
+  "Type": "Discovery",
+  "Data": "| Discovery/FUZZ | [feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | ![](https://img.shields.io/github/stars/epi052/feroxbuster) | ![](https://img.shields.io/github/languages/top/epi052/feroxbuster) |",
+  "Method": "FUZZ",
   "Description": "A fast, simple, recursive content discovery tool written in Rust.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
-  "Method": "URL",
-  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1440,15 +1456,15 @@
   }
  },
  "fuzzparam": {
-  "Type": "Discovery",
   "Data": "| Discovery/PARAM | [fuzzparam](https://github.com/0xsapra/fuzzparam) | A fast go based param miner to fuzz possible parameters a URL can have. | ![](https://img.shields.io/github/stars/0xsapra/fuzzparam) | ![](https://img.shields.io/github/languages/top/0xsapra/fuzzparam) |",
-  "Method": "PARAM",
   "Description": "A fast go based param miner to fuzz possible parameters a URL can have.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "PARAM",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
