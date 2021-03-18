@@ -1392,15 +1392,15 @@
   }
  },
  "feroxbuster": {
-  "Type": "Discovery",
   "Data": "| Discovery/FUZZ | [feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | ![](https://img.shields.io/github/stars/epi052/feroxbuster) | ![](https://img.shields.io/github/languages/top/epi052/feroxbuster) |",
-  "Method": "FUZZ",
   "Description": "A fast, simple, recursive content discovery tool written in Rust.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "FUZZ",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1853,6 +1853,22 @@
    "Linux": "go get github.com/hakluke/hakrevdns",
    "MacOS": "go get github.com/hakluke/hakrevdns",
    "Windows": "go get github.com/hakluke/hakrevdns"
+  }
+ },
+ "haktrails": {
+  "Type": "Discovery",
+  "Data": "| Discovery/DNS | [haktrails](https://github.com/hakluke/haktrails) | Golang client for querying SecurityTrails API data | ![](https://img.shields.io/github/stars/hakluke/haktrails) | ![](https://img.shields.io/github/languages/top/hakluke/haktrails) |",
+  "Method": "DNS",
+  "Description": "Golang client for querying SecurityTrails API data",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "hashcat": {
