@@ -16,10 +16,26 @@
   }
  },
  "Dark Reader for Safari": {
-  "Type": "Safari",
   "Data": "| Safari/DarkMode  | [Dark Reader for Safari](https://apps.apple.com/us/app/dark-reader-for-safari/id1438243180) |  Dark mode to any site|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)",
-  "Method": "DarkMode",
   "Description": "Dark mode to any site",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "DarkMode",
+  "Type": "Safari",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "DotGit": {
+  "Type": "Firefox and Chrome",
+  "Data": "| Firefox and Chrome/Exposed | [DotGit](https://github.com/davtur19/DotGit) | An extension for checking if .git is exposed in visited websites | ![](https://img.shields.io/github/stars/davtur19/DotGit) | ![](https://img.shields.io/github/languages/top/davtur19/DotGit) |",
+  "Method": "Exposed",
+  "Description": "An extension for checking if .git is exposed in visited websites",
   "Install": {
    "Linux": "",
    "MacOS": "",
