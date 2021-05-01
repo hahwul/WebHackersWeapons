@@ -1856,15 +1856,15 @@
   }
  },
  "haktrails": {
-  "Type": "Discovery",
   "Data": "| Discovery/DNS | [haktrails](https://github.com/hakluke/haktrails) | Golang client for querying SecurityTrails API data | ![](https://img.shields.io/github/stars/hakluke/haktrails) | ![](https://img.shields.io/github/languages/top/hakluke/haktrails) |",
-  "Method": "DNS",
   "Description": "Golang client for querying SecurityTrails API data",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "DNS",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -2029,6 +2029,22 @@
    "Linux": "cd inql ; git pull -v ; pip3 install -r requirements.txt ; python setup.py install",
    "MacOS": "cd inql ; git pull -v ; pip3 install -r requirements.txt ; python setup.py install",
    "Windows": "cd inql ; git pull -v ; pip3 install -r requirements.txt ; python setup.py install"
+  }
+ },
+ "interactsh": {
+  "Type": "Utility",
+  "Data": "| Utility/CALLBACK | [interactsh](https://github.com/projectdiscovery/interactsh) | An OOB interaction gathering server and client library | ![](https://img.shields.io/github/stars/projectdiscovery/interactsh) | ![](https://img.shields.io/github/languages/top/projectdiscovery/interactsh) |",
+  "Method": "CALLBACK",
+  "Description": "An OOB interaction gathering server and client library",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "intrigue-core": {
