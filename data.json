@@ -1,4 +1,20 @@
 {
+ "3klCon": {
+  "Type": "Discovery",
+  "Data": "| Discovery/ALL | [3klCon](https://github.com/eslam3kl/3klCon) | Automation Recon tool which works with Large \u0026 Medium scopes. It performs more than 20 tasks and gets back all the results in separated files. | ![](https://img.shields.io/github/stars/eslam3kl/3klCon) | ![](https://img.shields.io/github/languages/top/eslam3kl/3klCon) |",
+  "Method": "ALL",
+  "Description": "Automation Recon tool which works with Large \u0026 Medium scopes. It performs more than 20 tasks and gets back all the results in separated files.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "AWSBucketDump": {
   "Data": "| Scanner/S3 | [AWSBucketDump](https://github.com/jordanpotti/AWSBucketDump) | Security Tool to Look For Interesting Files in S3 Buckets | ![](https://img.shields.io/github/stars/jordanpotti/AWSBucketDump) | ![](https://img.shields.io/github/languages/top/jordanpotti/AWSBucketDump) |",
   "Description": "Security Tool to Look For Interesting Files in S3 Buckets",
@@ -1199,6 +1215,22 @@
    "Windows": "go get -u github.com/projectdiscovery/chaos-client/cmd/chaos"
   }
  },
+ "corsair_scan": {
+  "Data": "| Scanner/CORS | [corsair_scan](https://github.com/Santandersecurityresearch/corsair_scan) | Corsair_scan is a security tool to test Cross-Origin Resource Sharing (CORS). | ![](https://img.shields.io/github/stars/Santandersecurityresearch/corsair_scan) | ![](https://img.shields.io/github/languages/top/Santandersecurityresearch/corsair_scan) |",
+  "Description": "Corsair_scan is a security tool to test Cross-Origin Resource Sharing (CORS).",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "CORS",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "crlfuzz": {
   "Data": "| Scanner/CRLF | [crlfuzz](https://github.com/dwisiswant0/crlfuzz) | A fast tool to scan CRLF vulnerability written in Go | ![](https://img.shields.io/github/stars/dwisiswant0/crlfuzz) | ![](https://img.shields.io/github/languages/top/dwisiswant0/crlfuzz) |",
   "Description": "A fast tool to scan CRLF vulnerability written in Go ",
@@ -2032,15 +2064,15 @@
   }
  },
  "interactsh": {
-  "Type": "Utility",
   "Data": "| Utility/CALLBACK | [interactsh](https://github.com/projectdiscovery/interactsh) | An OOB interaction gathering server and client library | ![](https://img.shields.io/github/stars/projectdiscovery/interactsh) | ![](https://img.shields.io/github/languages/top/projectdiscovery/interactsh) |",
-  "Method": "CALLBACK",
   "Description": "An OOB interaction gathering server and client library",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "CALLBACK",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
