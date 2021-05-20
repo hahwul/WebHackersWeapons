@@ -1,14 +1,14 @@
 {
  "3klCon": {
-  "Type": "Discovery",
   "Data": "| Discovery/ALL | [3klCon](https://github.com/eslam3kl/3klCon) | Automation Recon tool which works with Large \u0026 Medium scopes. It performs more than 20 tasks and gets back all the results in separated files. | ![](https://img.shields.io/github/stars/eslam3kl/3klCon) | ![](https://img.shields.io/github/languages/top/eslam3kl/3klCon) |",
-  "Method": "ALL",
   "Description": "Automation Recon tool which works with Large \u0026 Medium scopes. It performs more than 20 tasks and gets back all the results in separated files.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "ALL",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -2493,6 +2493,22 @@
    "Linux": "cd rengine ; git pull -v ; make build",
    "MacOS": "cd rengine ; git pull -v ; make build",
    "Windows": "cd rengine ; git pull -v ; make build"
+  }
+ },
+ "rusolver": {
+  "Type": "Discovery",
+  "Data": "| Discovery/DNS | [rusolver](https://github.com/Edu4rdSHL/rusolver) | Fast and accurate DNS resolver. | ![](https://img.shields.io/github/stars/Edu4rdSHL/rusolver) | ![](https://img.shields.io/github/languages/top/Edu4rdSHL/rusolver) |",
+  "Method": "DNS",
+  "Description": "Fast and accurate DNS resolver.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "s3reverse": {
