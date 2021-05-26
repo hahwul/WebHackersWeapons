@@ -1855,6 +1855,22 @@
    "Windows": "cd hacks ; git pull -v"
   }
  },
+ "hakcheckurl": {
+  "Data": "| Utility/URL | [hakcheckurl](https://github.com/hakluke/hakcheckurl) | Takes a list of URLs and returns their HTTP response codes | ![](https://img.shields.io/github/stars/hakluke/hakcheckurl) | ![](https://img.shields.io/github/languages/top/hakluke/hakcheckurl) |",
+  "Description": "Takes a list of URLs and returns their HTTP response codes",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "URL",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "hakrawler": {
   "Data": "| Discovery/URL | [hakrawler](https://github.com/hakluke/hakrawler) | Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application | ![](https://img.shields.io/github/stars/hakluke/hakrawler) | ![](https://img.shields.io/github/languages/top/hakluke/hakrawler) |",
   "Description": "Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application ",
@@ -2109,6 +2125,22 @@
    "Linux": "GO111MODULE=on go get github.com/jaeles-project/jaeles",
    "MacOS": "GO111MODULE=on go get github.com/jaeles-project/jaeles",
    "Windows": "go get github.com/jaeles-project/jaeles"
+  }
+ },
+ "jsprime": {
+  "Type": "Scanner",
+  "Data": "| Scanner/JS | [jsprime](https://github.com/dpnishant/jsprime) | a javascript static security analysis tool | ![](https://img.shields.io/github/stars/dpnishant/jsprime) | ![](https://img.shields.io/github/languages/top/dpnishant/jsprime) |",
+  "Method": "JS",
+  "Description": "a javascript static security analysis tool",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "jwt-cracker": {
@@ -2415,6 +2447,22 @@
    "Windows": ""
   }
  },
+ "puredns": {
+  "Data": "| Discovery/DNS | [puredns](https://github.com/d3mondev/puredns) | Puredns is a fast domain resolver and subdomain bruteforcing tool that can accurately filter out wildcard subdomains and DNS poisoned entries. | ![](https://img.shields.io/github/stars/d3mondev/puredns) | ![](https://img.shields.io/github/languages/top/d3mondev/puredns) |",
+  "Description": "Puredns is a fast domain resolver and subdomain bruteforcing tool that can accurately filter out wildcard subdomains and DNS poisoned entries.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "DNS",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "pwncat": {
   "Data": "| Utility/PENTEST | [pwncat](https://github.com/cytopia/pwncat) | pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind and reverse shell, self-injecting shell and port forwarding magic - and its fully scriptable with Python (PSE) | ![](https://img.shields.io/github/stars/cytopia/pwncat) | ![](https://img.shields.io/github/languages/top/cytopia/pwncat) |",
   "Description": "pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind and reverse shell, self-injecting shell and port forwarding magic - and its fully scriptable with Python (PSE) ",
@@ -2496,15 +2544,15 @@
   }
  },
  "rusolver": {
-  "Type": "Discovery",
   "Data": "| Discovery/DNS | [rusolver](https://github.com/Edu4rdSHL/rusolver) | Fast and accurate DNS resolver. | ![](https://img.shields.io/github/stars/Edu4rdSHL/rusolver) | ![](https://img.shields.io/github/languages/top/Edu4rdSHL/rusolver) |",
-  "Method": "DNS",
   "Description": "Fast and accurate DNS resolver.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "DNS",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
