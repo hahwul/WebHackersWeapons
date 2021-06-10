@@ -1167,6 +1167,22 @@
    "Windows": ""
   }
  },
+ "cariddi": {
+  "Type": "Discovery",
+  "Data": "| Discovery/URL | [cariddi](https://github.com/edoardottt/cariddi) | Take a list of domains and scan for endpoints, secrets, api keys, file extensions, tokens and more... | ![](https://img.shields.io/github/stars/edoardottt/cariddi) | ![](https://img.shields.io/github/languages/top/edoardottt/cariddi) |",
+  "Method": "URL",
+  "Description": "Take a list of domains and scan for endpoints, secrets, api keys, file extensions, tokens and more...",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "cc.py": {
   "Data": "| Discovery/URL | [cc.py](https://github.com/si9int/cc.py) | Extracting URLs of a specific target based on the results of \"commoncrawl.org\" | ![](https://img.shields.io/github/stars/si9int/cc.py) | ![](https://img.shields.io/github/languages/top/si9int/cc.py) |",
   "Description": "Extracting URLs of a specific target based on the results of \"commoncrawl.org\" ",
@@ -2128,15 +2144,15 @@
   }
  },
  "jsprime": {
-  "Type": "Scanner",
   "Data": "| Scanner/JS | [jsprime](https://github.com/dpnishant/jsprime) | a javascript static security analysis tool | ![](https://img.shields.io/github/stars/dpnishant/jsprime) | ![](https://img.shields.io/github/languages/top/dpnishant/jsprime) |",
-  "Method": "JS",
   "Description": "a javascript static security analysis tool",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "JS",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
