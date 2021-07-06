@@ -303,6 +303,22 @@
    "Windows": ""
   }
  },
+ "Emissary": {
+  "Type": "Utility",
+  "Data": "| Utility/NOTIFY | [Emissary](https://github.com/BountyStrike/Emissary) | Send notifications on different channels such as Slack, Telegram, Discord etc. | ![](https://img.shields.io/github/stars/BountyStrike/Emissary) | ![](https://img.shields.io/github/languages/top/BountyStrike/Emissary) |",
+  "Method": "NOTIFY",
+  "Description": "Send notifications on different channels such as Slack, Telegram, Discord etc.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "FavFreak": {
   "Data": "| Discovery/FAVICON | [FavFreak](https://github.com/devanshbatham/FavFreak) | Making Favicon.ico based Recon Great again ! | ![](https://img.shields.io/github/stars/devanshbatham/FavFreak) | ![](https://img.shields.io/github/languages/top/devanshbatham/FavFreak) |",
   "Description": "Making Favicon.ico based Recon Great again ! ",
@@ -1168,15 +1184,15 @@
   }
  },
  "cariddi": {
-  "Type": "Discovery",
   "Data": "| Discovery/URL | [cariddi](https://github.com/edoardottt/cariddi) | Take a list of domains and scan for endpoints, secrets, api keys, file extensions, tokens and more... | ![](https://img.shields.io/github/stars/edoardottt/cariddi) | ![](https://img.shields.io/github/languages/top/edoardottt/cariddi) |",
-  "Method": "URL",
   "Description": "Take a list of domains and scan for endpoints, secrets, api keys, file extensions, tokens and more...",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "URL",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -2383,6 +2399,22 @@
    "Windows": "go get -u -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei"
   }
  },
+ "ob_hacky_slack": {
+  "Data": "| Utility/NOTIFY | [ob_hacky_slack](https://github.com/openbridge/ob_hacky_slack) | Hacky Slack - a bash script that sends beautiful messages to Slack | ![](https://img.shields.io/github/stars/openbridge/ob_hacky_slack) | ![](https://img.shields.io/github/languages/top/openbridge/ob_hacky_slack) |",
+  "Description": "Hacky Slack - a bash script that sends beautiful messages to Slack",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "NOTIFY",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "oxml_xxe": {
   "Data": "| Utility/PAYLOAD | [oxml_xxe](https://github.com/BuffaloWill/oxml_xxe) | A tool for embedding XXE/XML exploits into different filetypes | ![](https://img.shields.io/github/stars/BuffaloWill/oxml_xxe) | ![](https://img.shields.io/github/languages/top/BuffaloWill/oxml_xxe) |",
   "Description": "A tool for embedding XXE/XML exploits into different filetypes ",
@@ -2621,6 +2653,22 @@
    "Linux": "GO111MODULE=on go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns",
    "MacOS": "GO111MODULE=on go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns",
    "Windows": "go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns"
+  }
+ },
+ "slackcat": {
+  "Data": "| Utility/NOTIFY | [slackcat](https://github.com/bcicen/slackcat) | CLI utility to post files and command output to slack | ![](https://img.shields.io/github/stars/bcicen/slackcat) | ![](https://img.shields.io/github/languages/top/bcicen/slackcat) |",
+  "Description": "CLI utility to post files and command output to slack",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "NOTIFY",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "smuggler": {
