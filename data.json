@@ -287,6 +287,22 @@
    "Windows": ""
   }
  },
+ "DeepViolet": {
+  "Type": "Scanner",
+  "Data": "| Scanner/SSL | [DeepViolet](https://github.com/spoofzu/DeepViolet) | Tool for introspection of SSL\\TLS sessions | ![](https://img.shields.io/github/stars/spoofzu/DeepViolet) | ![](https://img.shields.io/github/languages/top/spoofzu/DeepViolet) |",
+  "Method": "SSL",
+  "Description": "Tool for introspection of SSL\\TLS sessions",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "DirDar": {
   "Data": "| Discovery/FUZZ | [DirDar](https://github.com/M4DM0e/DirDar) | DirDar is a tool that searches for (403-Forbidden) directories to break it and get dir listing on it | ![](https://img.shields.io/github/stars/M4DM0e/DirDar) | ![](https://img.shields.io/github/languages/top/M4DM0e/DirDar) |",
   "Description": "DirDar is a tool that searches for (403-Forbidden) directories to break it and get dir listing on it",
@@ -304,15 +320,15 @@
   }
  },
  "Emissary": {
-  "Type": "Utility",
   "Data": "| Utility/NOTIFY | [Emissary](https://github.com/BountyStrike/Emissary) | Send notifications on different channels such as Slack, Telegram, Discord etc. | ![](https://img.shields.io/github/stars/BountyStrike/Emissary) | ![](https://img.shields.io/github/languages/top/BountyStrike/Emissary) |",
-  "Method": "NOTIFY",
   "Description": "Send notifications on different channels such as Slack, Telegram, Discord etc.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "NOTIFY",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
