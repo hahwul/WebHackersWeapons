@@ -288,15 +288,15 @@
   }
  },
  "DeepViolet": {
-  "Type": "Scanner",
   "Data": "| Scanner/SSL | [DeepViolet](https://github.com/spoofzu/DeepViolet) | Tool for introspection of SSL\\TLS sessions | ![](https://img.shields.io/github/stars/spoofzu/DeepViolet) | ![](https://img.shields.io/github/languages/top/spoofzu/DeepViolet) |",
-  "Method": "SSL",
   "Description": "Tool for introspection of SSL\\TLS sessions",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "SSL",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1129,6 +1129,22 @@
   },
   "Method": "ANY",
   "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "boast": {
+  "Type": "Utility",
+  "Data": "| Utility/CALLBACK | [boast](https://github.com/marcoagner/boast) | The BOAST Outpost for AppSec Testing (v0.1.0) | ![](https://img.shields.io/github/stars/marcoagner/boast) | ![](https://img.shields.io/github/languages/top/marcoagner/boast) |",
+  "Method": "CALLBACK",
+  "Description": "The BOAST Outpost for AppSec Testing (v0.1.0)",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
   "Update": {
    "Linux": "",
    "MacOS": "",
