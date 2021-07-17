@@ -1136,15 +1136,15 @@
   }
  },
  "boast": {
-  "Type": "Utility",
   "Data": "| Utility/CALLBACK | [boast](https://github.com/marcoagner/boast) | The BOAST Outpost for AppSec Testing (v0.1.0) | ![](https://img.shields.io/github/stars/marcoagner/boast) | ![](https://img.shields.io/github/languages/top/marcoagner/boast) |",
-  "Method": "CALLBACK",
   "Description": "The BOAST Outpost for AppSec Testing (v0.1.0)",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "CALLBACK",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -2509,6 +2509,22 @@
    "Linux": "cd postMessage-tracker ; git pull -v",
    "MacOS": "cd postMessage-tracker ; git pull -v",
    "Windows": "cd postMessage-tracker ; git pull -v"
+  }
+ },
+ "ppfuzz": {
+  "Type": "Scanner",
+  "Data": "| Scanner/FUZZ | [ppfuzz](https://github.com/dwisiswant0/ppfuzz) | A fast tool to scan client-side prototype pollution vulnerability written in Rust. 🦀 | ![](https://img.shields.io/github/stars/dwisiswant0/ppfuzz) | ![](https://img.shields.io/github/languages/top/dwisiswant0/ppfuzz) |",
+  "Method": "FUZZ",
+  "Description": "A fast tool to scan client-side prototype pollution vulnerability written in Rust. 🦀",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "proxify": {
