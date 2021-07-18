@@ -4,7 +4,7 @@ on:
     - cron: '0 4 * * 0' 
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
       inputs:
          logLevel:
