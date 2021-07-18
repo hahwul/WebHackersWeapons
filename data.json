@@ -2191,6 +2191,22 @@
    "Windows": "go get github.com/jaeles-project/jaeles"
   }
  },
+ "jsfuck": {
+  "Type": "Utility",
+  "Data": "| Utility/PAYLOAD | [jsfuck](https://github.com/aemkei/jsfuck) | Write any JavaScript with 6 Characters | ![](https://img.shields.io/github/stars/aemkei/jsfuck) | ![](https://img.shields.io/github/languages/top/aemkei/jsfuck) |",
+  "Method": "PAYLOAD",
+  "Description": "Write any JavaScript with 6 Characters",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "jsprime": {
   "Data": "| Scanner/JS | [jsprime](https://github.com/dpnishant/jsprime) | a javascript static security analysis tool | ![](https://img.shields.io/github/stars/dpnishant/jsprime) | ![](https://img.shields.io/github/languages/top/dpnishant/jsprime) |",
   "Description": "a javascript static security analysis tool",
@@ -2512,15 +2528,15 @@
   }
  },
  "ppfuzz": {
-  "Type": "Scanner",
   "Data": "| Scanner/FUZZ | [ppfuzz](https://github.com/dwisiswant0/ppfuzz) | A fast tool to scan client-side prototype pollution vulnerability written in Rust. 🦀 | ![](https://img.shields.io/github/stars/dwisiswant0/ppfuzz) | ![](https://img.shields.io/github/languages/top/dwisiswant0/ppfuzz) |",
-  "Method": "FUZZ",
   "Description": "A fast tool to scan client-side prototype pollution vulnerability written in Rust. 🦀",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "FUZZ",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
