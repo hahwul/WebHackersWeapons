@@ -2192,15 +2192,15 @@
   }
  },
  "jsfuck": {
-  "Type": "Utility",
   "Data": "| Utility/PAYLOAD | [jsfuck](https://github.com/aemkei/jsfuck) | Write any JavaScript with 6 Characters | ![](https://img.shields.io/github/stars/aemkei/jsfuck) | ![](https://img.shields.io/github/languages/top/aemkei/jsfuck) |",
-  "Method": "PAYLOAD",
   "Description": "Write any JavaScript with 6 Characters",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "PAYLOAD",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -2953,6 +2953,22 @@
   },
   "Method": "Scripts",
   "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "tplmap": {
+  "Type": "Scanner",
+  "Data": "| Scanner/SSTI | [tplmap](https://github.com/epinna/tplmap) | Server-Side Template Injection and Code Injection Detection and Exploitation Tool | ![](https://img.shields.io/github/stars/epinna/tplmap) | ![](https://img.shields.io/github/languages/top/epinna/tplmap) |",
+  "Method": "SSTI",
+  "Description": "Server-Side Template Injection and Code Injection Detection and Exploitation Tool",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
   "Update": {
    "Linux": "",
    "MacOS": "",
