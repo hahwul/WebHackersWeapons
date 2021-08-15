@@ -1823,6 +1823,22 @@
    "Windows": "go get -u github.com/jaeles-project/gospider"
   }
  },
+ "gotator": {
+  "Data": "| Utility/WORDLIST | [gotator](https://github.com/Josue87/gotator) | Gotator is a tool to generate DNS wordlists through permutations. | ![](https://img.shields.io/github/stars/Josue87/gotator) | ![](https://img.shields.io/github/languages/top/Josue87/gotator) |",
+  "Description": "Gotator is a tool to generate DNS wordlists through permutations.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "WORDLIST",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "gowitness": {
   "Data": "| Utility/SHOT | [gowitness](https://github.com/sensepost/gowitness) | 🔍 gowitness - a golang, web screenshot utility using Chrome Headless | ![](https://img.shields.io/github/stars/sensepost/gowitness) | ![](https://img.shields.io/github/languages/top/sensepost/gowitness) |",
   "Description": "🔍 gowitness - a golang, web screenshot utility using Chrome Headless ",
@@ -2703,6 +2719,22 @@
    "Windows": "go get-u github.com/edoardottt/scilla"
   }
  },
+ "security-research-pocs": {
+  "Type": "Utility",
+  "Data": "| Utility/PAYLOAD | [security-research-pocs](https://github.com/google/security-research-pocs) | Proof-of-concept codes created as part of security research done by Google Security Team. | ![](https://img.shields.io/github/stars/google/security-research-pocs) | ![](https://img.shields.io/github/languages/top/google/security-research-pocs) |",
+  "Method": "PAYLOAD",
+  "Description": "Proof-of-concept codes created as part of security research done by Google Security Team.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "shuffledns": {
   "Data": "| Discovery/DNS | [shuffledns](https://github.com/projectdiscovery/shuffledns) | shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output support. | ![](https://img.shields.io/github/stars/projectdiscovery/shuffledns) | ![](https://img.shields.io/github/languages/top/projectdiscovery/shuffledns) |",
   "Description": "shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output support. ",
@@ -2960,15 +2992,15 @@
   }
  },
  "tplmap": {
-  "Type": "Scanner",
   "Data": "| Scanner/SSTI | [tplmap](https://github.com/epinna/tplmap) | Server-Side Template Injection and Code Injection Detection and Exploitation Tool | ![](https://img.shields.io/github/stars/epinna/tplmap) | ![](https://img.shields.io/github/languages/top/epinna/tplmap) |",
-  "Method": "SSTI",
   "Description": "Server-Side Template Injection and Code Injection Detection and Exploitation Tool",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "SSTI",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
