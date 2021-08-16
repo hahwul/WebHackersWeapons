@@ -2720,15 +2720,15 @@
   }
  },
  "security-research-pocs": {
-  "Type": "Utility",
   "Data": "| Utility/PAYLOAD | [security-research-pocs](https://github.com/google/security-research-pocs) | Proof-of-concept codes created as part of security research done by Google Security Team. | ![](https://img.shields.io/github/stars/google/security-research-pocs) | ![](https://img.shields.io/github/languages/top/google/security-research-pocs) |",
-  "Method": "PAYLOAD",
   "Description": "Proof-of-concept codes created as part of security research done by Google Security Team.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "PAYLOAD",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -2925,6 +2925,22 @@
    "Linux": "cd subs_all; git pull -v",
    "MacOS": "cd subs_all; git pull -v",
    "Windows": "cd subs_all; git pull -v"
+  }
+ },
+ "subzy": {
+  "Type": "Discovery",
+  "Data": "| Discovery/TKOV | [subzy](https://github.com/LukaSikic/subzy) | Subdomain takeover vulnerability checker | ![](https://img.shields.io/github/stars/LukaSikic/subzy) | ![](https://img.shields.io/github/languages/top/LukaSikic/subzy) |",
+  "Method": "TKOV",
+  "Description": "Subdomain takeover vulnerability checker",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "template-generator": {
