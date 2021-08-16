@@ -2751,6 +2751,22 @@
    "Windows": "go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns"
   }
  },
+ "singularity": {
+  "Type": "ToolBox",
+  "Data": "| ToolBox/DNS Rebind | [singularity](https://github.com/nccgroup/singularity) | A DNS rebinding attack framework. | ![](https://img.shields.io/github/stars/nccgroup/singularity) | ![](https://img.shields.io/github/languages/top/nccgroup/singularity) |",
+  "Method": "DNS Rebind",
+  "Description": "A DNS rebinding attack framework.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "slackcat": {
   "Data": "| Utility/NOTIFY | [slackcat](https://github.com/bcicen/slackcat) | CLI utility to post files and command output to slack | ![](https://img.shields.io/github/stars/bcicen/slackcat) | ![](https://img.shields.io/github/languages/top/bcicen/slackcat) |",
   "Description": "CLI utility to post files and command output to slack",
@@ -2928,15 +2944,15 @@
   }
  },
  "subzy": {
-  "Type": "Discovery",
   "Data": "| Discovery/TKOV | [subzy](https://github.com/LukaSikic/subzy) | Subdomain takeover vulnerability checker | ![](https://img.shields.io/github/stars/LukaSikic/subzy) | ![](https://img.shields.io/github/languages/top/LukaSikic/subzy) |",
-  "Method": "TKOV",
   "Description": "Subdomain takeover vulnerability checker",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "TKOV",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
