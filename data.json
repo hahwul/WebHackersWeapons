@@ -432,15 +432,15 @@
   }
  },
  "HRS": {
-  "Type": "Scanner",
   "Data": "| Scanner/SMUGGLE | [HRS](https://github.com/SafeBreach-Labs/HRS) | HTTP Request Smuggling demonstration Perl script, for variants 1, 2 and 5 in my BlackHat US 2020 paper HTTP Request Smuggling in 2020. | ![](https://img.shields.io/github/stars/SafeBreach-Labs/HRS) | ![](https://img.shields.io/github/languages/top/SafeBreach-Labs/HRS) |",
-  "Method": "SMUGGLE",
   "Description": "HTTP Request Smuggling demonstration Perl script, for variants 1, 2 and 5 in my BlackHat US 2020 paper HTTP Request Smuggling in 2020.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "SMUGGLE",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -3261,6 +3261,22 @@
    "Linux": "gem install wpscan",
    "MacOS": "gem install wpscan",
    "Windows": "gem install wpscan"
+  }
+ },
+ "ws-smuggler": {
+  "Type": "Scanner",
+  "Data": "| Scanner/SMUGGLE | [ws-smuggler](https://github.com/hahwul/ws-smuggler) | WebSocket Connection Smuggler | ![](https://img.shields.io/github/stars/hahwul/ws-smuggler) | ![](https://img.shields.io/github/languages/top/hahwul/ws-smuggler) |",
+  "Method": "SMUGGLE",
+  "Description": "WebSocket Connection Smuggler",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "wuzz": {
