@@ -2079,6 +2079,22 @@
    "Windows": "go get github.com/htcat/htcat/cmd/htcat"
   }
  },
+ "http2smugl": {
+  "Type": "Scanner",
+  "Data": "| Scanner/SMUGGLE | [http2smugl](https://github.com/neex/http2smugl) | This tool helps to detect and exploit HTTP request smuggling in cases it can be achieved via HTTP/2 -\u003e HTTP/1.1 conversion by the frontend server. | ![](https://img.shields.io/github/stars/neex/http2smugl) | ![](https://img.shields.io/github/languages/top/neex/http2smugl) |",
+  "Method": "SMUGGLE",
+  "Description": "This tool helps to detect and exploit HTTP request smuggling in cases it can be achieved via HTTP/2 -\u003e HTTP/1.1 conversion by the frontend server.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "httpie": {
   "Data": "| Utility/HTTP | [httpie](https://github.com/httpie/httpie) | As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins \u0026 more. https://twitter.com/httpie | ![](https://img.shields.io/github/stars/httpie/httpie) | ![](https://img.shields.io/github/languages/top/httpie/httpie) |",
   "Description": "As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins \u0026 more. https://twitter.com/httpie",
@@ -2752,15 +2768,15 @@
   }
  },
  "singularity": {
-  "Type": "ToolBox",
   "Data": "| ToolBox/DNS Rebind | [singularity](https://github.com/nccgroup/singularity) | A DNS rebinding attack framework. | ![](https://img.shields.io/github/stars/nccgroup/singularity) | ![](https://img.shields.io/github/languages/top/nccgroup/singularity) |",
-  "Method": "DNS Rebind",
   "Description": "A DNS rebinding attack framework.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "DNS Rebind",
+  "Type": "ToolBox",
   "Update": {
    "Linux": "",
    "MacOS": "",
