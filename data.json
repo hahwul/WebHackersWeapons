@@ -1903,6 +1903,22 @@
    "Windows": ""
   }
  },
+ "grex": {
+  "Type": "Utility",
+  "Data": "| Utility/URL | [grex](https://github.com/pemistahl/grex) | A command-line tool and library for generating regular expressions from user-provided test cases | ![](https://img.shields.io/github/stars/pemistahl/grex) | ![](https://img.shields.io/github/languages/top/pemistahl/grex) |",
+  "Method": "URL",
+  "Description": "A command-line tool and library for generating regular expressions from user-provided test cases",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "gron": {
   "Data": "| Utility/JSON | [gron](https://github.com/tomnomnom/gron) | Make JSON greppable! | ![](https://img.shields.io/github/stars/tomnomnom/gron) | ![](https://img.shields.io/github/languages/top/tomnomnom/gron) |",
   "Description": "Make JSON greppable! ",
@@ -3167,6 +3183,22 @@
    "Windows": "go get -u github.com/1ndianl33t/urlprobe"
   }
  },
+ "uro": {
+  "Data": "| Utility/URL | [uro](https://github.com/s0md3v/uro) | declutters url lists for crawling/pentesting | ![](https://img.shields.io/github/stars/s0md3v/uro) | ![](https://img.shields.io/github/languages/top/s0md3v/uro) |",
+  "Description": "declutters url lists for crawling/pentesting",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "URL",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "waybackurls": {
   "Data": "| Discovery/URL | [waybackurls](https://github.com/tomnomnom/waybackurls) | Fetch all the URLs that the Wayback Machine knows about for a domain | ![](https://img.shields.io/github/stars/tomnomnom/waybackurls) | ![](https://img.shields.io/github/languages/top/tomnomnom/waybackurls) |",
   "Description": "Fetch all the URLs that the Wayback Machine knows about for a domain ",
@@ -3264,15 +3296,15 @@
   }
  },
  "ws-smuggler": {
-  "Type": "Scanner",
   "Data": "| Scanner/SMUGGLE | [ws-smuggler](https://github.com/hahwul/ws-smuggler) | WebSocket Connection Smuggler | ![](https://img.shields.io/github/stars/hahwul/ws-smuggler) | ![](https://img.shields.io/github/languages/top/hahwul/ws-smuggler) |",
-  "Method": "SMUGGLE",
   "Description": "WebSocket Connection Smuggler",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "SMUGGLE",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
