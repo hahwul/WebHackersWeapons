@@ -9,6 +9,8 @@ import (
 	"reflect"
 	"sort"
 	"strings"
+	
+	au "github.com/logrusorgru/aurora"
 )
 
 type mmm = map[string]interface{}
@@ -141,5 +143,5 @@ func main() {
 	}
 	fmt.Println("[+] Patched README.md file")
 	fmt.Println("[+] Please check README file and git push")
-	fmt.Println("[ copy/paste this ] git add data.json README.md ; git commit -m 'distribute readme'; git push -u origin master")
+	fmt.Println("[ copy/paste this ] ", au.BrightYellow("git add data.json README.md ; git commit -m 'distribute readme'; git push"))
 }
