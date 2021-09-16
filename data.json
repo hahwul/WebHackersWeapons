@@ -1904,15 +1904,15 @@
   }
  },
  "grex": {
-  "Type": "Utility",
   "Data": "| Utility/URL | [grex](https://github.com/pemistahl/grex) | A command-line tool and library for generating regular expressions from user-provided test cases | ![](https://img.shields.io/github/stars/pemistahl/grex) | ![](https://img.shields.io/github/languages/top/pemistahl/grex) |",
-  "Method": "URL",
   "Description": "A command-line tool and library for generating regular expressions from user-provided test cases",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "URL",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1936,8 +1936,8 @@
   }
  },
  "h2csmuggler": {
-  "Data": "| Scanner/SMUGGLE | [h2csmuggler](https://github.com/BishopFox/h2csmuggler) | HTTP Request Smuggling over HTTP/2 Cleartext (h2c) | ![](https://img.shields.io/github/stars/BishopFox/h2csmuggler) | ![](https://img.shields.io/github/languages/top/BishopFox/h2csmuggler) |",
-  "Description": "HTTP Request Smuggling over HTTP/2 Cleartext (h2c) ",
+  "Data": "| Scanner/SMUGGLE | [h2csmuggler](https://github.com/assetnote/h2csmuggler) | HTTP Request Smuggling Detection Tool | ![](https://img.shields.io/github/stars/assetnote/h2csmuggler) | ![](https://img.shields.io/github/languages/top/assetnote/h2csmuggler) |",
+  "Description": "HTTP Request Smuggling Detection Tool",
   "Install": {
    "Linux": "git clone https://github.com/BishopFox/h2csmuggler; cd h2csmuggler; pip3 install h2",
    "MacOS": "git clone https://github.com/BishopFox/h2csmuggler; cd h2csmuggler; pip3 install h2",
@@ -2349,6 +2349,22 @@
    "Linux": "go get -u github.com/hahwul/jwt-hack",
    "MacOS": "go get -u github.com/hahwul/jwt-hack",
    "Windows": "go get -u github.com/hahwul/jwt-hack"
+  }
+ },
+ "kiterunner": {
+  "Type": "Discovery",
+  "Data": "| Discovery/API | [kiterunner](https://github.com/assetnote/kiterunner) | Contextual Content Discovery Tool | ![](https://img.shields.io/github/stars/assetnote/kiterunner) | ![](https://img.shields.io/github/languages/top/assetnote/kiterunner) |",
+  "Method": "API",
+  "Description": "Contextual Content Discovery Tool",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "knock": {
