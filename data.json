@@ -703,6 +703,22 @@
    "Windows": "cd S3Scanner; git pull -v ; pip3 install -r requirements.txt"
   }
  },
+ "SQL Ninja": {
+  "Data": "| Scanner/SQLi  | [SQL Ninja](https://gitlab.com/kalilinux/packages/sqlninja) |  SQL Injection scanner|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it's%20not%20github\u0026color=gray)",
+  "Description": "SQL Injection scanner",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "SQLi",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "SQLNinja": {
   "Data": "| Scanner/SQL  | [SQLNinja](https://gitlab.com/kalilinux/packages/sqlninja) |  SQL Injection scanner|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Description": " SQL Injection scanner|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) ",
@@ -2223,6 +2239,22 @@
    "Windows": "go get -u -v github.com/projectdiscovery/httpx/cmd/httpx"
   }
  },
+ "hurl": {
+  "Data": "| Utility/HTTP | [hurl](https://github.com/Orange-OpenSource/hurl) | Hurl, run and test HTTP requests. | ![](https://img.shields.io/github/stars/Orange-OpenSource/hurl) | ![](https://img.shields.io/github/languages/top/Orange-OpenSource/hurl) |",
+  "Description": "Hurl, run and test HTTP requests.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "HTTP",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "inql": {
   "Data": "| Discovery/GQL | [inql](https://github.com/doyensec/inql) | InQL - A Burp Extension for GraphQL Security Testing | ![](https://img.shields.io/github/stars/doyensec/inql) | ![](https://img.shields.io/github/languages/top/doyensec/inql) |",
   "Description": "InQL - A Burp Extension for GraphQL Security Testing ",
@@ -2352,15 +2384,15 @@
   }
  },
  "kiterunner": {
-  "Type": "Discovery",
   "Data": "| Discovery/API | [kiterunner](https://github.com/assetnote/kiterunner) | Contextual Content Discovery Tool | ![](https://img.shields.io/github/stars/assetnote/kiterunner) | ![](https://img.shields.io/github/languages/top/assetnote/kiterunner) |",
-  "Method": "API",
   "Description": "Contextual Content Discovery Tool",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "API",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -2620,6 +2652,22 @@
   "Update": {
    "Linux": "cd pet ; git pull -v ; make install",
    "MacOS": "brew upgrade knqyf263/pet/pet",
+   "Windows": ""
+  }
+ },
+ "plution": {
+  "Data": "| Scanner/FUZZ | [plution](https://github.com/raverrr/plution) | Prototype pollution scanner using headless chrome | ![](https://img.shields.io/github/stars/raverrr/plution) | ![](https://img.shields.io/github/languages/top/raverrr/plution) |",
+  "Description": "Prototype pollution scanner using headless chrome",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "FUZZ",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
    "Windows": ""
   }
  },
@@ -2928,14 +2976,14 @@
   }
  },
  "sqliv": {
-  "Data": "| Scanner/SQL | [sqliv](https://github.com/the-robot/sqliv) | massive SQL injection vulnerability scanner | ![](https://img.shields.io/github/stars/the-robot/sqliv) | ![](https://img.shields.io/github/languages/top/the-robot/sqliv) |",
+  "Data": "| Scanner/SQLi | [sqliv](https://github.com/the-robot/sqliv) | massive SQL injection vulnerability scanner | ![](https://img.shields.io/github/stars/the-robot/sqliv) | ![](https://img.shields.io/github/languages/top/the-robot/sqliv) |",
   "Description": "massive SQL injection vulnerability scanner",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
-  "Method": "SQL",
+  "Method": "SQLi",
   "Type": "Scanner",
   "Update": {
    "Linux": "",
@@ -2944,15 +2992,15 @@
   }
  },
  "sqlmap": {
-  "Data": "| Scanner/SQL | [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | ![](https://img.shields.io/github/stars/sqlmapproject/sqlmap) | ![](https://img.shields.io/github/languages/top/sqlmapproject/sqlmap) |",
-  "Description": "Automatic SQL injection and database takeover tool ",
+  "Type": "Scanner",
+  "Data": "| Scanner/SQLi | [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | ![](https://img.shields.io/github/stars/sqlmapproject/sqlmap) | ![](https://img.shields.io/github/languages/top/sqlmapproject/sqlmap) |",
+  "Method": "SQLi",
+  "Description": "Automatic SQL injection and database takeover tool",
   "Install": {
    "Linux": "sudo apt install sqlmap",
    "MacOS": "brew install sqlmap",
    "Windows": ""
   },
-  "Method": "SQL",
-  "Type": "Scanner",
   "Update": {
    "Linux": "sudo apt upgrade sqlmap",
    "MacOS": "brew upgrade sqlmap",
