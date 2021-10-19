@@ -1327,6 +1327,22 @@
    "Windows": ""
   }
  },
+ "crawlergo": {
+  "Type": "Discovery",
+  "Data": "| Discovery/URL | [crawlergo](https://github.com/Qianlitp/crawlergo) | A powerful browser crawler for web vulnerability scanners | ![](https://img.shields.io/github/stars/Qianlitp/crawlergo) | ![](https://img.shields.io/github/languages/top/Qianlitp/crawlergo) |",
+  "Method": "URL",
+  "Description": "A powerful browser crawler for web vulnerability scanners",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "crlfuzz": {
   "Data": "| Scanner/CRLF | [crlfuzz](https://github.com/dwisiswant0/crlfuzz) | A fast tool to scan CRLF vulnerability written in Go | ![](https://img.shields.io/github/stars/dwisiswant0/crlfuzz) | ![](https://img.shields.io/github/languages/top/dwisiswant0/crlfuzz) |",
   "Description": "A fast tool to scan CRLF vulnerability written in Go ",
@@ -2992,15 +3008,15 @@
   }
  },
  "sqlmap": {
-  "Type": "Scanner",
   "Data": "| Scanner/SQLi | [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | ![](https://img.shields.io/github/stars/sqlmapproject/sqlmap) | ![](https://img.shields.io/github/languages/top/sqlmapproject/sqlmap) |",
-  "Method": "SQLi",
   "Description": "Automatic SQL injection and database takeover tool",
   "Install": {
    "Linux": "sudo apt install sqlmap",
    "MacOS": "brew install sqlmap",
    "Windows": ""
   },
+  "Method": "SQLi",
+  "Type": "Scanner",
   "Update": {
    "Linux": "sudo apt upgrade sqlmap",
    "MacOS": "brew upgrade sqlmap",
