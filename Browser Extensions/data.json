@@ -32,15 +32,15 @@
   }
  },
  "DotGit": {
-  "Type": "Firefox and Chrome",
   "Data": "| Firefox and Chrome/Exposed | [DotGit](https://github.com/davtur19/DotGit) | An extension for checking if .git is exposed in visited websites | ![](https://img.shields.io/github/stars/davtur19/DotGit) | ![](https://img.shields.io/github/languages/top/davtur19/DotGit) |",
-  "Method": "Exposed",
   "Description": "An extension for checking if .git is exposed in visited websites",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "Exposed",
+  "Type": "Firefox and Chrome",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -57,6 +57,22 @@
   },
   "Method": "Cookie",
   "Type": "Chrome",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "Hack-Tools": {
+  "Type": "Firefox and Chrome",
+  "Data": "| Firefox and Chrome/Tools | [Hack-Tools](https://github.com/LasCC/Hack-Tools) | The all-in-one Red Team extension for Web Pentester 🛠 | ![](https://img.shields.io/github/stars/LasCC/Hack-Tools) | ![](https://img.shields.io/github/languages/top/LasCC/Hack-Tools) |",
+  "Method": "Tools",
+  "Description": "The all-in-one Red Team extension for Web Pentester 🛠",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
   "Update": {
    "Linux": "",
    "MacOS": "",
