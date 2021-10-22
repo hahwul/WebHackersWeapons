@@ -1328,15 +1328,15 @@
   }
  },
  "crawlergo": {
-  "Type": "Discovery",
   "Data": "| Discovery/URL | [crawlergo](https://github.com/Qianlitp/crawlergo) | A powerful browser crawler for web vulnerability scanners | ![](https://img.shields.io/github/stars/Qianlitp/crawlergo) | ![](https://img.shields.io/github/languages/top/Qianlitp/crawlergo) |",
-  "Method": "URL",
   "Description": "A powerful browser crawler for web vulnerability scanners",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "URL",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -2781,6 +2781,22 @@
    "Linux": "go get -u github.com/tomnomnom/qsreplace",
    "MacOS": "go get -u github.com/tomnomnom/qsreplace",
    "Windows": "go get -u github.com/tomnomnom/qsreplace"
+  }
+ },
+ "quickjack": {
+  "Type": "Utility",
+  "Data": "| Utility/PAYLOAD | [quickjack](https://github.com/samyk/quickjack) | Quickjack is a point-and-click tool for intuitively producing advanced clickjacking and frame slicing attacks. | ![](https://img.shields.io/github/stars/samyk/quickjack) | ![](https://img.shields.io/github/languages/top/samyk/quickjack) |",
+  "Method": "PAYLOAD",
+  "Description": "Quickjack is a point-and-click tool for intuitively producing advanced clickjacking and frame slicing attacks.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "rapidscan": {
