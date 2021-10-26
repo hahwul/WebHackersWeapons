@@ -1599,6 +1599,22 @@
    "Windows": "cd findomain; wget https://github.com/Edu4rdSHL/findomain/releases/latest/download/findomain-windows.exe"
   }
  },
+ "fockcache": {
+  "Data": "| Scanner/CACHE-POISON | [fockcache](https://github.com/tismayil/fockcache) | FockCache  - Minimalized Test Cache Poisoning | ![](https://img.shields.io/github/stars/tismayil/fockcache) | ![](https://img.shields.io/github/languages/top/tismayil/fockcache) |",
+  "Description": "FockCache  - Minimalized Test Cache Poisoning",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "CACHE-POISON",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "fuzzparam": {
   "Data": "| Discovery/PARAM | [fuzzparam](https://github.com/0xsapra/fuzzparam) | A fast go based param miner to fuzz possible parameters a URL can have. | ![](https://img.shields.io/github/stars/0xsapra/fuzzparam) | ![](https://img.shields.io/github/languages/top/0xsapra/fuzzparam) |",
   "Description": "A fast go based param miner to fuzz possible parameters a URL can have.",
@@ -2784,15 +2800,15 @@
   }
  },
  "quickjack": {
-  "Type": "Utility",
   "Data": "| Utility/PAYLOAD | [quickjack](https://github.com/samyk/quickjack) | Quickjack is a point-and-click tool for intuitively producing advanced clickjacking and frame slicing attacks. | ![](https://img.shields.io/github/stars/samyk/quickjack) | ![](https://img.shields.io/github/languages/top/samyk/quickjack) |",
-  "Method": "PAYLOAD",
   "Description": "Quickjack is a point-and-click tool for intuitively producing advanced clickjacking and frame slicing attacks.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "PAYLOAD",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -3321,6 +3337,22 @@
   },
   "Method": "PAYLOAD",
   "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "web_cache_poison": {
+  "Type": "Scanner",
+  "Data": "| Scanner/CACHE-POISON | [web_cache_poison](https://github.com/fngoo/web_cache_poison) | web cache poison - Top 1 web hacking technique of 2019 | ![](https://img.shields.io/github/stars/fngoo/web_cache_poison) | ![](https://img.shields.io/github/languages/top/fngoo/web_cache_poison) |",
+  "Method": "CACHE-POISON",
+  "Description": "web cache poison - Top 1 web hacking technique of 2019",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
   "Update": {
    "Linux": "",
    "MacOS": "",
