@@ -575,6 +575,22 @@
    "Windows": "cd Osmedeus; git pull -v; pip3 install -r requirements.txt"
   }
  },
+ "PPScan": {
+  "Data": "| Scanner/FUZZ | [PPScan](https://github.com/msrkp/PPScan) | Client Side Prototype Pollution Scanner | ![](https://img.shields.io/github/stars/msrkp/PPScan) | ![](https://img.shields.io/github/languages/top/msrkp/PPScan) |",
+  "Description": "Client Side Prototype Pollution Scanner",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "FUZZ",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "ParamSpider": {
   "Data": "| Discovery/PARAM | [ParamSpider](https://github.com/devanshbatham/ParamSpider) | Mining parameters from dark corners of Web Archives | ![](https://img.shields.io/github/stars/devanshbatham/ParamSpider) | ![](https://img.shields.io/github/languages/top/devanshbatham/ParamSpider) |",
   "Description": "Mining parameters from dark corners of Web Archives ",
@@ -1565,6 +1581,22 @@
    "Linux": "go get -u github.com/ffuf/ffuf",
    "MacOS": "go get -u github.com/ffuf/ffuf",
    "Windows": "go get -u github.com/ffuf/ffuf"
+  }
+ },
+ "fhc": {
+  "Data": "| Fetch/HTTP | [fhc](https://github.com/Edu4rdSHL/fhc) | Fast HTTP Checker. | ![](https://img.shields.io/github/stars/Edu4rdSHL/fhc) | ![](https://img.shields.io/github/languages/top/Edu4rdSHL/fhc) |",
+  "Description": "Fast HTTP Checker.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "HTTP",
+  "Type": "Fetch",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "findom-xss": {
@@ -2735,6 +2767,22 @@
    "Windows": ""
   }
  },
+ "ppmap": {
+  "Type": "Scanner",
+  "Data": "| Scanner/FUZZ | [ppmap](https://github.com/kleiton0x00/ppmap) | A scanner/exploitation tool written in GO, which leverages client-side Prototype Pollution to XSS by exploiting known gadgets. | ![](https://img.shields.io/github/stars/kleiton0x00/ppmap) | ![](https://img.shields.io/github/languages/top/kleiton0x00/ppmap) |",
+  "Method": "FUZZ",
+  "Description": "A scanner/exploitation tool written in GO, which leverages client-side Prototype Pollution to XSS by exploiting known gadgets.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "proxify": {
   "Data": "| Army-Knife/PROXY | [proxify](https://github.com/projectdiscovery/proxify) | Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation and replay | ![](https://img.shields.io/github/stars/projectdiscovery/proxify) | ![](https://img.shields.io/github/languages/top/projectdiscovery/proxify) |",
   "Description": "Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation and replay",
@@ -3344,15 +3392,15 @@
   }
  },
  "web_cache_poison": {
-  "Type": "Scanner",
   "Data": "| Scanner/CACHE-POISON | [web_cache_poison](https://github.com/fngoo/web_cache_poison) | web cache poison - Top 1 web hacking technique of 2019 | ![](https://img.shields.io/github/stars/fngoo/web_cache_poison) | ![](https://img.shields.io/github/languages/top/fngoo/web_cache_poison) |",
-  "Method": "CACHE-POISON",
   "Description": "web cache poison - Top 1 web hacking technique of 2019",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "CACHE-POISON",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
