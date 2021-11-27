@@ -1,4 +1,20 @@
 {
+ "230-OOB": {
+  "Data": "| Utility/PAYLOAD | [230-OOB](https://github.com/lc/230-OOB) | An Out-of-Band XXE server for retrieving file contents over FTP. | ![](https://img.shields.io/github/stars/lc/230-OOB) | ![](https://img.shields.io/github/languages/top/lc/230-OOB) |",
+  "Description": "An Out-of-Band XXE server for retrieving file contents over FTP.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "PAYLOAD",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "3klCon": {
   "Data": "| Discovery/ALL | [3klCon](https://github.com/eslam3kl/3klCon) | Automation Recon tool which works with Large \u0026 Medium scopes. It performs more than 20 tasks and gets back all the results in separated files. | ![](https://img.shields.io/github/stars/eslam3kl/3klCon) | ![](https://img.shields.io/github/languages/top/eslam3kl/3klCon) |",
   "Description": "Automation Recon tool which works with Large \u0026 Medium scopes. It performs more than 20 tasks and gets back all the results in separated files.",
@@ -1023,6 +1039,22 @@
    "Windows": "gem update XSpear"
   }
  },
+ "XXEinjector": {
+  "Type": "Utility",
+  "Data": "| Utility/PAYLOAD | [XXEinjector](https://github.com/enjoiz/XXEinjector) | Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods. | ![](https://img.shields.io/github/stars/enjoiz/XXEinjector) | ![](https://img.shields.io/github/languages/top/enjoiz/XXEinjector) |",
+  "Method": "PAYLOAD",
+  "Description": "Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "a2sv": {
   "Data": "| Scanner/SSL | [a2sv](https://github.com/hahwul/a2sv) | Auto Scanning to SSL Vulnerability | ![](https://img.shields.io/github/stars/hahwul/a2sv) | ![](https://img.shields.io/github/languages/top/hahwul/a2sv) |",
   "Description": "Auto Scanning to SSL Vulnerability ",
@@ -1497,6 +1529,22 @@
   },
   "Method": "DNS",
   "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "docem": {
+  "Data": "| Utility/PAYLOAD | [docem](https://github.com/whitel1st/docem) | Uility to embed XXE and XSS payloads in docx,odt,pptx,etc (OXML_XEE on steroids) | ![](https://img.shields.io/github/stars/whitel1st/docem) | ![](https://img.shields.io/github/languages/top/whitel1st/docem) |",
+  "Description": "Uility to embed XXE and XSS payloads in docx,odt,pptx,etc (OXML_XEE on steroids)",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "PAYLOAD",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -2768,15 +2816,15 @@
   }
  },
  "ppmap": {
-  "Type": "Scanner",
   "Data": "| Scanner/FUZZ | [ppmap](https://github.com/kleiton0x00/ppmap) | A scanner/exploitation tool written in GO, which leverages client-side Prototype Pollution to XSS by exploiting known gadgets. | ![](https://img.shields.io/github/stars/kleiton0x00/ppmap) | ![](https://img.shields.io/github/languages/top/kleiton0x00/ppmap) |",
-  "Method": "FUZZ",
   "Description": "A scanner/exploitation tool written in GO, which leverages client-side Prototype Pollution to XSS by exploiting known gadgets.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "FUZZ",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -3549,6 +3597,22 @@
    "Linux": "git clone https://github.com/epsylon/xsser ; cd xsser ; python3 setup.py install",
    "MacOS": "git clone https://github.com/epsylon/xsser ; cd xsser ; python3 setup.py install",
    "Windows": "git clone https://github.com/epsylon/xsser ; cd xsser ; python3 setup.py install"
+  }
+ },
+ "xxeserv": {
+  "Data": "| Utility/PAYLOAD | [xxeserv](https://github.com/staaldraad/xxeserv) | A mini webserver with FTP support for XXE payloads | ![](https://img.shields.io/github/stars/staaldraad/xxeserv) | ![](https://img.shields.io/github/languages/top/staaldraad/xxeserv) |",
+  "Description": "A mini webserver with FTP support for XXE payloads",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "PAYLOAD",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "ysoserial": {
