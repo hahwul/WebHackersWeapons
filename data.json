@@ -783,6 +783,22 @@
    "Windows": "cd SSRFmap; git pull -v ; pip3 install -r requirements.txt"
   }
  },
+ "STEWS": {
+  "Data": "| Discovery/WEBSOCK | [STEWS](https://github.com/PalindromeLabs/STEWS) | A Security Tool for Enumerating WebSockets | ![](https://img.shields.io/github/stars/PalindromeLabs/STEWS) | ![](https://img.shields.io/github/languages/top/PalindromeLabs/STEWS) |",
+  "Description": "A Security Tool for Enumerating WebSockets",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "WEBSOCK",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "SecLists": {
   "Data": "| Utility/WORD | [SecLists](https://github.com/danielmiessler/SecLists) | SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more. | ![](https://img.shields.io/github/stars/danielmiessler/SecLists) | ![](https://img.shields.io/github/languages/top/danielmiessler/SecLists) |",
   "Description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more. ",
@@ -1040,15 +1056,15 @@
   }
  },
  "XXEinjector": {
-  "Type": "Utility",
   "Data": "| Utility/PAYLOAD | [XXEinjector](https://github.com/enjoiz/XXEinjector) | Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods. | ![](https://img.shields.io/github/stars/enjoiz/XXEinjector) | ![](https://img.shields.io/github/languages/top/enjoiz/XXEinjector) |",
-  "Method": "PAYLOAD",
   "Description": "Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "PAYLOAD",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1977,6 +1993,22 @@
   },
   "Method": "WORDLIST",
   "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "gotestwaf": {
+  "Type": "Utility",
+  "Data": "| Utility/WAF | [gotestwaf](https://github.com/wallarm/gotestwaf) | An open-source project in Golang to test different web application firewalls (WAF) for detection logic and bypasses | ![](https://img.shields.io/github/stars/wallarm/gotestwaf) | ![](https://img.shields.io/github/languages/top/wallarm/gotestwaf) |",
+  "Method": "WAF",
+  "Description": "An open-source project in Golang to test different web application firewalls (WAF) for detection logic and bypasses",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -3529,6 +3561,22 @@
   },
   "Method": "SMUGGLE",
   "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "wssip": {
+  "Data": "| Discovery/WEBSOCK | [wssip](https://github.com/nccgroup/wssip) | Application for capturing, modifying and sending custom WebSocket data from client to server and vice versa. | ![](https://img.shields.io/github/stars/nccgroup/wssip) | ![](https://img.shields.io/github/languages/top/nccgroup/wssip) |",
+  "Description": "Application for capturing, modifying and sending custom WebSocket data from client to server and vice versa.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "WEBSOCK",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
