@@ -64,15 +64,15 @@
   }
  },
  "Hack-Tools": {
-  "Type": "Firefox and Chrome",
   "Data": "| Firefox and Chrome/Tools | [Hack-Tools](https://github.com/LasCC/Hack-Tools) | The all-in-one Red Team extension for Web Pentester 🛠 | ![](https://img.shields.io/github/stars/LasCC/Hack-Tools) | ![](https://img.shields.io/github/languages/top/LasCC/Hack-Tools) |",
-  "Method": "Tools",
   "Description": "The all-in-one Red Team extension for Web Pentester 🛠",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "Tools",
+  "Type": "Firefox and Chrome",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -121,6 +121,70 @@
   },
   "Method": "HISTORY",
   "Type": "Safari",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "clear-cache": {
+  "Data": "| Firefox/Cache | [clear-cache](https://github.com/TenSoja/clear-cache) | Add-on to clear browser cache with a single click or via the F9 key. | ![](https://img.shields.io/github/stars/TenSoja/clear-cache) | ![](https://img.shields.io/github/languages/top/TenSoja/clear-cache) |",
+  "Description": "Add-on to clear browser cache with a single click or via the F9 key.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "Cache",
+  "Type": "Firefox",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "cookie-quick-manager": {
+  "Data": "| Firefox/Cookie | [cookie-quick-manager](https://github.com/ysard/cookie-quick-manager) | An addon to manage (view, search, create, edit, remove, backup, restore) cookies on Firefox. | ![](https://img.shields.io/github/stars/ysard/cookie-quick-manager) | ![](https://img.shields.io/github/languages/top/ysard/cookie-quick-manager) |",
+  "Description": "An addon to manage (view, search, create, edit, remove, backup, restore) cookies on Firefox.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "Cookie",
+  "Type": "Firefox",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "eval_villain": {
+  "Data": "| Firefox/DomXSS | [eval_villain](https://github.com/swoops/eval_villain) | A Firefox Web Extension to improve the discovery of DOM XSS. | ![](https://img.shields.io/github/stars/swoops/eval_villain) | ![](https://img.shields.io/github/languages/top/swoops/eval_villain) |",
+  "Description": "A Firefox Web Extension to improve the discovery of DOM XSS.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "DomXSS",
+  "Type": "Firefox",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "jsonwebtoken.github.io": {
+  "Type": "Firefox and Chrome",
+  "Data": "| Firefox and Chrome/JWT | [jsonwebtoken.github.io](https://github.com/jsonwebtoken/jsonwebtoken.github.io) | JWT En/Decode and Verify | ![](https://img.shields.io/github/stars/jsonwebtoken/jsonwebtoken.github.io) | ![](https://img.shields.io/github/languages/top/jsonwebtoken/jsonwebtoken.github.io) |",
+  "Method": "JWT",
+  "Description": "JWT En/Decode and Verify",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
   "Update": {
    "Linux": "",
    "MacOS": "",
