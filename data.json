@@ -2000,15 +2000,15 @@
   }
  },
  "gotestwaf": {
-  "Type": "Utility",
   "Data": "| Utility/WAF | [gotestwaf](https://github.com/wallarm/gotestwaf) | An open-source project in Golang to test different web application firewalls (WAF) for detection logic and bypasses | ![](https://img.shields.io/github/stars/wallarm/gotestwaf) | ![](https://img.shields.io/github/languages/top/wallarm/gotestwaf) |",
-  "Method": "WAF",
   "Description": "An open-source project in Golang to test different web application firewalls (WAF) for detection logic and bypasses",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "WAF",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -3645,6 +3645,22 @@
    "Linux": "git clone https://github.com/epsylon/xsser ; cd xsser ; python3 setup.py install",
    "MacOS": "git clone https://github.com/epsylon/xsser ; cd xsser ; python3 setup.py install",
    "Windows": "git clone https://github.com/epsylon/xsser ; cd xsser ; python3 setup.py install"
+  }
+ },
+ "xssor2": {
+  "Type": "Utility",
+  "Data": "| Utility/PAYLOAD | [xssor2](https://github.com/evilcos/xssor2) | XSS'OR - Hack with JavaScript. | ![](https://img.shields.io/github/stars/evilcos/xssor2) | ![](https://img.shields.io/github/languages/top/evilcos/xssor2) |",
+  "Method": "PAYLOAD",
+  "Description": "XSS'OR - Hack with JavaScript.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "xxeserv": {
