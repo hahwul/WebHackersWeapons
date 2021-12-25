@@ -1007,6 +1007,22 @@
    "Windows": "cd VHostScan ; git pull -v ; pip3 install -r requirements.txt"
   }
  },
+ "Web-Cache-Vulnerability-Scanner": {
+  "Type": "Scanner",
+  "Data": "| Scanner/CACHE | [Web-Cache-Vulnerability-Scanner](https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner) | Web Cache Vulnerability Scanner is a Go-based CLI tool for testing for web cache poisoning. It is developed by Hackmanit GmbH (http://hackmanit.de/). | ![](https://img.shields.io/github/stars/Hackmanit/Web-Cache-Vulnerability-Scanner) | ![](https://img.shields.io/github/languages/top/Hackmanit/Web-Cache-Vulnerability-Scanner) |",
+  "Method": "CACHE",
+  "Description": "Web Cache Vulnerability Scanner is a Go-based CLI tool for testing for web cache poisoning. It is developed by Hackmanit GmbH (http://hackmanit.de/).",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "XSRFProbe": {
   "Data": "| Scanner/CSRF | [XSRFProbe](https://github.com/0xInfection/XSRFProbe) | The Prime Cross Site Request Forgery (CSRF) Audit and Exploitation Toolkit. | ![](https://img.shields.io/github/stars/0xInfection/XSRFProbe) | ![](https://img.shields.io/github/languages/top/0xInfection/XSRFProbe) |",
   "Description": "The Prime Cross Site Request Forgery (CSRF) Audit and Exploitation Toolkit.",
@@ -3648,15 +3664,15 @@
   }
  },
  "xssor2": {
-  "Type": "Utility",
   "Data": "| Utility/PAYLOAD | [xssor2](https://github.com/evilcos/xssor2) | XSS'OR - Hack with JavaScript. | ![](https://img.shields.io/github/stars/evilcos/xssor2) | ![](https://img.shields.io/github/languages/top/evilcos/xssor2) |",
-  "Method": "PAYLOAD",
   "Description": "XSS'OR - Hack with JavaScript.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "PAYLOAD",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
