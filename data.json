@@ -1391,6 +1391,22 @@
    "Windows": "go get -u github.com/projectdiscovery/chaos-client/cmd/chaos"
   }
  },
+ "commix": {
+  "Type": "Scanner",
+  "Data": "| Scanner/RCE | [commix](https://github.com/commixproject/commix) | Automated All-in-One OS Command Injection Exploitation Tool. | ![](https://img.shields.io/github/stars/commixproject/commix) | ![](https://img.shields.io/github/languages/top/commixproject/commix) |",
+  "Method": "RCE",
+  "Description": "Automated All-in-One OS Command Injection Exploitation Tool.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "corsair_scan": {
   "Data": "| Scanner/CORS | [corsair_scan](https://github.com/Santandersecurityresearch/corsair_scan) | Corsair_scan is a security tool to test Cross-Origin Resource Sharing (CORS). | ![](https://img.shields.io/github/stars/Santandersecurityresearch/corsair_scan) | ![](https://img.shields.io/github/languages/top/Santandersecurityresearch/corsair_scan) |",
   "Description": "Corsair_scan is a security tool to test Cross-Origin Resource Sharing (CORS).",
@@ -3264,15 +3280,15 @@
   }
  },
  "subjs": {
-  "Type": "Discovery",
   "Data": "| Discovery/JS | [subjs](https://github.com/lc/subjs) | Fetches javascript file from a list of URLS or subdomains. | ![](https://img.shields.io/github/stars/lc/subjs) | ![](https://img.shields.io/github/languages/top/lc/subjs) |",
-  "Method": "JS",
   "Description": "Fetches javascript file from a list of URLS or subdomains.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "JS",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
