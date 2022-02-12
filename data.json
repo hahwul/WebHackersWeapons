@@ -287,6 +287,22 @@
    "Windows": ""
   }
  },
+ "DOMPurify": {
+  "Data": "| Scanner/XSS | [DOMPurify](https://github.com/cure53/DOMPurify) | DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMPurify works with a secure default, but offers a lot of configurability and hooks. Demo: | ![](https://img.shields.io/github/stars/cure53/DOMPurify) | ![](https://img.shields.io/github/languages/top/cure53/DOMPurify) |",
+  "Description": "DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMPurify works with a secure default, but offers a lot of configurability and hooks. Demo:",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "XSS",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "DSSS": {
   "Data": "| Scanner/SQLi | [DSSS](https://github.com/stamparm/DSSS) | Damn Small SQLi Scanner | ![](https://img.shields.io/github/stars/stamparm/DSSS) | ![](https://img.shields.io/github/languages/top/stamparm/DSSS) |",
   "Description": "Damn Small SQLi Scanner",
@@ -573,6 +589,22 @@
    "Linux": "cd OneForAll; git pull -v; pip3 install -r requirements.txt",
    "MacOS": "cd OneForAll; git pull -v; pip3 install -r requirements.txt",
    "Windows": "cd OneForAll; git pull -v; pip3 install -r requirements.txt"
+  }
+ },
+ "OpenRedireX": {
+  "Data": "| Scanner/REDIRECT | [OpenRedireX](https://github.com/devanshbatham/OpenRedireX) | A Fuzzer for OpenRedirect issues | ![](https://img.shields.io/github/stars/devanshbatham/OpenRedireX) | ![](https://img.shields.io/github/languages/top/devanshbatham/OpenRedireX) |",
+  "Description": "A Fuzzer for OpenRedirect issues",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "REDIRECT",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "Osmedeus": {
@@ -1392,15 +1424,15 @@
   }
  },
  "commix": {
-  "Type": "Scanner",
   "Data": "| Scanner/RCE | [commix](https://github.com/commixproject/commix) | Automated All-in-One OS Command Injection Exploitation Tool. | ![](https://img.shields.io/github/stars/commixproject/commix) | ![](https://img.shields.io/github/languages/top/commixproject/commix) |",
-  "Method": "RCE",
   "Description": "Automated All-in-One OS Command Injection Exploitation Tool.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "RCE",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1513,6 +1545,22 @@
   },
   "Method": "DOMAIN",
   "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "dmut": {
+  "Type": "Discovery",
+  "Data": "| Discovery/DOMAIN | [dmut](https://github.com/bp0lr/dmut) | A tool to perform permutations, mutations and alteration of subdomains in golang. | ![](https://img.shields.io/github/stars/bp0lr/dmut) | ![](https://img.shields.io/github/languages/top/bp0lr/dmut) |",
+  "Method": "DOMAIN",
+  "Description": "A tool to perform permutations, mutations and alteration of subdomains in golang.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
   "Update": {
    "Linux": "",
    "MacOS": "",
