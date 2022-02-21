@@ -1552,15 +1552,15 @@
   }
  },
  "dmut": {
-  "Type": "Discovery",
   "Data": "| Discovery/DOMAIN | [dmut](https://github.com/bp0lr/dmut) | A tool to perform permutations, mutations and alteration of subdomains in golang. | ![](https://img.shields.io/github/stars/bp0lr/dmut) | ![](https://img.shields.io/github/languages/top/bp0lr/dmut) |",
-  "Method": "DOMAIN",
   "Description": "A tool to perform permutations, mutations and alteration of subdomains in golang.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "DOMAIN",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1824,19 +1824,35 @@
   }
  },
  "gau": {
-  "Data": "| Utility/URL | [gau](https://github.com/lc/gau) | Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl. | ![](https://img.shields.io/github/stars/lc/gau) | ![](https://img.shields.io/github/languages/top/lc/gau) |",
-  "Description": "Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl. ",
+  "Type": "Discovery",
+  "Data": "| Discovery/URL | [gau](https://github.com/lc/gau) | Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl. | ![](https://img.shields.io/github/stars/lc/gau) | ![](https://img.shields.io/github/languages/top/lc/gau) |",
+  "Method": "URL",
+  "Description": "Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.",
   "Install": {
    "Linux": "GO111MODULE=on go get -u -v github.com/lc/gau",
    "MacOS": "GO111MODULE=on go get -u -v github.com/lc/gau",
    "Windows": "go get -u -v github.com/lc/gau"
   },
-  "Method": "URL",
-  "Type": "Utility",
   "Update": {
    "Linux": "GO111MODULE=on go get -u -v github.com/lc/gau",
    "MacOS": "GO111MODULE=on go get -u -v github.com/lc/gau",
    "Windows": "go get -u -v github.com/lc/gau"
+  }
+ },
+ "gauplus": {
+  "Data": "| Discovery/URL | [gauplus](https://github.com/bp0lr/gauplus) | A modified version of gau for personal usage. Support workers, proxies and some extra things. | ![](https://img.shields.io/github/stars/bp0lr/gauplus) | ![](https://img.shields.io/github/languages/top/bp0lr/gauplus) |",
+  "Description": "A modified version of gau for personal usage. Support workers, proxies and some extra things.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "URL",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "gee": {
@@ -2845,6 +2861,22 @@
    "Linux": "cd oxml_xxe ; git pull -v ; bundle install",
    "MacOS": "cd oxml_xxe ; git pull -v ; bundle install",
    "Windows": "cd oxml_xxe ; git pull -v ; bundle install"
+  }
+ },
+ "pagodo": {
+  "Data": "| Discovery/GH | [pagodo](https://github.com/opsdisk/pagodo) | pagodo (Passive Google Dork) - Automate Google Hacking Database scraping and searching | ![](https://img.shields.io/github/stars/opsdisk/pagodo) | ![](https://img.shields.io/github/languages/top/opsdisk/pagodo) |",
+  "Description": "pagodo (Passive Google Dork) - Automate Google Hacking Database scraping and searching",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "GH",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "pentest-tools": {
