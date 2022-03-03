@@ -1824,15 +1824,15 @@
   }
  },
  "gau": {
-  "Type": "Discovery",
   "Data": "| Discovery/URL | [gau](https://github.com/lc/gau) | Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl. | ![](https://img.shields.io/github/stars/lc/gau) | ![](https://img.shields.io/github/languages/top/lc/gau) |",
-  "Method": "URL",
   "Description": "Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.",
   "Install": {
    "Linux": "GO111MODULE=on go get -u -v github.com/lc/gau",
    "MacOS": "GO111MODULE=on go get -u -v github.com/lc/gau",
    "Windows": "go get -u -v github.com/lc/gau"
   },
+  "Method": "URL",
+  "Type": "Discovery",
   "Update": {
    "Linux": "GO111MODULE=on go get -u -v github.com/lc/gau",
    "MacOS": "GO111MODULE=on go get -u -v github.com/lc/gau",
@@ -3481,6 +3481,22 @@
   },
   "Method": "SSTI",
   "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "uncover": {
+  "Type": "Discovery",
+  "Data": "| Discovery/HOST | [uncover](https://github.com/projectdiscovery/uncover) | Quickly discover exposed hosts on the internet using multiple search engine. | ![](https://img.shields.io/github/stars/projectdiscovery/uncover) | ![](https://img.shields.io/github/languages/top/projectdiscovery/uncover) |",
+  "Method": "HOST",
+  "Description": "Quickly discover exposed hosts on the internet using multiple search engine.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
   "Update": {
    "Linux": "",
    "MacOS": "",
