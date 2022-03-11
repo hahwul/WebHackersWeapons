@@ -1663,6 +1663,22 @@
    "Windows": "cd domdig ; npm i"
   }
  },
+ "dontgo403": {
+  "Type": "Discovery",
+  "Data": "| Discovery/FUZZ | [dontgo403](https://github.com/devploit/dontgo403) | Tool to bypass 40X response codes. | ![](https://img.shields.io/github/stars/devploit/dontgo403) | ![](https://img.shields.io/github/languages/top/devploit/dontgo403) |",
+  "Method": "FUZZ",
+  "Description": "Tool to bypass 40X response codes.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "dotdotpwn": {
   "Data": "| Scanner/LFI | [dotdotpwn](https://github.com/wireghoul/dotdotpwn) | DotDotPwn - The Directory Traversal Fuzzer | ![](https://img.shields.io/github/stars/wireghoul/dotdotpwn) | ![](https://img.shields.io/github/languages/top/wireghoul/dotdotpwn) |",
   "Description": "DotDotPwn - The Directory Traversal Fuzzer ",
@@ -2879,6 +2895,22 @@
    "Windows": ""
   }
  },
+ "parameth": {
+  "Data": "| Discovery/PARAM | [parameth](https://github.com/maK-/parameth) | This tool can be used to brute discover GET and POST parameters | ![](https://img.shields.io/github/stars/maK-/parameth) | ![](https://img.shields.io/github/languages/top/maK-/parameth) |",
+  "Description": "This tool can be used to brute discover GET and POST parameters",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "PARAM",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "pentest-tools": {
   "Data": "| ToolBox/ALL | [pentest-tools](https://github.com/gwen001/pentest-tools) | Custom pentesting tools | ![](https://img.shields.io/github/stars/gwen001/pentest-tools) | ![](https://img.shields.io/github/languages/top/gwen001/pentest-tools) |",
   "Description": "Custom pentesting tools ",
@@ -3149,6 +3181,22 @@
    "Linux": "go get-u github.com/edoardottt/scilla",
    "MacOS": "go get-u github.com/edoardottt/scilla",
    "Windows": "go get-u github.com/edoardottt/scilla"
+  }
+ },
+ "security-crawl-maze": {
+  "Data": "| Discovery/URL | [security-crawl-maze](https://github.com/google/security-crawl-maze) | Security Crawl Maze is a comprehensive testbed for web security crawlers. It contains pages representing many ways in which one can link resources from a valid HTML document. | ![](https://img.shields.io/github/stars/google/security-crawl-maze) | ![](https://img.shields.io/github/languages/top/google/security-crawl-maze) |",
+  "Description": "Security Crawl Maze is a comprehensive testbed for web security crawlers. It contains pages representing many ways in which one can link resources from a valid HTML document.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "URL",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "security-research-pocs": {
@@ -3488,15 +3536,15 @@
   }
  },
  "uncover": {
-  "Type": "Discovery",
   "Data": "| Discovery/HOST | [uncover](https://github.com/projectdiscovery/uncover) | Quickly discover exposed hosts on the internet using multiple search engine. | ![](https://img.shields.io/github/stars/projectdiscovery/uncover) | ![](https://img.shields.io/github/languages/top/projectdiscovery/uncover) |",
-  "Method": "HOST",
   "Description": "Quickly discover exposed hosts on the internet using multiple search engine.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "HOST",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
