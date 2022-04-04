@@ -1008,14 +1008,14 @@
   }
  },
  "TukTuk": {
-  "Data": "| Utility/CALLBACK | [TukTuk](https://github.com/ArturSS7/TukTuk) | Tool for catching and logging different types of requests. | ![](https://img.shields.io/github/stars/ArturSS7/TukTuk) | ![](https://img.shields.io/github/languages/top/ArturSS7/TukTuk) |",
+  "Data": "| Utility/OAST | [TukTuk](https://github.com/ArturSS7/TukTuk) | Tool for catching and logging different types of requests. | ![](https://img.shields.io/github/stars/ArturSS7/TukTuk) | ![](https://img.shields.io/github/languages/top/ArturSS7/TukTuk) |",
   "Description": "Tool for catching and logging different types of requests. ",
   "Install": {
    "Linux": "git clone https://github.com/ArturSS7/TukTuk ; cd TukTuk; ./install.sh",
    "MacOS": "git clone https://github.com/ArturSS7/TukTuk ; cd TukTuk; ./install.sh",
    "Windows": "git clone https://github.com/ArturSS7/TukTuk ; cd TukTuk; ./install.sh"
   },
-  "Method": "CALLBACK",
+  "Method": "OAST",
   "Type": "Utility",
   "Update": {
    "Linux": "cd TukTuk; git pull -v ",
@@ -1280,14 +1280,14 @@
   }
  },
  "boast": {
-  "Data": "| Utility/CALLBACK | [boast](https://github.com/marcoagner/boast) | The BOAST Outpost for AppSec Testing (v0.1.0) | ![](https://img.shields.io/github/stars/marcoagner/boast) | ![](https://img.shields.io/github/languages/top/marcoagner/boast) |",
+  "Data": "| Utility/OAST | [boast](https://github.com/marcoagner/boast) | The BOAST Outpost for AppSec Testing (v0.1.0) | ![](https://img.shields.io/github/stars/marcoagner/boast) | ![](https://img.shields.io/github/languages/top/marcoagner/boast) |",
   "Description": "The BOAST Outpost for AppSec Testing (v0.1.0)",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
-  "Method": "CALLBACK",
+  "Method": "OAST",
   "Type": "Utility",
   "Update": {
    "Linux": "",
@@ -1568,14 +1568,14 @@
   }
  },
  "dnsobserver": {
-  "Data": "| Utility/CALLBACK | [dnsobserver](https://github.com/allyomalley/dnsobserver) | A handy DNS service written in Go to aid in the detection of several types of blind vulnerabilities. It monitors a pentester's server for out-of-band DNS interactions and sends lookup notifications via Slack. | ![](https://img.shields.io/github/stars/allyomalley/dnsobserver) | ![](https://img.shields.io/github/languages/top/allyomalley/dnsobserver) |",
+  "Data": "| Utility/OAST | [dnsobserver](https://github.com/allyomalley/dnsobserver) | A handy DNS service written in Go to aid in the detection of several types of blind vulnerabilities. It monitors a pentester's server for out-of-band DNS interactions and sends lookup notifications via Slack. | ![](https://img.shields.io/github/stars/allyomalley/dnsobserver) | ![](https://img.shields.io/github/languages/top/allyomalley/dnsobserver) |",
   "Description": "A handy DNS service written in Go to aid in the detection of several types of blind vulnerabilities. It monitors a pentester's server for out-of-band DNS interactions and sends lookup notifications via Slack. ",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
-  "Method": "CALLBACK",
+  "Method": "OAST",
   "Type": "Utility",
   "Update": {
    "Linux": "",
@@ -2528,14 +2528,14 @@
   }
  },
  "interactsh": {
-  "Data": "| Utility/CALLBACK | [interactsh](https://github.com/projectdiscovery/interactsh) | An OOB interaction gathering server and client library | ![](https://img.shields.io/github/stars/projectdiscovery/interactsh) | ![](https://img.shields.io/github/languages/top/projectdiscovery/interactsh) |",
+  "Data": "| Utility/OAST | [interactsh](https://github.com/projectdiscovery/interactsh) | An OOB interaction gathering server and client library | ![](https://img.shields.io/github/stars/projectdiscovery/interactsh) | ![](https://img.shields.io/github/languages/top/projectdiscovery/interactsh) |",
   "Description": "An OOB interaction gathering server and client library",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
-  "Method": "CALLBACK",
+  "Method": "OAST",
   "Type": "Utility",
   "Update": {
    "Linux": "",
