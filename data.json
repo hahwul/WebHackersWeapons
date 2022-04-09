@@ -1664,15 +1664,15 @@
   }
  },
  "dontgo403": {
-  "Type": "Discovery",
   "Data": "| Discovery/FUZZ | [dontgo403](https://github.com/devploit/dontgo403) | Tool to bypass 40X response codes. | ![](https://img.shields.io/github/stars/devploit/dontgo403) | ![](https://img.shields.io/github/languages/top/devploit/dontgo403) |",
-  "Method": "FUZZ",
   "Description": "Tool to bypass 40X response codes.",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "FUZZ",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -3117,6 +3117,22 @@
    "Linux": "cd recon_profile ; git pull -v",
    "MacOS": "cd recon_profile ; git pull -v",
    "Windows": "cd recon_profile ; git pull -v"
+  }
+ },
+ "reconftw": {
+  "Type": "Discovery",
+  "Data": "| Discovery/ALL | [reconftw](https://github.com/six2dez/reconftw) | reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities | ![](https://img.shields.io/github/stars/six2dez/reconftw) | ![](https://img.shields.io/github/languages/top/six2dez/reconftw) |",
+  "Method": "ALL",
+  "Description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "rengine": {
