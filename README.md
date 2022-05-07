@@ -280,6 +280,7 @@ A collection of cool tools used by Web hackers. Happy hacking , Happy bug-huntin
 | Utility/WORD | [longtongue](https://github.com/edoardottt/longtongue) | Customized Password/Passphrase List inputting Target Info | ![](https://img.shields.io/github/stars/edoardottt/longtongue) | ![](https://img.shields.io/github/languages/top/edoardottt/longtongue) |
 | Utility/WORD | [subs_all](https://github.com/emadshanab/subs_all) | Subdomain Enumeration Wordlist. 8956437 unique words. Updated. | ![](https://img.shields.io/github/stars/emadshanab/subs_all) | ![](https://img.shields.io/github/languages/top/emadshanab/subs_all) |
 | Utility/WORDLIST | [gotator](https://github.com/Josue87/gotator) | Gotator is a tool to generate DNS wordlists through permutations. | ![](https://img.shields.io/github/stars/Josue87/gotator) | ![](https://img.shields.io/github/languages/top/Josue87/gotator) |
+| Utility/XS-Leaks | [xsinator.com](https://github.com/RUB-NDS/xsinator.com) | XS-Leak Browser Test Suite | ![](https://img.shields.io/github/stars/RUB-NDS/xsinator.com) | ![](https://img.shields.io/github/languages/top/RUB-NDS/xsinator.com) |
 
 ## Thanks to (Contributor)
 I would like to thank everyone who helped with this project 👍😎 

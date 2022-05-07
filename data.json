@@ -3120,15 +3120,15 @@
   }
  },
  "reconftw": {
-  "Type": "Discovery",
   "Data": "| Discovery/ALL | [reconftw](https://github.com/six2dez/reconftw) | reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities | ![](https://img.shields.io/github/stars/six2dez/reconftw) | ![](https://img.shields.io/github/languages/top/six2dez/reconftw) |",
-  "Method": "ALL",
   "Description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "ALL",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -3805,6 +3805,22 @@
    "Linux": "go get github.com/asciimoo/wuzz",
    "MacOS": "go get github.com/asciimoo/wuzz",
    "Windows": "go get github.com/asciimoo/wuzz"
+  }
+ },
+ "xsinator.com": {
+  "Type": "Utility",
+  "Data": "| Utility/XS-Leaks | [xsinator.com](https://github.com/RUB-NDS/xsinator.com) | XS-Leak Browser Test Suite | ![](https://img.shields.io/github/stars/RUB-NDS/xsinator.com) | ![](https://img.shields.io/github/languages/top/RUB-NDS/xsinator.com) |",
+  "Method": "XS-Leaks",
+  "Description": "XS-Leak Browser Test Suite",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "xss-cheatsheet-data": {
