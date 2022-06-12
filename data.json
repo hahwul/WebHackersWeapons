@@ -224,15 +224,15 @@
   }
  },
  "Chromium-based-XSS-Taint-Tracking": {
-  "Type": "Scanner",
   "Data": "| Scanner/XSS | [Chromium-based-XSS-Taint-Tracking](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) | Cyclops 是一款具有 XSS 检测功能的浏览器 | ![](https://img.shields.io/github/stars/v8blink/Chromium-based-XSS-Taint-Tracking) | ![](https://img.shields.io/github/languages/top/v8blink/Chromium-based-XSS-Taint-Tracking) |",
-  "Method": "XSS",
   "Description": "Cyclops 是一款具有 XSS 检测功能的浏览器",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "XSS",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1449,6 +1449,22 @@
   },
   "Method": "RCE",
   "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "confused": {
+  "Type": "Scanner",
+  "Data": "| Scanner/CONFUSE | [confused](https://github.com/visma-prodsec/confused) | Tool to check for dependency confusion vulnerabilities in multiple package management systems | ![](https://img.shields.io/github/stars/visma-prodsec/confused) | ![](https://img.shields.io/github/languages/top/visma-prodsec/confused) |",
+  "Method": "CONFUSE",
+  "Description": "Tool to check for dependency confusion vulnerabilities in multiple package management systems",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
   "Update": {
    "Linux": "",
    "MacOS": "",
