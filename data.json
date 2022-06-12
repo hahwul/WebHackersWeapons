@@ -223,6 +223,22 @@
    "Windows": ""
   }
  },
+ "Chromium-based-XSS-Taint-Tracking": {
+  "Type": "Scanner",
+  "Data": "| Scanner/XSS | [Chromium-based-XSS-Taint-Tracking](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) | Cyclops 是一款具有 XSS 检测功能的浏览器 | ![](https://img.shields.io/github/stars/v8blink/Chromium-based-XSS-Taint-Tracking) | ![](https://img.shields.io/github/languages/top/v8blink/Chromium-based-XSS-Taint-Tracking) |",
+  "Method": "XSS",
+  "Description": "Cyclops 是一款具有 XSS 检测功能的浏览器",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "CorsMe": {
   "Data": "| Scanner/CORS | [CorsMe](https://github.com/Shivangx01b/CorsMe) | Cross Origin Resource Sharing MisConfiguration Scanner | ![](https://img.shields.io/github/stars/Shivangx01b/CorsMe) | ![](https://img.shields.io/github/languages/top/Shivangx01b/CorsMe) |",
   "Description": "Cross Origin Resource Sharing MisConfiguration Scanner ",
@@ -3808,15 +3824,15 @@
   }
  },
  "xsinator.com": {
-  "Type": "Utility",
   "Data": "| Utility/XS-Leaks | [xsinator.com](https://github.com/RUB-NDS/xsinator.com) | XS-Leak Browser Test Suite | ![](https://img.shields.io/github/stars/RUB-NDS/xsinator.com) | ![](https://img.shields.io/github/languages/top/RUB-NDS/xsinator.com) |",
-  "Method": "XS-Leaks",
   "Description": "XS-Leak Browser Test Suite",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "XS-Leaks",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
