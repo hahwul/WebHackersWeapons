@@ -224,8 +224,8 @@
   }
  },
  "Chromium-based-XSS-Taint-Tracking": {
-  "Data": "| Scanner/XSS | [Chromium-based-XSS-Taint-Tracking](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) | Cyclops 是一款具有 XSS 检测功能的浏览器 | ![](https://img.shields.io/github/stars/v8blink/Chromium-based-XSS-Taint-Tracking) | ![](https://img.shields.io/github/languages/top/v8blink/Chromium-based-XSS-Taint-Tracking) |",
-  "Description": "Cyclops 是一款具有 XSS 检测功能的浏览器",
+  "Data": "| Scanner/XSS | [Cyclops](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) | Cyclops is a web browser with XSS detection feature, it is chromium-based xss detection that used to find the flows from a source to a sink. | ![](https://img.shields.io/github/stars/v8blink/Chromium-based-XSS-Taint-Tracking) | ![](https://img.shields.io/github/languages/top/v8blink/Chromium-based-XSS-Taint-Tracking) |",
+  "Description": "Cyclops is a web browser with XSS detection feature, it is chromium-based xss detection that used to find the flows from a source to a sink.",
   "Install": {
    "Linux": "",
    "MacOS": "",
