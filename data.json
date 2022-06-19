@@ -1456,15 +1456,15 @@
   }
  },
  "confused": {
-  "Type": "Scanner",
   "Data": "| Scanner/CONFUSE | [confused](https://github.com/visma-prodsec/confused) | Tool to check for dependency confusion vulnerabilities in multiple package management systems | ![](https://img.shields.io/github/stars/visma-prodsec/confused) | ![](https://img.shields.io/github/languages/top/visma-prodsec/confused) |",
-  "Method": "CONFUSE",
   "Description": "Tool to check for dependency confusion vulnerabilities in multiple package management systems",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "CONFUSE",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -3837,6 +3837,22 @@
    "Linux": "go get github.com/asciimoo/wuzz",
    "MacOS": "go get github.com/asciimoo/wuzz",
    "Windows": "go get github.com/asciimoo/wuzz"
+  }
+ },
+ "x8": {
+  "Type": "Discovery",
+  "Data": "| Discovery/PARAM | [x8](https://github.com/Sh1Yo/x8) | Hidden parameters discovery suite | ![](https://img.shields.io/github/stars/Sh1Yo/x8) | ![](https://img.shields.io/github/languages/top/Sh1Yo/x8) |",
+  "Method": "PARAM",
+  "Description": "Hidden parameters discovery suite",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "xsinator.com": {
