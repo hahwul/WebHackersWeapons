@@ -73,7 +73,7 @@ def migrate jsonfile, category
 
           # Save yaml file
           puts filename
-          #File.write("./data/#{filename}", yaml_data)
+          #File.write("./weapons/#{filename}", yaml_data)
      end
 end 
 
