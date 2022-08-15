@@ -20,7 +20,7 @@ def get_urls str
      return URI.extract(str).uniq
 end
 
-def migrate jsonfile
+def migrate jsonfile, category
      file = File.read(jsonfile)
      data_hash = JSON.parse(file)
 
@@ -31,7 +31,7 @@ def migrate jsonfile
           new_obj['name'] = name
           new_obj['description'] = obj['Description']
           new_obj['urls'] = get_urls obj['Data']
-          new_obj['category'] = 'tool'
+          new_obj['category'] = category
           new_obj['types'] = []
           if obj['Install'] != nil 
                new_obj['os'] = get_os(obj['Install'])
@@ -48,7 +48,7 @@ def migrate jsonfile
      end
 end 
 
-migrate './data.json'
-migrate './Bookmarklets/data.json'
-migrate './Browser Extensions/data.json'
-migrate './Burp and ZAP Extensions/data.json'
+migrate './data.json', 'tool'
+migrate './Bookmarklets/data.json', 'bookmarklet'
+migrate './Browser Extensions/data.json', 'browser-addon'
+migrate './Burp and ZAP Extensions/data.json', 'tool-addon'
