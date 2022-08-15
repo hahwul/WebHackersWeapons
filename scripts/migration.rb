@@ -16,6 +16,30 @@ def get_os install
      return lst
 end
 
+def get_browser str
+     lst = []
+     if str.include? 'Chrome'
+          lst.push 'chrome'
+     end
+     if str.include? 'Firefox'
+          lst.push 'firefox'
+     end
+     if str.include? 'Safari'
+          lst.push 'safari'
+     end
+     if str.include? 'Burp'
+          lst.push 'burpsuite'
+     end
+     if str.include? 'ZAP'
+          lst.push 'zap'
+     end
+     if str.include? 'All'
+          lst.push 'burpsuite'
+          lst.push 'zap'
+     end
+     return lst
+end
+
 def get_urls str
      return URI.extract(str).uniq
 end
@@ -34,7 +58,12 @@ def migrate jsonfile, category
           new_obj['category'] = category
           new_obj['types'] = []
           if obj['Install'] != nil 
-               new_obj['os'] = get_os(obj['Install'])
+               new_obj['platform'] = get_os(obj['Install'])
+          end
+          if category.include? 'addon'
+               if obj['Type'].length > 0 
+                    new_obj['platform'] = get_browser(obj['Type'])
+               end
           end
           new_obj['lang'] = [] # parse DATA
           new_obj['tags'] = []
