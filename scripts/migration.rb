@@ -1,5 +1,6 @@
 require 'json'
 require 'yaml'
+require "uri"
 
 def get_os install
      lst = []
@@ -15,6 +16,10 @@ def get_os install
      return lst
 end
 
+def get_urls str
+     return URI.extract(str).uniq
+end
+
 file = File.read('./data.json')
 data_hash = JSON.parse(file)
 
@@ -24,7 +29,7 @@ data_hash.each do | name, obj |
      new_obj = {}
      new_obj['name'] = name
      new_obj['description'] = obj['Description']
-     new_obj['url'] = '' # parse DATA
+     new_obj['urls'] = get_urls obj['Data']
      new_obj['category'] = 'tool'
      new_obj['types'] = []
      if obj['Install'] != nil 
