@@ -1,0 +1,15 @@
+---
+name: gitGraber
+description: 'gitGraber '
+urls:
+- https://github.com/hisxo/gitGraber)
+- https://img.shields.io/github/stars/hisxo/gitGraber)
+- https://img.shields.io/github/languages/top/hisxo/gitGraber)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

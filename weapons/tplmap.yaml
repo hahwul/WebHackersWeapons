@@ -1,0 +1,13 @@
+---
+name: tplmap
+description: Server-Side Template Injection and Code Injection Detection and Exploitation
+  Tool
+urls:
+- https://github.com/epinna/tplmap)
+- https://img.shields.io/github/stars/epinna/tplmap)
+- https://img.shields.io/github/languages/top/epinna/tplmap)
+category: tool
+types: []
+platform: []
+lang: []
+tags: []

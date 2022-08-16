@@ -44,6 +44,12 @@ def get_urls str
      return URI.extract(str).uniq
 end
 
+def get_lang url
+     if url.include? "https://github.com"
+          
+     end
+end
+
 def migrate jsonfile, category
      file = File.read(jsonfile)
      data_hash = JSON.parse(file)
@@ -73,7 +79,7 @@ def migrate jsonfile, category
 
           # Save yaml file
           puts filename
-          #File.write("./weapons/#{filename}", yaml_data)
+          File.write("./weapons/#{filename}", yaml_data)
      end
 end 
 

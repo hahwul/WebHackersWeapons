@@ -1,0 +1,16 @@
+---
+name: scilla
+description: "\U0001F3F4‍☠️ Information Gathering tool \U0001F3F4‍☠️ dns/subdomain/port
+  enumeration"
+urls:
+- https://github.com/edoardottt/scilla)
+- https://img.shields.io/github/stars/edoardottt/scilla)
+- https://img.shields.io/github/languages/top/edoardottt/scilla)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

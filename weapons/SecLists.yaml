@@ -1,0 +1,18 @@
+---
+name: SecLists
+description: 'SecLists is the security tester''s companion. It''s a collection of
+  multiple types of lists used during security assessments, collected in one place.
+  List types include usernames, passwords, URLs, sensitive data patterns, fuzzing
+  payloads, web shells, and many more. '
+urls:
+- https://github.com/danielmiessler/SecLists)
+- https://img.shields.io/github/stars/danielmiessler/SecLists)
+- https://img.shields.io/github/languages/top/danielmiessler/SecLists)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

@@ -1,0 +1,15 @@
+---
+name: jaeles
+description: 'The Swiss Army knife for automated Web Application Testing '
+urls:
+- https://github.com/jaeles-project/jaeles)
+- https://img.shields.io/github/stars/jaeles-project/jaeles)
+- https://img.shields.io/github/languages/top/jaeles-project/jaeles)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

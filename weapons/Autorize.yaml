@@ -1,0 +1,13 @@
+---
+name: Autorize
+description:
+urls:
+- https://github.com/Quitten/Autorize)
+- https://img.shields.io/github/stars/Quitten/Autorize)
+- https://img.shields.io/github/languages/top/Quitten/Autorize)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

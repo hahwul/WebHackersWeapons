@@ -1,0 +1,12 @@
+---
+name: 230-OOB
+description: An Out-of-Band XXE server for retrieving file contents over FTP.
+urls:
+- https://github.com/lc/230-OOB)
+- https://img.shields.io/github/stars/lc/230-OOB)
+- https://img.shields.io/github/languages/top/lc/230-OOB)
+category: tool
+types: []
+platform: []
+lang: []
+tags: []

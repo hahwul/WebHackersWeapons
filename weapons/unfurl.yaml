@@ -1,0 +1,15 @@
+---
+name: unfurl
+description: 'Pull out bits of URLs provided on stdin '
+urls:
+- https://github.com/tomnomnom/unfurl)
+- https://img.shields.io/github/stars/tomnomnom/unfurl)
+- https://img.shields.io/github/languages/top/tomnomnom/unfurl)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

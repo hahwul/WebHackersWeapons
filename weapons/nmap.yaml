@@ -1,0 +1,14 @@
+---
+name: nmap
+description: 'Nmap - the Network Mapper. Github mirror of official SVN repository. '
+urls:
+- https://github.com/nmap/nmap)
+- https://img.shields.io/github/stars/nmap/nmap)
+- https://img.shields.io/github/languages/top/nmap/nmap)
+category: tool
+types: []
+platform:
+- linux
+- macos
+lang: []
+tags: []

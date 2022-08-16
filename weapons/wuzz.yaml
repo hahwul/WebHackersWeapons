@@ -1,0 +1,15 @@
+---
+name: wuzz
+description: 'Interactive cli tool for HTTP inspection '
+urls:
+- https://github.com/asciimoo/wuzz)
+- https://img.shields.io/github/stars/asciimoo/wuzz)
+- https://img.shields.io/github/languages/top/asciimoo/wuzz)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

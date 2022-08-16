@@ -1,0 +1,13 @@
+---
+name: CT_subdomains
+description: 'An hourly updated list of subdomains gathered from certificate transparency
+  logs '
+urls:
+- https://github.com/internetwache/CT_subdomains)
+- https://img.shields.io/github/stars/internetwache/CT_subdomains)
+- https://img.shields.io/github/languages/top/internetwache/CT_subdomains)
+category: tool
+types: []
+platform: []
+lang: []
+tags: []

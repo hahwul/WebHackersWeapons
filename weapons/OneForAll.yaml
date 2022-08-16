@@ -1,0 +1,15 @@
+---
+name: OneForAll
+description: 'OneForAll是一款功能强大的子域收集工具 '
+urls:
+- https://github.com/shmilylty/OneForAll)
+- https://img.shields.io/github/stars/shmilylty/OneForAll)
+- https://img.shields.io/github/languages/top/shmilylty/OneForAll)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

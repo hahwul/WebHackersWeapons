@@ -1,0 +1,15 @@
+---
+name: DOMPurify
+description: 'DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer for
+  HTML, MathML and SVG. DOMPurify works with a secure default, but offers a lot of
+  configurability and hooks. Demo:'
+urls:
+- https://github.com/cure53/DOMPurify)
+- 'Demo:'
+- https://img.shields.io/github/stars/cure53/DOMPurify)
+- https://img.shields.io/github/languages/top/cure53/DOMPurify)
+category: tool
+types: []
+platform: []
+lang: []
+tags: []

@@ -1,0 +1,14 @@
+---
+name: pet
+description: Simple command-line snippet manager, written in Go.
+urls:
+- https://github.com/knqyf263/pet)
+- https://img.shields.io/github/stars/knqyf263/pet)
+- https://img.shields.io/github/languages/top/knqyf263/pet)
+category: tool
+types: []
+platform:
+- linux
+- macos
+lang: []
+tags: []

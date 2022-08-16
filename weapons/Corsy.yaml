@@ -1,0 +1,15 @@
+---
+name: Corsy
+description: 'CORS Misconfiguration Scanner '
+urls:
+- https://github.com/s0md3v/Corsy)
+- https://img.shields.io/github/stars/s0md3v/Corsy)
+- https://img.shields.io/github/languages/top/s0md3v/Corsy)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

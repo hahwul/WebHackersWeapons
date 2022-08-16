@@ -1,0 +1,13 @@
+---
+name: http-request-smuggler
+description:
+urls:
+- https://github.com/PortSwigger/http-request-smuggler)
+- https://img.shields.io/github/stars/PortSwigger/http-request-smuggler)
+- https://img.shields.io/github/languages/top/PortSwigger/http-request-smuggler)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

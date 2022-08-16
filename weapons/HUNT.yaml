@@ -1,0 +1,14 @@
+---
+name: HUNT
+description:
+urls:
+- https://github.com/bugcrowd/HUNT)
+- https://img.shields.io/github/stars/bugcrowd/HUNT)
+- https://img.shields.io/github/languages/top/bugcrowd/HUNT)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+- zap
+lang: []
+tags: []

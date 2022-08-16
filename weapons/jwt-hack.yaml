@@ -1,0 +1,16 @@
+---
+name: jwt-hack
+description: "\U0001F529 jwt-hack is tool for hacking / security testing to JWT. Supported
+  for En/decoding JWT, Generate payload for JWT attack and very fast cracking(dict/brutefoce)"
+urls:
+- https://github.com/hahwul/jwt-hack)
+- https://img.shields.io/github/stars/hahwul/jwt-hack)
+- https://img.shields.io/github/languages/top/hahwul/jwt-hack)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

@@ -1,0 +1,16 @@
+---
+name: altdns
+description: 'Generates permutations, alterations and mutations of subdomains and
+  then resolves them '
+urls:
+- https://github.com/infosec-au/altdns)
+- https://img.shields.io/github/stars/infosec-au/altdns)
+- https://img.shields.io/github/languages/top/infosec-au/altdns)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

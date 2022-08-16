@@ -1,0 +1,13 @@
+---
+name: BurpCustomizer
+description: Because just a dark theme wasn't enough!
+urls:
+- https://github.com/CoreyD97/BurpCustomizer)
+- https://img.shields.io/github/stars/CoreyD97/BurpCustomizer)
+- https://img.shields.io/github/languages/top/CoreyD97/BurpCustomizer)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

@@ -1,0 +1,15 @@
+---
+name: Striker
+description: 'Striker is an offensive information and vulnerability scanner. '
+urls:
+- https://github.com/s0md3v/Striker)
+- https://img.shields.io/github/stars/s0md3v/Striker)
+- https://img.shields.io/github/languages/top/s0md3v/Striker)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

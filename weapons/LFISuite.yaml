@@ -1,0 +1,15 @@
+---
+name: LFISuite
+description: 'Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner '
+urls:
+- https://github.com/D35m0nd142/LFISuite)
+- https://img.shields.io/github/stars/D35m0nd142/LFISuite)
+- https://img.shields.io/github/languages/top/D35m0nd142/LFISuite)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

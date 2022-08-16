@@ -1,0 +1,13 @@
+---
+name: grex
+description: A command-line tool and library for generating regular expressions from
+  user-provided test cases
+urls:
+- https://github.com/pemistahl/grex)
+- https://img.shields.io/github/stars/pemistahl/grex)
+- https://img.shields.io/github/languages/top/pemistahl/grex)
+category: tool
+types: []
+platform: []
+lang: []
+tags: []

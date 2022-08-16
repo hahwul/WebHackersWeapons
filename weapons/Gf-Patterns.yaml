@@ -1,0 +1,16 @@
+---
+name: Gf-Patterns
+description: 'GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic)
+  parameters grep '
+urls:
+- https://github.com/1ndianl33t/Gf-Patterns)
+- https://img.shields.io/github/stars/1ndianl33t/Gf-Patterns)
+- https://img.shields.io/github/languages/top/1ndianl33t/Gf-Patterns)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

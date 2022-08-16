@@ -1,0 +1,17 @@
+---
+name: rengine
+description: 'reNgine is an automated reconnaissance framework meant for gathering
+  information during penetration testing of web applications. reNgine has customizable
+  scan engines, which can be used to scan the websites, endpoints, and gather information. '
+urls:
+- https://github.com/yogeshojha/rengine)
+- https://img.shields.io/github/stars/yogeshojha/rengine)
+- https://img.shields.io/github/languages/top/yogeshojha/rengine)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

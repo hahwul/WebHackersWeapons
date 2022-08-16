@@ -1,0 +1,12 @@
+---
+name: weaponised-XSS-payloads
+description: XSS payloads designed to turn alert(1) into P1
+urls:
+- https://github.com/hakluke/weaponised-XSS-payloads)
+- https://img.shields.io/github/stars/hakluke/weaponised-XSS-payloads)
+- https://img.shields.io/github/languages/top/hakluke/weaponised-XSS-payloads)
+category: tool
+types: []
+platform: []
+lang: []
+tags: []

@@ -1,0 +1,13 @@
+---
+name: attack-surface-detector-zap
+description:
+urls:
+- https://github.com/secdec/attack-surface-detector-zap)
+- https://img.shields.io/github/stars/secdec/attack-surface-detector-zap)
+- https://img.shields.io/github/languages/top/secdec/attack-surface-detector-zap)
+category: tool-addon
+types: []
+platform:
+- zap
+lang: []
+tags: []

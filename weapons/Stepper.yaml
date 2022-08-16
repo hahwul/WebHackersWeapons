@@ -1,0 +1,13 @@
+---
+name: Stepper
+description:
+urls:
+- https://github.com/CoreyD97/Stepper)
+- https://img.shields.io/github/stars/CoreyD97/Stepper)
+- https://img.shields.io/github/languages/top/CoreyD97/Stepper)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

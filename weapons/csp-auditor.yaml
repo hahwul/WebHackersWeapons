@@ -1,0 +1,14 @@
+---
+name: csp-auditor
+description:
+urls:
+- https://github.com/GoSecure/csp-auditor)
+- https://img.shields.io/github/stars/GoSecure/csp-auditor)
+- https://img.shields.io/github/languages/top/GoSecure/csp-auditor)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+- zap
+lang: []
+tags: []

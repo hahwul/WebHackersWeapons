@@ -1,0 +1,13 @@
+---
+name: IntruderPayloads
+description:
+urls:
+- https://github.com/1N3/IntruderPayloads)
+- https://img.shields.io/github/stars/1N3/IntruderPayloads)
+- https://img.shields.io/github/languages/top/1N3/IntruderPayloads)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

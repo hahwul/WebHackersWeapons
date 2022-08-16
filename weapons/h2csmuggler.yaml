@@ -1,0 +1,15 @@
+---
+name: h2csmuggler
+description: HTTP Request Smuggling Detection Tool
+urls:
+- https://github.com/assetnote/h2csmuggler)
+- https://img.shields.io/github/stars/assetnote/h2csmuggler)
+- https://img.shields.io/github/languages/top/assetnote/h2csmuggler)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

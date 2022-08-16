@@ -1,0 +1,13 @@
+---
+name: owasp-zap-jwt-addon
+description:
+urls:
+- https://github.com/SasanLabs/owasp-zap-jwt-addon)
+- https://img.shields.io/github/stars/SasanLabs/owasp-zap-jwt-addon)
+- https://img.shields.io/github/languages/top/SasanLabs/owasp-zap-jwt-addon)
+category: tool-addon
+types: []
+platform:
+- zap
+lang: []
+tags: []

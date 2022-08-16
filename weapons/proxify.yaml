@@ -1,0 +1,13 @@
+---
+name: proxify
+description: Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation
+  and replay
+urls:
+- https://github.com/projectdiscovery/proxify)
+- https://img.shields.io/github/stars/projectdiscovery/proxify)
+- https://img.shields.io/github/languages/top/projectdiscovery/proxify)
+category: tool
+types: []
+platform: []
+lang: []
+tags: []

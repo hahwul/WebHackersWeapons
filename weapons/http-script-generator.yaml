@@ -1,0 +1,14 @@
+---
+name: http-script-generator
+description:
+urls:
+- https://github.com/h3xstream/http-script-generator)
+- https://img.shields.io/github/stars/h3xstream/http-script-generator)
+- https://img.shields.io/github/languages/top/h3xstream/http-script-generator)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+- zap
+lang: []
+tags: []

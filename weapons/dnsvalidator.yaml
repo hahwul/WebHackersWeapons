@@ -1,0 +1,13 @@
+---
+name: dnsvalidator
+description: Maintains a list of IPv4 DNS servers by verifying them against baseline
+  servers, and ensuring accurate responses.
+urls:
+- https://github.com/vortexau/dnsvalidator)
+- https://img.shields.io/github/stars/vortexau/dnsvalidator)
+- https://img.shields.io/github/languages/top/vortexau/dnsvalidator)
+category: tool
+types: []
+platform: []
+lang: []
+tags: []

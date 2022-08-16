@@ -1,0 +1,12 @@
+---
+name: hakcheckurl
+description: Takes a list of URLs and returns their HTTP response codes
+urls:
+- https://github.com/hakluke/hakcheckurl)
+- https://img.shields.io/github/stars/hakluke/hakcheckurl)
+- https://img.shields.io/github/languages/top/hakluke/hakcheckurl)
+category: tool
+types: []
+platform: []
+lang: []
+tags: []

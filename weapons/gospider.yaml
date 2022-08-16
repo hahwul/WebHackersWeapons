@@ -1,0 +1,15 @@
+---
+name: gospider
+description: 'Gospider - Fast web spider written in Go '
+urls:
+- https://github.com/jaeles-project/gospider)
+- https://img.shields.io/github/stars/jaeles-project/gospider)
+- https://img.shields.io/github/languages/top/jaeles-project/gospider)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

@@ -1,0 +1,13 @@
+---
+name: confused
+description: Tool to check for dependency confusion vulnerabilities in multiple package
+  management systems
+urls:
+- https://github.com/visma-prodsec/confused)
+- https://img.shields.io/github/stars/visma-prodsec/confused)
+- https://img.shields.io/github/languages/top/visma-prodsec/confused)
+category: tool
+types: []
+platform: []
+lang: []
+tags: []

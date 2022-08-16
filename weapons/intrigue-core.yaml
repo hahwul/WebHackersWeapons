@@ -1,0 +1,15 @@
+---
+name: intrigue-core
+description: 'Discover Your Attack Surface '
+urls:
+- https://github.com/intrigueio/intrigue-core)
+- https://img.shields.io/github/stars/intrigueio/intrigue-core)
+- https://img.shields.io/github/languages/top/intrigueio/intrigue-core)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

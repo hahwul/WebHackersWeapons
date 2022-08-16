@@ -1,0 +1,13 @@
+---
+name: BurpSuiteHTTPSmuggler
+description:
+urls:
+- https://github.com/nccgroup/BurpSuiteHTTPSmuggler)
+- https://img.shields.io/github/stars/nccgroup/BurpSuiteHTTPSmuggler)
+- https://img.shields.io/github/languages/top/nccgroup/BurpSuiteHTTPSmuggler)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

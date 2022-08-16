@@ -1,0 +1,13 @@
+---
+name: BurpBounty
+description:
+urls:
+- https://github.com/wagiro/BurpBounty)
+- https://img.shields.io/github/stars/wagiro/BurpBounty)
+- https://img.shields.io/github/languages/top/wagiro/BurpBounty)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

@@ -1,0 +1,13 @@
+---
+name: ppmap
+description: A scanner/exploitation tool written in GO, which leverages client-side
+  Prototype Pollution to XSS by exploiting known gadgets.
+urls:
+- https://github.com/kleiton0x00/ppmap)
+- https://img.shields.io/github/stars/kleiton0x00/ppmap)
+- https://img.shields.io/github/languages/top/kleiton0x00/ppmap)
+category: tool
+types: []
+platform: []
+lang: []
+tags: []

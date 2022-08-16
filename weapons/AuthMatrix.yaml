@@ -1,0 +1,13 @@
+---
+name: AuthMatrix
+description:
+urls:
+- https://github.com/SecurityInnovation/AuthMatrix)
+- https://img.shields.io/github/stars/SecurityInnovation/AuthMatrix)
+- https://img.shields.io/github/languages/top/SecurityInnovation/AuthMatrix)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

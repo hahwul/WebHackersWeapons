@@ -1,0 +1,16 @@
+---
+name: nuclei
+description: 'Nuclei is a fast tool for configurable targeted scanning based on templates
+  offering massive extensibility and ease of use. '
+urls:
+- https://github.com/projectdiscovery/nuclei)
+- https://img.shields.io/github/stars/projectdiscovery/nuclei)
+- https://img.shields.io/github/languages/top/projectdiscovery/nuclei)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

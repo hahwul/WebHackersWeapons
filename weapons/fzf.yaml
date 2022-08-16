@@ -1,0 +1,15 @@
+---
+name: fzf
+description: A command-line fuzzy finder
+urls:
+- https://github.com/junegunn/fzf)
+- https://img.shields.io/github/stars/junegunn/fzf)
+- https://img.shields.io/github/languages/top/junegunn/fzf)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

@@ -1,0 +1,13 @@
+---
+name: turbo-intruder
+description:
+urls:
+- https://github.com/PortSwigger/turbo-intruder)
+- https://img.shields.io/github/stars/PortSwigger/turbo-intruder)
+- https://img.shields.io/github/languages/top/PortSwigger/turbo-intruder)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

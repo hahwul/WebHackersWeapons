@@ -1,0 +1,15 @@
+---
+name: GitMiner
+description: 'Tool for advanced mining for content on Github '
+urls:
+- https://github.com/UnkL4b/GitMiner)
+- https://img.shields.io/github/stars/UnkL4b/GitMiner)
+- https://img.shields.io/github/languages/top/UnkL4b/GitMiner)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

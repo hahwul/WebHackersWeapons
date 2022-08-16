@@ -1,0 +1,12 @@
+---
+name: gitls
+description: Listing git repository from URL/User/Org
+urls:
+- https://github.com/hahwul/gitls)
+- https://img.shields.io/github/stars/hahwul/gitls)
+- https://img.shields.io/github/languages/top/hahwul/gitls)
+category: tool
+types: []
+platform: []
+lang: []
+tags: []

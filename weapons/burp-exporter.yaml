@@ -1,0 +1,13 @@
+---
+name: burp-exporter
+description:
+urls:
+- https://github.com/artssec/burp-exporter)
+- https://img.shields.io/github/stars/artssec/burp-exporter)
+- https://img.shields.io/github/languages/top/artssec/burp-exporter)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

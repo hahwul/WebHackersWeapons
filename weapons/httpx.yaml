@@ -1,0 +1,17 @@
+---
+name: httpx
+description: 'httpx is a fast and multi-purpose HTTP toolkit allow to run multiple
+  probers using retryablehttp library, it is designed to maintain the result reliability
+  with increased threads. '
+urls:
+- https://github.com/projectdiscovery/httpx)
+- https://img.shields.io/github/stars/projectdiscovery/httpx)
+- https://img.shields.io/github/languages/top/projectdiscovery/httpx)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

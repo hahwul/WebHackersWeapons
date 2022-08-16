@@ -1,0 +1,15 @@
+---
+name: knock
+description: 'Knock Subdomain Scan '
+urls:
+- https://github.com/guelfoweb/knock)
+- https://img.shields.io/github/stars/guelfoweb/knock)
+- https://img.shields.io/github/languages/top/guelfoweb/knock)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

@@ -1,0 +1,17 @@
+---
+name: subfinder
+description: 'Subfinder is a subdomain discovery tool that discovers valid subdomains
+  for websites. Designed as a passive framework to be useful for bug bounties and
+  safe for penetration testing. '
+urls:
+- https://github.com/projectdiscovery/subfinder)
+- https://img.shields.io/github/stars/projectdiscovery/subfinder)
+- https://img.shields.io/github/languages/top/projectdiscovery/subfinder)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

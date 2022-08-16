@@ -1,0 +1,15 @@
+---
+name: ssrf-sheriff
+description: 'A simple SSRF-testing sheriff written in Go '
+urls:
+- https://github.com/teknogeek/ssrf-sheriff)
+- https://img.shields.io/github/stars/teknogeek/ssrf-sheriff)
+- https://img.shields.io/github/languages/top/teknogeek/ssrf-sheriff)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

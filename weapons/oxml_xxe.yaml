@@ -1,0 +1,15 @@
+---
+name: oxml_xxe
+description: 'A tool for embedding XXE/XML exploits into different filetypes '
+urls:
+- https://github.com/BuffaloWill/oxml_xxe)
+- https://img.shields.io/github/stars/BuffaloWill/oxml_xxe)
+- https://img.shields.io/github/languages/top/BuffaloWill/oxml_xxe)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

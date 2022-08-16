@@ -1,0 +1,13 @@
+---
+name: burp-piper
+description:
+urls:
+- https://github.com/silentsignal/burp-piper)
+- https://img.shields.io/github/stars/silentsignal/burp-piper)
+- https://img.shields.io/github/languages/top/silentsignal/burp-piper)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

@@ -1,0 +1,14 @@
+---
+name: Edit-This-Cookie
+description: EditThisCookie is the famous Google Chrome/Chromium extension for editing
+  cookies
+urls:
+- https://github.com/ETCExtensions/Edit-This-Cookie)
+- https://img.shields.io/github/stars/ETCExtensions/Edit-This-Cookie)
+- https://img.shields.io/github/languages/top/ETCExtensions/Edit-This-Cookie)
+category: browser-addon
+types: []
+platform:
+- chrome
+lang: []
+tags: []

@@ -1,0 +1,13 @@
+---
+name: collaborator-everywhere
+description:
+urls:
+- https://github.com/PortSwigger/collaborator-everywhere)
+- https://img.shields.io/github/stars/PortSwigger/collaborator-everywhere)
+- https://img.shields.io/github/languages/top/PortSwigger/collaborator-everywhere)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

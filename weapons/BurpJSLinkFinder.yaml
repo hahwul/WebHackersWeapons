@@ -1,0 +1,13 @@
+---
+name: BurpJSLinkFinder
+description:
+urls:
+- https://github.com/InitRoot/BurpJSLinkFinder)
+- https://img.shields.io/github/stars/InitRoot/BurpJSLinkFinder)
+- https://img.shields.io/github/languages/top/InitRoot/BurpJSLinkFinder)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

@@ -1,0 +1,17 @@
+---
+name: naabu
+description: 'A fast port scanner written in go with focus on reliability and simplicity.
+  Designed to be used in combination with other tools for attack surface discovery
+  in bug bounties and pentests '
+urls:
+- https://github.com/projectdiscovery/naabu)
+- https://img.shields.io/github/stars/projectdiscovery/naabu)
+- https://img.shields.io/github/languages/top/projectdiscovery/naabu)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

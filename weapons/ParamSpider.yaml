@@ -1,0 +1,15 @@
+---
+name: ParamSpider
+description: 'Mining parameters from dark corners of Web Archives '
+urls:
+- https://github.com/devanshbatham/ParamSpider)
+- https://img.shields.io/github/stars/devanshbatham/ParamSpider)
+- https://img.shields.io/github/languages/top/devanshbatham/ParamSpider)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

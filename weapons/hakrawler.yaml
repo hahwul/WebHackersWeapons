@@ -1,0 +1,16 @@
+---
+name: hakrawler
+description: 'Simple, fast web crawler designed for easy, quick discovery of endpoints
+  and assets within a web application '
+urls:
+- https://github.com/hakluke/hakrawler)
+- https://img.shields.io/github/stars/hakluke/hakrawler)
+- https://img.shields.io/github/languages/top/hakluke/hakrawler)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

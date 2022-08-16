@@ -1,0 +1,14 @@
+---
+name: dnsobserver
+description: 'A handy DNS service written in Go to aid in the detection of several
+  types of blind vulnerabilities. It monitors a pentester''s server for out-of-band
+  DNS interactions and sends lookup notifications via Slack. '
+urls:
+- https://github.com/allyomalley/dnsobserver)
+- https://img.shields.io/github/stars/allyomalley/dnsobserver)
+- https://img.shields.io/github/languages/top/allyomalley/dnsobserver)
+category: tool
+types: []
+platform: []
+lang: []
+tags: []

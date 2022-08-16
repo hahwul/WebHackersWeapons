@@ -1,0 +1,15 @@
+---
+name: nikto
+description: 'Nikto web server scanner '
+urls:
+- https://github.com/sullo/nikto)
+- https://img.shields.io/github/stars/sullo/nikto)
+- https://img.shields.io/github/languages/top/sullo/nikto)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

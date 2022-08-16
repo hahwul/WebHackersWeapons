@@ -1,0 +1,16 @@
+---
+name: xss-cheatsheet-data
+description: 'This repository contains all the XSS cheatsheet data to allow contributions
+  from the community. '
+urls:
+- https://github.com/PortSwigger/xss-cheatsheet-data)
+- https://img.shields.io/github/stars/PortSwigger/xss-cheatsheet-data)
+- https://img.shields.io/github/languages/top/PortSwigger/xss-cheatsheet-data)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

@@ -1,0 +1,15 @@
+---
+name: XSpear
+description: 'Powerfull XSS Scanning and Parameter analysis tool&gem '
+urls:
+- https://github.com/hahwul/XSpear)
+- https://img.shields.io/github/stars/hahwul/XSpear)
+- https://img.shields.io/github/languages/top/hahwul/XSpear)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

@@ -1,0 +1,13 @@
+---
+name: BurpSuiteLoggerPlusPlus
+description:
+urls:
+- https://github.com/nccgroup/BurpSuiteLoggerPlusPlus)
+- https://img.shields.io/github/stars/nccgroup/BurpSuiteLoggerPlusPlus)
+- https://img.shields.io/github/languages/top/nccgroup/BurpSuiteLoggerPlusPlus)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

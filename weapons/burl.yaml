@@ -1,0 +1,15 @@
+---
+name: burl
+description: 'A Broken-URL Checker '
+urls:
+- https://github.com/tomnomnom/burl)
+- https://img.shields.io/github/stars/tomnomnom/burl)
+- https://img.shields.io/github/languages/top/tomnomnom/burl)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

@@ -1,0 +1,14 @@
+---
+name: jsonwebtoken.github.io
+description: JWT En/Decode and Verify
+urls:
+- https://github.com/jsonwebtoken/jsonwebtoken.github.io)
+- https://img.shields.io/github/stars/jsonwebtoken/jsonwebtoken.github.io)
+- https://img.shields.io/github/languages/top/jsonwebtoken/jsonwebtoken.github.io)
+category: browser-addon
+types: []
+platform:
+- chrome
+- firefox
+lang: []
+tags: []

@@ -1,0 +1,13 @@
+---
+name: burp-send-to
+description:
+urls:
+- https://github.com/bytebutcher/burp-send-to)
+- https://img.shields.io/github/stars/bytebutcher/burp-send-to)
+- https://img.shields.io/github/languages/top/bytebutcher/burp-send-to)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

@@ -1,0 +1,15 @@
+---
+name: medusa
+description: 'Fastest recursive HTTP fuzzer, like a Ferrari. '
+urls:
+- https://github.com/riza/medusa)
+- https://img.shields.io/github/stars/riza/medusa)
+- https://img.shields.io/github/languages/top/riza/medusa)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

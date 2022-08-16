@@ -1,0 +1,13 @@
+---
+name: param-miner
+description:
+urls:
+- https://github.com/PortSwigger/param-miner)
+- https://img.shields.io/github/stars/PortSwigger/param-miner)
+- https://img.shields.io/github/languages/top/PortSwigger/param-miner)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

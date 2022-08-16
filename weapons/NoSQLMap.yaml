@@ -1,0 +1,16 @@
+---
+name: NoSQLMap
+description: 'Automated NoSQL database enumeration and web application exploitation
+  tool. '
+urls:
+- https://github.com/codingo/NoSQLMap)
+- https://img.shields.io/github/stars/codingo/NoSQLMap)
+- https://img.shields.io/github/languages/top/codingo/NoSQLMap)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

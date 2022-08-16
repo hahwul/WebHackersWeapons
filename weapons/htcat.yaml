@@ -1,0 +1,15 @@
+---
+name: htcat
+description: 'Parallel and Pipelined HTTP GET Utility '
+urls:
+- https://github.com/htcat/htcat)
+- https://img.shields.io/github/stars/htcat/htcat)
+- https://img.shields.io/github/languages/top/htcat/htcat)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

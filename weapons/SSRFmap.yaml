@@ -1,0 +1,15 @@
+---
+name: SSRFmap
+description: 'Automatic SSRF fuzzer and exploitation tool '
+urls:
+- https://github.com/swisskyrepo/SSRFmap)
+- https://img.shields.io/github/stars/swisskyrepo/SSRFmap)
+- https://img.shields.io/github/languages/top/swisskyrepo/SSRFmap)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

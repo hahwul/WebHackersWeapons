@@ -1,0 +1,13 @@
+---
+name: MM3 ProxySwitch
+description: Proxy Switch in Firefox and Chrome
+urls:
+- https://proxy-offline-browser.com/ProxySwitch/)
+- https://img.shields.io/static/v1?label=&message=it's%20not%20github&color=gray)
+category: browser-addon
+types: []
+platform:
+- chrome
+- firefox
+lang: []
+tags: []

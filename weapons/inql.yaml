@@ -1,0 +1,13 @@
+---
+name: inql
+description:
+urls:
+- https://github.com/doyensec/inql)
+- https://img.shields.io/github/stars/doyensec/inql)
+- https://img.shields.io/github/languages/top/doyensec/inql)
+category: tool-addon
+types: []
+platform:
+- burpsuite
+lang: []
+tags: []

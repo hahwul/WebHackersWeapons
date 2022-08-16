@@ -1,0 +1,15 @@
+---
+name: LinkFinder
+description: 'A python script that finds endpoints in JavaScript files '
+urls:
+- https://github.com/GerbenJavado/LinkFinder)
+- https://img.shields.io/github/stars/GerbenJavado/LinkFinder)
+- https://img.shields.io/github/languages/top/GerbenJavado/LinkFinder)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

@@ -1,0 +1,15 @@
+---
+name: gitrob
+description: 'Reconnaissance tool for GitHub organizations '
+urls:
+- https://github.com/michenriksen/gitrob)
+- https://img.shields.io/github/stars/michenriksen/gitrob)
+- https://img.shields.io/github/languages/top/michenriksen/gitrob)
+category: tool
+types: []
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []
