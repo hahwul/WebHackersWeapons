@@ -40,7 +40,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 
 ## Thanks to (Contributor)
 I would like to thank everyone who helped with this project 👍😎 
-![](/CONTRIBUTORS.svg)
+![](/images/CONTRIBUTORS.svg)
 
 }.gsub(/^  /, '')
 tools = 4414
