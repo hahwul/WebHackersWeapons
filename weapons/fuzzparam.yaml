@@ -1,10 +1,7 @@
 ---
 name: fuzzparam
 description: A fast go based param miner to fuzz possible parameters a URL can have.
-urls:
-- https://github.com/0xsapra/fuzzparam)
-- https://img.shields.io/github/stars/0xsapra/fuzzparam)
-- https://img.shields.io/github/languages/top/0xsapra/fuzzparam)
+url: https://github.com/0xsapra/fuzzparam
 category: tool
 types: []
 platform: []

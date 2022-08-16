@@ -1,10 +1,7 @@
 ---
 name: waybackurls
 description: 'Fetch all the URLs that the Wayback Machine knows about for a domain '
-urls:
-- https://github.com/tomnomnom/waybackurls)
-- https://img.shields.io/github/stars/tomnomnom/waybackurls)
-- https://img.shields.io/github/languages/top/tomnomnom/waybackurls)
+url: https://github.com/tomnomnom/waybackurls
 category: tool
 types: []
 platform:

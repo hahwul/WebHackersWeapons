@@ -2,10 +2,7 @@
 name: ezXSS
 description: 'ezXSS is an easy way for penetration testers and bug bounty hunters
   to test (blind) Cross Site Scripting. '
-urls:
-- https://github.com/ssl/ezXSS)
-- https://img.shields.io/github/stars/ssl/ezXSS)
-- https://img.shields.io/github/languages/top/ssl/ezXSS)
+url: https://github.com/ssl/ezXSS
 category: tool
 types: []
 platform:

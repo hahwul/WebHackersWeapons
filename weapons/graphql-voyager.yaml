@@ -1,10 +1,7 @@
 ---
 name: graphql-voyager
 description: "\U0001F6F0️ Represent any GraphQL API as an interactive graph "
-urls:
-- https://github.com/APIs-guru/graphql-voyager)
-- https://img.shields.io/github/stars/APIs-guru/graphql-voyager)
-- https://img.shields.io/github/languages/top/APIs-guru/graphql-voyager)
+url: https://github.com/APIs-guru/graphql-voyager
 category: tool
 types: []
 platform:

@@ -1,10 +1,7 @@
 ---
 name: OpenRedireX
 description: A Fuzzer for OpenRedirect issues
-urls:
-- https://github.com/devanshbatham/OpenRedireX)
-- https://img.shields.io/github/stars/devanshbatham/OpenRedireX)
-- https://img.shields.io/github/languages/top/devanshbatham/OpenRedireX)
+url: https://github.com/devanshbatham/OpenRedireX
 category: tool
 types: []
 platform: []

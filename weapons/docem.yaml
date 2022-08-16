@@ -2,10 +2,7 @@
 name: docem
 description: Uility to embed XXE and XSS payloads in docx,odt,pptx,etc (OXML_XEE on
   steroids)
-urls:
-- https://github.com/whitel1st/docem)
-- https://img.shields.io/github/stars/whitel1st/docem)
-- https://img.shields.io/github/languages/top/whitel1st/docem)
+url: https://github.com/whitel1st/docem
 category: tool
 types: []
 platform: []

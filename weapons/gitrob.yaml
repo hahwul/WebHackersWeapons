@@ -1,10 +1,7 @@
 ---
 name: gitrob
 description: 'Reconnaissance tool for GitHub organizations '
-urls:
-- https://github.com/michenriksen/gitrob)
-- https://img.shields.io/github/stars/michenriksen/gitrob)
-- https://img.shields.io/github/languages/top/michenriksen/gitrob)
+url: https://github.com/michenriksen/gitrob
 category: tool
 types: []
 platform:

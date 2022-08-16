@@ -1,10 +1,7 @@
 ---
 name: Parth
 description: 'Heuristic Vulnerable Parameter Scanner '
-urls:
-- https://github.com/s0md3v/Parth)
-- https://img.shields.io/github/stars/s0md3v/Parth)
-- https://img.shields.io/github/languages/top/s0md3v/Parth)
+url: https://github.com/s0md3v/Parth
 category: tool
 types: []
 platform:

@@ -1,10 +1,7 @@
 ---
 name: uro
 description: declutters url lists for crawling/pentesting
-urls:
-- https://github.com/s0md3v/uro)
-- https://img.shields.io/github/stars/s0md3v/uro)
-- https://img.shields.io/github/languages/top/s0md3v/uro)
+url: https://github.com/s0md3v/uro
 category: tool
 types: []
 platform: []

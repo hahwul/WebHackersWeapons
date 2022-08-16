@@ -1,10 +1,7 @@
 ---
 name: gitleaks
 description: "Scan git repos (or files) for secrets using regex and entropy \U0001F511"
-urls:
-- https://github.com/zricethezav/gitleaks)
-- https://img.shields.io/github/stars/zricethezav/gitleaks)
-- https://img.shields.io/github/languages/top/zricethezav/gitleaks)
+url: https://github.com/zricethezav/gitleaks
 category: tool
 types: []
 platform: []

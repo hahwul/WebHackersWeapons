@@ -2,10 +2,7 @@
 name: pagodo
 description: pagodo (Passive Google Dork) - Automate Google Hacking Database scraping
   and searching
-urls:
-- https://github.com/opsdisk/pagodo)
-- https://img.shields.io/github/stars/opsdisk/pagodo)
-- https://img.shields.io/github/languages/top/opsdisk/pagodo)
+url: https://github.com/opsdisk/pagodo
 category: tool
 types: []
 platform: []

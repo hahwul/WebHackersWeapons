@@ -1,10 +1,7 @@
 ---
 name: Sublist3r
 description: 'Fast subdomains enumeration tool for penetration testers '
-urls:
-- https://github.com/aboul3la/Sublist3r)
-- https://img.shields.io/github/stars/aboul3la/Sublist3r)
-- https://img.shields.io/github/languages/top/aboul3la/Sublist3r)
+url: https://github.com/aboul3la/Sublist3r
 category: tool
 types: []
 platform:

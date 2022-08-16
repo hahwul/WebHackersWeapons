@@ -2,10 +2,7 @@
 name: smuggler
 description: 'Smuggler - An HTTP Request Smuggling / Desync testing tool written in
   Python 3 '
-urls:
-- https://github.com/defparam/smuggler)
-- https://img.shields.io/github/stars/defparam/smuggler)
-- https://img.shields.io/github/languages/top/defparam/smuggler)
+url: https://github.com/defparam/smuggler
 category: tool
 types: []
 platform:

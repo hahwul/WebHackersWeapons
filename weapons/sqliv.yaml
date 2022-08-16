@@ -1,10 +1,7 @@
 ---
 name: sqliv
 description: massive SQL injection vulnerability scanner
-urls:
-- https://github.com/the-robot/sqliv)
-- https://img.shields.io/github/stars/the-robot/sqliv)
-- https://img.shields.io/github/languages/top/the-robot/sqliv)
+url: https://github.com/the-robot/sqliv
 category: tool
 types: []
 platform: []

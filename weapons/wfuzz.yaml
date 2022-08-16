@@ -1,10 +1,7 @@
 ---
 name: wfuzz
 description: 'Web application fuzzer '
-urls:
-- https://github.com/xmendez/wfuzz)
-- https://img.shields.io/github/stars/xmendez/wfuzz)
-- https://img.shields.io/github/languages/top/xmendez/wfuzz)
+url: https://github.com/xmendez/wfuzz
 category: tool
 types: []
 platform:

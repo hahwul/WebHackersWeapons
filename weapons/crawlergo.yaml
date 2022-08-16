@@ -1,10 +1,7 @@
 ---
 name: crawlergo
 description: A powerful browser crawler for web vulnerability scanners
-urls:
-- https://github.com/Qianlitp/crawlergo)
-- https://img.shields.io/github/stars/Qianlitp/crawlergo)
-- https://img.shields.io/github/languages/top/Qianlitp/crawlergo)
+url: https://github.com/Qianlitp/crawlergo
 category: tool
 types: []
 platform: []

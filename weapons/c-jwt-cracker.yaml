@@ -1,10 +1,7 @@
 ---
 name: c-jwt-cracker
 description: 'JWT brute force cracker written in C '
-urls:
-- https://github.com/brendan-rius/c-jwt-cracker)
-- https://img.shields.io/github/stars/brendan-rius/c-jwt-cracker)
-- https://img.shields.io/github/languages/top/brendan-rius/c-jwt-cracker)
+url: https://github.com/brendan-rius/c-jwt-cracker
 category: tool
 types: []
 platform:

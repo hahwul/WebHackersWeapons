@@ -1,10 +1,7 @@
 ---
 name: SubOver
 description: A Powerful Subdomain Takeover Tool
-urls:
-- https://github.com/Ice3man543/SubOver)
-- https://img.shields.io/github/stars/Ice3man543/SubOver)
-- https://img.shields.io/github/languages/top/Ice3man543/SubOver)
+url: https://github.com/Ice3man543/SubOver
 category: tool
 types: []
 platform: []

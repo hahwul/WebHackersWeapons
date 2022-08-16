@@ -1,10 +1,7 @@
 ---
 name: zap-hud
 description:
-urls:
-- https://github.com/zaproxy/zap-hud)
-- https://img.shields.io/github/stars/zaproxy/zap-hud)
-- https://img.shields.io/github/languages/top/zaproxy/zap-hud)
+url: https://github.com/zaproxy/zap-hud
 category: tool-addon
 types: []
 platform:

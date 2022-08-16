@@ -1,10 +1,7 @@
 ---
 name: hashcat
 description: 'World''s fastest and most advanced password recovery utility '
-urls:
-- https://github.com/hashcat/hashcat/)
-- https://img.shields.io/github/stars/hashcat/hashcat/)
-- https://img.shields.io/github/languages/top/hashcat/hashcat/)
+url: https://github.com/hashcat/hashcat/
 category: tool
 types: []
 platform: []

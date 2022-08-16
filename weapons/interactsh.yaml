@@ -1,10 +1,7 @@
 ---
 name: interactsh
 description: An OOB interaction gathering server and client library
-urls:
-- https://github.com/projectdiscovery/interactsh)
-- https://img.shields.io/github/stars/projectdiscovery/interactsh)
-- https://img.shields.io/github/languages/top/projectdiscovery/interactsh)
+url: https://github.com/projectdiscovery/interactsh
 category: tool
 types: []
 platform: []

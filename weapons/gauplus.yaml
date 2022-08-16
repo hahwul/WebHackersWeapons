@@ -2,10 +2,7 @@
 name: gauplus
 description: A modified version of gau for personal usage. Support workers, proxies
   and some extra things.
-urls:
-- https://github.com/bp0lr/gauplus)
-- https://img.shields.io/github/stars/bp0lr/gauplus)
-- https://img.shields.io/github/languages/top/bp0lr/gauplus)
+url: https://github.com/bp0lr/gauplus
 category: tool
 types: []
 platform: []

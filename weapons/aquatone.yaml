@@ -1,10 +1,7 @@
 ---
 name: aquatone
 description: 'A Tool for Domain Flyovers '
-urls:
-- https://github.com/michenriksen/aquatone)
-- https://img.shields.io/github/stars/michenriksen/aquatone)
-- https://img.shields.io/github/languages/top/michenriksen/aquatone)
+url: https://github.com/michenriksen/aquatone
 category: tool
 types: []
 platform:

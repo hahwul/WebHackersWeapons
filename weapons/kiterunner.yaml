@@ -1,10 +1,7 @@
 ---
 name: kiterunner
 description: Contextual Content Discovery Tool
-urls:
-- https://github.com/assetnote/kiterunner)
-- https://img.shields.io/github/stars/assetnote/kiterunner)
-- https://img.shields.io/github/languages/top/assetnote/kiterunner)
+url: https://github.com/assetnote/kiterunner
 category: tool
 types: []
 platform: []

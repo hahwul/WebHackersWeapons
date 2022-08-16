@@ -1,10 +1,7 @@
 ---
 name: domdig
 description: 'DOM XSS scanner for Single Page Applications '
-urls:
-- https://github.com/fcavallarin/domdig)
-- https://img.shields.io/github/stars/fcavallarin/domdig)
-- https://img.shields.io/github/languages/top/fcavallarin/domdig)
+url: https://github.com/fcavallarin/domdig
 category: tool
 types: []
 platform:

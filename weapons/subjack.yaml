@@ -1,10 +1,7 @@
 ---
 name: subjack
 description: 'Subdomain Takeover tool written in Go '
-urls:
-- https://github.com/haccer/subjack)
-- https://img.shields.io/github/stars/haccer/subjack)
-- https://img.shields.io/github/languages/top/haccer/subjack)
+url: https://github.com/haccer/subjack
 category: tool
 types: []
 platform:

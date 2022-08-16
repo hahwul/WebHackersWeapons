@@ -1,10 +1,7 @@
 ---
 name: Silver
 description: 'Mass scan IPs for vulnerable services '
-urls:
-- https://github.com/s0md3v/Silver)
-- https://img.shields.io/github/stars/s0md3v/Silver)
-- https://img.shields.io/github/languages/top/s0md3v/Silver)
+url: https://github.com/s0md3v/Silver
 category: tool
 types: []
 platform:

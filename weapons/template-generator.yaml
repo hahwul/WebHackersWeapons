@@ -4,10 +4,7 @@ description: 'A simple variable based template editor using handlebarjs+strapdow
   The idea is to use variables in markdown based files to easily replace the variables
   with content. Data is saved temporarily in local storage. PHP is only needed to
   generate the list of files in the dropdown of templates. '
-urls:
-- https://github.com/fransr/template-generator)
-- https://img.shields.io/github/stars/fransr/template-generator)
-- https://img.shields.io/github/languages/top/fransr/template-generator)
+url: https://github.com/fransr/template-generator
 category: tool
 types: []
 platform:

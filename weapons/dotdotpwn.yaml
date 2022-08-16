@@ -1,10 +1,7 @@
 ---
 name: dotdotpwn
 description: 'DotDotPwn - The Directory Traversal Fuzzer '
-urls:
-- https://github.com/wireghoul/dotdotpwn)
-- https://img.shields.io/github/stars/wireghoul/dotdotpwn)
-- https://img.shields.io/github/languages/top/wireghoul/dotdotpwn)
+url: https://github.com/wireghoul/dotdotpwn
 category: tool
 types: []
 platform:

@@ -2,10 +2,7 @@
 name: HRS
 description: HTTP Request Smuggling demonstration Perl script, for variants 1, 2 and
   5 in my BlackHat US 2020 paper HTTP Request Smuggling in 2020.
-urls:
-- https://github.com/SafeBreach-Labs/HRS)
-- https://img.shields.io/github/stars/SafeBreach-Labs/HRS)
-- https://img.shields.io/github/languages/top/SafeBreach-Labs/HRS)
+url: https://github.com/SafeBreach-Labs/HRS
 category: tool
 types: []
 platform: []

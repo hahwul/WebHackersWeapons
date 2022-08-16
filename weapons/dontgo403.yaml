@@ -1,10 +1,7 @@
 ---
 name: dontgo403
 description: Tool to bypass 40X response codes.
-urls:
-- https://github.com/devploit/dontgo403)
-- https://img.shields.io/github/stars/devploit/dontgo403)
-- https://img.shields.io/github/languages/top/devploit/dontgo403)
+url: https://github.com/devploit/dontgo403
 category: tool
 types: []
 platform: []

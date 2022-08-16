@@ -1,10 +1,7 @@
 ---
 name: knife
 description: A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅
-urls:
-- https://github.com/bit4woo/knife)
-- https://img.shields.io/github/stars/bit4woo/knife)
-- https://img.shields.io/github/languages/top/bit4woo/knife)
+url: https://github.com/bit4woo/knife
 category: tool-addon
 types: []
 platform:

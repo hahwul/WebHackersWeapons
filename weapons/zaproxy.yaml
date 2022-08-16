@@ -1,10 +1,7 @@
 ---
 name: zaproxy
 description: The OWASP ZAP core project
-urls:
-- https://github.com/zaproxy/zaproxy)
-- https://img.shields.io/github/stars/zaproxy/zaproxy)
-- https://img.shields.io/github/languages/top/zaproxy/zaproxy)
+url: https://github.com/zaproxy/zaproxy
 category: tool
 types: []
 platform: []

@@ -1,10 +1,7 @@
 ---
 name: TukTuk
 description: 'Tool for catching and logging different types of requests. '
-urls:
-- https://github.com/ArturSS7/TukTuk)
-- https://img.shields.io/github/stars/ArturSS7/TukTuk)
-- https://img.shields.io/github/languages/top/ArturSS7/TukTuk)
+url: https://github.com/ArturSS7/TukTuk
 category: tool
 types: []
 platform:

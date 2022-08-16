@@ -1,10 +1,7 @@
 ---
 name: jsprime
 description: a javascript static security analysis tool
-urls:
-- https://github.com/dpnishant/jsprime)
-- https://img.shields.io/github/stars/dpnishant/jsprime)
-- https://img.shields.io/github/languages/top/dpnishant/jsprime)
+url: https://github.com/dpnishant/jsprime
 category: tool
 types: []
 platform: []

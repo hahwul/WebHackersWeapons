@@ -1,10 +1,7 @@
 ---
 name: taborator
 description:
-urls:
-- https://github.com/hackvertor/taborator)
-- https://img.shields.io/github/stars/hackvertor/taborator)
-- https://img.shields.io/github/languages/top/hackvertor/taborator)
+url: https://github.com/hackvertor/taborator
 category: tool-addon
 types: []
 platform:

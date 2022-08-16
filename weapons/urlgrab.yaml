@@ -2,10 +2,7 @@
 name: urlgrab
 description: 'A golang utility to spider through a website searching for additional
   links. '
-urls:
-- https://github.com/IAmStoxe/urlgrab)
-- https://img.shields.io/github/stars/IAmStoxe/urlgrab)
-- https://img.shields.io/github/languages/top/IAmStoxe/urlgrab)
+url: https://github.com/IAmStoxe/urlgrab
 category: tool
 types: []
 platform:

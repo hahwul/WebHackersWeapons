@@ -1,10 +1,7 @@
 ---
 name: axiom
 description: 'A dynamic infrastructure toolkit for red teamers and bug bounty hunters! '
-urls:
-- https://github.com/pry0cc/axiom)
-- https://img.shields.io/github/stars/pry0cc/axiom)
-- https://img.shields.io/github/languages/top/pry0cc/axiom)
+url: https://github.com/pry0cc/axiom
 category: tool
 types: []
 platform:

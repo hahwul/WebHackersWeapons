@@ -1,10 +1,7 @@
 ---
 name: RustScan
 description: 'Faster Nmap Scanning with Rust '
-urls:
-- https://github.com/brandonskerritt/RustScan)
-- https://img.shields.io/github/stars/brandonskerritt/RustScan)
-- https://img.shields.io/github/languages/top/brandonskerritt/RustScan)
+url: https://github.com/brandonskerritt/RustScan
 category: tool
 types: []
 platform:

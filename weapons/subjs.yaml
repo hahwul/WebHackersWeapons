@@ -1,10 +1,7 @@
 ---
 name: subjs
 description: Fetches javascript file from a list of URLS or subdomains.
-urls:
-- https://github.com/lc/subjs)
-- https://img.shields.io/github/stars/lc/subjs)
-- https://img.shields.io/github/languages/top/lc/subjs)
+url: https://github.com/lc/subjs
 category: tool
 types: []
 platform: []

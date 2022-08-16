@@ -2,10 +2,7 @@
 name: http2smugl
 description: This tool helps to detect and exploit HTTP request smuggling in cases
   it can be achieved via HTTP/2 -> HTTP/1.1 conversion by the frontend server.
-urls:
-- https://github.com/neex/http2smugl)
-- https://img.shields.io/github/stars/neex/http2smugl)
-- https://img.shields.io/github/languages/top/neex/http2smugl)
+url: https://github.com/neex/http2smugl
 category: tool
 types: []
 platform: []

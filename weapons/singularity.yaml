@@ -1,10 +1,7 @@
 ---
 name: singularity
 description: A DNS rebinding attack framework.
-urls:
-- https://github.com/nccgroup/singularity)
-- https://img.shields.io/github/stars/nccgroup/singularity)
-- https://img.shields.io/github/languages/top/nccgroup/singularity)
+url: https://github.com/nccgroup/singularity
 category: tool
 types: []
 platform: []

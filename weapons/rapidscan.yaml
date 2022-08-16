@@ -1,10 +1,7 @@
 ---
 name: rapidscan
 description: 'The Multi-Tool Web Vulnerability Scanner. '
-urls:
-- https://github.com/skavngr/rapidscan)
-- https://img.shields.io/github/stars/skavngr/rapidscan)
-- https://img.shields.io/github/languages/top/skavngr/rapidscan)
+url: https://github.com/skavngr/rapidscan
 category: tool
 types: []
 platform:

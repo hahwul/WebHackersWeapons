@@ -1,10 +1,7 @@
 ---
 name: eval_villain
 description: A Firefox Web Extension to improve the discovery of DOM XSS.
-urls:
-- https://github.com/swoops/eval_villain)
-- https://img.shields.io/github/stars/swoops/eval_villain)
-- https://img.shields.io/github/languages/top/swoops/eval_villain)
+url: https://github.com/swoops/eval_villain
 category: browser-addon
 types: []
 platform:

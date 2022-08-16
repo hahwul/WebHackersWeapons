@@ -1,10 +1,7 @@
 ---
 name: Atlas
 description: 'Quick SQLMap Tamper Suggester '
-urls:
-- https://github.com/m4ll0k/Atlas)
-- https://img.shields.io/github/stars/m4ll0k/Atlas)
-- https://img.shields.io/github/languages/top/m4ll0k/Atlas)
+url: https://github.com/m4ll0k/Atlas
 category: tool
 types: []
 platform:

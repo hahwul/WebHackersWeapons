@@ -1,10 +1,7 @@
 ---
 name: safecopy
 description:
-urls:
-- https://github.com/yashrs/safecopy)
-- https://img.shields.io/github/stars/yashrs/safecopy)
-- https://img.shields.io/github/languages/top/yashrs/safecopy)
+url: https://github.com/yashrs/safecopy
 category: tool-addon
 types: []
 platform:

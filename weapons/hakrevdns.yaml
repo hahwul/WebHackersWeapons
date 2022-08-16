@@ -1,10 +1,7 @@
 ---
 name: hakrevdns
 description: 'Small, fast tool for performing reverse DNS lookups en masse. '
-urls:
-- https://github.com/hakluke/hakrevdns)
-- https://img.shields.io/github/stars/hakluke/hakrevdns)
-- https://img.shields.io/github/languages/top/hakluke/hakrevdns)
+url: https://github.com/hakluke/hakrevdns
 category: tool
 types: []
 platform:

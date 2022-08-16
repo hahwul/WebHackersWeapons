@@ -1,4 +1,9 @@
 require 'erb'
+require 'yaml'
+
+def generate_badge
+
+end
 
 template = %q{
 <h1 align="center">
@@ -36,17 +41,53 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 <%= browser_addons %>
 
 ### Burpsuite and ZAP Addons
-<%= burpzap_addons %>
+<%= tool_addons %>
 
 ## Thanks to (Contributor)
 I would like to thank everyone who helped with this project 👍😎 
 ![](/images/CONTRIBUTORS.svg)
 
 }.gsub(/^  /, '')
-tools = 4414
-bookmarklets = 111
-browser_addons = 111
-burpzap_addons = 111
+
+head = "| Type | Name | Description | Badges | Popularity |\n"
+head = head + "| --- | --- | --- | --- | --- |"
+tools = head + "\n"
+bookmarklets = head + "\n"
+browser_addons = head + "\n"
+tool_addons = head + "\n"
+
+Dir.entries("./weapons/").each do | name |
+    begin
+        data = YAML.load(File.open("./weapons/#{name}"))
+        name = data['name']
+        popularity = "x"
+
+        if data['url'].length > 0 
+            name = "[#{name}](#{data['url']})"
+        end
+
+        if data['url'].include? "github.com"
+            split_result = data['url'].split "//github.com/"
+            popularity = "![](https://img.shields.io/github/stars/#{split_result[1]})"
+        end
+        badge = generate_badge
+        line = "|#{data['types']}|#{name}|#{data['description']}|#{badge}|#{popularity}|"
+        case data['category']
+        when 'tool'
+            tools = tools + line + "\n"
+        when 'tool-addon'
+            tool_addons = tool_addons + line + "\n"
+        when 'browser-addon'
+            browser_addons = browser_addons + line + "\n"
+        when 'bookmarklet'
+            bookmarklets = bookmarklets + line + "\n"
+        else
+            puts name
+        end
+    rescue => e 
+        puts e
+    end
+end
 
 markdown = ERB.new(template, trim_mode: "%<>")
 puts markdown.result

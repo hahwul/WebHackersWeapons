@@ -2,10 +2,7 @@
 name: PayloadsAllTheThings
 description: 'A list of useful payloads and bypass for Web Application Security and
   Pentest/CTF '
-urls:
-- https://github.com/swisskyrepo/PayloadsAllTheThings)
-- https://img.shields.io/github/stars/swisskyrepo/PayloadsAllTheThings)
-- https://img.shields.io/github/languages/top/swisskyrepo/PayloadsAllTheThings)
+url: https://github.com/swisskyrepo/PayloadsAllTheThings
 category: tool
 types: []
 platform: []

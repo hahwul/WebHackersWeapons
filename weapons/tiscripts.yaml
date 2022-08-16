@@ -1,10 +1,7 @@
 ---
 name: tiscripts
 description: Turbo Intruder Scripts
-urls:
-- https://github.com/defparam/tiscripts)
-- https://img.shields.io/github/stars/defparam/tiscripts)
-- https://img.shields.io/github/languages/top/defparam/tiscripts)
+url: https://github.com/defparam/tiscripts
 category: tool
 types: []
 platform: []

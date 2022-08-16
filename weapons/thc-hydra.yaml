@@ -1,10 +1,7 @@
 ---
 name: thc-hydra
 description: 'hydra '
-urls:
-- https://github.com/vanhauser-thc/thc-hydra)
-- https://img.shields.io/github/stars/vanhauser-thc/thc-hydra)
-- https://img.shields.io/github/languages/top/vanhauser-thc/thc-hydra)
+url: https://github.com/vanhauser-thc/thc-hydra
 category: tool
 types: []
 platform:

@@ -1,10 +1,7 @@
 ---
 name: nosqli
 description: NoSql Injection CLI tool
-urls:
-- https://github.com/Charlie-belmer/nosqli)
-- https://img.shields.io/github/stars/Charlie-belmer/nosqli)
-- https://img.shields.io/github/languages/top/Charlie-belmer/nosqli)
+url: https://github.com/Charlie-belmer/nosqli
 category: tool
 types: []
 platform:

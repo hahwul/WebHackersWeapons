@@ -1,10 +1,7 @@
 ---
 name: getJS
 description: A tool to fastly get all javascript sources/files
-urls:
-- https://github.com/003random/getJS)
-- https://img.shields.io/github/stars/003random/getJS)
-- https://img.shields.io/github/languages/top/003random/getJS)
+url: https://github.com/003random/getJS
 category: tool
 types: []
 platform: []

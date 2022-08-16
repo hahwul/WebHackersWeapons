@@ -1,10 +1,7 @@
 ---
 name: ffuf
 description: 'Fast web fuzzer written in Go '
-urls:
-- https://github.com/ffuf/ffuf)
-- https://img.shields.io/github/stars/ffuf/ffuf)
-- https://img.shields.io/github/languages/top/ffuf/ffuf)
+url: https://github.com/ffuf/ffuf
 category: tool
 types: []
 platform:

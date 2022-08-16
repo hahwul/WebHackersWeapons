@@ -1,10 +1,7 @@
 ---
 name: rusolver
 description: Fast and accurate DNS resolver.
-urls:
-- https://github.com/Edu4rdSHL/rusolver)
-- https://img.shields.io/github/stars/Edu4rdSHL/rusolver)
-- https://img.shields.io/github/languages/top/Edu4rdSHL/rusolver)
+url: https://github.com/Edu4rdSHL/rusolver
 category: tool
 types: []
 platform: []

@@ -1,10 +1,7 @@
 ---
 name: femida
 description:
-urls:
-- https://github.com/wish-i-was/femida)
-- https://img.shields.io/github/stars/wish-i-was/femida)
-- https://img.shields.io/github/languages/top/wish-i-was/femida)
+url: https://github.com/wish-i-was/femida
 category: tool-addon
 types: []
 platform:

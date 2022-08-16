@@ -1,10 +1,7 @@
 ---
 name: slackcat
 description: CLI utility to post files and command output to slack
-urls:
-- https://github.com/bcicen/slackcat)
-- https://img.shields.io/github/stars/bcicen/slackcat)
-- https://img.shields.io/github/languages/top/bcicen/slackcat)
+url: https://github.com/bcicen/slackcat
 category: tool
 types: []
 platform: []

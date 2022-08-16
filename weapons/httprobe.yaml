@@ -1,10 +1,7 @@
 ---
 name: httprobe
 description: 'Take a list of domains and probe for working HTTP and HTTPS servers '
-urls:
-- https://github.com/tomnomnom/httprobe)
-- https://img.shields.io/github/stars/tomnomnom/httprobe)
-- https://img.shields.io/github/languages/top/tomnomnom/httprobe)
+url: https://github.com/tomnomnom/httprobe
 category: tool
 types: []
 platform:

@@ -1,9 +1,7 @@
 ---
 name: Dark Reader for Safari
 description: Dark mode to any site
-urls:
-- https://apps.apple.com/us/app/dark-reader-for-safari/id1438243180)
-- https://img.shields.io/static/v1?label=&message=it's%20not%20github&color=gray)
+url: https://apps.apple.com/us/app/dark-reader-for-safari/id1438243180
 category: browser-addon
 types: []
 platform:

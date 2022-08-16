@@ -2,10 +2,7 @@
 name: XXEinjector
 description: Tool for automatic exploitation of XXE vulnerability using direct and
   different out of band methods.
-urls:
-- https://github.com/enjoiz/XXEinjector)
-- https://img.shields.io/github/stars/enjoiz/XXEinjector)
-- https://img.shields.io/github/languages/top/enjoiz/XXEinjector)
+url: https://github.com/enjoiz/XXEinjector
 category: tool
 types: []
 platform: []

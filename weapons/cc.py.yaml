@@ -1,10 +1,7 @@
 ---
 name: cc.py
 description: 'Extracting URLs of a specific target based on the results of "commoncrawl.org" '
-urls:
-- https://github.com/si9int/cc.py)
-- https://img.shields.io/github/stars/si9int/cc.py)
-- https://img.shields.io/github/languages/top/si9int/cc.py)
+url: https://github.com/si9int/cc.py
 category: tool
 types: []
 platform:

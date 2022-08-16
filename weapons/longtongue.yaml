@@ -1,10 +1,7 @@
 ---
 name: longtongue
 description: Customized Password/Passphrase List inputting Target Info
-urls:
-- https://github.com/edoardottt/longtongue)
-- https://img.shields.io/github/stars/edoardottt/longtongue)
-- https://img.shields.io/github/languages/top/edoardottt/longtongue)
+url: https://github.com/edoardottt/longtongue
 category: tool
 types: []
 platform: []

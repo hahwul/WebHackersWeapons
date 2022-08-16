@@ -1,10 +1,7 @@
 ---
 name: gobuster
 description: 'Directory/File, DNS and VHost busting tool written in Go '
-urls:
-- https://github.com/OJ/gobuster)
-- https://img.shields.io/github/stars/OJ/gobuster)
-- https://img.shields.io/github/languages/top/OJ/gobuster)
+url: https://github.com/OJ/gobuster
 category: tool
 types: []
 platform:

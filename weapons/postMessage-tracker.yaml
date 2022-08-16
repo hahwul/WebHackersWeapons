@@ -2,10 +2,7 @@
 name: postMessage-tracker
 description: A Chrome Extension to track postMessage usage (url, domain and stack)
   both by logging using CORS and also visually as an extension-icon
-urls:
-- https://github.com/fransr/postMessage-tracker)
-- https://img.shields.io/github/stars/fransr/postMessage-tracker)
-- https://img.shields.io/github/languages/top/fransr/postMessage-tracker)
+url: https://github.com/fransr/postMessage-tracker
 category: browser-addon
 types: []
 platform:

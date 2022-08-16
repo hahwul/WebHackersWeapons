@@ -1,10 +1,7 @@
 ---
 name: github-search
 description: 'Tools to perform basic search on GitHub. '
-urls:
-- https://github.com/gwen001/github-search)
-- https://img.shields.io/github/stars/gwen001/github-search)
-- https://img.shields.io/github/languages/top/gwen001/github-search)
+url: https://github.com/gwen001/github-search
 category: tool
 types: []
 platform:

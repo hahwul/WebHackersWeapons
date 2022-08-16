@@ -1,9 +1,7 @@
 ---
 name: Dark Reader
 description: Dark mode to any site
-urls:
-- https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
-- https://img.shields.io/static/v1?label=&message=it's%20not%20github&color=gray)
+url: https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
 category: browser-addon
 types: []
 platform:

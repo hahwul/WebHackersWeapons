@@ -1,10 +1,7 @@
 ---
 name: anew
 description: A tool for adding new lines to files, skipping duplicates
-urls:
-- https://github.com/tomnomnom/anew)
-- https://img.shields.io/github/stars/tomnomnom/anew)
-- https://img.shields.io/github/languages/top/tomnomnom/anew)
+url: https://github.com/tomnomnom/anew
 category: tool
 types: []
 platform:

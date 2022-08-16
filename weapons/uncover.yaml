@@ -2,10 +2,7 @@
 name: uncover
 description: Quickly discover exposed hosts on the internet using multiple search
   engine.
-urls:
-- https://github.com/projectdiscovery/uncover)
-- https://img.shields.io/github/stars/projectdiscovery/uncover)
-- https://img.shields.io/github/languages/top/projectdiscovery/uncover)
+url: https://github.com/projectdiscovery/uncover
 category: tool
 types: []
 platform: []

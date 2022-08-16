@@ -2,10 +2,7 @@
 name: Osmedeus
 description: 'Fully automated offensive security framework for reconnaissance and
   vulnerability scanning '
-urls:
-- https://github.com/j3ssie/Osmedeus)
-- https://img.shields.io/github/stars/j3ssie/Osmedeus)
-- https://img.shields.io/github/languages/top/j3ssie/Osmedeus)
+url: https://github.com/j3ssie/Osmedeus
 category: tool
 types: []
 platform:

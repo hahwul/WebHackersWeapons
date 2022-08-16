@@ -1,10 +1,7 @@
 ---
 name: community-scripts
 description:
-urls:
-- https://github.com/zaproxy/community-scripts)
-- https://img.shields.io/github/stars/zaproxy/community-scripts)
-- https://img.shields.io/github/languages/top/zaproxy/community-scripts)
+url: https://github.com/zaproxy/community-scripts
 category: tool-addon
 types: []
 platform:

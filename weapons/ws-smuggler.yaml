@@ -1,10 +1,7 @@
 ---
 name: ws-smuggler
 description: WebSocket Connection Smuggler
-urls:
-- https://github.com/hahwul/ws-smuggler)
-- https://img.shields.io/github/stars/hahwul/ws-smuggler)
-- https://img.shields.io/github/languages/top/hahwul/ws-smuggler)
+url: https://github.com/hahwul/ws-smuggler
 category: tool
 types: []
 platform: []

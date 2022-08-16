@@ -1,10 +1,7 @@
 ---
 name: github-regexp
 description: Basically a regexp over a GitHub search.
-urls:
-- https://github.com/gwen001/github-regexp)
-- https://img.shields.io/github/stars/gwen001/github-regexp)
-- https://img.shields.io/github/languages/top/gwen001/github-regexp)
+url: https://github.com/gwen001/github-regexp
 category: tool
 types: []
 platform: []

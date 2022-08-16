@@ -1,10 +1,7 @@
 ---
 name: xxeserv
 description: A mini webserver with FTP support for XXE payloads
-urls:
-- https://github.com/staaldraad/xxeserv)
-- https://img.shields.io/github/stars/staaldraad/xxeserv)
-- https://img.shields.io/github/languages/top/staaldraad/xxeserv)
+url: https://github.com/staaldraad/xxeserv
 category: tool
 types: []
 platform: []

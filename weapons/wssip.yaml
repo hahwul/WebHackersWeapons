@@ -2,10 +2,7 @@
 name: wssip
 description: Application for capturing, modifying and sending custom WebSocket data
   from client to server and vice versa.
-urls:
-- https://github.com/nccgroup/wssip)
-- https://img.shields.io/github/stars/nccgroup/wssip)
-- https://img.shields.io/github/languages/top/nccgroup/wssip)
+url: https://github.com/nccgroup/wssip
 category: tool
 types: []
 platform: []

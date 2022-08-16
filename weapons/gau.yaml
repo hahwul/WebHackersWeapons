@@ -2,10 +2,7 @@
 name: gau
 description: Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback
   Machine, and Common Crawl.
-urls:
-- https://github.com/lc/gau)
-- https://img.shields.io/github/stars/lc/gau)
-- https://img.shields.io/github/languages/top/lc/gau)
+url: https://github.com/lc/gau
 category: tool
 types: []
 platform:

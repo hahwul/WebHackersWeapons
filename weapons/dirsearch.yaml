@@ -1,10 +1,7 @@
 ---
 name: dirsearch
 description: 'Web path scanner '
-urls:
-- https://github.com/maurosoria/dirsearch)
-- https://img.shields.io/github/stars/maurosoria/dirsearch)
-- https://img.shields.io/github/languages/top/maurosoria/dirsearch)
+url: https://github.com/maurosoria/dirsearch
 category: tool
 types: []
 platform:

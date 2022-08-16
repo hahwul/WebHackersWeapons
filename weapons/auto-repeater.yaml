@@ -1,10 +1,7 @@
 ---
 name: auto-repeater
 description:
-urls:
-- https://github.com/PortSwigger/auto-repeater)
-- https://img.shields.io/github/stars/PortSwigger/auto-repeater)
-- https://img.shields.io/github/languages/top/PortSwigger/auto-repeater)
+url: https://github.com/PortSwigger/auto-repeater
 category: tool-addon
 types: []
 platform:

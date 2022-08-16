@@ -1,10 +1,7 @@
 ---
 name: xssor2
 description: XSS'OR - Hack with JavaScript.
-urls:
-- https://github.com/evilcos/xssor2)
-- https://img.shields.io/github/stars/evilcos/xssor2)
-- https://img.shields.io/github/languages/top/evilcos/xssor2)
+url: https://github.com/evilcos/xssor2
 category: tool
 types: []
 platform: []

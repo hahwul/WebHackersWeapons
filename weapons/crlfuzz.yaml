@@ -1,10 +1,7 @@
 ---
 name: crlfuzz
 description: 'A fast tool to scan CRLF vulnerability written in Go '
-urls:
-- https://github.com/dwisiswant0/crlfuzz)
-- https://img.shields.io/github/stars/dwisiswant0/crlfuzz)
-- https://img.shields.io/github/languages/top/dwisiswant0/crlfuzz)
+url: https://github.com/dwisiswant0/crlfuzz
 category: tool
 types: []
 platform:

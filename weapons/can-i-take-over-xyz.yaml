@@ -2,10 +2,7 @@
 name: can-i-take-over-xyz
 description: '"Can I take over XYZ?" — a list of services and how to claim (sub)domains
   with dangling DNS records.'
-urls:
-- https://github.com/EdOverflow/can-i-take-over-xyz)
-- https://img.shields.io/github/stars/EdOverflow/can-i-take-over-xyz)
-- https://img.shields.io/github/languages/top/EdOverflow/can-i-take-over-xyz)
+url: https://github.com/EdOverflow/can-i-take-over-xyz
 category: tool
 types: []
 platform: []

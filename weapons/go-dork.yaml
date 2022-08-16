@@ -1,10 +1,7 @@
 ---
 name: go-dork
 description: 'The fastest dork scanner written in Go. '
-urls:
-- https://github.com/dwisiswant0/go-dork)
-- https://img.shields.io/github/stars/dwisiswant0/go-dork)
-- https://img.shields.io/github/languages/top/dwisiswant0/go-dork)
+url: https://github.com/dwisiswant0/go-dork
 category: tool
 types: []
 platform:

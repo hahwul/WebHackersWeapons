@@ -1,10 +1,7 @@
 ---
 name: XSStrike
 description: 'Most advanced XSS scanner. '
-urls:
-- https://github.com/s0md3v/XSStrike)
-- https://img.shields.io/github/stars/s0md3v/XSStrike)
-- https://img.shields.io/github/languages/top/s0md3v/XSStrike)
+url: https://github.com/s0md3v/XSStrike
 category: tool
 types: []
 platform:

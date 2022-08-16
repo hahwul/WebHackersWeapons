@@ -3,10 +3,7 @@ name: shuffledns
 description: 'shuffleDNS is a wrapper around massdns written in go that allows you
   to enumerate valid subdomains using active bruteforce as well as resolve subdomains
   with wildcard handling and easy input-output support. '
-urls:
-- https://github.com/projectdiscovery/shuffledns)
-- https://img.shields.io/github/stars/projectdiscovery/shuffledns)
-- https://img.shields.io/github/languages/top/projectdiscovery/shuffledns)
+url: https://github.com/projectdiscovery/shuffledns
 category: tool
 types: []
 platform:

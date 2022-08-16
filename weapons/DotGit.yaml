@@ -1,10 +1,7 @@
 ---
 name: DotGit
 description: An extension for checking if .git is exposed in visited websites
-urls:
-- https://github.com/davtur19/DotGit)
-- https://img.shields.io/github/stars/davtur19/DotGit)
-- https://img.shields.io/github/languages/top/davtur19/DotGit)
+url: https://github.com/davtur19/DotGit
 category: browser-addon
 types: []
 platform:

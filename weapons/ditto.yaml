@@ -1,10 +1,7 @@
 ---
 name: ditto
 description: A tool for IDN homograph attacks and detection.
-urls:
-- https://github.com/evilsocket/ditto)
-- https://img.shields.io/github/stars/evilsocket/ditto)
-- https://img.shields.io/github/languages/top/evilsocket/ditto)
+url: https://github.com/evilsocket/ditto
 category: tool
 types: []
 platform: []

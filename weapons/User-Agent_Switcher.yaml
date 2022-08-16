@@ -1,9 +1,7 @@
 ---
 name: User-Agent Switcher
 description: quick and easy way to switch between user-agents.
-urls:
-- https://chrome.google.com/webstore/detail/user-agent-switcher/clddifkhlkcojbojppdojfeeikdkgiae)
-- https://img.shields.io/static/v1?label=&message=it's%20not%20github&color=gray)
+url: https://chrome.google.com/webstore/detail/user-agent-switcher/clddifkhlkcojbojppdojfeeikdkgiae
 category: browser-addon
 types: []
 platform:

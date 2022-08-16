@@ -2,10 +2,7 @@
 name: urlhunter
 description: a recon tool that allows searching on URLs that are exposed via shortener
   services
-urls:
-- https://github.com/utkusen/urlhunter)
-- https://img.shields.io/github/stars/utkusen/urlhunter)
-- https://img.shields.io/github/languages/top/utkusen/urlhunter)
+url: https://github.com/utkusen/urlhunter
 category: tool
 types: []
 platform: []

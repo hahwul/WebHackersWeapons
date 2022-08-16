@@ -1,10 +1,7 @@
 ---
 name: turbo-intruder
 description:
-urls:
-- https://github.com/PortSwigger/turbo-intruder)
-- https://img.shields.io/github/stars/PortSwigger/turbo-intruder)
-- https://img.shields.io/github/languages/top/PortSwigger/turbo-intruder)
+url: https://github.com/PortSwigger/turbo-intruder
 category: tool-addon
 types: []
 platform:

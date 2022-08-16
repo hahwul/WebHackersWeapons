@@ -2,10 +2,7 @@
 name: gowitness
 description: "\U0001F50D gowitness - a golang, web screenshot utility using Chrome
   Headless "
-urls:
-- https://github.com/sensepost/gowitness)
-- https://img.shields.io/github/stars/sensepost/gowitness)
-- https://img.shields.io/github/languages/top/sensepost/gowitness)
+url: https://github.com/sensepost/gowitness
 category: tool
 types: []
 platform:

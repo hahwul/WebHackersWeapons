@@ -1,10 +1,7 @@
 ---
 name: ysoserial.net
 description: 'Deserialization payload generator for a variety of .NET formatters '
-urls:
-- https://github.com/pwntester/ysoserial.net)
-- https://img.shields.io/github/stars/pwntester/ysoserial.net)
-- https://img.shields.io/github/languages/top/pwntester/ysoserial.net)
+url: https://github.com/pwntester/ysoserial.net
 category: tool
 types: []
 platform:

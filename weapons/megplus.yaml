@@ -1,10 +1,7 @@
 ---
 name: megplus
 description: 'Automated reconnaissance wrapper — TomNomNom''s meg on steroids. [DEPRECATED] '
-urls:
-- https://github.com/EdOverflow/megplus)
-- https://img.shields.io/github/stars/EdOverflow/megplus)
-- https://img.shields.io/github/languages/top/EdOverflow/megplus)
+url: https://github.com/EdOverflow/megplus
 category: tool
 types: []
 platform:

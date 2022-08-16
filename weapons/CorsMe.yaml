@@ -1,10 +1,7 @@
 ---
 name: CorsMe
 description: 'Cross Origin Resource Sharing MisConfiguration Scanner '
-urls:
-- https://github.com/Shivangx01b/CorsMe)
-- https://img.shields.io/github/stars/Shivangx01b/CorsMe)
-- https://img.shields.io/github/languages/top/Shivangx01b/CorsMe)
+url: https://github.com/Shivangx01b/CorsMe
 category: tool
 types: []
 platform:

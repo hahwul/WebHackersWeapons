@@ -2,10 +2,7 @@
 name: DirDar
 description: DirDar is a tool that searches for (403-Forbidden) directories to break
   it and get dir listing on it
-urls:
-- https://github.com/M4DM0e/DirDar)
-- https://img.shields.io/github/stars/M4DM0e/DirDar)
-- https://img.shields.io/github/languages/top/M4DM0e/DirDar)
+url: https://github.com/M4DM0e/DirDar
 category: tool
 types: []
 platform: []

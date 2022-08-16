@@ -1,10 +1,7 @@
 ---
 name: web_cache_poison
 description: web cache poison - Top 1 web hacking technique of 2019
-urls:
-- https://github.com/fngoo/web_cache_poison)
-- https://img.shields.io/github/stars/fngoo/web_cache_poison)
-- https://img.shields.io/github/languages/top/fngoo/web_cache_poison)
+url: https://github.com/fngoo/web_cache_poison
 category: tool
 types: []
 platform: []

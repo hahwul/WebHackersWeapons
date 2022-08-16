@@ -1,10 +1,7 @@
 ---
 name: FavFreak
 description: 'Making Favicon.ico based Recon Great again ! '
-urls:
-- https://github.com/devanshbatham/FavFreak)
-- https://img.shields.io/github/stars/devanshbatham/FavFreak)
-- https://img.shields.io/github/languages/top/devanshbatham/FavFreak)
+url: https://github.com/devanshbatham/FavFreak
 category: tool
 types: []
 platform:

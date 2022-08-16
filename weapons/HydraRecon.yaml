@@ -1,10 +1,7 @@
 ---
 name: HydraRecon
 description: All In One, Fast, Easy Recon Tool
-urls:
-- https://github.com/aufzayed/HydraRecon)
-- https://img.shields.io/github/stars/aufzayed/HydraRecon)
-- https://img.shields.io/github/languages/top/aufzayed/HydraRecon)
+url: https://github.com/aufzayed/HydraRecon
 category: tool
 types: []
 platform: []

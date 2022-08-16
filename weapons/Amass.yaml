@@ -1,10 +1,7 @@
 ---
 name: Amass
 description: 'In-depth Attack Surface Mapping and Asset Discovery '
-urls:
-- https://github.com/OWASP/Amass)
-- https://img.shields.io/github/stars/OWASP/Amass)
-- https://img.shields.io/github/languages/top/OWASP/Amass)
+url: https://github.com/OWASP/Amass
 category: tool
 types: []
 platform:

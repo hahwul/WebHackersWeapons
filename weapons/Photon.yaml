@@ -1,10 +1,7 @@
 ---
 name: Photon
 description: 'Incredibly fast crawler designed for OSINT. '
-urls:
-- https://github.com/s0md3v/Photon)
-- https://img.shields.io/github/stars/s0md3v/Photon)
-- https://img.shields.io/github/languages/top/s0md3v/Photon)
+url: https://github.com/s0md3v/Photon
 category: tool
 types: []
 platform:

@@ -1,10 +1,7 @@
 ---
 name: fhc
 description: Fast HTTP Checker.
-urls:
-- https://github.com/Edu4rdSHL/fhc)
-- https://img.shields.io/github/stars/Edu4rdSHL/fhc)
-- https://img.shields.io/github/languages/top/Edu4rdSHL/fhc)
+url: https://github.com/Edu4rdSHL/fhc
 category: tool
 types: []
 platform: []

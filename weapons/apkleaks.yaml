@@ -1,10 +1,7 @@
 ---
 name: apkleaks
 description: 'Scanning APK file for URIs, endpoints & secrets. '
-urls:
-- https://github.com/dwisiswant0/apkleaks)
-- https://img.shields.io/github/stars/dwisiswant0/apkleaks)
-- https://img.shields.io/github/languages/top/dwisiswant0/apkleaks)
+url: https://github.com/dwisiswant0/apkleaks
 category: tool
 types: []
 platform:

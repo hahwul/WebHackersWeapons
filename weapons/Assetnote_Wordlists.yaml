@@ -1,10 +1,7 @@
 ---
 name: Assetnote Wordlists
 description: Automated & Manual Wordlists provided by Assetnote
-urls:
-- https://github.com/assetnote/wordlists)
-- https://img.shields.io/github/stars/assetnote/wordlists)
-- https://img.shields.io/github/languages/top/assetnote/wordlists)
+url: https://github.com/assetnote/wordlists
 category: tool
 types: []
 platform:

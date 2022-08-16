@@ -2,10 +2,7 @@
 name: qsreplace
 description: 'Accept URLs on stdin, replace all query string values with a user-supplied
   value '
-urls:
-- https://github.com/tomnomnom/qsreplace)
-- https://img.shields.io/github/stars/tomnomnom/qsreplace)
-- https://img.shields.io/github/languages/top/tomnomnom/qsreplace)
+url: https://github.com/tomnomnom/qsreplace
 category: tool
 types: []
 platform:

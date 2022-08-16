@@ -2,10 +2,7 @@
 name: Chromium-based-XSS-Taint-Tracking
 description: Cyclops is a web browser with XSS detection feature, it is chromium-based
   xss detection that used to find the flows from a source to a sink.
-urls:
-- https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking)
-- https://img.shields.io/github/stars/v8blink/Chromium-based-XSS-Taint-Tracking)
-- https://img.shields.io/github/languages/top/v8blink/Chromium-based-XSS-Taint-Tracking)
+url: https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking
 category: tool
 types: []
 platform: []

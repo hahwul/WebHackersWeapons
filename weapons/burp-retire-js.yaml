@@ -1,10 +1,7 @@
 ---
 name: burp-retire-js
 description:
-urls:
-- https://github.com/h3xstream/burp-retire-js)
-- https://img.shields.io/github/stars/h3xstream/burp-retire-js)
-- https://img.shields.io/github/languages/top/h3xstream/burp-retire-js)
+url: https://github.com/h3xstream/burp-retire-js
 category: tool-addon
 types: []
 platform:

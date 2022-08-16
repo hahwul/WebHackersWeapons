@@ -1,10 +1,7 @@
 ---
 name: arachni
 description: 'Web Application Security Scanner Framework '
-urls:
-- https://github.com/Arachni/arachni)
-- https://img.shields.io/github/stars/Arachni/arachni)
-- https://img.shields.io/github/languages/top/Arachni/arachni)
+url: https://github.com/Arachni/arachni
 category: tool
 types: []
 platform:

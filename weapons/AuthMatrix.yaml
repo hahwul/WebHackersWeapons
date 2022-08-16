@@ -1,10 +1,7 @@
 ---
 name: AuthMatrix
 description:
-urls:
-- https://github.com/SecurityInnovation/AuthMatrix)
-- https://img.shields.io/github/stars/SecurityInnovation/AuthMatrix)
-- https://img.shields.io/github/languages/top/SecurityInnovation/AuthMatrix)
+url: https://github.com/SecurityInnovation/AuthMatrix
 category: tool-addon
 types: []
 platform:

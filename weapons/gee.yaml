@@ -3,10 +3,7 @@ name: gee
 description: "\U0001F3F5 Gee is tool of stdin to each files and stdout. It is similar
   to the tee command, but there are more functions for convenience. In addition, it
   was written as go"
-urls:
-- https://github.com/hahwul/gee)
-- https://img.shields.io/github/stars/hahwul/gee)
-- https://img.shields.io/github/languages/top/hahwul/gee)
+url: https://github.com/hahwul/gee
 category: tool
 types: []
 platform: []

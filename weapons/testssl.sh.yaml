@@ -1,10 +1,7 @@
 ---
 name: testssl.sh
 description: 'Testing TLS/SSL encryption anywhere on any port '
-urls:
-- https://github.com/drwetter/testssl.sh)
-- https://img.shields.io/github/stars/drwetter/testssl.sh)
-- https://img.shields.io/github/languages/top/drwetter/testssl.sh)
+url: https://github.com/drwetter/testssl.sh
 category: tool
 types: []
 platform:

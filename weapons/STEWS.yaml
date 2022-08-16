@@ -1,10 +1,7 @@
 ---
 name: STEWS
 description: A Security Tool for Enumerating WebSockets
-urls:
-- https://github.com/PalindromeLabs/STEWS)
-- https://img.shields.io/github/stars/PalindromeLabs/STEWS)
-- https://img.shields.io/github/languages/top/PalindromeLabs/STEWS)
+url: https://github.com/PalindromeLabs/STEWS
 category: tool
 types: []
 platform: []

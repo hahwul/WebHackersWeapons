@@ -1,10 +1,7 @@
 ---
 name: autochrome
 description: This tool downloads, installs, and configures a shiny new copy of Chromium.
-urls:
-- https://github.com/nccgroup/autochrome)
-- https://img.shields.io/github/stars/nccgroup/autochrome)
-- https://img.shields.io/github/languages/top/nccgroup/autochrome)
+url: https://github.com/nccgroup/autochrome
 category: tool
 types: []
 platform: []

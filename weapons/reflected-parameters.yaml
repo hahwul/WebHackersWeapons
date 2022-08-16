@@ -1,10 +1,7 @@
 ---
 name: reflected-parameters
 description:
-urls:
-- https://github.com/PortSwigger/reflected-parameters)
-- https://img.shields.io/github/stars/PortSwigger/reflected-parameters)
-- https://img.shields.io/github/languages/top/PortSwigger/reflected-parameters)
+url: https://github.com/PortSwigger/reflected-parameters
 category: tool-addon
 types: []
 platform:

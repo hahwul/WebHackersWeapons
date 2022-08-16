@@ -1,10 +1,7 @@
 ---
 name: meg
 description: 'Fetch many paths for many hosts - without killing the hosts '
-urls:
-- https://github.com/tomnomnom/meg)
-- https://img.shields.io/github/stars/tomnomnom/meg)
-- https://img.shields.io/github/languages/top/tomnomnom/meg)
+url: https://github.com/tomnomnom/meg
 category: tool
 types: []
 platform:

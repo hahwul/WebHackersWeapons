@@ -1,10 +1,7 @@
 ---
 name: headi
 description: Customisable  and automated HTTP header injection
-urls:
-- https://github.com/mlcsec/headi)
-- https://img.shields.io/github/stars/mlcsec/headi)
-- https://img.shields.io/github/languages/top/mlcsec/headi)
+url: https://github.com/mlcsec/headi
 category: tool
 types: []
 platform: []

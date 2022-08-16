@@ -2,10 +2,7 @@
 name: Gopherus
 description: 'This tool generates gopher link for exploiting SSRF and gaining RCE
   in various servers '
-urls:
-- https://github.com/tarunkant/Gopherus)
-- https://img.shields.io/github/stars/tarunkant/Gopherus)
-- https://img.shields.io/github/languages/top/tarunkant/Gopherus)
+url: https://github.com/tarunkant/Gopherus
 category: tool
 types: []
 platform:

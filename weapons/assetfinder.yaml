@@ -1,10 +1,7 @@
 ---
 name: assetfinder
 description: 'Find domains and subdomains related to a given domain '
-urls:
-- https://github.com/tomnomnom/assetfinder)
-- https://img.shields.io/github/stars/tomnomnom/assetfinder)
-- https://img.shields.io/github/languages/top/tomnomnom/assetfinder)
+url: https://github.com/tomnomnom/assetfinder
 category: tool
 types: []
 platform:

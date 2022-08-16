@@ -1,10 +1,7 @@
 ---
 name: BurpJSLinkFinder
 description:
-urls:
-- https://github.com/InitRoot/BurpJSLinkFinder)
-- https://img.shields.io/github/stars/InitRoot/BurpJSLinkFinder)
-- https://img.shields.io/github/languages/top/InitRoot/BurpJSLinkFinder)
+url: https://github.com/InitRoot/BurpJSLinkFinder
 category: tool-addon
 types: []
 platform:

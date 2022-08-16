@@ -2,10 +2,7 @@
 name: reconftw
 description: reconFTW is a tool designed to perform automated recon on a target domain
   by running the best set of tools to perform scanning and finding out vulnerabilities
-urls:
-- https://github.com/six2dez/reconftw)
-- https://img.shields.io/github/stars/six2dez/reconftw)
-- https://img.shields.io/github/languages/top/six2dez/reconftw)
+url: https://github.com/six2dez/reconftw
 category: tool
 types: []
 platform: []

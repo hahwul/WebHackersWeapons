@@ -40,8 +40,14 @@ def get_browser str
      return lst
 end
 
-def get_urls str
-     return URI.extract(str).uniq
+def get_url str
+     urls = URI.extract(str).uniq
+     urls.each do |url|
+          if !url.include? "img.shields.io"
+               return url.gsub(")","")
+          end
+     end
+     return ""
 end
 
 def get_lang url
@@ -60,7 +66,7 @@ def migrate jsonfile, category
           new_obj = {}
           new_obj['name'] = name
           new_obj['description'] = obj['Description']
-          new_obj['urls'] = get_urls obj['Data']
+          new_obj['url'] = get_url obj['Data']
           new_obj['category'] = category
           new_obj['types'] = []
           if obj['Install'] != nil 

@@ -2,10 +2,7 @@
 name: s3reverse
 description: 'The format of various s3 buckets is convert in one format. for bugbounty
   and security testing. '
-urls:
-- https://github.com/hahwul/s3reverse)
-- https://img.shields.io/github/stars/hahwul/s3reverse)
-- https://img.shields.io/github/languages/top/hahwul/s3reverse)
+url: https://github.com/hahwul/s3reverse
 category: tool
 types: []
 platform:

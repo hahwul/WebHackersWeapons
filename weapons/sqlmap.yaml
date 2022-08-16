@@ -1,10 +1,7 @@
 ---
 name: sqlmap
 description: Automatic SQL injection and database takeover tool
-urls:
-- https://github.com/sqlmapproject/sqlmap)
-- https://img.shields.io/github/stars/sqlmapproject/sqlmap)
-- https://img.shields.io/github/languages/top/sqlmapproject/sqlmap)
+url: https://github.com/sqlmapproject/sqlmap
 category: tool
 types: []
 platform:

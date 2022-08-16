@@ -3,10 +3,7 @@ name: VHostScan
 description: 'A virtual host scanner that performs reverse lookups, can be used with
   pivot tools, detect catch-all scenarios, work around wildcards, aliases and dynamic
   default pages. '
-urls:
-- https://github.com/codingo/VHostScan)
-- https://img.shields.io/github/stars/codingo/VHostScan)
-- https://img.shields.io/github/languages/top/codingo/VHostScan)
+url: https://github.com/codingo/VHostScan
 category: tool
 types: []
 platform:

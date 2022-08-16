@@ -1,10 +1,7 @@
 ---
 name: S3Scanner
 description: 'Scan for open AWS S3 buckets and dump the contents '
-urls:
-- https://github.com/sa7mon/S3Scanner)
-- https://img.shields.io/github/stars/sa7mon/S3Scanner)
-- https://img.shields.io/github/languages/top/sa7mon/S3Scanner)
+url: https://github.com/sa7mon/S3Scanner
 category: tool
 types: []
 platform:

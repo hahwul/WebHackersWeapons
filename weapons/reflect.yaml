@@ -1,10 +1,7 @@
 ---
 name: reflect
 description:
-urls:
-- https://github.com/TypeError/reflect)
-- https://img.shields.io/github/stars/TypeError/reflect)
-- https://img.shields.io/github/languages/top/TypeError/reflect)
+url: https://github.com/TypeError/reflect
 category: tool-addon
 types: []
 platform:

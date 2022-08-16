@@ -2,10 +2,7 @@
 name: cariddi
 description: Take a list of domains and scan for endpoints, secrets, api keys, file
   extensions, tokens and more...
-urls:
-- https://github.com/edoardottt/cariddi)
-- https://img.shields.io/github/stars/edoardottt/cariddi)
-- https://img.shields.io/github/languages/top/edoardottt/cariddi)
+url: https://github.com/edoardottt/cariddi
 category: tool
 types: []
 platform: []

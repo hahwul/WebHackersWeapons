@@ -1,10 +1,7 @@
 ---
 name: Arjun
 description: 'HTTP parameter discovery suite. '
-urls:
-- https://github.com/s0md3v/Arjun)
-- https://img.shields.io/github/stars/s0md3v/Arjun)
-- https://img.shields.io/github/languages/top/s0md3v/Arjun)
+url: https://github.com/s0md3v/Arjun
 category: tool
 types: []
 platform:

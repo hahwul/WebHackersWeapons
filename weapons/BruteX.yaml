@@ -1,10 +1,7 @@
 ---
 name: BruteX
 description: Automatically brute force all services running on a target.
-urls:
-- https://github.com/1N3/BruteX)
-- https://img.shields.io/github/stars/1N3/BruteX)
-- https://img.shields.io/github/languages/top/1N3/BruteX)
+url: https://github.com/1N3/BruteX
 category: tool
 types: []
 platform: []

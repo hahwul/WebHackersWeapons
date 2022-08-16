@@ -1,10 +1,7 @@
 ---
 name: chaos-client
 description: 'Go client to communicate with Chaos DNS API. '
-urls:
-- https://github.com/projectdiscovery/chaos-client)
-- https://img.shields.io/github/stars/projectdiscovery/chaos-client)
-- https://img.shields.io/github/languages/top/projectdiscovery/chaos-client)
+url: https://github.com/projectdiscovery/chaos-client
 category: tool
 types: []
 platform:

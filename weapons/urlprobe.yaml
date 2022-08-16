@@ -1,10 +1,7 @@
 ---
 name: urlprobe
 description: 'Urls status code & content length checker '
-urls:
-- https://github.com/1ndianl33t/urlprobe)
-- https://img.shields.io/github/stars/1ndianl33t/urlprobe)
-- https://img.shields.io/github/languages/top/1ndianl33t/urlprobe)
+url: https://github.com/1ndianl33t/urlprobe
 category: tool
 types: []
 platform:

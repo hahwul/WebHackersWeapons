@@ -1,10 +1,7 @@
 ---
 name: recon_profile
 description: 'Recon profile (bash profile) for bugbounty '
-urls:
-- https://github.com/nahamsec/recon_profile)
-- https://img.shields.io/github/stars/nahamsec/recon_profile)
-- https://img.shields.io/github/languages/top/nahamsec/recon_profile)
+url: https://github.com/nahamsec/recon_profile
 category: tool
 types: []
 platform:

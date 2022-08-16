@@ -2,10 +2,7 @@
 name: dmut
 description: A tool to perform permutations, mutations and alteration of subdomains
   in golang.
-urls:
-- https://github.com/bp0lr/dmut)
-- https://img.shields.io/github/stars/bp0lr/dmut)
-- https://img.shields.io/github/languages/top/bp0lr/dmut)
+url: https://github.com/bp0lr/dmut
 category: tool
 types: []
 platform: []

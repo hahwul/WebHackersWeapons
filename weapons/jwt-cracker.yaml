@@ -1,10 +1,7 @@
 ---
 name: jwt-cracker
 description: 'Simple HS256 JWT token brute force cracker '
-urls:
-- https://github.com/lmammino/jwt-cracker)
-- https://img.shields.io/github/stars/lmammino/jwt-cracker)
-- https://img.shields.io/github/languages/top/lmammino/jwt-cracker)
+url: https://github.com/lmammino/jwt-cracker
 category: tool
 types: []
 platform:

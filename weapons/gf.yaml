@@ -1,10 +1,7 @@
 ---
 name: gf
 description: 'A wrapper around grep, to help you grep for things '
-urls:
-- https://github.com/tomnomnom/gf)
-- https://img.shields.io/github/stars/tomnomnom/gf)
-- https://img.shields.io/github/languages/top/tomnomnom/gf)
+url: https://github.com/tomnomnom/gf
 category: tool
 types: []
 platform:
