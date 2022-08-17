@@ -1,7 +1,6 @@
 # Contribute
 ## Fork Repository
-Fork this repository 
-![1414](https://user-images.githubusercontent.com/13212227/98445633-fd479700-215b-11eb-876f-fcc82a010bb6.png)
+Fork this repository :D
 
 ## Write `./weapons/<appname>.yaml` and PR it
 Write YAML Code. 
