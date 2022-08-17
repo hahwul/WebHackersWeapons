@@ -1,8 +1,26 @@
 require 'erb'
 require 'yaml'
 
-def generate_badge
-
+def generate_badge array
+    badge = ""
+    array.each { |t|
+        case t
+        when 'linux'
+            badge = badge + "![](./images/linux.png)"
+        when 'windows'
+            badge = badge + "![](./images/windows.png)"
+        when 'macos'
+            badge = badge + "![](./images/apple.png)"
+        when 'firefox'
+            badge = badge + "![](./images/firefox.png)"
+        when 'safari'
+            badge = badge + "![](./images/safari.png)"
+        when 'chrome'
+            badge = badge + "![](./images/chrome.png)"
+        end
+    }
+    
+    return badge
 end
 
 template = %q{
@@ -70,9 +88,9 @@ Dir.entries("./weapons/").each do | name |
             split_result = data['url'].split "//github.com/"
             popularity = "![](https://img.shields.io/github/stars/#{split_result[1]})"
         end
-        badge = generate_badge
+        badge = generate_badge(data['platform'])
         line = "|#{data['types']}|#{name}|#{data['description']}|#{badge}|#{popularity}|"
-        case data['category']
+        case data['category'] 
         when 'tool'
             tools = tools + line + "\n"
         when 'tool-addon'
