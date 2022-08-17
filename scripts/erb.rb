@@ -79,35 +79,37 @@ browser_addons = head + "\n"
 tool_addons = head + "\n"
 
 Dir.entries("./weapons/").each do | name |
-    begin
-        data = YAML.load(File.open("./weapons/#{name}"))
-        name = data['name']
-        popularity = "x"
+    if name != '.' && name != '..'
+        begin
+            data = YAML.load(File.open("./weapons/#{name}"))
+            name = data['name']
+            popularity = "x"
 
-        if data['url'].length > 0 
-            name = "[#{name}](#{data['url']})"
-        end
+            if data['url'].length > 0 
+                name = "[#{name}](#{data['url']})"
+            end
 
-        if data['url'].include? "github.com"
-            split_result = data['url'].split "//github.com/"
-            popularity = "![](https://img.shields.io/github/stars/#{split_result[1]})"
+            if data['url'].include? "github.com"
+                split_result = data['url'].split "//github.com/"
+                popularity = "![](https://img.shields.io/github/stars/#{split_result[1]})"
+            end
+            badge = generate_badge(data['platform'])
+            line = "|#{data['types']}|#{name}|#{data['description']}|#{badge}|#{popularity}|"
+            case data['category'] 
+            when 'tool'
+                tools = tools + line + "\n"
+            when 'tool-addon'
+                tool_addons = tool_addons + line + "\n"
+            when 'browser-addon'
+                browser_addons = browser_addons + line + "\n"
+            when 'bookmarklet'
+                bookmarklets = bookmarklets + line + "\n"
+            else
+                puts name
+            end
+        rescue => e 
+            puts e
         end
-        badge = generate_badge(data['platform'])
-        line = "|#{data['types']}|#{name}|#{data['description']}|#{badge}|#{popularity}|"
-        case data['category'] 
-        when 'tool'
-            tools = tools + line + "\n"
-        when 'tool-addon'
-            tool_addons = tool_addons + line + "\n"
-        when 'browser-addon'
-            browser_addons = browser_addons + line + "\n"
-        when 'bookmarklet'
-            bookmarklets = bookmarklets + line + "\n"
-        else
-            puts name
-        end
-    rescue => e 
-        puts e
     end
 end
 
