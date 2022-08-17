@@ -16,11 +16,11 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 
 ## Table of Contents
 - [Weapons](#weapons)
-  - Tools
-  - [Bookmarklets](https://github.com/hahwul/WebHackersWeapons/tree/master/Bookmarklets)
-  - [Browser Extensions](https://github.com/hahwul/WebHackersWeapons/tree/master/Browser%20Extensions)
-  - [Burp and ZAP Extensions](https://github.com/hahwul/WebHackersWeapons/tree/master/Burp%20and%20ZAP%20Extensions)
-- [Contribute](https://github.com/hahwul/WebHackersWeapons/blob/master/CONTRIBUTING.md) 
+  - [Tools](#tools)
+  - [Bookmarklets](#bookmarklets)
+  - [Browser Addons](#browser-addons)
+  - [Burp and ZAP Addons](#burpsuite-and-zap-addons)
+- [Contribute](CONTRIBUTING.md) 
 - [Thanks to contributor](#thanks-to-contributor)
 
 ## Weapons
