@@ -1,8 +1,8 @@
-# Contribute
-## Fork Repository
+## Contribute
+### First, Fork Repository
 Fork this repository :D
 
-## Write `./weapons/<appname>.yaml` and PR it
+### Second, Write `./weapons/<appname>.yaml` and PR it
 Write YAML Code. 
 ```yaml
 ---
