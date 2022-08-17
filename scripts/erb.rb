@@ -23,8 +23,15 @@ def generate_badge array
             badge = badge + "![zap](./images/zap.png)"
         end
     }
-    
     return badge
+end
+
+def generate_tags array
+    tags = ""
+    array.each { |t|
+        tags = tags + "`#{t}` "
+    }
+    return tags
 end
 
 template = %q{
@@ -98,6 +105,7 @@ Dir.entries("./weapons/").each do | name |
                 popularity = "![](https://img.shields.io/github/stars/#{split_result[1]})"
             end
             badge = generate_badge(data['platform'])
+            badge = generate_tags(data['tags'])
             line = "|#{data['type']}|#{name}|#{data['description']}|#{badge}|#{popularity}|"
             case data['category'] 
             when 'tool'
