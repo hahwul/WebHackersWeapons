@@ -1,6 +1,6 @@
 ---
 name: Shodan
-description: " World's first search engine for Internet-connected devices|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) "
+description: " World's first search engine for Internet-connected devices"
 url: https://www.shodan.io/
 category: tool
 type: 

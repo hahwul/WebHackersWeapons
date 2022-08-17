@@ -1,7 +1,7 @@
 ---
 name: Chaos Web
 description: " actively scan and maintain internet-wide assets' data. enhance research
-  and analyse changes around DNS for better insights.|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray)"
+  and analyse changes around DNS for better insights."
 url: https://chaos.projectdiscovery.io
 category: tool
 type: 

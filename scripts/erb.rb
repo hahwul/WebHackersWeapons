@@ -82,7 +82,7 @@ I would like to thank everyone who helped with this project 👍😎
 
 }.gsub(/^  /, '')
 
-head = "| Type | Name | Description | Badges | Popularity |\n"
+head = "| Type | Name | Description | Star | Badges |\n"
 head = head + "| --- | --- | --- | --- | --- |"
 tools = head + "\n"
 bookmarklets = head + "\n"
@@ -102,11 +102,11 @@ Dir.entries("./weapons/").each do | name |
 
             if data['url'].include? "github.com"
                 split_result = data['url'].split "//github.com/"
-                popularity = "![](https://img.shields.io/github/stars/#{split_result[1]})"
+                popularity = "![](https://img.shields.io/github/stars/#{split_result[1]}?label=%20)"
             end
             badge = generate_badge(data['platform'])
-            badge = generate_tags(data['tags'])
-            line = "|#{data['type']}|#{name}|#{data['description']}|#{badge}|#{popularity}|"
+            badge = badge + generate_tags(data['tags'])
+            line = "|#{data['type']}|#{name}|#{data['description']}|#{popularity}|#{badge}|"
             case data['category'] 
             when 'tool'
                 tools = tools + line + "\n"

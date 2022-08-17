@@ -1,6 +1,6 @@
 ---
 name: DNSDumpster
-description: " Online dns recon & research, find & lookup dns records|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) "
+description: " Online dns recon & research, find & lookup dns records"
 url: https://dnsdumpster.com
 category: tool
 type: 
