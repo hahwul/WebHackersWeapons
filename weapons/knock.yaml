@@ -3,7 +3,7 @@ name: knock
 description: 'Knock Subdomain Scan '
 url: https://github.com/guelfoweb/knock
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

@@ -3,7 +3,7 @@ name: sqlmap
 description: Automatic SQL injection and database takeover tool
 url: https://github.com/sqlmapproject/sqlmap
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

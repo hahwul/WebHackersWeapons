@@ -3,7 +3,7 @@ name: ParamSpider
 description: 'Mining parameters from dark corners of Web Archives '
 url: https://github.com/devanshbatham/ParamSpider
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

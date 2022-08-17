@@ -3,7 +3,7 @@ name: collaborator-everywhere
 description:
 url: https://github.com/PortSwigger/collaborator-everywhere
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 lang: []

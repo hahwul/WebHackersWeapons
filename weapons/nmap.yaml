@@ -3,7 +3,7 @@ name: nmap
 description: 'Nmap - the Network Mapper. Github mirror of official SVN repository. '
 url: https://github.com/nmap/nmap
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

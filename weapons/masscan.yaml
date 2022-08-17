@@ -4,7 +4,7 @@ description: 'TCP port scanner, spews SYN packets asynchronously, scanning entir
   Internet in under 5 minutes. '
 url: https://github.com/robertdavidgraham/masscan
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

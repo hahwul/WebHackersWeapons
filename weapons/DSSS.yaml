@@ -3,7 +3,7 @@ name: DSSS
 description: Damn Small SQLi Scanner
 url: https://github.com/stamparm/DSSS
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

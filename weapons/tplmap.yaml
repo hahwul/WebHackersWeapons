@@ -4,7 +4,7 @@ description: Server-Side Template Injection and Code Injection Detection and Exp
   Tool
 url: https://github.com/epinna/tplmap
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

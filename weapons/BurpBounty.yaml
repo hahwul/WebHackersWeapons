@@ -3,7 +3,7 @@ name: BurpBounty
 description:
 url: https://github.com/wagiro/BurpBounty
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 lang: []

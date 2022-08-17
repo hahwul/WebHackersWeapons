@@ -3,7 +3,7 @@ name: Atlas
 description: 'Quick SQLMap Tamper Suggester '
 url: https://github.com/m4ll0k/Atlas
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

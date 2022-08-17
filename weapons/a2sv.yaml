@@ -3,7 +3,7 @@ name: a2sv
 description: 'Auto Scanning to SSL Vulnerability '
 url: https://github.com/hahwul/a2sv
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

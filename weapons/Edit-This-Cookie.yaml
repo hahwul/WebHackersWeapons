@@ -4,7 +4,7 @@ description: EditThisCookie is the famous Google Chrome/Chromium extension for e
   cookies
 url: https://github.com/ETCExtensions/Edit-This-Cookie
 category: browser-addon
-types: []
+type: 
 platform:
 - chrome
 lang: []

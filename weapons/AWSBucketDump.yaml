@@ -3,7 +3,10 @@ name: AWSBucketDump
 description: Security Tool to Look For Interesting Files in S3 Buckets
 url: https://github.com/jordanpotti/AWSBucketDump
 category: tool
-types: []
-platform: []
+type: 
+platform:
+- linux
+- macos
+- windows
 lang: []
 tags: []

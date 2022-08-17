@@ -3,7 +3,7 @@ name: gron
 description: 'Make JSON greppable! '
 url: https://github.com/tomnomnom/gron
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

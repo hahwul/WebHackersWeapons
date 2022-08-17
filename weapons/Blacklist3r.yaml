@@ -3,7 +3,10 @@ name: Blacklist3r
 description: 'project-blacklist3r '
 url: https://github.com/NotSoSecure/Blacklist3r
 category: tool
-types: []
-platform: []
+type: 
+platform:
+- linux
+- macos
+- windows
 lang: []
 tags: []

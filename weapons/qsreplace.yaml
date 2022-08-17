@@ -4,7 +4,7 @@ description: 'Accept URLs on stdin, replace all query string values with a user-
   value '
 url: https://github.com/tomnomnom/qsreplace
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

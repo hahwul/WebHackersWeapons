@@ -4,7 +4,7 @@ description: 'Simple, fast web crawler designed for easy, quick discovery of end
   and assets within a web application '
 url: https://github.com/hakluke/hakrawler
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

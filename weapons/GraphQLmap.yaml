@@ -4,7 +4,7 @@ description: 'GraphQLmap is a scripting engine to interact with a graphql endpoi
   for pentesting purposes. '
 url: https://github.com/swisskyrepo/GraphQLmap
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

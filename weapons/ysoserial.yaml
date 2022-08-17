@@ -4,7 +4,7 @@ description: 'A proof-of-concept tool for generating payloads that exploit unsaf
   Java object deserialization. '
 url: https://github.com/frohoff/ysoserial
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

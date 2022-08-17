@@ -3,7 +3,7 @@ name: IntruderPayloads
 description:
 url: https://github.com/1N3/IntruderPayloads
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 lang: []

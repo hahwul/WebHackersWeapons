@@ -3,7 +3,7 @@ name: Photon
 description: 'Incredibly fast crawler designed for OSINT. '
 url: https://github.com/s0md3v/Photon
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

@@ -3,7 +3,7 @@ name: rapidscan
 description: 'The Multi-Tool Web Vulnerability Scanner. '
 url: https://github.com/skavngr/rapidscan
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

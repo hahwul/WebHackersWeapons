@@ -4,7 +4,7 @@ description: Uility to embed XXE and XSS payloads in docx,odt,pptx,etc (OXML_XEE
   steroids)
 url: https://github.com/whitel1st/docem
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

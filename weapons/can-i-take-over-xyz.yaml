@@ -4,7 +4,10 @@ description: '"Can I take over XYZ?" — a list of services and how to claim (su
   with dangling DNS records.'
 url: https://github.com/EdOverflow/can-i-take-over-xyz
 category: tool
-types: []
-platform: []
+type: 
+platform:
+- linux
+- macos
+- windows
 lang: []
 tags: []

@@ -4,7 +4,7 @@ description: 'The format of various s3 buckets is convert in one format. for bug
   and security testing. '
 url: https://github.com/hahwul/s3reverse
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

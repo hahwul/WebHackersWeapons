@@ -4,7 +4,7 @@ description: a recon tool that allows searching on URLs that are exposed via sho
   services
 url: https://github.com/utkusen/urlhunter
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

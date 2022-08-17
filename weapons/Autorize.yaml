@@ -3,7 +3,7 @@ name: Autorize
 description:
 url: https://github.com/Quitten/Autorize
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 lang: []

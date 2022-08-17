@@ -4,7 +4,7 @@ description: Application for capturing, modifying and sending custom WebSocket d
   from client to server and vice versa.
 url: https://github.com/nccgroup/wssip
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

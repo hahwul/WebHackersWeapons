@@ -3,7 +3,7 @@ name: femida
 description:
 url: https://github.com/wish-i-was/femida
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 lang: []

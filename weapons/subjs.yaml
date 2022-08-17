@@ -3,7 +3,7 @@ name: subjs
 description: Fetches javascript file from a list of URLS or subdomains.
 url: https://github.com/lc/subjs
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

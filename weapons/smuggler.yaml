@@ -4,7 +4,7 @@ description: 'Smuggler - An HTTP Request Smuggling / Desync testing tool written
   Python 3 '
 url: https://github.com/defparam/smuggler
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

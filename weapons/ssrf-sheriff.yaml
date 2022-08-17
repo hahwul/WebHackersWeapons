@@ -3,7 +3,7 @@ name: ssrf-sheriff
 description: 'A simple SSRF-testing sheriff written in Go '
 url: https://github.com/teknogeek/ssrf-sheriff
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

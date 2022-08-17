@@ -3,7 +3,7 @@ name: HydraRecon
 description: All In One, Fast, Easy Recon Tool
 url: https://github.com/aufzayed/HydraRecon
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

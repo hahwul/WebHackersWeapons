@@ -3,7 +3,7 @@ name: pet
 description: Simple command-line snippet manager, written in Go.
 url: https://github.com/knqyf263/pet
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

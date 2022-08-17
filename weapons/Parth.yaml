@@ -3,7 +3,7 @@ name: Parth
 description: 'Heuristic Vulnerable Parameter Scanner '
 url: https://github.com/s0md3v/Parth
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

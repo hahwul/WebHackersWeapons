@@ -3,7 +3,7 @@ name: aquatone
 description: 'A Tool for Domain Flyovers '
 url: https://github.com/michenriksen/aquatone
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

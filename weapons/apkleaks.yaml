@@ -3,7 +3,7 @@ name: apkleaks
 description: 'Scanning APK file for URIs, endpoints & secrets. '
 url: https://github.com/dwisiswant0/apkleaks
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

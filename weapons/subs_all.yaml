@@ -3,7 +3,7 @@ name: subs_all
 description: 'Subdomain Enumeration Wordlist. 8956437 unique words. Updated. '
 url: https://github.com/emadshanab/subs_all
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

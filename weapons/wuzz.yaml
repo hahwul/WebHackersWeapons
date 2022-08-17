@@ -3,7 +3,7 @@ name: wuzz
 description: 'Interactive cli tool for HTTP inspection '
 url: https://github.com/asciimoo/wuzz
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

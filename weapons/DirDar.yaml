@@ -4,7 +4,7 @@ description: DirDar is a tool that searches for (403-Forbidden) directories to b
   it and get dir listing on it
 url: https://github.com/M4DM0e/DirDar
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

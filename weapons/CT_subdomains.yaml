@@ -4,7 +4,7 @@ description: 'An hourly updated list of subdomains gathered from certificate tra
   logs '
 url: https://github.com/internetwache/CT_subdomains
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

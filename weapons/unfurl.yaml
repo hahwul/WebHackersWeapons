@@ -3,7 +3,7 @@ name: unfurl
 description: 'Pull out bits of URLs provided on stdin '
 url: https://github.com/tomnomnom/unfurl
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

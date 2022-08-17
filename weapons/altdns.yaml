@@ -4,7 +4,7 @@ description: 'Generates permutations, alterations and mutations of subdomains an
   then resolves them '
 url: https://github.com/infosec-au/altdns
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

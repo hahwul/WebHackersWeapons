@@ -3,7 +3,7 @@ name: User-Agent Switcher
 description: quick and easy way to switch between user-agents.
 url: https://chrome.google.com/webstore/detail/user-agent-switcher/clddifkhlkcojbojppdojfeeikdkgiae
 category: browser-addon
-types: []
+type: 
 platform:
 - chrome
 lang: []

@@ -3,7 +3,7 @@ name: BurpJSLinkFinder
 description:
 url: https://github.com/InitRoot/BurpJSLinkFinder
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 lang: []

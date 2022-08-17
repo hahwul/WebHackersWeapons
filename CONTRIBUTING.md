@@ -10,7 +10,7 @@ name: App Name
 description: App Description
 url: App URL   # https://github.com/hahwul/dalfox
 category: tool # tool / tool-addon / browser-addon / bookmarklet
-types: []      # fuzzer / scanner / enum / etc...
+type:       # fuzzer / scanner / enum / etc...
 platform:
 - linux     # linux 
 - macos     # macos application

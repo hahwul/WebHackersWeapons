@@ -3,7 +3,7 @@ name: burp-piper
 description:
 url: https://github.com/silentsignal/burp-piper
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 lang: []

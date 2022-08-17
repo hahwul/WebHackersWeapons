@@ -3,7 +3,7 @@ name: gitGraber
 description: 'gitGraber '
 url: https://github.com/hisxo/gitGraber
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

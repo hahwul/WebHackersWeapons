@@ -3,7 +3,7 @@ name: zdns
 description: Fast CLI DNS Lookup Tool
 url: https://github.com/zmap/zdns
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

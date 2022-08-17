@@ -3,7 +3,7 @@ name: owasp-zap-jwt-addon
 description:
 url: https://github.com/SasanLabs/owasp-zap-jwt-addon
 category: tool-addon
-types: []
+type: 
 platform:
 - zap
 lang: []

@@ -3,7 +3,7 @@ name: x8
 description: Hidden parameters discovery suite
 url: https://github.com/Sh1Yo/x8
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

@@ -3,7 +3,7 @@ name: megplus
 description: 'Automated reconnaissance wrapper — TomNomNom''s meg on steroids. [DEPRECATED] '
 url: https://github.com/EdOverflow/megplus
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

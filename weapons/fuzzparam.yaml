@@ -3,7 +3,7 @@ name: fuzzparam
 description: A fast go based param miner to fuzz possible parameters a URL can have.
 url: https://github.com/0xsapra/fuzzparam
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

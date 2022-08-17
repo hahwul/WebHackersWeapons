@@ -3,7 +3,7 @@ name: ffuf
 description: 'Fast web fuzzer written in Go '
 url: https://github.com/ffuf/ffuf
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

@@ -3,7 +3,7 @@ name: PoC-in-GitHub
 description: "\U0001F4E1 PoC auto collect from GitHub. Be careful  malware."
 url: https://github.com/nomi-sec/PoC-in-GitHub
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

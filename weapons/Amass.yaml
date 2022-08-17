@@ -3,9 +3,10 @@ name: Amass
 description: 'In-depth Attack Surface Mapping and Asset Discovery '
 url: https://github.com/OWASP/Amass
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos
+- windows
 lang: []
 tags: []

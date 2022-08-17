@@ -3,7 +3,7 @@ name: Sublist3r
 description: 'Fast subdomains enumeration tool for penetration testers '
 url: https://github.com/aboul3la/Sublist3r
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

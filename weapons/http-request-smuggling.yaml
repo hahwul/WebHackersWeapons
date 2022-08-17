@@ -3,7 +3,7 @@ name: http-request-smuggling
 description: HTTP Request Smuggling Detection Tool
 url: https://github.com/anshumanpattnaik/http-request-smuggling
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

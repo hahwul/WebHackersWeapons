@@ -3,7 +3,7 @@ name: dontgo403
 description: Tool to bypass 40X response codes.
 url: https://github.com/devploit/dontgo403
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

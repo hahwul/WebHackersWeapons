@@ -3,7 +3,7 @@ name: fzf
 description: A command-line fuzzy finder
 url: https://github.com/junegunn/fzf
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

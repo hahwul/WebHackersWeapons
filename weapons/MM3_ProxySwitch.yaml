@@ -3,7 +3,7 @@ name: MM3 ProxySwitch
 description: Proxy Switch in Firefox and Chrome
 url: https://proxy-offline-browser.com/ProxySwitch/
 category: browser-addon
-types: []
+type: 
 platform:
 - chrome
 - firefox

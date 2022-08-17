@@ -4,7 +4,7 @@ description: Fetch known URLs from AlienVault's Open Threat Exchange, the Waybac
   Machine, and Common Crawl.
 url: https://github.com/lc/gau
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

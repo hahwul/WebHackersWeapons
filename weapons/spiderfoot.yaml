@@ -3,7 +3,7 @@ name: spiderfoot
 description: SpiderFoot automates OSINT collection so that you can focus on analysis.
 url: https://github.com/smicallef/spiderfoot
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

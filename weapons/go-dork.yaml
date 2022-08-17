@@ -3,7 +3,7 @@ name: go-dork
 description: 'The fastest dork scanner written in Go. '
 url: https://github.com/dwisiswant0/go-dork
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

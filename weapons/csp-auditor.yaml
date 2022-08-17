@@ -3,7 +3,7 @@ name: csp-auditor
 description:
 url: https://github.com/GoSecure/csp-auditor
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 - zap

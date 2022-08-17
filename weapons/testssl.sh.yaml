@@ -3,7 +3,7 @@ name: testssl.sh
 description: 'Testing TLS/SSL encryption anywhere on any port '
 url: https://github.com/drwetter/testssl.sh
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

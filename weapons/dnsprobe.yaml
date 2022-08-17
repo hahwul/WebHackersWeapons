@@ -4,7 +4,7 @@ description: 'DNSProb (beta) is a tool built on top of retryabledns that allows 
   to perform multiple dns queries of your choice with a list of user supplied resolvers. '
 url: https://github.com/projectdiscovery/dnsprobe
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

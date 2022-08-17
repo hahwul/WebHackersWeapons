@@ -3,7 +3,7 @@ name: clear-cache
 description: Add-on to clear browser cache with a single click or via the F9 key.
 url: https://github.com/TenSoja/clear-cache
 category: browser-addon
-types: []
+type: 
 platform:
 - firefox
 lang: []

@@ -3,7 +3,7 @@ name: Assetnote Wordlists
 description: Automated & Manual Wordlists provided by Assetnote
 url: https://github.com/assetnote/wordlists
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

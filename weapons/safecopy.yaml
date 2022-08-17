@@ -3,7 +3,7 @@ name: safecopy
 description:
 url: https://github.com/yashrs/safecopy
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 lang: []

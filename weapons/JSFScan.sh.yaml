@@ -3,7 +3,7 @@ name: JSFScan.sh
 description: 'Automation for javascript recon in bug bounty. '
 url: https://github.com/KathanP19/JSFScan.sh
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

@@ -3,7 +3,7 @@ name: XSpear
 description: 'Powerfull XSS Scanning and Parameter analysis tool&gem '
 url: https://github.com/hahwul/XSpear
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

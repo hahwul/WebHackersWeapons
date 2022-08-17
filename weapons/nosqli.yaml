@@ -3,7 +3,7 @@ name: nosqli
 description: NoSql Injection CLI tool
 url: https://github.com/Charlie-belmer/nosqli
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

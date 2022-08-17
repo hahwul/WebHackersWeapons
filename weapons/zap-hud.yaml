@@ -3,7 +3,7 @@ name: zap-hud
 description:
 url: https://github.com/zaproxy/zap-hud
 category: tool-addon
-types: []
+type: 
 platform:
 - zap
 lang: []

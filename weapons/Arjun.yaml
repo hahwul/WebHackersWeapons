@@ -3,7 +3,7 @@ name: Arjun
 description: 'HTTP parameter discovery suite. '
 url: https://github.com/s0md3v/Arjun
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

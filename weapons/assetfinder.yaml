@@ -3,7 +3,7 @@ name: assetfinder
 description: 'Find domains and subdomains related to a given domain '
 url: https://github.com/tomnomnom/assetfinder
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

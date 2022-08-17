@@ -3,7 +3,7 @@ name: sn0int
 description: Semi-automatic OSINT framework and package manager
 url: https://github.com/kpcyrd/sn0int
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

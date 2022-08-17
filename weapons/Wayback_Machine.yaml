@@ -3,7 +3,7 @@ name: Wayback Machine
 description: History of website
 url: https://apps.apple.com/us/app/wayback-machine/id1472432422
 category: browser-addon
-types: []
+type: 
 platform:
 - safari
 lang: []

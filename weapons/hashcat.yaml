@@ -3,7 +3,7 @@ name: hashcat
 description: 'World''s fastest and most advanced password recovery utility '
 url: https://github.com/hashcat/hashcat/
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

@@ -3,7 +3,7 @@ name: tiscripts
 description: Turbo Intruder Scripts
 url: https://github.com/defparam/tiscripts
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

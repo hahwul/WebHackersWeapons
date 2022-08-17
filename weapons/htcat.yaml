@@ -3,7 +3,7 @@ name: htcat
 description: 'Parallel and Pipelined HTTP GET Utility '
 url: https://github.com/htcat/htcat
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

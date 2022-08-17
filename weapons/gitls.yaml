@@ -3,7 +3,7 @@ name: gitls
 description: Listing git repository from URL/User/Org
 url: https://github.com/hahwul/gitls
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

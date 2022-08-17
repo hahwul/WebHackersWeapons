@@ -3,7 +3,7 @@ name: attack-surface-detector-zap
 description:
 url: https://github.com/secdec/attack-surface-detector-zap
 category: tool-addon
-types: []
+type: 
 platform:
 - zap
 lang: []

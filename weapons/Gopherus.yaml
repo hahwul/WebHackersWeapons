@@ -4,7 +4,7 @@ description: 'This tool generates gopher link for exploiting SSRF and gaining RC
   in various servers '
 url: https://github.com/tarunkant/Gopherus
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

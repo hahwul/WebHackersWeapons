@@ -5,7 +5,7 @@ description: 'A handy DNS service written in Go to aid in the detection of sever
   DNS interactions and sends lookup notifications via Slack. '
 url: https://github.com/allyomalley/dnsobserver
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

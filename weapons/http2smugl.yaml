@@ -4,7 +4,7 @@ description: This tool helps to detect and exploit HTTP request smuggling in cas
   it can be achieved via HTTP/2 -> HTTP/1.1 conversion by the frontend server.
 url: https://github.com/neex/http2smugl
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

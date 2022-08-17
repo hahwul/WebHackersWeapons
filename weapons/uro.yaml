@@ -3,7 +3,7 @@ name: uro
 description: declutters url lists for crawling/pentesting
 url: https://github.com/s0md3v/uro
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

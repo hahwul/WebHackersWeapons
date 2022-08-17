@@ -3,7 +3,7 @@ name: burl
 description: 'A Broken-URL Checker '
 url: https://github.com/tomnomnom/burl
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

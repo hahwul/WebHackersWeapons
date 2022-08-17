@@ -5,7 +5,7 @@ description: 'DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer fo
   configurability and hooks. Demo:'
 url: https://github.com/cure53/DOMPurify
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

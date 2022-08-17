@@ -3,7 +3,7 @@ name: XSRFProbe
 description: The Prime Cross Site Request Forgery (CSRF) Audit and Exploitation Toolkit.
 url: https://github.com/0xInfection/XSRFProbe
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

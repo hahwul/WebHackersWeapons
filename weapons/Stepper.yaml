@@ -3,7 +3,7 @@ name: Stepper
 description:
 url: https://github.com/CoreyD97/Stepper
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 lang: []

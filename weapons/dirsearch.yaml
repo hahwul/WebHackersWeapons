@@ -3,7 +3,7 @@ name: dirsearch
 description: 'Web path scanner '
 url: https://github.com/maurosoria/dirsearch
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

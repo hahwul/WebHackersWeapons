@@ -4,7 +4,7 @@ description: Maintains a list of IPv4 DNS servers by verifying them against base
   servers, and ensuring accurate responses.
 url: https://github.com/vortexau/dnsvalidator
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

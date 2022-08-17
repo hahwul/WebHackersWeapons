@@ -4,7 +4,7 @@ description: 'XSS/SQLi spider. Give it a URL and it''ll test every link it finds
   XSS and some SQLi. '
 url: https://github.com/DanMcInerney/xsscrapy
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

@@ -3,7 +3,7 @@ name: taborator
 description:
 url: https://github.com/hackvertor/taborator
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 lang: []

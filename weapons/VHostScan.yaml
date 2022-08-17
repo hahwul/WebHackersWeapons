@@ -5,7 +5,7 @@ description: 'A virtual host scanner that performs reverse lookups, can be used 
   default pages. '
 url: https://github.com/codingo/VHostScan
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

@@ -3,7 +3,7 @@ name: AuthMatrix
 description:
 url: https://github.com/SecurityInnovation/AuthMatrix
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 lang: []

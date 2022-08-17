@@ -5,7 +5,7 @@ description: "As easy as /aitch-tee-tee-pie/ \U0001F967 Modern, user-friendly co
   & more. https://twitter.com/httpie"
 url: https://github.com/httpie/httpie
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

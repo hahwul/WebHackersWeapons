@@ -3,7 +3,7 @@ name: ditto
 description: A tool for IDN homograph attacks and detection.
 url: https://github.com/evilsocket/ditto
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

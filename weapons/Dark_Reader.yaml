@@ -3,7 +3,7 @@ name: Dark Reader
 description: Dark mode to any site
 url: https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
 category: browser-addon
-types: []
+type: 
 platform:
 - chrome
 - firefox

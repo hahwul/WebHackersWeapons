@@ -4,7 +4,7 @@ description: Tool for automatic exploitation of XXE vulnerability using direct a
   different out of band methods.
 url: https://github.com/enjoiz/XXEinjector
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

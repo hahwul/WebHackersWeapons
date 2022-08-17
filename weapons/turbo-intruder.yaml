@@ -3,7 +3,7 @@ name: turbo-intruder
 description:
 url: https://github.com/PortSwigger/turbo-intruder
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 lang: []

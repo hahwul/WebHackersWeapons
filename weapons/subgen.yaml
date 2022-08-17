@@ -4,7 +4,7 @@ description: A really simple utility to concate wordlists to a domain name - to 
   into your favourite resolver!
 url: https://github.com/pry0cc/subgen
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

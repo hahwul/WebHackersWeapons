@@ -3,7 +3,7 @@ name: SequenceDiagram
 description: " Online tool for creating UML sequence diagrams|![](https://img.shields.io/static/v1?label=&message=it%27s%20not%20github&color=gray) "
 url: https://sequencediagram.org
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

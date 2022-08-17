@@ -3,7 +3,7 @@ name: SSRFmap
 description: 'Automatic SSRF fuzzer and exploitation tool '
 url: https://github.com/swisskyrepo/SSRFmap
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

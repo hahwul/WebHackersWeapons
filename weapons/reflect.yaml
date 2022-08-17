@@ -3,7 +3,7 @@ name: reflect
 description:
 url: https://github.com/TypeError/reflect
 category: tool-addon
-types: []
+type: 
 platform:
 - zap
 lang: []

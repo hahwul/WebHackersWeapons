@@ -3,7 +3,7 @@ name: dotdotpwn
 description: 'DotDotPwn - The Directory Traversal Fuzzer '
 url: https://github.com/wireghoul/dotdotpwn
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

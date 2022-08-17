@@ -3,7 +3,7 @@ name: inql
 description:
 url: https://github.com/doyensec/inql
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 lang: []

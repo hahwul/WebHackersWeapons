@@ -5,7 +5,7 @@ description: 'A fast port scanner written in go with focus on reliability and si
   in bug bounties and pentests '
 url: https://github.com/projectdiscovery/naabu
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

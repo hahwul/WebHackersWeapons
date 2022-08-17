@@ -5,7 +5,7 @@ description: 'httpx is a fast and multi-purpose HTTP toolkit allow to run multip
   with increased threads. '
 url: https://github.com/projectdiscovery/httpx
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

@@ -4,7 +4,7 @@ description: dnsx is a fast and multi-purpose DNS toolkit allow to run multiple 
   queries of your choice with a list of user-supplied resolvers.
 url: https://github.com/projectdiscovery/dnsx
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

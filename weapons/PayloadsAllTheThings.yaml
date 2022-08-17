@@ -4,7 +4,7 @@ description: 'A list of useful payloads and bypass for Web Application Security 
   Pentest/CTF '
 url: https://github.com/swisskyrepo/PayloadsAllTheThings
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

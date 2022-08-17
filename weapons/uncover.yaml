@@ -4,7 +4,7 @@ description: Quickly discover exposed hosts on the internet using multiple searc
   engine.
 url: https://github.com/projectdiscovery/uncover
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

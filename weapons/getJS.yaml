@@ -3,7 +3,7 @@ name: getJS
 description: A tool to fastly get all javascript sources/files
 url: https://github.com/003random/getJS
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

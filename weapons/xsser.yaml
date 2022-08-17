@@ -4,7 +4,7 @@ description: 'Cross Site "Scripter" (aka XSSer) is an automatic -framework- to d
   exploit and report XSS vulnerabilities in web-based applications. '
 url: https://github.com/epsylon/xsser
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

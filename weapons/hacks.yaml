@@ -3,7 +3,7 @@ name: hacks
 description: 'A collection of hacks and one-off scripts '
 url: https://github.com/tomnomnom/hacks
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

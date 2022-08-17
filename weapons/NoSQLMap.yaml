@@ -4,7 +4,7 @@ description: 'Automated NoSQL database enumeration and web application exploitat
   tool. '
 url: https://github.com/codingo/NoSQLMap
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

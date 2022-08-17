@@ -4,7 +4,10 @@ description: Tool to check for dependency confusion vulnerabilities in multiple 
   management systems
 url: https://github.com/visma-prodsec/confused
 category: tool
-types: []
-platform: []
+type: 
+platform:
+- linux
+- macos
+- windows
 lang: []
 tags: []

@@ -3,7 +3,7 @@ name: gf
 description: 'A wrapper around grep, to help you grep for things '
 url: https://github.com/tomnomnom/gf
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

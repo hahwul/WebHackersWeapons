@@ -3,7 +3,7 @@ name: headi
 description: Customisable  and automated HTTP header injection
 url: https://github.com/mlcsec/headi
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

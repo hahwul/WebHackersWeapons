@@ -3,7 +3,10 @@ name: bat
 description: A cat(1) clone with wings.
 url: https://github.com/sharkdp/bat
 category: tool
-types: []
-platform: []
+type: 
+platform:
+- linux
+- macos
+- windows
 lang: []
 tags: []

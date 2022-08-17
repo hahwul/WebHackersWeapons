@@ -3,7 +3,7 @@ name: FavFreak
 description: 'Making Favicon.ico based Recon Great again ! '
 url: https://github.com/devanshbatham/FavFreak
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

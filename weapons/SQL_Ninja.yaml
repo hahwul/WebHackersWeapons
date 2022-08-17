@@ -3,7 +3,7 @@ name: SQL Ninja
 description: SQL Injection scanner
 url: https://gitlab.com/kalilinux/packages/sqlninja
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

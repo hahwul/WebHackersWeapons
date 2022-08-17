@@ -3,7 +3,7 @@ name: feroxbuster
 description: A fast, simple, recursive content discovery tool written in Rust.
 url: https://github.com/epi052/feroxbuster
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

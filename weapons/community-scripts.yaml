@@ -3,7 +3,7 @@ name: community-scripts
 description:
 url: https://github.com/zaproxy/community-scripts
 category: tool-addon
-types: []
+type: 
 platform:
 - zap
 lang: []

@@ -3,7 +3,7 @@ name: chaos-client
 description: 'Go client to communicate with Chaos DNS API. '
 url: https://github.com/projectdiscovery/chaos-client
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

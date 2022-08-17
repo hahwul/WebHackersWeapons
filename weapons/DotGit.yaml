@@ -3,7 +3,7 @@ name: DotGit
 description: An extension for checking if .git is exposed in visited websites
 url: https://github.com/davtur19/DotGit
 category: browser-addon
-types: []
+type: 
 platform:
 - chrome
 - firefox

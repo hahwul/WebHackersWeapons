@@ -3,7 +3,7 @@ name: BurpSuiteLoggerPlusPlus
 description:
 url: https://github.com/nccgroup/BurpSuiteLoggerPlusPlus
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 lang: []

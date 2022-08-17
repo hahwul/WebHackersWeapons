@@ -3,7 +3,7 @@ name: findom-xss
 description: 'A fast DOM based XSS vulnerability scanner with simplicity. '
 url: https://github.com/dwisiswant0/findom-xss
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

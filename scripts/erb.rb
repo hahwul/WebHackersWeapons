@@ -98,7 +98,7 @@ Dir.entries("./weapons/").each do | name |
                 popularity = "![](https://img.shields.io/github/stars/#{split_result[1]})"
             end
             badge = generate_badge(data['platform'])
-            line = "|#{data['types']}|#{name}|#{data['description']}|#{badge}|#{popularity}|"
+            line = "|#{data['type']}|#{name}|#{data['description']}|#{badge}|#{popularity}|"
             case data['category'] 
             when 'tool'
                 tools = tools + line + "\n"

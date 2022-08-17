@@ -3,7 +3,7 @@ name: zap-cli
 description: 'A simple tool for interacting with OWASP ZAP from the commandline. '
 url: https://github.com/Grunny/zap-cli
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

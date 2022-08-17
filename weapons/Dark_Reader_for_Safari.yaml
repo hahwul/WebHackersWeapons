@@ -3,7 +3,7 @@ name: Dark Reader for Safari
 description: Dark mode to any site
 url: https://apps.apple.com/us/app/dark-reader-for-safari/id1438243180
 category: browser-addon
-types: []
+type: 
 platform:
 - safari
 lang: []

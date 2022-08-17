@@ -3,7 +3,7 @@ name: BurpCustomizer
 description: Because just a dark theme wasn't enough!
 url: https://github.com/CoreyD97/BurpCustomizer
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 lang: []

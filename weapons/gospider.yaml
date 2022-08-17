@@ -3,7 +3,7 @@ name: gospider
 description: 'Gospider - Fast web spider written in Go '
 url: https://github.com/jaeles-project/gospider
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos

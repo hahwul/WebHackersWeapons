@@ -3,7 +3,7 @@ name: burp-retire-js
 description:
 url: https://github.com/h3xstream/burp-retire-js
 category: tool-addon
-types: []
+type: 
 platform:
 - burpsuite
 - zap

@@ -3,7 +3,7 @@ name: PPScan
 description: Client Side Prototype Pollution Scanner
 url: https://github.com/msrkp/PPScan
 category: tool
-types: []
+type: 
 platform: []
 lang: []
 tags: []

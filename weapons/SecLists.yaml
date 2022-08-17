@@ -6,7 +6,7 @@ description: 'SecLists is the security tester''s companion. It''s a collection o
   payloads, web shells, and many more. '
 url: https://github.com/danielmiessler/SecLists
 category: tool
-types: []
+type: 
 platform:
 - linux
 - macos
