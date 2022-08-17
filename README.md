@@ -300,39 +300,39 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 ### Burpsuite and ZAP Addons
 | Type | Name | Description | Badges | Popularity |
 | --- | --- | --- | --- | --- |
-|[]|[BurpJSLinkFinder](https://github.com/InitRoot/BurpJSLinkFinder)|||![](https://img.shields.io/github/stars/InitRoot/BurpJSLinkFinder)|
-|[]|[param-miner](https://github.com/PortSwigger/param-miner)|||![](https://img.shields.io/github/stars/PortSwigger/param-miner)|
-|[]|[HUNT](https://github.com/bugcrowd/HUNT)|||![](https://img.shields.io/github/stars/bugcrowd/HUNT)|
-|[]|[knife](https://github.com/bit4woo/knife)|A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅||![](https://img.shields.io/github/stars/bit4woo/knife)|
-|[]|[Autorize](https://github.com/Quitten/Autorize)|||![](https://img.shields.io/github/stars/Quitten/Autorize)|
-|[]|[attack-surface-detector-zap](https://github.com/secdec/attack-surface-detector-zap)|||![](https://img.shields.io/github/stars/secdec/attack-surface-detector-zap)|
-|[]|[taborator](https://github.com/hackvertor/taborator)|||![](https://img.shields.io/github/stars/hackvertor/taborator)|
-|[]|[BurpBounty](https://github.com/wagiro/BurpBounty)|||![](https://img.shields.io/github/stars/wagiro/BurpBounty)|
-|[]|[turbo-intruder](https://github.com/PortSwigger/turbo-intruder)|||![](https://img.shields.io/github/stars/PortSwigger/turbo-intruder)|
-|[]|[BurpSuiteLoggerPlusPlus](https://github.com/nccgroup/BurpSuiteLoggerPlusPlus)|||![](https://img.shields.io/github/stars/nccgroup/BurpSuiteLoggerPlusPlus)|
-|[]|[IntruderPayloads](https://github.com/1N3/IntruderPayloads)|||![](https://img.shields.io/github/stars/1N3/IntruderPayloads)|
-|[]|[safecopy](https://github.com/yashrs/safecopy)|||![](https://img.shields.io/github/stars/yashrs/safecopy)|
-|[]|[BurpCustomizer](https://github.com/CoreyD97/BurpCustomizer)|Because just a dark theme wasn't enough!||![](https://img.shields.io/github/stars/CoreyD97/BurpCustomizer)|
-|[]|[http-script-generator](https://github.com/h3xstream/http-script-generator)|||![](https://img.shields.io/github/stars/h3xstream/http-script-generator)|
-|[]|[http-request-smuggler](https://github.com/PortSwigger/http-request-smuggler)|||![](https://img.shields.io/github/stars/PortSwigger/http-request-smuggler)|
-|[]|[femida](https://github.com/wish-i-was/femida)|||![](https://img.shields.io/github/stars/wish-i-was/femida)|
-|[]|[burp-exporter](https://github.com/artssec/burp-exporter)|||![](https://img.shields.io/github/stars/artssec/burp-exporter)|
-|[]|[AuthMatrix](https://github.com/SecurityInnovation/AuthMatrix)|||![](https://img.shields.io/github/stars/SecurityInnovation/AuthMatrix)|
-|[]|[zap-hud](https://github.com/zaproxy/zap-hud)|||![](https://img.shields.io/github/stars/zaproxy/zap-hud)|
-|[]|[Stepper](https://github.com/CoreyD97/Stepper)|||![](https://img.shields.io/github/stars/CoreyD97/Stepper)|
-|[]|[inql](https://github.com/doyensec/inql)|||![](https://img.shields.io/github/stars/doyensec/inql)|
-|[]|[BurpSuite-Secret_Finder](https://github.com/m4ll0k/BurpSuite-Secret_Finder)|||![](https://img.shields.io/github/stars/m4ll0k/BurpSuite-Secret_Finder)|
-|[]|[burp-send-to](https://github.com/bytebutcher/burp-send-to)|||![](https://img.shields.io/github/stars/bytebutcher/burp-send-to)|
-|[]|[csp-auditor](https://github.com/GoSecure/csp-auditor)|||![](https://img.shields.io/github/stars/GoSecure/csp-auditor)|
-|[]|[reflected-parameters](https://github.com/PortSwigger/reflected-parameters)|||![](https://img.shields.io/github/stars/PortSwigger/reflected-parameters)|
-|[]|[collaborator-everywhere](https://github.com/PortSwigger/collaborator-everywhere)|||![](https://img.shields.io/github/stars/PortSwigger/collaborator-everywhere)|
-|[]|[burp-retire-js](https://github.com/h3xstream/burp-retire-js)|||![](https://img.shields.io/github/stars/h3xstream/burp-retire-js)|
-|[]|[reflect](https://github.com/TypeError/reflect)|||![](https://img.shields.io/github/stars/TypeError/reflect)|
-|[]|[owasp-zap-jwt-addon](https://github.com/SasanLabs/owasp-zap-jwt-addon)|||![](https://img.shields.io/github/stars/SasanLabs/owasp-zap-jwt-addon)|
-|[]|[burp-piper](https://github.com/silentsignal/burp-piper)|||![](https://img.shields.io/github/stars/silentsignal/burp-piper)|
-|[]|[community-scripts](https://github.com/zaproxy/community-scripts)|||![](https://img.shields.io/github/stars/zaproxy/community-scripts)|
-|[]|[BurpSuiteHTTPSmuggler](https://github.com/nccgroup/BurpSuiteHTTPSmuggler)|||![](https://img.shields.io/github/stars/nccgroup/BurpSuiteHTTPSmuggler)|
-|[]|[auto-repeater](https://github.com/PortSwigger/auto-repeater)|||![](https://img.shields.io/github/stars/PortSwigger/auto-repeater)|
+|[]|[BurpJSLinkFinder](https://github.com/InitRoot/BurpJSLinkFinder)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/InitRoot/BurpJSLinkFinder)|
+|[]|[param-miner](https://github.com/PortSwigger/param-miner)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/PortSwigger/param-miner)|
+|[]|[HUNT](https://github.com/bugcrowd/HUNT)||![burp](./images/burp.png)![zap](./images/zap.png)|![](https://img.shields.io/github/stars/bugcrowd/HUNT)|
+|[]|[knife](https://github.com/bit4woo/knife)|A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅|![burp](./images/burp.png)|![](https://img.shields.io/github/stars/bit4woo/knife)|
+|[]|[Autorize](https://github.com/Quitten/Autorize)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/Quitten/Autorize)|
+|[]|[attack-surface-detector-zap](https://github.com/secdec/attack-surface-detector-zap)||![zap](./images/zap.png)|![](https://img.shields.io/github/stars/secdec/attack-surface-detector-zap)|
+|[]|[taborator](https://github.com/hackvertor/taborator)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/hackvertor/taborator)|
+|[]|[BurpBounty](https://github.com/wagiro/BurpBounty)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/wagiro/BurpBounty)|
+|[]|[turbo-intruder](https://github.com/PortSwigger/turbo-intruder)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/PortSwigger/turbo-intruder)|
+|[]|[BurpSuiteLoggerPlusPlus](https://github.com/nccgroup/BurpSuiteLoggerPlusPlus)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/nccgroup/BurpSuiteLoggerPlusPlus)|
+|[]|[IntruderPayloads](https://github.com/1N3/IntruderPayloads)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/1N3/IntruderPayloads)|
+|[]|[safecopy](https://github.com/yashrs/safecopy)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/yashrs/safecopy)|
+|[]|[BurpCustomizer](https://github.com/CoreyD97/BurpCustomizer)|Because just a dark theme wasn't enough!|![burp](./images/burp.png)|![](https://img.shields.io/github/stars/CoreyD97/BurpCustomizer)|
+|[]|[http-script-generator](https://github.com/h3xstream/http-script-generator)||![burp](./images/burp.png)![zap](./images/zap.png)|![](https://img.shields.io/github/stars/h3xstream/http-script-generator)|
+|[]|[http-request-smuggler](https://github.com/PortSwigger/http-request-smuggler)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/PortSwigger/http-request-smuggler)|
+|[]|[femida](https://github.com/wish-i-was/femida)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/wish-i-was/femida)|
+|[]|[burp-exporter](https://github.com/artssec/burp-exporter)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/artssec/burp-exporter)|
+|[]|[AuthMatrix](https://github.com/SecurityInnovation/AuthMatrix)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/SecurityInnovation/AuthMatrix)|
+|[]|[zap-hud](https://github.com/zaproxy/zap-hud)||![zap](./images/zap.png)|![](https://img.shields.io/github/stars/zaproxy/zap-hud)|
+|[]|[Stepper](https://github.com/CoreyD97/Stepper)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/CoreyD97/Stepper)|
+|[]|[inql](https://github.com/doyensec/inql)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/doyensec/inql)|
+|[]|[BurpSuite-Secret_Finder](https://github.com/m4ll0k/BurpSuite-Secret_Finder)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/m4ll0k/BurpSuite-Secret_Finder)|
+|[]|[burp-send-to](https://github.com/bytebutcher/burp-send-to)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/bytebutcher/burp-send-to)|
+|[]|[csp-auditor](https://github.com/GoSecure/csp-auditor)||![burp](./images/burp.png)![zap](./images/zap.png)|![](https://img.shields.io/github/stars/GoSecure/csp-auditor)|
+|[]|[reflected-parameters](https://github.com/PortSwigger/reflected-parameters)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/PortSwigger/reflected-parameters)|
+|[]|[collaborator-everywhere](https://github.com/PortSwigger/collaborator-everywhere)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/PortSwigger/collaborator-everywhere)|
+|[]|[burp-retire-js](https://github.com/h3xstream/burp-retire-js)||![burp](./images/burp.png)![zap](./images/zap.png)|![](https://img.shields.io/github/stars/h3xstream/burp-retire-js)|
+|[]|[reflect](https://github.com/TypeError/reflect)||![zap](./images/zap.png)|![](https://img.shields.io/github/stars/TypeError/reflect)|
+|[]|[owasp-zap-jwt-addon](https://github.com/SasanLabs/owasp-zap-jwt-addon)||![zap](./images/zap.png)|![](https://img.shields.io/github/stars/SasanLabs/owasp-zap-jwt-addon)|
+|[]|[burp-piper](https://github.com/silentsignal/burp-piper)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/silentsignal/burp-piper)|
+|[]|[community-scripts](https://github.com/zaproxy/community-scripts)||![zap](./images/zap.png)|![](https://img.shields.io/github/stars/zaproxy/community-scripts)|
+|[]|[BurpSuiteHTTPSmuggler](https://github.com/nccgroup/BurpSuiteHTTPSmuggler)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/nccgroup/BurpSuiteHTTPSmuggler)|
+|[]|[auto-repeater](https://github.com/PortSwigger/auto-repeater)||![burp](./images/burp.png)|![](https://img.shields.io/github/stars/PortSwigger/auto-repeater)|
 
 ## Thanks to (Contributor)
 I would like to thank everyone who helped with this project 👍😎 
