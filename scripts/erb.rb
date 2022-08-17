@@ -108,4 +108,5 @@ Dir.entries("./weapons/").each do | name |
 end
 
 markdown = ERB.new(template, trim_mode: "%<>")
-puts markdown.result
+#puts markdown.result
+File.write './README.md', markdown.result
