@@ -15,6 +15,9 @@ platform:
 - linux     # linux 
 - macos     # macos application
 - windows   # windows application
+- firefox   # firefox addon
+- safari    # safari addon
+- chrome    # chrome addon
 - zap       # zap addon
 - burpsuite # burpsuite addon
 # If supported crossplatform, you write out all three (linux/macos/windows)
