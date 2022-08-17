@@ -24,7 +24,9 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 - [Thanks to contributor](#thanks-to-contributor)
 
 ## Weapons
-> Linux(![](./images/linux.png)) macOS(![](./images/apple.png)) Windows(![](./images/windows.png)) Firefox(![](./images/firefox.png)) Safari(![](./images/safari.png)) Chrome(![](./images/chrome.png)) ZAP(![](./images/zap.png)) BurpSuite(![](./images/burp.png))   
+- OS: Linux(![](./images/linux.png)) macOS(![](./images/apple.png)) Windows(![](./images/windows.png)) 
+- Browser-Addon: Firefox(![](./images/firefox.png)) Safari(![](./images/safari.png)) Chrome(![](./images/chrome.png)) 
+- Tool-Addon: ZAP(![](./images/zap.png)) BurpSuite(![](./images/burp.png))   
 
 ### Tools
 | Type | Name | Description | Badges | Popularity |
