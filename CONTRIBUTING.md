@@ -2,7 +2,7 @@
 ### First, Fork Repository
 Fork this repository :D
 
-### Second, Write `./weapons/<appname>.yaml` and PR it
+### Second, Write `./weapons/<appname>.yaml` and Commit/PR
 Write YAML Code. 
 ```yaml
 ---
