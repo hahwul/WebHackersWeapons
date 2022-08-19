@@ -3,9 +3,11 @@ name: csp-auditor
 description:
 url: https://github.com/GoSecure/csp-auditor
 category: tool-addon
-type: 
+type: Scanner
 platform:
-- burpsuite
-- zap
-lang: []
-tags: []
+- linux
+- macos
+- windows
+lang: Java
+tags:
+- csp

@@ -3,10 +3,10 @@ name: Bug-Bounty-Toolz
 description: 'BBT - Bug Bounty Tools '
 url: https://github.com/m4ll0k/Bug-Bounty-Toolz
 category: tool
-type: 
+type: Utils
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Python
 tags: []

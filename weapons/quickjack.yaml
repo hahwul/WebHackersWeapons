@@ -4,7 +4,10 @@ description: Quickjack is a point-and-click tool for intuitively producing advan
   clickjacking and frame slicing attacks.
 url: https://github.com/samyk/quickjack
 category: tool
-type: 
-platform: []
-lang: []
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: JavaScript
 tags: []

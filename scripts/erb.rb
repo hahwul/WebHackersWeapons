@@ -63,7 +63,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 *Attributes*
 |       | Attributes                                        |
 |-------|---------------------------------------------------|
-| Types | `Recon` `Fuzzer` `Scanner` `Exploit` `Utils` `Etc`|
+| Types | `Army-Knife` `Recon` `Fuzzer` `Scanner` `Exploit` `Utils` `Etc`|
 | Tags  | <%= tags.uniq.join ' ' %>                         |
 | Langs | <%= langs.uniq.join ' ' %>                        |
 
@@ -96,6 +96,7 @@ tool_addons = head + "\n"
 
 weapons = []
 weapons_obj = {
+    "army-knife" => [],
     "recon"=> [],
     "fuzzer"=> [],
     "scanner"=> [],
@@ -147,7 +148,6 @@ weapons.each do | data |
             popularity = "![](https://img.shields.io/github/stars/#{split_result[1]}?label=%20)"
         end
         badge = generate_badge(data['platform'])
-        badge = badge + generate_tags(data['tags'])
         line = "|#{data['type']}|#{name}|#{data['description']}|#{popularity}|#{temp_tags.join ' '}|#{badge}#{lang_badge}|"
         case data['category'].downcase 
         when 'tool'

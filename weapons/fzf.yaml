@@ -3,10 +3,10 @@ name: fzf
 description: A command-line fuzzy finder
 url: https://github.com/junegunn/fzf
 category: tool
-type: 
+type: Utils
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

@@ -3,10 +3,10 @@ name: httprobe
 description: 'Take a list of domains and probe for working HTTP and HTTPS servers '
 url: https://github.com/tomnomnom/httprobe
 category: tool
-type: 
+type: Scanner
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

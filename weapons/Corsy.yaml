@@ -3,10 +3,10 @@ name: Corsy
 description: 'CORS Misconfiguration Scanner '
 url: https://github.com/s0md3v/Corsy
 category: tool
-type: 
+type: Scanner
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Python
 tags: []

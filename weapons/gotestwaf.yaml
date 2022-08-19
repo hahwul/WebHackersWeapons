@@ -4,7 +4,10 @@ description: An open-source project in Golang to test different web application 
   (WAF) for detection logic and bypasses
 url: https://github.com/wallarm/gotestwaf
 category: tool
-type: 
-platform: []
-lang: []
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Go
 tags: []

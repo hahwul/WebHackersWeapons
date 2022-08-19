@@ -3,10 +3,10 @@ name: Striker
 description: 'Striker is an offensive information and vulnerability scanner. '
 url: https://github.com/s0md3v/Striker
 category: tool
-type: 
+type: Scanner
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Python
 tags: []

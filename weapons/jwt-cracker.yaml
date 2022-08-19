@@ -3,10 +3,11 @@ name: jwt-cracker
 description: 'Simple HS256 JWT token brute force cracker '
 url: https://github.com/lmammino/jwt-cracker
 category: tool
-type: 
+type: Fuzzer
 platform:
 - linux
 - macos
 - windows
-lang: []
-tags: []
+lang: JavaScript
+tags:
+- jwt

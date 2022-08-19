@@ -3,10 +3,10 @@ name: LFISuite
 description: 'Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner '
 url: https://github.com/D35m0nd142/LFISuite
 category: tool
-type: 
+type: Scanner
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Python
 tags: []

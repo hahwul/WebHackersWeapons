@@ -3,8 +3,11 @@ name: AuthMatrix
 description:
 url: https://github.com/SecurityInnovation/AuthMatrix
 category: tool-addon
-type: 
+type: Scanner
 platform:
-- burpsuite
-lang: []
-tags: []
+- linux
+- macos
+- windows
+lang: Python
+tags:
+- aaa

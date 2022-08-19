@@ -5,7 +5,10 @@ description: Security Crawl Maze is a comprehensive testbed for web security cra
   valid HTML document.
 url: https://github.com/google/security-crawl-maze
 category: tool
-type: 
-platform: []
-lang: []
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: HTML
 tags: []

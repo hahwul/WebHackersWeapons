@@ -3,8 +3,11 @@ name: taborator
 description:
 url: https://github.com/hackvertor/taborator
 category: tool-addon
-type: 
+type: Utils
 platform:
-- burpsuite
-lang: []
-tags: []
+- linux
+- macos
+- windows
+lang: Java
+tags:
+- oast

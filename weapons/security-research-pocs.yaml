@@ -4,7 +4,10 @@ description: Proof-of-concept codes created as part of security research done by
   Security Team.
 url: https://github.com/google/security-research-pocs
 category: tool
-type: 
-platform: []
-lang: []
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: C++
 tags: []

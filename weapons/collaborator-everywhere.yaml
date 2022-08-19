@@ -3,8 +3,10 @@ name: collaborator-everywhere
 description:
 url: https://github.com/PortSwigger/collaborator-everywhere
 category: tool-addon
-type: 
+type: Scanner
 platform:
-- burpsuite
-lang: []
+- linux
+- macos
+- windows
+lang: Java
 tags: []

@@ -3,10 +3,10 @@ name: cc.py
 description: 'Extracting URLs of a specific target based on the results of "commoncrawl.org" '
 url: https://github.com/si9int/cc.py
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Python
 tags: []

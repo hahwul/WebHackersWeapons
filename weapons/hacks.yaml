@@ -3,10 +3,10 @@ name: hacks
 description: 'A collection of hacks and one-off scripts '
 url: https://github.com/tomnomnom/hacks
 category: tool
-type: 
+type: Utils
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

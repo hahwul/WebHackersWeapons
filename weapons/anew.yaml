@@ -3,10 +3,10 @@ name: anew
 description: A tool for adding new lines to files, skipping duplicates
 url: https://github.com/tomnomnom/anew
 category: tool
-type: 
+type: Utils
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

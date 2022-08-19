@@ -3,10 +3,10 @@ name: ysoserial.net
 description: 'Deserialization payload generator for a variety of .NET formatters '
 url: https://github.com/pwntester/ysoserial.net
 category: tool
-type: 
+type: Utils
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: C#
 tags: []

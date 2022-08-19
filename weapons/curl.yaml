@@ -6,7 +6,10 @@ description: A command line tool and library for transferring data with URL synt
   features
 url: https://github.com/curl/curl
 category: tool
-type: 
-platform: []
-lang: []
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: C
 tags: []

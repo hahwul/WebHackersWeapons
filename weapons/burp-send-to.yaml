@@ -3,8 +3,10 @@ name: burp-send-to
 description:
 url: https://github.com/bytebutcher/burp-send-to
 category: tool-addon
-type: 
+type: Utils
 platform:
-- burpsuite
-lang: []
+- linux
+- macos
+- windows
+lang: Java
 tags: []

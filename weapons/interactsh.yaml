@@ -3,7 +3,11 @@ name: interactsh
 description: An OOB interaction gathering server and client library
 url: https://github.com/projectdiscovery/interactsh
 category: tool
-type: 
-platform: []
-lang: []
-tags: []
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags:
+- oast

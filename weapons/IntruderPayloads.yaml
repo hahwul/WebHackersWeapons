@@ -3,8 +3,10 @@ name: IntruderPayloads
 description:
 url: https://github.com/1N3/IntruderPayloads
 category: tool-addon
-type: 
+type: Utils
 platform:
-- burpsuite
-lang: []
+- linux
+- macos
+- windows
+lang: BlitzBasic
 tags: []

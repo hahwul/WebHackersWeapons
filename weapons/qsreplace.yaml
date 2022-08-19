@@ -4,10 +4,10 @@ description: 'Accept URLs on stdin, replace all query string values with a user-
   value '
 url: https://github.com/tomnomnom/qsreplace
 category: tool
-type: 
+type: Utils
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

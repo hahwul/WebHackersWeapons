@@ -3,10 +3,10 @@ name: gitrob
 description: 'Reconnaissance tool for GitHub organizations '
 url: https://github.com/michenriksen/gitrob
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

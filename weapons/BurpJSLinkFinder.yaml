@@ -3,8 +3,10 @@ name: BurpJSLinkFinder
 description:
 url: https://github.com/InitRoot/BurpJSLinkFinder
 category: tool-addon
-type: 
+type: Recon
 platform:
-- burpsuite
-lang: []
+- linux
+- macos
+- windows
+lang: Python
 tags: []

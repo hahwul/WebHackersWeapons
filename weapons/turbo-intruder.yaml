@@ -3,8 +3,10 @@ name: turbo-intruder
 description:
 url: https://github.com/PortSwigger/turbo-intruder
 category: tool-addon
-type: 
+type: Utils
 platform:
-- burpsuite
-lang: []
+- linux
+- macos
+- windows
+lang: Kotlin
 tags: []

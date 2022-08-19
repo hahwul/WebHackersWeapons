@@ -3,10 +3,11 @@ name: ParamSpider
 description: 'Mining parameters from dark corners of Web Archives '
 url: https://github.com/devanshbatham/ParamSpider
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
-tags: []
+lang: Python
+tags:
+- param

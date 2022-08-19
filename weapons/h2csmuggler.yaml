@@ -3,10 +3,10 @@ name: h2csmuggler
 description: HTTP Request Smuggling Detection Tool
 url: https://github.com/assetnote/h2csmuggler
 category: tool
-type: 
+type: Scanner
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

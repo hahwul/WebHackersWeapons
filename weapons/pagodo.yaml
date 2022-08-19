@@ -4,7 +4,10 @@ description: pagodo (Passive Google Dork) - Automate Google Hacking Database scr
   and searching
 url: https://github.com/opsdisk/pagodo
 category: tool
-type: 
-platform: []
-lang: []
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Python
 tags: []

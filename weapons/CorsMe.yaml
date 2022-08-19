@@ -3,10 +3,10 @@ name: CorsMe
 description: 'Cross Origin Resource Sharing MisConfiguration Scanner '
 url: https://github.com/Shivangx01b/CorsMe
 category: tool
-type: 
+type: Scanner
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

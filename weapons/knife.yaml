@@ -3,8 +3,10 @@ name: knife
 description: A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅
 url: https://github.com/bit4woo/knife
 category: tool-addon
-type: 
+type: Utils
 platform:
-- burpsuite
-lang: []
+- linux
+- macos
+- windows
+lang: Java
 tags: []

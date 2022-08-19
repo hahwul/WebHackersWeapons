@@ -6,10 +6,10 @@ description: 'A simple variable based template editor using handlebarjs+strapdow
   generate the list of files in the dropdown of templates. '
 url: https://github.com/fransr/template-generator
 category: tool
-type: 
+type: Utils
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: JavaScript
 tags: []

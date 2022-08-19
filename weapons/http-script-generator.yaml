@@ -3,9 +3,10 @@ name: http-script-generator
 description:
 url: https://github.com/h3xstream/http-script-generator
 category: tool-addon
-type: 
+type: Utils
 platform:
-- burpsuite
-- zap
-lang: []
+- linux
+- macos
+- windows
+lang: Java
 tags: []

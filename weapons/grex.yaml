@@ -4,7 +4,10 @@ description: A command-line tool and library for generating regular expressions 
   user-provided test cases
 url: https://github.com/pemistahl/grex
 category: tool
-type: 
-platform: []
-lang: []
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Rust
 tags: []

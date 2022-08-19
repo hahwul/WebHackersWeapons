@@ -1,10 +1,12 @@
 ---
 name: reflect
 description:
-url: https://github.com/TypeError/reflect
+url: https://github.com/cak/reflect
 category: tool-addon
-type: 
+type: Utils
 platform:
-- zap
-lang: []
+- linux
+- macos
+- windows
+lang: Kotiln
 tags: []

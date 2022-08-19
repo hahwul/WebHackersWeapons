@@ -4,7 +4,10 @@ description: HTTP Request Smuggling demonstration Perl script, for variants 1, 2
   5 in my BlackHat US 2020 paper HTTP Request Smuggling in 2020.
 url: https://github.com/SafeBreach-Labs/HRS
 category: tool
-type: 
-platform: []
-lang: []
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Perl
 tags: []

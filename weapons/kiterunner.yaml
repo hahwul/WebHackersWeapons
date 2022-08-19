@@ -3,7 +3,10 @@ name: kiterunner
 description: Contextual Content Discovery Tool
 url: https://github.com/assetnote/kiterunner
 category: tool
-type: 
-platform: []
-lang: []
+type: Fuzzer
+platform:
+- linux
+- macos
+- windows
+lang: Go
 tags: []

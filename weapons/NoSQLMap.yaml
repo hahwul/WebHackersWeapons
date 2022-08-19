@@ -4,10 +4,10 @@ description: 'Automated NoSQL database enumeration and web application exploitat
   tool. '
 url: https://github.com/codingo/NoSQLMap
 category: tool
-type: 
+type: Scanner
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Python
 tags: []

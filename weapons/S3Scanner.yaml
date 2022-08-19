@@ -3,10 +3,11 @@ name: S3Scanner
 description: 'Scan for open AWS S3 buckets and dump the contents '
 url: https://github.com/sa7mon/S3Scanner
 category: tool
-type: 
+type: Scanner
 platform:
 - linux
 - macos
 - windows
-lang: []
-tags: []
+lang: Python
+tags:
+- s3

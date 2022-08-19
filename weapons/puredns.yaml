@@ -4,7 +4,10 @@ description: Puredns is a fast domain resolver and subdomain bruteforcing tool t
   can accurately filter out wildcard subdomains and DNS poisoned entries.
 url: https://github.com/d3mondev/puredns
 category: tool
-type: 
-platform: []
-lang: []
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Go
 tags: []

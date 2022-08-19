@@ -5,10 +5,10 @@ description: 'reNgine is an automated reconnaissance framework meant for gatheri
   scan engines, which can be used to scan the websites, endpoints, and gather information. '
 url: https://github.com/yogeshojha/rengine
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: JavaScript
 tags: []

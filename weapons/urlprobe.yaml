@@ -3,10 +3,10 @@ name: urlprobe
 description: 'Urls status code & content length checker '
 url: https://github.com/1ndianl33t/urlprobe
 category: tool
-type: 
+type: Utils
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

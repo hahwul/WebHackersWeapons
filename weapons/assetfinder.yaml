@@ -3,10 +3,11 @@ name: assetfinder
 description: 'Find domains and subdomains related to a given domain '
 url: https://github.com/tomnomnom/assetfinder
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
-tags: []
+lang: Go
+tags:
+- subdomains

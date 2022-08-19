@@ -3,10 +3,10 @@ name: ffuf
 description: 'Fast web fuzzer written in Go '
 url: https://github.com/ffuf/ffuf
 category: tool
-type: 
+type: Fuzzer
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

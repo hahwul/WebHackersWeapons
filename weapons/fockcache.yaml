@@ -3,7 +3,10 @@ name: fockcache
 description: FockCache  - Minimalized Test Cache Poisoning
 url: https://github.com/tismayil/fockcache
 category: tool
-type: 
-platform: []
-lang: []
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Go
 tags: []

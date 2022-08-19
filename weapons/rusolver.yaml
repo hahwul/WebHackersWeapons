@@ -3,7 +3,11 @@ name: rusolver
 description: Fast and accurate DNS resolver.
 url: https://github.com/Edu4rdSHL/rusolver
 category: tool
-type: 
-platform: []
-lang: []
-tags: []
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Rust
+tags:
+- dns

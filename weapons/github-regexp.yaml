@@ -3,7 +3,10 @@ name: github-regexp
 description: Basically a regexp over a GitHub search.
 url: https://github.com/gwen001/github-regexp
 category: tool
-type: 
-platform: []
-lang: []
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Go
 tags: []

@@ -3,10 +3,10 @@ name: waybackurls
 description: 'Fetch all the URLs that the Wayback Machine knows about for a domain '
 url: https://github.com/tomnomnom/waybackurls
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

@@ -5,7 +5,10 @@ description: "\U0001F3F5 Gee is tool of stdin to each files and stdout. It is si
   was written as go"
 url: https://github.com/hahwul/gee
 category: tool
-type: 
-platform: []
-lang: []
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Go
 tags: []

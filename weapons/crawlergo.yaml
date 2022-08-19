@@ -3,10 +3,10 @@ name: crawlergo
 description: A powerful browser crawler for web vulnerability scanners
 url: https://github.com/Qianlitp/crawlergo
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

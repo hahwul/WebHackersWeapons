@@ -5,10 +5,10 @@ description: 'A virtual host scanner that performs reverse lookups, can be used 
   default pages. '
 url: https://github.com/codingo/VHostScan
 category: tool
-type: 
+type: Scanner
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Python
 tags: []

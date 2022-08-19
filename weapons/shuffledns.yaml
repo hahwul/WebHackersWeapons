@@ -5,10 +5,10 @@ description: 'shuffleDNS is a wrapper around massdns written in go that allows y
   with wildcard handling and easy input-output support. '
 url: https://github.com/projectdiscovery/shuffledns
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

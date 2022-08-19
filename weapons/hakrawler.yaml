@@ -4,10 +4,10 @@ description: 'Simple, fast web crawler designed for easy, quick discovery of end
   and assets within a web application '
 url: https://github.com/hakluke/hakrawler
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

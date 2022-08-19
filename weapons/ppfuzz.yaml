@@ -4,7 +4,10 @@ description: "A fast tool to scan client-side prototype pollution vulnerability 
   in Rust. \U0001F980"
 url: https://github.com/dwisiswant0/ppfuzz
 category: tool
-type: 
-platform: []
-lang: []
+type: Fuzzer
+platform:
+- linux
+- macos
+- windows
+lang: Rust
 tags: []

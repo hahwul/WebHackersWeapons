@@ -3,8 +3,10 @@ name: safecopy
 description:
 url: https://github.com/yashrs/safecopy
 category: tool-addon
-type: 
+type: Utils
 platform:
-- burpsuite
-lang: []
+- linux
+- macos
+- windows
+lang: Java
 tags: []

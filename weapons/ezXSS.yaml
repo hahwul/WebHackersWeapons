@@ -4,10 +4,11 @@ description: 'ezXSS is an easy way for penetration testers and bug bounty hunter
   to test (blind) Cross Site Scripting. '
 url: https://github.com/ssl/ezXSS
 category: tool
-type: 
+type: Utils
 platform:
 - linux
 - macos
 - windows
-lang: []
-tags: []
+lang: PHP
+tags:
+- xss

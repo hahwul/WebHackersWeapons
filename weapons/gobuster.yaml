@@ -3,10 +3,10 @@ name: gobuster
 description: 'Directory/File, DNS and VHost busting tool written in Go '
 url: https://github.com/OJ/gobuster
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

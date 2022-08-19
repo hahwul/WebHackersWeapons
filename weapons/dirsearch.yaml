@@ -3,10 +3,10 @@ name: dirsearch
 description: 'Web path scanner '
 url: https://github.com/maurosoria/dirsearch
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Python
 tags: []

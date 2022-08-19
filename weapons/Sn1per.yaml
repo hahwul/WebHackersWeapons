@@ -3,10 +3,10 @@ name: Sn1per
 description: 'Automated pentest framework for offensive security experts '
 url: https://github.com/1N3/Sn1per
 category: tool
-type: 
+type: Exploit
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Shell
 tags: []

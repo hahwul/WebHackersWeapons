@@ -3,7 +3,10 @@ name: websocket-connection-smuggler
 description: websocket-connection-smuggler
 url: https://github.com/hahwul/websocket-connection-smuggler
 category: tool
-type: 
-platform: []
-lang: []
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Go
 tags: []

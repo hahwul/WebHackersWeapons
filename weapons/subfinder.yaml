@@ -5,10 +5,11 @@ description: 'Subfinder is a subdomain discovery tool that discovers valid subdo
   safe for penetration testing. '
 url: https://github.com/projectdiscovery/subfinder
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
-tags: []
+lang: Go
+tags:
+- subdomains

@@ -3,7 +3,10 @@ name: Phoenix
 description: " hahwul's online tools"
 url: https://www.hahwul.com/p/phoenix.html
 category: tool
-type: 
-platform: []
+type: Utils
+platform:
+- linux
+- macos
+- windows
 lang: []
 tags: []

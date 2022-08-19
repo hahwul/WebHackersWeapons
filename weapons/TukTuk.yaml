@@ -3,10 +3,11 @@ name: TukTuk
 description: 'Tool for catching and logging different types of requests. '
 url: https://github.com/ArturSS7/TukTuk
 category: tool
-type: 
+type: Utils
 platform:
 - linux
 - macos
 - windows
-lang: []
-tags: []
+lang: Go
+tags:
+- oast

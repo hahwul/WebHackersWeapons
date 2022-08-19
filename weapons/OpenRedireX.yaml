@@ -3,7 +3,10 @@ name: OpenRedireX
 description: A Fuzzer for OpenRedirect issues
 url: https://github.com/devanshbatham/OpenRedireX
 category: tool
-type: 
-platform: []
-lang: []
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Python
 tags: []

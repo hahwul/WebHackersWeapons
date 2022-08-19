@@ -4,10 +4,10 @@ description: "\U0001F50D gowitness - a golang, web screenshot utility using Chro
   Headless "
 url: https://github.com/sensepost/gowitness
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

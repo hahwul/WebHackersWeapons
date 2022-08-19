@@ -3,10 +3,10 @@ name: thc-hydra
 description: 'hydra '
 url: https://github.com/vanhauser-thc/thc-hydra
 category: tool
-type: 
+type: Fuzzer
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: C
 tags: []

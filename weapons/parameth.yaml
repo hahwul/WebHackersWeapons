@@ -3,7 +3,10 @@ name: parameth
 description: This tool can be used to brute discover GET and POST parameters
 url: https://github.com/maK-/parameth
 category: tool
-type: 
-platform: []
-lang: []
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Python
 tags: []

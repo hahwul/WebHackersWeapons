@@ -3,10 +3,10 @@ name: OneForAll
 description: 'OneForAll是一款功能强大的子域收集工具 '
 url: https://github.com/shmilylty/OneForAll
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Python
 tags: []

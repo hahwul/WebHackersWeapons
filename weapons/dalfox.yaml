@@ -4,10 +4,11 @@ description: "\U0001F318\U0001F98A DalFox(Finder Of XSS) / Parameter Analysis an
   XSS Scanning tool based on golang "
 url: https://github.com/hahwul/dalfox
 category: tool
-type: 
+type: Scanner
 platform:
 - linux
 - macos
 - windows
-lang: []
-tags: []
+lang: Go
+tags:
+- xss

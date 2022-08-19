@@ -4,8 +4,10 @@ description: A Chrome Extension to track postMessage usage (url, domain and stac
   both by logging using CORS and also visually as an extension-icon
 url: https://github.com/fransr/postMessage-tracker
 category: browser-addon
-type: 
+type: Utils
 platform:
-- chrome
-lang: []
+- linux
+- macos
+- windows
+lang: JavaScript
 tags: []

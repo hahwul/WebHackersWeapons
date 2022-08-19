@@ -4,7 +4,10 @@ description: Send notifications on different channels such as Slack, Telegram, D
   etc.
 url: https://github.com/BountyStrike/Emissary
 category: tool
-type: 
-platform: []
-lang: []
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Go
 tags: []

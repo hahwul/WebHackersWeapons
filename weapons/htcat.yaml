@@ -3,10 +3,10 @@ name: htcat
 description: 'Parallel and Pipelined HTTP GET Utility '
 url: https://github.com/htcat/htcat
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

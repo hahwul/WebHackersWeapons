@@ -3,8 +3,10 @@ name: BurpBounty
 description:
 url: https://github.com/wagiro/BurpBounty
 category: tool-addon
-type: 
+type: Utils
 platform:
-- burpsuite
-lang: []
+- linux
+- macos
+- windows
+lang: BlitzBasic
 tags: []

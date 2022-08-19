@@ -3,10 +3,10 @@ name: hinject
 description: 'Host Header Injection Checker '
 url: https://github.com/dwisiswant0/hinject
 category: tool
-type: 
+type: Scanner
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

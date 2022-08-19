@@ -3,10 +3,10 @@ name: oxml_xxe
 description: 'A tool for embedding XXE/XML exploits into different filetypes '
 url: https://github.com/BuffaloWill/oxml_xxe
 category: tool
-type: 
+type: Utils
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Ruby
 tags: []

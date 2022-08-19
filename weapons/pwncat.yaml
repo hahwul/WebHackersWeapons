@@ -5,9 +5,10 @@ description: 'pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind a
   with Python (PSE) '
 url: https://github.com/cytopia/pwncat
 category: tool
-type: 
+type: Utils
 platform:
 - linux
 - macos
-lang: []
+- windows
+lang: Shell
 tags: []

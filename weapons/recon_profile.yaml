@@ -3,10 +3,10 @@ name: recon_profile
 description: 'Recon profile (bash profile) for bugbounty '
 url: https://github.com/nahamsec/recon_profile
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Shell
 tags: []

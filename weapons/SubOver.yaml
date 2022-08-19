@@ -3,7 +3,11 @@ name: SubOver
 description: A Powerful Subdomain Takeover Tool
 url: https://github.com/Ice3man543/SubOver
 category: tool
-type: 
-platform: []
-lang: []
-tags: []
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags:
+- subdomains

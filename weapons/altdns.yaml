@@ -4,10 +4,11 @@ description: 'Generates permutations, alterations and mutations of subdomains an
   then resolves them '
 url: https://github.com/infosec-au/altdns
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
-tags: []
+lang: Python
+tags:
+- dns

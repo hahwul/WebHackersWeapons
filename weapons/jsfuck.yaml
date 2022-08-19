@@ -3,7 +3,11 @@ name: jsfuck
 description: Write any JavaScript with 6 Characters
 url: https://github.com/aemkei/jsfuck
 category: tool
-type: 
-platform: []
-lang: []
-tags: []
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: JavaScript
+tags:
+- xss

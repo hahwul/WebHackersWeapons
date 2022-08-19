@@ -3,7 +3,10 @@ name: haktrails
 description: Golang client for querying SecurityTrails API data
 url: https://github.com/hakluke/haktrails
 category: tool
-type: 
-platform: []
-lang: []
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Go
 tags: []

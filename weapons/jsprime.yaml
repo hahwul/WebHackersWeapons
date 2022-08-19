@@ -3,7 +3,10 @@ name: jsprime
 description: a javascript static security analysis tool
 url: https://github.com/dpnishant/jsprime
 category: tool
-type: 
-platform: []
-lang: []
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: JavaScript
 tags: []

@@ -4,10 +4,10 @@ description: 'GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_
   parameters grep '
 url: https://github.com/1ndianl33t/Gf-Patterns
 category: tool
-type: 
+type: Utils
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: 'null'
 tags: []

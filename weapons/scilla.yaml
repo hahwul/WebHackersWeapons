@@ -4,10 +4,10 @@ description: "\U0001F3F4‍☠️ Information Gathering tool \U0001F3F4‍☠️
   enumeration"
 url: https://github.com/edoardottt/scilla
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

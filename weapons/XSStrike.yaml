@@ -3,10 +3,11 @@ name: XSStrike
 description: 'Most advanced XSS scanner. '
 url: https://github.com/s0md3v/XSStrike
 category: tool
-type: 
+type: Scanner
 platform:
 - linux
 - macos
 - windows
-lang: []
-tags: []
+lang: Python
+tags:
+- xss

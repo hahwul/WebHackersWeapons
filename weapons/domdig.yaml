@@ -3,10 +3,11 @@ name: domdig
 description: 'DOM XSS scanner for Single Page Applications '
 url: https://github.com/fcavallarin/domdig
 category: tool
-type: 
+type: Scanner
 platform:
 - linux
 - macos
 - windows
-lang: []
-tags: []
+lang: JavaScript
+tags:
+- xss

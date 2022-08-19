@@ -3,10 +3,11 @@ name: 230-OOB
 description: An Out-of-Band XXE server for retrieving file contents over FTP.
 url: https://github.com/lc/230-OOB
 category: tool
-type: 
+type: Utils
 platform:
 - linux
 - macos
 - windows
-lang: []
-tags: []
+lang: Python
+tags:
+- xxe

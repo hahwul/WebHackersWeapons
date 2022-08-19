@@ -4,7 +4,10 @@ description: Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipul
   and replay
 url: https://github.com/projectdiscovery/proxify
 category: tool
-type: 
-platform: []
-lang: []
+type: Army-Knife
+platform:
+- linux
+- macos
+- windows
+lang: Go
 tags: []

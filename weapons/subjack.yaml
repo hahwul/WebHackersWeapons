@@ -3,10 +3,11 @@ name: subjack
 description: 'Subdomain Takeover tool written in Go '
 url: https://github.com/haccer/subjack
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
-tags: []
+lang: Go
+tags:
+- subdomains

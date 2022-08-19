@@ -4,7 +4,7 @@ description: " actively scan and maintain internet-wide assets' data. enhance re
   and analyse changes around DNS for better insights."
 url: https://chaos.projectdiscovery.io
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos

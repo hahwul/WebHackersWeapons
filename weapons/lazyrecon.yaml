@@ -4,10 +4,10 @@ description: 'This script is intended to automate your reconnaissance process in
   organized fashion '
 url: https://github.com/nahamsec/lazyrecon
 category: tool
-type: 
+type: Recon
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Shell
 tags: []

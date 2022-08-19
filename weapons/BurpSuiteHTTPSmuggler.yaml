@@ -3,8 +3,10 @@ name: BurpSuiteHTTPSmuggler
 description:
 url: https://github.com/nccgroup/BurpSuiteHTTPSmuggler
 category: tool-addon
-type: 
+type: Scanner
 platform:
-- burpsuite
-lang: []
+- linux
+- macos
+- windows
+lang: Java
 tags: []

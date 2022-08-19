@@ -3,9 +3,10 @@ name: HUNT
 description:
 url: https://github.com/bugcrowd/HUNT
 category: tool-addon
-type: 
+type: Recon
 platform:
-- burpsuite
-- zap
-lang: []
+- linux
+- macos
+- windows
+lang: Python
 tags: []

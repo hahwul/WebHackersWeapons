@@ -4,7 +4,11 @@ description: A tool to perform permutations, mutations and alteration of subdoma
   in golang.
 url: https://github.com/bp0lr/dmut
 category: tool
-type: 
-platform: []
-lang: []
-tags: []
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags:
+- subdomains

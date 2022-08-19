@@ -4,7 +4,10 @@ description: A scanner/exploitation tool written in GO, which leverages client-s
   Prototype Pollution to XSS by exploiting known gadgets.
 url: https://github.com/kleiton0x00/ppmap
 category: tool
-type: 
-platform: []
-lang: []
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Go
 tags: []

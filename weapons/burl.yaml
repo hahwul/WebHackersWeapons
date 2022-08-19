@@ -3,10 +3,11 @@ name: burl
 description: 'A Broken-URL Checker '
 url: https://github.com/tomnomnom/burl
 category: tool
-type: 
+type: Utils
 platform:
 - linux
 - macos
 - windows
-lang: []
-tags: []
+lang: Go
+tags:
+- url

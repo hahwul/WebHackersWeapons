@@ -4,10 +4,10 @@ description: 'Nuclei is a fast tool for configurable targeted scanning based on 
   offering massive extensibility and ease of use. '
 url: https://github.com/projectdiscovery/nuclei
 category: tool
-type: 
+type: Scanner
 platform:
 - linux
 - macos
 - windows
-lang: []
+lang: Go
 tags: []

@@ -3,8 +3,10 @@ name: reflected-parameters
 description:
 url: https://github.com/PortSwigger/reflected-parameters
 category: tool-addon
-type: 
+type: Recon
 platform:
-- burpsuite
-lang: []
+- linux
+- macos
+- windows
+lang: Java
 tags: []

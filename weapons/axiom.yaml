@@ -3,10 +3,11 @@ name: axiom
 description: 'A dynamic infrastructure toolkit for red teamers and bug bounty hunters! '
 url: https://github.com/pry0cc/axiom
 category: tool
-type: 
+type: Army-Knife
 platform:
 - linux
 - macos
 - windows
-lang: []
-tags: []
+lang: Shell
+tags:
+- infra
