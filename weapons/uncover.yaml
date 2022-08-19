@@ -1,0 +1,13 @@
+---
+name: uncover
+description: Quickly discover exposed hosts on the internet using multiple search
+  engine.
+url: https://github.com/projectdiscovery/uncover
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: []

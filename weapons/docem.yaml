@@ -1,0 +1,15 @@
+---
+name: docem
+description: Uility to embed XXE and XSS payloads in docx,odt,pptx,etc (OXML_XEE on
+  steroids)
+url: https://github.com/whitel1st/docem
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags:
+- xxe
+- xss

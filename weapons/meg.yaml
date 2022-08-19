@@ -1,0 +1,12 @@
+---
+name: meg
+description: 'Fetch many paths for many hosts - without killing the hosts '
+url: https://github.com/tomnomnom/meg
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: []

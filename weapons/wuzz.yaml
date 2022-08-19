@@ -1,0 +1,12 @@
+---
+name: wuzz
+description: 'Interactive cli tool for HTTP inspection '
+url: https://github.com/asciimoo/wuzz
+category: tool
+type: Army-Knife
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: []

@@ -1,0 +1,12 @@
+---
+name: BurpSuite
+description: the BurpSuite Project
+url: https://portswigger.net/burp
+category: tool
+type: Army-Knife
+platform:
+- linux
+- macos
+- windows
+lang: Java
+tags: []

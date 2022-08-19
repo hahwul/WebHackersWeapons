@@ -1,0 +1,13 @@
+---
+name: GraphQLmap
+description: 'GraphQLmap is a scripting engine to interact with a graphql endpoint
+  for pentesting purposes. '
+url: https://github.com/swisskyrepo/GraphQLmap
+category: tool
+type: Fuzzer
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: []

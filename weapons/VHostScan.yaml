@@ -1,0 +1,14 @@
+---
+name: VHostScan
+description: 'A virtual host scanner that performs reverse lookups, can be used with
+  pivot tools, detect catch-all scenarios, work around wildcards, aliases and dynamic
+  default pages. '
+url: https://github.com/codingo/VHostScan
+category: tool
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: []

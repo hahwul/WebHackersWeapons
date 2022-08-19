@@ -1,0 +1,12 @@
+---
+name: SecurityTrails
+description: " Online dns / subdomain / recon tool"
+url: https://securitytrails.com
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

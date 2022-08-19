@@ -1,0 +1,13 @@
+---
+name: xssor2
+description: XSS'OR - Hack with JavaScript.
+url: https://github.com/evilcos/xssor2
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: JavaScript
+tags:
+- xss

@@ -1,0 +1,12 @@
+---
+name: BruteX
+description: Automatically brute force all services running on a target.
+url: https://github.com/1N3/BruteX
+category: tool
+type: Fuzzer
+platform:
+- linux
+- macos
+- windows
+lang: Shell
+tags: []

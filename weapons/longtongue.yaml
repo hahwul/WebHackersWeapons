@@ -1,0 +1,12 @@
+---
+name: longtongue
+description: Customized Password/Passphrase List inputting Target Info
+url: https://github.com/edoardottt/longtongue
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: []

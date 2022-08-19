@@ -1,0 +1,12 @@
+---
+name: Blacklist3r
+description: 'project-blacklist3r '
+url: https://github.com/NotSoSecure/Blacklist3r
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: C#
+tags: []

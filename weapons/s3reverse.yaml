@@ -1,0 +1,14 @@
+---
+name: s3reverse
+description: 'The format of various s3 buckets is convert in one format. for bugbounty
+  and security testing. '
+url: https://github.com/hahwul/s3reverse
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags:
+- s3

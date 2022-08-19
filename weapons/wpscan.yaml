@@ -1,0 +1,14 @@
+---
+name: wpscan
+description: 'WPScan is a free, for non-commercial use, black box WordPress Vulnerability
+  Scanner written for security professionals and blog maintainers to test the security
+  of their WordPress websites. '
+url: https://github.com/wpscanteam/wpscan
+category: tool
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Ruby
+tags: []

@@ -1,0 +1,12 @@
+---
+name: IntruderPayloads
+description:
+url: https://github.com/1N3/IntruderPayloads
+category: tool-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: BlitzBasic
+tags: []

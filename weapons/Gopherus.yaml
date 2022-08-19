@@ -1,0 +1,13 @@
+---
+name: Gopherus
+description: 'This tool generates gopher link for exploiting SSRF and gaining RCE
+  in various servers '
+url: https://github.com/tarunkant/Gopherus
+category: tool
+type: Exploit
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: []

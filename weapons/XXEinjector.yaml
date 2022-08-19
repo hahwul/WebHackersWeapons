@@ -1,0 +1,14 @@
+---
+name: XXEinjector
+description: Tool for automatic exploitation of XXE vulnerability using direct and
+  different out of band methods.
+url: https://github.com/enjoiz/XXEinjector
+category: tool
+type: Exploit
+platform:
+- linux
+- macos
+- windows
+lang: Ruby
+tags:
+- xxe

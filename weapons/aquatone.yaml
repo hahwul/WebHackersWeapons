@@ -1,0 +1,13 @@
+---
+name: aquatone
+description: 'A Tool for Domain Flyovers '
+url: https://github.com/michenriksen/aquatone
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags:
+- domain

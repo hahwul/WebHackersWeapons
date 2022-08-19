@@ -1,0 +1,12 @@
+---
+name: DNSDumpster
+description: " Online dns recon & research, find & lookup dns records"
+url: https://dnsdumpster.com
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: []
+tags: []

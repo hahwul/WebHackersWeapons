@@ -1,0 +1,13 @@
+---
+name: httptoolkit
+description: HTTP Toolkit is a beautiful & open-source tool for debugging, testing
+  and building with HTTP(S) on Windows, Linux & Mac
+url: https://github.com/httptoolkit/httptoolkit
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: 'null'
+tags: []

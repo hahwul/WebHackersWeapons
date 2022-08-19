@@ -1,0 +1,12 @@
+---
+name: jaeles
+description: 'The Swiss Army knife for automated Web Application Testing '
+url: https://github.com/jaeles-project/jaeles
+category: tool
+type: Army-Knife
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: []

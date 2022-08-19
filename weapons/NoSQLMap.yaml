@@ -1,0 +1,13 @@
+---
+name: NoSQLMap
+description: 'Automated NoSQL database enumeration and web application exploitation
+  tool. '
+url: https://github.com/codingo/NoSQLMap
+category: tool
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: []

@@ -1,0 +1,14 @@
+---
+name: bountyplz
+description: 'Automated security reporting from markdown templates (HackerOne and
+  Bugcrowd are currently the platforms supported) '
+url: https://github.com/fransr/bountyplz
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Shell
+tags:
+- report

@@ -1,0 +1,12 @@
+---
+name: JSFScan.sh
+description: 'Automation for javascript recon in bug bounty. '
+url: https://github.com/KathanP19/JSFScan.sh
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Shell
+tags: []

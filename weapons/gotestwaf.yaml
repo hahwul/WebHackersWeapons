@@ -1,0 +1,13 @@
+---
+name: gotestwaf
+description: An open-source project in Golang to test different web application firewalls
+  (WAF) for detection logic and bypasses
+url: https://github.com/wallarm/gotestwaf
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: []

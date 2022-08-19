@@ -1,0 +1,13 @@
+---
+name: Autorize
+description:
+url: https://github.com/Quitten/Autorize
+category: tool-addon
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags:
+- aaa

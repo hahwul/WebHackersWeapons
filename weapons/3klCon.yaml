@@ -1,0 +1,13 @@
+---
+name: 3klCon
+description: Automation Recon tool which works with Large & Medium scopes. It performs
+  more than 20 tasks and gets back all the results in separated files.
+url: https://github.com/eslam3kl/3klCon
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: []

@@ -1,0 +1,13 @@
+---
+name: subzy
+description: Subdomain takeover vulnerability checker
+url: https://github.com/LukaSikic/subzy
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags:
+- subdomains

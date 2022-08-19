@@ -1,0 +1,12 @@
+---
+name: bat
+description: A cat(1) clone with wings.
+url: https://github.com/sharkdp/bat
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Rust
+tags: []

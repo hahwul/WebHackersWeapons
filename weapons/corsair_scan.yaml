@@ -1,0 +1,13 @@
+---
+name: corsair_scan
+description: Corsair_scan is a security tool to test Cross-Origin Resource Sharing
+  (CORS).
+url: https://github.com/Santandersecurityresearch/corsair_scan
+category: tool
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: []

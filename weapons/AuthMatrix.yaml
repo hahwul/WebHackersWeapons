@@ -1,0 +1,13 @@
+---
+name: AuthMatrix
+description:
+url: https://github.com/SecurityInnovation/AuthMatrix
+category: tool-addon
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags:
+- aaa

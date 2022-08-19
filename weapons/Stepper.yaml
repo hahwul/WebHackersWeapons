@@ -1,0 +1,12 @@
+---
+name: Stepper
+description:
+url: https://github.com/CoreyD97/Stepper
+category: tool-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Java
+tags: []

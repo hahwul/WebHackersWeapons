@@ -1,0 +1,13 @@
+---
+name: masscan
+description: 'TCP port scanner, spews SYN packets asynchronously, scanning entire
+  Internet in under 5 minutes. '
+url: https://github.com/robertdavidgraham/masscan
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: C
+tags: []

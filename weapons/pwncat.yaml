@@ -1,0 +1,14 @@
+---
+name: pwncat
+description: 'pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind and
+  reverse shell, self-injecting shell and port forwarding magic - and its fully scriptable
+  with Python (PSE) '
+url: https://github.com/cytopia/pwncat
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Shell
+tags: []

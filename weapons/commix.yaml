@@ -1,0 +1,12 @@
+---
+name: commix
+description: Automated All-in-One OS Command Injection Exploitation Tool.
+url: https://github.com/commixproject/commix
+category: tool
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: []

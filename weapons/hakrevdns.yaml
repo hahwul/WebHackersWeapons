@@ -1,0 +1,12 @@
+---
+name: hakrevdns
+description: 'Small, fast tool for performing reverse DNS lookups en masse. '
+url: https://github.com/hakluke/hakrevdns
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: []

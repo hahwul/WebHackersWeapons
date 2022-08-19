@@ -1,0 +1,13 @@
+---
+name: SSRFmap
+description: 'Automatic SSRF fuzzer and exploitation tool '
+url: https://github.com/swisskyrepo/SSRFmap
+category: tool
+type: Fuzzer
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags:
+- ssrf

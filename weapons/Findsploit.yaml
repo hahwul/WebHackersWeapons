@@ -1,0 +1,12 @@
+---
+name: Findsploit
+description: Find exploits in local and online databases instantly
+url: https://github.com/1N3/Findsploit
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Shell
+tags: []

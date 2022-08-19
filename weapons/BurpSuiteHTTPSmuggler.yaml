@@ -1,0 +1,12 @@
+---
+name: BurpSuiteHTTPSmuggler
+description:
+url: https://github.com/nccgroup/BurpSuiteHTTPSmuggler
+category: tool-addon
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Java
+tags: []

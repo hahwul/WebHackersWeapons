@@ -1,0 +1,12 @@
+---
+name: gf
+description: 'A wrapper around grep, to help you grep for things '
+url: https://github.com/tomnomnom/gf
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: []

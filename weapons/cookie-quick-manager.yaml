@@ -1,0 +1,13 @@
+---
+name: cookie-quick-manager
+description: An addon to manage (view, search, create, edit, remove, backup, restore)
+  cookies on Firefox.
+url: https://github.com/ysard/cookie-quick-manager
+category: browser-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: JavaScript
+tags: []

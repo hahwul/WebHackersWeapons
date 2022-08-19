@@ -1,0 +1,12 @@
+---
+name: burp-exporter
+description:
+url: https://github.com/artssec/burp-exporter
+category: tool-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: []

@@ -1,0 +1,14 @@
+---
+name: xsscrapy
+description: 'XSS/SQLi spider. Give it a URL and it''ll test every link it finds for
+  XSS and some SQLi. '
+url: https://github.com/DanMcInerney/xsscrapy
+category: tool
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags:
+- xss

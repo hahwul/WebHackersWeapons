@@ -1,0 +1,12 @@
+---
+name: hacks
+description: 'A collection of hacks and one-off scripts '
+url: https://github.com/tomnomnom/hacks
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: []

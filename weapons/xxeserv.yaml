@@ -1,0 +1,12 @@
+---
+name: xxeserv
+description: A mini webserver with FTP support for XXE payloads
+url: https://github.com/staaldraad/xxeserv
+category: tool
+type: Exploit
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: []

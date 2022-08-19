@@ -1,0 +1,12 @@
+---
+name: reflect
+description:
+url: https://github.com/cak/reflect
+category: tool-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Kotiln
+tags: []

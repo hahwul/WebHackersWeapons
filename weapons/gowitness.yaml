@@ -1,0 +1,13 @@
+---
+name: gowitness
+description: "\U0001F50D gowitness - a golang, web screenshot utility using Chrome
+  Headless "
+url: https://github.com/sensepost/gowitness
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: []

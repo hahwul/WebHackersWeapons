@@ -1,0 +1,13 @@
+---
+name: can-i-take-over-xyz
+description: '"Can I take over XYZ?" — a list of services and how to claim (sub)domains
+  with dangling DNS records.'
+url: https://github.com/EdOverflow/can-i-take-over-xyz
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: 'null'
+tags: []

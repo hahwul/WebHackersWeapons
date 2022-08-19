@@ -1,0 +1,13 @@
+---
+name: Sublist3r
+description: 'Fast subdomains enumeration tool for penetration testers '
+url: https://github.com/aboul3la/Sublist3r
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags:
+- subdomains

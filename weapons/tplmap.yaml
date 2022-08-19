@@ -1,0 +1,13 @@
+---
+name: tplmap
+description: Server-Side Template Injection and Code Injection Detection and Exploitation
+  Tool
+url: https://github.com/epinna/tplmap
+category: tool
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: []

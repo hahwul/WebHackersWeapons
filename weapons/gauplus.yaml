@@ -1,0 +1,13 @@
+---
+name: gauplus
+description: A modified version of gau for personal usage. Support workers, proxies
+  and some extra things.
+url: https://github.com/bp0lr/gauplus
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: []

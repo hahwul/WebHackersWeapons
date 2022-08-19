@@ -1,0 +1,13 @@
+---
+name: qsreplace
+description: 'Accept URLs on stdin, replace all query string values with a user-supplied
+  value '
+url: https://github.com/tomnomnom/qsreplace
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: []

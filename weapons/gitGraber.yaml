@@ -1,0 +1,12 @@
+---
+name: gitGraber
+description: 'gitGraber '
+url: https://github.com/hisxo/gitGraber
+category: tool
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: []

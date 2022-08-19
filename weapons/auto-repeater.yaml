@@ -1,0 +1,12 @@
+---
+name: auto-repeater
+description:
+url: https://github.com/PortSwigger/auto-repeater
+category: tool-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Java
+tags: []

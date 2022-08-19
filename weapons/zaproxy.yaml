@@ -1,0 +1,12 @@
+---
+name: zaproxy
+description: The OWASP ZAP core project
+url: https://github.com/zaproxy/zaproxy
+category: tool
+type: Army-Knife
+platform:
+- linux
+- macos
+- windows
+lang: Java
+tags: []

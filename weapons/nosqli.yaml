@@ -1,0 +1,12 @@
+---
+name: nosqli
+description: NoSql Injection CLI tool
+url: https://github.com/Charlie-belmer/nosqli
+category: tool
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: []

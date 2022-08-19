@@ -1,0 +1,12 @@
+---
+name: community-scripts
+description:
+url: https://github.com/zaproxy/community-scripts
+category: tool-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: JavaScript
+tags: []

@@ -1,0 +1,13 @@
+---
+name: c-jwt-cracker
+description: 'JWT brute force cracker written in C '
+url: https://github.com/brendan-rius/c-jwt-cracker
+category: tool
+type: Fuzzer
+platform:
+- linux
+- macos
+- windows
+lang: C
+tags:
+- jwt

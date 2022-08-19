@@ -1,0 +1,13 @@
+---
+name: ysoserial
+description: 'A proof-of-concept tool for generating payloads that exploit unsafe
+  Java object deserialization. '
+url: https://github.com/frohoff/ysoserial
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Java
+tags: []

@@ -1,0 +1,12 @@
+---
+name: arachni
+description: 'Web Application Security Scanner Framework '
+url: https://github.com/Arachni/arachni
+category: tool
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Ruby
+tags: []

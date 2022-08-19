@@ -1,0 +1,14 @@
+---
+name: security-crawl-maze
+description: Security Crawl Maze is a comprehensive testbed for web security crawlers.
+  It contains pages representing many ways in which one can link resources from a
+  valid HTML document.
+url: https://github.com/google/security-crawl-maze
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: HTML
+tags: []

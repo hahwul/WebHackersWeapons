@@ -1,0 +1,12 @@
+---
+name: http-request-smuggler
+description:
+url: https://github.com/PortSwigger/http-request-smuggler
+category: tool-addon
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Java
+tags: []

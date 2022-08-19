@@ -1,0 +1,13 @@
+---
+name: Parth
+description: 'Heuristic Vulnerable Parameter Scanner '
+url: https://github.com/s0md3v/Parth
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags:
+- param

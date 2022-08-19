@@ -1,0 +1,12 @@
+---
+name: STEWS
+description: A Security Tool for Enumerating WebSockets
+url: https://github.com/PalindromeLabs/STEWS
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: []

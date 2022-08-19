@@ -1,0 +1,12 @@
+---
+name: ssrf-sheriff
+description: 'A simple SSRF-testing sheriff written in Go '
+url: https://github.com/teknogeek/ssrf-sheriff
+category: tool
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: []

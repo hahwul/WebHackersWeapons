@@ -1,0 +1,13 @@
+---
+name: jsonwebtoken.github.io
+description: JWT En/Decode and Verify
+url: https://github.com/jsonwebtoken/jsonwebtoken.github.io
+category: browser-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: JavaScript
+tags:
+- jwt

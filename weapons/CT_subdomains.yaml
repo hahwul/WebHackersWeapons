@@ -1,0 +1,13 @@
+---
+name: CT_subdomains
+description: 'An hourly updated list of subdomains gathered from certificate transparency
+  logs '
+url: https://github.com/internetwache/CT_subdomains
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: 'null'
+tags: []

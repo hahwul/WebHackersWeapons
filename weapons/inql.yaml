@@ -1,0 +1,12 @@
+---
+name: inql
+description:
+url: https://github.com/doyensec/inql
+category: tool-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: []

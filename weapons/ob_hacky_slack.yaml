@@ -1,0 +1,12 @@
+---
+name: ob_hacky_slack
+description: Hacky Slack - a bash script that sends beautiful messages to Slack
+url: https://github.com/openbridge/ob_hacky_slack
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Shell
+tags: []

@@ -1,0 +1,12 @@
+---
+name: Hack-Tools
+description: "The all-in-one Red Team extension for Web Pentester \U0001F6E0"
+url: https://github.com/LasCC/Hack-Tools
+category: browser-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: TypeScript
+tags: []
