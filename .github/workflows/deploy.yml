@@ -28,7 +28,7 @@ jobs:
       with:
         fetch-depth: 2
     - name: Make last_change
-      run: date > ./script/last_change
+      run: date > ./scripts/last_change
     - name: Commit files
       run: |
         git config --local user.email "hahwul@gmail.com"
