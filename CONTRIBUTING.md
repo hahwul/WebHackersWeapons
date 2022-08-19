@@ -18,11 +18,31 @@ platform:
 - firefox      # firefox addon
 - safari       # safari addon
 - chrome       # chrome addon
-- zap          # zap addon
-- burpsuite    # burpsuite addon
-# If supported crossplatform, you write out all three (linux/macos/windows)
+- zap          # anything to do with zap (addons, scripts, etc..)
+- burpsuite    # anything to do with burpsuite (extensions, payloads, etc..)
+# If supported crossplatform (OS), you write out all three (linux/macos/windows)
+# If supported zap and burpsuite addon, you write both (zap/burpsuite)
 lang:          # go / python / ruby / rust / etc...
 tags: []       # xss / sqli / ssrf / oast / etc...
+```
+
+*Sample*
+```
+---
+name: HUNT
+description: Identifies common parameters vulnerable to certain vulnerability classes
+url: https://github.com/bugcrowd/HUNT
+category: tool-addon
+type: Recon
+platform:
+- linux
+- macos
+- windows
+- zap
+- burpsuite
+lang: Kotlin
+tags: 
+- param
 ```
 
 ![1415](https://user-images.githubusercontent.com/13212227/98445635-00db1e00-215c-11eb-8a59-d7d21dd98db0.png)
