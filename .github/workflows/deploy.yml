@@ -33,7 +33,7 @@ jobs:
       run: |
         git config --local user.email "hahwul@gmail.com"
         git config --local user.name "WHW"
-        git add README.md ./script/last_change
+        git add README.md ./scripts/last_change
         git commit -m "Deploy README.md"
     - name: Push changes
       uses: ad-m/github-push-action@master
