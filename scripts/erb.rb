@@ -80,8 +80,9 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 <%= tool_addons %>
 
 ## Thanks to (Contributor)
-I would like to thank everyone who helped with this project 👍😎 
-![](/images/CONTRIBUTORS.svg)
+WHW's open-source project and made it with ❤️ if you want contribute this project, please see [CONTRIBUTING.md](https://github.com/hahwul/WebHackersWeapons/blob/main/CONTRIBUTING.md) and Pull-Request with cool your contents.
+
+[![](/images/CONTRIBUTORS.svg)](https://github.com/hahwul/WebHackersWeapons/graphs/contributors)
 
 }.gsub(/^  /, '')
 

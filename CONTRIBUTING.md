@@ -27,7 +27,7 @@ tags: []       # xss / sqli / ssrf / oast / etc...
 ```
 
 *Sample*
-```
+```yaml
 ---
 name: HUNT
 description: Identifies common parameters vulnerable to certain vulnerability classes
