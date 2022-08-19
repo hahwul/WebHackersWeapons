@@ -8,6 +8,7 @@ platform:
 - linux
 - macos
 - windows
+- zap
 lang: Java
 tags:
 - jwt

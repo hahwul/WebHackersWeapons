@@ -8,5 +8,6 @@ platform:
 - linux
 - macos
 - windows
+- zap
 lang: Python
 tags: []
