@@ -29,7 +29,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 |-------|---------------------------------------------------|
 | Types | `Army-Knife` `Recon` `Fuzzer` `Scanner` `Exploit` `Utils` `Etc`|
 | Tags  | `infra` `param` `subdomains` `apk` `dns` `domain` `jwt` `ssrf` `xss` `csp` `s3` `sqli` `403` `aaa` `ssl` `xxe` `url` `oast` `report` `wordlist`                         |
-| Langs | `Java` `Shell` `Go` `Rust` `C` `Python` `JavaScript` `Ruby` `Perl` `Kotlin` `TypeScript` `PHP` `BlitzBasic` `C#` `Typescript` `HTML` `C++` `Kotiln` `CSS`                        |
+| Langs | `Java` `Shell` `Go` `Rust` `C` `Python` `JavaScript` `Kotlin` `Ruby` `Perl` `TypeScript` `PHP` `BlitzBasic` `C#` `Typescript` `HTML` `C++` `Kotiln` `CSS`                        |
 
 ### Tools
 | Type | Name | Description | Star | Tags | Badges |
@@ -310,7 +310,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 | --- | --- | --- | --- | --- | --- |
 |Recon|[attack-surface-detector-zap](https://github.com/secdec/attack-surface-detector-zap)||![](https://img.shields.io/github/stars/secdec/attack-surface-detector-zap?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![zap](./images/zap.png)![](./images/java.png)|
 |Recon|[reflected-parameters](https://github.com/PortSwigger/reflected-parameters)||![](https://img.shields.io/github/stars/PortSwigger/reflected-parameters?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![burp](./images/burp.png)![](./images/java.png)|
-|Recon|[HUNT](https://github.com/bugcrowd/HUNT)||![](https://img.shields.io/github/stars/bugcrowd/HUNT?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![zap](./images/zap.png)![burp](./images/burp.png)![](./images/python.png)|
+|Recon|[HUNT](https://github.com/bugcrowd/HUNT)|Identifies common parameters vulnerable to certain vulnerability classes|![](https://img.shields.io/github/stars/bugcrowd/HUNT?label=%20)|`param`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![zap](./images/zap.png)![burp](./images/burp.png)![](./images/kotlin.png)|
 |Recon|[BurpSuite-Secret_Finder](https://github.com/m4ll0k/BurpSuite-Secret_Finder)||![](https://img.shields.io/github/stars/m4ll0k/BurpSuite-Secret_Finder?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![burp](./images/burp.png)|
 |Recon|[burp-retire-js](https://github.com/h3xstream/burp-retire-js)||![](https://img.shields.io/github/stars/h3xstream/burp-retire-js?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![burp](./images/burp.png)![](./images/javascript.png)|
 |Recon|[BurpJSLinkFinder](https://github.com/InitRoot/BurpJSLinkFinder)||![](https://img.shields.io/github/stars/InitRoot/BurpJSLinkFinder?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![burp](./images/burp.png)![](./images/python.png)|
