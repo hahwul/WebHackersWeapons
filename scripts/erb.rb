@@ -60,9 +60,12 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 - [Thanks to contributor](#thanks-to-contributor)
 
 ## Weapons
-- OS: Linux(![](./images/linux.png)) macOS(![](./images/apple.png)) Windows(![](./images/windows.png)) 
-- Browser-Addon: Firefox(![](./images/firefox.png)) Safari(![](./images/safari.png)) Chrome(![](./images/chrome.png)) 
-- Tool-Addon: ZAP(![](./images/zap.png)) BurpSuite(![](./images/burp.png))   
+*Attributes*
+|       | Attributes                                        |
+|-------|---------------------------------------------------|
+| Types | `Recon` `Fuzzer` `Scanner` `Exploit` `Utils` `Etc`|
+| Tags  | <%= tags.uniq.join ' ' %>                         |
+| Langs | <%= langs.uniq.join ' ' %>                        |
 
 ### Tools
 <%= tools %>
@@ -82,46 +85,84 @@ I would like to thank everyone who helped with this project 👍😎
 
 }.gsub(/^  /, '')
 
-head = "| Type | Name | Description | Star | Badges |\n"
-head = head + "| --- | --- | --- | --- | --- |"
+tags = []
+langs = []
+head = "| Type | Name | Description | Star | Tags | Badges |\n"
+head = head + "| --- | --- | --- | --- | --- | --- |"
 tools = head + "\n"
 bookmarklets = head + "\n"
 browser_addons = head + "\n"
 tool_addons = head + "\n"
 
+weapons = []
+weapons_obj = {
+    "recon"=> [],
+    "fuzzer"=> [],
+    "scanner"=> [],
+    "exploit"=> [],
+    "utils"=> [],
+    "etc"=> []
+}
+
 Dir.entries("./weapons/").each do | name |
     if name != '.' && name != '..'
         begin
             data = YAML.load(File.open("./weapons/#{name}"))
-            name = data['name']
-            popularity = "x"
-
-            if data['url'].length > 0 
-                name = "[#{name}](#{data['url']})"
-            end
-
-            if data['url'].include? "github.com"
-                split_result = data['url'].split "//github.com/"
-                popularity = "![](https://img.shields.io/github/stars/#{split_result[1]}?label=%20)"
-            end
-            badge = generate_badge(data['platform'])
-            badge = badge + generate_tags(data['tags'])
-            line = "|#{data['type']}|#{name}|#{data['description']}|#{popularity}|#{badge}|"
-            case data['category'] 
-            when 'tool'
-                tools = tools + line + "\n"
-            when 'tool-addon'
-                tool_addons = tool_addons + line + "\n"
-            when 'browser-addon'
-                browser_addons = browser_addons + line + "\n"
-            when 'bookmarklet'
-                bookmarklets = bookmarklets + line + "\n"
+            if data['type'] != "" && data['type'] != nil
+                weapons_obj[data['type'].downcase].push data
             else
-                puts name
+                weapons_obj['etc'].push data
             end
         rescue => e 
             puts e
         end
+    end
+end
+weapons_obj.each do |key,value|
+    weapons.concat value
+end
+
+weapons.each do | data |
+    begin
+        name = data['name']
+        temp_tags = []
+        data['tags'].each do |t|
+            temp_tags.push "`#{t}`"
+        end
+        tags.concat temp_tags
+        lang_badge = ""
+        if data['lang'].length > 0 && data['lang'] != "null"
+            langs.push "`#{data['lang']}`"
+            lang_badge = "![](./images/#{data['lang'].downcase}.png)"
+        end
+        
+        popularity = ""
+
+        if data['url'].length > 0 
+            name = "[#{name}](#{data['url']})"
+        end
+
+        if data['url'].include? "github.com"
+            split_result = data['url'].split "//github.com/"
+            popularity = "![](https://img.shields.io/github/stars/#{split_result[1]}?label=%20)"
+        end
+        badge = generate_badge(data['platform'])
+        badge = badge + generate_tags(data['tags'])
+        line = "|#{data['type']}|#{name}|#{data['description']}|#{popularity}|#{temp_tags.join ' '}|#{badge}#{lang_badge}|"
+        case data['category'].downcase 
+        when 'tool'
+            tools = tools + line + "\n"
+        when 'tool-addon'
+            tool_addons = tool_addons + line + "\n"
+        when 'browser-addon'
+            browser_addons = browser_addons + line + "\n"
+        when 'bookmarklet'
+            bookmarklets = bookmarklets + line + "\n"
+        else
+            puts name
+        end
+    rescue => e 
+        puts e
     end
 end
 
