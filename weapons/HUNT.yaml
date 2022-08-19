@@ -1,6 +1,5 @@
----
 name: HUNT
-description:
+description: Identifies common parameters vulnerable to certain vulnerability classes
 url: https://github.com/bugcrowd/HUNT
 category: tool-addon
 type: Recon
@@ -10,5 +9,6 @@ platform:
 - windows
 - zap
 - burpsuite
-lang: Python
-tags: []
+lang: Kotlin
+tags: 
+- param
