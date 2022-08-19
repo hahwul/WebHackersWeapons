@@ -8,6 +8,8 @@ platform:
 - linux
 - macos
 - windows
+- zap
+- burpsuite
 lang: Java
 tags:
 - csp
