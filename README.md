@@ -343,6 +343,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 |Utils|[BurpSuiteLoggerPlusPlus](https://github.com/nccgroup/BurpSuiteLoggerPlusPlus)||![](https://img.shields.io/github/stars/nccgroup/BurpSuiteLoggerPlusPlus?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![burp](./images/burp.png)![](./images/java.png)|
 
 ## Thanks to (Contributor)
-I would like to thank everyone who helped with this project 👍😎 
-![](/images/CONTRIBUTORS.svg)
+WHW's open-source project and made it with ❤️ if you want contribute this project, please see [CONTRIBUTING.md](https://github.com/hahwul/WebHackersWeapons/blob/main/CONTRIBUTING.md) and Pull-Request with cool your contents.
+
+[![](/images/CONTRIBUTORS.svg)](https://github.com/hahwul/WebHackersWeapons/graphs/contributors)
 
