@@ -1,0 +1,42 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  
+jobs:
+  ERB:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.0
+    - name: Install dependencies
+      run: gem install erb yaml
+    - name: Run app
+      run: |
+        ruby ./scripts/erb.rb
+  Deploy:
+    runs-on: ubuntu-latest
+    needs: [ERB]
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 2
+    - name: Make last_change
+      run: date > ./script/last_change
+    - name: Commit files
+      run: |
+        git config --local user.email "hahwul@gmail.com"
+        git config --local user.name "WHW"
+        git add README.md ./script/last_change
+        git commit -m "Deploy README.md"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
