@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   
 jobs:
-  ERB:
+  Deploy:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -20,13 +20,6 @@ jobs:
     - name: Run app
       run: |
         ruby ./scripts/erb.rb
-  Deploy:
-    runs-on: ubuntu-latest
-    needs: [ERB]
-    steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 2
     - name: Make last_change
       run: date > ./scripts/last_change
     - name: Commit files
