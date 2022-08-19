@@ -13,17 +13,18 @@ Dir.entries("./weapons").each do | name |
             lang = `curl -s https://api.github.com/repos/#{t[3]}/#{t[4]}/languages | jq 'to_entries | max_by(.value) | .key'`
             lang_str = lang.gsub("\"","").gsub("\n","")
             if lang_str != "documentation_url"
-              puts "hit #{filename}"
+              puts "hit #{name}"
               data['lang'] = lang_str
               yaml_data = YAML.dump(data)
-              File.write("./weapons/#{filename}", yaml_data)
+              File.write("./weapons/#{name}", yaml_data)
               langs.push lang_str
             else
-              puts "denied #{filename}"
+              puts "denied #{name}"
             end
             sleep(90)
         end
-      rescue
+      rescue => e
+        puts e
       end
     end
   end
