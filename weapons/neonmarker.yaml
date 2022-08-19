@@ -1,0 +1,13 @@
+---
+name: NeonMarker
+description:
+url: https://github.com/kingthorin/neonmarker
+category: tool-addon
+type: utils
+platform:
+- linux
+- macos
+- windows
+lang: Java
+tags:
+- jwt
