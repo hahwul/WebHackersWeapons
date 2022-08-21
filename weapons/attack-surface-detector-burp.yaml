@@ -1,14 +1,14 @@
 ---
-name: attack-surface-detector-zap
+name: attack-surface-detector-burp
 description: The Attack Surface Detector uses static code analyses to identify web app endpoints by parsing routes and identifying parameters
-url: https://github.com/secdec/attack-surface-detector-zap
+url: https://github.com/secdec/attack-surface-detector-burp
 category: tool-addon
 type: Recon
 platform:
 - linux
 - macos
 - windows
-- zap
+- burpsuite
 lang: Java
 tags: 
 - endpoint
