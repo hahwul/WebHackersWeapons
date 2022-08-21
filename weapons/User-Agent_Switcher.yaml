@@ -1,12 +1,13 @@
 ---
 name: User-Agent Switcher
 description: quick and easy way to switch between user-agents.
-url: https://chrome.google.com/webstore/detail/user-agent-switcher/clddifkhlkcojbojppdojfeeikdkgiae
+url: https://addons.mozilla.org/ko/firefox/addon/user-agent-switcher-revived/
 category: browser-addon
 type: Utils
 platform:
 - linux
 - macos
 - windows
+- firefox
 lang: []
 tags: []

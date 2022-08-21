@@ -1,12 +1,14 @@
 ---
 name: Dark Reader
 description: Dark mode to any site
-url: https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
+url: https://github.com/darkreader/darkreader
 category: browser-addon
 type: Utils
 platform:
 - linux
 - macos
 - windows
-lang: []
+- firefox
+- chrome
+lang: Typescript
 tags: []
