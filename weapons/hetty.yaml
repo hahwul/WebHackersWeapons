@@ -11,4 +11,5 @@ platform:
 - macos
 - windows
 lang: Go
-tags: []
+tags: 
+- proxy
