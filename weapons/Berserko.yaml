@@ -1,0 +1,13 @@
+---
+name: Berserko
+description: Burp Suite extension to perform Kerberos authentication
+url: https://github.com/nccgroup/Berserko
+category: tool-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+- burpsuite
+lang: Java
+tags: []

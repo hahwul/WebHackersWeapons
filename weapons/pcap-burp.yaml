@@ -1,7 +1,7 @@
 ---
-name: auto-repeater
-description:
-url: https://github.com/PortSwigger/auto-repeater
+name: pcap-burp
+description: Pcap importer for Burp 
+url: https://github.com/nccgroup/pcap-burp
 category: tool-addon
 type: Utils
 platform:
