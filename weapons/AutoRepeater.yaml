@@ -1,0 +1,13 @@
+---
+name: AuthMatrix
+description: Automated HTTP Request Repeating With Burp Suite
+url: https://github.com/SecurityInnovation/AuthMatrix
+category: tool-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+- burpsuite
+lang: Java
+tags: []

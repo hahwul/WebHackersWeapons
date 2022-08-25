@@ -1,0 +1,13 @@
+---
+name: blackboxprotobuf
+description: Blackbox protobuf is a Burp Suite extension for decoding and modifying arbitrary protobuf messages without the protobuf type definition.
+url: https://github.com/nccgroup/blackboxprotobuf
+category: tool-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+- burpsuite
+lang: Python
+tags: []

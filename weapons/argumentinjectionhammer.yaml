@@ -1,0 +1,13 @@
+---
+name: argumentinjectionhammer
+description: A Burp Extension designed to identify argument injection vulnerabilities.
+url: https://github.com/nccgroup/argumentinjectionhammer
+category: tool-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+- burpsuite
+lang: Python
+tags: []
