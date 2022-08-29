@@ -1,8 +1,7 @@
 ---
 name: cariddi
-description: Take a list of domains and scan for endpoints, secrets, api keys, file
-  extensions, tokens and more...
-url: https://github.com/edoardottt/cariddi
+description: 'Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more'
+url: https://github.com/edoardottt/cariddi 
 category: tool
 type: Recon
 platform:
