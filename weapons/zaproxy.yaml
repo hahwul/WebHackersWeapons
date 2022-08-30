@@ -1,5 +1,5 @@
 ---
-name: zaproxy
+name: ZAP
 description: The OWASP ZAP core project
 url: https://github.com/zaproxy/zaproxy
 category: tool
