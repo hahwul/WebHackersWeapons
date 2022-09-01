@@ -1,0 +1,13 @@
+---
+name: AWSSigner
+description: Burp Extension for AWS Signing
+url: https://github.com/NetSPI/AWSSigner
+category: tool-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+- burpsuite
+lang: Java
+tags: []
