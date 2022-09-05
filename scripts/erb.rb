@@ -129,14 +129,20 @@ weapons.each do | data |
     begin
         name = data['name']
         temp_tags = []
-        data['tags'].each do |t|
-            temp_tags.push "`#{t}`"
+        begin
+          data['tags'].each do |t|
+             temp_tags.push "`#{t}`"
+          end
+          tags.concat temp_tags
+        rescue
         end
-        tags.concat temp_tags
         lang_badge = ""
-        if data['lang'].length > 0 && data['lang'] != "null"
-            langs.push "`#{data['lang']}`"
-            lang_badge = "![](./images/#{data['lang'].downcase}.png)"
+        begin
+          if data['lang'].length > 0 && data['lang'] != "null"
+              langs.push "`#{data['lang']}`"
+              lang_badge = "![](./images/#{data['lang'].downcase}.png)"
+          end
+        rescue
         end
         
         popularity = ""
