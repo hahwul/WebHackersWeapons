@@ -10,7 +10,7 @@ name: App Name
 description: App Description
 url: App URL   # https://github.com/hahwul/dalfox
 category: tool # tool / tool-addon / browser-addon / bookmarklet
-type:          # recon / fuzzer / scanner / exploit / utils / etc
+type:          # army-knift / proxy / recon / fuzzer / scanner / exploit / utils / etc
 platform:
 - linux        # linux 
 - macos        # macos application
@@ -23,7 +23,7 @@ platform:
 # If supported crossplatform (OS), you write out all three (linux/macos/windows)
 # If supported zap and burpsuite addon, you write both (zap/burpsuite)
 lang:          # go / python / ruby / rust / etc...
-tags: []       # xss / sqli / ssrf / oast / etc...
+tags: []       # xss / sqli / ssrf / oast / http / subdomains / etc...
 ```
 
 *Sample*
