@@ -5,11 +5,10 @@ description: Hetty is an HTTP toolkit for security research. It aims to become a
   features tailored to the needs of the infosec and bug bounty community.
 url: https://github.com/dstotijn/hetty
 category: tool
-type: Army-Knife
+type: Proxy
 platform:
 - linux
 - macos
 - windows
 lang: Go
 tags: 
-- proxy

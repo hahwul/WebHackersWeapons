@@ -63,7 +63,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 *Attributes*
 |       | Attributes                                        |
 |-------|---------------------------------------------------|
-| Types | `Army-Knife` `Recon` `Fuzzer` `Scanner` `Exploit` `Utils` `Etc`|
+| Types | `Army-Knife` `Proxy` `Recon` `Fuzzer` `Scanner` `Exploit` `Utils` `Etc`|
 | Tags  | <%= tags.uniq.join ' ' %>                         |
 | Langs | <%= langs.uniq.join ' ' %>                        |
 
@@ -129,14 +129,20 @@ weapons.each do | data |
     begin
         name = data['name']
         temp_tags = []
-        data['tags'].each do |t|
-            temp_tags.push "`#{t}`"
+        begin
+          data['tags'].each do |t|
+             temp_tags.push "`#{t}`"
+          end
+          tags.concat temp_tags
+        rescue
         end
-        tags.concat temp_tags
         lang_badge = ""
-        if data['lang'].length > 0 && data['lang'] != "null"
-            langs.push "`#{data['lang']}`"
-            lang_badge = "![](./images/#{data['lang'].downcase}.png)"
+        begin
+          if data['lang'].length > 0 && data['lang'] != "null"
+              langs.push "`#{data['lang']}`"
+              lang_badge = "![](./images/#{data['lang'].downcase}.png)"
+          end
+        rescue
         end
         
         popularity = ""
