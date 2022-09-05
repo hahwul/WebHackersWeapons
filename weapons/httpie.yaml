@@ -11,4 +11,5 @@ platform:
 - macos
 - windows
 lang: Python
-tags: []
+tags: 
+- http

@@ -3,10 +3,11 @@ name: wuzz
 description: 'Interactive cli tool for HTTP inspection '
 url: https://github.com/asciimoo/wuzz
 category: tool
-type: Proxy
+type: Utils
 platform:
 - linux
 - macos
 - windows
 lang: Go
 tags: 
+- http
