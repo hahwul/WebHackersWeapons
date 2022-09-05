@@ -27,7 +27,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 *Attributes*
 |       | Attributes                                        |
 |-------|---------------------------------------------------|
-| Types | `Army-Knife` `Recon` `Fuzzer` `Scanner` `Exploit` `Utils` `Etc`|
+| Types | `Army-Knife` `Proxy` `Recon` `Fuzzer` `Scanner` `Exploit` `Utils` `Etc`|
 | Tags  | `proxy` `infra` `live-audit` `param` `endpoint` `subdomains` `apk` `dns` `domain` `jwt` `ssrf` `xss` `smuggle` `csp` `s3` `sqli` `403` `aaa` `ssl` `rop` `xxe` `url` `oast` `report` `wordlist`                         |
 | Langs | `Java` `Shell` `Go` `Rust` `C` `Python` `JavaScript` `Kotlin` `Ruby` `Perl` `TypeScript` `PHP` `BlitzBasic` `C#` `Typescript` `HTML` `C++` `Kotiln` `CSS`                        |
 
