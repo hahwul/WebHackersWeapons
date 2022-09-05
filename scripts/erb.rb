@@ -98,6 +98,7 @@ tool_addons = head + "\n"
 weapons = []
 weapons_obj = {
     "army-knife" => [],
+    "proxy" => [],
     "recon"=> [],
     "fuzzer"=> [],
     "scanner"=> [],
