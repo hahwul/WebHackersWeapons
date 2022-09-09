@@ -1,0 +1,13 @@
+---
+name: Liffy
+description: Local file inclusion exploitation tool
+url: https://github.com/mzfr/liffy
+category: tool
+type: Exploit
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: 
+- lfi
