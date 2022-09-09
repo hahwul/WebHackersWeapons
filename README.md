@@ -28,7 +28,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 |       | Attributes                                        |
 |-------|---------------------------------------------------|
 | Types | `Army-Knife` `Proxy` `Recon` `Fuzzer` `Scanner` `Exploit` `Utils` `Etc`|
-| Tags  | `proxy` `infra` `live-audit` `param` `endpoint` `subdomains` `apk` `dns` `domain` `jwt` `ssrf` `xss` `smuggle` `csp` `s3` `sqli` `403` `aaa` `ssl` `rop` `xxe` `url` `oast` `http` `report` `wordlist`                         |
+| Tags  | `proxy` `infra` `live-audit` `param` `endpoint` `subdomains` `apk` `dns` `domain` `jwt` `ssrf` `xss` `smuggle` `csp` `s3` `sqli` `403` `aaa` `ssl` `rop` `xxe` `lfi` `url` `oast` `http` `report` `wordlist`                         |
 | Langs | `Java` `Shell` `Go` `Rust` `C` `Python` `JavaScript` `Kotlin` `Ruby` `Perl` `TypeScript` `PHP` `BlitzBasic` `C#` `Typescript` `HTML` `C++` `Kotiln` `CSS`                        |
 
 ### Tools
@@ -216,6 +216,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 |Exploit|[XXEinjector](https://github.com/enjoiz/XXEinjector)|Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods.|![](https://img.shields.io/github/stars/enjoiz/XXEinjector?label=%20)|`xxe`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/ruby.png)|
 |Exploit|[toxssin](https://github.com/t3l3machus/toxssin)|An XSS exploitation command-line interface and payload generator.|![](https://img.shields.io/github/stars/t3l3machus/toxssin?label=%20)|`xss`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/python.png)|
 |Exploit|[SQLNinja](https://gitlab.com/kalilinux/packages/sqlninja)| SQL Injection scanner|||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)|
+|Exploit|[Liffy](https://github.com/mzfr/liffy)|Local file inclusion exploitation tool|![](https://img.shields.io/github/stars/mzfr/liffy?label=%20)|`lfi`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/python.png)|
 |Exploit|[singularity](https://github.com/nccgroup/singularity)|A DNS rebinding attack framework.|![](https://img.shields.io/github/stars/nccgroup/singularity?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/javascript.png)|
 |Exploit|[XSRFProbe](https://github.com/0xInfection/XSRFProbe)|The Prime Cross Site Request Forgery (CSRF) Audit and Exploitation Toolkit.|![](https://img.shields.io/github/stars/0xInfection/XSRFProbe?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/python.png)|
 |Exploit|[beef](https://github.com/beefproject/beef)|The Browser Exploitation Framework Project|![](https://img.shields.io/github/stars/beefproject/beef?label=%20)|`xss`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/ruby.png)|
