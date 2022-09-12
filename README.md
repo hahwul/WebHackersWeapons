@@ -28,7 +28,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 |       | Attributes                                        |
 |-------|---------------------------------------------------|
 | Types | `Army-Knife` `Proxy` `Recon` `Fuzzer` `Scanner` `Exploit` `Utils` `Etc`|
-| Tags  | `proxy` `infra` `live-audit` `param` `endpoint` `subdomains` `apk` `dns` `domain` `jwt` `ssrf` `xss` `smuggle` `csp` `s3` `sqli` `403` `aaa` `ssl` `rop` `xxe` `lfi` `url` `oast` `http` `report` `wordlist`                         |
+| Tags  | `proxy` `infra` `live-audit` `param` `endpoint` `subdomains` `apk` `dns` `domain` `jwt` `ssrf` `xss` `smuggle` `csp` `s3` `sqli` `403` `aaa` `ssl` `rop` `xxe` `lfi` `url` `oast` `http` `report` `diff` `wordlist`                         |
 | Langs | `Java` `Shell` `Go` `Rust` `C` `Python` `JavaScript` `Kotlin` `Ruby` `Perl` `TypeScript` `PHP` `BlitzBasic` `C#` `Typescript` `HTML` `C++` `Kotiln` `CSS`                        |
 
 ### Tools
@@ -276,6 +276,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 |Utils|[ezXSS](https://github.com/ssl/ezXSS)|ezXSS is an easy way for penetration testers and bug bounty hunters to test (blind) Cross Site Scripting. |![](https://img.shields.io/github/stars/ssl/ezXSS?label=%20)|`xss`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/php.png)|
 |Utils|[grc](https://github.com/garabik/grc)|generic colouriser|![](https://img.shields.io/github/stars/garabik/grc?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/python.png)|
 |Utils|[httptoolkit](https://github.com/httptoolkit/httptoolkit)|HTTP Toolkit is a beautiful & open-source tool for debugging, testing and building with HTTP(S) on Windows, Linux & Mac|![](https://img.shields.io/github/stars/httptoolkit/httptoolkit?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)|
+|Utils|[difftastic](https://github.com/Wilfred/difftastic)|a structural diff that understands syntax|![](https://img.shields.io/github/stars/Wilfred/difftastic?label=%20)|`diff`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/rust.png)|
 |Utils|[weaponised-XSS-payloads](https://github.com/hakluke/weaponised-XSS-payloads)|XSS payloads designed to turn alert(1) into P1|![](https://img.shields.io/github/stars/hakluke/weaponised-XSS-payloads?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/javascript.png)|
 |Utils|[TukTuk](https://github.com/ArturSS7/TukTuk)|Tool for catching and logging different types of requests. |![](https://img.shields.io/github/stars/ArturSS7/TukTuk?label=%20)|`oast`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/go.png)|
 |Utils|[CyberChef](https://github.com/gchq/CyberChef)|The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis |![](https://img.shields.io/github/stars/gchq/CyberChef?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/javascript.png)|
