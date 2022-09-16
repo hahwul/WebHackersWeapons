@@ -27,13 +27,14 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 *Attributes*
 |       | Attributes                                        |
 |-------|---------------------------------------------------|
-| Types | `Army-Knife` `Proxy` `Recon` `Fuzzer` `Scanner` `Exploit` `Utils` `Etc`|
-| Tags  | `proxy` `infra` `live-audit` `param` `endpoint` `subdomains` `apk` `dns` `domain` `jwt` `ssrf` `xss` `smuggle` `csp` `s3` `sqli` `403` `aaa` `ssl` `rop` `xxe` `lfi` `url` `oast` `http` `report` `diff` `wordlist`                         |
-| Langs | `Java` `Shell` `Go` `Rust` `C` `Python` `JavaScript` `Kotlin` `Ruby` `Perl` `TypeScript` `PHP` `BlitzBasic` `C#` `Typescript` `HTML` `C++` `Kotiln` `CSS`                        |
+| Types | `Army-Knife` `Proxy` `Recon` `Fuzzer` `Scanner` `Exploit` `Env` `Utils` `Etc`|
+| Tags  | `pentest` `proxy` `infra` `live-audit` `param` `endpoint` `subdomains` `apk` `dns` `domain` `jwt` `ssrf` `xss` `smuggle` `csp` `s3` `sqli` `403` `aaa` `ssl` `rop` `xxe` `lfi` `url` `oast` `http` `report` `diff` `wordlist`                         |
+| Langs | `Ruby` `Java` `Shell` `Go` `Rust` `C` `Python` `JavaScript` `Kotlin` `Perl` `TypeScript` `PHP` `BlitzBasic` `C#` `Typescript` `HTML` `C++` `Kotiln` `CSS`                        |
 
 ### Tools
 | Type | Name | Description | Star | Tags | Badges |
 | --- | --- | --- | --- | --- | --- |
+|Army-Knife|[Metasploit](https://github.com/rapid7/metasploit-framework)|The world’s most used penetration testing framework|![](https://img.shields.io/github/stars/rapid7/metasploit-framework?label=%20)|`pentest`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/ruby.png)|
 |Army-Knife|[BurpSuite](https://portswigger.net/burp)|the BurpSuite Project||`proxy`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![burp](./images/burp.png)![](./images/java.png)|
 |Army-Knife|[axiom](https://github.com/pry0cc/axiom)|A dynamic infrastructure toolkit for red teamers and bug bounty hunters! |![](https://img.shields.io/github/stars/pry0cc/axiom?label=%20)|`infra`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/shell.png)|
 |Army-Knife|[ZAP](https://github.com/zaproxy/zaproxy)|The OWASP ZAP core project|![](https://img.shields.io/github/stars/zaproxy/zaproxy?label=%20)|`proxy`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![zap](./images/zap.png)![](./images/java.png)|
