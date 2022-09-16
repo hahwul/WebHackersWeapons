@@ -1,0 +1,12 @@
+---
+name: Crimson
+description: Web Application Security Testing automation.
+url: https://github.com/Karmaz95/crimson
+category: tool
+type: Env
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: []
