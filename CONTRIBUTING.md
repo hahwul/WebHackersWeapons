@@ -10,7 +10,7 @@ name: App Name
 description: App Description
 url: App URL   # https://github.com/hahwul/dalfox
 category: tool # tool / tool-addon / browser-addon / bookmarklet
-type:          # army-knift / proxy / recon / fuzzer / scanner / exploit / utils / etc
+type:          # Army-knife / Proxy / Recon / Fuzzer / Scanner / Exploit / Env / Utils / Etc
 platform:
 - linux        # linux 
 - macos        # macos application

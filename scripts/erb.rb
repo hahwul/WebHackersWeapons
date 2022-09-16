@@ -63,7 +63,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 *Attributes*
 |       | Attributes                                        |
 |-------|---------------------------------------------------|
-| Types | `Army-Knife` `Proxy` `Recon` `Fuzzer` `Scanner` `Exploit` `Utils` `Etc`|
+| Types | `Army-Knife` `Proxy` `Recon` `Fuzzer` `Scanner` `Exploit` `Env` `Utils` `Etc`|
 | Tags  | <%= tags.uniq.join ' ' %>                         |
 | Langs | <%= langs.uniq.join ' ' %>                        |
 

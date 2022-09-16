@@ -1,0 +1,13 @@
+---
+name: Metasploit
+description: The world’s most used penetration testing framework
+url: https://github.com/rapid7/metasploit-framework
+category: tool
+type: Army-Knife
+platform:
+- linux
+- macos
+- windows
+lang: Ruby
+tags: 
+- pentest
