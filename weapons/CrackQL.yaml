@@ -1,0 +1,13 @@
+---
+name: CrackQL
+description: CrackQL is a GraphQL password brute-force and fuzzing utility.
+url: https://github.com/nicholasaleks/CrackQL
+category: tool
+type: Fuzzer
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: 
+- graphql
