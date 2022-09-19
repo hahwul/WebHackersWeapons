@@ -28,7 +28,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 |       | Attributes                                        |
 |-------|---------------------------------------------------|
 | Types | `Army-Knife` `Proxy` `Recon` `Fuzzer` `Scanner` `Exploit` `Env` `Utils` `Etc`|
-| Tags  | `pentest` `proxy` `infra` `live-audit` `param` `endpoint` `subdomains` `apk` `dns` `domain` `jwt` `graphql` `ssrf` `xss` `smuggle` `csp` `s3` `sqli` `403` `aaa` `ssl` `rop` `xxe` `lfi` `url` `oast` `http` `report` `diff` `wordlist`                         |
+| Tags  | `pentest` `proxy` `infra` `live-audit` `param` `endpoint` `subdomains` `apk` `dns` `domain` `graphql` `jwt` `ssrf` `xss` `smuggle` `csp` `s3` `sqli` `403` `aaa` `ssl` `rop` `xxe` `lfi` `url` `oast` `http` `report` `diff` `wordlist`                         |
 | Langs | `Ruby` `Java` `Shell` `Go` `Rust` `C` `Python` `JavaScript` `Kotlin` `Perl` `TypeScript` `PHP` `BlitzBasic` `C#` `Typescript` `HTML` `C++` `Kotiln` `CSS`                        |
 
 ### Tools
@@ -95,6 +95,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 |Recon|[Parth](https://github.com/s0md3v/Parth)|Heuristic Vulnerable Parameter Scanner |![](https://img.shields.io/github/stars/s0md3v/Parth?label=%20)|`param`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/python.png)|
 |Recon|[3klCon](https://github.com/eslam3kl/3klCon)|Automation Recon tool which works with Large & Medium scopes. It performs more than 20 tasks and gets back all the results in separated files.|![](https://img.shields.io/github/stars/eslam3kl/3klCon?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/python.png)|
 |Recon|[hakrawler](https://github.com/hakluke/hakrawler)|Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application |![](https://img.shields.io/github/stars/hakluke/hakrawler?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/go.png)|
+|Recon|[graphw00f](https://github.com/dolevf/graphw00f)|GraphQL Server Engine Fingerprinting utility|![](https://img.shields.io/github/stars/dolevf/graphw00f?label=%20)|`graphql`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/python.png)|
 |Recon|[LinkFinder](https://github.com/GerbenJavado/LinkFinder)|A python script that finds endpoints in JavaScript files |![](https://img.shields.io/github/stars/GerbenJavado/LinkFinder?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/python.png)|
 |Recon|[gau](https://github.com/lc/gau)|Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.|![](https://img.shields.io/github/stars/lc/gau?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/go.png)|
 |Recon|[subjack](https://github.com/haccer/subjack)|Subdomain Takeover tool written in Go |![](https://img.shields.io/github/stars/haccer/subjack?label=%20)|`subdomains`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/go.png)|
