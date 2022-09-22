@@ -1,0 +1,12 @@
+---
+name: EvilProxy
+description: A ruby http/https proxy to do EVIL things.
+url: https://github.com/bbtfr/evil-proxy
+category: tool
+type: Proxy
+platform:
+- linux
+- macos
+- windows
+lang: Ruby
+tags:
