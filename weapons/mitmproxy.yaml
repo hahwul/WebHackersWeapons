@@ -1,0 +1,12 @@
+---
+name: mitmproxy
+description: An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
+url: https://github.com/mitmproxy/mitmproxy
+category: tool
+type: Proxy
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags:
