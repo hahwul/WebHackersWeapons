@@ -29,7 +29,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 |-------|---------------------------------------------------|
 | Types | `Army-Knife` `Proxy` `Recon` `Fuzzer` `Scanner` `Exploit` `Env` `Utils` `Etc`|
 | Tags  | `proxy` `live-audit` `infra` `pentest` `graphql` `dns` `subdomains` `endpoint` `param` `apk` `domain` `jwt` `ssrf` `xss` `aaa` `smuggle` `ssl` `csp` `403` `s3` `broken-link` `sqli` `lfi` `xxe` `rop` `oast` `wordlist` `report` `url` `http` `diff`                         |
-| Langs | `Java` `Go` `Shell` `Ruby` `Python` `Rust` `JavaScript` `C` `Kotlin` `Perl` `CSS` `BlitzBasic` `HTML` `C#` `C++` `Typescript` `PHP` `TypeScript` `Kotiln`                        |
+| Langs | `Java` `Go` `Shell` `Ruby` `Rust` `Python` `JavaScript` `C` `Kotlin` `Perl` `CSS` `BlitzBasic` `HTML` `C#` `C++` `Typescript` `PHP` `TypeScript` `Kotiln`                        |
 
 ### Tools
 | Type | Name | Description | Star | Tags | Badges |
@@ -39,6 +39,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 |Army-Knife|[axiom](https://github.com/pry0cc/axiom)|A dynamic infrastructure toolkit for red teamers and bug bounty hunters! |![](https://img.shields.io/github/stars/pry0cc/axiom?label=%20)|`infra`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/shell.png)|
 |Army-Knife|[ZAP](https://github.com/zaproxy/zaproxy)|The OWASP ZAP core project|![](https://img.shields.io/github/stars/zaproxy/zaproxy?label=%20)|`proxy`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![zap](./images/zap.png)![](./images/java.png)|
 |Army-Knife|[Metasploit](https://github.com/rapid7/metasploit-framework)|The world’s most used penetration testing framework|![](https://img.shields.io/github/stars/rapid7/metasploit-framework?label=%20)|`pentest`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/ruby.png)|
+|Proxy|[Caido](https://caido.io)|A lightweight web security auditing toolkit|||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/rust.png)|
 |Proxy|[Echo Mirage](https://sourceforge.net/projects/echomirage.oldbutgold.p/)|A generic network proxy that uses DLL injection to capture and alter TCP traffic.|||![windows](./images/windows.png)|
 |Proxy|[EvilProxy](https://github.com/bbtfr/evil-proxy)|A ruby http/https proxy to do EVIL things.|![](https://img.shields.io/github/stars/bbtfr/evil-proxy?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/ruby.png)|
 |Proxy|[mitmproxy](https://github.com/mitmproxy/mitmproxy)|An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.|![](https://img.shields.io/github/stars/mitmproxy/mitmproxy?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/python.png)|
