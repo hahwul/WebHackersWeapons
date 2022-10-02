@@ -1,0 +1,13 @@
+---
+name: reverse-shell-generator
+description: Hosted Reverse Shell generator with a ton of functionality. -- (Great for CTFs)
+url: https://github.com/0dayCTF/reverse-shell-generator
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Javascript
+tags: 
+- payload
