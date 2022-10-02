@@ -28,8 +28,8 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 |       | Attributes                                        |
 |-------|---------------------------------------------------|
 | Types | `Army-Knife` `Proxy` `Recon` `Fuzzer` `Scanner` `Exploit` `Env` `Utils` `Etc`|
-| Tags  | `proxy` `live-audit` `infra` `pentest` `graphql` `dns` `subdomains` `endpoint` `param` `apk` `domain` `jwt` `ssrf` `xss` `aaa` `smuggle` `ssl` `csp` `403` `s3` `broken-link` `sqli` `lfi` `xxe` `rop` `oast` `wordlist` `report` `url` `http` `diff`                         |
-| Langs | `Java` `Go` `Shell` `Ruby` `Rust` `Python` `JavaScript` `C` `Kotlin` `Perl` `CSS` `BlitzBasic` `HTML` `C#` `C++` `Typescript` `PHP` `TypeScript` `Kotiln`                        |
+| Tags  | `proxy` `live-audit` `infra` `pentest` `graphql` `dns` `subdomains` `endpoint` `param` `apk` `domain` `jwt` `ssrf` `xss` `aaa` `smuggle` `ssl` `csp` `403` `s3` `broken-link` `sqli` `lfi` `xxe` `rop` `oast` `wordlist` `report` `url` `payload` `http` `diff`                         |
+| Langs | `Java` `Go` `Shell` `Ruby` `Rust` `Python` `JavaScript` `C` `Kotlin` `Perl` `CSS` `BlitzBasic` `HTML` `C#` `C++` `Typescript` `PHP` `TypeScript` `Javascript` `Kotiln`                        |
 
 ### Tools
 | Type | Name | Description | Star | Tags | Badges |
@@ -276,6 +276,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 |Utils|[gf](https://github.com/tomnomnom/gf)|A wrapper around grep, to help you grep for things |![](https://img.shields.io/github/stars/tomnomnom/gf?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/go.png)|
 |Utils|[ysoserial](https://github.com/frohoff/ysoserial)|A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization. |![](https://img.shields.io/github/stars/frohoff/ysoserial?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/java.png)|
 |Utils|[graphql-voyager](https://github.com/APIs-guru/graphql-voyager)|🛰️ Represent any GraphQL API as an interactive graph |![](https://img.shields.io/github/stars/APIs-guru/graphql-voyager?label=%20)|`graphql`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/typescript.png)|
+|Utils|[reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator)|Hosted Reverse Shell generator with a ton of functionality. -- (Great for CTFs)|![](https://img.shields.io/github/stars/0dayCTF/reverse-shell-generator?label=%20)|`payload`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/javascript.png)|
 |Utils|[weaponised-XSS-payloads](https://github.com/hakluke/weaponised-XSS-payloads)|XSS payloads designed to turn alert(1) into P1|![](https://img.shields.io/github/stars/hakluke/weaponised-XSS-payloads?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/javascript.png)|
 |Utils|[Blacklist3r](https://github.com/NotSoSecure/Blacklist3r)|project-blacklist3r |![](https://img.shields.io/github/stars/NotSoSecure/Blacklist3r?label=%20)||![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/c#.png)|
 |Utils|[wuzz](https://github.com/asciimoo/wuzz)|Interactive cli tool for HTTP inspection |![](https://img.shields.io/github/stars/asciimoo/wuzz?label=%20)|`http`|![linux](./images/linux.png)![macos](./images/apple.png)![windows](./images/windows.png)![](./images/go.png)|
