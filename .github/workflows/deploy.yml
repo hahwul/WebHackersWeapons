@@ -27,7 +27,8 @@ jobs:
         git config --local user.email "hahwul@gmail.com"
         git config --local user.name "WHW"
         git add README.md ./scripts/last_change
-        git commit -m "Deploy README.md"
+        git add ./categorize/*
+        git commit -m "Deploy README.md and Categorize Docs"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
