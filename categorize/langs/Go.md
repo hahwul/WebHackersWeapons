@@ -1,5 +1,5 @@
 
-## The Go based tools
+## Tools Made of Go
 
 | Type | Name | Description | Star | Tags | Badges |
 | --- | --- | --- | --- | --- | --- |

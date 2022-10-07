@@ -1,5 +1,5 @@
 
-## The Rust based tools
+## Tools Made of Rust
 
 | Type | Name | Description | Star | Tags | Badges |
 | --- | --- | --- | --- | --- | --- |

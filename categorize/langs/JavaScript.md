@@ -1,5 +1,5 @@
 
-## The JavaScript based tools
+## Tools Made of JavaScript
 
 | Type | Name | Description | Star | Tags | Badges |
 | --- | --- | --- | --- | --- | --- |

@@ -1,5 +1,5 @@
 
-## The TypeScript based tools
+## Tools Made of TypeScript
 
 | Type | Name | Description | Star | Tags | Badges |
 | --- | --- | --- | --- | --- | --- |

@@ -1,5 +1,5 @@
 
-## The HTML based tools
+## Tools Made of HTML
 
 | Type | Name | Description | Star | Tags | Badges |
 | --- | --- | --- | --- | --- | --- |

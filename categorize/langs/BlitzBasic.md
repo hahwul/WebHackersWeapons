@@ -1,5 +1,5 @@
 
-## The BlitzBasic based tools
+## Tools Made of BlitzBasic
 
 | Type | Name | Description | Star | Tags | Badges |
 | --- | --- | --- | --- | --- | --- |
