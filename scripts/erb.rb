@@ -165,7 +165,7 @@ weapons.each do | data |
         begin
           if data['lang'].length > 0 && data['lang'] != "null"
               langs.push "[`#{data['lang']}`](/categorize/langs/#{data['lang']}.md)"
-              lang_badge = "[![#{data['lang']}](./images/#{data['lang'].downcase}.png)](/categorize/langs/#{data['lang']}.md)"
+              lang_badge = "[![#{data['lang']}](/images/#{data['lang'].downcase}.png)](/categorize/langs/#{data['lang']}.md)"
           end
         rescue
         end
