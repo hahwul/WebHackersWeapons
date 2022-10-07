@@ -156,7 +156,7 @@ weapons.each do | data |
         temp_tags = []
         begin
           data['tags'].each do |t|
-             temp_tags.push "[`#{t}`](/tags/#{t}.md)"
+             temp_tags.push "[`#{t}`](/categorize/tags/#{t}.md)"
           end
           tags.concat temp_tags
         rescue
@@ -164,8 +164,8 @@ weapons.each do | data |
         lang_badge = ""
         begin
           if data['lang'].length > 0 && data['lang'] != "null"
-              langs.push "[`#{data['lang']}`](/langs/#{data['lang']}.md)"
-              lang_badge = "[![#{data['lang']}](./images/#{data['lang'].downcase}.png)](/langs/#{data['lang']}.md)"
+              langs.push "[`#{data['lang']}`](/categorize/langs/#{data['lang']}.md)"
+              lang_badge = "[![#{data['lang']}](./images/#{data['lang'].downcase}.png)](/categorize/langs/#{data['lang']}.md)"
           end
         rescue
         end
