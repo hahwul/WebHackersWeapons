@@ -6,21 +6,21 @@ def generate_badge array
     array.each { |t|
         case t
         when 'linux'
-            badge = badge + "![linux](./images/linux.png)"
+            badge = badge + "![linux](/images/linux.png)"
         when 'windows'
-            badge = badge + "![windows](./images/windows.png)"
+            badge = badge + "![windows](/images/windows.png)"
         when 'macos'
-            badge = badge + "![macos](./images/apple.png)"
+            badge = badge + "![macos](/images/apple.png)"
         when 'firefox'
-            badge = badge + "![firefox](./images/firefox.png)"
+            badge = badge + "![firefox](/images/firefox.png)"
         when 'safari'
-            badge = badge + "![safari](./images/safari.png)"
+            badge = badge + "![safari](/images/safari.png)"
         when 'chrome'
-            badge = badge + "![chrome](./images/chrome.png)"
+            badge = badge + "![chrome](/images/chrome.png)"
         when 'burpsuite'
-            badge = badge + "![burp](./images/burp.png)"
+            badge = badge + "![burp](/images/burp.png)"
         when 'zap'
-            badge = badge + "![zap](./images/zap.png)"
+            badge = badge + "![zap](/images/zap.png)"
         end
     }
     return badge
