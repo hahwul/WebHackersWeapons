@@ -156,7 +156,7 @@ weapons.each do | data |
         temp_tags = []
         begin
           data['tags'].each do |t|
-             temp_tags.push "`#{t}`"
+             temp_tags.push "[`#{t}`](/tags/#{t}.md)"
           end
           tags.concat temp_tags
         rescue
@@ -164,8 +164,8 @@ weapons.each do | data |
         lang_badge = ""
         begin
           if data['lang'].length > 0 && data['lang'] != "null"
-              langs.push "`#{data['lang']}`"
-              lang_badge = "![](./images/#{data['lang'].downcase}.png)"
+              langs.push "[`#{data['lang']}`](/langs/#{data['lang']}.md)"
+              lang_badge = "[![#{data['lang']}](./images/#{data['lang'].downcase}.png)](/langs/#{data['lang']}.md)"
           end
         rescue
         end
