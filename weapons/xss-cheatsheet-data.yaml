@@ -9,6 +9,6 @@ platform:
 - linux
 - macos
 - windows
-lang: 'null'
+lang: 
 tags:
 - xss
