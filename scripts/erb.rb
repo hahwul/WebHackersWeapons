@@ -34,6 +34,22 @@ def generate_tags array
     return tags
 end
 
+categorize_template_tags = %q{
+## Tools for <%= @ct_tag %>
+
+<%= @ct_head %>
+<%= @ct_data %>
+
+}.gsub(/^  /, '')
+
+categorize_template_langs = %q{
+## The <%= @ct_lang %> based tools
+
+<%= @ct_head %>
+<%= @ct_data %>
+
+}.gsub(/^  /, '')
+
 template = %q{
 <h1 align="center">
 <br>
@@ -88,6 +104,8 @@ WHW's open-source project and made it with ❤️ if you want contribute this pr
 
 tags = []
 langs = []
+categorize_tags = {}
+categorize_langs = {}
 head = "| Type | Name | Description | Star | Tags | Badges |\n"
 head = head + "| --- | --- | --- | --- | --- | --- |"
 tools = head + "\n"
@@ -111,8 +129,14 @@ Dir.entries("./weapons/").each do | name |
     if name != '.' && name != '..'
         begin
             data = YAML.load(File.open("./weapons/#{name}"))
+
             if data['type'] != "" && data['type'] != nil
-                weapons_obj[data['type'].downcase].push data
+                if weapons_obj[data['type'].downcase] != nil 
+                    weapons_obj[data['type'].downcase].push data
+                else
+                    weapons_obj[data['type'].downcase] = []
+                    weapons_obj[data['type'].downcase].push data
+                end
             else
                 weapons_obj['etc'].push data
             end
@@ -121,6 +145,7 @@ Dir.entries("./weapons/").each do | name |
         end
     end
 end
+
 weapons_obj.each do |key,value|
     weapons.concat value
 end
@@ -169,6 +194,28 @@ weapons.each do | data |
         else
             puts name
         end
+
+        tmp_lang = data['lang']
+        tmp_tags = data['tags']
+
+        if tmp_tags != nil 
+            tmp_tags.each do |t|
+                if categorize_tags[t] == nil
+                    categorize_tags[t] = line + "\n"
+                else
+                    categorize_tags[t] = categorize_tags[t] + line + "\n"
+                end
+            end
+        end
+        
+        if tmp_lang != nil
+            if categorize_langs[tmp_lang] == nil 
+                categorize_langs[tmp_lang] = line + "\n"
+            else
+                categorize_langs[tmp_lang] = categorize_langs[tmp_lang] + line + "\n"
+            end
+        end
+
     rescue => e 
         puts e
     end
@@ -177,3 +224,23 @@ end
 markdown = ERB.new(template, trim_mode: "%<>")
 #puts markdown.result
 File.write './README.md', markdown.result
+
+categorize_tags.each do |key,value|
+    if key != nil && key != ""
+        @ct_tag = key
+        @ct_head = head + "\n"
+        @ct_data = value
+        tag_markdown = ERB.new(categorize_template_tags, trim_mode: "%<>")
+        File.write "./categorize/tags/#{@ct_tag}.md", tag_markdown.result
+    end
+end
+
+categorize_langs.each do |key,value|
+    if key != nil && key != "" 
+        @ct_lang = key
+        @ct_head = head + "\n"
+        @ct_data = value
+        lang_markdown = ERB.new(categorize_template_langs, trim_mode: "%<>")
+        File.write "./categorize/langs/#{@ct_lang}.md", lang_markdown.result
+    end
+end
