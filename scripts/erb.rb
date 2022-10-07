@@ -43,7 +43,7 @@ categorize_template_tags = %q{
 }.gsub(/^  /, '')
 
 categorize_template_langs = %q{
-## The <%= @ct_lang %> based tools
+## Tools Made of <%= @ct_lang %>
 
 <%= @ct_head %>
 <%= @ct_data %>
