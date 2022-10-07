@@ -1,0 +1,14 @@
+---
+name: Sub404
+description: A python tool to check subdomain takeover vulnerability
+url: https://github.com/r3curs1v3-pr0xy/sub404
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags:
+- subdomains
+- takeover
