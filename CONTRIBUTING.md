@@ -1,4 +1,12 @@
-## Contribute
+## ⚠️ Important
+The paths below is automatically generated. 
+
+- `README.md`
+- `categorize/*`
+
+Please contribute only the `./weapons` and `./scripts`, `./images` directories 😉
+
+## ❤️ Contribute
 ### First, Fork Repository
 Fork this repository :D
 
