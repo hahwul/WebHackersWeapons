@@ -1,5 +1,5 @@
 
-## Tools for payload
+## Tools Made of Javascript
 
 | Type | Name | Description | Star | Tags | Badges |
 | --- | --- | --- | --- | --- | --- |
