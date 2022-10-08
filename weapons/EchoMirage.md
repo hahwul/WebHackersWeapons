@@ -7,4 +7,5 @@ type: Proxy
 platform:
 - windows
 lang: 
-tags: []
+tags: 
+- mitmproxy

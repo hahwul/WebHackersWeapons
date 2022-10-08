@@ -10,3 +10,4 @@ platform:
 - windows
 lang: Ruby
 tags:
+- mitmproxy
