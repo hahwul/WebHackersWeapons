@@ -11,4 +11,4 @@ platform:
 - zap
 lang: Java
 tags: 
-- proxy
+- mitmproxy

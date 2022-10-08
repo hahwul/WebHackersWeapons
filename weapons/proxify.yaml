@@ -11,3 +11,4 @@ platform:
 - windows
 lang: Go
 tags: 
+- mitmproxy

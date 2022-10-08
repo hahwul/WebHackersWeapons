@@ -10,3 +10,4 @@ platform:
 - windows
 lang: Python
 tags:
+- mitmproxy

@@ -10,3 +10,4 @@ platform:
 - windows
 lang: Rust
 tags: 
+- mitmproxy
