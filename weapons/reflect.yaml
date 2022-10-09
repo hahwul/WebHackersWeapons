@@ -9,5 +9,5 @@ platform:
 - macos
 - windows
 - zap
-lang: Kotiln
+lang: Kotlin
 tags: []
