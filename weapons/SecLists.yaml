@@ -12,4 +12,5 @@ platform:
 - macos
 - windows
 lang: PHP
-tags: []
+tags: 
+- wordlist
