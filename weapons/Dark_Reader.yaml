@@ -10,5 +10,6 @@ platform:
 - windows
 - firefox
 - chrome
-lang: Typescript
-tags: []
+lang: TypeScript
+tags: 
+- darkmode
