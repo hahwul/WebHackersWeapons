@@ -3,6 +3,7 @@
 
 | Type | Name | Description | Star | Tags | Badges |
 | --- | --- | --- | --- | --- | --- |
+|Scanner|[collaborator-everywhere](https://github.com/PortSwigger/collaborator-everywhere)||![](https://img.shields.io/github/stars/PortSwigger/collaborator-everywhere?label=%20)|[`oast`](/categorize/tags/oast.md)|![linux](/images/linux.png)![macos](/images/apple.png)![windows](/images/windows.png)![burp](/images/burp.png)[![Java](/images/java.png)](/categorize/langs/Java.md)|
 |Utils|[TukTuk](https://github.com/ArturSS7/TukTuk)|Tool for catching and logging different types of requests. |![](https://img.shields.io/github/stars/ArturSS7/TukTuk?label=%20)|[`oast`](/categorize/tags/oast.md)|![linux](/images/linux.png)![macos](/images/apple.png)![windows](/images/windows.png)[![Go](/images/go.png)](/categorize/langs/Go.md)|
 |Utils|[taborator](https://github.com/hackvertor/taborator)||![](https://img.shields.io/github/stars/hackvertor/taborator?label=%20)|[`oast`](/categorize/tags/oast.md)|![linux](/images/linux.png)![macos](/images/apple.png)![windows](/images/windows.png)![burp](/images/burp.png)[![Java](/images/java.png)](/categorize/langs/Java.md)|
 |Utils|[boast](https://github.com/marcoagner/boast)|The BOAST Outpost for AppSec Testing (v0.1.0)|![](https://img.shields.io/github/stars/marcoagner/boast?label=%20)|[`oast`](/categorize/tags/oast.md)|![linux](/images/linux.png)![macos](/images/apple.png)![windows](/images/windows.png)[![Go](/images/go.png)](/categorize/langs/Go.md)|
