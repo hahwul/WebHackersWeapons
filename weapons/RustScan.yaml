@@ -9,4 +9,5 @@ platform:
 - macos
 - windows
 lang: Rust
-tags: []
+tags: 
+- portscan
