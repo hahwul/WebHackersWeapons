@@ -8,6 +8,6 @@ platform:
 - linux
 - macos
 - windows
-lang: Javascript
+lang: JavaScript
 tags: 
 - payload
