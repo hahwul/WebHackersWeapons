@@ -14,3 +14,4 @@ platform:
 lang: PHP
 tags: 
 - wordlist
+- documents

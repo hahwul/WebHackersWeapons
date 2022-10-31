@@ -9,4 +9,6 @@ platform:
 - macos
 - windows
 lang: JavaScript
-tags: []
+tags: 
+- xss
+- documents
