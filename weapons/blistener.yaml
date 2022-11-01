@@ -1,0 +1,14 @@
+---
+name: blistener
+description: Blind-XSS listener with payloads
+url: https://github.com/fyxme/blistener
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags:
+- xss
+- blind-xss
