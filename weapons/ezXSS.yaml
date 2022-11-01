@@ -12,3 +12,4 @@ platform:
 lang: PHP
 tags:
 - xss
+- blind-xss
