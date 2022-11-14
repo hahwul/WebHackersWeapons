@@ -12,3 +12,4 @@ platform:
 lang: Java
 tags:
 - param
+- cache-vuln
