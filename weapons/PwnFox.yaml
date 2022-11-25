@@ -1,0 +1,14 @@
+---
+name: PwnFox
+description: Firefox/Burp extension that provide usefull tools for your security audit.
+url: https://github.com/yeswehack/PwnFox
+category: browser-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+- firefox
+- burpsuite
+lang: JavaScript
+tags: []
