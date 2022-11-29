@@ -1,0 +1,13 @@
+---
+name: BaRMIe
+description: Java RMI enumeration and attack tool.
+url: https://github.com/NickstaDB/BaRMIe
+category: tool
+type: Exploit
+platform:
+- linux
+- macos
+- windows
+lang: Java
+tags: 
+- RMI
