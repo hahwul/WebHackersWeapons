@@ -1,12 +1,12 @@
 ---
 name: SQLNinja
-description: " SQL Injection scanner"
+description: Sqlninja is a tool targeted to exploit SQL Injection vulnerabilities.
 url: https://gitlab.com/kalilinux/packages/sqlninja
 category: tool
 type: Exploit
 platform:
 - linux
 - macos
-- windows
-lang: 
-tags: []
+lang: Perl
+tags: 
+- sqli
