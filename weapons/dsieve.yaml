@@ -1,0 +1,13 @@
+---
+name: dsieve
+description: Filter and enrich a list of subdomains by level
+url: https://github.com/trickest/dsieve
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: 
+- subdomains
