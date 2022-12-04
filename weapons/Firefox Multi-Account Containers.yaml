@@ -1,0 +1,14 @@
+---
+name: Firefox Multi-Account Containers
+description: Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs
+url: https://github.com/mozilla/multi-account-containers/#readme
+category: browser-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+- firefox
+- chrome
+lang: JavaScript
+tags: []
