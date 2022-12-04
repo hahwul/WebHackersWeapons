@@ -9,6 +9,5 @@ platform:
 - macos
 - windows
 - firefox
-- chrome
 lang: JavaScript
 tags: []
