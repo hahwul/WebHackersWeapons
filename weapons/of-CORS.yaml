@@ -1,0 +1,13 @@
+---
+name: of-CORS
+description: Identifying and exploiting CORS misconfigurations on the internal networks
+url: https://github.com/trufflesecurity/of-CORS
+category: tool
+type: Exploit
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: 
+- cors
