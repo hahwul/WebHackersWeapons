@@ -1,0 +1,13 @@
+---
+name: ghauri
+description: An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws
+url: https://github.com/r0oth3x49/ghauri
+category: tool
+type: Exploit
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: 
+- sqli
