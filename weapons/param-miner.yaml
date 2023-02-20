@@ -1,6 +1,6 @@
 ---
 name: param-miner
-description:
+description: Param Miner
 url: https://github.com/PortSwigger/param-miner
 category: tool-addon
 type: Fuzzer
