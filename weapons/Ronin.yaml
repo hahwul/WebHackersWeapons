@@ -1,0 +1,15 @@
+---
+name: Ronin
+description: Ronin is a free and Open Source Ruby toolkit for security research and development.
+url: https://github.com/ronin-rb/ronin
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Ruby
+tags:
+- payload
+- http
+- pentest
