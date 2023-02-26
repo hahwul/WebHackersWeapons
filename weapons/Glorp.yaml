@@ -1,0 +1,13 @@
+---
+name: Glorp
+description: A CLI-based HTTP intercept and replay proxy
+url: https://github.com/denandz/glorp
+category: tool
+type: Proxy
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: 
+- mitmproxy
