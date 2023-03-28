@@ -1,0 +1,16 @@
+---
+name: Clipboard
+description: An external brain that remembers anything, anytime, anywhere.
+url: https://github.com/Slackadays/Clipboard
+category: tool # tool / tool-addon / browser-addon / bookmarklet
+type: Utils         # Army-knife / Proxy / Recon / Fuzzer / Scanner / Exploit / Env / Utils / Etc
+platform:
+- linux        # linux 
+- macos        # macos application
+- windows      # windows application
+# If supported crossplatform (OS), you write out all three (linux/macos/windows)
+# If supported zap and burpsuite addon, you write both (zap/burpsuite)
+lang: C++         # go / python / ruby / rust / etc...
+tags:
+- darkmode 
+# xss / sqli / ssrf / oast / http / subdomains / etc...
