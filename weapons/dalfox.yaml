@@ -1,7 +1,6 @@
 ---
 name: dalfox
-description: "\U0001F318\U0001F98A DalFox(Finder Of XSS) / Parameter Analysis and
-  XSS Scanning tool based on golang "
+description: "\U0001F318\U0001F98A Dalfox is a powerful open-source XSS scanner and utility focused on automation."
 url: https://github.com/hahwul/dalfox
 category: tool
 type: Scanner
