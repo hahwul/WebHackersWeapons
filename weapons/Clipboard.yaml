@@ -10,4 +10,4 @@ platform:
 - windows
 lang: C++
 tags:
-- darkmode 
+- clipboard
