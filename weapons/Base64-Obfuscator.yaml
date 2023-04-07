@@ -2,15 +2,15 @@
 name: Base64 Python Obfuscator
 description: This Code encodes/obfuscates a python file (.py) to another output file (.py), adding about 10mb of random data that makes the code unrecognizable to someone without basic knowledge of cryptography. 
 url: https://github.com/thomasthehacker/Python-.py-file-Base64-Obfuscator-encoder
-category: tool # tool / tool-addon / browser-addon / bookmarklet
-type: Cryptography         # Army-knife / Proxy / Recon / Fuzzer / Scanner / Exploit / Env / Utils / Etc
+category: tool
+type: Cryptography   
 platform:
-- linux        # linux 
-- macos        # macos application
-- windows      # windows application
-lang: python         # go / python / ruby / rust / etc...
+- linux      
+- macos
+- windows    
+lang: python         
 tags: 
-- base64  # xss / sqli / ssrf / oast / http / subdomains / etc...
+- base64
 - python
 - encoder
 - encrypter
