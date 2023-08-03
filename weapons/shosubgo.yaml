@@ -1,0 +1,13 @@
+---
+name: shosubgo
+description: Small tool to Grab subdomains using Shodan api.
+url: https://github.com/incogbyte/shosubgo
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags:
+- subdomains
