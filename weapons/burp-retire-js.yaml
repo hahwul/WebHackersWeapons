@@ -10,4 +10,5 @@ platform:
 - windows
 - burpsuite
 lang: JavaScript
-tags: []
+tags: 
+- js-analysis
