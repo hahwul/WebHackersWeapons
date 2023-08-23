@@ -7,7 +7,7 @@ type: Recon
 platform:
 - linux
 - macos
-- windows
 lang: Crystal
 tags:
 - endpoint
+- url
