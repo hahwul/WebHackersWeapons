@@ -1,0 +1,13 @@
+---
+name: SSTImap
+description: Automatic SSTI detection tool with interactive interface
+url: https://github.com/vladko312/SSTImap
+category: tool
+type: Fuzzer
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags:
+- ssti
