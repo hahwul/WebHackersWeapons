@@ -1,0 +1,13 @@
+---
+name: Map Local
+description: ZAP add-on which allows mapping of responses to content of a chosen local file.
+url: https://github.com/Keindel/owasp-zap-maplocal-addon
+category: tool-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+- zap
+lang: Java
+tags: []
