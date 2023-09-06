@@ -1,0 +1,13 @@
+---
+name: katana
+description: A next-generation crawling and spidering framework.
+url: https://github.com/projectdiscovery/katana
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: 
+- crawl

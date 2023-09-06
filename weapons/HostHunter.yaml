@@ -1,0 +1,13 @@
+---
+name: HostHunter
+description: Recon tool for discovering hostnames using OSINT techniques.
+url: https://github.com/SpiderLabs/HostHunter
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: 
+- osint

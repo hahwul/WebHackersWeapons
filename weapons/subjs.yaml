@@ -9,4 +9,6 @@ platform:
 - macos
 - windows
 lang: Go
-tags: []
+tags: 
+- url
+- subdomains

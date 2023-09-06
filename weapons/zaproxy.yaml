@@ -1,6 +1,6 @@
 ---
 name: ZAP
-description: The OWASP ZAP core project
+description: The ZAP core project
 url: https://github.com/zaproxy/zaproxy
 category: tool
 type: Army-Knife
@@ -13,3 +13,4 @@ lang: Java
 tags: 
 - mitmproxy
 - live-audit
+- crawl

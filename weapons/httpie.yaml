@@ -1,8 +1,6 @@
 ---
 name: httpie
-description: "As easy as /aitch-tee-tee-pie/ \U0001F967 Modern, user-friendly command-line
-  HTTP client for the API era. JSON support, colors, sessions, downloads, plugins
-  & more. https://twitter.com/httpie"
+description: modern, user-friendly command-line HTTP client for the API era
 url: https://github.com/httpie/httpie
 category: tool
 type: Utils

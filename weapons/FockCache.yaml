@@ -1,6 +1,6 @@
 ---
-name: fockcache
-description: FockCache  - Minimalized Test Cache Poisoning
+name: FockCache
+description: Minimalized Test Cache Poisoning
 url: https://github.com/tismayil/fockcache
 category: tool
 type: Scanner
@@ -9,4 +9,5 @@ platform:
 - macos
 - windows
 lang: Go
-tags: []
+tags: 
+- cache-vuln

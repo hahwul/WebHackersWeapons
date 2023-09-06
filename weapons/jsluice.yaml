@@ -1,0 +1,13 @@
+---
+name: jsluice
+description: Extract URLs, paths, secrets, and other interesting bits from JavaScript
+url: https://github.com/BishopFox/jsluice
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: 
+- js-analysis

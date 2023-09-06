@@ -1,0 +1,14 @@
+---
+name: GAP
+description: This is an evolution of the original getAllParams extension for Burp. Not only does it find more potential parameters for you to investigate, but it also finds potential links to try these parameters on.
+url: https://github.com/xnl-h4ck3r/GAP-Burp-Extension
+category: tool-addon
+type: Fuzzer
+platform:
+- linux         
+- macos        
+- windows      
+- burpsuite    
+lang: Python
+tags: 
+- param

@@ -10,5 +10,5 @@ platform:
 - windows
 - firefox
 - chrome
-lang: 
+lang: JavaScript
 tags: []

@@ -1,0 +1,13 @@
+---
+name: fff
+description: The Fairly Fast Fetcher. Requests a bunch of URLs provided on stdin fairly quickly.
+url: https://github.com/tomnomnom/fff
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: 
+- url

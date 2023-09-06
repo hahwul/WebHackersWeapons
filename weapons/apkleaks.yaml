@@ -11,3 +11,5 @@ platform:
 lang: Python
 tags:
 - apk
+- url
+- endpoint

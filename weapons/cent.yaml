@@ -1,0 +1,13 @@
+---
+name: cent
+description: Community edition nuclei templates, a simple tool that allows you to organize all the Nuclei templates offered by the community in one place.
+url: https://github.com/xm1k3/cent
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: 
+- nuclei-templates

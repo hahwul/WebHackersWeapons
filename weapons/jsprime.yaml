@@ -9,4 +9,5 @@ platform:
 - macos
 - windows
 lang: JavaScript
-tags: []
+tags: 
+- js-analysis

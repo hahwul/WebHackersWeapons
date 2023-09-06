@@ -1,0 +1,14 @@
+---
+name: ParamPamPam
+description: This tool for brute discover GET and POST parameters.
+url: https://github.com/Bo0oM/ParamPamPam
+category: tool
+type: Fuzzer
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags:
+- param
+- cache-vuln

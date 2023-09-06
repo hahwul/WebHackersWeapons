@@ -1,0 +1,13 @@
+---
+name: eoyc
+description: Encoding Only Your Choices
+url: https://github.com/hahwul/eoyc
+category: tool
+type: Utils
+platform:
+- linux
+- macos
+- windows
+lang: Crystal
+tags:
+- encode

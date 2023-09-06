@@ -1,6 +1,6 @@
 ---
 name: SequenceDiagram
-description: " Online tool for creating UML sequence diagrams"
+description: Online tool for creating UML sequence diagrams
 url: https://sequencediagram.org
 category: tool
 type: Utils
@@ -9,4 +9,5 @@ platform:
 - macos
 - windows
 lang: 
-tags: []
+tags: 
+- online

@@ -1,0 +1,13 @@
+---
+name: autopoisoner
+description: Web cache poisoning vulnerability scanner.
+url: https://github.com/Th0h0/autopoisoner
+category: tool
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: 
+- cache-vuln
