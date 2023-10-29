@@ -1,0 +1,13 @@
+---
+name: bbot
+description: OSINT automation for hackers
+url: https://github.com/blacklanternsecurity/bbot
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Python
+tags: 
+- osint
