@@ -1,0 +1,16 @@
+---
+name: ZAP Browser Extension
+description: A browser extension which allows ZAP to interact directly with the browser.
+url: https://github.com/zaproxy/browser-extension/
+category: browser-addon
+type: Utils
+platform:
+- linux
+- macos
+- windows
+- firefox
+- chrome
+- zap
+lang: TypeScript
+tags: 
+- browser-record
