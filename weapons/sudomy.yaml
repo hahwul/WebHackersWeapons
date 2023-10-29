@@ -1,0 +1,13 @@
+---
+name: Sudomy
+description: subdomain enumeration tool to collect subdomains and analyzing domains
+url: https://github.com/screetsec/Sudomy
+category: tool
+type: Recon
+platform:
+- linux
+- macos
+- windows
+lang: Shell
+tags:
+- subdomains
