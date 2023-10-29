@@ -1,0 +1,12 @@
+---
+name: scan4all
+description: Official repository vuls Scan
+url: https://github.com/hktalent/scan4all
+category: tool
+type: Scanner
+platform:
+- linux
+- macos
+- windows
+lang: Go
+tags: []
