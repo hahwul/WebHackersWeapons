@@ -1,7 +1,5 @@
 name: Contributors
 on:
-  schedule:
-    - cron: '0 4 * * 0' 
   push:
     branches:
       - main
@@ -15,7 +13,7 @@ jobs:
   contributors:
     runs-on: ubuntu-latest
     steps:
-      - uses: bubkoo/contributors-list@v1
+      - uses: wow-actions/contributors-list@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           round: true
