@@ -1,14 +1,14 @@
+---
 name: Contributors
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
-      inputs:
-         logLevel:
-            description: 'manual run'     
-            required: false
-            default: ''
+    inputs:
+      logLevel:
+        description: manual run
+        required: false
+        default: ''
 jobs:
   contributors:
     runs-on: ubuntu-latest
