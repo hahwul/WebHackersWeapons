@@ -4,10 +4,6 @@ description: Make JSON greppable!
 url: https://github.com/tomnomnom/gron
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- json
+tags: [json]

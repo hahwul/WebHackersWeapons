@@ -4,9 +4,6 @@ description: 'The fastest dork scanner written in Go. '
 url: https://github.com/dwisiswant0/go-dork
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

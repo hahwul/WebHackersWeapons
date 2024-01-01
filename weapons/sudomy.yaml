@@ -4,10 +4,6 @@ description: subdomain enumeration tool to collect subdomains and analyzing doma
 url: https://github.com/screetsec/Sudomy
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Shell
-tags:
-- subdomains
+tags: [subdomains]

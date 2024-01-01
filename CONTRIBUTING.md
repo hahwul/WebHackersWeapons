@@ -42,15 +42,9 @@ description: Identifies common parameters vulnerable to certain vulnerability cl
 url: https://github.com/bugcrowd/HUNT
 category: tool-addon
 type: Recon
-platform:
-- linux
-- macos
-- windows
-- zap
-- burpsuite
+platform: [linux, macos, windows, zap, burpsuite]
 lang: Kotlin
-tags: 
-- param
+tags: [param]
 ```
 
 ![1415](https://user-images.githubusercontent.com/13212227/98445635-00db1e00-215c-11eb-8a59-d7d21dd98db0.png)

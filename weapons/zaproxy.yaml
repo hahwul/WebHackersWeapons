@@ -4,13 +4,6 @@ description: The ZAP core project
 url: https://github.com/zaproxy/zaproxy
 category: tool
 type: Army-Knife
-platform:
-- linux
-- macos
-- windows
-- zap
+platform: [linux, macos, windows, zap]
 lang: Java
-tags: 
-- mitmproxy
-- live-audit
-- crawl
+tags: [mitmproxy, live-audit, crawl]

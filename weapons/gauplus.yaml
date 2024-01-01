@@ -5,10 +5,6 @@ description: A modified version of gau for personal usage. Support workers, prox
 url: https://github.com/bp0lr/gauplus
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- url
+tags: [url]

@@ -6,10 +6,6 @@ description: 'A fast port scanner written in go with focus on reliability and si
 url: https://github.com/projectdiscovery/naabu
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- portscan
+tags: [portscan]

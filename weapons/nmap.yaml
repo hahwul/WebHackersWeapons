@@ -4,10 +4,6 @@ description: 'Nmap - the Network Mapper. Github mirror of official SVN repositor
 url: https://github.com/nmap/nmap
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: C
-tags: 
-- portscan
+tags: [portscan]

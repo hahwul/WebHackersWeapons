@@ -4,10 +4,6 @@ description: Dark mode to any site
 url: https://apps.apple.com/us/app/dark-reader-for-safari/id1438243180
 category: browser-addon
 type: Utils
-platform:
-- linux
-- macos
-- windows
-- safari
-lang: 
+platform: [linux, macos, windows, safari]
+lang:
 tags: []

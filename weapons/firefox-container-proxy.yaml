@@ -4,10 +4,6 @@ description: Assign a proxy to a Firefox container
 url: https://github.com/bekh6ex/firefox-container-proxy
 category: browser-addon
 type: Utils
-platform:
-- linux
-- macos
-- windows
-- firefox
+platform: [linux, macos, windows, firefox]
 lang: JavaScript
 tags: []

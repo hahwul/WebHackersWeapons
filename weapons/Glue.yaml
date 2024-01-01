@@ -4,9 +4,6 @@ description: Application Security Automation
 url: https://github.com/OWASP/glue
 category: tool
 type: Env
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Ruby
 tags: []

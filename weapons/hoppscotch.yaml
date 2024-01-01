@@ -4,10 +4,6 @@ description: Open source API development ecosystem
 url: https://github.com/hoppscotch/hoppscotch
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: TypeScript
-tags: 
-- http
+tags: [http]

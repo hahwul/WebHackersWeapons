@@ -4,9 +4,6 @@ description: 'Reconnaissance tool for GitHub organizations '
 url: https://github.com/michenriksen/gitrob
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

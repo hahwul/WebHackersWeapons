@@ -4,10 +4,6 @@ description: 'Deserialization payload generator for a variety of .NET formatters
 url: https://github.com/pwntester/ysoserial.net
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: C#
-tags: 
-- deserialize
+tags: [deserialize]

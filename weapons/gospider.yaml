@@ -4,10 +4,6 @@ description: 'Gospider - Fast web spider written in Go '
 url: https://github.com/jaeles-project/gospider
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- crawl
+tags: [crawl]

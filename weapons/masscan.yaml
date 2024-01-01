@@ -5,10 +5,6 @@ description: 'TCP port scanner, spews SYN packets asynchronously, scanning entir
 url: https://github.com/robertdavidgraham/masscan
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: C
-tags: 
-- portscan
+tags: [portscan]

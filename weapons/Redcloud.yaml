@@ -1,13 +1,9 @@
 ---
 name: Redcloud
-description: 'Automated Red Team Infrastructure deployement using Docker'
+description: Automated Red Team Infrastructure deployement using Docker
 url: https://github.com/khast3x/Redcloud
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags:
-- infra
+tags: [infra]

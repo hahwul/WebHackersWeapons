@@ -1,13 +1,9 @@
 ---
 name: Smap
-description: "a drop-in replacement for Nmap powered by shodan.io"
+description: a drop-in replacement for Nmap powered by shodan.io
 url: https://github.com/s0md3v/smap/
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- port
+tags: [port]

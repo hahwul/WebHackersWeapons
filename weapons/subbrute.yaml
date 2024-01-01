@@ -4,10 +4,6 @@ description: https://github.com/TheRook/subbrute
 url: https://github.com/aboul3la/Sublist3r
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags:
-- subdomains
+tags: [subdomains]

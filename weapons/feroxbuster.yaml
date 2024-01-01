@@ -4,9 +4,6 @@ description: A fast, simple, recursive content discovery tool written in Rust.
 url: https://github.com/epi052/feroxbuster
 category: tool
 type: Fuzzer
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Rust
 tags: []

@@ -4,9 +4,6 @@ description: Contextual Content Discovery Tool
 url: https://github.com/assetnote/kiterunner
 category: tool
 type: Fuzzer
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

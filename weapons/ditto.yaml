@@ -4,9 +4,6 @@ description: A tool for IDN homograph attacks and detection.
 url: https://github.com/evilsocket/ditto
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

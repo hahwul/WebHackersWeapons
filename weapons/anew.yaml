@@ -4,9 +4,6 @@ description: A tool for adding new lines to files, skipping duplicates
 url: https://github.com/tomnomnom/anew
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

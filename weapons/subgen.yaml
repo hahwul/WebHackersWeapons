@@ -5,10 +5,6 @@ description: A really simple utility to concate wordlists to a domain name - to 
 url: https://github.com/pry0cc/subgen
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags:
-- subdomains
+tags: [subdomains]

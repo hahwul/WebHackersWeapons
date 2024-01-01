@@ -7,9 +7,6 @@ description: 'A simple variable based template editor using handlebarjs+strapdow
 url: https://github.com/fransr/template-generator
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: JavaScript
 tags: []

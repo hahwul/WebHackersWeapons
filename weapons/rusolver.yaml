@@ -4,10 +4,6 @@ description: Fast and accurate DNS resolver.
 url: https://github.com/Edu4rdSHL/rusolver
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Rust
-tags:
-- dns
+tags: [dns]

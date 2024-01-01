@@ -5,10 +5,6 @@ description: Fetch known URLs from AlienVault's Open Threat Exchange, the Waybac
 url: https://github.com/lc/gau
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- url
+tags: [url]

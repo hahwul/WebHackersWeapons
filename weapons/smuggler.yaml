@@ -5,10 +5,6 @@ description: 'Smuggler - An HTTP Request Smuggling / Desync testing tool written
 url: https://github.com/defparam/smuggler
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags: 
-- smuggle
+tags: [smuggle]

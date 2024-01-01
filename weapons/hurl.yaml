@@ -4,9 +4,6 @@ description: Hurl, run and test HTTP requests.
 url: https://github.com/Orange-OpenSource/hurl
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Rust
 tags: []

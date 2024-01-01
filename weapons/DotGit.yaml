@@ -4,9 +4,6 @@ description: An extension for checking if .git is exposed in visited websites
 url: https://github.com/davtur19/DotGit
 category: browser-addon
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: JavaScript
 tags: []

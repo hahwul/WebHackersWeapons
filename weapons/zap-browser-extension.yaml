@@ -4,13 +4,6 @@ description: A browser extension which allows ZAP to interact directly with the 
 url: https://github.com/zaproxy/browser-extension/
 category: browser-addon
 type: Utils
-platform:
-- linux
-- macos
-- windows
-- firefox
-- chrome
-- zap
+platform: [linux, macos, windows, firefox, chrome, zap]
 lang: TypeScript
-tags: 
-- browser-record
+tags: [browser-record]

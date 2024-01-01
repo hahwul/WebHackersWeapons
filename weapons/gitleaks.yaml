@@ -1,12 +1,9 @@
 ---
 name: gitleaks
-description: "Scan git repos (or files) for secrets using regex and entropy \U0001F511"
+description: Scan git repos (or files) for secrets using regex and entropy 🔑
 url: https://github.com/zricethezav/gitleaks
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

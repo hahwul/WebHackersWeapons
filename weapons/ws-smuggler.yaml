@@ -4,10 +4,6 @@ description: WebSocket Connection Smuggler
 url: https://github.com/hahwul/ws-smuggler
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- smuggle
+tags: [smuggle]

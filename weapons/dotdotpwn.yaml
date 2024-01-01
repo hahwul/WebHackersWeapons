@@ -4,10 +4,6 @@ description: 'DotDotPwn - The Directory Traversal Fuzzer '
 url: https://github.com/wireghoul/dotdotpwn
 category: tool
 type: Fuzzer
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Perl
-tags: 
-- path-traversal
+tags: [path-traversal]

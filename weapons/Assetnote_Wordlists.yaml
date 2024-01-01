@@ -4,11 +4,6 @@ description: Automated & Manual Wordlists provided by Assetnote
 url: https://github.com/assetnote/wordlists
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: CSS
-tags:
-- wordlist
-- documents
+tags: [wordlist, documents]

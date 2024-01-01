@@ -1,13 +1,10 @@
 ---
 name: nuclei-wordfence-cve
-description: Every single day new templates are added to this repo based on updates on Wordfence.com
+description: Every single day new templates are added to this repo based on updates
+  on Wordfence.com
 url: https://github.com/topscoder/nuclei-wordfence-cve
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags: 
-- nuclei-templates
+tags: [nuclei-templates]

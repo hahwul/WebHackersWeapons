@@ -4,11 +4,6 @@ description: Blind XSS service alerting over slack or email
 url: https://github.com/rverton/gxss
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags:
-- xss
-- blind-xss
+tags: [xss, blind-xss]

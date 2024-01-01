@@ -4,9 +4,6 @@ description: generic colouriser
 url: https://github.com/garabik/grc
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
 tags: []

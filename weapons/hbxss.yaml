@@ -4,11 +4,6 @@ description: Security test tool for Blind XSS
 url: https://github.com/hahwul/hbxss
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Ruby
-tags:
-- xss
-- blind-xss
+tags: [xss, blind-xss]

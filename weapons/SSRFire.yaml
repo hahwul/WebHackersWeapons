@@ -1,12 +1,10 @@
 ---
 name: SSRFire
-description: An automated SSRF finder. Just give the domain name and your server and chill
+description: An automated SSRF finder. Just give the domain name and your server and
+  chill
 url: https://github.com/ksharinarayanan/SSRFire
 category: tool
 type: Fuzzer
-platform:
-- linux
-- macos
+platform: [linux, macos]
 lang: Shell
-tags:
-- ssrf
+tags: [ssrf]

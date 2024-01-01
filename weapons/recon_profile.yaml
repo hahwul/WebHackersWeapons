@@ -4,9 +4,6 @@ description: 'Recon profile (bash profile) for bugbounty '
 url: https://github.com/nahamsec/recon_profile
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Shell
 tags: []

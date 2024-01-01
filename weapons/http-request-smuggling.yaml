@@ -4,9 +4,6 @@ description: HTTP Request Smuggling Detection Tool
 url: https://github.com/anshumanpattnaik/http-request-smuggling
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
 tags: []

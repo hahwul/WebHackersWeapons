@@ -4,10 +4,6 @@ description: 'A fast DOM based XSS vulnerability scanner with simplicity. '
 url: https://github.com/dwisiswant0/findom-xss
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Shell
-tags:
-- xss
+tags: [xss]

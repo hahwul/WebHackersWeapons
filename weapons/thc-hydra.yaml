@@ -4,9 +4,6 @@ description: 'hydra '
 url: https://github.com/vanhauser-thc/thc-hydra
 category: tool
 type: Fuzzer
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: C
 tags: []

@@ -5,10 +5,6 @@ description: 'DNSProb (beta) is a tool built on top of retryabledns that allows 
 url: https://github.com/projectdiscovery/dnsprobe
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags:
-- dns
+tags: [dns]

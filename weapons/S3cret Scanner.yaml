@@ -4,10 +4,6 @@ description: Hunting For Secrets Uploaded To Public S3 Buckets
 url: https://github.com/Eilonh/s3crets_scanner
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags:
-- s3
+tags: [s3]

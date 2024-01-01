@@ -1,12 +1,10 @@
 ---
 name: Hunt3r
-description: 'Made your bugbounty subdomains reconnaissance easier with Hunt3r the web application reconnaissance framework'
+description: Made your bugbounty subdomains reconnaissance easier with Hunt3r the
+  web application reconnaissance framework
 url: https://github.com/EasyRecon/Hunt3r
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Ruby
 tags: []

@@ -1,13 +1,10 @@
 ---
 name: Chaos Web
-description: " actively scan and maintain internet-wide assets' data. enhance research
-  and analyse changes around DNS for better insights."
+description: " actively scan and maintain internet-wide assets' data. enhance research\
+  \ and analyse changes around DNS for better insights."
 url: https://chaos.projectdiscovery.io
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
-lang: 
+platform: [linux, macos, windows]
+lang:
 tags: []

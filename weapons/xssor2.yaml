@@ -4,10 +4,6 @@ description: XSS'OR - Hack with JavaScript.
 url: https://github.com/evilcos/xssor2
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: JavaScript
-tags:
-- xss
+tags: [xss]

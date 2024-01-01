@@ -6,10 +6,6 @@ description: 'shuffleDNS is a wrapper around massdns written in go that allows y
 url: https://github.com/projectdiscovery/shuffledns
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- dns
+tags: [dns]

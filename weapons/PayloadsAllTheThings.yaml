@@ -5,9 +5,6 @@ description: 'A list of useful payloads and bypass for Web Application Security 
 url: https://github.com/swisskyrepo/PayloadsAllTheThings
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
 tags: []

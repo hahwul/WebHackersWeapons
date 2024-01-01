@@ -4,10 +4,6 @@ description: 'Most advanced XSS scanner. '
 url: https://github.com/s0md3v/XSStrike
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags:
-- xss
+tags: [xss]

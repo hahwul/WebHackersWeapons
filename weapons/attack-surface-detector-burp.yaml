@@ -1,15 +1,10 @@
 ---
 name: attack-surface-detector-burp
-description: The Attack Surface Detector uses static code analyses to identify web app endpoints by parsing routes and identifying parameters
+description: The Attack Surface Detector uses static code analyses to identify web
+  app endpoints by parsing routes and identifying parameters
 url: https://github.com/secdec/attack-surface-detector-burp
 category: tool-addon
 type: Recon
-platform:
-- linux
-- macos
-- windows
-- burpsuite
+platform: [linux, macos, windows, burpsuite]
 lang: Java
-tags: 
-- endpoint
-- url
+tags: [endpoint, url]

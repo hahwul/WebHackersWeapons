@@ -4,10 +4,6 @@ description: A tool to dump Java serialization streams in a more human readable 
 url: https://github.com/NickstaDB/SerializationDumper
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Java
-tags: 
-- deserialize
+tags: [deserialize]

@@ -4,9 +4,6 @@ description: 'Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner '
 url: https://github.com/D35m0nd142/LFISuite
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
 tags: []

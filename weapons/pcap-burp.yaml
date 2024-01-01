@@ -1,13 +1,9 @@
 ---
 name: pcap-burp
-description: Pcap importer for Burp 
+description: Pcap importer for Burp
 url: https://github.com/nccgroup/pcap-burp
 category: tool-addon
 type: Utils
-platform:
-- linux
-- macos
-- windows
-- burpsuite
+platform: [linux, macos, windows, burpsuite]
 lang: Java
 tags: []

@@ -4,10 +4,6 @@ description: Create a ZIPBomb for a given uncompressed size (flat and nested mod
 url: https://github.com/damianrusinek/zip-bomb
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags: 
-- zipbomb
+tags: [zipbomb]

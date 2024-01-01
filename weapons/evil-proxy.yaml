@@ -4,10 +4,6 @@ description: A ruby http/https proxy to do EVIL things.
 url: https://github.com/bbtfr/evil-proxy
 category: tool
 type: Proxy
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Ruby
-tags:
-- mitmproxy
+tags: [mitmproxy]

@@ -4,11 +4,6 @@ description:
 url: https://github.com/PortSwigger/reflected-parameters
 category: tool-addon
 type: Recon
-platform:
-- linux
-- macos
-- windows
-- burpsuite
+platform: [linux, macos, windows, burpsuite]
 lang: Java
-tags: 
-- param
+tags: [param]

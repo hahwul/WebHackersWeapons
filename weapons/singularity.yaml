@@ -4,9 +4,6 @@ description: A DNS rebinding attack framework.
 url: https://github.com/nccgroup/singularity
 category: tool
 type: Exploit
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: JavaScript
 tags: []

@@ -5,10 +5,6 @@ description: Maintains a list of IPv4 DNS servers by verifying them against base
 url: https://github.com/vortexau/dnsvalidator
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags:
-- dns
+tags: [dns]

@@ -5,9 +5,6 @@ description: Application for capturing, modifying and sending custom WebSocket d
 url: https://github.com/nccgroup/wssip
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: JavaScript
 tags: []

@@ -5,9 +5,6 @@ description: An open-source project in Golang to test different web application 
 url: https://github.com/wallarm/gotestwaf
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

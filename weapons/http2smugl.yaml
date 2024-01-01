@@ -5,9 +5,6 @@ description: This tool helps to detect and exploit HTTP request smuggling in cas
 url: https://github.com/neex/http2smugl
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

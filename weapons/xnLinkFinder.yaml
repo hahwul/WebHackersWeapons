@@ -1,13 +1,10 @@
 ---
 name: xnLinkFinder
-description: 'A python tool used to discover endpoints (and potential parameters) for a given target'
+description: A python tool used to discover endpoints (and potential parameters) for
+  a given target
 url: https://github.com/xnl-h4ck3r/xnLinkFinder
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags: 
-- js-analysis
+tags: [js-analysis]

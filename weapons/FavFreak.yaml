@@ -4,9 +4,6 @@ description: 'Making Favicon.ico based Recon Great again ! '
 url: https://github.com/devanshbatham/FavFreak
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
 tags: []

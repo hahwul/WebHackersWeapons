@@ -4,10 +4,6 @@ description: 'Extracting URLs of a specific target based on the results of "comm
 url: https://github.com/si9int/cc.py
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags: 
-- url
+tags: [url]

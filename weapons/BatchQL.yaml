@@ -1,13 +1,10 @@
 ---
 name: BatchQL
-description: GraphQL security auditing script with a focus on performing batch GraphQL queries and mutations
+description: GraphQL security auditing script with a focus on performing batch GraphQL
+  queries and mutations
 url: https://github.com/assetnote/batchql
 category: tool
 type: Fuzzer
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags: 
-- graphql
+tags: [graphql]

@@ -4,9 +4,6 @@ description: 'Fastest recursive HTTP fuzzer, like a Ferrari. '
 url: https://github.com/riza/medusa
 category: tool
 type: Fuzzer
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

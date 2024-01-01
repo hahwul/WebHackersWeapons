@@ -5,10 +5,6 @@ description: a recon tool that allows searching on URLs that are exposed via sho
 url: https://github.com/utkusen/urlhunter
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- url
+tags: [url]

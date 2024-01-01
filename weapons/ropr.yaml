@@ -1,13 +1,9 @@
 ---
 name: ropr
-description: 'A blazing fast™ multithreaded ROP Gadget finder. ropper'
+description: A blazing fast™ multithreaded ROP Gadget finder. ropper
 url: https://github.com/Ben-Lichtman/ropr
 category: tool
 type: Exploit
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Rust
-tags:
-- rop
+tags: [rop]

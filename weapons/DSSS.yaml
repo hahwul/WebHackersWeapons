@@ -4,10 +4,6 @@ description: Damn Small SQLi Scanner
 url: https://github.com/stamparm/DSSS
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags: 
-- sqli
+tags: [sqli]

@@ -4,11 +4,6 @@ description:
 url: https://github.com/h3xstream/burp-retire-js
 category: tool-addon
 type: Recon
-platform:
-- linux
-- macos
-- windows
-- burpsuite
+platform: [linux, macos, windows, burpsuite]
 lang: JavaScript
-tags: 
-- js-analysis
+tags: [js-analysis]

@@ -4,10 +4,6 @@ description: declutters url lists for crawling/pentesting
 url: https://github.com/s0md3v/uro
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags: 
-- url
+tags: [url]

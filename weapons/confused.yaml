@@ -5,10 +5,6 @@ description: Tool to check for dependency confusion vulnerabilities in multiple 
 url: https://github.com/visma-prodsec/confused
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- dependency-confusion
+tags: [dependency-confusion]

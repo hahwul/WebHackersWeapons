@@ -4,9 +4,6 @@ description: Open Redirection Analyzer
 url: https://github.com/r0075h3ll/Oralyzer
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
 tags: []

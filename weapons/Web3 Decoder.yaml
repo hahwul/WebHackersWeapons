@@ -4,11 +4,6 @@ description: Burp Extension for Web3
 url: https://github.com/nccgroup/web3-decoder
 category: tool-addon
 type: Utils
-platform:
-- linux
-- macos
-- windows
-- burpsuite
+platform: [linux, macos, windows, burpsuite]
 lang: Java
-tags: 
-- web3
+tags: [web3]

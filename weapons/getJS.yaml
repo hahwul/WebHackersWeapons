@@ -4,10 +4,6 @@ description: A tool to fastly get all javascript sources/files
 url: https://github.com/003random/getJS
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- js-analysis
+tags: [js-analysis]

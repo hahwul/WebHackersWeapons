@@ -4,12 +4,6 @@ description: Dark mode to any site
 url: https://github.com/darkreader/darkreader
 category: browser-addon
 type: Utils
-platform:
-- linux
-- macos
-- windows
-- firefox
-- chrome
+platform: [linux, macos, windows, firefox, chrome]
 lang: TypeScript
-tags: 
-- darkmode
+tags: [darkmode]

@@ -5,10 +5,6 @@ description: 'The fastest and cross-platform subdomain enumerator, do not waste 
 url: https://github.com/Edu4rdSHL/findomain
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Rust
-tags:
-- subdomains
+tags: [subdomains]
