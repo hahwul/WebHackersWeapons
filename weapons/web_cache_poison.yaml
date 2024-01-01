@@ -4,10 +4,6 @@ description: web cache poison - Top 1 web hacking technique of 2019
 url: https://github.com/fngoo/web_cache_poison
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Shell
-tags: 
-- cache-vuln
+tags: [cache-vuln]

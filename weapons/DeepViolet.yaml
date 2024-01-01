@@ -4,10 +4,6 @@ description: Tool for introspection of SSL\TLS sessions
 url: https://github.com/spoofzu/DeepViolet
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Java
-tags:
-- ssl
+tags: [ssl]

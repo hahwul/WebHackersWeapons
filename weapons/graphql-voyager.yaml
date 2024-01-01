@@ -1,13 +1,9 @@
 ---
 name: graphql-voyager
-description: "\U0001F6F0️ Represent any GraphQL API as an interactive graph "
+description: '🛰️ Represent any GraphQL API as an interactive graph '
 url: https://github.com/APIs-guru/graphql-voyager
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: TypeScript
-tags: 
-- graphql
+tags: [graphql]

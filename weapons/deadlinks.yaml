@@ -4,10 +4,6 @@ description: Health checks for your documentation links.
 url: https://github.com/butuzov/deadlinks
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags:
-- broken-link
+tags: [broken-link]

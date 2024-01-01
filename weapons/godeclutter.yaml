@@ -1,13 +1,10 @@
 ---
 name: godeclutter
-description: 'Declutters URLs in a fast and flexible way, for improving input for web hacking automations such as crawlers and vulnerability scans.'
+description: Declutters URLs in a fast and flexible way, for improving input for web
+  hacking automations such as crawlers and vulnerability scans.
 url: https://github.com/c3l3si4n/godeclutter
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- url
+tags: [url]

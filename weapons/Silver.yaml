@@ -4,10 +4,6 @@ description: 'Mass scan IPs for vulnerable services '
 url: https://github.com/s0md3v/Silver
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags: 
-- port
+tags: [port]

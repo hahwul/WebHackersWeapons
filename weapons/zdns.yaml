@@ -4,10 +4,6 @@ description: Fast CLI DNS Lookup Tool
 url: https://github.com/zmap/zdns
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags:
-- dns
+tags: [dns]

@@ -4,10 +4,6 @@ description: Online CSP Evaluator from google
 url: https://csp-evaluator.withgoogle.com
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
-lang: 
-tags: 
-- csp
+platform: [linux, macos, windows]
+lang:
+tags: [csp]

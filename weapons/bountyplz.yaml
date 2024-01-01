@@ -5,10 +5,6 @@ description: 'Automated security reporting from markdown templates (HackerOne an
 url: https://github.com/fransr/bountyplz
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Shell
-tags:
-- report
+tags: [report]

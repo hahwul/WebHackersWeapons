@@ -1,13 +1,10 @@
 ---
 name: nuclei-templates
-description: Community curated list of templates for the nuclei engine to find security vulnerabilities.
+description: Community curated list of templates for the nuclei engine to find security
+  vulnerabilities.
 url: https://github.com/projectdiscovery/nuclei-templates
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- nuclei-templates
+tags: [nuclei-templates]

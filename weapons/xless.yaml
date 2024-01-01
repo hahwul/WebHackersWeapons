@@ -4,11 +4,6 @@ description: The Serverless Blind XSS App
 url: https://github.com/mazen160/xless
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: JavaScript
-tags:
-- xss
-- blind-xss
+tags: [xss, blind-xss]

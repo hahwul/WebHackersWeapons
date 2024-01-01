@@ -4,10 +4,6 @@ description: A fast go based param miner to fuzz possible parameters a URL can h
 url: https://github.com/0xsapra/fuzzparam
 category: tool
 type: Fuzzer
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- param
+tags: [param]

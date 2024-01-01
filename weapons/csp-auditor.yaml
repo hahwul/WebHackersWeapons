@@ -4,12 +4,6 @@ description:
 url: https://github.com/GoSecure/csp-auditor
 category: tool-addon
 type: Scanner
-platform:
-- linux
-- macos
-- windows
-- zap
-- burpsuite
+platform: [linux, macos, windows, zap, burpsuite]
 lang: Java
-tags:
-- csp
+tags: [csp]

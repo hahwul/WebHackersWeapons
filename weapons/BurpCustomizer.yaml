@@ -4,10 +4,6 @@ description: Because just a dark theme wasn't enough!
 url: https://github.com/CoreyD97/BurpCustomizer
 category: tool-addon
 type: Utils
-platform:
-- linux
-- macos
-- windows
-- burpsuite
+platform: [linux, macos, windows, burpsuite]
 lang: Java
 tags: []

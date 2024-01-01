@@ -4,10 +4,6 @@ description: HTTP Request Smuggling Detection Tool
 url: https://github.com/assetnote/h2csmuggler
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- smuggle
+tags: [smuggle]

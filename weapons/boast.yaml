@@ -4,10 +4,6 @@ description: The BOAST Outpost for AppSec Testing (v0.1.0)
 url: https://github.com/marcoagner/boast
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags:
-- oast
+tags: [oast]

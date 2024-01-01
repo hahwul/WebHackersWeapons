@@ -5,10 +5,6 @@ description: 'An hourly updated list of subdomains gathered from certificate tra
 url: https://github.com/internetwache/CT_subdomains
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
-lang: 
-tags: 
-- subdomains
+platform: [linux, macos, windows]
+lang:
+tags: [subdomains]

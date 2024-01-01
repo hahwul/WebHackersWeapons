@@ -5,10 +5,6 @@ description: 'Cross Site "Scripter" (aka XSSer) is an automatic -framework- to d
 url: https://github.com/epsylon/xsser
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags:
-- xss
+tags: [xss]

@@ -4,12 +4,6 @@ description: Param Miner
 url: https://github.com/PortSwigger/param-miner
 category: tool-addon
 type: Fuzzer
-platform:
-- linux
-- macos
-- windows
-- burpsuite
+platform: [linux, macos, windows, burpsuite]
 lang: Java
-tags:
-- param
-- cache-vuln
+tags: [param, cache-vuln]

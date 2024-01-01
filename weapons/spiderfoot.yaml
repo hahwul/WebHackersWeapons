@@ -4,10 +4,6 @@ description: SpiderFoot automates OSINT collection so that you can focus on anal
 url: https://github.com/smicallef/spiderfoot
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags: 
-- osint
+tags: [osint]

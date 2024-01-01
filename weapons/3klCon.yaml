@@ -5,9 +5,6 @@ description: Automation Recon tool which works with Large & Medium scopes. It pe
 url: https://github.com/eslam3kl/3klCon
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
 tags: []

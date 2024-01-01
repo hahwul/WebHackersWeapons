@@ -5,10 +5,6 @@ description: Corsair_scan is a security tool to test Cross-Origin Resource Shari
 url: https://github.com/Santandersecurityresearch/corsair_scan
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags: 
-- cors
+tags: [cors]

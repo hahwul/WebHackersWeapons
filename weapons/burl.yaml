@@ -4,10 +4,6 @@ description: 'A Broken-URL Checker '
 url: https://github.com/tomnomnom/burl
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags:
-- url
+tags: [url]

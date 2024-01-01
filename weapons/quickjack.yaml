@@ -5,9 +5,6 @@ description: Quickjack is a point-and-click tool for intuitively producing advan
 url: https://github.com/samyk/quickjack
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: JavaScript
 tags: []

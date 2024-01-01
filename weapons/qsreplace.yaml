@@ -5,9 +5,6 @@ description: 'Accept URLs on stdin, replace all query string values with a user-
 url: https://github.com/tomnomnom/qsreplace
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

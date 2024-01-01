@@ -4,11 +4,6 @@ description: Find blind XSS but why not gather data while you're at it.
 url: https://github.com/daxAKAhackerman/XSS-Catcher
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags:
-- xss
-- blind-xss
+tags: [xss, blind-xss]

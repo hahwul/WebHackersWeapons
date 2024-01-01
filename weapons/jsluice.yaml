@@ -4,10 +4,6 @@ description: Extract URLs, paths, secrets, and other interesting bits from JavaS
 url: https://github.com/BishopFox/jsluice
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- js-analysis
+tags: [js-analysis]

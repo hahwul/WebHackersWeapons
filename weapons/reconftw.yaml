@@ -5,9 +5,6 @@ description: reconFTW is a tool designed to perform automated recon on a target 
 url: https://github.com/six2dez/reconftw
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Shell
 tags: []

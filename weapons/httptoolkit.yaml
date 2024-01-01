@@ -5,9 +5,6 @@ description: HTTP Toolkit is a beautiful & open-source tool for debugging, testi
 url: https://github.com/httptoolkit/httptoolkit
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
-lang: 
+platform: [linux, macos, windows]
+lang:
 tags: []

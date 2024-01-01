@@ -6,10 +6,6 @@ description: 'Subfinder is a subdomain discovery tool that discovers valid subdo
 url: https://github.com/projectdiscovery/subfinder
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags:
-- subdomains
+tags: [subdomains]

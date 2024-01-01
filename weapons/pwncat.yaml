@@ -6,9 +6,6 @@ description: 'pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind a
 url: https://github.com/cytopia/pwncat
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Shell
 tags: []

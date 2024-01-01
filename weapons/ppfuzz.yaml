@@ -1,13 +1,10 @@
 ---
 name: ppfuzz
-description: "A fast tool to scan client-side prototype pollution vulnerability written
-  in Rust. \U0001F980"
+description: A fast tool to scan client-side prototype pollution vulnerability written
+  in Rust. 🦀
 url: https://github.com/dwisiswant0/ppfuzz
 category: tool
 type: Fuzzer
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Rust
 tags: []

@@ -4,9 +4,6 @@ description: XS-Leak Browser Test Suite
 url: https://github.com/RUB-NDS/xsinator.com
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: JavaScript
 tags: []

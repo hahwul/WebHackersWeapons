@@ -1,14 +1,10 @@
 ---
 name: SecLists
-description: SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place.
+description: SecLists is the security tester's companion. It's a collection of multiple
+  types of lists used during security assessments, collected in one place.
 url: https://github.com/danielmiessler/SecLists
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Txt
-tags: 
-- wordlist
-- documents
+tags: [wordlist, documents]

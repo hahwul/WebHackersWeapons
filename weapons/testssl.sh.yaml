@@ -4,10 +4,6 @@ description: 'Testing TLS/SSL encryption anywhere on any port '
 url: https://github.com/drwetter/testssl.sh
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Shell
-tags: 
-- ssl
+tags: [ssl]

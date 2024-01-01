@@ -4,11 +4,6 @@ description: Proxy Switch in Firefox and Chrome
 url: https://proxy-offline-browser.com/ProxySwitch/
 category: browser-addon
 type: Utils
-platform:
-- linux
-- macos
-- windows
-- firefox
-- chrome
+platform: [linux, macos, windows, firefox, chrome]
 lang: JavaScript
 tags: []

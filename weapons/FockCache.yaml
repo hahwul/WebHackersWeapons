@@ -4,10 +4,6 @@ description: Minimalized Test Cache Poisoning
 url: https://github.com/tismayil/fockcache
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- cache-vuln
+tags: [cache-vuln]

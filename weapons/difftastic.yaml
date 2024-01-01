@@ -4,10 +4,6 @@ description: a structural diff that understands syntax
 url: https://github.com/Wilfred/difftastic
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Rust
-tags: 
-- diff
+tags: [diff]

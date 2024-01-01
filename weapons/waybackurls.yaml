@@ -4,10 +4,6 @@ description: 'Fetch all the URLs that the Wayback Machine knows about for a doma
 url: https://github.com/tomnomnom/waybackurls
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- url
+tags: [url]

@@ -4,11 +4,6 @@ description:
 url: https://github.com/hackvertor/taborator
 category: tool-addon
 type: Utils
-platform:
-- linux
-- macos
-- windows
-- burpsuite
+platform: [linux, macos, windows, burpsuite]
 lang: Java
-tags:
-- oast
+tags: [oast]

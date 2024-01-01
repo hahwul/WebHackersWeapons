@@ -1,13 +1,9 @@
 ---
 name: beef
-description: 'The Browser Exploitation Framework Project'
+description: The Browser Exploitation Framework Project
 url: https://github.com/beefproject/beef
 category: tool
 type: Exploit
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Ruby
-tags:
-- xss
+tags: [xss]

@@ -4,10 +4,6 @@ description: goverview - Get an overview of the list of URLs
 url: https://github.com/j3ssie/goverview
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- url
+tags: [url]

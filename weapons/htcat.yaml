@@ -4,9 +4,6 @@ description: 'Parallel and Pipelined HTTP GET Utility '
 url: https://github.com/htcat/htcat
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

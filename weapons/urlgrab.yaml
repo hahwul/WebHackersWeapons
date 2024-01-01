@@ -5,10 +5,6 @@ description: 'A golang utility to spider through a website searching for additio
 url: https://github.com/IAmStoxe/urlgrab
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- url
+tags: [url]

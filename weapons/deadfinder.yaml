@@ -4,10 +4,6 @@ description: Find dead-links (broken links)
 url: https://github.com/hahwul/deadfinder
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Ruby
-tags:
-- broken-link
+tags: [broken-link]

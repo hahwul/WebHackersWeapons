@@ -4,11 +4,6 @@ description:
 url: https://github.com/SasanLabs/owasp-zap-jwt-addon
 category: tool-addon
 type: utils
-platform:
-- linux
-- macos
-- windows
-- zap
+platform: [linux, macos, windows, zap]
 lang: Java
-tags:
-- jwt
+tags: [jwt]

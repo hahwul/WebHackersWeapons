@@ -4,11 +4,6 @@ description:
 url: https://github.com/Quitten/Autorize
 category: tool-addon
 type: Scanner
-platform:
-- linux
-- macos
-- windows
-- burpsuite
+platform: [linux, macos, windows, burpsuite]
 lang: Python
-tags:
-- aaa
+tags: [aaa]

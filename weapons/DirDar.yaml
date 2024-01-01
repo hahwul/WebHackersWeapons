@@ -5,10 +5,6 @@ description: DirDar is a tool that searches for (403-Forbidden) directories to b
 url: https://github.com/M4DM0e/DirDar
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags:
-- 403
+tags: [403]

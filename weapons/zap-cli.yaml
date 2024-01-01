@@ -4,10 +4,6 @@ description: 'A simple tool for interacting with OWASP ZAP from the commandline.
 url: https://github.com/Grunny/zap-cli
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
-- zap
+platform: [linux, macos, windows, zap]
 lang: Python
 tags: []

@@ -4,13 +4,6 @@ description: The BurpSuite Project
 url: https://portswigger.net/burp
 category: tool
 type: Army-Knife
-platform:
-- linux
-- macos
-- windows
-- burpsuite
+platform: [linux, macos, windows, burpsuite]
 lang: Java
-tags: 
-- mitmproxy
-- live-audit
-- crawl
+tags: [mitmproxy, live-audit, crawl]

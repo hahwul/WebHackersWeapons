@@ -5,9 +5,6 @@ description: A scanner/exploitation tool written in GO, which leverages client-s
 url: https://github.com/kleiton0x00/ppmap
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

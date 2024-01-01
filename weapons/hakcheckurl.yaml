@@ -4,9 +4,6 @@ description: Takes a list of URLs and returns their HTTP response codes
 url: https://github.com/hakluke/hakcheckurl
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

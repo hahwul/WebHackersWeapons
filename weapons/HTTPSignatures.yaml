@@ -1,13 +1,10 @@
 ---
 name: HTTPSignatures
-description: A Burp Suite extension implementing the Signing HTTP Messages draft-ietf-httpbis-message-signatures-01 draft.
+description: A Burp Suite extension implementing the Signing HTTP Messages draft-ietf-httpbis-message-signatures-01
+  draft.
 url: https://github.com/nccgroup/HTTPSignatures
 category: tool-addon
 type: Utils
-platform:
-- linux
-- macos
-- windows
-- burpsuite
+platform: [linux, macos, windows, burpsuite]
 lang: Java
 tags: []

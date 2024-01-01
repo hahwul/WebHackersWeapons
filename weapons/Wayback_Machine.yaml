@@ -4,10 +4,6 @@ description: History of website
 url: https://apps.apple.com/us/app/wayback-machine/id1472432422
 category: browser-addon
 type: Recon
-platform:
-- linux
-- macos
-- windows
-- safari
-lang: 
+platform: [linux, macos, windows, safari]
+lang:
 tags: []

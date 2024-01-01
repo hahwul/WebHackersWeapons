@@ -4,9 +4,6 @@ description: 'Nikto web server scanner '
 url: https://github.com/sullo/nikto
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Perl
 tags: []

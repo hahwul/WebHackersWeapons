@@ -4,10 +4,6 @@ description: A powerful browser crawler for web vulnerability scanners
 url: https://github.com/Qianlitp/crawlergo
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- crawl
+tags: [crawl]

@@ -4,10 +4,6 @@ description: Automated All-in-One OS Command Injection Exploitation Tool.
 url: https://github.com/commixproject/commix
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags: 
-- exploit
+tags: [exploit]

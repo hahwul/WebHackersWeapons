@@ -4,11 +4,6 @@ description:
 url: https://github.com/InitRoot/BurpJSLinkFinder
 category: tool-addon
 type: Recon
-platform:
-- linux
-- macos
-- windows
-- burpsuite
+platform: [linux, macos, windows, burpsuite]
 lang: Python
-tags: 
-- js-analysis
+tags: [js-analysis]

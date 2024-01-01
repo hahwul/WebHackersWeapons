@@ -4,9 +4,6 @@ description: Simple command-line snippet manager, written in Go.
 url: https://github.com/knqyf263/pet
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

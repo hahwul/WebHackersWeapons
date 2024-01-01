@@ -4,9 +4,6 @@ description: A burp extension that add some useful function to  Context Menu 添
 url: https://github.com/bit4woo/knife
 category: tool-addon
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Java
 tags: []

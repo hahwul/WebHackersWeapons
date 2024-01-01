@@ -6,10 +6,6 @@ description: Hetty is an HTTP toolkit for security research. It aims to become a
 url: https://github.com/dstotijn/hetty
 category: tool
 type: Proxy
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- mitmproxy
+tags: [mitmproxy]

@@ -1,13 +1,10 @@
 ---
 name: GadgetProbe
-description: Probe endpoints consuming Java serialized objects to identify classes, libraries, and library versions on remote Java classpaths.
+description: Probe endpoints consuming Java serialized objects to identify classes,
+  libraries, and library versions on remote Java classpaths.
 url: https://github.com/BishopFox/GadgetProbe
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Java
-tags: 
-- deserialize
+tags: [deserialize]

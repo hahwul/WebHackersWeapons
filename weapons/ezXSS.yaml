@@ -5,11 +5,6 @@ description: 'ezXSS is an easy way for penetration testers and bug bounty hunter
 url: https://github.com/ssl/ezXSS
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: PHP
-tags:
-- xss
-- blind-xss
+tags: [xss, blind-xss]

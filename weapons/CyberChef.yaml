@@ -5,9 +5,6 @@ description: 'The Cyber Swiss Army Knife - a web app for encryption, encoding, c
 url: https://github.com/gchq/CyberChef
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: JavaScript
 tags: []

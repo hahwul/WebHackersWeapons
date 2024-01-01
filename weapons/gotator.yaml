@@ -4,9 +4,6 @@ description: Gotator is a tool to generate DNS wordlists through permutations.
 url: https://github.com/Josue87/gotator
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

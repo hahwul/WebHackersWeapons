@@ -4,9 +4,6 @@ description: Web application vulnerability scanner
 url: https://github.com/enkomio/Taipan
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
-lang: 
+platform: [linux, macos, windows]
+lang:
 tags: []

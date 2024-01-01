@@ -4,10 +4,6 @@ description: massive SQL injection vulnerability scanner
 url: https://github.com/the-robot/sqliv
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Python
-tags:
-- sqli
+tags: [sqli]

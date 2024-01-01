@@ -6,10 +6,6 @@ description: 'DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer fo
 url: https://github.com/cure53/DOMPurify
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: JavaScript
-tags:
-- xss
+tags: [xss]

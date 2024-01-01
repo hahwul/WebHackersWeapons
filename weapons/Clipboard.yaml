@@ -4,10 +4,6 @@ description: An external brain that remembers anything, anytime, anywhere.
 url: https://github.com/Slackadays/Clipboard
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: C++
-tags:
-- clipboard
+tags: [clipboard]

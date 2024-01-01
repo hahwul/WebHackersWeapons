@@ -1,14 +1,10 @@
+---
 name: Dr. Watson
-description: Dr. Watson is a simple Burp Suite extension that helps find assets, keys, subdomains, IP addresses, and other useful information
+description: Dr. Watson is a simple Burp Suite extension that helps find assets, keys,
+  subdomains, IP addresses, and other useful information
 url: https://github.com/prodigysml/Dr.-Watson
 category: tool-addon
 type: Recon
-platform:
-- linux
-- macos
-- windows
-- burpsuite
+platform: [linux, macos, windows, burpsuite]
 lang: Python
-tags: 
-- param
-- subdomains
+tags: [param, subdomains]

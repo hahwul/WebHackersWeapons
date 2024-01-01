@@ -4,9 +4,6 @@ description: A command-line fuzzy finder
 url: https://github.com/junegunn/fzf
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

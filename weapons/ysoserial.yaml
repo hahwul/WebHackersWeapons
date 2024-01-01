@@ -5,10 +5,6 @@ description: 'A proof-of-concept tool for generating payloads that exploit unsaf
 url: https://github.com/frohoff/ysoserial
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Java
-tags: 
-- deserialize
+tags: [deserialize]

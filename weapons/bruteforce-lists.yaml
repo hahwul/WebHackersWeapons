@@ -4,11 +4,6 @@ description: Some files for bruteforcing certain things.
 url: https://github.com/random-robbie/bruteforce-lists
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Txt
-tags: 
-- wordlist
-- documents
+tags: [wordlist, documents]

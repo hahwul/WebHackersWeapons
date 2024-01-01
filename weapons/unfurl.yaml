@@ -4,10 +4,6 @@ description: 'Pull out bits of URLs provided on stdin '
 url: https://github.com/tomnomnom/unfurl
 category: tool
 type: Utils
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- url
+tags: [url]

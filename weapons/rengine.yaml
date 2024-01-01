@@ -6,9 +6,6 @@ description: 'reNgine is an automated reconnaissance framework meant for gatheri
 url: https://github.com/yogeshojha/rengine
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: JavaScript
 tags: []

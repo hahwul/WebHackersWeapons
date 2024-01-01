@@ -5,10 +5,6 @@ description: Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipul
 url: https://github.com/projectdiscovery/proxify
 category: tool
 type: Proxy
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- mitmproxy
+tags: [mitmproxy]

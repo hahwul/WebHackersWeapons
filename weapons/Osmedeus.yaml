@@ -5,9 +5,6 @@ description: 'Fully automated offensive security framework for reconnaissance an
 url: https://github.com/j3ssie/Osmedeus
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []

@@ -6,10 +6,6 @@ description: 'httpx is a fast and multi-purpose HTTP toolkit allow to run multip
 url: https://github.com/projectdiscovery/httpx
 category: tool
 type: Recon
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
-tags: 
-- url
+tags: [url]

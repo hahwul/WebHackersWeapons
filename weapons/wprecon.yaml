@@ -5,9 +5,6 @@ description: Hello! Welcome. Wprecon (Wordpress Recon), is a vulnerability recog
 url: https://github.com/blackcrw/wprecon
 category: tool
 type: Scanner
-platform:
-- linux
-- macos
-- windows
+platform: [linux, macos, windows]
 lang: Go
 tags: []
