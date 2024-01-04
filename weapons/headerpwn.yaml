@@ -1,0 +1,9 @@
+---
+name: headerpwn
+description: A fuzzer for finding anomalies and analyzing how servers respond to different HTTP headers
+url: https://github.com/devanshbatham/headerpwn
+category: tool
+type: Fuzzer
+platform: [linux, macos, windows]
+lang: Go
+tags: [header]
