@@ -1,0 +1,9 @@
+---
+name: csprecon
+description: Discover new target domains using Content Security Policy
+url: https://github.com/edoardottt/csprecon
+category: tool
+type: Recon
+platform: [linux, macos, windows]
+lang: Go
+tags: []
