@@ -1,0 +1,19 @@
+⚔️ Weapons:
+- changed-files:
+  - any-glob-to-any-file: 
+    - weapons/**
+
+⚙️ Development:
+- changed-files:
+  - any-glob-to-any-file: 
+    - scripts/**
+    - .github/labeler.yml
+
+🎨 Image:
+- changed-files:
+  - any-glob-to-any-file: 
+    - images/**
+
+🦺 Github Action:
+- changed-files:
+  - any-glob-to-any-file: .github/workflows/**
