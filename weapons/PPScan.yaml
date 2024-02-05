@@ -6,4 +6,4 @@ category: tool
 type: Scanner
 platform: [linux, macos, windows]
 lang: JavaScript
-tags: []
+tags: [prototypepollution, prototype-pollution]

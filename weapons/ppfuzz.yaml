@@ -7,4 +7,4 @@ category: tool
 type: Fuzzer
 platform: [linux, macos, windows]
 lang: Rust
-tags: []
+tags: [prototypepollution, prototype-pollution]
