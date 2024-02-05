@@ -1,0 +1,9 @@
+---
+name: pphack
+description: The Most Advanced Client-Side Prototype Pollution Scanner
+url: https://github.com/edoardottt/pphack
+category: tool
+type: Recon
+platform: [linux, macos, windows]
+lang: Go
+tags: [prototypepollution, prototype-pollution]
