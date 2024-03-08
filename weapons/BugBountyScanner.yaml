@@ -1,0 +1,9 @@
+---
+name: BugBountyScanner
+description: A Bash script and Docker image for Bug Bounty reconnaissance.
+url: https://github.com/chvancooten/BugBountyScanner
+category: tool
+type: Recon
+platform: [linux, macos, windows]
+lang: Shell
+tags: []
