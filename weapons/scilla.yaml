@@ -6,4 +6,4 @@ category: tool
 type: Recon
 platform: [linux, macos, windows]
 lang: Go
-tags: []
+tags: [subdomains, dns, port]
