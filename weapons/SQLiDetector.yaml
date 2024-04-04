@@ -1,0 +1,9 @@
+---
+name: SQLiDetector
+description: Simple python script supported with BurpBouty profile that helps you to detect SQL injection "Error based" by sending multiple requests with 14 payloads and checking for 152 regex patterns for different databases.
+url: https://github.com/eslam3kl/SQLiDetector
+category: tool
+type: Scanner
+platform: [linux, macos, windows]
+lang: Python
+tags: [sqli]
