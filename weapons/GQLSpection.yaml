@@ -1,0 +1,9 @@
+---
+name: GQLSpection
+description: parses GraphQL introspection schema and generates possible queries
+url: https://github.com/doyensec/GQLSpection
+category: tool
+type: Utils
+platform: [linux, macos, windows]
+lang: Python
+tags: [graphql]
