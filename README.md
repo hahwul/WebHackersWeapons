@@ -5,7 +5,7 @@
 <br>
 <img src="https://img.shields.io/github/last-commit/hahwul/WebHackersWeapons?style=flat"> 
 <img src="https://img.shields.io/badge/PRs-welcome-cyan">
-<img src="https://github.com/hahwul/WebHackersWeapons/actions/workflows/cd.yml/badge.svg">
+<img src="https://github.com/hahwul/WebHackersWeapons/actions/workflows/deploy.yml/badge.svg">
 <a href="https://twitter.com/intent/follow?screen_name=hahwul"><img src="https://img.shields.io/twitter/follow/hahwul?style=flat&logo=twitter"></a>
 </h1>
 A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hunting
