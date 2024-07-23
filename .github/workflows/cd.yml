@@ -1,11 +1,20 @@
 ---
-name: Deploy
+name: Continuous Deployment
 on:
   push:
     branches: [main]
   workflow_dispatch:
 jobs:
+  Contributors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wow-actions/contributors-list@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          round: true
+          svgPath: images/CONTRIBUTORS.svg
   Deploy:
+    needs: Contributors
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
