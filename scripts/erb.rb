@@ -55,9 +55,9 @@ template = %q{
 <br>
 <a href=""><img src="https://user-images.githubusercontent.com/13212227/104400969-9f3d9280-5596-11eb-80f4-864effae95fc.png" alt="" width="500px;"></a>
 <br>
-<img src="https://img.shields.io/github/last-commit/hahwul/WebHackersWeapons?style=flat"> 
+<img src="https://img.shields.io/github/last-commit/hahwul/WebHackersWeapons?style=flat">
 <img src="https://img.shields.io/badge/PRs-welcome-cyan">
-<img src="https://github.com/hahwul/WebHackersWeapons/actions/workflows/deploy.yml/badge.svg">
+<img src="https://github.com/hahwul/WebHackersWeapons/actions/workflows/cd.yml/badge.svg">
 <a href="https://twitter.com/intent/follow?screen_name=hahwul"><img src="https://img.shields.io/twitter/follow/hahwul?style=flat&logo=twitter"></a>
 </h1>
 A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hunting
@@ -72,7 +72,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
     - [Bookmarklets](#bookmarklets)
     - [Browser Addons](#browser-addons)
     - [Burp and ZAP Addons](#burpsuite-and-zap-addons)
-- [Contribute](CONTRIBUTING.md) 
+- [Contribute](CONTRIBUTING.md)
 - [Thanks to contributor](#thanks-to-contributor)
 
 ## Weapons
@@ -131,7 +131,7 @@ Dir.entries("./weapons/").each do | name |
             data = YAML.load(File.open("./weapons/#{name}"))
 
             if data['type'] != "" && data['type'] != nil
-                if weapons_obj[data['type'].downcase] != nil 
+                if weapons_obj[data['type'].downcase] != nil
                     weapons_obj[data['type'].downcase].push data
                 else
                     weapons_obj[data['type'].downcase] = []
@@ -140,7 +140,7 @@ Dir.entries("./weapons/").each do | name |
             else
                 weapons_obj['etc'].push data
             end
-        rescue => e 
+        rescue => e
             puts e
         end
     end
@@ -169,10 +169,10 @@ weapons.each do | data |
           end
         rescue
         end
-        
+
         popularity = ""
 
-        if data['url'].length > 0 
+        if data['url'].length > 0
             name = "[#{name}](#{data['url']})"
         end
 
@@ -182,7 +182,7 @@ weapons.each do | data |
         end
         badge = generate_badge(data['platform'])
         line = "|#{data['type']}|#{name}|#{data['description']}|#{popularity}|#{temp_tags.join ' '}|#{badge}#{lang_badge}|"
-        case data['category'].downcase 
+        case data['category'].downcase
         when 'tool'
             tools = tools + line + "\n"
         when 'tool-addon'
@@ -198,7 +198,7 @@ weapons.each do | data |
         tmp_lang = data['lang']
         tmp_tags = data['tags']
 
-        if tmp_tags != nil 
+        if tmp_tags != nil
             tmp_tags.each do |t|
                 if categorize_tags[t] == nil
                     categorize_tags[t] = line + "\n"
@@ -207,16 +207,16 @@ weapons.each do | data |
                 end
             end
         end
-        
+
         if tmp_lang != nil
-            if categorize_langs[tmp_lang] == nil 
+            if categorize_langs[tmp_lang] == nil
                 categorize_langs[tmp_lang] = line + "\n"
             else
                 categorize_langs[tmp_lang] = categorize_langs[tmp_lang] + line + "\n"
             end
         end
 
-    rescue => e 
+    rescue => e
         puts e
     end
 end
@@ -236,7 +236,7 @@ categorize_tags.each do |key,value|
 end
 
 categorize_langs.each do |key,value|
-    if key != nil && key != "" 
+    if key != nil && key != ""
         @ct_lang = key
         @ct_head = head + "\n"
         @ct_data = value
