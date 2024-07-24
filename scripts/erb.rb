@@ -19,6 +19,8 @@ def generate_badge array
             badge = badge + "![chrome](/images/chrome.png)"
         when 'burpsuite'
             badge = badge + "![burp](/images/burp.png)"
+        when 'caido'
+            badge = badge + "![caido](/images/caido.png)"
         when 'zap'
             badge = badge + "![zap](/images/zap.png)"
         end
