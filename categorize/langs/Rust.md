@@ -3,7 +3,7 @@
 
 | Type | Name | Description | Star | Tags | Badges |
 | --- | --- | --- | --- | --- | --- |
-|Proxy|[Caido](https://caido.io)|A lightweight web security auditing toolkit||[`mitmproxy`](/categorize/tags/mitmproxy.md)|![linux](/images/linux.png)![macos](/images/apple.png)![windows](/images/windows.png)[![Rust](/images/rust.png)](/categorize/langs/Rust.md)|
+|Proxy|[Caido](https://caido.io)|A lightweight web security auditing toolkit||[`mitmproxy`](/categorize/tags/mitmproxy.md)|![linux](/images/linux.png)![macos](/images/apple.png)![windows](/images/windows.png)![caido](/images/caido.png)[![Rust](/images/rust.png)](/categorize/langs/Rust.md)|
 |Recon|[fhc](https://github.com/Edu4rdSHL/fhc)|Fast HTTP Checker.|![](https://img.shields.io/github/stars/Edu4rdSHL/fhc?label=%20)||![linux](/images/linux.png)![macos](/images/apple.png)![windows](/images/windows.png)[![Rust](/images/rust.png)](/categorize/langs/Rust.md)|
 |Recon|[findomain](https://github.com/Edu4rdSHL/findomain)|The fastest and cross-platform subdomain enumerator, do not waste your time. |![](https://img.shields.io/github/stars/Edu4rdSHL/findomain?label=%20)|[`subdomains`](/categorize/tags/subdomains.md)|![linux](/images/linux.png)![macos](/images/apple.png)![windows](/images/windows.png)[![Rust](/images/rust.png)](/categorize/langs/Rust.md)|
 |Recon|[RustScan](https://github.com/brandonskerritt/RustScan)|Faster Nmap Scanning with Rust |![](https://img.shields.io/github/stars/brandonskerritt/RustScan?label=%20)|[`portscan`](/categorize/tags/portscan.md)|![linux](/images/linux.png)![macos](/images/apple.png)![windows](/images/windows.png)[![Rust](/images/rust.png)](/categorize/langs/Rust.md)|
