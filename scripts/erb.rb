@@ -94,7 +94,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 ### Browser Addons
 <%= browser_addons %>
 
-### Burpsuite and ZAP Addons
+### Burpsuite, Caido and ZAP Addons
 <%= tool_addons %>
 
 ## Thanks to (Contributor)
