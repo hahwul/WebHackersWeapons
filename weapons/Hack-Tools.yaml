@@ -4,6 +4,6 @@ description: The all-in-one Red Team extension for Web Pentester 🛠
 url: https://github.com/LasCC/Hack-Tools
 category: browser-addon
 type: Utils
-platform: [linux, macos, windows]
+platform: [linux, macos, windows, firefox, chrome, safari]
 lang: TypeScript
 tags: []
