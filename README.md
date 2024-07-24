@@ -19,7 +19,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
   - [Tools](#tools)
   - [Bookmarklets](#bookmarklets)
   - [Browser Addons](#browser-addons)
-  - [Burp and ZAP Addons](#burpsuite-and-zap-addons)
+  - [Burpsuite, Caido and ZAP Addons](#burpsuite-caido-and-zap-addons)
 - [Contribute](CONTRIBUTING.md)
 - [Thanks to contributor](#thanks-to-contributor)
 
