@@ -389,7 +389,7 @@ A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hun
 |Utils|[Firefox Multi-Account Containers](https://github.com/mozilla/multi-account-containers)|Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs|![](https://img.shields.io/github/stars/mozilla/multi-account-containers?label=%20)||![linux](/images/linux.png)![macos](/images/apple.png)![windows](/images/windows.png)![firefox](/images/firefox.png)[![JavaScript](/images/javascript.png)](/categorize/langs/JavaScript.md)|
 |Utils|[User-Agent Switcher](https://addons.mozilla.org/ko/firefox/addon/user-agent-switcher-revived/)|quick and easy way to switch between user-agents.|||![linux](/images/linux.png)![macos](/images/apple.png)![windows](/images/windows.png)![firefox](/images/firefox.png)|
 
-### Burpsuite and ZAP Addons
+### Burpsuite, Caido and ZAP Addons
 | Type | Name | Description | Star | Tags | Badges |
 | --- | --- | --- | --- | --- | --- |
 |Recon|[Dr. Watson](https://github.com/prodigysml/Dr.-Watson)|Dr. Watson is a simple Burp Suite extension that helps find assets, keys, subdomains, IP addresses, and other useful information|![](https://img.shields.io/github/stars/prodigysml/Dr.-Watson?label=%20)|[`param`](/categorize/tags/param.md) [`subdomains`](/categorize/tags/subdomains.md)|![linux](/images/linux.png)![macos](/images/apple.png)![windows](/images/windows.png)![burp](/images/burp.png)[![Python](/images/python.png)](/categorize/langs/Python.md)|
