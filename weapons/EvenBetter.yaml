@@ -1,0 +1,9 @@
+---
+name: EvenBetter
+description: EvenBetter is a frontend Caido plugin that makes the Caido experience even better 
+url: https://github.com/bebiksior/EvenBetter
+category: tool-addon
+type: Utils
+platform: [linux, macos, windows, caido]
+lang: TypeScript
+tags: [encode, ssrf, darkmode]
