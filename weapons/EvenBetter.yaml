@@ -1,6 +1,7 @@
 ---
 name: EvenBetter
-description: EvenBetter is a frontend Caido plugin that makes the Caido experience even better 
+description: EvenBetter is a frontend Caido plugin that makes the Caido experience
+  even better
 url: https://github.com/bebiksior/EvenBetter
 category: tool-addon
 type: Utils
