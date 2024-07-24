@@ -1,0 +1,9 @@
+---
+name: notebook
+description: Notebook Caido Plugin
+url: https://github.com/caido-community/notebook
+category: tool-addon
+type: Utils
+platform: [linux, macos, windows, caido]
+lang: TypeScript
+tags: [note]

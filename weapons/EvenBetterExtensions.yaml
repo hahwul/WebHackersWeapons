@@ -1,0 +1,9 @@
+---
+name: EvenBetterExtensions
+description: EvenBetterExtensions allows you to quicky install and keep updated Caido extensions.
+url: https://github.com/bebiksior/EvenBetterExtensions
+category: tool-addon
+type: Utils
+platform: [linux, macos, windows, caido]
+lang: TypeScript
+tags: [encode, ssrf, darkmode]

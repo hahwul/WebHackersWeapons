@@ -1,0 +1,9 @@
+---
+name: caidope
+description: caidope - caido plugin
+url: https://github.com/skitttles-berry/caidope
+category: tool-addon
+type: Utils
+platform: [linux, macos, windows, caido]
+lang: TypeScript
+tags: []
