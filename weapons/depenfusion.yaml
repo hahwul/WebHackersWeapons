@@ -1,0 +1,9 @@
+---
+name: depenfusion
+description: A powerful pentesting tool for detecting and exploiting dependency confusion vulnerabilities in Node.js projects
+url: https://github.com/benjamin-mauss/depenfusion
+category: tool
+type: Scanner
+platform: [linux, macos, windows]
+lang: Python
+tags: [dependency-confusion]
