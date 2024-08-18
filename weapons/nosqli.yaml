@@ -6,4 +6,4 @@ category: tool
 type: Scanner
 platform: [linux, macos, windows]
 lang: Go
-tags: []
+tags: [nosqli]

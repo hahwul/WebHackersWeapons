@@ -6,4 +6,4 @@ category: tool
 type: Utils
 platform: [linux, macos, windows]
 lang: Python
-tags: []
+tags: [sqli]
