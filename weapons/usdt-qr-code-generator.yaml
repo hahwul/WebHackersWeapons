@@ -1,0 +1,15 @@
+---
+name: usdt-qr-code-generator
+description: Free online USDT QR Code generator for multiple networks (ERC-20, TRC-20, BEP-20, Omni, BEP-2). Instantly create QR codes for USDT addresses to simplify cryptocurrency transactions.
+url: https://usdtqrtool.com
+category: tool
+type: Cryptocurrency
+platform:
+- web
+lang: Javascript
+tags: 
+- cryptocurrency
+- qr-code
+- usdt
+- tether
+- blockchain
