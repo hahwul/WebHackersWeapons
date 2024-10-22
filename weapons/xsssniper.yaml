@@ -1,0 +1,9 @@
+---
+name: xsssniper
+description: An automatic XSS discovery tool
+url: https://github.com/gbrindisi/xsssniper
+category: tool
+type: Scanner
+platform: [linux, macos, windows]
+lang: Python
+tags: [xss]
