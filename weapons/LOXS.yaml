@@ -1,0 +1,14 @@
+---
+name: LOXS
+description: best tool for finding SQLi,CRLF,XSS,LFi,OpenRedirect
+url: https://github.com/coffinxp/loxs
+category: tool
+type: Scanner
+platform: [linux, macos, windows]
+lang: Python
+tags:
+- xss
+- sqli
+- crlf
+- lfi
+- open-redirect
