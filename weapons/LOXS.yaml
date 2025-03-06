@@ -6,9 +6,4 @@ category: tool
 type: Scanner
 platform: [linux, macos, windows]
 lang: Python
-tags:
-- xss
-- sqli
-- crlf
-- lfi
-- open-redirect
+tags: [xss, sqli, crlf, lfi, open-redirect]
