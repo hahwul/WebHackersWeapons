@@ -1,0 +1,9 @@
+---
+name: urx
+description: Extracts URLs from OSINT Archives for Security Insights
+url: https://github.com/hahwul/urx
+category: tool
+type: Recon
+platform: [linux, macos, windows]
+lang: Rust
+tags: [url]
