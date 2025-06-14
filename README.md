@@ -1,7 +1,7 @@
 
 <h1 align="center">
 <br>
-<a href=""><img src="images/whw.jpg" alt="" width="500px;"></a>
+<a href=""><img src="images/whw.jpg" alt="WebHackersWeapons Logo"></a>
 <br>
 <img src="https://img.shields.io/github/last-commit/hahwul/WebHackersWeapons?style=flat">
 <img src="https://img.shields.io/badge/PRs-welcome-cyan">
