@@ -55,7 +55,7 @@ categorize_template_langs = %q{
 template = %q{
 <h1 align="center">
 <br>
-<a href=""><img src="images/whw.jpg" alt="WebHackersWeapons Logo"></a>
+<a href="https://github.com/hahwul/WebHackersWeapons"><img src="images/whw.jpg" alt="WebHackersWeapons Logo"></a>
 <br>
 <img src="https://img.shields.io/github/last-commit/hahwul/WebHackersWeapons?style=flat">
 <img src="https://img.shields.io/badge/PRs-welcome-cyan">
