@@ -1,0 +1,9 @@
+---
+name: h2spacex
+description: HTTP/2 Single Packet Attack low level library based on Scapy (Race Condition on H2)
+url: https://github.com/nxenon/h2spacex
+category: tool
+type: Utils
+platform: [linux, macos, windows]
+lang: Python
+tags: [race-condition]
