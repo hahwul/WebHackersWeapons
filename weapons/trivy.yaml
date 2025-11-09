@@ -1,0 +1,9 @@
+---
+name: trivy
+description: Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
+url: https://github.com/aquasecurity/trivy
+category: tool
+type: Scanner
+platform: [linux, macos, windows]
+lang: Go
+tags: [vulnerability-scanner, container-security, sbom]
