@@ -1,0 +1,9 @@
+---
+name: alterx
+description: Fast and customizable subdomain wordlist generator using DSL
+url: https://github.com/projectdiscovery/alterx
+category: tool
+type: Recon
+platform: [linux, macos, windows]
+lang: Go
+tags: [subdomains, wordlist, permutation]

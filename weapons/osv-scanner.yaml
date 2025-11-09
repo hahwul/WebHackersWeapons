@@ -1,0 +1,9 @@
+---
+name: osv-scanner
+description: Vulnerability scanner which uses the OSV database to find vulnerabilities in open source projects
+url: https://github.com/google/osv-scanner
+category: tool
+type: Scanner
+platform: [linux, macos, windows]
+lang: Go
+tags: [vulnerability-scanner, dependency-scanning]

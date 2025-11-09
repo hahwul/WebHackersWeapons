@@ -1,0 +1,9 @@
+---
+name: trufflehog
+description: Find and verify credentials in git repositories, filesystems, and S3 buckets
+url: https://github.com/trufflesecurity/trufflehog
+category: tool
+type: Scanner
+platform: [linux, macos, windows]
+lang: Go
+tags: [secret-scanning, credentials]
