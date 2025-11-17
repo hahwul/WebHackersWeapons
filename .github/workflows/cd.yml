@@ -8,13 +8,11 @@ jobs:
   Deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@v2
         with:
-          ruby-version: 3.0
-      - name: Install dependencies
-        run: gem install erb yaml
+          ruby-version: 3.3
       - name: Run app
         run: |
           ruby ./scripts/erb.rb
@@ -28,7 +26,7 @@ jobs:
           git add ./categorize/*
           git commit -m "Deploy README.md and Categorize Docs"
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}

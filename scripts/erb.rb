@@ -130,7 +130,7 @@ weapons_obj = {
 Dir.entries("./weapons/").each do | name |
     if name != '.' && name != '..'
         begin
-            data = YAML.load(File.open("./weapons/#{name}"))
+            data = YAML.safe_load(File.open("./weapons/#{name}"))
 
             if data['type'] != "" && data['type'] != nil
                 if weapons_obj[data['type'].downcase] != nil
@@ -142,8 +142,8 @@ Dir.entries("./weapons/").each do | name |
             else
                 weapons_obj['etc'].push data
             end
-        rescue => e
-            puts e
+        rescue StandardError => e
+            STDERR.puts "Error processing ./weapons/#{name}: #{e.message}"
         end
     end
 end
@@ -218,8 +218,8 @@ weapons.each do | data |
             end
         end
 
-    rescue => e
-        puts e
+    rescue StandardError => e
+        STDERR.puts "Error processing tool: #{e.message}"
     end
 end
 
