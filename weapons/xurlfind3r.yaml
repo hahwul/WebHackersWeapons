@@ -1,0 +1,9 @@
+---
+name: xurlfind3r
+description: A command-line utility designed to discover URLs for a given domain in a simple, efficient way.
+url: https://github.com/hueristiq/xurlfind3r
+category: tool
+type: Recon
+platform: [linux, macos, windows]
+lang: Go
+tags: [url]
