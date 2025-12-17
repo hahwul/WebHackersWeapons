@@ -53,16 +53,19 @@ categorize_template_langs = %q{
 }.gsub(/^  /, '')
 
 template = %q{
-<h1 align="center">
-<br>
-<a href="https://github.com/hahwul/WebHackersWeapons"><img src="images/whw.jpg" alt="WebHackersWeapons Logo"></a>
-<br>
-<img src="https://img.shields.io/github/last-commit/hahwul/WebHackersWeapons?style=flat">
-<img src="https://img.shields.io/badge/PRs-welcome-cyan">
-<img src="https://github.com/hahwul/WebHackersWeapons/actions/workflows/cd.yml/badge.svg">
-<a href="https://twitter.com/intent/follow?screen_name=hahwul"><img src="https://img.shields.io/twitter/follow/hahwul?style=flat&logo=twitter"></a>
-</h1>
-A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hunting
+<div align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="docs/static/images/whw-dark.png" width="500px;">
+      <source media="(prefers-color-scheme: light)" srcset="docs/static/images/whw-light.png" width="500px;">
+      <img alt="WebHackersWeapons Logo" src="docs/static/images/whw-dark.png" width="500px;">
+    </picture>
+    <p>A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hunting!</p>
+</div>
+
+<p align="center">
+<a href="https://github.com/hahwul/WebHackersWeapons/blob/main/CONTRIBUTING.md">
+<img src="https://img.shields.io/badge/CONTRIBUTIONS-WELCOME-000000?style=for-the-badge&labelColor=black"></a>
+</p>
 
 ## Family project
 [![WebHackersWeapons](https://img.shields.io/github/stars/hahwul/WebHackersWeapons?label=WebHackersWeapons)](https://github.com/hahwul/WebHackersWeapons)
