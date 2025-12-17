@@ -1,9 +1,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/static/images/whw-dark.png" width="500px;">
-    <source media="(prefers-color-scheme: light)" srcset="docs/static/images/whw-light.png" width="500px;">
-    <img alt="WebHackersWeapons Logo" src="docs/static/images/whw-dark.png" width="500px;">
+    <source media="(prefers-color-scheme: dark)" srcset="images/whw-dark.png" width="500px;">
+    <source media="(prefers-color-scheme: light)" srcset="images/whw-light.png" width="500px;">
+    <img alt="WebHackersWeapons Logo" src="images/whw-dark.png" width="500px;">
   </picture>
   <p>A collection of awesome tools used by Web hackers. Happy hacking , Happy bug-hunting!</p>
 </div>
