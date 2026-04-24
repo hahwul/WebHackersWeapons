@@ -11,7 +11,7 @@
           {% for p in term.pages %}
           <a class="card" href="{{ p.url }}">
             <div class="card-head">
-              <h3 class="card-title">{{ p.extra.name | default(value=p.title) }}</h3>
+              <h3 class="card-title">{{ p.title }}</h3>
               {% if p.extra.lang %}<span class="lang-badge">{{ p.extra.lang }}</span>{% endif %}
             </div>
             {% if p.description %}<p class="card-desc">{{ p.description | truncate(length=140) }}</p>{% endif %}

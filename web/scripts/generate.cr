@@ -158,7 +158,11 @@ Dir.glob(File.join(DATA_DIR, "*.toml")).sort.each do |path|
   # Hwaro maps unknown top-level TOML keys into page.extra.<key>. A nested
   # [extra] subtable does NOT work — the parser stringifies it under
   # page.extra.extra. Keep custom fields flat at the top level.
-  lines << %(name = "#{toml_escape(weapon.name)}")
+  #
+  # We intentionally do NOT emit `name` here — hwaro's front-matter typo
+  # detector treats `name` as a probable misspelling of `date` (levenshtein
+  # 2) and warns twice per page. `page.title` already holds the weapon's
+  # name; templates use it directly.
   lines << "url = #{toml_array(weapon.url)}"
   if src = weapon.source
     lines << %(source = "#{toml_escape(src)}")

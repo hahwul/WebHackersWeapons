@@ -3,12 +3,12 @@
   <nav class="breadcrumbs">
     <a href="{{ base_url }}/">Home</a> <span>/</span>
     <a href="{{ base_url }}/weapons/">Weapons</a> <span>/</span>
-    <span>{{ page.extra.name | default(value=page.title) }}</span>
+    <span>{{ page.title }}</span>
   </nav>
 
   <article class="weapon-detail">
     <header class="weapon-header">
-      <h1>{{ page.extra.name | default(value=page.title) }}</h1>
+      <h1>{{ page.title }}</h1>
       <div class="weapon-badges">
         {% if page.extra.type %}<span class="pill pill-type">{{ page.extra.type }}</span>{% endif %}
         {% if page.extra.lang %}<span class="lang-badge">{{ page.extra.lang }}</span>{% endif %}
