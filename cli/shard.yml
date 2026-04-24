@@ -4,10 +4,14 @@ version: 0.1.0
 authors:
   - HAHWUL <hahwul@gmail.com>
 
+description: >
+  Search and browse the WebHackersWeapons catalog from your terminal,
+  backed by the static JSON API produced by the web site.
+
 targets:
-  cli:
+  weapons:
     main: src/cli.cr
 
-crystal: '>= 1.20.0'
+crystal: ">= 1.20.0"
 
 license: MIT

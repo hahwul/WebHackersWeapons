@@ -1,0 +1,37 @@
+name: CLI
+
+on:
+  push:
+    branches: [main, v2]
+    paths:
+      - "cli/**"
+      - ".github/workflows/cli.yml"
+  pull_request:
+    paths:
+      - "cli/**"
+      - ".github/workflows/cli.yml"
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Crystal
+        uses: crystal-lang/install-crystal@v1
+        with:
+          crystal: latest
+
+      - name: Build
+        working-directory: cli
+        run: shards build
+
+      - name: Test
+        working-directory: cli
+        run: crystal spec
+
+      - name: Smoke test against local fixture
+        working-directory: cli
+        run: |
+          ./bin/weapons --data spec/fixtures/weapons.json --no-color stats
+          ./bin/weapons --data spec/fixtures/weapons.json --no-color info amass --json

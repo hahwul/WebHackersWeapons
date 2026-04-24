@@ -1,0 +1,169 @@
+{
+  "count": 8,
+  "weapons": [
+    {
+      "name": "Amass",
+      "description": "In-depth Attack Surface Mapping and Asset Discovery",
+      "url": [
+        "https://github.com/OWASP/Amass"
+      ],
+      "source": "https://github.com/OWASP/Amass",
+      "category": "tool",
+      "type": "Recon",
+      "platform": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "lang": "Go",
+      "tags": [
+        "subdomains"
+      ],
+      "slug": "amass"
+    },
+    {
+      "name": "BurpSuite",
+      "description": "The BurpSuite Project",
+      "url": [
+        "https://portswigger.net/burp"
+      ],
+      "category": "tool",
+      "type": "Army-Knife",
+      "platform": [
+        "linux",
+        "macos",
+        "windows",
+        "burpsuite"
+      ],
+      "lang": "Java",
+      "tags": [
+        "mitmproxy",
+        "live-audit",
+        "crawl"
+      ],
+      "slug": "burpsuite"
+    },
+    {
+      "name": "dalfox",
+      "description": "🌘🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation.",
+      "url": [
+        "https://github.com/hahwul/dalfox"
+      ],
+      "source": "https://github.com/hahwul/dalfox",
+      "category": "tool",
+      "type": "Scanner",
+      "platform": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "lang": "Go",
+      "tags": [
+        "xss"
+      ],
+      "slug": "dalfox"
+    },
+    {
+      "name": "DirDar",
+      "description": "DirDar is a tool that searches for (403-Forbidden) directories to break it and get dir listing on it",
+      "url": [
+        "https://github.com/M4DM0e/DirDar"
+      ],
+      "source": "https://github.com/M4DM0e/DirDar",
+      "category": "tool",
+      "type": "Scanner",
+      "platform": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "lang": "Go",
+      "tags": [
+        "403"
+      ],
+      "slug": "dirdar"
+    },
+    {
+      "name": "mitmproxy",
+      "description": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.",
+      "url": [
+        "https://github.com/mitmproxy/mitmproxy"
+      ],
+      "source": "https://github.com/mitmproxy/mitmproxy",
+      "category": "tool",
+      "type": "Proxy",
+      "platform": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "lang": "Python",
+      "tags": [
+        "mitmproxy"
+      ],
+      "slug": "mitmproxy"
+    },
+    {
+      "name": "proxify",
+      "description": "Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation and replay",
+      "url": [
+        "https://github.com/projectdiscovery/proxify"
+      ],
+      "source": "https://github.com/projectdiscovery/proxify",
+      "category": "tool",
+      "type": "Proxy",
+      "platform": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "lang": "Go",
+      "tags": [
+        "mitmproxy"
+      ],
+      "slug": "proxify"
+    },
+    {
+      "name": "Shodan",
+      "description": "World's first search engine for Internet-connected devices",
+      "url": [
+        "https://www.shodan.io/"
+      ],
+      "category": "tool",
+      "type": "Recon",
+      "platform": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "lang": "",
+      "tags": [
+        "osint"
+      ],
+      "slug": "shodan"
+    },
+    {
+      "name": "ZAP",
+      "description": "The ZAP core project",
+      "url": [
+        "https://github.com/zaproxy/zaproxy"
+      ],
+      "source": "https://github.com/zaproxy/zaproxy",
+      "category": "tool",
+      "type": "Army-Knife",
+      "platform": [
+        "linux",
+        "macos",
+        "windows",
+        "zap"
+      ],
+      "lang": "Java",
+      "tags": [
+        "mitmproxy",
+        "live-audit",
+        "crawl"
+      ],
+      "slug": "zap"
+    }
+  ]
+}

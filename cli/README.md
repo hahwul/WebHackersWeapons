@@ -1,27 +1,69 @@
-# cli
+# weapons
 
-TODO: Write a description here
+Terminal client for the [WebHackersWeapons](https://github.com/hahwul/WebHackersWeapons) catalog. Browses, searches, and filters the same JSON API the static site exposes, with a local cache so repeat queries are instant.
 
-## Installation
+## Install
 
-TODO: Write installation instructions here
+```sh
+cd cli
+shards build --release
+# binary at ./bin/weapons — copy to ~/.local/bin or /usr/local/bin
+```
+
+Crystal 1.20+ required. The CLI has no external shard dependencies.
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+weapons search <keyword>            # fuzzy match name/description/tags
+weapons list                        # everything in the catalog
+weapons info <name|slug>            # detail on one weapon
+weapons random                      # pick one
+weapons category <name>             # list by category
+weapons stats                       # type/lang/category counts
+weapons tags                        # tag histogram
+weapons update                      # force-refresh the local cache
+```
+
+All read commands accept the same filters:
+
+```
+--type <T>       Utils | Recon | Scanner | Fuzzer | Exploit | Proxy | Army-Knife | Env
+--category <C>   tool | tool-addon | browser-addon
+--lang <L>       Go, Python, Rust, ...
+--platform <P>   linux | macos | windows | firefox | chrome | safari | burpsuite | zap | caido
+--tag <T>
+-n, --limit <N>
+```
+
+Examples:
+
+```sh
+weapons search subdomain --type Recon --lang Go
+weapons list --platform burpsuite
+weapons random --type Scanner
+weapons info dalfox --json | jq '.url'
+```
+
+## Data source
+
+By default the CLI fetches `https://www.hahwul.com/WebHackersWeapons/api/weapons.json` and caches the response at `~/.cache/weapons/weapons.json` for 24 hours. Override:
+
+- `--api-url <URL>` or `WEAPONS_API_URL=<URL>`
+- `--data <path>` — read a local JSON file (skips HTTP + cache)
+- `--refresh` — bypass the cache once; `weapons update` clears it permanently
+
+For offline dev against a freshly built site:
+
+```sh
+weapons --data ../web/public/api/weapons.json list
+```
 
 ## Development
 
-TODO: Write development instructions here
+```sh
+shards build           # debug build at bin/weapons
+crystal spec           # fixture-backed end-to-end tests
+```
 
-## Contributing
-
-1. Fork it (<https://github.com/your-github-user/cli/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
-
-## Contributors
-
-- [HAHWUL](https://github.com/your-github-user) - creator and maintainer
+Specs drive the compiled binary against `spec/fixtures/weapons.json`; rebuild after code changes.
