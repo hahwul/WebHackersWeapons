@@ -1,6 +1,7 @@
 name = "confused"
 description = "Tool to check for dependency confusion vulnerabilities in multiple package management systems"
-url = "https://github.com/visma-prodsec/confused"
+url = ["https://github.com/visma-prodsec/confused"]
+source = "https://github.com/visma-prodsec/confused"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

@@ -1,6 +1,7 @@
 name = "REcollapse"
 description = "REcollapse is a helper tool for black-box regex fuzzing to bypass validations and discover normalizations in web applications"
-url = "https://github.com/0xacb/recollapse"
+url = ["https://github.com/0xacb/recollapse"]
+source = "https://github.com/0xacb/recollapse"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

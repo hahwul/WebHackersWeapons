@@ -1,5 +1,6 @@
 name = "IntruderPayloads"
-url = "https://github.com/1N3/IntruderPayloads"
+url = ["https://github.com/1N3/IntruderPayloads"]
+source = "https://github.com/1N3/IntruderPayloads"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows", "burpsuite"]

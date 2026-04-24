@@ -1,6 +1,7 @@
 name = "httpie"
 description = "modern, user-friendly command-line HTTP client for the API era"
-url = "https://github.com/httpie/httpie"
+url = ["https://github.com/httpie/httpie"]
+source = "https://github.com/httpie/httpie"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

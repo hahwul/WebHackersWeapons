@@ -1,5 +1,6 @@
 name = "reflect"
-url = "https://github.com/cak/reflect"
+url = ["https://github.com/cak/reflect"]
+source = "https://github.com/cak/reflect"
 category = "tool-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "zap"]

@@ -1,6 +1,7 @@
 name = "Amass"
 description = "In-depth Attack Surface Mapping and Asset Discovery"
-url = "https://github.com/OWASP/Amass"
+url = ["https://github.com/OWASP/Amass"]
+source = "https://github.com/OWASP/Amass"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

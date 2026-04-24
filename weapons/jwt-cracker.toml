@@ -1,6 +1,7 @@
 name = "jwt-cracker"
 description = "Simple HS256 JWT token brute force cracker"
-url = "https://github.com/lmammino/jwt-cracker"
+url = ["https://github.com/lmammino/jwt-cracker"]
+source = "https://github.com/lmammino/jwt-cracker"
 category = "tool"
 type = "Fuzzer"
 platform = ["linux", "macos", "windows"]

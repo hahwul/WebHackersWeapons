@@ -1,6 +1,7 @@
 name = "clear-cache"
 description = "Add-on to clear browser cache with a single click or via the F9 key."
-url = "https://github.com/TenSoja/clear-cache"
+url = ["https://github.com/TenSoja/clear-cache"]
+source = "https://github.com/TenSoja/clear-cache"
 category = "browser-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "firefox", "chrome"]

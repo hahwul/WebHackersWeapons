@@ -1,5 +1,6 @@
 name = "burp-send-to"
-url = "https://github.com/bytebutcher/burp-send-to"
+url = ["https://github.com/bytebutcher/burp-send-to"]
+source = "https://github.com/bytebutcher/burp-send-to"
 category = "tool-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "burpsuite"]

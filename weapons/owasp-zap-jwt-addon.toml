@@ -1,5 +1,6 @@
 name = "owasp-zap-jwt-addon"
-url = "https://github.com/SasanLabs/owasp-zap-jwt-addon"
+url = ["https://github.com/SasanLabs/owasp-zap-jwt-addon"]
+source = "https://github.com/SasanLabs/owasp-zap-jwt-addon"
 category = "tool-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "zap"]

@@ -1,6 +1,7 @@
 name = "singularity"
 description = "A DNS rebinding attack framework."
-url = "https://github.com/nccgroup/singularity"
+url = ["https://github.com/nccgroup/singularity"]
+source = "https://github.com/nccgroup/singularity"
 category = "tool"
 type = "Exploit"
 platform = ["linux", "macos", "windows"]

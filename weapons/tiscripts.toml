@@ -1,6 +1,7 @@
 name = "tiscripts"
 description = "Turbo Intruder Scripts"
-url = "https://github.com/defparam/tiscripts"
+url = ["https://github.com/defparam/tiscripts"]
+source = "https://github.com/defparam/tiscripts"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

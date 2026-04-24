@@ -1,6 +1,7 @@
 name = "ropr"
 description = "A blazing fast™ multithreaded ROP Gadget finder. ropper"
-url = "https://github.com/Ben-Lichtman/ropr"
+url = ["https://github.com/Ben-Lichtman/ropr"]
+source = "https://github.com/Ben-Lichtman/ropr"
 category = "tool"
 type = "Exploit"
 platform = ["linux", "macos", "windows"]

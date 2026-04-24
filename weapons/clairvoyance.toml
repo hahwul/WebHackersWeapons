@@ -1,6 +1,7 @@
 name = "Clairvoyance"
 description = "Obtain GraphQL API schema even if the introspection is disabled"
-url = "https://github.com/nikitastupin/clairvoyance"
+url = ["https://github.com/nikitastupin/clairvoyance"]
+source = "https://github.com/nikitastupin/clairvoyance"
 category = "tool"
 type = "Fuzzer"
 platform = ["linux", "macos", "windows"]

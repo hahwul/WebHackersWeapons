@@ -1,6 +1,7 @@
 name = "V3n0M-Scanner"
 description = "Popular Pentesting scanner in Python3.6 for SQLi/XSS/LFI/RFI and other Vulns"
-url = "https://github.com/v3n0m-Scanner/V3n0M-Scanner"
+url = ["https://github.com/v3n0m-Scanner/V3n0M-Scanner"]
+source = "https://github.com/v3n0m-Scanner/V3n0M-Scanner"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

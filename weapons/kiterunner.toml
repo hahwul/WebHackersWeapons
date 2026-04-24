@@ -1,6 +1,7 @@
 name = "kiterunner"
 description = "Contextual Content Discovery Tool"
-url = "https://github.com/assetnote/kiterunner"
+url = ["https://github.com/assetnote/kiterunner"]
+source = "https://github.com/assetnote/kiterunner"
 category = "tool"
 type = "Fuzzer"
 platform = ["linux", "macos", "windows"]

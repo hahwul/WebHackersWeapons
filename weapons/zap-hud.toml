@@ -1,5 +1,6 @@
 name = "zap-hud"
-url = "https://github.com/zaproxy/zap-hud"
+url = ["https://github.com/zaproxy/zap-hud"]
+source = "https://github.com/zaproxy/zap-hud"
 category = "tool-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "zap"]

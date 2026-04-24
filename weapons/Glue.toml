@@ -1,6 +1,7 @@
 name = "Glue"
 description = "Application Security Automation"
-url = "https://github.com/OWASP/glue"
+url = ["https://github.com/OWASP/glue"]
+source = "https://github.com/OWASP/glue"
 category = "tool"
 type = "Env"
 platform = ["linux", "macos", "windows"]

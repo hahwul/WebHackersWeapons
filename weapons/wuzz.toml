@@ -1,6 +1,7 @@
 name = "wuzz"
 description = "Interactive cli tool for HTTP inspection"
-url = "https://github.com/asciimoo/wuzz"
+url = ["https://github.com/asciimoo/wuzz"]
+source = "https://github.com/asciimoo/wuzz"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

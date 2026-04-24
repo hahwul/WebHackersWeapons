@@ -1,6 +1,6 @@
 name = "Ronin"
 description = "Free and Open Source Ruby Toolkit for Security Research and Development"
-url = "https://ronin-rb.dev"
+url = ["https://ronin-rb.dev"]
 category = "tool"
 type = "Army-Knife"
 platform = ["linux", "macos", "windows"]

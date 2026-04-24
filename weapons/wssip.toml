@@ -1,6 +1,7 @@
 name = "wssip"
 description = "Application for capturing, modifying and sending custom WebSocket data from client to server and vice versa."
-url = "https://github.com/nccgroup/wssip"
+url = ["https://github.com/nccgroup/wssip"]
+source = "https://github.com/nccgroup/wssip"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

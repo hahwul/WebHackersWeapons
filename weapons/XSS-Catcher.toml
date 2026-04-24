@@ -1,6 +1,7 @@
 name = "XSS-Catcher"
 description = "Find blind XSS but why not gather data while you're at it."
-url = "https://github.com/daxAKAhackerman/XSS-Catcher"
+url = ["https://github.com/daxAKAhackerman/XSS-Catcher"]
+source = "https://github.com/daxAKAhackerman/XSS-Catcher"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

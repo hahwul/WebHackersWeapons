@@ -1,6 +1,7 @@
 name = "HUNT"
 description = "Identifies common parameters vulnerable to certain vulnerability classes"
-url = "https://github.com/bugcrowd/HUNT"
+url = ["https://github.com/bugcrowd/HUNT"]
+source = "https://github.com/bugcrowd/HUNT"
 category = "tool-addon"
 type = "Recon"
 platform = ["linux", "macos", "windows", "zap", "burpsuite"]

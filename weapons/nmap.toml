@@ -1,6 +1,7 @@
 name = "nmap"
 description = "Nmap - the Network Mapper. Github mirror of official SVN repository."
-url = "https://github.com/nmap/nmap"
+url = ["https://github.com/nmap/nmap"]
+source = "https://github.com/nmap/nmap"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

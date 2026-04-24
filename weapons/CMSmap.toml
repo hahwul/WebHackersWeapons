@@ -1,6 +1,7 @@
 name = "CMSmap"
 description = "CMSmap is a python open source CMS scanner that automates the process of detecting security flaws of the most popular CMSs."
-url = "https://github.com/dionach/CMSmap"
+url = ["https://github.com/dionach/CMSmap"]
+source = "https://github.com/dionach/CMSmap"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

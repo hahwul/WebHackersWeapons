@@ -1,6 +1,7 @@
 name = "boast"
 description = "The BOAST Outpost for AppSec Testing (v0.1.0)"
-url = "https://github.com/marcoagner/boast"
+url = ["https://github.com/marcoagner/boast"]
+source = "https://github.com/marcoagner/boast"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

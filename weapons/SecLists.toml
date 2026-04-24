@@ -1,6 +1,7 @@
 name = "SecLists"
 description = "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place."
-url = "https://github.com/danielmiessler/SecLists"
+url = ["https://github.com/danielmiessler/SecLists"]
+source = "https://github.com/danielmiessler/SecLists"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

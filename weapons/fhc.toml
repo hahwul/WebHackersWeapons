@@ -1,6 +1,7 @@
 name = "fhc"
 description = "Fast HTTP Checker."
-url = "https://github.com/Edu4rdSHL/fhc"
+url = ["https://github.com/Edu4rdSHL/fhc"]
+source = "https://github.com/Edu4rdSHL/fhc"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

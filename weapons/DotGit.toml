@@ -1,6 +1,7 @@
 name = "DotGit"
 description = "An extension for checking if .git is exposed in visited websites"
-url = "https://github.com/davtur19/DotGit"
+url = ["https://github.com/davtur19/DotGit"]
+source = "https://github.com/davtur19/DotGit"
 category = "browser-addon"
 type = "Recon"
 platform = ["linux", "macos", "windows", "firefox", "chrome"]

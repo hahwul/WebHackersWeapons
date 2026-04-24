@@ -1,6 +1,7 @@
 name = "dirsearch"
 description = "Web path scanner"
-url = "https://github.com/maurosoria/dirsearch"
+url = ["https://github.com/maurosoria/dirsearch"]
+source = "https://github.com/maurosoria/dirsearch"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

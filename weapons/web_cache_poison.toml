@@ -1,6 +1,7 @@
 name = "web_cache_poison"
 description = "web cache poison - Top 1 web hacking technique of 2019"
-url = "https://github.com/fngoo/web_cache_poison"
+url = ["https://github.com/fngoo/web_cache_poison"]
+source = "https://github.com/fngoo/web_cache_poison"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

@@ -1,6 +1,7 @@
 name = "Oralyzer"
 description = "Open Redirection Analyzer"
-url = "https://github.com/r0075h3ll/Oralyzer"
+url = ["https://github.com/r0075h3ll/Oralyzer"]
+source = "https://github.com/r0075h3ll/Oralyzer"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

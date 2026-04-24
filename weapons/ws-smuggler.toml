@@ -1,6 +1,7 @@
 name = "ws-smuggler"
 description = "WebSocket Connection Smuggler"
-url = "https://github.com/hahwul/ws-smuggler"
+url = ["https://github.com/hahwul/ws-smuggler"]
+source = "https://github.com/hahwul/ws-smuggler"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

@@ -1,6 +1,7 @@
 name = "sqliv"
 description = "massive SQL injection vulnerability scanner"
-url = "https://github.com/the-robot/sqliv"
+url = ["https://github.com/the-robot/sqliv"]
+source = "https://github.com/the-robot/sqliv"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

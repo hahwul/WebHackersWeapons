@@ -1,6 +1,7 @@
 name = "Deadsniper"
 description = "A fast, specialized dead-link checker"
-url = "https://github.com/port19x/deadsniper"
+url = ["https://github.com/port19x/deadsniper"]
+source = "https://github.com/port19x/deadsniper"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

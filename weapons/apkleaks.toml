@@ -1,6 +1,7 @@
 name = "apkleaks"
 description = "Scanning APK file for URIs, endpoints & secrets."
-url = "https://github.com/dwisiswant0/apkleaks"
+url = ["https://github.com/dwisiswant0/apkleaks"]
+source = "https://github.com/dwisiswant0/apkleaks"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

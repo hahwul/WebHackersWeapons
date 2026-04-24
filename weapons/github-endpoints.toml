@@ -1,6 +1,7 @@
 name = "github-endpoints"
 description = "Find endpoints on GitHub."
-url = "https://github.com/gwen001/github-endpoints"
+url = ["https://github.com/gwen001/github-endpoints"]
+source = "https://github.com/gwen001/github-endpoints"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

@@ -1,6 +1,7 @@
 name = "PoC-in-GitHub"
 description = "📡 PoC auto collect from GitHub. Be careful  malware."
-url = "https://github.com/nomi-sec/PoC-in-GitHub"
+url = ["https://github.com/nomi-sec/PoC-in-GitHub"]
+source = "https://github.com/nomi-sec/PoC-in-GitHub"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

@@ -1,5 +1,6 @@
 name = "AuthMatrix"
-url = "https://github.com/SecurityInnovation/AuthMatrix"
+url = ["https://github.com/SecurityInnovation/AuthMatrix"]
+source = "https://github.com/SecurityInnovation/AuthMatrix"
 category = "tool-addon"
 type = "Scanner"
 platform = ["linux", "macos", "windows", "burpsuite"]

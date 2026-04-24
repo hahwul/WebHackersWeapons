@@ -1,5 +1,6 @@
 name = "community-scripts"
-url = "https://github.com/zaproxy/community-scripts"
+url = ["https://github.com/zaproxy/community-scripts"]
+source = "https://github.com/zaproxy/community-scripts"
 category = "tool-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "zap"]

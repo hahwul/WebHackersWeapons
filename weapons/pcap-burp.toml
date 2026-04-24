@@ -1,6 +1,7 @@
 name = "pcap-burp"
 description = "Pcap importer for Burp"
-url = "https://github.com/nccgroup/pcap-burp"
+url = ["https://github.com/nccgroup/pcap-burp"]
+source = "https://github.com/nccgroup/pcap-burp"
 category = "tool-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "burpsuite"]

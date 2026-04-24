@@ -1,6 +1,7 @@
 name = "headi"
 description = "Customisable  and automated HTTP header injection"
-url = "https://github.com/mlcsec/headi"
+url = ["https://github.com/mlcsec/headi"]
+source = "https://github.com/mlcsec/headi"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

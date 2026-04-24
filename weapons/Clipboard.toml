@@ -1,6 +1,7 @@
 name = "Clipboard"
 description = "An external brain that remembers anything, anytime, anywhere."
-url = "https://github.com/Slackadays/Clipboard"
+url = ["https://github.com/Slackadays/Clipboard"]
+source = "https://github.com/Slackadays/Clipboard"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

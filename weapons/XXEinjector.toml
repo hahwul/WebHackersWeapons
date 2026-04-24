@@ -1,6 +1,7 @@
 name = "XXEinjector"
 description = "Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods."
-url = "https://github.com/enjoiz/XXEinjector"
+url = ["https://github.com/enjoiz/XXEinjector"]
+source = "https://github.com/enjoiz/XXEinjector"
 category = "tool"
 type = "Exploit"
 platform = ["linux", "macos", "windows"]

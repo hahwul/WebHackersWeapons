@@ -77,7 +77,9 @@ crystal run scripts/validate.cr -- --json  # machine-readable
 
 Exits 1 on any error (warnings don't fail). Enforced rules:
 
-- required: `name` (non-empty string), `url` (starts with `http://` or `https://`), `category` ∈ `{tool, tool-addon, browser-addon}`
+- required: `name` (non-empty string), `category` ∈ `{tool, tool-addon, browser-addon}`, at least one of `url` or `source`
+- `url`: array of strings, each starting with `http://` or `https://`
+- `source`: optional single string, source code repo URL (http/https)
 - optional (validated if present): `type` ∈ `{Utils, Recon, Scanner, Fuzzer, Exploit, Proxy, Army-Knife, Env}`, `platform` ⊂ `{linux, macos, windows, firefox, chrome, safari, burpsuite, zap, caido}`, `tags` is an array of strings
 - derived: slug (`slugify(name)`) is unique across all files
 

@@ -1,6 +1,7 @@
 name = "crlfuzz"
 description = "A fast tool to scan CRLF vulnerability written in Go"
-url = "https://github.com/dwisiswant0/crlfuzz"
+url = ["https://github.com/dwisiswant0/crlfuzz"]
+source = "https://github.com/dwisiswant0/crlfuzz"
 category = "tool"
 type = "Fuzzer"
 platform = ["linux", "macos", "windows"]

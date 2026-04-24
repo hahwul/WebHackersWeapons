@@ -1,6 +1,7 @@
 name = "deadlinks"
 description = "Health checks for your documentation links."
-url = "https://github.com/butuzov/deadlinks"
+url = ["https://github.com/butuzov/deadlinks"]
+source = "https://github.com/butuzov/deadlinks"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

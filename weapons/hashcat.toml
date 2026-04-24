@@ -1,6 +1,7 @@
 name = "hashcat"
 description = "World's fastest and most advanced password recovery utility"
-url = "https://github.com/hashcat/hashcat/"
+url = ["https://github.com/hashcat/hashcat/"]
+source = "https://github.com/hashcat/hashcat/"
 category = "tool"
 type = "Fuzzer"
 platform = ["linux", "macos", "windows"]

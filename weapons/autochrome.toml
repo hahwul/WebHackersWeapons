@@ -1,6 +1,7 @@
 name = "autochrome"
 description = "This tool downloads, installs, and configures a shiny new copy of Chromium."
-url = "https://github.com/nccgroup/autochrome"
+url = ["https://github.com/nccgroup/autochrome"]
+source = "https://github.com/nccgroup/autochrome"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

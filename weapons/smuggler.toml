@@ -1,6 +1,7 @@
 name = "smuggler"
 description = "Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3"
-url = "https://github.com/defparam/smuggler"
+url = ["https://github.com/defparam/smuggler"]
+source = "https://github.com/defparam/smuggler"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

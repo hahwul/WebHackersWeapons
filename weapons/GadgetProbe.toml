@@ -1,6 +1,7 @@
 name = "GadgetProbe"
 description = "Probe endpoints consuming Java serialized objects to identify classes, libraries, and library versions on remote Java classpaths."
-url = "https://github.com/BishopFox/GadgetProbe"
+url = ["https://github.com/BishopFox/GadgetProbe"]
+source = "https://github.com/BishopFox/GadgetProbe"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

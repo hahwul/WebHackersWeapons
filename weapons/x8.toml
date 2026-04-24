@@ -1,6 +1,7 @@
 name = "x8"
 description = "Hidden parameters discovery suite"
-url = "https://github.com/Sh1Yo/x8"
+url = ["https://github.com/Sh1Yo/x8"]
+source = "https://github.com/Sh1Yo/x8"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

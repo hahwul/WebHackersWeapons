@@ -1,6 +1,7 @@
 name = "Assetnote Wordlists"
 description = "Automated & Manual Wordlists provided by Assetnote"
-url = "https://github.com/assetnote/wordlists"
+url = ["https://github.com/assetnote/wordlists"]
+source = "https://github.com/assetnote/wordlists"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

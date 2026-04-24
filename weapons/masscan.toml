@@ -1,6 +1,7 @@
 name = "masscan"
 description = "TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes."
-url = "https://github.com/robertdavidgraham/masscan"
+url = ["https://github.com/robertdavidgraham/masscan"]
+source = "https://github.com/robertdavidgraham/masscan"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

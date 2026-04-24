@@ -1,6 +1,7 @@
 name = "Dark Reader"
 description = "Dark mode to any site"
-url = "https://github.com/darkreader/darkreader"
+url = ["https://github.com/darkreader/darkreader"]
+source = "https://github.com/darkreader/darkreader"
 category = "browser-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "firefox", "chrome"]

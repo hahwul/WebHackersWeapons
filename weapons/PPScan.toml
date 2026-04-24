@@ -1,6 +1,7 @@
 name = "PPScan"
 description = "Client Side Prototype Pollution Scanner"
-url = "https://github.com/msrkp/PPScan"
+url = ["https://github.com/msrkp/PPScan"]
+source = "https://github.com/msrkp/PPScan"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

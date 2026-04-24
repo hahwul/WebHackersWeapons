@@ -1,5 +1,6 @@
 name = "taborator"
-url = "https://github.com/hackvertor/taborator"
+url = ["https://github.com/hackvertor/taborator"]
+source = "https://github.com/hackvertor/taborator"
 category = "tool-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "burpsuite"]

@@ -53,7 +53,8 @@ struct Weapon
 
   property name : String
   property description : String
-  property url : String
+  property url : Array(String)
+  property source : String?
   property category : String
   property type : String
   property platform : Array(String)
@@ -61,7 +62,7 @@ struct Weapon
   property tags : Array(String)
   property slug : String
 
-  def initialize(@name, @description, @url, @category, @type,
+  def initialize(@name, @description, @url, @source, @category, @type,
                  @platform, @lang, @tags, @slug)
   end
 
@@ -70,7 +71,9 @@ struct Weapon
     return nil if name.nil? || name.empty?
 
     description = (raw["description"]?.try(&.as_s?) || "").strip
-    url = raw["url"]?.try(&.as_s?) || ""
+    url = url_list(raw["url"]?)
+    source = raw["source"]?.try(&.as_s?).try(&.strip)
+    source = nil if source.try(&.empty?)
     category = raw["category"]?.try(&.as_s?) || "tool"
     type = raw["type"]?.try(&.as_s?) || ""
     lang = raw["lang"]?.try(&.as_s?) || ""
@@ -81,6 +84,7 @@ struct Weapon
       name: name,
       description: description,
       url: url,
+      source: source,
       category: category,
       type: type,
       platform: platform,
@@ -88,6 +92,20 @@ struct Weapon
       tags: tags,
       slug: slugify(name),
     )
+  end
+
+  # Accepts url as either a single string (legacy) or an array of strings.
+  private def self.url_list(value : TOML::Any?) : Array(String)
+    return [] of String unless value
+    case raw = value.raw
+    when String
+      s = raw.strip
+      s.empty? ? [] of String : [s]
+    when Array
+      raw.compact_map(&.as_s?).map(&.strip).reject(&.empty?)
+    else
+      [] of String
+    end
   end
 
   private def self.string_array(value : TOML::Any?) : Array(String)
@@ -141,7 +159,10 @@ Dir.glob(File.join(DATA_DIR, "*.toml")).sort.each do |path|
   # [extra] subtable does NOT work — the parser stringifies it under
   # page.extra.extra. Keep custom fields flat at the top level.
   lines << %(name = "#{toml_escape(weapon.name)}")
-  lines << %(url = "#{toml_escape(weapon.url)}")
+  lines << "url = #{toml_array(weapon.url)}"
+  if src = weapon.source
+    lines << %(source = "#{toml_escape(src)}")
+  end
   lines << %(category = "#{toml_escape(weapon.category)}")
   lines << %(type = "#{toml_escape(weapon.type)}")
   lines << %(lang = "#{toml_escape(weapon.lang)}")

@@ -1,5 +1,6 @@
 name = "Neonmarker"
-url = "https://github.com/kingthorin/neonmarker"
+url = ["https://github.com/kingthorin/neonmarker"]
+source = "https://github.com/kingthorin/neonmarker"
 category = "tool-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "zap"]

@@ -1,6 +1,7 @@
 name = "hoppscotch"
 description = "Open source API development ecosystem"
-url = "https://github.com/hoppscotch/hoppscotch"
+url = ["https://github.com/hoppscotch/hoppscotch"]
+source = "https://github.com/hoppscotch/hoppscotch"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

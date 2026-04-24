@@ -1,6 +1,6 @@
 name = "BurpSuite"
 description = "The BurpSuite Project"
-url = "https://portswigger.net/burp"
+url = ["https://portswigger.net/burp"]
 category = "tool"
 type = "Army-Knife"
 platform = ["linux", "macos", "windows", "burpsuite"]

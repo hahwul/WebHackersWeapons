@@ -1,6 +1,7 @@
 name = "toxssin"
 description = "An XSS exploitation command-line interface and payload generator."
-url = "https://github.com/t3l3machus/toxssin"
+url = ["https://github.com/t3l3machus/toxssin"]
+source = "https://github.com/t3l3machus/toxssin"
 category = "tool"
 type = "Exploit"
 platform = ["linux", "macos", "windows"]

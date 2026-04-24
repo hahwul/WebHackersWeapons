@@ -1,6 +1,7 @@
 name = "grex"
 description = "A command-line tool and library for generating regular expressions from user-provided test cases"
-url = "https://github.com/pemistahl/grex"
+url = ["https://github.com/pemistahl/grex"]
+source = "https://github.com/pemistahl/grex"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

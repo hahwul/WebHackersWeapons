@@ -1,5 +1,6 @@
 name = "BurpSuiteLoggerPlusPlus"
-url = "https://github.com/nccgroup/BurpSuiteLoggerPlusPlus"
+url = ["https://github.com/nccgroup/BurpSuiteLoggerPlusPlus"]
+source = "https://github.com/nccgroup/BurpSuiteLoggerPlusPlus"
 category = "tool-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "burpsuite"]

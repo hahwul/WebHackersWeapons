@@ -444,6 +444,7 @@ a.pill-tag:hover {
 }
 
 .weapon-meta dd a { color: var(--primary); }
+.weapon-meta dd.link-list { flex-direction: column; gap: 0.2rem; align-items: flex-start; }
 .weapon-meta code {
   background: var(--bg);
   padding: 0.1rem 0.4rem;

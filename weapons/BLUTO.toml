@@ -1,6 +1,7 @@
 name = "BLUTO"
 description = "DNS Analysis Tool"
-url = "https://github.com/darryllane/Bluto"
+url = ["https://github.com/darryllane/Bluto"]
+source = "https://github.com/darryllane/Bluto"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

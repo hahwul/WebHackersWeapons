@@ -1,6 +1,7 @@
 name = "DSSS"
 description = "Damn Small SQLi Scanner"
-url = "https://github.com/stamparm/DSSS"
+url = ["https://github.com/stamparm/DSSS"]
+source = "https://github.com/stamparm/DSSS"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

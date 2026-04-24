@@ -1,6 +1,7 @@
 name = "gau"
 description = "Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl."
-url = "https://github.com/lc/gau"
+url = ["https://github.com/lc/gau"]
+source = "https://github.com/lc/gau"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

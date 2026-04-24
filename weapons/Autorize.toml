@@ -1,5 +1,6 @@
 name = "Autorize"
-url = "https://github.com/Quitten/Autorize"
+url = ["https://github.com/Quitten/Autorize"]
+source = "https://github.com/Quitten/Autorize"
 category = "tool-addon"
 type = "Scanner"
 platform = ["linux", "macos", "windows", "burpsuite"]

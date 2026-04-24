@@ -1,6 +1,7 @@
 name = "cf-check"
 description = "Cloudflare Checker written in Go"
-url = "https://github.com/dwisiswant0/cf-check"
+url = ["https://github.com/dwisiswant0/cf-check"]
+source = "https://github.com/dwisiswant0/cf-check"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

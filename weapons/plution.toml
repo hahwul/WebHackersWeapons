@@ -1,6 +1,7 @@
 name = "plution"
 description = "Prototype pollution scanner using headless chrome"
-url = "https://github.com/raverrr/plution"
+url = ["https://github.com/raverrr/plution"]
+source = "https://github.com/raverrr/plution"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

@@ -1,6 +1,7 @@
 name = "bbot"
 description = "OSINT automation for hackers"
-url = "https://github.com/blacklanternsecurity/bbot"
+url = ["https://github.com/blacklanternsecurity/bbot"]
+source = "https://github.com/blacklanternsecurity/bbot"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

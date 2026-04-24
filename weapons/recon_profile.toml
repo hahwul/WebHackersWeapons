@@ -1,6 +1,7 @@
 name = "recon_profile"
 description = "Recon profile (bash profile) for bugbounty"
-url = "https://github.com/nahamsec/recon_profile"
+url = ["https://github.com/nahamsec/recon_profile"]
+source = "https://github.com/nahamsec/recon_profile"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

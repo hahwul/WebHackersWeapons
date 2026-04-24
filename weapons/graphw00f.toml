@@ -1,6 +1,7 @@
 name = "graphw00f"
 description = "GraphQL Server Engine Fingerprinting utility"
-url = "https://github.com/dolevf/graphw00f"
+url = ["https://github.com/dolevf/graphw00f"]
+source = "https://github.com/dolevf/graphw00f"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

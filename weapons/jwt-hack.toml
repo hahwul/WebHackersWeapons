@@ -1,6 +1,7 @@
 name = "jwt-hack"
 description = "🔩 jwt-hack is tool for hacking / security testing to JWT. Supported for En/decoding JWT, Generate payload for JWT attack and very fast cracking(dict/brutefoce)"
-url = "https://github.com/hahwul/jwt-hack"
+url = ["https://github.com/hahwul/jwt-hack"]
+source = "https://github.com/hahwul/jwt-hack"
 category = "tool"
 type = "Fuzzer"
 platform = ["linux", "macos", "windows"]

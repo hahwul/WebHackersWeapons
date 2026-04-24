@@ -1,6 +1,7 @@
 name = "PwnXSS"
 description = "Vulnerability (XSS) scanner exploit"
-url = "https://github.com/pwn0sec/PwnXSS"
+url = ["https://github.com/pwn0sec/PwnXSS"]
+source = "https://github.com/pwn0sec/PwnXSS"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

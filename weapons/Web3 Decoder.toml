@@ -1,6 +1,7 @@
 name = "Web3 Decoder"
 description = "Burp Extension for Web3"
-url = "https://github.com/nccgroup/web3-decoder"
+url = ["https://github.com/nccgroup/web3-decoder"]
+source = "https://github.com/nccgroup/web3-decoder"
 category = "tool-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "burpsuite"]

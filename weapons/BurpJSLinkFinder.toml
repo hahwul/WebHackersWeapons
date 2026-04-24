@@ -1,5 +1,6 @@
 name = "BurpJSLinkFinder"
-url = "https://github.com/InitRoot/BurpJSLinkFinder"
+url = ["https://github.com/InitRoot/BurpJSLinkFinder"]
+source = "https://github.com/InitRoot/BurpJSLinkFinder"
 category = "tool-addon"
 type = "Recon"
 platform = ["linux", "macos", "windows", "burpsuite"]

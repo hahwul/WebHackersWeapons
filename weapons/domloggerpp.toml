@@ -1,6 +1,7 @@
 name = "DOMLogger++"
 description = "A browser extension that allows you to monitor, intercept, and debug JavaScript sinks based on customizable configurations."
-url = "https://github.com/kevin-mizu/domloggerpp"
+url = ["https://github.com/kevin-mizu/domloggerpp"]
+source = "https://github.com/kevin-mizu/domloggerpp"
 category = "browser-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "firefox", "chrome"]

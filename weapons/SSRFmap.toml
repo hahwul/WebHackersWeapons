@@ -1,6 +1,7 @@
 name = "SSRFmap"
 description = "Automatic SSRF fuzzer and exploitation tool"
-url = "https://github.com/swisskyrepo/SSRFmap"
+url = ["https://github.com/swisskyrepo/SSRFmap"]
+source = "https://github.com/swisskyrepo/SSRFmap"
 category = "tool"
 type = "Fuzzer"
 platform = ["linux", "macos", "windows"]

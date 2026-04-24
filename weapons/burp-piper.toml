@@ -1,5 +1,6 @@
 name = "burp-piper"
-url = "https://github.com/silentsignal/burp-piper"
+url = ["https://github.com/silentsignal/burp-piper"]
+source = "https://github.com/silentsignal/burp-piper"
 category = "tool-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "burpsuite"]

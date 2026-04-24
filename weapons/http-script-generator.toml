@@ -1,5 +1,6 @@
 name = "http-script-generator"
-url = "https://github.com/h3xstream/http-script-generator"
+url = ["https://github.com/h3xstream/http-script-generator"]
+source = "https://github.com/h3xstream/http-script-generator"
 category = "tool-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "zap", "burpsuite"]

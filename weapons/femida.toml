@@ -1,5 +1,6 @@
 name = "femida"
-url = "https://github.com/wish-i-was/femida"
+url = ["https://github.com/wish-i-was/femida"]
+source = "https://github.com/wish-i-was/femida"
 category = "tool-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "burpsuite"]

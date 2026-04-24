@@ -1,5 +1,6 @@
 name = "BurpBounty"
-url = "https://github.com/wagiro/BurpBounty"
+url = ["https://github.com/wagiro/BurpBounty"]
+source = "https://github.com/wagiro/BurpBounty"
 category = "tool-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "burpsuite"]

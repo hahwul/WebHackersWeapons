@@ -1,5 +1,6 @@
 name = "reflected-parameters"
-url = "https://github.com/PortSwigger/reflected-parameters"
+url = ["https://github.com/PortSwigger/reflected-parameters"]
+source = "https://github.com/PortSwigger/reflected-parameters"
 category = "tool-addon"
 type = "Recon"
 platform = ["linux", "macos", "windows", "burpsuite"]

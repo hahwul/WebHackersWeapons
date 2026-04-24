@@ -1,6 +1,7 @@
 name = "h2spacex"
 description = "HTTP/2 Single Packet Attack low level library based on Scapy"
-url = "https://github.com/nxenon/h2spacex"
+url = ["https://github.com/nxenon/h2spacex"]
+source = "https://github.com/nxenon/h2spacex"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

@@ -1,6 +1,7 @@
 name = "arachni"
 description = "Web Application Security Scanner Framework"
-url = "https://github.com/Arachni/arachni"
+url = ["https://github.com/Arachni/arachni"]
+source = "https://github.com/Arachni/arachni"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

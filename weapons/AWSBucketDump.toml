@@ -1,6 +1,7 @@
 name = "AWSBucketDump"
 description = "Security Tool to Look For Interesting Files in S3 Buckets"
-url = "https://github.com/jordanpotti/AWSBucketDump"
+url = ["https://github.com/jordanpotti/AWSBucketDump"]
+source = "https://github.com/jordanpotti/AWSBucketDump"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

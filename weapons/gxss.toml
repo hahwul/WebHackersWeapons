@@ -1,6 +1,7 @@
 name = "gxss"
 description = "Blind XSS service alerting over slack or email"
-url = "https://github.com/rverton/gxss"
+url = ["https://github.com/rverton/gxss"]
+source = "https://github.com/rverton/gxss"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

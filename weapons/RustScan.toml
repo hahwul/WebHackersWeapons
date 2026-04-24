@@ -1,6 +1,7 @@
 name = "RustScan"
 description = "Faster Nmap Scanning with Rust"
-url = "https://github.com/brandonskerritt/RustScan"
+url = ["https://github.com/brandonskerritt/RustScan"]
+source = "https://github.com/brandonskerritt/RustScan"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

@@ -1,6 +1,7 @@
 name = "fzf"
 description = "A command-line fuzzy finder"
-url = "https://github.com/junegunn/fzf"
+url = ["https://github.com/junegunn/fzf"]
+source = "https://github.com/junegunn/fzf"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

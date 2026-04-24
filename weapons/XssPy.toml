@@ -1,6 +1,6 @@
 name = "XssPy"
 description = "Web Application XSS Scanner"
-url = "https://github.com/faizann24/"
+url = ["https://github.com/faizann24/"]
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

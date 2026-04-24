@@ -1,6 +1,7 @@
 name = "getJS"
 description = "A tool to fastly get all javascript sources/files"
-url = "https://github.com/003random/getJS"
+url = ["https://github.com/003random/getJS"]
+source = "https://github.com/003random/getJS"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

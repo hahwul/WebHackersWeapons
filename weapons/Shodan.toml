@@ -1,6 +1,6 @@
 name = "Shodan"
 description = "World's first search engine for Internet-connected devices"
-url = "https://www.shodan.io/"
+url = ["https://www.shodan.io/"]
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

@@ -1,6 +1,7 @@
 name = "HydraRecon"
 description = "All In One, Fast, Easy Recon Tool"
-url = "https://github.com/aufzayed/HydraRecon"
+url = ["https://github.com/aufzayed/HydraRecon"]
+source = "https://github.com/aufzayed/HydraRecon"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

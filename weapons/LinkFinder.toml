@@ -1,6 +1,7 @@
 name = "LinkFinder"
 description = "A python script that finds endpoints in JavaScript files"
-url = "https://github.com/GerbenJavado/LinkFinder"
+url = ["https://github.com/GerbenJavado/LinkFinder"]
+source = "https://github.com/GerbenJavado/LinkFinder"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

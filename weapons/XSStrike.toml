@@ -1,6 +1,7 @@
 name = "XSStrike"
 description = "Most advanced XSS scanner."
-url = "https://github.com/s0md3v/XSStrike"
+url = ["https://github.com/s0md3v/XSStrike"]
+source = "https://github.com/s0md3v/XSStrike"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

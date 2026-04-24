@@ -1,6 +1,7 @@
 name = "Metasploit"
 description = "The world’s most used penetration testing framework"
-url = "https://github.com/rapid7/metasploit-framework"
+url = ["https://github.com/rapid7/metasploit-framework"]
+source = "https://github.com/rapid7/metasploit-framework"
 category = "tool"
 type = "Army-Knife"
 platform = ["linux", "macos", "windows"]

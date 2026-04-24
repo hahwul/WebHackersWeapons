@@ -1,6 +1,7 @@
 name = "AutoRepeater"
 description = "Burp Suite extension that automatically repeats modified HTTP requests to help find authorization vulnerabilities."
-url = "https://github.com/nccgroup/AutoRepeater"
+url = ["https://github.com/nccgroup/AutoRepeater"]
+source = "https://github.com/nccgroup/AutoRepeater"
 category = "tool-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "burpsuite"]

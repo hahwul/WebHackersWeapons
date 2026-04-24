@@ -1,6 +1,7 @@
 name = "smugglex"
 description = "Rust-powered HTTP Request Smuggling Scanner"
-url = "https://github.com/hahwul/smugglex"
+url = ["https://github.com/hahwul/smugglex"]
+source = "https://github.com/hahwul/smugglex"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

@@ -1,6 +1,7 @@
 name = "PayloadsAllTheThings"
 description = "A list of useful payloads and bypass for Web Application Security and Pentest/CTF"
-url = "https://github.com/swisskyrepo/PayloadsAllTheThings"
+url = ["https://github.com/swisskyrepo/PayloadsAllTheThings"]
+source = "https://github.com/swisskyrepo/PayloadsAllTheThings"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

@@ -1,6 +1,7 @@
 name = "github-regexp"
 description = "Basically a regexp over a GitHub search."
-url = "https://github.com/gwen001/github-regexp"
+url = ["https://github.com/gwen001/github-regexp"]
+source = "https://github.com/gwen001/github-regexp"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

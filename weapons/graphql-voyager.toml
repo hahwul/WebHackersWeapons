@@ -1,6 +1,7 @@
 name = "graphql-voyager"
 description = "🛰️ Represent any GraphQL API as an interactive graph"
-url = "https://github.com/APIs-guru/graphql-voyager"
+url = ["https://github.com/APIs-guru/graphql-voyager"]
+source = "https://github.com/APIs-guru/graphql-voyager"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

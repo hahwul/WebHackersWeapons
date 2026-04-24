@@ -1,6 +1,7 @@
 name = "ppfuzz"
 description = "A fast tool to scan client-side prototype pollution vulnerability written in Rust. 🦀"
-url = "https://github.com/dwisiswant0/ppfuzz"
+url = ["https://github.com/dwisiswant0/ppfuzz"]
+source = "https://github.com/dwisiswant0/ppfuzz"
 category = "tool"
 type = "Fuzzer"
 platform = ["linux", "macos", "windows"]

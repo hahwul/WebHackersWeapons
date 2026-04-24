@@ -1,6 +1,7 @@
 name = "gitleaks"
 description = "Scan git repos (or files) for secrets using regex and entropy 🔑"
-url = "https://github.com/zricethezav/gitleaks"
+url = ["https://github.com/zricethezav/gitleaks"]
+source = "https://github.com/zricethezav/gitleaks"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

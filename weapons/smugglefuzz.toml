@@ -1,6 +1,7 @@
 name = "SmuggleFuzz"
 description = "A rapid HTTP downgrade smuggling scanner written in Go."
-url = "https://github.com/Moopinger/smugglefuzz/"
+url = ["https://github.com/Moopinger/smugglefuzz/"]
+source = "https://github.com/Moopinger/smugglefuzz/"
 category = "tool"
 type = "Fuzzer"
 platform = ["linux", "macos", "windows"]

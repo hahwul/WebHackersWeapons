@@ -1,6 +1,7 @@
 name = "feroxbuster"
 description = "A fast, simple, recursive content discovery tool written in Rust."
-url = "https://github.com/epi052/feroxbuster"
+url = ["https://github.com/epi052/feroxbuster"]
+source = "https://github.com/epi052/feroxbuster"
 category = "tool"
 type = "Fuzzer"
 platform = ["linux", "macos", "windows"]

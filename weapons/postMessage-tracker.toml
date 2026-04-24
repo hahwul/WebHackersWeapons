@@ -1,6 +1,7 @@
 name = "postMessage-tracker"
 description = "A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon"
-url = "https://github.com/fransr/postMessage-tracker"
+url = ["https://github.com/fransr/postMessage-tracker"]
+source = "https://github.com/fransr/postMessage-tracker"
 category = "browser-addon"
 type = "Utils"
 platform = ["linux", "macos", "windows", "chrome"]

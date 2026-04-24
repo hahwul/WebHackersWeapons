@@ -1,6 +1,7 @@
 name = "gowitness"
 description = "🔍 gowitness - a golang, web screenshot utility using Chrome Headless"
-url = "https://github.com/sensepost/gowitness"
+url = ["https://github.com/sensepost/gowitness"]
+source = "https://github.com/sensepost/gowitness"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

@@ -1,6 +1,7 @@
 name = "shosubgo"
 description = "Small tool to Grab subdomains using Shodan api."
-url = "https://github.com/incogbyte/shosubgo"
+url = ["https://github.com/incogbyte/shosubgo"]
+source = "https://github.com/incogbyte/shosubgo"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

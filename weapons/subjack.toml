@@ -1,6 +1,7 @@
 name = "subjack"
 description = "Subdomain Takeover tool written in Go"
-url = "https://github.com/haccer/subjack"
+url = ["https://github.com/haccer/subjack"]
+source = "https://github.com/haccer/subjack"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

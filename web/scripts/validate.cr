@@ -8,7 +8,9 @@
 # Checks (errors):
 #   - TOML parses
 #   - `name`   is a non-empty string
-#   - `url`    is a non-empty string starting with http:// or https://
+#   - `url`    is a non-empty array of strings; each starts with http:// or https://
+#   - `source` (optional) is a string starting with http:// or https://
+#   - at least one of `url` or `source` is present
 #   - `category` ∈ {tool, tool-addon, browser-addon}
 #   - `type`     ∈ canonical set (when present)
 #   - `platform` items all ∈ canonical set (when present)
@@ -113,12 +115,42 @@ Dir.glob(File.join(DATA_DIR, "*.toml")).sort.each do |path|
     warn_(findings, file, "filename stem '#{stem_slug}' diverges from name slug '#{slug}'")
   end
 
-  # url
-  url = raw["url"]?.try(&.as_s?).try(&.strip)
-  if url.nil? || url.empty?
-    err(findings, file, "missing or empty `url`")
-  elsif !(url.starts_with?("http://") || url.starts_with?("https://"))
-    err(findings, file, "`url` must start with http:// or https:// (got '#{url}')")
+  # url (array of strings)
+  urls = [] of String
+  if url_val = raw["url"]?
+    arr = url_val.as_a?
+    if arr.nil?
+      err(findings, file, "`url` must be an array of strings (got #{url_val.raw.class})")
+    else
+      arr.each do |item|
+        if s = item.as_s?
+          s = s.strip
+          if s.empty?
+            err(findings, file, "`url` contains an empty string")
+          elsif !(s.starts_with?("http://") || s.starts_with?("https://"))
+            err(findings, file, "`url` entry must start with http:// or https:// (got '#{s}')")
+          else
+            urls << s
+          end
+        else
+          err(findings, file, "`url` contains a non-string value: #{item.raw.inspect}")
+        end
+      end
+    end
+  end
+
+  # source (optional string)
+  source = raw["source"]?.try(&.as_s?).try(&.strip)
+  if source_raw = raw["source"]?
+    if source_raw.as_s?.nil?
+      err(findings, file, "`source` must be a string")
+    elsif source && !source.empty? && !(source.starts_with?("http://") || source.starts_with?("https://"))
+      err(findings, file, "`source` must start with http:// or https:// (got '#{source}')")
+    end
+  end
+
+  if urls.empty? && (source.nil? || source.empty?)
+    err(findings, file, "at least one of `url` or `source` is required")
   end
 
   # category

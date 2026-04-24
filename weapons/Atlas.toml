@@ -1,6 +1,7 @@
 name = "Atlas"
 description = "Quick SQLMap Tamper Suggester"
-url = "https://github.com/m4ll0k/Atlas"
+url = ["https://github.com/m4ll0k/Atlas"]
+source = "https://github.com/m4ll0k/Atlas"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

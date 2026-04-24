@@ -1,6 +1,7 @@
 name = "rep"
 description = "Chrome DevTools extension for capturing, modifying, and replaying HTTP requests with AI-powered security analysis"
-url = "https://github.com/repplus/rep"
+url = ["https://github.com/repplus/rep"]
+source = "https://github.com/repplus/rep"
 category = "browser-addon"
 type = "Proxy"
 platform = ["chrome"]

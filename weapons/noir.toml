@@ -1,6 +1,7 @@
 name = "noir"
 description = "Attack surface detector that identifies endpoints by static analysis"
-url = "https://github.com/noir-cr/noir"
+url = ["https://github.com/noir-cr/noir"]
+source = "https://github.com/noir-cr/noir"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos"]

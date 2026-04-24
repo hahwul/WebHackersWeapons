@@ -1,6 +1,7 @@
 name = "Photon"
 description = "Incredibly fast crawler designed for OSINT."
-url = "https://github.com/s0md3v/Photon"
+url = ["https://github.com/s0md3v/Photon"]
+source = "https://github.com/s0md3v/Photon"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]

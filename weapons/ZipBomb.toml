@@ -1,6 +1,7 @@
 name = "ZipBomb"
 description = "A simple implementation of ZipBomb in Python"
-url = "https://github.com/abdulfatir/ZipBomb"
+url = ["https://github.com/abdulfatir/ZipBomb"]
+source = "https://github.com/abdulfatir/ZipBomb"
 category = "tool"
 type = "Utils"
 platform = ["linux", "macos", "windows"]

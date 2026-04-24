@@ -1,6 +1,7 @@
 name = "DeadFinder"
 description = "Find dead-links (broken links)"
-url = "https://github.com/hahwul/deadfinder"
+url = ["https://github.com/hahwul/deadfinder"]
+source = "https://github.com/hahwul/deadfinder"
 category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]

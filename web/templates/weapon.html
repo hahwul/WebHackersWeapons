@@ -21,9 +21,16 @@
     {% endif %}
 
     <dl class="weapon-meta">
-      {% if page.extra.url %}
+      {% if page.extra.source %}
       <dt>Source</dt>
-      <dd><a href="{{ page.extra.url }}" target="_blank" rel="noopener">{{ page.extra.url }}</a></dd>
+      <dd><a href="{{ page.extra.source }}" target="_blank" rel="noopener">{{ page.extra.source }}</a></dd>
+      {% endif %}
+
+      {% if page.extra.url and page.extra.url | length > 0 %}
+      <dt>Links</dt>
+      <dd class="link-list">
+        {% for u in page.extra.url %}<a href="{{ u }}" target="_blank" rel="noopener">{{ u }}</a>{% endfor %}
+      </dd>
       {% endif %}
 
       {% if page.extra.platform %}

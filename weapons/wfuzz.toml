@@ -1,6 +1,7 @@
 name = "wfuzz"
 description = "Web application fuzzer"
-url = "https://github.com/xmendez/wfuzz"
+url = ["https://github.com/xmendez/wfuzz"]
+source = "https://github.com/xmendez/wfuzz"
 category = "tool"
 type = "Fuzzer"
 platform = ["linux", "macos", "windows"]

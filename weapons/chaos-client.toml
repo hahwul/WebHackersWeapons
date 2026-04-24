@@ -1,6 +1,7 @@
 name = "chaos-client"
 description = "Go client to communicate with Chaos DNS API."
-url = "https://github.com/projectdiscovery/chaos-client"
+url = ["https://github.com/projectdiscovery/chaos-client"]
+source = "https://github.com/projectdiscovery/chaos-client"
 category = "tool"
 type = "Recon"
 platform = ["linux", "macos", "windows"]
