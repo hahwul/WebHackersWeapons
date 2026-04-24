@@ -1,0 +1,7 @@
+name = "csp-auditor"
+url = "https://github.com/GoSecure/csp-auditor"
+category = "tool-addon"
+type = "Scanner"
+platform = ["linux", "macos", "windows", "zap", "burpsuite"]
+lang = "Java"
+tags = ["csp"]

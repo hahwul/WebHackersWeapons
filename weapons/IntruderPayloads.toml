@@ -1,0 +1,7 @@
+name = "IntruderPayloads"
+url = "https://github.com/1N3/IntruderPayloads"
+category = "tool"
+type = "Utils"
+platform = ["linux", "macos", "windows", "burpsuite"]
+lang = "BlitzBasic"
+tags = []

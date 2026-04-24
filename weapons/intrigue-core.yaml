@@ -1,9 +1,0 @@
----
-name: intrigue-core
-description: 'Discover Your Attack Surface '
-url: https://github.com/intrigueio/intrigue-core
-category: tool
-type: Recon
-platform: [linux, macos, windows]
-lang: Ruby
-tags: []

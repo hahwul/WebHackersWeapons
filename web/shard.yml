@@ -1,0 +1,10 @@
+name: webhackersweapons-scripts
+version: 0.1.0
+
+description: Build-time scripts for the WebHackersWeapons static site.
+
+crystal: ">= 1.19.0"
+
+dependencies:
+  toml:
+    github: crystal-community/toml.cr

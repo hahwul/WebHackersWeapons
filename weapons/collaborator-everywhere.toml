@@ -1,0 +1,7 @@
+name = "collaborator-everywhere"
+url = "https://github.com/PortSwigger/collaborator-everywhere"
+category = "tool-addon"
+type = "Scanner"
+platform = ["linux", "macos", "windows", "burpsuite"]
+lang = "Java"
+tags = ["oast"]

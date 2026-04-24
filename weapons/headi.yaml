@@ -1,9 +1,0 @@
----
-name: headi
-description: Customisable  and automated HTTP header injection
-url: https://github.com/mlcsec/headi
-category: tool
-type: Scanner
-platform: [linux, macos, windows]
-lang: Go
-tags: [header]

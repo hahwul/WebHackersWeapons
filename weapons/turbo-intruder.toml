@@ -1,0 +1,7 @@
+name = "turbo-intruder"
+url = "https://github.com/PortSwigger/turbo-intruder"
+category = "tool-addon"
+type = "Utils"
+platform = ["linux", "macos", "windows", "burpsuite"]
+lang = "Kotlin"
+tags = []

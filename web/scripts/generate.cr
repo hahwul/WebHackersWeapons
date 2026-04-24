@@ -1,11 +1,13 @@
-# Pre-build generator: reads ../../weapons/*.yaml (repo-root canonical data),
+# Pre-build generator: reads ../weapons/*.toml (repo-root canonical data),
 # writes per-weapon markdown into content/weapons/, JSON endpoints into
 # static/api/, and site.data source at data/weapons.json.
 #
-# Run via Crystal directly from web/: `crystal run scripts/generate.cr`.
+# Run via `crystal run scripts/generate.cr` from the web/ directory.
 # Wired as a pre-build hook in config.toml.
+#
+# Requires the `toml` shard (see web/shard.yml). Run `shards install` once.
 
-require "yaml"
+require "toml"
 require "json"
 require "file_utils"
 
@@ -31,9 +33,8 @@ def slugify(name : String) : String
   name.downcase.gsub(/[^a-z0-9]+/, "-").gsub(/(^-|-$)/, "")
 end
 
-# TOML front-matter escape. Hwaro uses TOML between +++ fences; single-line
-# basic strings require escaping backslash and double-quote and forbid raw
-# newlines/tabs.
+# TOML front-matter escape for the markdown files we emit. Single-line basic
+# strings require escaping backslash and double-quote and forbid raw newlines.
 def toml_escape(str : String) : String
   str
     .gsub("\\", "\\\\")
@@ -64,7 +65,7 @@ struct Weapon
                  @platform, @lang, @tags, @slug)
   end
 
-  def self.from_yaml(raw : YAML::Any) : Weapon?
+  def self.from_toml(raw : TOML::Table) : Weapon?
     name = raw["name"]?.try(&.as_s?).try(&.strip)
     return nil if name.nil? || name.empty?
 
@@ -73,8 +74,8 @@ struct Weapon
     category = raw["category"]?.try(&.as_s?) || "tool"
     type = raw["type"]?.try(&.as_s?) || ""
     lang = raw["lang"]?.try(&.as_s?) || ""
-    platform = extract_string_array(raw["platform"]?)
-    tags = extract_string_array(raw["tags"]?).map(&.strip).reject(&.empty?)
+    platform = string_array(raw["platform"]?)
+    tags = string_array(raw["tags"]?).map(&.strip).reject(&.empty?)
 
     new(
       name: name,
@@ -89,7 +90,7 @@ struct Weapon
     )
   end
 
-  private def self.extract_string_array(value : YAML::Any?) : Array(String)
+  private def self.string_array(value : TOML::Any?) : Array(String)
     return [] of String unless value
     arr = value.as_a?
     return [] of String unless arr
@@ -101,18 +102,16 @@ weapons    = [] of Weapon
 errors     = 0
 seen_slugs = {} of String => String
 
-Dir.glob(File.join(DATA_DIR, "*.yaml")).sort.each do |path|
+Dir.glob(File.join(DATA_DIR, "*.toml")).sort.each do |path|
   raw = begin
-    YAML.parse(File.read(path))
+    TOML.parse(File.read(path))
   rescue ex
     STDERR.puts "skip #{File.basename(path)}: #{ex.message}"
     errors += 1
     next
   end
 
-  next unless raw.as_h?
-
-  weapon = Weapon.from_yaml(raw)
+  weapon = Weapon.from_toml(raw)
   next unless weapon
 
   if prior = seen_slugs[weapon.slug]?
@@ -166,7 +165,7 @@ File.write(
   {count: weapons.size, weapons: weapons}.to_pretty_json,
 )
 
-# site.data.weapons — Hwaro reads data/*.json automatically.
+# site.data.weapons — Hwaro loads data/*.json automatically.
 # A symlinked data/weapons/ directory does NOT work (Crystal's Dir.glob
 # does not follow symlinks), so we dump a flat array here and iterate it
 # in templates as `site.data.weapons`.

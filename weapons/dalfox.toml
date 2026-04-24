@@ -1,0 +1,8 @@
+name = "dalfox"
+description = "🌘🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation."
+url = "https://github.com/hahwul/dalfox"
+category = "tool"
+type = "Scanner"
+platform = ["linux", "macos", "windows"]
+lang = "Go"
+tags = ["xss"]

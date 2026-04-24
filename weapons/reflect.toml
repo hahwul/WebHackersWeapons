@@ -1,0 +1,7 @@
+name = "reflect"
+url = "https://github.com/cak/reflect"
+category = "tool-addon"
+type = "Utils"
+platform = ["linux", "macos", "windows", "zap"]
+lang = "Kotlin"
+tags = []

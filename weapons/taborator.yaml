@@ -1,9 +1,0 @@
----
-name: taborator
-description:
-url: https://github.com/hackvertor/taborator
-category: tool-addon
-type: Utils
-platform: [linux, macos, windows, burpsuite]
-lang: Java
-tags: [oast]

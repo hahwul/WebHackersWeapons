@@ -1,9 +1,0 @@
----
-name: cf-check
-description: 'Cloudflare Checker written in Go '
-url: https://github.com/dwisiswant0/cf-check
-category: tool
-type: Utils
-platform: [linux, macos, windows]
-lang: Go
-tags: []

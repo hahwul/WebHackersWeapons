@@ -1,9 +1,0 @@
----
-name: Neonmarker
-description:
-url: https://github.com/kingthorin/neonmarker
-category: tool-addon
-type: utils
-platform: [linux, macos, windows, zap]
-lang: Java
-tags: []
