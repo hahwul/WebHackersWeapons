@@ -1,0 +1,9 @@
+---
+name: NoXss
+description: Faster xss scanner,support reflected-xss and dom-xss
+url: https://github.com/lwzSoviet/
+category: tool
+type: Scanner
+platform: [linux, macos, windows]
+lang: Python
+tags: [xss]

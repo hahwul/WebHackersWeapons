@@ -1,0 +1,13 @@
+{% include "header.html" %}
+<main class="page-wrap">
+  <article class="prose">
+    <h1>{{ page.title | e }}</h1>
+    {{ content }}
+    <h2>In this section</h2>
+    <ul class="section-list">
+      {{ section.list }}
+    </ul>
+    {{ pagination }}
+  </article>
+</main>
+{% include "footer.html" %}

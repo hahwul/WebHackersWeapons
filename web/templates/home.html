@@ -1,0 +1,47 @@
+{% include "header.html" %}
+<main class="home">
+  <section class="hero">
+    <h1>Web Hackers' Weapons</h1>
+    <p class="hero-sub">A curated collection of tools used by bug hunters and web hackers.</p>
+    <p class="hero-meta">
+      <strong>{{ site.data.weapons | length }}</strong> weapons indexed ·
+      <a href="{{ base_url }}/weapons/">Browse all</a> ·
+      <a href="{{ base_url }}/api/weapons.json">JSON API</a>
+    </p>
+  </section>
+
+  <section class="weapons-section">
+    <div class="section-head">
+      <h2>All weapons</h2>
+      <div class="list-controls">
+        <input type="search" id="weaponFilter" placeholder="Filter by name, tag, type, or language..." autocomplete="off">
+      </div>
+    </div>
+
+    <div class="card-grid" id="weaponGrid">
+      {% for w in site.data.weapons %}
+      <a class="card"
+         href="{{ base_url }}/weapons/{{ w.slug }}/"
+         data-name="{{ w.name | lower }}"
+         data-type="{{ w.type | default(value='') | lower }}"
+         data-lang="{{ w.lang | default(value='') | lower }}"
+         data-tags="{% for t in w.tags %}{{ t | lower }} {% endfor %}">
+        <div class="card-head">
+          <h3 class="card-title">{{ w.name }}</h3>
+          {% if w.lang %}<span class="lang-badge">{{ w.lang }}</span>{% endif %}
+        </div>
+        {% if w.description %}
+        <p class="card-desc">{{ w.description | truncate(length=140) }}</p>
+        {% endif %}
+        <div class="card-meta">
+          {% if w.type %}<span class="pill pill-type">{{ w.type }}</span>{% endif %}
+          {% for t in w.tags %}<span class="pill pill-tag">#{{ t }}</span>{% endfor %}
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+
+    <p class="empty-state" id="emptyState" hidden>No weapons match your filter.</p>
+  </section>
+</main>
+{% include "footer.html" %}

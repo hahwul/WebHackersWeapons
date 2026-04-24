@@ -1,0 +1,9 @@
+---
+name: ParamWizard
+description: ParamWizard is a powerful Python-based tool designed for extracting and identifying URLs with parameters from a specified website.
+url: https://github.com/iamunixtz/ParamWizard
+category: tool
+type: Recon
+platform: [linux, macos, windows]
+lang: Python
+tags: [param]

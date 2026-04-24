@@ -1,0 +1,9 @@
+---
+name: mubeng
+description: An incredibly fast proxy checker & IP rotator with ease.
+url: https://github.com/kitabisa/mubeng
+category: tool
+type: Utils
+platform: [linux, macos, windows]
+lang: Go
+tags:

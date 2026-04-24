@@ -1,0 +1,9 @@
+---
+name: dependency-confusion-scanner
+description: This small repo is meant to scan Github's repositories for potential Dependency confusion vulnerabilities.
+url: https://github.com/Yaniv-git/dependency-confusion-scanner
+category: tool
+type: Scanner
+platform: [linux, macos, windows]
+lang: Python
+tags: [dependency-confusion]

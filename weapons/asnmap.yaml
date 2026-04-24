@@ -1,0 +1,9 @@
+---
+name: asnmap
+description: Go CLI and Library for quickly mapping organization network ranges using ASN information
+url: https://github.com/projectdiscovery/asnmap
+category: tool
+type: Recon
+platform: [linux, macos, windows]
+lang: Go
+tags: [asn, network-mapping]

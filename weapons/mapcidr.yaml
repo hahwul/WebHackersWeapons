@@ -1,0 +1,9 @@
+---
+name: mapcidr
+description: Utility program to perform multiple operations for a given subnet/CIDR ranges
+url: https://github.com/projectdiscovery/mapcidr
+category: tool
+type: Utils
+platform: [linux, macos, windows]
+lang: Go
+tags: [cidr, network, ip-manipulation]

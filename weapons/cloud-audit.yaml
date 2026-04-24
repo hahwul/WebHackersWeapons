@@ -1,0 +1,9 @@
+---
+name: cloud-audit
+description: Fast, opinionated AWS security scanner with Terraform remediation and attack chain detection
+url: https://github.com/gebalamariusz/cloud-audit
+category: tool
+type: Scanner
+platform: [linux, macos, windows]
+lang: Python
+tags: [aws, cloud, security, terraform]

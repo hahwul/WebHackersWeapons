@@ -1,0 +1,59 @@
+{% include "header.html" %}
+<main class="page-wrap weapon-page">
+  <nav class="breadcrumbs">
+    <a href="{{ base_url }}/">Home</a> <span>/</span>
+    <a href="{{ base_url }}/weapons/">Weapons</a> <span>/</span>
+    <span>{{ page.extra.name | default(value=page.title) }}</span>
+  </nav>
+
+  <article class="weapon-detail">
+    <header class="weapon-header">
+      <h1>{{ page.extra.name | default(value=page.title) }}</h1>
+      <div class="weapon-badges">
+        {% if page.extra.type %}<span class="pill pill-type">{{ page.extra.type }}</span>{% endif %}
+        {% if page.extra.lang %}<span class="lang-badge">{{ page.extra.lang }}</span>{% endif %}
+        {% if page.extra.category %}<span class="pill pill-cat">{{ page.extra.category }}</span>{% endif %}
+      </div>
+    </header>
+
+    {% if page.description %}
+    <p class="weapon-lede">{{ page.description }}</p>
+    {% endif %}
+
+    <dl class="weapon-meta">
+      {% if page.extra.url %}
+      <dt>Source</dt>
+      <dd><a href="{{ page.extra.url }}" target="_blank" rel="noopener">{{ page.extra.url }}</a></dd>
+      {% endif %}
+
+      {% if page.extra.platform %}
+      <dt>Platforms</dt>
+      <dd>
+        {% for p in page.extra.platform %}<span class="pill pill-plat">{{ p }}</span>{% endfor %}
+      </dd>
+      {% endif %}
+
+      {% if page.tags %}
+      <dt>Tags</dt>
+      <dd>
+        {% for t in page.tags %}<a class="pill pill-tag" href="{{ base_url }}/tags/{{ t | lower | replace(from=' ', to='-') }}/">#{{ t }}</a>{% endfor %}
+      </dd>
+      {% endif %}
+
+      <dt>JSON</dt>
+      <dd><a href="{{ base_url }}{{ page.extra.api }}"><code>{{ page.extra.api }}</code></a></dd>
+    </dl>
+
+    {% if content %}
+    <section class="weapon-body prose">
+      {{ content }}
+    </section>
+    {% endif %}
+  </article>
+
+  <nav class="prev-next">
+    {% if page.lower %}<a href="{{ page.lower.url }}">← {{ page.lower.title }}</a>{% endif %}
+    {% if page.higher %}<a class="next" href="{{ page.higher.url }}">{{ page.higher.title }} →</a>{% endif %}
+  </nav>
+</main>
+{% include "footer.html" %}

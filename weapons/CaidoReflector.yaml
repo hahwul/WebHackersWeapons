@@ -1,0 +1,9 @@
+---
+name: CaidoReflector
+description: Automatically look for paramater reflections in the HTTP response
+url: https://github.com/bebiksior/CaidoReflector
+category: tool-addon
+type: Utils
+platform: [linux, macos, windows, caido]
+lang: TypeScript
+tags: [xss]

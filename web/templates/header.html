@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ page_language }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description | e }}">
+  <title>{{ page.title | e }} — {{ site.title | e }}</title>
+  {{ og_all_tags }}
+  {{ hreflang_tags }}
+  <link rel="stylesheet" href="{{ base_url }}/css/style.css">
+  {{ highlight_css }}
+  {{ auto_includes_css }}
+</head>
+<body data-section="{{ page.section }}">
+<header class="site-header">
+  <a href="{{ base_url }}/" class="logo">
+    <span class="logo-mark">⚔</span>
+    <span class="logo-text">{{ site.title }}</span>
+  </a>
+  <nav class="site-nav">
+    <a href="{{ base_url }}/">Home</a>
+    <a href="{{ base_url }}/weapons/">Weapons</a>
+    <a href="{{ base_url }}/tags/">Tags</a>
+    <a href="{{ base_url }}/api/weapons.json">JSON API</a>
+  </nav>
+  <div class="header-right">
+    <button class="search-trigger" onclick="openSearch()" title="Search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <span>Search</span>
+      <kbd>&#8984;K</kbd>
+    </button>
+  </div>
+</header>
+<div class="search-overlay" id="searchOverlay" onclick="if(event.target===this)closeSearch()">
+  <div class="search-modal">
+    <div class="search-input-wrap">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="searchInput" placeholder="Search weapons..." autocomplete="off">
+      <kbd onclick="closeSearch()">ESC</kbd>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>

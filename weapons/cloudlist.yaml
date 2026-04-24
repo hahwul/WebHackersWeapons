@@ -1,0 +1,9 @@
+---
+name: cloudlist
+description: Cloudlist is a tool for listing Assets from multiple Cloud Providers
+url: https://github.com/projectdiscovery/cloudlist
+category: tool
+type: Recon
+platform: [linux, macos, windows]
+lang: Go
+tags: [cloud, asset-discovery]

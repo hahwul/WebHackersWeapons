@@ -1,0 +1,9 @@
+---
+name: safecopy
+description:
+url: https://github.com/yashrs/safecopy
+category: tool-addon
+type: Utils
+platform: [linux, macos, windows, burpsuite]
+lang: Java
+tags: []

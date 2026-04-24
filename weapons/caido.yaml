@@ -1,0 +1,9 @@
+---
+name: Caido
+description: A lightweight web security auditing toolkit
+url: https://caido.io
+category: tool
+type: Proxy
+platform: [linux, macos, windows, caido]
+lang: Rust
+tags: [mitmproxy]

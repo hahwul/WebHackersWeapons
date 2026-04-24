@@ -1,0 +1,10 @@
+---
+name: Baudrillard Suite
+description: Cross-platform security research toolkit with OSINT aggregation, memory
+  forensics, social engineering tools, steganography, and predictive threat modeling.
+url: https://github.com/bad-antics/baudrillard-suite
+category: tool
+type: Army-knife
+platform: [linux, macos, windows]
+lang: Python
+tags: [osint, recon, forensics, social-engineering, steganography]

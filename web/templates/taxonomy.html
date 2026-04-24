@@ -1,0 +1,13 @@
+{% include "header.html" %}
+<main class="page-wrap">
+  <article class="prose">
+    <h1>Tags</h1>
+    <p class="taxonomy-desc">Browse weapons grouped by tag.</p>
+    <ul class="tag-cloud">
+      {% for term in site.taxonomies[taxonomy_name].items %}
+      <li><a href="{{ base_url }}/{{ taxonomy_name }}/{{ term.slug }}/">{{ term.name }} <span class="count">{{ term.count }}</span></a></li>
+      {% endfor %}
+    </ul>
+  </article>
+</main>
+{% include "footer.html" %}

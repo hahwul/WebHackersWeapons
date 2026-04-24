@@ -1,0 +1,9 @@
+---
+name: scilla
+description: 🏴‍☠️ Information Gathering tool 🏴‍☠️ dns/subdomain/port enumeration
+url: https://github.com/edoardottt/scilla
+category: tool
+type: Recon
+platform: [linux, macos, windows]
+lang: Go
+tags: [subdomains, dns, port]

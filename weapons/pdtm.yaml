@@ -1,0 +1,9 @@
+---
+name: pdtm
+description: ProjectDiscovery's Open Source Tool Manager
+url: https://github.com/projectdiscovery/pdtm
+category: tool
+type: Utils
+platform: [linux, macos, windows]
+lang: Go
+tags: [package-manager, tools-management]

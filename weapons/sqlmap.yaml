@@ -1,0 +1,9 @@
+---
+name: sqlmap
+description: Automatic SQL injection and database takeover tool
+url: https://github.com/sqlmapproject/sqlmap
+category: tool
+type: Scanner
+platform: [linux, macos, windows]
+lang: Python
+tags: [sqli]

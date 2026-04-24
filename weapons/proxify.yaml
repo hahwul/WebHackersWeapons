@@ -1,0 +1,10 @@
+---
+name: proxify
+description: Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation
+  and replay
+url: https://github.com/projectdiscovery/proxify
+category: tool
+type: Proxy
+platform: [linux, macos, windows]
+lang: Go
+tags: [mitmproxy]

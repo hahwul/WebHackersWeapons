@@ -1,0 +1,9 @@
+---
+name: semgrep
+description: Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.
+url: https://github.com/semgrep/semgrep
+category: tool
+type: Scanner
+platform: [linux, macos, windows]
+lang: Python
+tags: [sast, code-analysis]

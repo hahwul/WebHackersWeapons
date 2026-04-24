@@ -1,0 +1,9 @@
+---
+name: favirecon
+description: Use favicon.ico to improve your target recon phase. Quickly detect technologies, WAF, exposed panels, known services.
+url: https://github.com/edoardottt/favirecon
+category: tool
+type: Recon
+platform: [linux, macos, windows]
+lang: Go
+tags: [favicon]

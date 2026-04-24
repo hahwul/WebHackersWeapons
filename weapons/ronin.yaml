@@ -1,0 +1,9 @@
+---
+name: Ronin
+description: Free and Open Source Ruby Toolkit for Security Research and Development
+url: https://ronin-rb.dev
+category: tool
+type: Army-knife
+platform: [linux, macos, windows]
+lang: Ruby
+tags: [pentest, crawl, recon, exploit]

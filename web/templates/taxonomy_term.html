@@ -1,0 +1,28 @@
+{% include "header.html" %}
+<main class="home">
+  <section class="hero hero-compact">
+    <h1>#{{ taxonomy_term }}</h1>
+  </section>
+
+  <section class="weapons-section">
+    <div class="card-grid">
+      {% for term in site.taxonomies[taxonomy_name].items %}
+        {% if term.name == taxonomy_term %}
+          {% for p in term.pages %}
+          <a class="card" href="{{ p.url }}">
+            <div class="card-head">
+              <h3 class="card-title">{{ p.extra.name | default(value=p.title) }}</h3>
+              {% if p.extra.lang %}<span class="lang-badge">{{ p.extra.lang }}</span>{% endif %}
+            </div>
+            {% if p.description %}<p class="card-desc">{{ p.description | truncate(length=140) }}</p>{% endif %}
+            <div class="card-meta">
+              {% if p.extra.type %}<span class="pill pill-type">{{ p.extra.type }}</span>{% endif %}
+            </div>
+          </a>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+</main>
+{% include "footer.html" %}

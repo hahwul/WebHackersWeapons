@@ -1,0 +1,9 @@
+---
+name: jwt_tool
+description: A toolkit for testing, tweaking and cracking JSON Web Tokens
+url: https://github.com/ticarpi/jwt_tool
+category: tool
+type: Exploit
+platform: [linux, macos, windows]
+lang: Python
+tags: [jwt, authentication]

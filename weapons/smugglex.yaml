@@ -1,0 +1,9 @@
+---
+name: smugglex
+description: Rust-powered HTTP Request Smuggling Scanner
+url: https://github.com/hahwul/smugglex
+category: tool
+type: Scanner
+platform: [linux, macos, windows]
+lang: Rust
+tags: [smuggle]

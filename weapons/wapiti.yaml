@@ -1,0 +1,9 @@
+---
+name: wapiti
+description: Web application vulnerability scanner. Wapiti allows you to audit the security of your websites or web applications.
+url: https://github.com/wapiti-scanner/wapiti
+category: tool
+type: Scanner
+platform: [linux, macos, windows]
+lang: Python
+tags: [vulnerability-scanner, web-scanner]

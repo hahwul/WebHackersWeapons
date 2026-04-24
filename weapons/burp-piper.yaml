@@ -1,0 +1,9 @@
+---
+name: burp-piper
+description:
+url: https://github.com/silentsignal/burp-piper
+category: tool-addon
+type: Utils
+platform: [linux, macos, windows, burpsuite]
+lang: Kotlin
+tags: []
