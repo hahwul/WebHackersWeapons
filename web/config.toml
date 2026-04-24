@@ -9,7 +9,7 @@ base_url = "http://localhost:3000"
 # Pre-build hook: regenerate per-weapon markdown pages and JSON API files
 # from data/weapons/*.yaml before each build.
 [build]
-hooks.pre = ["ruby scripts/generate.rb"]
+hooks.pre = ["crystal run scripts/generate.cr"]
 
 # =============================================================================
 # Multilingual (Optional)

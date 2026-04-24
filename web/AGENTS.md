@@ -62,7 +62,7 @@ hwaro tool agents-md --local --write
 
 ## Site-Specific Instructions
 
-This site renders the WebHackersWeapons catalog. `data/weapons.json`, `content/weapons/*.md`, and `static/api/**` are **generated** at build time by `scripts/generate.rb` — a pre-build hook declared in `config.toml` (`[build] hooks.pre`). Source of truth is `../weapons/*.yaml` at the repo root. Do not edit the generated files directly; re-run a build (`../hwaro/bin/hwaro build`) after touching a YAML.
+This site renders the WebHackersWeapons catalog. `data/weapons.json`, `content/weapons/*.md`, and `static/api/**` are **generated** at build time by `scripts/generate.cr` (Crystal) — a pre-build hook declared in `config.toml` (`[build] hooks.pre = ["crystal run scripts/generate.cr"]`). Source of truth is `../weapons/*.yaml` at the repo root. Do not edit the generated files directly; re-run a build (`../hwaro/bin/hwaro build`) after touching a YAML.
 
 Templates:
 - `home.html` — homepage card grid, iterates `site.data.weapons` (array loaded from `data/weapons.json`).
