@@ -1,5 +1,5 @@
 {
-  "count": 8,
+  "count": 10,
   "weapons": [
     {
       "name": "Amass",
@@ -141,6 +141,47 @@
         "osint"
       ],
       "slug": "shodan"
+    },
+    {
+      "name": "subfinder",
+      "description": "Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing.",
+      "url": [
+        "https://github.com/projectdiscovery/subfinder"
+      ],
+      "source": "https://github.com/projectdiscovery/subfinder",
+      "category": "tool",
+      "type": "Recon",
+      "platform": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "lang": "Go",
+      "tags": [
+        "subdomains"
+      ],
+      "slug": "subfinder"
+    },
+    {
+      "name": "subjack",
+      "description": "Subdomain Takeover tool written in Go",
+      "url": [
+        "https://github.com/haccer/subjack"
+      ],
+      "source": "https://github.com/haccer/subjack",
+      "category": "tool",
+      "type": "Recon",
+      "platform": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "lang": "Go",
+      "tags": [
+        "subdomains",
+        "takeover"
+      ],
+      "slug": "subjack"
     },
     {
       "name": "ZAP",

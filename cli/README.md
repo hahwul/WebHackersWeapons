@@ -52,6 +52,7 @@ By default the CLI fetches `https://weapons.hahwul.com/api/weapons.json` and cac
 - `--api-url <URL>` or `WEAPONS_API_URL=<URL>`
 - `--data <path>` — read a local JSON file (skips HTTP + cache)
 - `--refresh` — bypass the cache once; `weapons update` clears it permanently
+- `--strict` — fail on network error instead of falling back to the cached copy (default: fall back with a warning)
 
 For offline dev against a freshly built site:
 

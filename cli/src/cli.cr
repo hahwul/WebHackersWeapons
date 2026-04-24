@@ -126,6 +126,7 @@ module Weapons
     property api_url : String
     property data_path : String?
     property refresh : Bool = false
+    property strict : Bool = false
     property json_output : Bool = false
     property command : String?
     property positional : Array(String) = [] of String
@@ -221,6 +222,7 @@ module Weapons
         p.on("--api-url URL", "override API URL (env: WEAPONS_API_URL)") { |v| @api_url = v }
         p.on("--data PATH", "read a local JSON file instead of the API") { |v| @data_path = v }
         p.on("--refresh", "bypass cache and re-fetch") { @refresh = true }
+        p.on("--strict", "fail on network error instead of falling back to cached copy") { @strict = true }
 
         p.separator ""
         p.separator "Output:"
@@ -271,9 +273,19 @@ module Weapons
       end
 
       STDERR.puts "fetching #{@api_url}".colorize(:dark_gray) unless @json_output
-      body = API.fetch(@api_url)
-      Cache.write(body)
-      body
+      begin
+        body = API.fetch(@api_url)
+        Cache.write(body)
+        body
+      rescue ex : UserError
+        # Network/DNS/TLS hiccup. If we still have any cached copy, use it —
+        # a day-old catalog beats no answer. `--strict` opts out.
+        if !@strict && File.exists?(Cache.file)
+          STDERR.puts "warn: #{ex.message} — falling back to cached copy".colorize(:yellow)
+          return Cache.read
+        end
+        raise ex
+      end
     end
 
     # ---- commands ----
@@ -281,11 +293,11 @@ module Weapons
     private def apply_filters(list : Array(Weapon), keyword : String? = nil) : Array(Weapon)
       kw = keyword.try(&.downcase)
       list.select do |w|
-        next false if (ft = @filter_type) && w.type.downcase != ft.downcase
-        next false if (fc = @filter_category) && w.category.downcase != fc.downcase
-        next false if (fl = @filter_lang) && w.lang.downcase != fl.downcase
-        next false if (fp = @filter_platform) && !w.platform.map(&.downcase).includes?(fp.downcase)
-        next false if (ft2 = @filter_tag) && !w.tags.map(&.downcase).includes?(ft2.downcase)
+        next false if (type = @filter_type) && w.type.downcase != type.downcase
+        next false if (cat = @filter_category) && w.category.downcase != cat.downcase
+        next false if (lang = @filter_lang) && w.lang.downcase != lang.downcase
+        next false if (plat = @filter_platform) && !w.platform.map(&.downcase).includes?(plat.downcase)
+        next false if (tag = @filter_tag) && !w.tags.map(&.downcase).includes?(tag.downcase)
         if kw
           haystack = "#{w.name} #{w.description} #{w.tags.join(" ")} #{w.type} #{w.lang}".downcase
           next false unless haystack.includes?(kw)
@@ -318,11 +330,29 @@ module Weapons
       query = @positional.first?
       raise UserError.new("usage: weapons info <name|slug>") if query.nil?
       needle = query.downcase
+
+      # Exact match short-circuits — slugs and names are unique per schema.
       hit = weapons.find { |w| w.slug == needle } ||
-            weapons.find { |w| w.name.downcase == needle } ||
-            weapons.find { |w| w.slug.includes?(needle) } ||
-            weapons.find { |w| w.name.downcase.includes?(needle) }
-      raise UserError.new("no weapon matches '#{query}'") unless hit
+            weapons.find { |w| w.name.downcase == needle }
+
+      unless hit
+        candidates = weapons.select do |w|
+          w.slug.includes?(needle) || w.name.downcase.includes?(needle)
+        end
+
+        case candidates.size
+        when 0
+          raise UserError.new("no weapon matches '#{query}'")
+        when 1
+          hit = candidates.first
+        else
+          listing = candidates.first(10).map { |w| "  #{w.slug}  (#{w.name})" }.join("\n")
+          suffix = candidates.size > 10 ? "\n  ... and #{candidates.size - 10} more" : ""
+          raise UserError.new(
+            "'#{query}' matches #{candidates.size} weapons — be more specific:\n#{listing}#{suffix}"
+          )
+        end
+      end
 
       if @json_output
         puts hit.to_pretty_json

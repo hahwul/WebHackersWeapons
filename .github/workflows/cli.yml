@@ -22,6 +22,10 @@ jobs:
         with:
           crystal: latest
 
+      - name: Format check
+        working-directory: cli
+        run: crystal tool format --check
+
       - name: Build
         working-directory: cli
         run: shards build
