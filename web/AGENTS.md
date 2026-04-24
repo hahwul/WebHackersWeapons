@@ -85,6 +85,17 @@ Exits 1 on any error (warnings don't fail). Enforced rules:
 
 `lang` missing/empty is a warning only (many browser-extensions/services have no language). The `.github/workflows/validate.yml` workflow runs the validator on every PR and push touching `weapons/**`.
 
+## Deploy
+
+Site deploys to `https://weapons.hahwul.com` via GitHub Pages. The flow is in `.github/workflows/deploy.yml`:
+
+1. Runner installs Crystal, runs `shards install`, then the validator and generator.
+2. `hahwul/hwaro@main` action runs `hwaro build -e production` inside the Debian Docker image.
+
+The Docker image only carries the `hwaro` binary — no Crystal toolchain — so the pre-build hook in `config.toml` would fail there. `config.production.toml` overrides `[build] hooks.pre = []` and sets `base_url = "https://weapons.hahwul.com"`. Pre-generated markdown / JSON / data files from the runner are reused by the in-Docker build.
+
+The canonical hostname is declared in `static/CNAME` so GitHub Pages serves `weapons.hahwul.com` after the first deploy to `gh-pages`. Repo settings must point Pages at the `gh-pages` branch; the DNS record (`weapons` CNAME → `hahwul.github.io`) lives outside this repo.
+
 Templates:
 - `home.html` — homepage card grid, iterates `site.data.weapons` (array loaded from `data/weapons.json`).
 - `weapons.html` — full list with filter dropdowns, same data source.

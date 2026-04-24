@@ -1,0 +1,9 @@
+# Production overrides merged on top of config.toml when built with `-e production`.
+# Disables the Crystal pre-build hook — in CI we pre-generate content/weapons/*.md,
+# data/weapons.json, and static/api/** on the runner before invoking hwaro, and the
+# Docker image the hwaro deploy action runs in has no Crystal toolchain.
+
+base_url = "https://weapons.hahwul.com"
+
+[build]
+hooks.pre = []

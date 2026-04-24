@@ -1,0 +1,102 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [main, v2]
+    paths:
+      - "web/**"
+      - "weapons/**"
+      - ".github/workflows/deploy.yml"
+  pull_request:
+    paths:
+      - "web/**"
+      - "weapons/**"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# The hwaro deploy action runs inside the `ghcr.io/hahwul/hwaro` Debian image,
+# which ships only the `hwaro` binary — no Crystal toolchain. Our site relies
+# on a Crystal pre-build hook (`scripts/generate.cr`) to produce per-weapon
+# markdown + the JSON API, so we run that on the runner first, then build with
+# `-e production` which loads `web/config.production.toml` and disables the
+# hook in-Docker.
+
+jobs:
+  build:
+    name: Build (dry-run)
+    if: github.ref != 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Crystal
+        uses: crystal-lang/install-crystal@v1
+        with:
+          crystal: latest
+
+      - name: Cache shards
+        uses: actions/cache@v4
+        with:
+          path: web/lib
+          key: ${{ runner.os }}-shards-${{ hashFiles('web/shard.lock') }}
+          restore-keys: ${{ runner.os }}-shards-
+
+      - name: Install shards
+        working-directory: web
+        run: shards install
+
+      - name: Validate weapons data
+        working-directory: web
+        run: crystal run scripts/validate.cr
+
+      - name: Pre-generate site artifacts
+        working-directory: web
+        run: crystal run scripts/generate.cr
+
+      - name: Build site (no deploy)
+        uses: hahwul/hwaro@main
+        with:
+          build_dir: web
+          build_flags: -e production
+          build_only: true
+
+  deploy:
+    name: Build & deploy to Pages
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Crystal
+        uses: crystal-lang/install-crystal@v1
+        with:
+          crystal: latest
+
+      - name: Cache shards
+        uses: actions/cache@v4
+        with:
+          path: web/lib
+          key: ${{ runner.os }}-shards-${{ hashFiles('web/shard.lock') }}
+          restore-keys: ${{ runner.os }}-shards-
+
+      - name: Install shards
+        working-directory: web
+        run: shards install
+
+      - name: Validate weapons data
+        working-directory: web
+        run: crystal run scripts/validate.cr
+
+      - name: Pre-generate site artifacts
+        working-directory: web
+        run: crystal run scripts/generate.cr
+
+      - name: Build & deploy
+        uses: hahwul/hwaro@main
+        with:
+          build_dir: web
+          build_flags: -e production
+          token: ${{ secrets.GITHUB_TOKEN }}
