@@ -7,14 +7,16 @@ on:
       - "weapons/**"
       - "web/shard.yml"
       - "web/shard.lock"
-      - "web/scripts/validate.cr"
+      - "web/scripts/**"
+      - "web/spec/**"
       - ".github/workflows/validate.yml"
   pull_request:
     paths:
       - "weapons/**"
       - "web/shard.yml"
       - "web/shard.lock"
-      - "web/scripts/validate.cr"
+      - "web/scripts/**"
+      - "web/spec/**"
       - ".github/workflows/validate.yml"
 
 jobs:
@@ -41,6 +43,10 @@ jobs:
         working-directory: web
         run: shards install
 
-      - name: Run validator
+      - name: Run spec suite
+        working-directory: web
+        run: crystal spec
+
+      - name: Run validator against real weapons data
         working-directory: web
         run: crystal run scripts/validate.cr

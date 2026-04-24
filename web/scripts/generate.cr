@@ -14,8 +14,11 @@ require "./schema"
 
 include Weapons::Schema
 
-WEB_ROOT    = Path[__DIR__].parent.expand.to_s            # .../web
-DATA_DIR    = Path[WEB_ROOT, "..", "weapons"].expand.to_s # .../weapons
+# The defaults target the production layout (web/ next to weapons/). Specs
+# override both so they can run against a tmp fixture without touching the
+# checked-in data or generated artifacts.
+WEB_ROOT = ENV["WHW_WEB_ROOT"]? || Path[__DIR__].parent.expand.to_s
+DATA_DIR = ENV["WHW_DATA_DIR"]? || Path[WEB_ROOT, "..", "weapons"].expand.to_s
 CONTENT_DIR = File.join(WEB_ROOT, "content", "weapons")
 API_DIR     = File.join(WEB_ROOT, "static", "api")
 API_TOOLS   = File.join(API_DIR, "weapons")

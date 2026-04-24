@@ -27,8 +27,9 @@ require "./schema"
 
 include Weapons::Schema
 
-WEB_ROOT = Path[__DIR__].parent.expand.to_s
-DATA_DIR = Path[WEB_ROOT, "..", "weapons"].expand.to_s
+# Specs override `WHW_DATA_DIR` to point at a per-test fixture dir.
+WEB_ROOT = ENV["WHW_WEB_ROOT"]? || Path[__DIR__].parent.expand.to_s
+DATA_DIR = ENV["WHW_DATA_DIR"]? || Path[WEB_ROOT, "..", "weapons"].expand.to_s
 
 class Finding
   enum Severity
