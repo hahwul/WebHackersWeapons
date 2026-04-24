@@ -1,0 +1,46 @@
+name: Validate weapons
+
+on:
+  push:
+    branches: [main, v2]
+    paths:
+      - "weapons/**"
+      - "web/shard.yml"
+      - "web/shard.lock"
+      - "web/scripts/validate.cr"
+      - ".github/workflows/validate.yml"
+  pull_request:
+    paths:
+      - "weapons/**"
+      - "web/shard.yml"
+      - "web/shard.lock"
+      - "web/scripts/validate.cr"
+      - ".github/workflows/validate.yml"
+
+jobs:
+  validate:
+    name: Validate weapon TOML files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Crystal
+        uses: crystal-lang/install-crystal@v1
+        with:
+          crystal: latest
+
+      - name: Cache shards
+        uses: actions/cache@v4
+        with:
+          path: web/lib
+          key: ${{ runner.os }}-shards-${{ hashFiles('web/shard.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-shards-
+
+      - name: Install shards
+        working-directory: web
+        run: shards install
+
+      - name: Run validator
+        working-directory: web
+        run: crystal run scripts/validate.cr

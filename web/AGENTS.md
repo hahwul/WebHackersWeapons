@@ -66,6 +66,23 @@ This site renders the WebHackersWeapons catalog. `data/weapons.json`, `content/w
 
 The generator depends on the `toml` shard (declared in `web/shard.yml`). Run `shards install` once from `web/` before the first build; `shard.lock` pins versions.
 
+## Validation
+
+`scripts/validate.cr` checks every file in `../weapons/` against the canonical schema. Run from `web/`:
+
+```
+crystal run scripts/validate.cr            # text output
+crystal run scripts/validate.cr -- --json  # machine-readable
+```
+
+Exits 1 on any error (warnings don't fail). Enforced rules:
+
+- required: `name` (non-empty string), `url` (starts with `http://` or `https://`), `category` ∈ `{tool, tool-addon, browser-addon}`
+- optional (validated if present): `type` ∈ `{Utils, Recon, Scanner, Fuzzer, Exploit, Proxy, Army-Knife, Env}`, `platform` ⊂ `{linux, macos, windows, firefox, chrome, safari, burpsuite, zap, caido}`, `tags` is an array of strings
+- derived: slug (`slugify(name)`) is unique across all files
+
+`lang` missing/empty is a warning only (many browser-extensions/services have no language). The `.github/workflows/validate.yml` workflow runs the validator on every PR and push touching `weapons/**`.
+
 Templates:
 - `home.html` — homepage card grid, iterates `site.data.weapons` (array loaded from `data/weapons.json`).
 - `weapons.html` — full list with filter dropdowns, same data source.

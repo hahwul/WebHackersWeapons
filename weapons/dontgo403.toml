@@ -5,4 +5,4 @@ category = "tool"
 type = "Scanner"
 platform = ["linux", "macos", "windows"]
 lang = "Go"
-tags = [403]
+tags = ["403"]
