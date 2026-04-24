@@ -1,0 +1,13 @@
+name: weapons
+version: 0.1.0
+
+authors:
+  - HAHWUL <hahwul@gmail.com>
+
+targets:
+  cli:
+    main: src/cli.cr
+
+crystal: '>= 1.20.0'
+
+license: MIT
