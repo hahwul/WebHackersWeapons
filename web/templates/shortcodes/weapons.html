@@ -1,0 +1,22 @@
+{%- set ordered = [_0 | default(value=""), _1 | default(value=""), _2 | default(value=""), _3 | default(value=""), _4 | default(value=""), _5 | default(value=""), _6 | default(value=""), _7 | default(value=""), _8 | default(value=""), _9 | default(value=""), _10 | default(value=""), _11 | default(value=""), _12 | default(value=""), _13 | default(value=""), _14 | default(value=""), _15 | default(value="")] -%}
+<div class="card-grid collection-grid">
+  {% for slug in ordered %}
+    {% if slug %}
+      {% for w in site.data.weapons %}
+        {% if w.slug == slug %}
+        <a class="card" href="{{ base_url }}/weapons/{{ w.slug }}/">
+          <div class="card-head">
+            <h3 class="card-title">{{ w.name }}</h3>
+            {% if w.lang %}<span class="lang-badge">{{ w.lang }}</span>{% endif %}
+          </div>
+          {% if w.description %}<p class="card-desc">{{ w.description | truncate(length=140) }}</p>{% endif %}
+          <div class="card-meta">
+            {% if w.type %}<span class="pill pill-type">{{ w.type }}</span>{% endif %}
+            {% for t in w.tags %}<span class="pill pill-tag">#{{ t }}</span>{% endfor %}
+          </div>
+        </a>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>

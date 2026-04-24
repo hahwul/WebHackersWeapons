@@ -73,3 +73,17 @@ Templates:
 - `taxonomy.html` / `taxonomy_term.html` — tag index and per-tag card grids using `site.taxonomies[taxonomy_name].items`.
 
 `data/weapons/` must not be a symlink — Crystal's `Dir.glob` does not follow symlinks, so `site.data.weapons` stays empty. The generator writes a plain `data/weapons.json` instead.
+
+## Collections
+
+Curated pages under `content/collections/` group existing weapons into workflow-specific bundles. They use the `weapons` shortcode in `templates/shortcodes/weapons.html`:
+
+```markdown
+{{ weapons("burpsuite", "zap", "caido") }}
+```
+
+Each arg is a slug (lowercase dash-joined weapon name = the URL segment under `/weapons/<slug>/`). Up to 16 positional slots per call; split across multiple shortcode calls for longer lists. Ordering is preserved. Unknown slugs are silently skipped.
+
+Why positional args and not a single array? Hwaro's shortcode parser (`SHORTCODE_ARGS_REGEX`) only accepts scalar String kwargs, and Crinja has no `split` filter — so an array-kwarg or comma-joined string would lose ordering. Positional args arrive as `_0, _1, _2 ...` which keeps intent and order intact.
+
+Note on HTML validity: shortcodes expand to a placeholder **before** Markdown runs, and Markdown wraps any placeholder that sits on its own line in `<p>…</p>`. The resulting `<p><div class="card-grid">…</div></p>` is technically invalid HTML but renders correctly in every browser (the `<div>` implicitly closes the `<p>`). No workaround inside hwaro 0.12.1 without modifying the upstream shortcode processor.

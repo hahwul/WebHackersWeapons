@@ -1,0 +1,23 @@
+{% include "header.html" %}
+<main class="home">
+  <section class="hero hero-compact">
+    <h1>{{ page.title | e }}</h1>
+    {% if page.description %}<p class="hero-sub">{{ page.description }}</p>{% endif %}
+  </section>
+
+  <section class="weapons-section">
+    <article class="prose">{{ content }}</article>
+
+    <div class="card-grid collection-grid">
+      {% for p in section.pages %}
+      <a class="card" href="{{ p.url }}">
+        <div class="card-head">
+          <h3 class="card-title">{{ p.title }}</h3>
+        </div>
+        {% if p.description %}<p class="card-desc">{{ p.description }}</p>{% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+</main>
+{% include "footer.html" %}
