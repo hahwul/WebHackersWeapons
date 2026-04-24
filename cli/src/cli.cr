@@ -21,7 +21,7 @@ require "uri"
 
 module Weapons
   VERSION         = "0.1.0"
-  DEFAULT_API_URL = "https://www.hahwul.com/WebHackersWeapons/api/weapons.json"
+  DEFAULT_API_URL = "https://weapons.hahwul.com/api/weapons.json"
   CACHE_TTL       = 24.hours
   USER_AGENT      = "weapons-cli/#{VERSION} (+https://github.com/hahwul/WebHackersWeapons)"
 

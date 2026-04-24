@@ -47,7 +47,7 @@ weapons info dalfox --json | jq '.url'
 
 ## Data source
 
-By default the CLI fetches `https://www.hahwul.com/WebHackersWeapons/api/weapons.json` and caches the response at `~/.cache/weapons/weapons.json` for 24 hours. Override:
+By default the CLI fetches `https://weapons.hahwul.com/api/weapons.json` and caches the response at `~/.cache/weapons/weapons.json` for 24 hours. Override:
 
 - `--api-url <URL>` or `WEAPONS_API_URL=<URL>`
 - `--data <path>` — read a local JSON file (skips HTTP + cache)
