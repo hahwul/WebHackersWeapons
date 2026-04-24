@@ -10,6 +10,9 @@
 require "toml"
 require "json"
 require "file_utils"
+require "./schema"
+
+include Weapons::Schema
 
 WEB_ROOT    = Path[__DIR__].parent.expand.to_s            # .../web
 DATA_DIR    = Path[WEB_ROOT, "..", "weapons"].expand.to_s # .../weapons
@@ -28,24 +31,6 @@ Dir.glob(File.join(CONTENT_DIR, "*.md")).each do |f|
   File.delete(f)
 end
 Dir.glob(File.join(API_TOOLS, "*.json")).each { |f| File.delete(f) }
-
-def slugify(name : String) : String
-  name.downcase.gsub(/[^a-z0-9]+/, "-").gsub(/(^-|-$)/, "")
-end
-
-# TOML front-matter escape for the markdown files we emit. Single-line basic
-# strings require escaping backslash and double-quote and forbid raw newlines.
-def toml_escape(str : String) : String
-  str
-    .gsub("\\", "\\\\")
-    .gsub("\"", "\\\"")
-    .gsub(/[\r\n\t]/, " ")
-    .strip
-end
-
-def toml_array(arr : Array(String)) : String
-  "[" + arr.map { |v| %("#{toml_escape(v)}") }.join(", ") + "]"
-end
 
 # A weapon, in canonical form. Field order matches JSON output.
 struct Weapon
@@ -74,7 +59,12 @@ struct Weapon
     url = url_list(raw["url"]?)
     source = raw["source"]?.try(&.as_s?).try(&.strip)
     source = nil if source.try(&.empty?)
-    category = raw["category"]?.try(&.as_s?) || "tool"
+    # `category` is required — no silent default. Validator catches the
+    # schema violation with a nicer message; we fail fast so a broken
+    # local build can't quietly publish invalid data.
+    category = raw["category"]?.try(&.as_s?)
+    raise "#{name}: missing or invalid `category`" if category.nil? || category.empty?
+    raise "#{name}: `category` '#{category}' not in #{CATEGORIES.to_a.sort}" unless CATEGORIES.includes?(category)
     type = raw["type"]?.try(&.as_s?) || ""
     lang = raw["lang"]?.try(&.as_s?) || ""
     platform = string_array(raw["platform"]?)
@@ -129,7 +119,12 @@ Dir.glob(File.join(DATA_DIR, "*.toml")).sort.each do |path|
     next
   end
 
-  weapon = Weapon.from_toml(raw)
+  weapon = begin
+    Weapon.from_toml(raw)
+  rescue ex
+    STDERR.puts "error: #{File.basename(path)}: #{ex.message}"
+    exit 1
+  end
   next unless weapon
 
   if prior = seen_slugs[weapon.slug]?

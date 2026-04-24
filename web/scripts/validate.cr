@@ -23,13 +23,12 @@
 
 require "toml"
 require "json"
+require "./schema"
+
+include Weapons::Schema
 
 WEB_ROOT = Path[__DIR__].parent.expand.to_s
 DATA_DIR = Path[WEB_ROOT, "..", "weapons"].expand.to_s
-
-CATEGORIES = Set{"tool", "tool-addon", "browser-addon"}
-TYPES      = Set{"Utils", "Recon", "Scanner", "Fuzzer", "Exploit", "Proxy", "Army-Knife", "Env"}
-PLATFORMS  = Set{"linux", "macos", "windows", "firefox", "chrome", "safari", "burpsuite", "zap", "caido"}
 
 class Finding
   enum Severity
@@ -51,10 +50,6 @@ class Finding
 end
 
 findings = [] of Finding
-
-def slugify(name : String) : String
-  name.downcase.gsub(/[^a-z0-9]+/, "-").gsub(/(^-|-$)/, "")
-end
 
 def err(findings, file, msg)
   findings << Finding.new(Finding::Severity::Error, file, msg)

@@ -75,6 +75,8 @@ crystal run scripts/validate.cr            # text output
 crystal run scripts/validate.cr -- --json  # machine-readable
 ```
 
+The canonical value sets (`CATEGORIES`, `TYPES`, `PLATFORMS`) plus `slugify` and TOML-escape helpers live in `scripts/schema.cr` and are shared by both `validate.cr` and `generate.cr` to prevent drift. If you need to add a new platform or category, update that one module.
+
 Exits 1 on any error (warnings don't fail). Enforced rules:
 
 - required: `name` (non-empty string), `category` ∈ `{tool, tool-addon, browser-addon}`, at least one of `url` or `source`
