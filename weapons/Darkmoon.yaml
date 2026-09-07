@@ -1,0 +1,9 @@
+---
+name: Darkmoon
+description: Autonomous AI penetration testing platform with agentic reasoning and real exploit execution across web, cloud, identity, CI/CD, Active Directory and Kubernetes
+url: https://github.com/ASCIT31/Dark-Moon
+category: tool
+type: Army-Knife
+platform: [linux, macos, windows]
+lang: Python
+tags: [pentest, exploit, recon, cloud, report]
