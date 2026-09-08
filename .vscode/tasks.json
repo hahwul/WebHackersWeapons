@@ -1,0 +1,65 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "WHW: lint YAML",
+            "type": "shell",
+            "command": "python -m yamllint -c .yamllint.yml weapons",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "WHW: validate weapons",
+            "type": "shell",
+            "command": "ruby ./scripts/validate_weapons.rb",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "WHW: generate README",
+            "type": "shell",
+            "command": "ruby ./scripts/erb.rb",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "WHW: restore generated docs",
+            "type": "shell",
+            "command": "git checkout -- README.md categorize",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "build",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "WHW: lint YAML",
+                "WHW: validate weapons"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "WHW: full gate",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "WHW: lint YAML",
+                "WHW: validate weapons",
+                "WHW: generate README",
+                "WHW: restore generated docs"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}

@@ -5,5 +5,5 @@ url: https://github.com/enkomio/Taipan
 category: tool
 type: Scanner
 platform: [linux, macos, windows]
-lang:
+lang: C#
 tags: []

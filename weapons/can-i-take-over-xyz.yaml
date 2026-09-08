@@ -6,5 +6,5 @@ url: https://github.com/EdOverflow/can-i-take-over-xyz
 category: tool
 type: Utils
 platform: [linux, macos, windows]
-lang:
+lang: Python
 tags: []

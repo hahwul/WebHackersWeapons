@@ -130,24 +130,23 @@ weapons_obj = {
     "etc"=> []
 }
 
-Dir.entries("./weapons/").each do | name |
-    if name != '.' && name != '..'
-        begin
-            data = YAML.load(File.open("./weapons/#{name}"))
+Dir.glob("./weapons/*.yaml").sort.each do |path|
+    name = File.basename(path)
+    begin
+        data = YAML.load(File.open(path))
 
-            if data['type'] != "" && data['type'] != nil
-                if weapons_obj[data['type'].downcase] != nil
-                    weapons_obj[data['type'].downcase].push data
-                else
-                    weapons_obj[data['type'].downcase] = []
-                    weapons_obj[data['type'].downcase].push data
-                end
+        if data['type'] != "" && data['type'] != nil
+            if weapons_obj[data['type'].downcase] != nil
+                weapons_obj[data['type'].downcase].push data
             else
-                weapons_obj['etc'].push data
+                weapons_obj[data['type'].downcase] = []
+                weapons_obj[data['type'].downcase].push data
             end
-        rescue => e
-            puts e
+        else
+            weapons_obj['etc'].push data
         end
+    rescue => e
+        puts e
     end
 end
 
