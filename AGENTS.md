@@ -62,6 +62,23 @@ tags: [xss, sqli]  # Vulnerability/feature tags
 3. **Content Validation**: `ruby ./scripts/validate_weapons.rb`
 4. **Manual Check**: Verify your tool appears in the generated README.md
 
+On Windows PowerShell, do not use `yamllint weapons/*.yaml` (glob does not expand). Use:
+
+```
+python -m yamllint -c .yamllint.yml weapons
+ruby ./scripts/validate_weapons.rb
+ruby ./scripts/erb.rb
+git checkout -- README.md categorize
+```
+
+Or: `powershell -File scripts/validate.ps1` then restore generated docs with `git checkout -- README.md categorize` on a PR branch.
+
+If yamllint reports `wrong new line character: expected \n`, refresh the working tree without changing git config:
+
+```
+git -c core.autocrlf=false checkout -- weapons
+```
+
 ## CI/CD Process
 - **Pull Requests**: Automatically run YAML linting via `.github/workflows/yaml-lint.yml`
 - **Main Branch**: Automatically regenerates README.md and categorize/* files via `.github/workflows/cd.yml`
@@ -70,8 +87,8 @@ tags: [xss, sqli]  # Vulnerability/feature tags
 ## Common Validation Issues
 - **"no new line character at the end of file"**: Add a blank line at the end of YAML files
 - **"none-lang" warnings**: Add appropriate `lang:` field for GitHub-hosted tools  
-- **"undefined method length"**: Ensure `tags:` field exists and is an array
-- **"Is a directory" errors**: Normal warnings from validation script reading directory entries
+- **"undefined method length"**: Ensure `tags:` field exists and is an array (`validate_weapons.rb` is nil-safe)
+- **"Is a directory" errors**: Should not appear; the validator only reads `weapons/*.yaml`
 
 ## Error Examples
 ```bash
