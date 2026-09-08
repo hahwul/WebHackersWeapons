@@ -6,5 +6,5 @@ url: https://github.com/PortSwigger/xss-cheatsheet-data
 category: tool
 type: Utils
 platform: [linux, macos, windows]
-lang:
+lang: Txt
 tags: [xss]

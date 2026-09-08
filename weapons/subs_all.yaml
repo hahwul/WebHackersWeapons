@@ -5,5 +5,5 @@ url: https://github.com/emadshanab/subs_all
 category: tool
 type: Recon
 platform: [linux, macos, windows]
-lang:
+lang: Txt
 tags: [subdomains]

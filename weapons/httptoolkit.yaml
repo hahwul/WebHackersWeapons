@@ -6,5 +6,5 @@ url: https://github.com/httptoolkit/httptoolkit
 category: tool
 type: Utils
 platform: [linux, macos, windows]
-lang:
+lang: TypeScript
 tags: []
