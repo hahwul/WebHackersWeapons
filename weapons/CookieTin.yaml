@@ -1,0 +1,11 @@
+---
+name: CookieTin
+description: Cookie manager and editor for Firefox and Chrome that also sees partitioned
+  (CHIPS / Total Cookie Protection) and container cookies; exports cookies.txt for curl
+  and yt-dlp, decodes JWTs. Maintained rewrite of cookie-quick-manager.
+url: https://github.com/Perruer/cookietin
+category: browser-addon
+type: Utils
+platform: [linux, macos, windows, firefox, chrome]
+lang: TypeScript
+tags: [cookie, jwt]
