@@ -1,0 +1,9 @@
+---
+name: jwtlint
+description: Offline JWT security analyzer that flags alg:none, RS/HS confusion, jku/jwk/kid injection, secrets in claims and weak HMAC keys
+url: https://github.com/ReazGan/jwtlint
+category: tool
+type: Scanner
+platform: [linux, macos, windows]
+lang: Python
+tags: [jwt]
