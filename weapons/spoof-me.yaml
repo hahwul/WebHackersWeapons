@@ -1,0 +1,9 @@
+---
+name: Spoof Me
+description: Spoof user agent, language, timezone, screen and hardware signals as one consistent identity, and see which sites fingerprint you.
+url: https://spoof-me.com/
+category: browser-addon
+type: Utils
+platform: [linux, macos, windows, firefox, chrome]
+lang:
+tags: [header, osint]
