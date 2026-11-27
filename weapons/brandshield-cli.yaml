@@ -1,0 +1,9 @@
+---
+name: brandshield-cli
+description: Zero-dependency Node.js CLI and web scanner for IANA RDAP domain reconnaissance, 28-variant DNSTwist typosquatting detection, developer handles, and USPTO trademark lookup
+url: https://github.com/zColdWater/brandshield-cli
+category: tool
+type: Recon
+platform: [linux, macos, windows]
+lang: JavaScript
+tags: [recon, osint, dns]
